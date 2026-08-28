@@ -1,8 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "//framework": "Do not set outputDirectory here. With framework: nextjs, Vercel treats it as Next's distDir and looks for routes-manifest.json inside it; the Next builder already knows that output: 'export' in next.config.mjs lands in out/.",
   "framework": "nextjs",
-  "buildCommand": "next build",
-  "outputDirectory": "out",
 
   "redirects": [
     {
