@@ -31,8 +31,11 @@ export function CorpusRail({ current }: { current: Entry | null }) {
                                                 className="tree__page"
                                                 href={href(page.url)}
                                                 aria-current={page.clause === current!.clause ? "page" : undefined}
+                                                data-entry-link=""
                                             >
-                                                {page.clause} {navTitle(page)}
+                                                <span className="tree__n">{page.clause}</span>{" "}
+                                                {navTitle(page)}
+                                                <span className="u-vh" data-read-flag="" />
                                             </a>
                                         </li>
                                     ))}
@@ -83,7 +86,14 @@ export function PageRail({ entry }: { entry: Entry }) {
                         <dt>read</dt>
                         <dd data-progress-pct="">0%</dd>
                     </dl>
-                    <div className="progress">
+                    <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="How much of this entry you have read"
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                        aria-valuenow={0}
+                    >
                         <div className="progress__fill" data-progress="" />
                     </div>
                     <dl>

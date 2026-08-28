@@ -293,7 +293,13 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .rail {
     position: sticky;
     top: var(--header-h);
-    max-height: calc(100dvh - var(--header-h));
+    /* A fixed height, not max-height: the rule between the rail and the article
+       is this element's own border, so a rail sized to its content leaves the
+       line stopping in mid-air. Filling the viewport runs it edge to edge, and
+       sticky positioning caps it at the frame's bottom so it stops where the
+       colophon starts. */
+    height: calc(100vh - var(--header-h));
+    height: calc(100dvh - var(--header-h));
     overflow-y: auto;
     overscroll-behavior: contain;
     font-family: var(--mono);
@@ -349,6 +355,11 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     padding-left: 12px;
 }
 .tree__page--stub { color: var(--ink-fainter); }
+
+/* An entry you have finished gets its clause number in the accent — quiet, and
+   it reuses a mark the design already means something by. Set from
+   localStorage, so it is a fact about this browser and nothing else. */
+.tree__page[data-read="true"] .tree__n { color: var(--accent); }
 
 .rail__related {
     margin-top: var(--s-6);
@@ -455,11 +466,13 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 .article > * + * { margin-top: 0; }
 
-/* Clause headings — mono, structural, ruled above */
+/* Clause headings — mono, structural, ruled above. The rule is a section
+   break, not an underline: it sits well clear of the heading and is drawn in
+   the softest neutral, so it separates without competing with the type. */
 .clause {
-    margin: var(--s-8) 0 var(--s-3);
-    padding-top: var(--s-3);
-    border-top: 1px solid var(--rule-strong);
+    margin: var(--s-12) 0 var(--s-5);
+    padding-top: var(--s-6);
+    border-top: 1px solid var(--rule-soft);
     font-family: var(--mono);
     font-size: var(--t-struct);
     font-weight: 600;
@@ -812,9 +825,9 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 /* Sources */
 .sources {
     max-width: var(--measure);
-    margin-top: var(--s-6);
-    padding-top: var(--s-3);
-    border-top: 1px solid var(--rule-strong);
+    margin-top: var(--s-10);
+    padding-top: var(--s-5);
+    border-top: 1px solid var(--rule-soft);
     font-family: var(--mono);
     font-size: 0.688rem;
     line-height: 1.9;
@@ -1219,7 +1232,7 @@ mark { background: var(--accent-weak); color: inherit; font-weight: 600; }
     .frame { grid-template-columns: var(--rail-left) minmax(0, 1fr); }
     .rail--page {
         position: static;
-        max-height: none;
+        height: auto;
         grid-column: 2;
         grid-row: 1;
         border-left: 0;
@@ -1272,10 +1285,10 @@ mark { background: var(--accent-weak); color: inherit; font-weight: 600; }
         border-right: 1px solid var(--rule-strong);
         transform: translateX(-102%);
         transition: transform 220ms var(--ease-out);
-        max-height: none;
         height: calc(100dvh - var(--header-h));
     }
     .rail--corpus[data-open="true"] { transform: translateX(0); }
+    .rail--page { height: auto; }
     .rail--page, .article { grid-column: 1; }
     .article { padding: var(--s-6) var(--s-5) var(--s-12); }
     .rail--page { padding: var(--s-4) var(--s-5); }

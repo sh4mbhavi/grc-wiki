@@ -112,57 +112,145 @@
         sync();
     }
 
-    /* --- Clause map + read progress ------------------------------------- */
+    /* --- Clause map ------------------------------------------------------ */
 
     function initContents() {
         var items = $$("[data-toc] li[data-for]").filter(function (li) {
             return li.getAttribute("data-for");
         });
-        var bar = $("[data-progress]");
-        var pct = $("[data-progress-pct]");
-        var article = $("[data-article]");
+        if (!items.length || !("IntersectionObserver" in window)) { return; }
 
         var headings = items
             .map(function (li) { return document.getElementById(li.getAttribute("data-for")); })
             .filter(Boolean);
+        if (!headings.length) { return; }
 
-        if (headings.length && "IntersectionObserver" in window) {
-            var seen = {};
-            var io = new IntersectionObserver(function (entries) {
-                entries.forEach(function (en) { seen[en.target.id] = en.isIntersecting; });
+        var seen = {};
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (en) { seen[en.target.id] = en.isIntersecting; });
 
-                var active = null;
-                for (var i = 0; i < headings.length; i++) {
-                    var h = headings[i];
-                    if (seen[h.id]) { active = h.id; break; }
-                    if (h.getBoundingClientRect().top < 120) { active = h.id; }
-                }
+            var active = null;
+            for (var i = 0; i < headings.length; i++) {
+                var h = headings[i];
+                if (seen[h.id]) { active = h.id; break; }
+                if (h.getBoundingClientRect().top < 120) { active = h.id; }
+            }
 
-                items.forEach(function (li) {
-                    li.setAttribute("data-active", li.getAttribute("data-for") === active ? "true" : "false");
-                });
-            }, { rootMargin: "-46px 0px -70% 0px", threshold: 0 });
+            items.forEach(function (li) {
+                li.setAttribute("data-active", li.getAttribute("data-for") === active ? "true" : "false");
+            });
+        }, { rootMargin: "-46px 0px -70% 0px", threshold: 0 });
 
-            headings.forEach(function (h) { io.observe(h); });
-            teardown.push(function () { io.disconnect(); });
+        headings.forEach(function (h) { io.observe(h); });
+        teardown.push(function () { io.disconnect(); });
+    }
+
+    /* --- Reading position ------------------------------------------------ */
+
+    /* Per-entry high-water mark, 0-100, kept in localStorage. The label says
+       "read", not "position", so it only ever goes up: scrolling back to check
+       something does not un-read the page. Private-mode failures are silent —
+       the meter still works, it just forgets. */
+
+    var READ_KEY = "grc-read";
+    var READ_DONE = 90;   // the pager and sources sit below the last prose
+    var READ_CAP = 400;   // entries remembered, oldest dropped
+
+    function readMap() {
+        try {
+            var raw = JSON.parse(localStorage.getItem(READ_KEY) || "{}");
+            return (raw && typeof raw === "object") ? raw : {};
+        } catch (e) {
+            return {};
+        }
+    }
+
+    function rememberRead(path, value) {
+        try {
+            var map = readMap();
+            if ((map[path] || 0) >= value) { return; }
+            map[path] = value;
+
+            var keys = Object.keys(map);
+            if (keys.length > READ_CAP) {
+                delete map[keys[0]];
+            }
+            localStorage.setItem(READ_KEY, JSON.stringify(map));
+        } catch (e) { /* private mode, or quota */ }
+    }
+
+    function headerHeight() {
+        var raw = getComputedStyle(document.documentElement).getPropertyValue("--header-h");
+        return parseFloat(raw) || 46;
+    }
+
+    function initProgress() {
+        var bar = $("[data-progress]");
+        var article = $("[data-article]");
+        if (!bar || !article) { return; }
+
+        var pct = $("[data-progress-pct]");
+        var meter = bar.parentNode;
+        var path = window.location.pathname;
+        var best = Math.min(100, Math.max(0, readMap()[path] || 0));
+
+        function paint(value) {
+            bar.style.width = value + "%";
+            if (pct) { pct.textContent = value + "%"; }
+            if (meter && meter.setAttribute) { meter.setAttribute("aria-valuenow", value); }
         }
 
-        if (bar && article) {
-            var queued = false;
-            var update = function () {
-                var box = article.getBoundingClientRect();
-                var scrolled = -box.top + window.innerHeight * 0.5;
-                var ratio = Math.max(0, Math.min(1, scrolled / Math.max(1, box.height)));
-                var value = Math.round(ratio * 100);
-                bar.style.width = value + "%";
-                if (pct) { pct.textContent = value + "%"; }
-                queued = false;
-            };
-            on(window, "scroll", function () {
-                if (!queued) { queued = true; requestAnimationFrame(update); }
-            }, { passive: true });
-            update();
+        /* 0 when the article's first line sits under the header, 100 when its
+           last line reaches the bottom of the viewport. An article shorter than
+           the viewport is read as soon as it is on screen. */
+        function measure() {
+            var box = article.getBoundingClientRect();
+            var viewport = window.innerHeight - headerHeight();
+            if (box.height <= viewport) { return 100; }
+            var travelled = headerHeight() - box.top;
+            var distance = box.height - viewport;
+            return Math.max(0, Math.min(100, Math.round((travelled / distance) * 100)));
         }
+
+        var queued = false;
+        function update() {
+            queued = false;
+            var value = measure();
+            if (value > best) {
+                best = value;
+                rememberRead(path, best);
+            }
+            paint(best);
+        }
+
+        function schedule() {
+            if (!queued) {
+                queued = true;
+                requestAnimationFrame(update);
+            }
+        }
+
+        on(window, "scroll", schedule, { passive: true });
+        on(window, "resize", schedule);
+        paint(best);
+        update();
+    }
+
+    /* An entry you have finished gets its clause number in the accent colour,
+       in the corpus rail and anywhere else entries are listed. Quiet, and it
+       reuses a mark the design already means something by. */
+    function markRead() {
+        var links = $$("[data-entry-link]");
+        if (!links.length) { return; }
+
+        var map = readMap();
+        links.forEach(function (link) {
+            var href = link.getAttribute("href") || "";
+            var done = (map[href] || 0) >= READ_DONE;
+            link.setAttribute("data-read", done ? "true" : "false");
+            var flag = $("[data-read-flag]", link);
+            if (flag) { flag.textContent = done ? " (read)" : ""; }
+        });
     }
 
     /* --- Search --------------------------------------------------------- */
@@ -411,6 +499,8 @@
         initDisclosure();
         initDrawer();
         initContents();
+        initProgress();
+        markRead();
         initIndexFilters();
         initSearch();
     }

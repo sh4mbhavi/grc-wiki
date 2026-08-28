@@ -373,8 +373,9 @@ def corpus_rail(site: Site, current: Entry | None) -> str:
             for page in pages:
                 aria = ' aria-current="page"' if current is not None and page.clause == current.clause else ""
                 out.append(
-                    f'<li><a class="tree__page" href="{e(site.url(page.url))}"{aria}>'
-                    f"{e(page.clause)} {e(page.nav_title)}</a></li>"
+                    f'<li><a class="tree__page" href="{e(site.url(page.url))}"{aria} data-entry-link>'
+                    f'<span class="tree__n">{e(page.clause)}</span> {e(page.nav_title)}'
+                    f'<span class="u-vh" data-read-flag></span></a></li>'
                 )
             out.append("</ul>")
         out.append("</li>")
@@ -434,7 +435,8 @@ def page_rail(site: Site, entry: Entry) -> str:
 <ul class="toc" data-toc>{''.join(items)}</ul>
 <div class="rail__block">
 <dl><dt>read</dt><dd data-progress-pct>0%</dd></dl>
-<div class="progress"><div class="progress__fill" data-progress></div></div>
+<div class="progress" role="progressbar" aria-label="How much of this entry you have read"
+     aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress__fill" data-progress></div></div>
 <dl>
 <dt>figures</dt><dd>{e(entry.figure_count)}</dd>
 <dt>sources</dt><dd>{e(len(entry.sources))}</dd>
