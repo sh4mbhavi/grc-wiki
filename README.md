@@ -153,6 +153,20 @@ Why Vercel over GitHub Pages, for this site specifically:
 
 Vercel's Hobby plan is non-commercial, so a client site needs **Pro**.
 
+Two things about `next/vercel.json` worth knowing before editing it:
+
+- **No comments.** Vercel validates it with `additionalProperties: false` at
+  every level, so a `"//"` key fails the deploy *after* a successful build.
+  `make check` now catches unknown keys offline.
+- **Never set `outputDirectory` alongside `framework: "nextjs"`.** Vercel reads
+  it as Next's `distDir` and goes looking for `routes-manifest.json` inside it;
+  with `output: "export"` that file is in `.next/` and the build packages fail.
+  The Next builder already knows the export lands in `out/`.
+
+The `redirects` array is the reason this is on Vercel. When a clause is
+renumbered, add its old path there with `"permanent": true` and the link equity
+follows it. Do not prune that block.
+
 Two values in `content/site.yml` control every URL the build emits — canonical
 tags, Open Graph, the sitemap, the search index and every internal link:
 

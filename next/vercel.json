@@ -1,20 +1,11 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "//framework": "Do not set outputDirectory here. With framework: nextjs, Vercel treats it as Next's distDir and looks for routes-manifest.json inside it; the Next builder already knows that output: 'export' in next.config.mjs lands in out/.",
   "framework": "nextjs",
-
   "redirects": [
-    {
-      "//": "Clause numbers move as the corpus fills out, and every entry has ~8 deep-linkable anchors. Redirects are the reason this is on Vercel rather than Pages: when an entry is renumbered, add its old path here with permanent:true and the link equity follows it. Keep them, do not prune.",
-      "source": "/index.html",
-      "destination": "/",
-      "permanent": true
-    }
+    { "source": "/index.html", "destination": "/", "permanent": true }
   ],
-
   "headers": [
     {
-      "//": "grc.css and grc.js are unhashed, so they cannot be immutable. An hour is long enough to help and short enough that a design fix lands the same day.",
       "source": "/assets/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }
@@ -32,7 +23,7 @@
         { "key": "X-Content-Type-Options", "value": "nosniff" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
         { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()" }
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
       ]
     }
   ]

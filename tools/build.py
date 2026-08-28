@@ -84,6 +84,44 @@ again. The index lists every entry currently published.</p>
 """
 
 
+# vercel.json is schema-validated on Vercel's side with additionalProperties
+# false at every level, so an unknown key — including a "//" comment — fails the
+# deploy after a successful build. Checked here so it fails on a laptop instead.
+VERCEL_TOP = {
+    "$schema", "alias", "build", "buildCommand", "builds", "cleanUrls", "crons",
+    "devCommand", "env", "framework", "functions", "git", "github", "headers",
+    "ignoreCommand", "images", "installCommand", "name", "outputDirectory",
+    "redirects", "regions", "rewrites", "routes", "trailingSlash", "version",
+}
+VERCEL_REDIRECT = {"source", "destination", "permanent", "statusCode", "has", "missing"}
+VERCEL_HEADER = {"source", "headers", "has", "missing"}
+
+
+def check_vercel(path: Path) -> list[str]:
+    if not path.exists():
+        return []
+    try:
+        cfg = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        return [f"{path.name}: not valid JSON — {exc}"]
+
+    problems = [f"{path.name}: unknown key {k!r}" for k in sorted(set(cfg) - VERCEL_TOP)]
+    for rule in cfg.get("redirects", []):
+        problems += [f"{path.name}: unknown key {k!r} in a redirect" for k in sorted(set(rule) - VERCEL_REDIRECT)]
+    for rule in cfg.get("headers", []):
+        problems += [f"{path.name}: unknown key {k!r} in a header rule" for k in sorted(set(rule) - VERCEL_HEADER)]
+
+    # framework: nextjs makes Vercel read outputDirectory as Next's distDir and
+    # look for routes-manifest.json inside it. With output: "export" that file
+    # is in .next/ and the deploy fails after a successful build.
+    if cfg.get("framework") == "nextjs" and cfg.get("outputDirectory"):
+        problems.append(
+            f"{path.name}: outputDirectory must not be set alongside framework 'nextjs' — "
+            "Vercel reads it as distDir and will not find routes-manifest.json"
+        )
+    return problems
+
+
 def write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
@@ -122,6 +160,13 @@ def build(*, bundle: bool, check: bool) -> int:
 
     for problem in problems:
         print(f"  note  {problem}", file=sys.stderr)
+
+    # Deploy config is a build-time correctness question, not a note.
+    config_errors = check_vercel(NEXT / "vercel.json")
+    for error in config_errors:
+        print(f"  error {error}", file=sys.stderr)
+    if config_errors:
+        raise ContentError(f"{len(config_errors)} deploy-config problem(s) — see above")
 
     if check:
         print(f"parsed {len(site.entries)} entries, {len(problems)} dangling references")
