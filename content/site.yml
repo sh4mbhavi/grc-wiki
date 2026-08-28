@@ -6,10 +6,13 @@ site:
   short_name: GRC Reference
   # Change to the real hostname before launch. Used for canonicals, sitemap,
   # Open Graph and JSON-LD — a wrong value here quietly breaks all four.
-  origin: https://sh4mbhavi.github.io
-  # Sub-path when hosted under a repo on GitHub Pages. Set to "/" for a root
-  # domain (reference.grcmastery.com) or a Vercel deployment.
-  base_path: /grc-wiki/
+  # The live hostname. Canonicals, Open Graph, the sitemap and the JSON-LD all
+  # derive from it, so a wrong value here quietly breaks all four. Change this
+  # one line when the custom domain is attached.
+  origin: https://grc-wiki.vercel.app
+  # "/" for a root domain or a Vercel deployment; "/repo/" only when serving
+  # from a project-scoped GitHub Pages URL.
+  base_path: /
   locale: en-GB
   description: >-
     A plain-language reference for governance, risk and compliance:

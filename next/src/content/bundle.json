@@ -3,8 +3,8 @@
   "site": {
    "name": "GRC Reference",
    "short_name": "GRC Reference",
-   "origin": "https://sh4mbhavi.github.io",
-   "base_path": "/grc-wiki/",
+   "origin": "https://grc-wiki.vercel.app",
+   "base_path": "/",
    "locale": "en-GB",
    "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
    "entries_planned": 212,
@@ -117,8 +117,8 @@
  "ld": [
   {
    "@type": "WebSite",
-   "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-   "url": "https://sh4mbhavi.github.io/grc-wiki/",
+   "@id": "https://grc-wiki.vercel.app/#website",
+   "url": "https://grc-wiki.vercel.app/",
    "name": "GRC Reference",
    "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
    "inLanguage": "en-GB",
@@ -131,7 +131,7 @@
     "@type": "SearchAction",
     "target": {
      "@type": "EntryPoint",
-     "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+     "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
     },
     "query-input": "required name=search_term_string"
    }
@@ -140,8 +140,8 @@
  "index_ld": [
   {
    "@type": "WebSite",
-   "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-   "url": "https://sh4mbhavi.github.io/grc-wiki/",
+   "@id": "https://grc-wiki.vercel.app/#website",
+   "url": "https://grc-wiki.vercel.app/",
    "name": "GRC Reference",
    "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
    "inLanguage": "en-GB",
@@ -154,16 +154,16 @@
     "@type": "SearchAction",
     "target": {
      "@type": "EntryPoint",
-     "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+     "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
     },
     "query-input": "required name=search_term_string"
    }
   },
   {
    "@type": "DefinedTermSet",
-   "@id": "https://sh4mbhavi.github.io/grc-wiki/a-z/#termset",
+   "@id": "https://grc-wiki.vercel.app/a-z/#termset",
    "name": "GRC Reference — index of terms",
-   "url": "https://sh4mbhavi.github.io/grc-wiki/a-z/",
+   "url": "https://grc-wiki.vercel.app/a-z/",
    "description": "Every term in the GRC Reference, alphabetically, with the clause it belongs to.",
    "publisher": {
     "@type": "Organization",
@@ -174,482 +174,482 @@
     {
      "@type": "DefinedTerm",
      "name": "Accept, risk treatment",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/"
+     "url": "https://grc-wiki.vercel.app/risk/risk-treatment/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Access review",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/"
+     "url": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Accountability, delegated",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/board-reporting/"
+     "url": "https://grc-wiki.vercel.app/governance/board-reporting/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Annex A (ISO 27001)",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/"
+     "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Appetite, risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/appetite-vs-tolerance/"
+     "url": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Artefacts, the four",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/four-artefacts/"
+     "url": "https://grc-wiki.vercel.app/foundations/four-artefacts/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Attestation",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/"
+     "url": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Audit committee",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/board-reporting/"
+     "url": "https://grc-wiki.vercel.app/governance/board-reporting/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Audit response",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Audit trail",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Audit, internal",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/grc-vs-internal-audit/"
+     "url": "https://grc-wiki.vercel.app/foundations/grc-vs-internal-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Authority, delegated",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/committees-and-delegated-authority/"
+     "url": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Avoid, risk treatment",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/"
+     "url": "https://grc-wiki.vercel.app/risk/risk-treatment/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Board reporting",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/board-reporting/"
+     "url": "https://grc-wiki.vercel.app/governance/board-reporting/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Breaking into GRC",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/career/breaking-into-grc/"
+     "url": "https://grc-wiki.vercel.app/career/breaking-into-grc/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Capacity, risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-capacity/"
+     "url": "https://grc-wiki.vercel.app/risk/risk-capacity/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Career path, GRC",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/career/grc-roles/"
+     "url": "https://grc-wiki.vercel.app/career/grc-roles/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Certification body",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/"
+     "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Committee, risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/committees-and-delegated-authority/"
+     "url": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Committee, terms of reference",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/committees-and-delegated-authority/"
+     "url": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Compliance",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/what-compliance-produces/"
+     "url": "https://grc-wiki.vercel.app/compliance/what-compliance-produces/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Control",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/mapping-obligations-to-controls/"
+     "url": "https://grc-wiki.vercel.app/compliance/mapping-obligations-to-controls/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Control inventory",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/four-artefacts/"
+     "url": "https://grc-wiki.vercel.app/foundations/four-artefacts/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Control owner",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/mapping-obligations-to-controls/"
+     "url": "https://grc-wiki.vercel.app/compliance/mapping-obligations-to-controls/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Control testing",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/"
+     "url": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Corrective action",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "COSO ERM",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/"
+     "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Criteria, Trust Services",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/"
+     "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Crosswalk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/building-a-crosswalk/"
+     "url": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Crosswalk, control",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/building-a-crosswalk/"
+     "url": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Delegated authority matrix",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/board-reporting/"
+     "url": "https://grc-wiki.vercel.app/governance/board-reporting/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Design effectiveness",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/"
+     "url": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Evidence",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/"
+     "url": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Exception log",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/what-the-risk-function-produces/"
+     "url": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Exclusion, Annex A",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/"
+     "url": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Exit criteria, audit",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Fieldwork, audit",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Findings, audit",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "First line",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/three-lines-model/"
+     "url": "https://grc-wiki.vercel.app/foundations/three-lines-model/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Framework",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/"
+     "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Framework, kinds of",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/"
+     "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Governance",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/what-governance-produces/"
+     "url": "https://grc-wiki.vercel.app/governance/what-governance-produces/"
     },
     {
      "@type": "DefinedTerm",
      "name": "GRC",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/what-grc-is/"
+     "url": "https://grc-wiki.vercel.app/foundations/what-grc-is/"
     },
     {
      "@type": "DefinedTerm",
      "name": "GRC analyst",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/career/breaking-into-grc/"
+     "url": "https://grc-wiki.vercel.app/career/breaking-into-grc/"
     },
     {
      "@type": "DefinedTerm",
      "name": "GRC vs cyber security",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/who-does-grc-work/"
+     "url": "https://grc-wiki.vercel.app/foundations/who-does-grc-work/"
     },
     {
      "@type": "DefinedTerm",
      "name": "GRC vs internal audit",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/grc-vs-internal-audit/"
+     "url": "https://grc-wiki.vercel.app/foundations/grc-vs-internal-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Impact scale",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+     "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Inherent risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+     "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Internal audit",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/grc-vs-internal-audit/"
+     "url": "https://grc-wiki.vercel.app/foundations/grc-vs-internal-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Interview questions, GRC",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/career/interview-questions/"
+     "url": "https://grc-wiki.vercel.app/career/interview-questions/"
     },
     {
      "@type": "DefinedTerm",
      "name": "ISMS",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/"
+     "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
     },
     {
      "@type": "DefinedTerm",
      "name": "ISO 31000",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/what-the-risk-function-produces/"
+     "url": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/"
     },
     {
      "@type": "DefinedTerm",
      "name": "ISO/IEC 27001",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/"
+     "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Issue log",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/what-the-risk-function-produces/"
+     "url": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Least privilege",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/mapping-obligations-to-controls/"
+     "url": "https://grc-wiki.vercel.app/compliance/mapping-obligations-to-controls/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Likelihood scale",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+     "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Lines model, three",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/three-lines-model/"
+     "url": "https://grc-wiki.vercel.app/foundations/three-lines-model/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Management review",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/"
+     "url": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Mapping, obligation to control",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/mapping-obligations-to-controls/"
+     "url": "https://grc-wiki.vercel.app/compliance/mapping-obligations-to-controls/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Mitigate, risk treatment",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/"
+     "url": "https://grc-wiki.vercel.app/risk/risk-treatment/"
     },
     {
      "@type": "DefinedTerm",
      "name": "NIST CSF 2.0",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/"
+     "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Nonconformity",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Numbering, clause",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/how-to-use-this-reference/"
+     "url": "https://grc-wiki.vercel.app/foundations/how-to-use-this-reference/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Obligation register",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/mapping-obligations-to-controls/"
+     "url": "https://grc-wiki.vercel.app/compliance/mapping-obligations-to-controls/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Operating effectiveness",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/"
+     "url": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Owner, risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+     "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Policy",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/policy-hierarchy/"
+     "url": "https://grc-wiki.vercel.app/governance/policy-hierarchy/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Policy hierarchy",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/policy-hierarchy/"
+     "url": "https://grc-wiki.vercel.app/governance/policy-hierarchy/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Procedure",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/policy-hierarchy/"
+     "url": "https://grc-wiki.vercel.app/governance/policy-hierarchy/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Register, risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+     "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Residual risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+     "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Review date",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+     "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/what-the-risk-function-produces/"
+     "url": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Risk appetite statement",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/appetite-vs-tolerance/"
+     "url": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Risk matrix",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/what-grc-is/"
+     "url": "https://grc-wiki.vercel.app/foundations/what-grc-is/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Risk treatment",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/"
+     "url": "https://grc-wiki.vercel.app/risk/risk-treatment/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Roles, GRC",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/career/grc-roles/"
+     "url": "https://grc-wiki.vercel.app/career/grc-roles/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Sampling",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Scale, risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+     "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Scope, ISMS",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/"
+     "url": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Second line",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/three-lines-model/"
+     "url": "https://grc-wiki.vercel.app/foundations/three-lines-model/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Self-review threat",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/three-lines-model/"
+     "url": "https://grc-wiki.vercel.app/foundations/three-lines-model/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Shall vs should",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/"
+     "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
     },
     {
      "@type": "DefinedTerm",
      "name": "SOC 2",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/"
+     "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Standard",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/policy-hierarchy/"
+     "url": "https://grc-wiki.vercel.app/governance/policy-hierarchy/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Statement of applicability",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/"
+     "url": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Terms of reference",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/committees-and-delegated-authority/"
+     "url": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Testing, control",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/"
+     "url": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Third line",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/three-lines-model/"
+     "url": "https://grc-wiki.vercel.app/foundations/three-lines-model/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Tolerance, risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/appetite-vs-tolerance/"
+     "url": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Transfer, risk",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/"
+     "url": "https://grc-wiki.vercel.app/risk/risk-treatment/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Transfer, risk treatment",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/"
+     "url": "https://grc-wiki.vercel.app/risk/risk-treatment/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Treatment plan",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/"
+     "url": "https://grc-wiki.vercel.app/risk/risk-treatment/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Trust Services Criteria",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/"
+     "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Type I and Type II",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/"
+     "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Vocabulary, GRC",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/terms-and-definitions/"
+     "url": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/"
     }
    ]
   },
@@ -660,13 +660,13 @@
      "@type": "ListItem",
      "position": 1,
      "name": "GRC Reference",
-     "item": "https://sh4mbhavi.github.io/grc-wiki/"
+     "item": "https://grc-wiki.vercel.app/"
     },
     {
      "@type": "ListItem",
      "position": 2,
      "name": "Index of entries",
-     "item": "https://sh4mbhavi.github.io/grc-wiki/a-z/"
+     "item": "https://grc-wiki.vercel.app/a-z/"
     }
    ]
   }
@@ -863,8 +863,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -877,7 +877,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -889,32 +889,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Foundations",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/"
+       "item": "https://grc-wiki.vercel.app/foundations/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "How to use this reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/how-to-use-this-reference/"
+       "item": "https://grc-wiki.vercel.app/foundations/how-to-use-this-reference/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/how-to-use-this-reference/#article",
+     "@id": "https://grc-wiki.vercel.app/foundations/how-to-use-this-reference/#article",
      "headline": "How to use this reference",
      "name": "How to use this reference",
      "description": "Six parts, numbered clauses, every entry dated and attributed. How the reference is organised, what the numbering means, and where to start depending on why you are here.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/how-to-use-this-reference/",
+     "url": "https://grc-wiki.vercel.app/foundations/how-to-use-this-reference/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/how-to-use-this-reference/"
+      "@id": "https://grc-wiki.vercel.app/foundations/how-to-use-this-reference/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -924,7 +924,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
      "wordCount": 350,
@@ -1188,8 +1188,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -1202,7 +1202,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -1214,32 +1214,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Foundations",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/"
+       "item": "https://grc-wiki.vercel.app/foundations/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "What governance, risk and compliance is",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/what-grc-is/"
+       "item": "https://grc-wiki.vercel.app/foundations/what-grc-is/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/what-grc-is/#article",
+     "@id": "https://grc-wiki.vercel.app/foundations/what-grc-is/#article",
      "headline": "What governance, risk and compliance is",
      "name": "What governance, risk and compliance is",
      "description": "Governance, risk and compliance is the coordinated set of practices used to direct objectives, understand what could stop them, and prove obligations are met. Definition, the three pillars, and how the frameworks fit.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/what-grc-is/",
+     "url": "https://grc-wiki.vercel.app/foundations/what-grc-is/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/what-grc-is/"
+      "@id": "https://grc-wiki.vercel.app/foundations/what-grc-is/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -1249,7 +1249,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
      "wordCount": 1088,
@@ -1275,20 +1275,20 @@
     },
     {
      "@type": "DefinedTerm",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/what-grc-is/#term",
+     "@id": "https://grc-wiki.vercel.app/foundations/what-grc-is/#term",
      "name": "Governance, Risk and Compliance",
      "alternateName": "GRC",
      "description": "Governance, risk and compliance is the coordinated set of practices used to direct objectives, understand what could stop them, and prove obligations are met. Definition, the three pillars, and how the frameworks fit.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/what-grc-is/",
+     "url": "https://grc-wiki.vercel.app/foundations/what-grc-is/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "GRC Reference",
-      "url": "https://sh4mbhavi.github.io/grc-wiki/"
+      "url": "https://grc-wiki.vercel.app/"
      }
     },
     {
      "@type": "FAQPage",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/what-grc-is/#faq",
+     "@id": "https://grc-wiki.vercel.app/foundations/what-grc-is/#faq",
      "mainEntity": [
       {
        "@type": "Question",
@@ -1503,8 +1503,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -1517,7 +1517,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -1529,32 +1529,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Foundations",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/"
+       "item": "https://grc-wiki.vercel.app/foundations/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Terms and definitions",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/terms-and-definitions/"
+       "item": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/terms-and-definitions/#article",
+     "@id": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/#article",
      "headline": "Terms and definitions",
      "name": "Terms and definitions",
      "description": "The words the rest of the reference assumes. Risk, control, obligation, evidence, assurance and the rest — defined once, in the sense the standards use them.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/terms-and-definitions/",
+     "url": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/terms-and-definitions/"
+      "@id": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -1564,7 +1564,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
      "wordCount": 605,
@@ -1589,15 +1589,15 @@
     },
     {
      "@type": "DefinedTerm",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/terms-and-definitions/#term",
+     "@id": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/#term",
      "name": "GRC vocabulary",
      "alternateName": "",
      "description": "The words the rest of the reference assumes. Risk, control, obligation, evidence, assurance and the rest — defined once, in the sense the standards use them.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/terms-and-definitions/",
+     "url": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "GRC Reference",
-      "url": "https://sh4mbhavi.github.io/grc-wiki/"
+      "url": "https://grc-wiki.vercel.app/"
      }
     }
    ]
@@ -1761,8 +1761,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -1775,7 +1775,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -1787,32 +1787,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Foundations",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/"
+       "item": "https://grc-wiki.vercel.app/foundations/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "The four artefacts every GRC function keeps",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/four-artefacts/"
+       "item": "https://grc-wiki.vercel.app/foundations/four-artefacts/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/four-artefacts/#article",
+     "@id": "https://grc-wiki.vercel.app/foundations/four-artefacts/#article",
      "headline": "The four artefacts every GRC function keeps",
      "name": "The four artefacts every GRC function keeps",
      "description": "Every functioning GRC programme keeps the same four records: a policy set, a risk register, a control inventory and an evidence store. What each one is for, and how to tell when one has stopped working.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/four-artefacts/",
+     "url": "https://grc-wiki.vercel.app/foundations/four-artefacts/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/four-artefacts/"
+      "@id": "https://grc-wiki.vercel.app/foundations/four-artefacts/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -1822,7 +1822,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
      "wordCount": 531,
@@ -2053,8 +2053,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -2067,7 +2067,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -2079,32 +2079,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Foundations",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/"
+       "item": "https://grc-wiki.vercel.app/foundations/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "GRC vs internal audit vs security engineering",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/grc-vs-internal-audit/"
+       "item": "https://grc-wiki.vercel.app/foundations/grc-vs-internal-audit/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/grc-vs-internal-audit/#article",
+     "@id": "https://grc-wiki.vercel.app/foundations/grc-vs-internal-audit/#article",
      "headline": "GRC vs internal audit vs security engineering",
      "name": "GRC vs internal audit vs security engineering",
      "description": "GRC designs and operates controls, internal audit independently tests whether they work, and security engineering builds the systems both are talking about. Who owns what, and why the boundary matters.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/grc-vs-internal-audit/",
+     "url": "https://grc-wiki.vercel.app/foundations/grc-vs-internal-audit/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/grc-vs-internal-audit/"
+      "@id": "https://grc-wiki.vercel.app/foundations/grc-vs-internal-audit/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -2114,7 +2114,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
      "wordCount": 389,
@@ -2267,8 +2267,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -2281,7 +2281,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -2293,32 +2293,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Foundations",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/"
+       "item": "https://grc-wiki.vercel.app/foundations/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "The three lines model",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/three-lines-model/"
+       "item": "https://grc-wiki.vercel.app/foundations/three-lines-model/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/three-lines-model/#article",
+     "@id": "https://grc-wiki.vercel.app/foundations/three-lines-model/#article",
      "headline": "The three lines model",
      "name": "The three lines model",
      "description": "The IIA's 2020 Three Lines Model replaced the older three lines of defence. What each line owns, why \"defence\" was dropped, and where GRC sits.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/three-lines-model/",
+     "url": "https://grc-wiki.vercel.app/foundations/three-lines-model/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/three-lines-model/"
+      "@id": "https://grc-wiki.vercel.app/foundations/three-lines-model/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -2328,7 +2328,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
      "wordCount": 400,
@@ -2493,8 +2493,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -2507,7 +2507,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -2519,32 +2519,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Foundations",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/"
+       "item": "https://grc-wiki.vercel.app/foundations/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Who does GRC work",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/foundations/who-does-grc-work/"
+       "item": "https://grc-wiki.vercel.app/foundations/who-does-grc-work/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/who-does-grc-work/#article",
+     "@id": "https://grc-wiki.vercel.app/foundations/who-does-grc-work/#article",
      "headline": "Who does GRC work",
      "name": "Who does GRC work",
      "description": "In a small company one person does all of it. At scale the work splits into risk, compliance, privacy and vendor management. What each seat owns, and who they answer to.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/foundations/who-does-grc-work/",
+     "url": "https://grc-wiki.vercel.app/foundations/who-does-grc-work/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/foundations/who-does-grc-work/"
+      "@id": "https://grc-wiki.vercel.app/foundations/who-does-grc-work/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -2554,7 +2554,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
      "wordCount": 408,
@@ -2729,8 +2729,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -2743,7 +2743,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -2755,32 +2755,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Governance",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/governance/"
+       "item": "https://grc-wiki.vercel.app/governance/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "What governance produces",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/governance/what-governance-produces/"
+       "item": "https://grc-wiki.vercel.app/governance/what-governance-produces/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/governance/what-governance-produces/#article",
+     "@id": "https://grc-wiki.vercel.app/governance/what-governance-produces/#article",
      "headline": "What governance produces",
      "name": "What governance produces",
      "description": "Governance is not a meeting. It is four artefacts — a policy set, a committee calendar, a delegated authority matrix and a board pack — and the decisions recorded in them.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/what-governance-produces/",
+     "url": "https://grc-wiki.vercel.app/governance/what-governance-produces/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/governance/what-governance-produces/"
+      "@id": "https://grc-wiki.vercel.app/governance/what-governance-produces/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -2790,7 +2790,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
      "wordCount": 397,
@@ -2932,8 +2932,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -2946,7 +2946,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -2958,32 +2958,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Governance",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/governance/"
+       "item": "https://grc-wiki.vercel.app/governance/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Policy, standard, procedure — the document hierarchy",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/governance/policy-hierarchy/"
+       "item": "https://grc-wiki.vercel.app/governance/policy-hierarchy/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/governance/policy-hierarchy/#article",
+     "@id": "https://grc-wiki.vercel.app/governance/policy-hierarchy/#article",
      "headline": "Policy, standard, procedure — the document hierarchy",
      "name": "Policy, standard, procedure — the document hierarchy",
      "description": "A policy states the rule, a standard states the measurable version, a procedure states the steps. Getting the three levels wrong is the most common documentation failure in a young GRC programme.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/policy-hierarchy/",
+     "url": "https://grc-wiki.vercel.app/governance/policy-hierarchy/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/governance/policy-hierarchy/"
+      "@id": "https://grc-wiki.vercel.app/governance/policy-hierarchy/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -2993,7 +2993,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
      "wordCount": 350,
@@ -3197,8 +3197,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -3211,7 +3211,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -3223,32 +3223,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Governance",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/governance/"
+       "item": "https://grc-wiki.vercel.app/governance/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Committees and delegated authority",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/governance/committees-and-delegated-authority/"
+       "item": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/governance/committees-and-delegated-authority/#article",
+     "@id": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/#article",
      "headline": "Committees and delegated authority",
      "name": "Committees and delegated authority",
      "description": "A committee with no terms of reference is a meeting, and an authority with no limit is not delegated. How to write both so a decision at 4pm on a Friday does not need an escalation.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/committees-and-delegated-authority/",
+     "url": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/governance/committees-and-delegated-authority/"
+      "@id": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -3258,7 +3258,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
      "wordCount": 375,
@@ -3416,8 +3416,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -3430,7 +3430,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -3442,32 +3442,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Governance",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/governance/"
+       "item": "https://grc-wiki.vercel.app/governance/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Board reporting",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/governance/board-reporting/"
+       "item": "https://grc-wiki.vercel.app/governance/board-reporting/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/governance/board-reporting/#article",
+     "@id": "https://grc-wiki.vercel.app/governance/board-reporting/#article",
      "headline": "Board reporting",
      "name": "Board reporting",
      "description": "A board pack answers three questions in one page: what changed, what is outside appetite, and what we need from you. Everything else is an appendix.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/governance/board-reporting/",
+     "url": "https://grc-wiki.vercel.app/governance/board-reporting/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/governance/board-reporting/"
+      "@id": "https://grc-wiki.vercel.app/governance/board-reporting/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -3477,7 +3477,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
      "wordCount": 413,
@@ -3652,8 +3652,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -3666,7 +3666,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -3678,32 +3678,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Risk",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/"
+       "item": "https://grc-wiki.vercel.app/risk/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "What the risk function produces",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/what-the-risk-function-produces/"
+       "item": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/what-the-risk-function-produces/#article",
+     "@id": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/#article",
      "headline": "What the risk function produces",
      "name": "What the risk function produces",
      "description": "A register, an appetite statement, a treatment plan and an issue log. What each is for, how they connect, and the order to build them in.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/what-the-risk-function-produces/",
+     "url": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/what-the-risk-function-produces/"
+      "@id": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -3713,7 +3713,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
      "wordCount": 385,
@@ -3912,8 +3912,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -3926,7 +3926,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -3938,32 +3938,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Risk",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/"
+       "item": "https://grc-wiki.vercel.app/risk/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Reading a risk register for the first time",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+       "item": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/#article",
+     "@id": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/#article",
      "headline": "Reading a risk register for the first time",
      "name": "Reading a risk register for the first time",
      "description": "A risk register is a list of what could obstruct the objectives, with a score, an owner and a decision on each. The columns that matter, and the four signs a register has stopped being maintained.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/",
+     "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/reading-a-risk-register/"
+      "@id": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -3973,7 +3973,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
      "wordCount": 522,
@@ -4117,8 +4117,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -4131,7 +4131,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -4143,32 +4143,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Risk",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/"
+       "item": "https://grc-wiki.vercel.app/risk/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Risk appetite vs risk tolerance",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/appetite-vs-tolerance/"
+       "item": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/appetite-vs-tolerance/#article",
+     "@id": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/#article",
      "headline": "Risk appetite vs risk tolerance",
      "name": "Risk appetite vs risk tolerance",
      "description": "Appetite is how much risk the organisation is willing to accept in pursuit of its objectives. Tolerance is the acceptable variation around a specific objective. One is a stance, the other is a boundary.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/appetite-vs-tolerance/",
+     "url": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/appetite-vs-tolerance/"
+      "@id": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -4178,7 +4178,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
      "wordCount": 426,
@@ -4390,8 +4390,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -4404,7 +4404,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -4416,32 +4416,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Risk",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/"
+       "item": "https://grc-wiki.vercel.app/risk/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Risk treatment options",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/"
+       "item": "https://grc-wiki.vercel.app/risk/risk-treatment/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/#article",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-treatment/#article",
      "headline": "Risk treatment options",
      "name": "Risk treatment options",
      "description": "Four options and nothing else — accept, mitigate, transfer, avoid. What each commits you to, what evidence each needs, and which one \"monitor\" is really hiding.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/",
+     "url": "https://grc-wiki.vercel.app/risk/risk-treatment/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/"
+      "@id": "https://grc-wiki.vercel.app/risk/risk-treatment/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -4451,7 +4451,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
      "wordCount": 412,
@@ -4475,15 +4475,15 @@
     },
     {
      "@type": "DefinedTerm",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/#term",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-treatment/#term",
      "name": "Risk treatment",
      "alternateName": "",
      "description": "Four options and nothing else — accept, mitigate, transfer, avoid. What each commits you to, what evidence each needs, and which one \"monitor\" is really hiding.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-treatment/",
+     "url": "https://grc-wiki.vercel.app/risk/risk-treatment/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "GRC Reference",
-      "url": "https://sh4mbhavi.github.io/grc-wiki/"
+      "url": "https://grc-wiki.vercel.app/"
      }
     }
    ]
@@ -4605,8 +4605,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -4619,7 +4619,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -4631,32 +4631,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Risk",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/"
+       "item": "https://grc-wiki.vercel.app/risk/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Risk capacity, and the gap below it",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-capacity/"
+       "item": "https://grc-wiki.vercel.app/risk/risk-capacity/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-capacity/#article",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-capacity/#article",
      "headline": "Risk capacity, and the gap below it",
      "name": "Risk capacity, and the gap below it",
      "description": "Capacity is the most risk the organisation could absorb before it stops functioning. Appetite is set below it deliberately, and the gap is the point.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-capacity/",
+     "url": "https://grc-wiki.vercel.app/risk/risk-capacity/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-capacity/"
+      "@id": "https://grc-wiki.vercel.app/risk/risk-capacity/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -4666,7 +4666,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
      "wordCount": 348,
@@ -4690,15 +4690,15 @@
     },
     {
      "@type": "DefinedTerm",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-capacity/#term",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-capacity/#term",
      "name": "Risk capacity",
      "alternateName": "",
      "description": "Capacity is the most risk the organisation could absorb before it stops functioning. Appetite is set below it deliberately, and the gap is the point.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/risk/risk-capacity/",
+     "url": "https://grc-wiki.vercel.app/risk/risk-capacity/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "GRC Reference",
-      "url": "https://sh4mbhavi.github.io/grc-wiki/"
+      "url": "https://grc-wiki.vercel.app/"
      }
     }
    ]
@@ -4855,8 +4855,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -4869,7 +4869,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -4881,32 +4881,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Compliance",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/compliance/"
+       "item": "https://grc-wiki.vercel.app/compliance/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "What compliance produces",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/compliance/what-compliance-produces/"
+       "item": "https://grc-wiki.vercel.app/compliance/what-compliance-produces/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/what-compliance-produces/#article",
+     "@id": "https://grc-wiki.vercel.app/compliance/what-compliance-produces/#article",
      "headline": "What compliance produces",
      "name": "What compliance produces",
      "description": "An obligation register, a control inventory mapped to it, an evidence store and an audit response. The four artefacts, and the mapping that makes several frameworks affordable at once.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/what-compliance-produces/",
+     "url": "https://grc-wiki.vercel.app/compliance/what-compliance-produces/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/what-compliance-produces/"
+      "@id": "https://grc-wiki.vercel.app/compliance/what-compliance-produces/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -4916,7 +4916,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
      "wordCount": 409,
@@ -4940,15 +4940,15 @@
     },
     {
      "@type": "DefinedTerm",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/what-compliance-produces/#term",
+     "@id": "https://grc-wiki.vercel.app/compliance/what-compliance-produces/#term",
      "name": "Compliance",
      "alternateName": "",
      "description": "An obligation register, a control inventory mapped to it, an evidence store and an audit response. The four artefacts, and the mapping that makes several frameworks affordable at once.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/what-compliance-produces/",
+     "url": "https://grc-wiki.vercel.app/compliance/what-compliance-produces/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "GRC Reference",
-      "url": "https://sh4mbhavi.github.io/grc-wiki/"
+      "url": "https://grc-wiki.vercel.app/"
      }
     }
    ]
@@ -5114,8 +5114,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -5128,7 +5128,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -5140,32 +5140,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Compliance",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/compliance/"
+       "item": "https://grc-wiki.vercel.app/compliance/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Mapping obligations to controls",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/compliance/mapping-obligations-to-controls/"
+       "item": "https://grc-wiki.vercel.app/compliance/mapping-obligations-to-controls/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/mapping-obligations-to-controls/#article",
+     "@id": "https://grc-wiki.vercel.app/compliance/mapping-obligations-to-controls/#article",
      "headline": "Mapping obligations to controls",
      "name": "Mapping obligations to controls",
      "description": "The mapping is what makes two frameworks cost less than twice one. How to build it, what belongs in a row, and the two failure modes that make a mapping worse than none.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/mapping-obligations-to-controls/",
+     "url": "https://grc-wiki.vercel.app/compliance/mapping-obligations-to-controls/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/mapping-obligations-to-controls/"
+      "@id": "https://grc-wiki.vercel.app/compliance/mapping-obligations-to-controls/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -5175,7 +5175,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
      "wordCount": 458,
@@ -5357,8 +5357,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -5371,7 +5371,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -5383,32 +5383,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Compliance",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/compliance/"
+       "item": "https://grc-wiki.vercel.app/compliance/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Evidence that holds up in audit",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/"
+       "item": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/#article",
+     "@id": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/#article",
      "headline": "Evidence that holds up in audit",
      "name": "Evidence that holds up in audit",
      "description": "Audit-grade evidence is dated, attributable, complete for the period, and intelligible to someone who was not there. The four properties, and the screenshot habits that fail all of them.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/",
+     "url": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/evidence-that-holds-up/"
+      "@id": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -5418,7 +5418,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
      "wordCount": 426,
@@ -5579,8 +5579,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -5593,7 +5593,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -5605,32 +5605,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Compliance",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/compliance/"
+       "item": "https://grc-wiki.vercel.app/compliance/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Responding to an audit request",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+       "item": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/#article",
+     "@id": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/#article",
      "headline": "Responding to an audit request",
      "name": "Responding to an audit request",
      "description": "The auditor picks the sample, you produce the evidence, and everything after that is about how you handle what they find. Fieldwork, sampling, findings and the response that closes them.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/",
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/"
+      "@id": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -5640,7 +5640,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
      "wordCount": 460,
@@ -5665,15 +5665,15 @@
     },
     {
      "@type": "DefinedTerm",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/#term",
+     "@id": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/#term",
      "name": "Audit response",
      "alternateName": "",
      "description": "The auditor picks the sample, you produce the evidence, and everything after that is about how you handle what they find. Fieldwork, sampling, findings and the response that closes them.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/compliance/responding-to-an-audit/",
+     "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "GRC Reference",
-      "url": "https://sh4mbhavi.github.io/grc-wiki/"
+      "url": "https://grc-wiki.vercel.app/"
      }
     }
    ]
@@ -5832,8 +5832,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -5846,7 +5846,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -5858,32 +5858,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Frameworks",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/frameworks/"
+       "item": "https://grc-wiki.vercel.app/frameworks/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "How to read a framework",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/"
+       "item": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/#article",
+     "@id": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/#article",
      "headline": "How to read a framework",
      "name": "How to read a framework",
      "description": "Four kinds of document get called a framework, and they answer different questions. Which one you are holding determines what you can do with the output.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/",
+     "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/"
+      "@id": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -5893,7 +5893,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
      "wordCount": 446,
@@ -5919,15 +5919,15 @@
     },
     {
      "@type": "DefinedTerm",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/#term",
+     "@id": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/#term",
      "name": "Framework",
      "alternateName": "",
      "description": "Four kinds of document get called a framework, and they answer different questions. Which one you are holding determines what you can do with the output.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/how-to-read-a-framework/",
+     "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "GRC Reference",
-      "url": "https://sh4mbhavi.github.io/grc-wiki/"
+      "url": "https://grc-wiki.vercel.app/"
      }
     }
    ]
@@ -6138,8 +6138,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -6152,7 +6152,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -6164,32 +6164,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Frameworks",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/frameworks/"
+       "item": "https://grc-wiki.vercel.app/frameworks/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "ISO 27001 vs SOC 2",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/"
+       "item": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/#article",
+     "@id": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/#article",
      "headline": "ISO 27001 vs SOC 2",
      "name": "ISO 27001 vs SOC 2",
      "description": "ISO 27001 certifies a management system and produces a certificate. SOC 2 is an attestation over control operation and produces a report. Which one your buyer is actually asking for.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/",
+     "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/iso-27001-vs-soc-2/"
+      "@id": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -6199,7 +6199,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
      "wordCount": 461,
@@ -6406,8 +6406,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -6420,7 +6420,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -6432,32 +6432,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Frameworks",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/frameworks/"
+       "item": "https://grc-wiki.vercel.app/frameworks/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Building a control crosswalk",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/frameworks/building-a-crosswalk/"
+       "item": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/building-a-crosswalk/#article",
+     "@id": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/#article",
      "headline": "Building a control crosswalk",
      "name": "Building a control crosswalk",
      "description": "A crosswalk maps one framework's requirements onto another through your own controls. How to build one that survives a revision, and why mapping framework-to-framework directly is the wrong shape.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/building-a-crosswalk/",
+     "url": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/building-a-crosswalk/"
+      "@id": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -6467,7 +6467,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
      "wordCount": 390,
@@ -6492,15 +6492,15 @@
     },
     {
      "@type": "DefinedTerm",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/building-a-crosswalk/#term",
+     "@id": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/#term",
      "name": "Crosswalk",
      "alternateName": "",
      "description": "A crosswalk maps one framework's requirements onto another through your own controls. How to build one that survives a revision, and why mapping framework-to-framework directly is the wrong shape.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/building-a-crosswalk/",
+     "url": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "GRC Reference",
-      "url": "https://sh4mbhavi.github.io/grc-wiki/"
+      "url": "https://grc-wiki.vercel.app/"
      }
     }
    ]
@@ -6662,8 +6662,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -6676,7 +6676,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -6688,32 +6688,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Frameworks",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/frameworks/"
+       "item": "https://grc-wiki.vercel.app/frameworks/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "The statement of applicability",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/"
+       "item": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/#article",
+     "@id": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/#article",
      "headline": "The statement of applicability",
      "name": "The statement of applicability",
      "description": "The SoA records which ISO 27001 Annex A controls apply, which do not, and why — a decision record, not an inventory. Required by clause 6.1.3 d).",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/",
+     "url": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/"
+      "@id": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -6723,7 +6723,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
      "wordCount": 451,
@@ -6748,15 +6748,15 @@
     },
     {
      "@type": "DefinedTerm",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/#term",
+     "@id": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/#term",
      "name": "Statement of Applicability",
      "alternateName": "",
      "description": "The SoA records which ISO 27001 Annex A controls apply, which do not, and why — a decision record, not an inventory. Required by clause 6.1.3 d).",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/frameworks/statement-of-applicability/",
+     "url": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "GRC Reference",
-      "url": "https://sh4mbhavi.github.io/grc-wiki/"
+      "url": "https://grc-wiki.vercel.app/"
      }
     }
    ]
@@ -6914,8 +6914,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -6928,7 +6928,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -6940,32 +6940,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Career",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/career/"
+       "item": "https://grc-wiki.vercel.app/career/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "What GRC roles exist",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/career/grc-roles/"
+       "item": "https://grc-wiki.vercel.app/career/grc-roles/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/career/grc-roles/#article",
+     "@id": "https://grc-wiki.vercel.app/career/grc-roles/#article",
      "headline": "What GRC roles exist",
      "name": "What GRC roles exist",
      "description": "Analyst, manager, lead, head — plus the four specialisations the work splits into. What each seat does daily, what it pays attention to, and where each one goes next.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/career/grc-roles/",
+     "url": "https://grc-wiki.vercel.app/career/grc-roles/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/career/grc-roles/"
+      "@id": "https://grc-wiki.vercel.app/career/grc-roles/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -6975,7 +6975,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
      "wordCount": 463,
@@ -7150,8 +7150,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -7164,7 +7164,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -7176,32 +7176,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Career",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/career/"
+       "item": "https://grc-wiki.vercel.app/career/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Breaking into GRC",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/career/breaking-into-grc/"
+       "item": "https://grc-wiki.vercel.app/career/breaking-into-grc/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/career/breaking-into-grc/#article",
+     "@id": "https://grc-wiki.vercel.app/career/breaking-into-grc/#article",
      "headline": "Breaking into GRC",
      "name": "Breaking into GRC",
      "description": "The field hires from IT support, audit, project delivery and law more often than from graduate schemes. What transfers, what has to be learned, and the one artefact that beats a certificate in an interview.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/career/breaking-into-grc/",
+     "url": "https://grc-wiki.vercel.app/career/breaking-into-grc/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/career/breaking-into-grc/"
+      "@id": "https://grc-wiki.vercel.app/career/breaking-into-grc/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -7211,7 +7211,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
      "wordCount": 460,
@@ -7372,8 +7372,8 @@
    "ld": [
     {
      "@type": "WebSite",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/#website",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
      "name": "GRC Reference",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
@@ -7386,7 +7386,7 @@
       "@type": "SearchAction",
       "target": {
        "@type": "EntryPoint",
-       "urlTemplate": "https://sh4mbhavi.github.io/grc-wiki/a-z/?q={search_term_string}"
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
      }
@@ -7398,32 +7398,32 @@
        "@type": "ListItem",
        "position": 1,
        "name": "GRC Reference",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/"
+       "item": "https://grc-wiki.vercel.app/"
       },
       {
        "@type": "ListItem",
        "position": 2,
        "name": "Career",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/career/"
+       "item": "https://grc-wiki.vercel.app/career/"
       },
       {
        "@type": "ListItem",
        "position": 3,
        "name": "Interview questions, and how to answer them",
-       "item": "https://sh4mbhavi.github.io/grc-wiki/career/interview-questions/"
+       "item": "https://grc-wiki.vercel.app/career/interview-questions/"
       }
      ]
     },
     {
      "@type": "TechArticle",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/career/interview-questions/#article",
+     "@id": "https://grc-wiki.vercel.app/career/interview-questions/#article",
      "headline": "Interview questions, and how to answer them",
      "name": "Interview questions, and how to answer them",
      "description": "The eight questions that come up in almost every GRC interview, what each one is really testing, and the shape of an answer that lands.",
-     "url": "https://sh4mbhavi.github.io/grc-wiki/career/interview-questions/",
+     "url": "https://grc-wiki.vercel.app/career/interview-questions/",
      "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/career/interview-questions/"
+      "@id": "https://grc-wiki.vercel.app/career/interview-questions/"
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
@@ -7433,7 +7433,7 @@
       "url": "https://grcmastery.com"
      },
      "isPartOf": {
-      "@id": "https://sh4mbhavi.github.io/grc-wiki/#website"
+      "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
      "wordCount": 688,
@@ -7457,7 +7457,7 @@
     },
     {
      "@type": "FAQPage",
-     "@id": "https://sh4mbhavi.github.io/grc-wiki/career/interview-questions/#faq",
+     "@id": "https://grc-wiki.vercel.app/career/interview-questions/#faq",
      "mainEntity": [
       {
        "@type": "Question",

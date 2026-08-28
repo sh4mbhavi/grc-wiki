@@ -132,27 +132,40 @@ collapse is a re-flow, not a re-order.
 
 ## Deploying
 
-**Currently deployed to GitHub Pages** at
-`https://sh4mbhavi.github.io/grc-wiki/`. `.github/workflows/pages.yml` runs
-`--check`, builds `dist/` and publishes on every push to `main`. It fails the
-build on an authoring error rather than shipping it.
+**Vercel is the deploy target.** Point a project at this repo with **Root
+Directory `next/`**; `next/vercel.json` and `next.config.mjs` do the rest. A
+clean clone plus `npm install` builds all 37 pages with no Python, because the
+content bundle is committed.
+
+Why Vercel over GitHub Pages, for this site specifically:
+
+- **Redirects.** This is a clause-numbered reference and clause numbers move.
+  Old paths go in `vercel.json` with `permanent: true` and the link equity
+  follows. Pages has no server-side redirects at all.
+- **Path hosting.** Pages can only serve at the root of a domain it controls.
+  Vercel can serve `grcmastery.com/wiki`, which consolidates authority onto the
+  domain already ranking.
+- **A preview per branch**, so an entry can be reviewed rendered before it is
+  live.
+- **Headroom.** `/suggest-an-edit/` is a placeholder today. Delete
+  `output: "export"` from `next.config.mjs` and it can be a real form; nothing
+  else in the app has to change.
+
+Vercel's Hobby plan is non-commercial, so a client site needs **Pro**.
 
 Two values in `content/site.yml` control every URL the build emits — canonical
 tags, Open Graph, the sitemap, the search index and every internal link:
 
 ```yaml
-origin: https://sh4mbhavi.github.io
-base_path: /grc-wiki/
+origin: https://grc-wiki.vercel.app   # change to the custom domain at launch
+base_path: /                          # "/repo/" only for project-scoped Pages
 ```
 
-**Moving to the real domain** (`reference.grcmastery.com`) is those two lines:
-set `origin` to the hostname and `base_path` to `/`. Nothing else changes.
-
-**Vercel instead** — point a project at `next/` and set the same two values
-(`base_path: /`). `next/vercel.json` sets the build and output directory, and
-`next.config.mjs` reads the base path from the bundle. The Next.js app is the
-same 37 pages; pick it if you want ISR, previews per branch, or to add anything
-dynamic later.
+**GitHub Pages** stays wired up as a free staging copy:
+`.github/workflows/pages.yml` runs `--check`, builds `dist/` and publishes on
+push to `main`. It needs `base_path: /grc-wiki/` and an admin to set
+Settings → Pages → Source: GitHub Actions once. Do not run both on the same
+domain — they are two renderings of one site and the canonicals would compete.
 
 ## SEO
 
