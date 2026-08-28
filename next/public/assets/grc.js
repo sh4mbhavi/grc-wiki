@@ -147,10 +147,11 @@
 
     /* --- Reading position ------------------------------------------------ */
 
-    /* Per-entry high-water mark, 0-100, kept in localStorage. The label says
-       "read", not "position", so it only ever goes up: scrolling back to check
-       something does not un-read the page. Private-mode failures are silent —
-       the meter still works, it just forgets. */
+    /* The meter shows live position, because that is what a progress bar is
+       for and a page that opens at 19% just looks broken. What persists is the
+       furthest you have reached, and it surfaces as the read-mark in the corpus
+       rail rather than in the meter. Private-mode failures are silent — the
+       meter still works, it just forgets. */
 
     var READ_KEY = "grc-read";
     var READ_DONE = 90;   // the pager and sources sit below the last prose
@@ -193,6 +194,7 @@
         var meter = bar.parentNode;
         var path = window.location.pathname;
         var best = Math.min(100, Math.max(0, readMap()[path] || 0));
+        var written = best;
 
         function paint(value) {
             bar.style.width = value + "%";
@@ -200,39 +202,56 @@
             if (meter && meter.setAttribute) { meter.setAttribute("aria-valuenow", value); }
         }
 
-        /* 0 when the article's first line sits under the header, 100 when its
-           last line reaches the bottom of the viewport. An article shorter than
-           the viewport is read as soon as it is on screen. */
+        /* Live scroll position, 0 to 100.
+         *
+         * `from` is the scroll offset at which the article's first line sits
+         * under the header; `to` is the offset at which its last line reaches
+         * the bottom of the viewport. Both ends are asserted rather than left
+         * to the arithmetic, so no layout quirk can strand the meter short of
+         * 0 or 100. */
         function measure() {
+            var doc = document.documentElement;
+            var scrolled = window.pageYOffset || doc.scrollTop || 0;
             var box = article.getBoundingClientRect();
-            var viewport = window.innerHeight - headerHeight();
-            if (box.height <= viewport) { return 100; }
-            var travelled = headerHeight() - box.top;
-            var distance = box.height - viewport;
-            return Math.max(0, Math.min(100, Math.round((travelled / distance) * 100)));
+            var articleTop = box.top + scrolled;
+
+            var from = articleTop - headerHeight();
+            var to = articleTop + box.height - window.innerHeight;
+
+            if (to <= from) { return 100; }                                    // fits on one screen
+            if (scrolled + window.innerHeight >= doc.scrollHeight - 2) { return 100; }  // document bottom
+            if (scrolled <= from) { return 0; }
+            if (scrolled >= to) { return 100; }
+            return Math.round(((scrolled - from) / (to - from)) * 100);
         }
 
-        var queued = false;
+        /* Computed synchronously. Gating this behind requestAnimationFrame
+           strands the meter whenever rAF is throttled — a background tab, a
+           busy main thread — and one rect read per scroll event costs nothing.
+           The write is what is expensive, so that is what gets rationed. */
         function update() {
-            queued = false;
             var value = measure();
-            if (value > best) {
-                best = value;
+            paint(value);
+            if (value > best) { best = value; }
+            if (best - written >= 5 || (best >= READ_DONE && written < READ_DONE)) {
+                written = best;
                 rememberRead(path, best);
             }
-            paint(best);
         }
 
-        function schedule() {
-            if (!queued) {
-                queued = true;
-                requestAnimationFrame(update);
+        function flush() {
+            if (best > written) {
+                written = best;
+                rememberRead(path, best);
             }
         }
 
-        on(window, "scroll", schedule, { passive: true });
-        on(window, "resize", schedule);
-        paint(best);
+        on(window, "scroll", update, { passive: true });
+        on(window, "resize", update);
+        on(window, "pagehide", flush);
+        on(document, "visibilitychange", function () {
+            if (document.visibilityState === "hidden") { flush(); }
+        });
         update();
     }
 
