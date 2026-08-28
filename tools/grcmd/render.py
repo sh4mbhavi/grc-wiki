@@ -1,0 +1,877 @@
+"""Block list -> HTML, and HTML -> whole pages.
+
+Every string that reaches a template has already been escaped or is authored
+markup produced by parse.py. `e()` is used wherever content crosses in.
+"""
+
+from __future__ import annotations
+
+import html
+import json
+from typing import Any
+
+from .model import Entry, Site
+from .parse import md_inline
+from datetime import date
+
+from .seo import json_ld_entry, json_ld_home, json_ld_index
+
+FONT_HREF = (
+    "https://fonts.googleapis.com/css2"
+    "?family=IBM+Plex+Mono:wght@400;500;600"
+    "&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400"
+    "&display=swap"
+)
+
+# Applied before first paint so a stored preference never flashes the wrong theme.
+THEME_BOOT = (
+    "try{var t=localStorage.getItem('grc-theme');"
+    "if(t){document.documentElement.setAttribute('data-theme',t)}}catch(e){}"
+)
+
+MATRIX_ROWS = ["Almost certain", "Likely", "Possible", "Unlikely", "Rare"]
+MATRIX_COLS = ["Insignificant", "Minor", "Moderate", "Major", "Severe"]
+# Heat index per cell, row-major, matching the design's ramp.
+MATRIX_HEAT = [
+    [4, 5, 6, 7, 8],
+    [3, 4, 5, 6, 7],
+    [2, 3, 4, 5, 6],
+    [1, 2, 3, 4, 5],
+    [0, 1, 2, 3, 4],
+]
+
+
+def e(value: Any) -> str:
+    return html.escape(str(value), quote=True)
+
+
+# --- Blocks -------------------------------------------------------------------
+
+
+def render_blocks(blocks: list[dict[str, Any]], site: Site) -> str:
+    return "\n".join(render_block(b, site) for b in blocks)
+
+
+def render_block(block: dict[str, Any], site: Site) -> str:
+    kind = block["type"]
+    fn = _BLOCKS.get(kind)
+    if fn is None:
+        raise KeyError(f"no HTML renderer for block type {kind!r}")
+    return fn(block, site)
+
+
+def _b_prose(b, site):
+    return f'<div class="prose">{b["html"]}</div>' 
+
+
+def _b_lede(b, site):
+    return f'<p class="lede">{b["html"]}</p>'
+
+
+def _b_note(b, site):
+    return f'<aside class="margin-note">{b["html"]}</aside>'
+
+
+def _b_heading(b, site):
+    if b["level"] != 2:
+        return f'<h3 class="clause clause--sub" id="{e(b["id"])}">{e(b["text"])}</h3>'
+    return (
+        f'<h2 class="clause" id="{e(b["id"])}">'
+        f'<span class="u-vh" id="{e(b["alias"])}"></span>'
+        f'<span class="clause__n">{e(b["clause"])}</span>{e(b["text"])}'
+        f'<a class="anchor" href="#{e(b["id"])}" aria-label="Link to this clause">#</a>'
+        f"</h2>"
+    )
+
+
+def _b_terms(b, site):
+    rows = "".join(
+        f'<dt>{e(item["term"])}</dt><dd>{item["html"]}</dd>' for item in b["items"]
+    )
+    return f'<dl class="terms">{rows}</dl>'
+
+
+def _b_def(b, site):
+    ref = ""
+    if b["ref"]:
+        target = site.by_clause(b["ref"])
+        if target is not None:
+            ref = f' <a class="def__ref" href="{e(site.url(target.url))}">&rarr; {e(b["ref"])}</a>'
+    return (
+        f'<div class="def"><span class="def__label">DEFINITION &middot; '
+        f'{e(b["term"].upper())}</span>{b["html"]}{ref}</div>'
+    )
+
+
+def _b_diagram(b, site):
+    if b["name"] != "grc-loop":
+        raise KeyError(b["name"])
+    nodes = [
+        ("Governance", "sets objectives &amp; appetite", False),
+        ("Risk", "sizes &amp; treats the threats", False),
+        ("Assurance", "board &amp; customer reporting", True),
+        ("Compliance", "controls &amp; kept evidence", False),
+    ]
+
+    def node(i):
+        name, sub, out = nodes[i]
+        cls = "loop__node loop__node--out" if out else "loop__node"
+        return f'<div class="{cls}"><b>{name}</b><span>{sub}</span></div>'
+
+    body = (
+        f'<div class="loop" role="img" aria-label="Governance sets objectives and appetite for Risk. '
+        f'Risk produces controls and evidence held by Compliance. Compliance feeds Assurance, which '
+        f'reports back to Governance.">'
+        + node(0)
+        + '<div class="loop__edge loop__edge--h" aria-hidden="true">sets<br>&mdash;&mdash;&mdash;&#9656;</div>'
+        + node(1)
+        + '<div class="loop__edge loop__edge--v" aria-hidden="true">&#9652;<br>reports</div><div></div>'
+        + '<div class="loop__edge loop__edge--v" aria-hidden="true">produces<br>&#9662;</div>'
+        + node(2)
+        + '<div class="loop__edge loop__edge--h" aria-hidden="true">feeds<br>&#9666;&mdash;&mdash;&mdash;</div>'
+        + node(3)
+        + "</div>"
+    )
+    return (
+        f'<figure class="figure" id="fig-{b["n"]}"><div class="figure__frame">{body}</div>'
+        f"<figcaption>{b['caption']}</figcaption></figure>"
+    )
+
+
+def _b_matrix(b, site):
+    mark = tuple(b["mark"]) if b["mark"] else ()
+    head_row = "".join(f'<th scope="col">{e(c)}</th>' for c in MATRIX_COLS)
+    body = []
+    for r, row_name in enumerate(MATRIX_ROWS, start=1):
+        cells = []
+        for c, col_name in enumerate(MATRIX_COLS, start=1):
+            heat = MATRIX_HEAT[r - 1][c - 1]
+            marked = " data-mark=\"true\"" if mark == (r, c) else ""
+            label = f"{row_name} likelihood, {col_name.lower()} impact"
+            if marked:
+                label += " — the worked example"
+            cells.append(
+                f'<td data-heat="{heat}"{marked}><span></span>'
+                f'<span class="u-vh">{e(label)}</span></td>'
+            )
+        body.append(f'<tr><th scope="row">{e(row_name)}</th>{"".join(cells)}</tr>')
+
+    caption = f'<figcaption>{b["note"]}</figcaption>' if b["note"] else ""
+    return (
+        f'<figure class="figure figure--wide" id="fig-{b["n"]}">'
+        f'<div class="scroll-x"><table class="matrix">'
+        f'<caption>{b["caption"]}</caption>'
+        f'<thead><tr><td></td>{head_row}</tr></thead>'
+        f'<tbody>{"".join(body)}</tbody>'
+        f"</table></div>{caption}</figure>"
+    )
+
+
+def _b_slot(b, site):
+    w, _, h = b["ratio"].partition(":")
+    style = f"aspect-ratio:{e(w)}/{e(h)}"
+    if b["src"]:
+        inner = f'<img src="{e(site.url(b["src"]))}" alt="{e(b["alt"])}" style="{style};object-fit:cover">'
+    else:
+        subject = e(b["subject"]).replace(": ", ":<br>")
+        inner = (
+            f'<div class="slot" style="{style}"><span>IMAGE SLOT &middot; {e(b["ratio"])}'
+            f"<br>{subject}</span></div>"
+        )
+    return (
+        f'<figure class="figure" id="fig-{b["n"]}">{inner}'
+        f'<figcaption>{b["caption"]}</figcaption></figure>'
+    )
+
+
+def _b_faq(b, site):
+    items = []
+    for i, item in enumerate(b["items"]):
+        open_attr = " open" if i == 0 else ""
+        items.append(
+            f'<details id="{e(item["id"])}"{open_attr}><summary>{e(item["q"])}</summary>'
+            f'<div class="faq__answer">{item["html"]}</div></details>'
+        )
+    return f'<div class="faq">{"".join(items)}</div>'
+
+
+def _b_versus(b, site):
+    sides = []
+    for key, side in zip(("a", "b"), b["sides"]):
+        badge = f'<div class="versus__badge">{e(side["badge"])}</div>' if side["badge"] else ""
+        sides.append(
+            f'<div class="versus__side" data-side="{key}">'
+            f'<h3 class="versus__name">{e(side["name"])}</h3>{badge}'
+            f'<p class="versus__body">{side["html"]}</p></div>'
+        )
+    return f'<div class="versus">{"".join(sides)}</div>'
+
+
+def _b_attrs(b, site):
+    rows = []
+    for row in b["rows"]:
+        av = f' data-v="{e(row["av"])}"' if row.get("av") else ""
+        bv = f' data-v="{e(row["bv"])}"' if row.get("bv") else ""
+        rows.append(
+            f'<tr><th scope="row">{e(row["attr"])}</th>'
+            f'<td{av}>{e(row["a"])}</td><td{bv}>{e(row["b"])}</td></tr>'
+        )
+    return (
+        f'<div class="scroll-x"><table class="dtable dtable--attrs">'
+        f'<caption>{e(b["a"])} compared with {e(b["b"])}</caption>'
+        f'<thead><tr><th scope="col"></th>'
+        f'<th scope="col" data-side="a">{e(b["a"])}</th>'
+        f'<th scope="col" data-side="b">{e(b["b"])}</th></tr></thead>'
+        f'<tbody>{"".join(rows)}</tbody></table></div>'
+    )
+
+
+def _b_split(b, site):
+    cols = "".join(f"<div>{render_blocks(col, site)}</div>" for col in b["columns"])
+    return f'<div class="split" style="--split: {e(b["ratio"])}">{cols}</div>' 
+
+
+_BLOCKS = {
+    "prose": _b_prose,
+    "lede": _b_lede,
+    "note": _b_note,
+    "heading": _b_heading,
+    "terms": _b_terms,
+    "def": _b_def,
+    "diagram": _b_diagram,
+    "matrix": _b_matrix,
+    "slot": _b_slot,
+    "faq": _b_faq,
+    "split": _b_split,
+    "versus": _b_versus,
+    "attrs": _b_attrs,
+}
+
+
+# --- Chrome -------------------------------------------------------------------
+
+
+def head(site: Site, *, title: str, description: str, path: str, ld: list[dict], keywords=(), robots="index,follow") -> str:
+    canonical = site.absolute(path)
+    kw = f'\n<meta name="keywords" content="{e(", ".join(keywords))}">' if keywords else ""
+    graph = json.dumps({"@context": "https://schema.org", "@graph": ld}, ensure_ascii=False, separators=(",", ":"))
+    return f"""<!doctype html>
+<html lang="{e(site.config['site']['locale'])}" data-base="{e(site.base_path)}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(title)}</title>
+<meta name="description" content="{e(description)}">{kw}
+<meta name="robots" content="{e(robots)}">
+<link rel="canonical" href="{e(canonical)}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{e(site.name)}">
+<meta property="og:title" content="{e(title)}">
+<meta property="og:description" content="{e(description)}">
+<meta property="og:url" content="{e(canonical)}">
+<meta property="og:locale" content="{e(site.config['site']['locale'].replace('-', '_'))}">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14130f" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{e(FONT_HREF)}">
+<link rel="stylesheet" href="{e(site.url('assets/grc.css'))}">
+<link rel="alternate" type="application/xml" href="{e(site.url('sitemap.xml'))}" title="Sitemap">
+<script>{THEME_BOOT}</script>
+<script type="application/ld+json">{graph}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>"""
+
+
+def masthead(site: Site, *, crumbs: str = "", with_drawer: bool = False) -> str:
+    ed = site.config["editorial"]
+    total = site.entries_total
+    parts = site.config["site"]["parts_total"]
+    drawer = (
+        '<button class="masthead__drawer-btn" type="button" data-drawer-btn '
+        'aria-expanded="false" aria-controls="corpus">Contents</button>'
+        if with_drawer
+        else ""
+    )
+    crumb_html = crumbs or f"{total} entries &middot; {parts} parts &middot; open access"
+    return f"""<header class="masthead">
+{drawer}<a class="masthead__wordmark" href="{e(site.url(''))}">GRC REFERENCE</a>
+<span class="masthead__sep" aria-hidden="true">|</span>
+<span class="masthead__crumbs">{crumb_html}</span>
+<div class="masthead__tail">
+<button class="masthead__search" type="button" data-finder-open>Search&nbsp;&nbsp;&#8984;K</button>
+<a class="masthead__link" href="{e(site.url(ed['policy_url']))}">Editorial policy</a>
+<a class="masthead__link" href="{e(site.url(ed['suggest_url']))}">Suggest an edit</a>
+<button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch colour mode">
+<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="8" cy="8" r="3.2"/><path d="M8 1v1.6M8 13.4V15M15 8h-1.6M2.6 8H1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1M12.9 12.9l-1.1-1.1M4.2 4.2 3.1 3.1"/></svg>
+<span data-theme-label>dark</span></button>
+</div>
+</header>"""
+
+
+def finder(site: Site) -> str:
+    return f"""<dialog class="finder" data-finder aria-label="Search the reference">
+<div class="finder__bar">
+<span class="finder__icon"><svg class="icon-search" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.4 10.4 14 14"/></svg></span>
+<label class="u-vh" for="finder-input">Search {e(site.entries_total)} entries</label>
+<input class="finder__input" id="finder-input" type="search" autocomplete="off" spellcheck="false"
+       placeholder="Search a term, a framework, or a question&hellip;" data-finder-input>
+<button class="finder__esc" type="button" onclick="this.closest('dialog').close()">esc</button>
+</div>
+<ul class="finder__results" data-finder-results></ul>
+<p class="finder__empty" data-finder-empty>Type to search {e(site.entries_total)} entries and their clauses.</p>
+<div class="finder__foot"><span>&#8593;&#8595; move</span><span>&#8629; open</span><span>esc close</span></div>
+</dialog>"""
+
+
+def colophon(site: Site) -> str:
+    ed = site.config["editorial"]
+    pub = site.config["publisher"]
+    parts = "".join(
+        f'<li><a href="{e(site.url(p.url))}">{e(p.n)} &middot; {e(p.name)}</a></li>' for p in site.parts
+    )
+    return f"""<footer class="colophon">
+<div><h2>THE REFERENCE</h2><ul>{parts}</ul></div>
+<div><h2>EDITORIAL</h2><ul>
+<li><a href="{e(site.url(ed['policy_url']))}">Editorial policy</a></li>
+<li><a href="{e(site.url(ed['suggest_url']))}">Suggest an edit</a></li>
+<li><a href="{e(site.url('/a-z/'))}">A&ndash;Z index</a></li>
+</ul></div>
+<div><h2>PROVENANCE</h2>
+<p style="margin:0">Reviewed on a {e(ed['review_cycle'].lower())} cycle. Every entry names its editor and its sources.<br>
+Maintained by <a href="{e(pub['url'])}" rel="noopener">{e(pub['name'])}</a>.</p></div>
+</footer>"""
+
+
+def tail(site: Site) -> str:
+    return f"""{finder(site)}
+<script src="{e(site.url('assets/grc.js'))}" defer></script>
+</body>
+</html>"""
+
+
+# --- Corpus rail --------------------------------------------------------------
+
+
+def corpus_rail(site: Site, current: Entry | None) -> str:
+    out = ['<nav class="rail rail--corpus" id="corpus" data-drawer aria-label="Contents of the reference">']
+    out.append('<div class="rail__label">CONTENTS OF THE REFERENCE</div>')
+    out.append('<ul class="tree">')
+
+    for part in site.parts:
+        expanded = current is not None and current.part == part.n
+        out.append("<li>")
+        out.append(
+            f'<a class="tree__part" href="{e(site.url(part.url))}">{e(part.n)} &middot; '
+            f'{e(part.name.upper())}<span class="tree__count">{e(part.published)}</span></a>'
+        )
+        if expanded:
+            pages = [en for en in site.entries if en.part == part.n]
+            out.append('<ul class="tree__pages">')
+            for page in pages:
+                aria = ' aria-current="page"' if current is not None and page.clause == current.clause else ""
+                out.append(
+                    f'<li><a class="tree__page" href="{e(site.url(page.url))}"{aria}>'
+                    f"{e(page.clause)} {e(page.nav_title)}</a></li>"
+                )
+            out.append("</ul>")
+        out.append("</li>")
+    out.append("</ul>")
+
+    if current is not None and current.related:
+        links = []
+        for ref in current.related:
+            target = site.by_clause(ref)
+            if target is None:
+                continue
+            links.append(f'<li><a href="{e(site.url(target.url))}">{e(target.nav_title)}</a></li>')
+        if links:
+            out.append(
+                '<div class="rail__related"><span class="rail__heading">RELATED ENTRIES</span>'
+                f'<ul>{"".join(links)}</ul></div>'
+            )
+
+    out.append("</nav>")
+    return "\n".join(out)
+
+
+def page_rail(site: Site, entry: Entry) -> str:
+    items = [
+        f'<li data-for="" data-active="true" data-depth="2">'
+        f'<a href="#main">{e(entry.clause)} {e(entry.nav_title)}</a></li>'
+    ]
+    for section in entry.sections:
+        items.append(
+            f'<li data-for="{e(section["id"])}" data-active="false">'
+            f'<a href="#{e(section["id"])}">{e(section["clause"])} {e(section["text"])}</a></li>'
+        )
+
+    figures = ""
+    if entry.figure_count:
+        rows = "".join(
+            f'<li><a href="#fig-{i}">{i}</a></li>' for i in range(1, entry.figure_count + 1)
+        )
+        figures = (
+            f'<div class="rail__block"><span class="rail__heading">FIGURES</span>'
+            f'<ul class="rail__figs">{rows}</ul></div>'
+        )
+
+    tools = "".join(
+        f'<li><a href="{e(href)}">{e(label)}</a></li>'
+        for label, href in (
+            ("Cite this page", "#cite"),
+            ("Print / PDF", "javascript:window.print()"),
+            ("Report an error", site.url(site.config["editorial"]["suggest_url"])),
+        )
+    )
+
+    return f"""<aside class="rail rail--page" data-page-rail aria-label="On this page">
+<details open>
+<summary>ON THIS PAGE</summary>
+<div class="rail__label">ON THIS PAGE</div>
+<ul class="toc" data-toc>{''.join(items)}</ul>
+<div class="rail__block">
+<dl><dt>read</dt><dd data-progress-pct>0%</dd></dl>
+<div class="progress"><div class="progress__fill" data-progress></div></div>
+<dl>
+<dt>figures</dt><dd>{e(entry.figure_count)}</dd>
+<dt>sources</dt><dd>{e(len(entry.sources))}</dd>
+<dt>editor</dt><dd>{e(entry.editor)}</dd>
+<dt>reviewed</dt><dd>{e(entry.reviewed)}</dd>
+</dl>
+</div>
+{figures}
+<div class="rail__block"><span class="rail__heading">TOOLS</span><ul>{tools}</ul></div>
+</details>
+</aside>"""
+
+
+# --- Pages --------------------------------------------------------------------
+
+
+def entry_page(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> str:
+    part = entry.part_obj
+    assert part is not None
+
+    title = f"{entry.title} — {site.name}"
+    crumbs = (
+        f'Part {e(part.n)} / <a href="{e(site.url(part.url))}">{e(part.name)}</a> / '
+        f"{e(entry.clause)}"
+    )
+
+    infobox = ""
+    if entry.quick_facts:
+        rows = "".join(
+            f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in entry.quick_facts.items()
+        )
+        infobox = f'<div class="infobox"><div class="infobox__head">QUICK FACTS</div><dl>{rows}</dl></div>'
+
+    # The lede and the infobox share the opening grid; everything after runs full width.
+    lede_html = ""
+    rest = blocks
+    if blocks and blocks[0]["type"] == "lede":
+        lede_html = render_block(blocks[0], site)
+        rest = blocks[1:]
+
+    intro_prose = ""
+    while rest and rest[0]["type"] == "prose":
+        intro_prose += render_block(rest[0], site)
+        rest = rest[1:]
+
+    opening = (
+        f'<div class="article__opening"><div class="article__body">{lede_html}{intro_prose}</div>'
+        f"{infobox}</div>"
+    )
+
+    sources = ""
+    if entry.sources:
+        items = "".join(f"<li>{md_inline(s)}</li>" for s in entry.sources)
+        sources = f'<section class="sources" id="cite"><h2>SOURCES</h2><ol>{items}</ol></section>'
+
+    pager = ""
+    if entry.prev or entry.next:
+        prev_e = site.by_clause(entry.prev["ref"]) if entry.prev else None
+        next_e = site.by_clause(entry.next["ref"]) if entry.next else None
+        left = (
+            f'<a href="{e(site.url(prev_e.url))}">&#9666; {e(entry.prev["ref"])} &nbsp;{e(entry.prev["title"])}</a>'
+            if entry.prev and prev_e
+            else f'<span class="pager__off">{e(entry.prev["ref"]) + " " + e(entry.prev["title"]) if entry.prev else ""}</span>'
+        )
+        right = (
+            f'<a href="{e(site.url(next_e.url))}">{e(entry.next["ref"])} &nbsp;{e(entry.next["title"])} &#9656;</a>'
+            if entry.next and next_e
+            else f'<span class="pager__off">{e(entry.next["ref"]) + " " + e(entry.next["title"]) if entry.next else ""}</span>'
+        )
+        pager = f'<nav class="pager" aria-label="Adjacent entries">{left}{right}</nav>'
+
+    meta_bits = [
+        f"Reviewed {e(entry.reviewed)}",
+        f"Ed. {e(entry.edition)}",
+        f"Reading {e(entry.reading_minutes)} min",
+        f"Cited by {e(entry.cited_by)}",
+        f"{e(len(entry.sources))} sources",
+    ]
+
+    return f"""{head(site,
+        title=title,
+        description=entry.description,
+        path=entry.url,
+        keywords=entry.keywords,
+        ld=json_ld_entry(site, entry, blocks))}
+{masthead(site, crumbs=crumbs, with_drawer=True)}
+<div class="frame">
+{corpus_rail(site, entry)}
+{page_rail(site, entry)}
+<main class="article" id="main" data-article>
+<article>
+<div class="article__clause">{e(entry.clause)}</div>
+<h1 class="article__title">{e(entry.title)}</h1>
+<div class="article__meta">{''.join(f'<span>{b}</span>' for b in meta_bits)}</div>
+{opening}
+{render_blocks(rest, site)}
+{sources}
+{pager}
+</article>
+</main>
+</div>
+{colophon(site)}
+{tail(site)}"""
+
+
+def home_page(site: Site) -> str:
+    cfg = site.config
+    home = cfg["home"]
+    ed = cfg["editorial"]
+
+    chips = "".join(
+        f'<button class="chip" type="button" data-finder-open data-seed="{e(c)}">{e(c)}</button>'
+        for c in home["chips"]
+    )
+
+    parts = "".join(
+        f'<a class="part" href="{e(site.url(p.url))}">'
+        f'<span class="part__head"><span class="part__n">{e(p.n)}</span>'
+        f'<span class="part__name">{e(p.name)}</span>'
+        f'<span class="part__count">{e(p.published)} entries</span></span>'
+        f'<span class="part__blurb">{e(p.blurb)}</span></a>'
+        for p in site.parts
+    )
+
+    start = []
+    for i, ref in enumerate(home["start_here"], start=1):
+        target = site.by_clause(ref)
+        if target is None:
+            continue
+        start.append(f'<span class="start__n">{i:02d}</span>')
+        start.append(
+            f'<span class="start__item"><a href="{e(site.url(target.url))}">{e(target.title)}</a>'
+            f'<span class="start__time"> &middot; {e(target.reading_minutes)} min</span></span>'
+        )
+
+    cited = "".join(
+        f'<li><a href="{e(site.url(site.by_clause(c["ref"]).url))}">{e(c["title"])}</a>'
+        f'<span class="cited__n">{e(c["count"])}</span></li>'
+        for c in home["most_cited"]
+        if site.by_clause(c["ref"])
+    )
+
+    revised = "".join(
+        f'<li><a href="{e(site.url(en.url))}">{e(en.title)}</a>'
+        f"<span>{e(en.reviewed)} &middot; ed. {e(en.edition)}</span></li>"
+        for en in sorted(site.entries, key=lambda x: x.reviewed, reverse=True)[:3]
+    )
+
+    slot = home["image_slot"]
+    w, _, h = slot["ratio"].partition(":")
+
+    pub = cfg["publisher"]
+
+    return f"""{head(site,
+        title=f"{home['title']} — {site.name}",
+        description=cfg['site']['description'],
+        path='/',
+        keywords=[c for c in home['chips']],
+        ld=json_ld_home(site))}
+{masthead(site)}
+<main id="main">
+<section class="portal">
+<div class="portal__inner">
+<p class="portal__standfirst">{e(ed['standfirst'])}</p>
+<h1 class="portal__title">{e(home['title'])}</h1>
+<p class="portal__blurb">{e(" ".join(home['blurb'].split()))}</p>
+<button class="searchbar" type="button" data-finder-open>
+<span class="searchbar__icon"><svg class="icon-search" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.4 10.4 14 14"/></svg></span>
+<span class="searchbar__label">Search a term, a framework, or a question&hellip;</span>
+<span class="searchbar__key" aria-hidden="true">&#8984;K</span>
+</button>
+<div class="chips">{chips}</div>
+</div>
+</section>
+
+<div class="home">
+<div class="home__main">
+<h2 class="section-rule">THE REFERENCE &middot; SIX PARTS</h2>
+<div class="parts">{parts}</div>
+
+<div class="home__row">
+<section>
+<h2 class="section-rule">START HERE &mdash; IF YOU ARE NEW</h2>
+<div class="start">{''.join(start)}</div>
+</section>
+<figure class="figure" style="margin:0">
+<div class="slot" style="aspect-ratio:{e(w)}/{e(h)}"><span>IMAGE SLOT &middot; {e(slot['ratio'])}<br>{e(slot['subject'])}</span></div>
+<figcaption>FIG. &mdash; {e(slot['caption'])}</figcaption>
+</figure>
+</div>
+</div>
+
+<aside class="home__aside">
+<h2 class="section-rule">MOST CITED</h2>
+<div class="cited"><ul>{cited}</ul></div>
+<h2 class="section-rule" style="margin-top:var(--s-8)">RECENTLY REVISED</h2>
+<ul class="revised">{revised}</ul>
+<div class="policy"><b>{e(cfg['home']['maintenance']['label'])}</b>{e(" ".join(cfg['home']['maintenance']['body'].split()))}
+<span style="display:block;margin-top:var(--s-2)"><a href="{e(site.url(ed['policy_url']))}">Read the editorial policy</a></span></div>
+<p class="margin-note" style="margin-top:var(--s-5)">Maintained by the team behind
+<a href="{e(pub['url'])}" rel="noopener">{e(pub['name'])}</a>, who teach the same material as a course.</p>
+</aside>
+</div>
+</main>
+{colophon(site)}
+{tail(site)}"""
+
+
+ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+BROWSE_MODES = [
+    ("A–Z index", "/a-z/", True),
+    ("By part", None, False),
+    ("By framework", None, False),
+    ("By artefact", None, False),
+    ("By role", None, False),
+    ("Recently revised", None, False),
+]
+
+# All off by default. The handoff shows "Entry-level" ticked, but this page is
+# the crawl surface — shipping it pre-filtered would hide most of the corpus
+# from the first render, which is the one thing it exists not to do.
+FILTERS = [
+    ("level", "Entry-level explanations", False),
+    ("example", "Has worked example", False),
+    ("template", "Has downloadable template", False),
+    ("fresh", "Revised in last 90 days", False),
+]
+
+
+def _coverage(site: Site) -> list[str]:
+    terms = site.index_terms
+    live = [t for t in terms if site.by_clause(t.ref)]
+    examples = sum(1 for t in terms if t.example)
+    frameworks = sum(1 for t in terms if t.ref.startswith("5."))
+    ages = []
+    for entry in site.entries:
+        if not entry.reviewed:
+            continue
+        try:
+            ages.append((date.today() - date.fromisoformat(entry.reviewed)).days)
+        except ValueError:
+            continue
+    ages.sort()
+    median = ages[len(ages) // 2] if ages else 0
+    return [
+        f"{len(terms)} headwords &middot; {examples} with examples",
+        f"{len(live)} headwords live &middot; {site.entries_total} entries",
+        f"{frameworks} framework terms mapped",
+        f"Median age {median} days",
+    ]
+
+
+def index_page(site: Site) -> str:
+    """3c — the A–Z. This is the crawl surface: one page that links every
+    headword with its clause number, so depth is two clicks from anywhere."""
+    groups: dict[str, list] = {}
+    for term in site.index_terms:
+        groups.setdefault(term.letter, []).append(term)
+
+    strip = []
+    for letter in ALPHABET:
+        if letter in groups:
+            strip.append(f'<a href="#letter-{letter}">{letter}</a>')
+        else:
+            strip.append(f'<span data-off="true" aria-hidden="true">{letter}</span>')
+    strip.append(f'<span class="strip__count">{len(groups)} letters in use</span>')
+
+    blocks = []
+    for letter in sorted(groups):
+        rows = []
+        for term in groups[letter]:
+            target = site.by_clause(term.ref)
+            headword = f"<b>{e(term.t)}</b>" if term.key else e(term.t)
+            if target is not None:
+                headword = f'<a href="{e(site.url(target.url))}">{headword}</a>'
+            mark = ' <span class="idx__mark" title="Has a worked example">&#9642;</span>' if term.example else ""
+            flags = " ".join(
+                f
+                for f, on in (
+                    ("example", term.example),
+                    ("template", term.template),
+                    ("level", term.level == "entry"),
+                    ("fresh", _is_fresh(site, term)),
+                )
+                if on
+            )
+            rows.append(
+                f'<li data-flags="{e(flags)}"><span class="idx__term" data-live="{"true" if target else "false"}">'
+                f'<span class="idx__head">{headword}{mark}</span>'
+                f'<span class="idx__ref">{e(term.ref)}</span></span></li>'
+            )
+        blocks.append(
+            f'<section class="idx__group" data-letter="{letter}">'
+            f'<h2 class="idx__letter" id="letter-{letter}">{letter}</h2>'
+            f'<ul class="idx__terms">{"".join(rows)}</ul></section>'
+        )
+
+    jump = "".join(
+        f'<a href="#letter-{l}">{l}</a>' if l in groups else f'<span data-off="true">{l}</span>'
+        for l in ALPHABET
+    )
+
+    browse = "".join(
+        (
+            f'<li><a href="{e(site.url(href))}"{" aria-current=\"page\"" if current else ""}>{e(label)}</a></li>'
+            if href
+            else f"<li><span>{e(label)}</span></li>"
+        )
+        for label, href, current in BROWSE_MODES
+    )
+
+    filters = "".join(
+        f'<li><label><input type="checkbox" data-index-filter value="{key}"'
+        f'{" checked" if on else ""}>{e(label)}</label></li>'
+        for key, label, on in FILTERS
+    )
+
+    looked_up = "".join(
+        f'<li><a href="{e(site.url(site.by_clause(c["ref"]).url))}">{e(c["title"])}</a></li>'
+        for c in site.config["home"]["most_cited"]
+        if site.by_clause(c["ref"])
+    )
+
+    coverage = "<br>".join(_coverage(site))
+    examples_total = sum(1 for t in site.index_terms if t.example)
+
+    return f"""{head(site,
+        title=f"Index of entries — {site.name}",
+        description=f"Every term in the {site.name}, alphabetically, with the clause it belongs to. "
+                    f"{len(site.index_terms)} headwords across {len(site.parts)} parts.",
+        path='/a-z/',
+        ld=json_ld_index(site))}
+{masthead(site, crumbs='Index / A&ndash;Z', with_drawer=True)}
+<div class="frame">
+<nav class="rail rail--corpus" id="corpus" data-drawer aria-label="Browse the index">
+<div class="rail__label">BROWSE BY</div>
+<ul class="browse">{browse}</ul>
+<div class="rail__label" style="margin-top:var(--s-5)">FILTERS</div>
+<ul class="filters" data-index-filters>{filters}</ul>
+<div class="rail__related"><span class="rail__heading">COVERAGE</span>{coverage}</div>
+</nav>
+
+<aside class="rail rail--page" data-page-rail aria-label="Index tools">
+<details open>
+<summary>JUMP TO LETTER</summary>
+<div class="rail__label">JUMP TO LETTER</div>
+<nav class="strip" style="border:0;padding:0;margin:0" aria-label="Jump to letter">{jump}</nav>
+<div class="rail__block"><span class="rail__heading">MOST LOOKED UP</span><ul>{looked_up}</ul></div>
+<div class="rail__block"><span class="rail__heading">EXPORT</span><ul>
+<li><a href="{e(site.url('/a-z/index.csv'))}" download>Term list (CSV)</a></li>
+<li><a href="javascript:window.print()">Full index (PDF)</a></li>
+</ul></div>
+<p class="margin-note" style="margin-top:var(--s-5);font-size:var(--t-small)">{e(examples_total)} headwords carry a worked
+example. All of them come from <a href="{e(site.config['publisher']['url'])}" rel="noopener">the course labs</a>.</p>
+</details>
+</aside>
+
+<main class="idx" id="main">
+<h1 class="idx__title">Index of entries</h1>
+<p class="idx__intro">Every term in the reference, alphabetically. <b>Bold</b> entries are the ones most
+people arrive looking for; a <span class="idx__mark">&#9642;</span> marks an entry with a worked example.
+Terms in grey are commissioned and not yet published &mdash; the clause number is where they will live.</p>
+<nav class="strip" aria-label="Letters in use">{''.join(strip)}</nav>
+<div class="idx__cols" data-index>{''.join(blocks)}</div>
+<div class="idx__foot">
+<span data-index-count>Showing {len(site.index_terms)} of {len(site.index_terms)}</span>
+<span><a href="{e(site.url('/a-z/index.csv'))}" download>Download the term list &#9656;</a></span>
+</div>
+</main>
+</div>
+{colophon(site)}
+{tail(site)}"""
+
+
+def _is_fresh(site: Site, term) -> bool:
+    entry = site.by_clause(term.ref)
+    if entry is None or not entry.reviewed:
+        return False
+    try:
+        return (date.today() - date.fromisoformat(entry.reviewed)).days <= 90
+    except ValueError:
+        return False
+
+
+def index_csv(site: Site) -> str:
+    """The term list as CSV. Link bait: other GRC sites cite a term list."""
+    rows = ["headword,clause,published,worked_example,template,entry_level"]
+    for term in site.index_terms:
+        entry = site.by_clause(term.ref)
+        rows.append(
+            ",".join([
+                '"' + term.t.replace('"', '""') + '"',
+                term.ref,
+                "yes" if entry else "no",
+                "yes" if term.example else "no",
+                "yes" if term.template else "no",
+                "yes" if term.level == "entry" else "no",
+            ])
+        )
+    return "\n".join(rows) + "\n"
+
+
+def part_page(site: Site, part) -> str:
+    entries = [en for en in site.entries if en.part == part.n]
+    rows = "".join(
+        f'<span class="start__n">{en.clause}</span>'
+        f'<span class="start__item"><a href="{e(site.url(en.url))}">{e(en.title)}</a>'
+        f'<span class="start__time"> &middot; {e(en.reading_minutes)} min</span>'
+        f'<span style="display:block;font-size:var(--t-small);color:var(--ink-quiet)">{e(en.description)}</span></span>'
+        for en in entries
+    )
+    return f"""{head(site,
+        title=f"{part.name} — {site.name}",
+        description=part.blurb,
+        path=part.url,
+        ld=json_ld_home(site))}
+{masthead(site, crumbs=f'Part {part.n} / {e(part.name)}', with_drawer=True)}
+<div class="frame">
+{corpus_rail(site, entries[0] if entries else None)}
+<main class="article" id="main" style="grid-column:2/span 2">
+<div class="article__clause">PART {e(part.n)}</div>
+<h1 class="article__title">{e(part.name)}</h1>
+<p class="lede" style="max-width:56ch">{e(part.blurb)}</p>
+<div class="article__meta"><span>{e(len(entries))} entries</span><span>{e(part.count)} planned</span></div>
+<div class="start" style="grid-template-columns:44px minmax(0,1fr)">{rows}</div>
+</main>
+</div>
+{colophon(site)}
+{tail(site)}"""
+
+
+def simple_page(site: Site, *, path: str, title: str, description: str, body_html: str, robots="index,follow") -> str:
+    return f"""{head(site, title=f"{title} — {site.name}", description=description, path=path, ld=json_ld_home(site), robots=robots)}
+{masthead(site, crumbs=e(title))}
+<main class="index-page" id="main" style="max-width:760px">
+{body_html}
+</main>
+{colophon(site)}
+{tail(site)}"""

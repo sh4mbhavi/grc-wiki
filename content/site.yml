@@ -1,0 +1,105 @@
+# Site-wide configuration. Everything the generator needs that is not an entry.
+# Both builds (tools/build.py and next/) read this file. Edit it here only.
+
+site:
+  name: GRC Reference
+  short_name: GRC Reference
+  # Change to the real hostname before launch. Used for canonicals, sitemap,
+  # Open Graph and JSON-LD — a wrong value here quietly breaks all four.
+  origin: https://sh4mbhavi.github.io
+  # Sub-path when hosted under a repo on GitHub Pages. Set to "/" for a root
+  # domain (reference.grcmastery.com) or a Vercel deployment.
+  base_path: /grc-wiki/
+  locale: en-GB
+  description: >-
+    A plain-language reference for governance, risk and compliance:
+    cross-referenced entries covering what the work is, which artefact answers
+    which question, and how the frameworks fit together.
+  # The published count is computed from content/entries/ and used everywhere a
+  # number appears. `planned` is the target corpus and is only ever shown next
+  # to the real figure. Claiming a corpus you do not have is the fastest way to
+  # lose the trust the whole reference is built on.
+  entries_planned: 212
+  parts_total: 6
+
+# The publisher relationship is stated once, in the colophon and in JSON-LD.
+# It is never a banner, a strip, or a section.
+publisher:
+  name: GRC Mastery
+  url: https://grcmastery.com
+  # Shown in the maintenance box on the home page.
+  statement: >-
+    Maintained by the team behind GRC Mastery, who teach the same material as
+    a course.
+
+editorial:
+  policy_url: /editorial-policy/
+  suggest_url: /suggest-an-edit/
+  review_cycle: Quarterly
+  standfirst: A PLAIN-LANGUAGE REFERENCE FOR PRACTITIONERS
+
+parts:
+  - n: 1
+    slug: foundations
+    name: Foundations
+    count: 43
+    blurb: What the function is for, the vocabulary, and who does the work.
+  - n: 2
+    slug: governance
+    name: Governance
+    count: 18
+    blurb: Policy hierarchy, committees, delegated authority, board reporting.
+  - n: 3
+    slug: risk
+    name: Risk
+    count: 41
+    blurb: Registers, appetite, treatment, quantification, reporting.
+  - n: 4
+    slug: compliance
+    name: Compliance
+    count: 37
+    blurb: Obligations, control testing, evidence, audit response.
+  - n: 5
+    slug: frameworks
+    name: Frameworks
+    count: 52
+    blurb: ISO 27001, NIST CSF 2.0, SOC 2, PCI DSS, COSO — and the crosswalks.
+  - n: 6
+    slug: career
+    name: Career
+    count: 21
+    blurb: Roles, interview questions, certifications, what the work looks like daily.
+
+home:
+  title: Governance, risk and compliance, defined properly
+  blurb: >-
+    Cross-referenced entries covering what the work is, which artefact answers
+    which question, and how the frameworks fit together. Reviewed quarterly.
+    No login.
+  # Not decoration. These are the five highest-intent target queries, seeded as
+  # the demonstrated use of the search box. Swap them as the keyword set moves.
+  chips:
+    - what is GRC
+    - risk appetite vs tolerance
+    - ISO 27001 vs SOC 2
+    - is GRC technical?
+    - statement of applicability
+  start_here:
+    - 1.1
+    - 1.3
+    - 1.4
+    - 3.1
+  most_cited:
+    - { title: Risk register, ref: "3.1", count: 31 }
+    - { title: ISO 27001 crosswalk, ref: "5.1", count: 27 }
+    - { title: Risk appetite, ref: "3.2", count: 22 }
+    - { title: Three lines model, ref: "1.5", count: 19 }
+  image_slot:
+    ratio: "3:2"
+    subject: "Desk-level photo: printed risk register, annotated in pen"
+    caption: One honest photograph per part page. No stock boardrooms.
+  maintenance:
+    label: HOW THIS IS MAINTAINED
+    body: >-
+      Every entry carries a review date, a named editor and its sources.
+      Corrections are published, not quietly patched.

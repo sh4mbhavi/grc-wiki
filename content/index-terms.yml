@@ -1,0 +1,158 @@
+# The A–Z index (3c).
+#
+# Headwords, not entry titles. Index convention is the inverted form — "Appetite,
+# risk" rather than "Risk appetite" — so related terms cluster alphabetically,
+# which also happens to capture both query orders.
+#
+# `ref` is the clause the headword points at. Where that clause is published the
+# index links it; where it is not, the headword still appears with its clause
+# number, unlinked and muted. A reference work that hides its own scope is less
+# useful than one that shows where it is going.
+#
+# Flags: `key` bolds the headword (the terms most people arrive looking for);
+# `example` marks it with a square (an entry carrying a worked example);
+# `template` marks a downloadable template; `level: entry` marks an entry-level
+# explanation. The filters on the page act on these.
+
+terms:
+  - { t: "Access review", ref: "4.2", key: true, example: true, level: entry }
+  - { t: "Accountability, delegated", ref: "2.3" }
+  - { t: "Annex A (ISO 27001)", ref: "5.1", example: true }
+  - { t: "Appetite, risk", ref: "3.2", key: true, example: true, level: entry }
+  - { t: "Artefacts, the four", ref: "1.3", key: true, level: entry }
+  - { t: "Assertion, management", ref: "4.4" }
+  - { t: "Attestation", ref: "5.3" }
+  - { t: "Audit, internal", ref: "1.4", key: true, level: entry }
+  - { t: "Audit committee", ref: "2.3" }
+  - { t: "Audit trail", ref: "4.3" }
+  - { t: "Availability criterion", ref: "5.4" }
+
+  - { t: "Backup and restore testing", ref: "4.6", template: true }
+  - { t: "Board reporting", ref: "2.3", key: true, template: true }
+  - { t: "Business continuity", ref: "3.6", example: true }
+  - { t: "Business impact analysis", ref: "3.7", template: true }
+
+  - { t: "Certification body", ref: "5.0" }
+  - { t: "Change management", ref: "4.5", example: true }
+  - { t: "Committee, risk", ref: "2.2" }
+  - { t: "Compliance", ref: "4.0", key: true, level: entry }
+  - { t: "Confidentiality criterion", ref: "5.4" }
+  - { t: "Continuous compliance", ref: "4.8" }
+  - { t: "Control", ref: "4.1", key: true, example: true, level: entry }
+  - { t: "Control inventory", ref: "1.3", example: true, template: true }
+  - { t: "Control owner", ref: "4.1" }
+  - { t: "Control testing", ref: "4.2", example: true }
+  - { t: "Corrective action", ref: "4.3" }
+  - { t: "COSO ERM", ref: "5.0", level: entry }
+  - { t: "Criteria, Trust Services", ref: "5.1" }
+  - { t: "Crosswalk, control", ref: "5.2", key: true, example: true }
+
+  - { t: "Delegated authority matrix", ref: "2.3", template: true }
+  - { t: "Design effectiveness", ref: "4.2" }
+  - { t: "Deviation, control", ref: "4.7" }
+  - { t: "Due diligence, supplier", ref: "3.8", template: true }
+
+  - { t: "Emerging risk", ref: "3.9" }
+  - { t: "Evidence", ref: "4.2", key: true, example: true, level: entry }
+  - { t: "Exception log", ref: "3.0", template: true }
+  - { t: "Exclusion, Annex A", ref: "5.3" }
+  - { t: "Exit criteria, audit", ref: "4.3" }
+
+  - { t: "Findings, audit", ref: "4.3", example: true }
+  - { t: "First line", ref: "1.5", level: entry }
+  - { t: "Framework", ref: "5.0", key: true, level: entry }
+
+  - { t: "GRC", ref: "1.1", key: true, example: true, level: entry }
+  - { t: "GRC analyst", ref: "6.1", level: entry }
+  - { t: "GRC vs cyber security", ref: "1.6", level: entry }
+  - { t: "GRC vs internal audit", ref: "1.4", key: true, level: entry }
+
+  - { t: "Impact scale", ref: "3.1", example: true, template: true }
+  - { t: "Inherent risk", ref: "3.1", level: entry }
+  - { t: "Internal audit", ref: "1.4", key: true, level: entry }
+  - { t: "Issue log", ref: "3.0", key: true, template: true }
+  - { t: "ISO 31000", ref: "3.0" }
+  - { t: "ISO/IEC 27001", ref: "5.1", key: true, example: true }
+  - { t: "ISMS", ref: "5.1", level: entry }
+
+  - { t: "Key risk indicator", ref: "3.11", example: true, template: true }
+
+  - { t: "Least privilege", ref: "4.1", level: entry }
+  - { t: "Likelihood scale", ref: "3.1", example: true, template: true }
+  - { t: "Lines model, three", ref: "1.5", key: true, level: entry }
+
+  - { t: "Management review", ref: "5.3" }
+  - { t: "Mapping, obligation to control", ref: "4.1", key: true, example: true }
+  - { t: "Maturity, control", ref: "5.9" }
+  - { t: "Monitoring, control", ref: "4.8" }
+
+  - { t: "NIST CSF 2.0", ref: "5.0", key: true, example: true }
+  - { t: "Nonconformity", ref: "4.3" }
+
+  - { t: "Obligation register", ref: "4.1", template: true }
+  - { t: "Operating effectiveness", ref: "4.2", example: true }
+  - { t: "Owner, risk", ref: "3.1", level: entry }
+
+  - { t: "PCI DSS", ref: "5.11" }
+  - { t: "Policy", ref: "2.1", key: true, example: true, level: entry }
+  - { t: "Policy hierarchy", ref: "2.1", key: true, example: true }
+  - { t: "Privacy criterion", ref: "5.4" }
+  - { t: "Procedure", ref: "2.1", level: entry }
+  - { t: "Processing integrity criterion", ref: "5.4" }
+
+  - { t: "Questionnaire, security", ref: "4.9", template: true }
+  - { t: "Quantification, risk", ref: "3.12" }
+
+  - { t: "Register, risk", ref: "3.1", key: true, example: true, level: entry }
+  - { t: "Residual risk", ref: "3.1", key: true, level: entry }
+  - { t: "Review date", ref: "3.1" }
+  - { t: "Risk", ref: "3.0", key: true, level: entry }
+  - { t: "Risk appetite statement", ref: "3.2", example: true, template: true }
+  - { t: "Risk matrix", ref: "1.1", key: true, example: true, level: entry }
+  - { t: "Risk treatment", ref: "3.3", key: true, example: true, level: entry }
+
+  - { t: "Sampling", ref: "4.3", example: true }
+  - { t: "Second line", ref: "1.5", level: entry }
+  - { t: "Self-review threat", ref: "1.5" }
+  - { t: "SOC 2", ref: "5.1", key: true, example: true }
+  - { t: "Standard", ref: "2.1", level: entry }
+  - { t: "Statement of applicability", ref: "5.3", key: true, example: true, template: true }
+  - { t: "Supplier risk", ref: "3.8", example: true }
+
+  - { t: "Testing, control", ref: "4.2", key: true, example: true }
+  - { t: "Third line", ref: "1.5", level: entry }
+  - { t: "Third-party risk management", ref: "3.8", example: true, template: true }
+  - { t: "Tolerance, risk", ref: "3.2", key: true, level: entry }
+  - { t: "Transfer, risk", ref: "3.3" }
+  - { t: "Trust Services Criteria", ref: "5.1", key: true, example: true }
+  - { t: "Type I and Type II", ref: "5.1", key: true, level: entry }
+
+  - { t: "Vendor risk", ref: "3.8", example: true }
+  - { t: "Vulnerability management", ref: "4.10", example: true }
+
+  - { t: "Waiver, policy", ref: "3.10", template: true }
+  - { t: "Workshop, risk", ref: "3.13", template: true }
+  # --- added with parts 4-6 -------------------------------------------------
+  - { t: "Accept, risk treatment", ref: "3.3", level: entry }
+  - { t: "Audit response", ref: "4.3", key: true }
+  - { t: "Authority, delegated", ref: "2.2", key: true, template: true }
+  - { t: "Avoid, risk treatment", ref: "3.3" }
+  - { t: "Breaking into GRC", ref: "6.1", key: true, level: entry }
+  - { t: "Capacity, risk", ref: "3.4", key: true, level: entry }
+  - { t: "Career path, GRC", ref: "6.0", key: true, level: entry }
+  - { t: "Committee, terms of reference", ref: "2.2", template: true }
+  - { t: "Crosswalk", ref: "5.2", key: true, example: true }
+  - { t: "Fieldwork, audit", ref: "4.3" }
+  - { t: "Framework, kinds of", ref: "5.0", key: true, level: entry }
+  - { t: "Governance", ref: "2.0", key: true, level: entry }
+  - { t: "Interview questions, GRC", ref: "6.2", key: true, level: entry }
+  - { t: "Mitigate, risk treatment", ref: "3.3", level: entry }
+  - { t: "Numbering, clause", ref: "1.0" }
+  - { t: "Roles, GRC", ref: "6.0", key: true, level: entry }
+  - { t: "Scale, risk", ref: "3.1", example: true, template: true }
+  - { t: "Scope, ISMS", ref: "5.3", example: true }
+  - { t: "Shall vs should", ref: "5.0", level: entry }
+  - { t: "Terms of reference", ref: "2.2", template: true }
+  - { t: "Transfer, risk treatment", ref: "3.3" }
+  - { t: "Treatment plan", ref: "3.3", example: true, template: true }
+  - { t: "Vocabulary, GRC", ref: "1.2", key: true, level: entry }

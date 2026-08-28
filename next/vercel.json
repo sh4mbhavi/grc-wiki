@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "next build",
+  "outputDirectory": "out",
+  "framework": "nextjs",
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/search-index.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }
+      ]
+    }
+  ]
+}
