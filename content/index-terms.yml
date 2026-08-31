@@ -43,8 +43,8 @@ terms:
   - { t: "Control owner", ref: "4.1" }
   - { t: "Control testing", ref: "4.2", example: true }
   - { t: "Corrective action", ref: "4.3" }
-  - { t: "COSO ERM", ref: "5.0", level: entry }
-  - { t: "Criteria, Trust Services", ref: "5.1" }
+  - { t: "COSO ERM", ref: "5.6", level: entry }
+  - { t: "Criteria, Trust Services", ref: "5.4" }
   - { t: "Crosswalk, control", ref: "5.2", key: true, example: true }
 
   - { t: "Delegated authority matrix", ref: "2.3", template: true }
@@ -83,17 +83,17 @@ terms:
 
   - { t: "Management review", ref: "5.3" }
   - { t: "Mapping, obligation to control", ref: "4.1", key: true, example: true }
-  - { t: "Maturity, control", ref: "5.9" }
+  - { t: "Maturity, control", ref: "5.9", key: true, level: entry }
   - { t: "Monitoring, control", ref: "4.8", level: entry }
 
-  - { t: "NIST CSF 2.0", ref: "5.0", key: true, example: true }
+  - { t: "NIST CSF 2.0", ref: "5.5", key: true, level: entry }
   - { t: "Nonconformity", ref: "4.3" }
 
   - { t: "Obligation register", ref: "4.1", template: true }
   - { t: "Operating effectiveness", ref: "4.2", example: true }
   - { t: "Owner, risk", ref: "3.1", level: entry }
 
-  - { t: "PCI DSS", ref: "5.11" }
+  - { t: "PCI DSS", ref: "5.11", key: true, level: entry }
   - { t: "Policy", ref: "2.1", key: true, example: true, level: entry }
   - { t: "Policy hierarchy", ref: "2.1", key: true, example: true }
   - { t: "Privacy criterion", ref: "5.4" }
@@ -124,7 +124,7 @@ terms:
   - { t: "Third-party risk management", ref: "3.8", key: true, example: true, template: true, level: entry }
   - { t: "Tolerance, risk", ref: "3.2", key: true, level: entry }
   - { t: "Transfer, risk", ref: "3.3" }
-  - { t: "Trust Services Criteria", ref: "5.1", key: true, example: true }
+  - { t: "Trust Services Criteria", ref: "5.4", key: true, level: entry }
   - { t: "Type I and Type II", ref: "5.1", key: true, level: entry }
 
   - { t: "Vendor risk", ref: "3.8", example: true }
@@ -209,3 +209,35 @@ terms:
   - { t: "Vulnerability scan vs penetration test", ref: "4.10", level: entry }
   - { t: "Remediation SLA", ref: "4.10" }
   - { t: "Patch management", ref: "4.10" }
+  # --- added with wave 5 (framework seeds, part 5) --------------------------
+  # Canonical inverted headwords for these live above (Trust Services Criteria /
+  # Criteria, Trust Services / NIST CSF 2.0 / COSO ERM / Maturity, control /
+  # PCI DSS / the four *criterion* rows), so only query-variant forms that do
+  # not duplicate them are added here.
+  - { t: "Common criteria (SOC 2)", ref: "5.4" }
+  - { t: "Security criterion", ref: "5.4" }
+  - { t: "SOC 2 categories", ref: "5.4", level: entry }
+  - { t: "Is privacy mandatory in SOC 2", ref: "5.4" }
+  - { t: "Description criteria (DC 200)", ref: "4.4" }
+  - { t: "NIST Cybersecurity Framework", ref: "5.5", key: true }
+  - { t: "GOVERN function", ref: "5.5" }
+  - { t: "CSF functions", ref: "5.5" }
+  - { t: "CSF Tiers", ref: "5.5" }
+  - { t: "CSF Profile", ref: "5.5" }
+  - { t: "Is NIST CSF certifiable", ref: "5.5" }
+  - { t: "COSO", ref: "5.6", key: true, level: entry }
+  - { t: "COSO internal control", ref: "5.6" }
+  - { t: "COSO ICIF (2013)", ref: "5.6" }
+  - { t: "ICIF vs ERM", ref: "5.6", level: entry }
+  - { t: "SOX 404", ref: "5.6" }
+  - { t: "Maturity model", ref: "5.9", level: entry }
+  - { t: "CMMI", ref: "5.9" }
+  - { t: "Capability vs maturity", ref: "5.9" }
+  - { t: "Maturity vs effectiveness", ref: "5.9", level: entry }
+  - { t: "PCI DSS v4.0", ref: "5.11" }
+  - { t: "Self-assessment questionnaire (SAQ)", ref: "5.11" }
+  - { t: "Report on compliance (ROC)", ref: "5.11" }
+  - { t: "Cardholder data environment (CDE)", ref: "5.11" }
+  - { t: "Merchant levels", ref: "5.11" }
+  - { t: "QSA", ref: "5.11" }
+  - { t: "Is PCI DSS a law", ref: "5.11" }
