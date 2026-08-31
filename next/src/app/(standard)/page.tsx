@@ -5,7 +5,6 @@ import { RegisterRow } from "@/components/Blocks";
 import {
     byClause,
     editorial,
-    entries,
     home,
     href,
     parts,
@@ -24,7 +23,6 @@ export const metadata: Metadata = {
 export default function Home() {
     const startHere = home.start_here.map(byClause).filter(Boolean);
     const cited = home.most_cited.filter((c) => byClause(c.ref));
-    const revised = [...entries].sort((a, b) => b.reviewed.localeCompare(a.reviewed)).slice(0, 3);
 
     return (
         <>
@@ -106,24 +104,9 @@ export default function Home() {
                             </ul>
                         </div>
 
-                        <h2 className="section-rule" style={{ marginTop: "var(--s-8)" }}>
-                            RECENTLY REVISED
-                        </h2>
-                        <ul className="revised">
-                            {revised.map((entry) => (
-                                <li key={entry.clause}>
-                                    <a href={href(entry.url)}>{entry.title}</a>
-                                    <span>{entry.reviewed} · ed. {entry.edition}</span>
-                                </li>
-                            ))}
-                        </ul>
-
                         <div className="policy">
                             <b>{home.maintenance.label}</b>
                             {home.maintenance.body}
-                            <span style={{ display: "block", marginTop: "var(--s-2)" }}>
-                                <a href={href(editorial.policy_url)}>Read the editorial policy</a>
-                            </span>
                         </div>
 
                     </aside>

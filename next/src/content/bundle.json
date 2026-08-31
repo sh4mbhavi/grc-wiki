@@ -11,9 +11,6 @@
    "parts_total": 6
   },
   "editorial": {
-   "policy_url": "/editorial-policy/",
-   "suggest_url": "/suggest-an-edit/",
-   "review_cycle": "Quarterly",
    "standfirst": "A PLAIN-LANGUAGE REFERENCE FOR PRACTITIONERS"
   },
   "parts": [
@@ -62,7 +59,7 @@
   ],
   "home": {
    "title": "Governance, risk and compliance, defined properly",
-   "blurb": "Cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together. Reviewed quarterly. No login.",
+   "blurb": "Cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together. No login.",
    "chips": [
     "what is GRC",
     "risk appetite vs tolerance",
@@ -100,7 +97,7 @@
    ],
    "maintenance": {
     "label": "HOW THIS IS MAINTAINED",
-    "body": "Every entry carries a review date, a named editor and its sources. Corrections are published, not quietly patched."
+    "body": "Every claim is checked against the standard it cites and corrected against that source when it is wrong."
    }
   }
  },
@@ -1395,17 +1392,13 @@
     "how to learn GRC"
    ],
    "defines": "",
-   "reviewed": "2026-08-20",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 4,
    "cited_by": 3,
    "canonical_entry": false,
    "quick_facts": {
     "parts": "6",
     "numbering": "Clause",
-    "access": "Open",
-    "review cycle": "Quarterly"
+    "access": "Open"
    },
    "related": [
     "1.1",
@@ -1452,7 +1445,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Six parts, each opening at <code>x.0</code> with what that part of the function actually\nproduces, then working outward. Every entry carries a review date, a named\neditor and its sources, because a claim about a framework is worth exactly as\nmuch as the thing it cites.</p>"
+     "html": "<p>Six parts, each opening at <code>x.0</code> with what that part of the function actually\nproduces, then working outward. Every entry cites its sources, because a claim\nabout a framework is worth exactly as much as the thing it cites.</p>"
     },
     {
      "type": "heading",
@@ -1517,7 +1510,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Every entry names an editor. If one is wrong, the &ldquo;Suggest an edit&rdquo; link in the\nheader is the fastest route, and corrections are published with an incremented\nedition rather than quietly patched. The <a href=\"/editorial-policy/\">editorial policy</a>\nsets out how entries are written, reviewed and corrected.</p>"
+     "html": "<p>Claims are checked against the standard they cite. Where an entry is wrong, it\nis corrected against that source.</p>"
     }
    ],
    "ld": [
@@ -1577,19 +1570,8 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 347,
+     "wordCount": 314,
      "timeRequired": "PT4M",
-     "version": 1,
-     "dateModified": "2026-08-20",
-     "datePublished": "2026-08-20",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC Directives Part 2, rules for the structure of standards"
      ],
@@ -1613,9 +1595,6 @@
     "what does GRC stand for"
    ],
    "defines": "Governance, Risk and Compliance",
-   "reviewed": "2026-08-14",
-   "edition": 4,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 14,
    "canonical_entry": true,
@@ -1891,17 +1870,6 @@
      "articleSection": "Foundations",
      "wordCount": 1095,
      "timeRequired": "PT6M",
-     "version": 4,
-     "dateModified": "2026-08-14",
-     "datePublished": "2026-08-14",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022 — Information security management systems, requirements",
       "NIST Cybersecurity Framework 2.0, February 2024",
@@ -1978,9 +1946,6 @@
     "what is assurance"
    ],
    "defines": "GRC vocabulary",
-   "reviewed": "2026-08-18",
-   "edition": 2,
-   "editor": "C.T., CISA",
    "reading_minutes": 7,
    "cited_by": 12,
    "canonical_entry": false,
@@ -2196,17 +2161,6 @@
      "articleSection": "Foundations",
      "wordCount": 605,
      "timeRequired": "PT7M",
-     "version": 2,
-     "dateModified": "2026-08-18",
-     "datePublished": "2026-08-18",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO Guide 73:2009 — Risk management, vocabulary",
       "ISO/IEC 27000:2018 — Information security management systems, overview and vocabulary",
@@ -2244,9 +2198,6 @@
     "evidence store"
    ],
    "defines": "",
-   "reviewed": "2026-08-09",
-   "edition": 3,
-   "editor": "C.T., CISA",
    "reading_minutes": 9,
    "cited_by": 11,
    "canonical_entry": false,
@@ -2444,17 +2395,6 @@
      "articleSection": "Foundations",
      "wordCount": 531,
      "timeRequired": "PT9M",
-     "version": 3,
-     "dateModified": "2026-08-09",
-     "datePublished": "2026-08-09",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022, clause 6.1.3 and Annex A",
       "ISO 31000:2018 — Risk management, guidelines",
@@ -2478,9 +2418,6 @@
     "GRC vs security engineering"
    ],
    "defines": "",
-   "reviewed": "2026-08-11",
-   "edition": 2,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 9,
    "canonical_entry": false,
@@ -2726,17 +2663,6 @@
      "articleSection": "Foundations",
      "wordCount": 389,
      "timeRequired": "PT5M",
-     "version": 2,
-     "dateModified": "2026-08-11",
-     "datePublished": "2026-08-11",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "IIA, The Three Lines Model, 2020",
       "IIA, International Professional Practices Framework, Standard 1100 (Independence and Objectivity)"
@@ -2759,9 +2685,6 @@
     "second line of defence"
    ],
    "defines": "",
-   "reviewed": "2026-08-02",
-   "edition": 2,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 19,
    "canonical_entry": false,
@@ -2930,17 +2853,6 @@
      "articleSection": "Foundations",
      "wordCount": 400,
      "timeRequired": "PT5M",
-     "version": 2,
-     "dateModified": "2026-08-02",
-     "datePublished": "2026-08-02",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "IIA, The Three Lines Model, 2020",
       "IIA, Position Paper: The Three Lines of Defence in Effective Risk Management and Control, 2013"
@@ -2963,9 +2875,6 @@
     "who does GRC"
    ],
    "defines": "",
-   "reviewed": "2026-08-17",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 6,
    "canonical_entry": false,
@@ -3146,17 +3055,6 @@
      "articleSection": "Foundations",
      "wordCount": 408,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-17",
-     "datePublished": "2026-08-17",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "IIA, The Three Lines Model, 2020",
       "ISACA, State of Cybersecurity, workforce sections, 2025"
@@ -3180,9 +3078,6 @@
     "risk issue incident difference"
    ],
    "defines": "",
-   "reviewed": "2026-08-18",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 6,
    "canonical_entry": false,
@@ -3417,17 +3312,6 @@
      "articleSection": "Foundations",
      "wordCount": 1252,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-18",
-     "datePublished": "2026-08-18",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 31000:2018 — Risk management, guidelines (risk defined as the effect of uncertainty on objectives, clause 3.1)",
       "ISO/IEC 27000:2018 — Information security management systems, overview and vocabulary (information security event and information security incident)",
@@ -3483,9 +3367,6 @@
     "GRC vs security"
    ],
    "defines": "",
-   "reviewed": "2026-08-28",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 6,
    "canonical_entry": false,
@@ -3759,17 +3640,6 @@
      "articleSection": "Foundations",
      "wordCount": 943,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-28",
-     "datePublished": "2026-08-28",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "NIST Cybersecurity Framework 2.0, February 2024 (the Govern function)",
       "ISO/IEC 27001:2022 — Information security management systems, requirements"
@@ -3822,9 +3692,6 @@
     "compliant but not secure"
    ],
    "defines": "",
-   "reviewed": "2026-08-19",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 6,
    "canonical_entry": false,
@@ -4103,17 +3970,6 @@
      "articleSection": "Foundations",
      "wordCount": 1090,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-19",
-     "datePublished": "2026-08-19",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 31000:2018 — Risk management, guidelines",
       "ISO 37301:2021 — Compliance management systems, requirements with guidance for use",
@@ -4166,9 +4022,6 @@
     "governance vs management"
    ],
    "defines": "",
-   "reviewed": "2026-08-19",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 7,
    "canonical_entry": false,
@@ -4360,17 +4213,6 @@
      "articleSection": "Governance",
      "wordCount": 397,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-19",
-     "datePublished": "2026-08-19",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
       "NIST Cybersecurity Framework 2.0, Govern (GV) function, 2024"
@@ -4393,9 +4235,6 @@
     "information security policy"
    ],
    "defines": "",
-   "reviewed": "2026-07-28",
-   "edition": 2,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 8,
    "canonical_entry": false,
@@ -4553,17 +4392,6 @@
      "articleSection": "Governance",
      "wordCount": 350,
      "timeRequired": "PT6M",
-     "version": 2,
-     "dateModified": "2026-07-28",
-     "datePublished": "2026-07-28",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022, clause 5.2 (Policy) and clause 7.5 (Documented information)",
       "NIST Cybersecurity Framework 2.0, GV.PO (Policy)"
@@ -4585,9 +4413,6 @@
     "who approves risk acceptance"
    ],
    "defines": "",
-   "reviewed": "2026-08-16",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 5,
    "canonical_entry": false,
@@ -4808,17 +4633,6 @@
      "articleSection": "Governance",
      "wordCount": 375,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-16",
-     "datePublished": "2026-08-16",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
       "IIA, The Three Lines Model, 2020"
@@ -4840,9 +4654,6 @@
     "reporting risk to the board"
    ],
    "defines": "",
-   "reviewed": "2026-08-15",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 4,
    "canonical_entry": false,
@@ -5017,17 +4828,6 @@
      "articleSection": "Governance",
      "wordCount": 413,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-15",
-     "datePublished": "2026-08-15",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
       "NIST Cybersecurity Framework 2.0, GV.OV (Oversight), 2024"
@@ -5050,9 +4850,6 @@
     "corporate governance vs management"
    ],
    "defines": "",
-   "reviewed": "2026-08-20",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 6,
    "canonical_entry": false,
@@ -5333,17 +5130,6 @@
      "articleSection": "Governance",
      "wordCount": 1165,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-20",
-     "datePublished": "2026-08-20",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 37000:2021 — Governance of organizations, guidance",
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
@@ -5398,9 +5184,6 @@
     "how often review terms of reference"
    ],
    "defines": "Terms of reference",
-   "reviewed": "2026-08-20",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 4,
    "canonical_entry": false,
@@ -5632,17 +5415,6 @@
      "articleSection": "Governance",
      "wordCount": 956,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-20",
-     "datePublished": "2026-08-20",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 37000:2021 — Governance of organizations, guidance",
       "Committee terms-of-reference conventions — quorum, membership, review cadence — are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
@@ -5707,9 +5479,6 @@
     "risk management process"
    ],
    "defines": "",
-   "reviewed": "2026-08-19",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 8,
    "canonical_entry": false,
@@ -5901,17 +5670,6 @@
      "articleSection": "Risk",
      "wordCount": 385,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-19",
-     "datePublished": "2026-08-19",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 31000:2018 — Risk management, guidelines",
       "ISO/IEC 27005:2022 — Guidance on managing information security risks"
@@ -5935,9 +5693,6 @@
     "risk register columns"
    ],
    "defines": "",
-   "reviewed": "2026-08-06",
-   "edition": 4,
-   "editor": "C.T., CISA",
    "reading_minutes": 8,
    "cited_by": 31,
    "canonical_entry": false,
@@ -6151,17 +5906,6 @@
      "articleSection": "Risk",
      "wordCount": 522,
      "timeRequired": "PT8M",
-     "version": 4,
-     "dateModified": "2026-08-06",
-     "datePublished": "2026-08-06",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 31000:2018 — Risk management, guidelines, clause 6.4",
       "ISO/IEC 27005:2022 — Guidance on managing information security risks",
@@ -6185,9 +5929,6 @@
     "risk appetite statement"
    ],
    "defines": "",
-   "reviewed": "2026-08-02",
-   "edition": 5,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 22,
    "canonical_entry": false,
@@ -6346,17 +6087,6 @@
      "articleSection": "Risk",
      "wordCount": 426,
      "timeRequired": "PT5M",
-     "version": 5,
-     "dateModified": "2026-08-02",
-     "datePublished": "2026-08-02",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO Guide 73:2009 — Risk management, vocabulary",
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
@@ -6380,9 +6110,6 @@
     "risk mitigation vs transfer"
    ],
    "defines": "Risk treatment",
-   "reviewed": "2026-08-13",
-   "edition": 2,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 15,
    "canonical_entry": false,
@@ -6609,17 +6336,6 @@
      "articleSection": "Risk",
      "wordCount": 412,
      "timeRequired": "PT6M",
-     "version": 2,
-     "dateModified": "2026-08-13",
-     "datePublished": "2026-08-13",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 31000:2018, clause 6.5 (Risk treatment)",
       "ISO/IEC 27005:2022, clause 8.3"
@@ -6654,9 +6370,6 @@
     "risk tolerance capacity appetite"
    ],
    "defines": "Risk capacity",
-   "reviewed": "2026-08-11",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 4,
    "cited_by": 6,
    "canonical_entry": false,
@@ -6814,17 +6527,6 @@
      "articleSection": "Risk",
      "wordCount": 348,
      "timeRequired": "PT4M",
-     "version": 1,
-     "dateModified": "2026-08-11",
-     "datePublished": "2026-08-11",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
       "ISO Guide 73:2009 — Risk management, vocabulary"
@@ -6861,9 +6563,6 @@
     "business continuity plan"
    ],
    "defines": "Business continuity",
-   "reviewed": "2026-08-12",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 7,
    "canonical_entry": false,
@@ -7088,17 +6787,6 @@
      "articleSection": "Risk",
      "wordCount": 778,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-12",
-     "datePublished": "2026-08-12",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 22301:2019 — Security and resilience, business continuity management systems, requirements",
       "ISO 22300:2021 — Security and resilience, vocabulary"
@@ -7165,9 +6853,6 @@
     "business impact analysis process"
    ],
    "defines": "Business impact analysis",
-   "reviewed": "2026-08-13",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 6,
    "canonical_entry": false,
@@ -7384,17 +7069,6 @@
      "articleSection": "Risk",
      "wordCount": 969,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-13",
-     "datePublished": "2026-08-13",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 22301:2019 — Security and resilience, business continuity management systems, requirements",
       "ISO/TS 22317:2021 — Security and resilience, business continuity management systems, guidelines for business impact analysis"
@@ -7462,9 +7136,6 @@
     "fourth-party risk"
    ],
    "defines": "Third-party risk management",
-   "reviewed": "2026-08-14",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 8,
    "canonical_entry": false,
@@ -7681,17 +7352,6 @@
      "articleSection": "Risk",
      "wordCount": 743,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-14",
-     "datePublished": "2026-08-14",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27036-2:2022 — Cybersecurity, supplier relationships, Part 2: Requirements",
       "NIST SP 800-161r1 — Cybersecurity supply chain risk management practices for systems and organizations"
@@ -7758,9 +7418,6 @@
     "emerging risk examples"
    ],
    "defines": "Emerging risk",
-   "reviewed": "2026-08-15",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 4,
    "cited_by": 5,
    "canonical_entry": false,
@@ -7939,17 +7596,6 @@
      "articleSection": "Risk",
      "wordCount": 728,
      "timeRequired": "PT4M",
-     "version": 1,
-     "dateModified": "2026-08-15",
-     "datePublished": "2026-08-15",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 31000:2018 — Risk management, guidelines",
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017"
@@ -8016,9 +7662,6 @@
     "risk acceptance"
    ],
    "defines": "Policy waiver",
-   "reviewed": "2026-08-16",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 4,
    "cited_by": 6,
    "canonical_entry": false,
@@ -8226,17 +7869,6 @@
      "articleSection": "Risk",
      "wordCount": 709,
      "timeRequired": "PT4M",
-     "version": 1,
-     "dateModified": "2026-08-16",
-     "datePublished": "2026-08-16",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 31000:2018 — Risk management, guidelines (retaining a risk by informed decision)",
       "Exception- and waiver-register conventions — expiry, compensating control, approver at the right level — are control-governance good practice drawn from security and audit practice, not a single mandated standard"
@@ -8303,9 +7935,6 @@
     "risk indicator examples"
    ],
    "defines": "Key risk indicator",
-   "reviewed": "2026-08-18",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 7,
    "canonical_entry": false,
@@ -8539,17 +8168,6 @@
      "articleSection": "Risk",
      "wordCount": 837,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-18",
-     "datePublished": "2026-08-18",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
       "ISO 31000:2018 — Risk management, guidelines"
@@ -8616,9 +8234,6 @@
     "cyber risk quantification"
    ],
    "defines": "Risk quantification",
-   "reviewed": "2026-08-20",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 5,
    "canonical_entry": false,
@@ -8793,17 +8408,6 @@
      "articleSection": "Risk",
      "wordCount": 674,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-20",
-     "datePublished": "2026-08-20",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO 31000:2018 — Risk management, guidelines",
       "The Open Group, Risk Analysis (O-RA) Standard — the Open FAIR body of knowledge"
@@ -8870,9 +8474,6 @@
     "risk brainstorming"
    ],
    "defines": "Risk workshop",
-   "reviewed": "2026-08-22",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 6,
    "canonical_entry": false,
@@ -9089,17 +8690,6 @@
      "articleSection": "Risk",
      "wordCount": 618,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-22",
-     "datePublished": "2026-08-22",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "IEC 31010:2019 — Risk management, risk assessment techniques",
       "ISO 31000:2018 — Risk management, guidelines (communication and consultation)"
@@ -9165,9 +8755,6 @@
     "compliance artefacts"
    ],
    "defines": "Compliance",
-   "reviewed": "2026-08-18",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 9,
    "canonical_entry": false,
@@ -9359,17 +8946,6 @@
      "articleSection": "Compliance",
      "wordCount": 409,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-18",
-     "datePublished": "2026-08-18",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022, clause 4.2 and Annex A",
       "AICPA, Trust Services Criteria (TSP section 100)"
@@ -9405,9 +8981,6 @@
     "control inventory"
    ],
    "defines": "",
-   "reviewed": "2026-08-17",
-   "edition": 2,
-   "editor": "C.T., CISA",
    "reading_minutes": 8,
    "cited_by": 13,
    "canonical_entry": false,
@@ -9608,17 +9181,6 @@
      "articleSection": "Compliance",
      "wordCount": 458,
      "timeRequired": "PT8M",
-     "version": 2,
-     "dateModified": "2026-08-17",
-     "datePublished": "2026-08-17",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022, clause 6.1.3 and Annex A",
       "AICPA, Trust Services Criteria (TSP section 100)",
@@ -9642,9 +9204,6 @@
     "what auditors accept"
    ],
    "defines": "",
-   "reviewed": "2026-08-14",
-   "edition": 2,
-   "editor": "C.T., CISA",
    "reading_minutes": 7,
    "cited_by": 14,
    "canonical_entry": false,
@@ -9841,17 +9400,6 @@
      "articleSection": "Compliance",
      "wordCount": 426,
      "timeRequired": "PT7M",
-     "version": 2,
-     "dateModified": "2026-08-14",
-     "datePublished": "2026-08-14",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "AICPA, Trust Services Criteria (TSP section 100)",
       "ISO/IEC 27001:2022, clause 7.5 and clause 9.2",
@@ -9875,9 +9423,6 @@
     "audit sampling"
    ],
    "defines": "Audit response",
-   "reviewed": "2026-08-14",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 7,
    "cited_by": 8,
    "canonical_entry": false,
@@ -10053,17 +9598,6 @@
      "articleSection": "Compliance",
      "wordCount": 460,
      "timeRequired": "PT7M",
-     "version": 1,
-     "dateModified": "2026-08-14",
-     "datePublished": "2026-08-14",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "IIA, International Professional Practices Framework, Standard 2310",
       "AICPA, SSAE No. 18, AT-C section 205",
@@ -10101,9 +9635,6 @@
     "written assertion attestation"
    ],
    "defines": "Management assertion",
-   "reviewed": "2026-08-15",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 7,
    "canonical_entry": false,
@@ -10332,17 +9863,6 @@
      "articleSection": "Compliance",
      "wordCount": 877,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-15",
-     "datePublished": "2026-08-15",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "AICPA, SSAE No. 18, AT-C section 205",
       "AICPA, Trust Services Criteria (TSP section 100)",
@@ -10411,9 +9931,6 @@
     "production change approval"
    ],
    "defines": "Change management",
-   "reviewed": "2026-08-16",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 9,
    "canonical_entry": false,
@@ -10648,17 +10165,6 @@
      "articleSection": "Compliance",
      "wordCount": 1145,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-16",
-     "datePublished": "2026-08-16",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 8.32 (change management)",
       "AICPA, Trust Services Criteria (criterion CC8.1)",
@@ -10726,9 +10232,6 @@
     "disaster recovery test"
    ],
    "defines": "Backup and restore testing",
-   "reviewed": "2026-08-16",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 7,
    "canonical_entry": false,
@@ -10921,17 +10424,6 @@
      "articleSection": "Compliance",
      "wordCount": 1069,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-16",
-     "datePublished": "2026-08-16",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 8.13 (information backup)",
       "AICPA, Trust Services Criteria (criteria A1.2 and A1.3)",
@@ -10998,9 +10490,6 @@
     "SOC 2 exception"
    ],
    "defines": "Control deviation",
-   "reviewed": "2026-08-15",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 8,
    "canonical_entry": false,
@@ -11244,17 +10733,6 @@
      "articleSection": "Compliance",
      "wordCount": 1076,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-15",
-     "datePublished": "2026-08-15",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "AICPA, SSAE No. 18, AT-C section 205 (exceptions)",
       "AICPA, Trust Services Criteria (TSP section 100)",
@@ -11322,9 +10800,6 @@
     "automated evidence"
    ],
    "defines": "Continuous control monitoring",
-   "reviewed": "2026-08-16",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 9,
    "canonical_entry": false,
@@ -11543,17 +11018,6 @@
      "articleSection": "Compliance",
      "wordCount": 951,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-16",
-     "datePublished": "2026-08-16",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "AICPA, Trust Services Criteria (criterion CC4.1)",
       "ISO/IEC 27001:2022, clause 9.1 (monitoring, measurement, analysis and evaluation)",
@@ -11621,9 +11085,6 @@
     "SIG vs CAIQ"
    ],
    "defines": "Security questionnaire",
-   "reviewed": "2026-08-16",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 9,
    "canonical_entry": false,
@@ -11855,17 +11316,6 @@
      "articleSection": "Compliance",
      "wordCount": 1061,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-16",
-     "datePublished": "2026-08-16",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "Shared Assessments, Standardized Information Gathering (SIG) Questionnaire",
       "Cloud Security Alliance, Consensus Assessments Initiative Questionnaire (CAIQ) and STAR",
@@ -11933,9 +11383,6 @@
     "remediation SLA"
    ],
    "defines": "Vulnerability management",
-   "reviewed": "2026-08-15",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 9,
    "canonical_entry": false,
@@ -12184,17 +11631,6 @@
      "articleSection": "Compliance",
      "wordCount": 1037,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-15",
-     "datePublished": "2026-08-15",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 8.8 (management of technical vulnerabilities)",
       "NIST SP 800-40 Rev. 4 — Guide to Enterprise Patch Management Planning",
@@ -12262,9 +11698,6 @@
     "standard vs framework"
    ],
    "defines": "Framework",
-   "reviewed": "2026-08-16",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 10,
    "canonical_entry": false,
@@ -12458,17 +11891,6 @@
      "articleSection": "Frameworks",
      "wordCount": 446,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-16",
-     "datePublished": "2026-08-16",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022 — Information security management systems, requirements",
       "NIST Cybersecurity Framework 2.0, 2024",
@@ -12507,9 +11929,6 @@
     "ISO 27001 certification"
    ],
    "defines": "",
-   "reviewed": "2026-08-12",
-   "edition": 3,
-   "editor": "C.T., CISA",
    "reading_minutes": 8,
    "cited_by": 27,
    "canonical_entry": false,
@@ -12754,17 +12173,6 @@
      "articleSection": "Frameworks",
      "wordCount": 461,
      "timeRequired": "PT8M",
-     "version": 3,
-     "dateModified": "2026-08-12",
-     "datePublished": "2026-08-12",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022 — Information security management systems, requirements",
       "AICPA, Trust Services Criteria (TSP section 100), 2017, revised 2022",
@@ -12788,9 +12196,6 @@
     "control mapping matrix"
    ],
    "defines": "Crosswalk",
-   "reviewed": "2026-08-15",
-   "edition": 2,
-   "editor": "C.T., CISA",
    "reading_minutes": 7,
    "cited_by": 14,
    "canonical_entry": false,
@@ -13012,17 +12417,6 @@
      "articleSection": "Frameworks",
      "wordCount": 390,
      "timeRequired": "PT7M",
-     "version": 2,
-     "dateModified": "2026-08-15",
-     "datePublished": "2026-08-15",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022, Annex A",
       "AICPA, Trust Services Criteria (TSP section 100)",
@@ -13059,9 +12453,6 @@
     "ISO 27001 clause 6.1.3"
    ],
    "defines": "Statement of Applicability",
-   "reviewed": "2026-08-13",
-   "edition": 2,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 11,
    "canonical_entry": false,
@@ -13258,17 +12649,6 @@
      "articleSection": "Frameworks",
      "wordCount": 451,
      "timeRequired": "PT6M",
-     "version": 2,
-     "dateModified": "2026-08-13",
-     "datePublished": "2026-08-13",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISO/IEC 27001:2022, clause 6.1.3 d)",
       "ISO/IEC 27001:2022, Annex A",
@@ -13307,9 +12687,6 @@
     "SOC 2 security availability confidentiality"
    ],
    "defines": "Trust Services Criteria",
-   "reviewed": "2026-08-30",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 11,
    "canonical_entry": false,
@@ -13558,17 +12935,6 @@
      "articleSection": "Frameworks",
      "wordCount": 1337,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-30",
-     "datePublished": "2026-08-30",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "AICPA, Trust Services Criteria (TSP section 100), 2017, revised 2022",
       "AICPA, Description Criteria (DC section 200)",
@@ -13636,9 +13002,6 @@
     "is nist csf certifiable"
    ],
    "defines": "NIST Cybersecurity Framework",
-   "reviewed": "2026-08-30",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 10,
    "canonical_entry": false,
@@ -13894,17 +13257,6 @@
      "articleSection": "Frameworks",
      "wordCount": 1003,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-30",
-     "datePublished": "2026-08-30",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "NIST Cybersecurity Framework (CSF) 2.0, 2024",
       "NIST, CSF 2.0 Reference Tool / Informative References"
@@ -13971,9 +13323,6 @@
     "which COSO framework does SOC 2 use"
    ],
    "defines": "COSO framework",
-   "reviewed": "2026-08-30",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 8,
    "canonical_entry": false,
@@ -14196,17 +13545,6 @@
      "articleSection": "Frameworks",
      "wordCount": 997,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-30",
-     "datePublished": "2026-08-30",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "COSO, Internal Control — Integrated Framework, 2013",
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017"
@@ -14273,9 +13611,6 @@
     "800-53 vs 800-53a vs 800-53b"
    ],
    "defines": "NIST SP 800-53",
-   "reviewed": "2026-08-31",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 7,
    "canonical_entry": false,
@@ -14543,17 +13878,6 @@
      "articleSection": "Frameworks",
      "wordCount": 1228,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-31",
-     "datePublished": "2026-08-31",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "NIST, SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations (2020)",
       "NIST, SP 800-37 Rev. 2 — Risk Management Framework"
@@ -14620,9 +13944,6 @@
     "are cis controls certifiable"
    ],
    "defines": "CIS Controls",
-   "reviewed": "2026-08-31",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 5,
    "cited_by": 8,
    "canonical_entry": false,
@@ -14861,17 +14182,6 @@
      "articleSection": "Frameworks",
      "wordCount": 1377,
      "timeRequired": "PT5M",
-     "version": 1,
-     "dateModified": "2026-08-31",
-     "datePublished": "2026-08-31",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "Center for Internet Security, CIS Critical Security Controls v8 (2021)",
       "CIS, Implementation Groups and the Community Defense Model"
@@ -14938,9 +14248,6 @@
     "control maturity assessment"
    ],
    "defines": "Control maturity",
-   "reviewed": "2026-08-30",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 7,
    "canonical_entry": false,
@@ -15157,17 +14464,6 @@
      "articleSection": "Frameworks",
      "wordCount": 1260,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-30",
-     "datePublished": "2026-08-30",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISACA / CMMI Institute, Capability Maturity Model Integration (CMMI)",
       "NIST Cybersecurity Framework 2.0, 2024 — Implementation Tiers"
@@ -15235,9 +14531,6 @@
     "hipaa business associate liability"
    ],
    "defines": "HIPAA Security Rule",
-   "reviewed": "2026-08-31",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 8,
    "canonical_entry": false,
@@ -15514,17 +14807,6 @@
      "articleSection": "Frameworks",
      "wordCount": 1307,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-31",
-     "datePublished": "2026-08-31",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "HIPAA Security Rule, 45 CFR Part 160 and Part 164 Subparts A and C",
       "HHS Office for Civil Rights, Security Rule guidance"
@@ -15592,9 +14874,6 @@
     "is PCI DSS a law"
    ],
    "defines": "PCI DSS",
-   "reviewed": "2026-08-30",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 7,
    "cited_by": 9,
    "canonical_entry": false,
@@ -15856,17 +15135,6 @@
      "articleSection": "Frameworks",
      "wordCount": 1613,
      "timeRequired": "PT7M",
-     "version": 1,
-     "dateModified": "2026-08-30",
-     "datePublished": "2026-08-30",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "PCI Security Standards Council, PCI DSS v4.0.1 (2024)",
       "PCI SSC, Self-Assessment Questionnaire (SAQ) Instructions and Guidelines"
@@ -15933,9 +15201,6 @@
     "SOC report types"
    ],
    "defines": "SOC report",
-   "reviewed": "2026-08-31",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 8,
    "canonical_entry": false,
@@ -16150,17 +15415,6 @@
      "articleSection": "Frameworks",
      "wordCount": 1184,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-31",
-     "datePublished": "2026-08-31",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "AICPA, SOC 1 — SSAE 18 (AT-C section 320)",
       "AICPA, 2017 Trust Services Criteria",
@@ -16229,9 +15483,6 @@
     "GDPR fines"
    ],
    "defines": "GDPR",
-   "reviewed": "2026-08-31",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 8,
    "cited_by": 8,
    "canonical_entry": false,
@@ -16528,17 +15779,6 @@
      "articleSection": "Frameworks",
      "wordCount": 1577,
      "timeRequired": "PT8M",
-     "version": 1,
-     "dateModified": "2026-08-31",
-     "datePublished": "2026-08-31",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "Regulation (EU) 2016/679 (General Data Protection Regulation)",
       "European Data Protection Board, guidelines on the GDPR"
@@ -16604,9 +15844,6 @@
     "GRC job titles"
    ],
    "defines": "",
-   "reviewed": "2026-08-20",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 7,
    "cited_by": 9,
    "canonical_entry": false,
@@ -16799,17 +16036,6 @@
      "articleSection": "Career",
      "wordCount": 463,
      "timeRequired": "PT7M",
-     "version": 1,
-     "dateModified": "2026-08-20",
-     "datePublished": "2026-08-20",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "IIA, The Three Lines Model, 2020",
       "ISACA, State of Cybersecurity, workforce sections, 2025",
@@ -16833,9 +16059,6 @@
     "GRC without experience"
    ],
    "defines": "",
-   "reviewed": "2026-08-19",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 7,
    "cited_by": 7,
    "canonical_entry": false,
@@ -17025,17 +16248,6 @@
      "articleSection": "Career",
      "wordCount": 460,
      "timeRequired": "PT7M",
-     "version": 1,
-     "dateModified": "2026-08-19",
-     "datePublished": "2026-08-19",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISACA, CRISC and CISA job practice areas, 2025",
       "(ISC)² Cybersecurity Workforce Study, 2025"
@@ -17058,9 +16270,6 @@
     "GRC interview answers"
    ],
    "defines": "",
-   "reviewed": "2026-08-18",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 8,
    "cited_by": 10,
    "canonical_entry": false,
@@ -17240,17 +16449,6 @@
      "articleSection": "Career",
      "wordCount": 688,
      "timeRequired": "PT8M",
-     "version": 1,
-     "dateModified": "2026-08-18",
-     "datePublished": "2026-08-18",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "IIA, The Three Lines Model, 2020",
       "ISO 31000:2018 — Risk management, guidelines"
@@ -17344,9 +16542,6 @@
     "which GRC certification first"
    ],
    "defines": "",
-   "reviewed": "2026-08-27",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 9,
    "cited_by": 6,
    "canonical_entry": false,
@@ -17547,17 +16742,6 @@
      "articleSection": "Career",
      "wordCount": 1031,
      "timeRequired": "PT9M",
-     "version": 1,
-     "dateModified": "2026-08-27",
-     "datePublished": "2026-08-27",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISACA, CISA / CISM / CRISC certification requirements, 2025",
       "(ISC)² CISSP experience, endorsement and CBK domains, 2024",
@@ -17628,9 +16812,6 @@
     "how to get promoted in GRC"
    ],
    "defines": "",
-   "reviewed": "2026-08-26",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 7,
    "cited_by": 5,
    "canonical_entry": false,
@@ -17816,17 +16997,6 @@
      "articleSection": "Career",
      "wordCount": 740,
      "timeRequired": "PT7M",
-     "version": 1,
-     "dateModified": "2026-08-26",
-     "datePublished": "2026-08-26",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "IIA, The Three Lines Model, 2020",
       "ISACA, State of Cybersecurity, workforce sections, 2025",
@@ -17880,9 +17050,6 @@
     "GRC analyst daily tasks"
    ],
    "defines": "",
-   "reviewed": "2026-08-25",
-   "edition": 1,
-   "editor": "C.T., CISA",
    "reading_minutes": 6,
    "cited_by": 4,
    "canonical_entry": false,
@@ -18102,17 +17269,6 @@
      "articleSection": "Career",
      "wordCount": 678,
      "timeRequired": "PT6M",
-     "version": 1,
-     "dateModified": "2026-08-25",
-     "datePublished": "2026-08-25",
-     "editor": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
-     "reviewedBy": {
-      "@type": "Person",
-      "name": "C.T., CISA"
-     },
      "citation": [
       "ISACA, State of Cybersecurity, workforce sections, 2025",
       "(ISC)² Cybersecurity Workforce Study, 2025"
@@ -18162,7 +17318,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/gdpr/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "800-53 control families",
@@ -18172,7 +17328,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-800-53/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "800-53 Revision 5",
@@ -18182,7 +17338,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-800-53/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "800-53 vs 800-53A vs 800-53B",
@@ -18192,7 +17348,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/nist-800-53/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Accept, risk treatment",
@@ -18202,7 +17358,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/risk-treatment/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Access review",
@@ -18212,7 +17368,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/evidence-that-holds-up/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Accountability, delegated",
@@ -18222,7 +17378,7 @@
     "template": false,
     "level": "",
     "url": "/governance/board-reporting/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Annex A (ISO 27001)",
@@ -18232,7 +17388,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/iso-27001-vs-soc-2/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Annualised loss expectancy",
@@ -18242,7 +17398,7 @@
     "template": false,
     "level": "",
     "url": "/risk/risk-quantification/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Answer library",
@@ -18252,7 +17408,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/security-questionnaires/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Appetite, risk",
@@ -18262,7 +17418,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/appetite-vs-tolerance/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Artefacts, the four",
@@ -18272,7 +17428,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/four-artefacts/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Assertion vs auditor opinion",
@@ -18282,7 +17438,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/management-assertion/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Assertion, management",
@@ -18292,7 +17448,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/management-assertion/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Attestation",
@@ -18302,7 +17458,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/statement-of-applicability/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Audit committee",
@@ -18312,7 +17468,7 @@
     "template": false,
     "level": "",
     "url": "/governance/board-reporting/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Audit response",
@@ -18322,7 +17478,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/responding-to-an-audit/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Audit trail",
@@ -18332,7 +17488,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/responding-to-an-audit/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Audit, internal",
@@ -18342,7 +17498,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/grc-vs-internal-audit/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Authority, delegated",
@@ -18352,7 +17508,7 @@
     "template": true,
     "level": "",
     "url": "/governance/committees-and-delegated-authority/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Availability criterion",
@@ -18362,7 +17518,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Avoid, risk treatment",
@@ -18372,7 +17528,7 @@
     "template": false,
     "level": "",
     "url": "/risk/risk-treatment/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Backup and restore testing",
@@ -18382,7 +17538,7 @@
     "template": true,
     "level": "entry",
     "url": "/compliance/backup-and-restore-testing/",
-    "flags": "template level fresh"
+    "flags": "template level"
    },
    {
     "t": "Board reporting",
@@ -18392,7 +17548,7 @@
     "template": true,
     "level": "",
     "url": "/governance/board-reporting/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Breaking into GRC",
@@ -18402,7 +17558,7 @@
     "template": false,
     "level": "entry",
     "url": "/career/breaking-into-grc/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Business associate",
@@ -18412,7 +17568,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/hipaa-security-rule/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Business continuity",
@@ -18422,7 +17578,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/business-continuity/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Business continuity vs disaster recovery",
@@ -18432,7 +17588,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/business-continuity/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Business impact analysis",
@@ -18442,7 +17598,7 @@
     "template": true,
     "level": "entry",
     "url": "/risk/business-impact-analysis/",
-    "flags": "template level fresh"
+    "flags": "template level"
    },
    {
     "t": "CAIQ",
@@ -18452,7 +17608,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/security-questionnaires/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Capability vs maturity",
@@ -18462,7 +17618,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/control-maturity/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Capacity, risk",
@@ -18472,7 +17628,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/risk-capacity/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Cardholder data environment (CDE)",
@@ -18482,7 +17638,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/pci-dss/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Career path, GRC",
@@ -18492,7 +17648,7 @@
     "template": false,
     "level": "entry",
     "url": "/career/grc-roles/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Career progression, GRC",
@@ -18502,7 +17658,7 @@
     "template": false,
     "level": "entry",
     "url": "/career/career-progression/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Certification body",
@@ -18512,7 +17668,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/how-to-read-a-framework/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Certifications, GRC",
@@ -18522,7 +17678,7 @@
     "template": false,
     "level": "entry",
     "url": "/career/certifications-and-training/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Change management",
@@ -18532,7 +17688,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/change-management-as-a-control/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Change record",
@@ -18542,7 +17698,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/change-management-as-a-control/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CIS Benchmarks",
@@ -18552,7 +17708,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/cis-controls/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CIS Controls",
@@ -18562,7 +17718,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/cis-controls/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "CIS Controls vs Benchmarks",
@@ -18572,7 +17728,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/cis-controls/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "CIS Critical Security Controls",
@@ -18582,7 +17738,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/cis-controls/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CISA",
@@ -18592,7 +17748,7 @@
     "template": false,
     "level": "",
     "url": "/career/certifications-and-training/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CISM",
@@ -18602,7 +17758,7 @@
     "template": false,
     "level": "",
     "url": "/career/certifications-and-training/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CISSP",
@@ -18612,7 +17768,7 @@
     "template": false,
     "level": "",
     "url": "/career/certifications-and-training/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CMMI",
@@ -18622,7 +17778,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/control-maturity/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Committee, risk",
@@ -18632,7 +17788,7 @@
     "template": false,
     "level": "",
     "url": "/governance/committees-and-delegated-authority/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Committee, terms of reference",
@@ -18642,7 +17798,7 @@
     "template": false,
     "level": "",
     "url": "/governance/terms-of-reference/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Common criteria (SOC 2)",
@@ -18652,7 +17808,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Compliance",
@@ -18662,7 +17818,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/what-compliance-produces/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Compliance vs risk",
@@ -18672,7 +17828,7 @@
     "template": false,
     "level": "",
     "url": "/foundations/risk-vs-compliance/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Confidentiality criterion",
@@ -18682,7 +17838,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Continuous compliance",
@@ -18692,7 +17848,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/continuous-control-monitoring/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Continuous control monitoring",
@@ -18702,7 +17858,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/continuous-control-monitoring/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Control",
@@ -18712,7 +17868,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/mapping-obligations-to-controls/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Control baseline (low, moderate, high)",
@@ -18722,7 +17878,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-800-53/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Control inventory",
@@ -18732,7 +17888,7 @@
     "template": true,
     "level": "",
     "url": "/foundations/four-artefacts/",
-    "flags": "example template fresh"
+    "flags": "example template"
    },
    {
     "t": "Control owner",
@@ -18742,7 +17898,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/mapping-obligations-to-controls/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Control testing",
@@ -18752,7 +17908,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/evidence-that-holds-up/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Corrective action",
@@ -18762,7 +17918,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/responding-to-an-audit/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "COSO",
@@ -18772,7 +17928,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/coso-frameworks/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "COSO ERM",
@@ -18782,7 +17938,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/coso-frameworks/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "COSO ICIF (2013)",
@@ -18792,7 +17948,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/coso-frameworks/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "COSO internal control",
@@ -18802,7 +17958,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/coso-frameworks/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Covered entity",
@@ -18812,7 +17968,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/hipaa-security-rule/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CRISC",
@@ -18822,7 +17978,7 @@
     "template": false,
     "level": "",
     "url": "/career/certifications-and-training/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Criteria, Trust Services",
@@ -18832,7 +17988,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Crosswalk",
@@ -18842,7 +17998,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/building-a-crosswalk/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Crosswalk, control",
@@ -18852,7 +18008,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/building-a-crosswalk/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "CSF functions",
@@ -18862,7 +18018,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-csf-2/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CSF Profile",
@@ -18872,7 +18028,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-csf-2/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CSF Tiers",
@@ -18882,7 +18038,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-csf-2/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "CVSS",
@@ -18892,7 +18048,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/vulnerability-management/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Cyber security vs GRC",
@@ -18902,7 +18058,7 @@
     "template": false,
     "level": "",
     "url": "/foundations/grc-vs-cyber-security/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Data controller vs processor",
@@ -18912,7 +18068,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/gdpr/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Data subject rights",
@@ -18922,7 +18078,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/gdpr/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Day in the life, GRC",
@@ -18932,7 +18088,7 @@
     "template": false,
     "level": "entry",
     "url": "/career/day-in-the-life/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Delegated authority matrix",
@@ -18942,7 +18098,7 @@
     "template": true,
     "level": "",
     "url": "/governance/board-reporting/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Description criteria (DC 200)",
@@ -18952,7 +18108,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/management-assertion/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Design effectiveness",
@@ -18962,7 +18118,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/evidence-that-holds-up/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Deviation vs policy waiver",
@@ -18972,7 +18128,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/control-deviations/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Deviation, control",
@@ -18982,7 +18138,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/control-deviations/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Disaster recovery",
@@ -18992,7 +18148,7 @@
     "template": false,
     "level": "",
     "url": "/risk/business-continuity/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "DPIA",
@@ -19002,7 +18158,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/gdpr/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Due diligence, supplier",
@@ -19012,7 +18168,7 @@
     "template": true,
     "level": "",
     "url": "/risk/third-party-risk/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Emergency change",
@@ -19022,7 +18178,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/change-management-as-a-control/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Emerging risk",
@@ -19032,7 +18188,7 @@
     "template": false,
     "level": "",
     "url": "/risk/emerging-risk/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "ePHI",
@@ -19042,7 +18198,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/hipaa-security-rule/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Essential cyber hygiene (IG1)",
@@ -19052,7 +18208,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/cis-controls/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Evidence",
@@ -19062,7 +18218,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/evidence-that-holds-up/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Exception log",
@@ -19072,7 +18228,7 @@
     "template": true,
     "level": "",
     "url": "/risk/policy-waivers/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Exception, policy",
@@ -19082,7 +18238,7 @@
     "template": true,
     "level": "",
     "url": "/risk/policy-waivers/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Exclusion, Annex A",
@@ -19092,7 +18248,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/statement-of-applicability/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Exit criteria, audit",
@@ -19102,7 +18258,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/responding-to-an-audit/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "FAIR model",
@@ -19112,7 +18268,7 @@
     "template": false,
     "level": "",
     "url": "/risk/risk-quantification/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Fieldwork, audit",
@@ -19122,7 +18278,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/responding-to-an-audit/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Findings, audit",
@@ -19132,7 +18288,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/responding-to-an-audit/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "First line",
@@ -19142,7 +18298,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/three-lines-model/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Fourth-party risk",
@@ -19152,7 +18308,7 @@
     "template": false,
     "level": "",
     "url": "/risk/third-party-risk/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Framework",
@@ -19162,7 +18318,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/how-to-read-a-framework/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Framework, kinds of",
@@ -19172,7 +18328,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/how-to-read-a-framework/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "GDPR",
@@ -19182,7 +18338,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/gdpr/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "GDPR fines",
@@ -19192,7 +18348,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/gdpr/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "General Data Protection Regulation",
@@ -19202,7 +18358,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/gdpr/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "GIAC (SANS)",
@@ -19212,7 +18368,7 @@
     "template": false,
     "level": "",
     "url": "/career/certifications-and-training/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "GOVERN function",
@@ -19222,7 +18378,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-csf-2/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Governance",
@@ -19232,7 +18388,7 @@
     "template": false,
     "level": "entry",
     "url": "/governance/what-governance-produces/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Governance vs management",
@@ -19242,7 +18398,7 @@
     "template": false,
     "level": "entry",
     "url": "/governance/governance-vs-management/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "GRC",
@@ -19252,7 +18408,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/what-grc-is/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "GRC analyst",
@@ -19262,7 +18418,7 @@
     "template": false,
     "level": "entry",
     "url": "/career/breaking-into-grc/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "GRC vs cyber security",
@@ -19272,7 +18428,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/grc-vs-cyber-security/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "GRC vs internal audit",
@@ -19282,7 +18438,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/grc-vs-internal-audit/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "HIPAA",
@@ -19292,7 +18448,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/hipaa-security-rule/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "HIPAA risk analysis",
@@ -19302,7 +18458,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/hipaa-security-rule/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "HIPAA Security Rule",
@@ -19312,7 +18468,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/hipaa-security-rule/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Horizon scanning",
@@ -19322,7 +18478,7 @@
     "template": false,
     "level": "",
     "url": "/risk/emerging-risk/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "ICIF vs ERM",
@@ -19332,7 +18488,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/coso-frameworks/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Impact scale",
@@ -19342,7 +18498,7 @@
     "template": true,
     "level": "",
     "url": "/risk/reading-a-risk-register/",
-    "flags": "example template fresh"
+    "flags": "example template"
    },
    {
     "t": "Implementation Groups (IG1 to IG3)",
@@ -19352,7 +18508,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/cis-controls/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Incident vs issue",
@@ -19362,7 +18518,7 @@
     "template": false,
     "level": "",
     "url": "/foundations/risk-issue-incident/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Inherent risk",
@@ -19372,7 +18528,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/reading-a-risk-register/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Internal audit",
@@ -19382,7 +18538,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/grc-vs-internal-audit/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Interview questions, GRC",
@@ -19392,7 +18548,7 @@
     "template": false,
     "level": "entry",
     "url": "/career/interview-questions/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Is GDPR a law",
@@ -19402,7 +18558,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/gdpr/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Is GRC technical",
@@ -19412,7 +18568,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/grc-vs-cyber-security/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Is NIST 800-53 certifiable",
@@ -19422,7 +18578,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-800-53/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Is NIST CSF certifiable",
@@ -19432,7 +18588,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-csf-2/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Is PCI DSS a law",
@@ -19442,7 +18598,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/pci-dss/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Is privacy mandatory in SOC 2",
@@ -19452,7 +18608,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Is SOC 2 a certification",
@@ -19462,7 +18618,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Is there a HIPAA certification",
@@ -19472,7 +18628,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/hipaa-security-rule/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "ISMS",
@@ -19482,7 +18638,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/iso-27001-vs-soc-2/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "ISO 31000",
@@ -19492,7 +18648,7 @@
     "template": false,
     "level": "",
     "url": "/risk/what-the-risk-function-produces/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "ISO/IEC 27001",
@@ -19502,7 +18658,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/iso-27001-vs-soc-2/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Issue log",
@@ -19512,7 +18668,7 @@
     "template": true,
     "level": "",
     "url": "/risk/what-the-risk-function-produces/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Key risk indicator",
@@ -19522,7 +18678,7 @@
     "template": true,
     "level": "entry",
     "url": "/risk/key-risk-indicators/",
-    "flags": "example template level fresh"
+    "flags": "example template level"
    },
    {
     "t": "KRI",
@@ -19532,7 +18688,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/key-risk-indicators/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "KRI vs KPI",
@@ -19542,7 +18698,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/key-risk-indicators/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Lawful basis (GDPR)",
@@ -19552,7 +18708,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/gdpr/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Least privilege",
@@ -19562,7 +18718,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/mapping-obligations-to-controls/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Likelihood scale",
@@ -19572,7 +18728,7 @@
     "template": true,
     "level": "",
     "url": "/risk/reading-a-risk-register/",
-    "flags": "example template fresh"
+    "flags": "example template"
    },
    {
     "t": "Lines model, three",
@@ -19582,7 +18738,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/three-lines-model/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Management review",
@@ -19592,7 +18748,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/statement-of-applicability/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Management vs governance",
@@ -19602,7 +18758,7 @@
     "template": false,
     "level": "",
     "url": "/governance/governance-vs-management/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Mapping, obligation to control",
@@ -19612,7 +18768,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/mapping-obligations-to-controls/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Maturity model",
@@ -19622,7 +18778,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/control-maturity/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Maturity vs effectiveness",
@@ -19632,7 +18788,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/control-maturity/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Maturity, control",
@@ -19642,7 +18798,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/control-maturity/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Merchant levels",
@@ -19652,7 +18808,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/pci-dss/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Mitigate, risk treatment",
@@ -19662,7 +18818,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/risk-treatment/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Monitoring, control",
@@ -19672,7 +18828,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/continuous-control-monitoring/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "NIST CSF 2.0",
@@ -19682,7 +18838,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/nist-csf-2/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "NIST Cybersecurity Framework",
@@ -19692,7 +18848,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-csf-2/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "NIST SP 800-53",
@@ -19702,7 +18858,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/nist-800-53/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Nonconformity",
@@ -19712,7 +18868,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/responding-to-an-audit/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Numbering, clause",
@@ -19722,7 +18878,7 @@
     "template": false,
     "level": "",
     "url": "/foundations/how-to-use-this-reference/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Obligation register",
@@ -19732,7 +18888,7 @@
     "template": true,
     "level": "",
     "url": "/compliance/mapping-obligations-to-controls/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Operating effectiveness",
@@ -19742,7 +18898,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/evidence-that-holds-up/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Owner, risk",
@@ -19752,7 +18908,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/reading-a-risk-register/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Patch management",
@@ -19762,7 +18918,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/vulnerability-management/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "PCI DSS",
@@ -19772,7 +18928,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/pci-dss/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "PCI DSS v4.0",
@@ -19782,7 +18938,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/pci-dss/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Policy",
@@ -19792,7 +18948,7 @@
     "template": false,
     "level": "entry",
     "url": "/governance/policy-hierarchy/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Policy hierarchy",
@@ -19802,7 +18958,7 @@
     "template": false,
     "level": "",
     "url": "/governance/policy-hierarchy/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Privacy criterion",
@@ -19812,7 +18968,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Procedure",
@@ -19822,7 +18978,7 @@
     "template": false,
     "level": "entry",
     "url": "/governance/policy-hierarchy/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Processing integrity criterion",
@@ -19832,7 +18988,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "QSA",
@@ -19842,7 +18998,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/pci-dss/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Quantification, risk",
@@ -19852,7 +19008,7 @@
     "template": false,
     "level": "",
     "url": "/risk/risk-quantification/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Quantitative risk analysis",
@@ -19862,7 +19018,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/risk-quantification/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Questionnaire, security",
@@ -19872,7 +19028,7 @@
     "template": true,
     "level": "entry",
     "url": "/compliance/security-questionnaires/",
-    "flags": "template level fresh"
+    "flags": "template level"
    },
    {
     "t": "Recovery point objective (RPO)",
@@ -19882,7 +19038,7 @@
     "template": false,
     "level": "",
     "url": "/risk/business-impact-analysis/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Recovery time objective (RTO)",
@@ -19892,7 +19048,7 @@
     "template": false,
     "level": "",
     "url": "/risk/business-impact-analysis/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Register, risk",
@@ -19902,7 +19058,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/reading-a-risk-register/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Remediation SLA",
@@ -19912,7 +19068,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/vulnerability-management/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Report on compliance (ROC)",
@@ -19922,7 +19078,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/pci-dss/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Required vs addressable (HIPAA)",
@@ -19932,7 +19088,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/hipaa-security-rule/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Residual risk",
@@ -19942,7 +19098,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/reading-a-risk-register/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Review date",
@@ -19952,7 +19108,7 @@
     "template": false,
     "level": "",
     "url": "/risk/reading-a-risk-register/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Risk",
@@ -19962,7 +19118,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/what-the-risk-function-produces/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Risk appetite statement",
@@ -19972,7 +19128,7 @@
     "template": true,
     "level": "",
     "url": "/risk/appetite-vs-tolerance/",
-    "flags": "example template fresh"
+    "flags": "example template"
    },
    {
     "t": "Risk Management Framework (RMF)",
@@ -19982,7 +19138,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/nist-800-53/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Risk matrix",
@@ -19992,7 +19148,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/what-grc-is/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Risk treatment",
@@ -20002,7 +19158,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/risk-treatment/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Risk vs compliance",
@@ -20012,7 +19168,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/risk-vs-compliance/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Risk vs issue vs incident",
@@ -20022,7 +19178,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/risk-issue-incident/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Risk workshop",
@@ -20032,7 +19188,7 @@
     "template": true,
     "level": "",
     "url": "/risk/risk-workshop/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Roles, GRC",
@@ -20042,7 +19198,7 @@
     "template": false,
     "level": "entry",
     "url": "/career/grc-roles/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Safeguard (CIS)",
@@ -20052,7 +19208,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/cis-controls/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Sampling",
@@ -20062,7 +19218,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/responding-to-an-audit/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Scale, risk",
@@ -20072,7 +19228,7 @@
     "template": true,
     "level": "",
     "url": "/risk/reading-a-risk-register/",
-    "flags": "example template fresh"
+    "flags": "example template"
    },
    {
     "t": "Scope, ISMS",
@@ -20082,7 +19238,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/statement-of-applicability/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Second line",
@@ -20092,7 +19248,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/three-lines-model/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Security criterion",
@@ -20102,7 +19258,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Self-assessment questionnaire (SAQ)",
@@ -20112,7 +19268,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/pci-dss/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Self-review threat",
@@ -20122,7 +19278,7 @@
     "template": false,
     "level": "",
     "url": "/foundations/three-lines-model/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Shall vs should",
@@ -20132,7 +19288,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/how-to-read-a-framework/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "SIG questionnaire",
@@ -20142,7 +19298,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/security-questionnaires/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "SIG vs CAIQ",
@@ -20152,7 +19308,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/security-questionnaires/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "SOC 1 report",
@@ -20162,7 +19318,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "SOC 1 vs SOC 2 vs SOC 3",
@@ -20172,7 +19328,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "SOC 2",
@@ -20182,7 +19338,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/iso-27001-vs-soc-2/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "SOC 2 assertion",
@@ -20192,7 +19348,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/management-assertion/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "SOC 2 categories",
@@ -20202,7 +19358,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "SOC 2 exception",
@@ -20212,7 +19368,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/control-deviations/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "SOC 3 report",
@@ -20222,7 +19378,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "SOC reports",
@@ -20232,7 +19388,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "SOX 404",
@@ -20242,7 +19398,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/coso-frameworks/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Standard",
@@ -20252,7 +19408,7 @@
     "template": false,
     "level": "entry",
     "url": "/governance/policy-hierarchy/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Statement of applicability",
@@ -20262,7 +19418,7 @@
     "template": true,
     "level": "",
     "url": "/frameworks/statement-of-applicability/",
-    "flags": "example template fresh"
+    "flags": "example template"
    },
    {
     "t": "Supplier risk",
@@ -20272,7 +19428,7 @@
     "template": false,
     "level": "",
     "url": "/risk/third-party-risk/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Terms of reference",
@@ -20282,7 +19438,7 @@
     "template": false,
     "level": "entry",
     "url": "/governance/terms-of-reference/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Testing, control",
@@ -20292,7 +19448,7 @@
     "template": false,
     "level": "",
     "url": "/compliance/evidence-that-holds-up/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Third line",
@@ -20302,7 +19458,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/three-lines-model/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Third-party risk management",
@@ -20312,7 +19468,7 @@
     "template": true,
     "level": "entry",
     "url": "/risk/third-party-risk/",
-    "flags": "example template level fresh"
+    "flags": "example template level"
    },
    {
     "t": "Tolerance, risk",
@@ -20322,7 +19478,7 @@
     "template": false,
     "level": "entry",
     "url": "/risk/appetite-vs-tolerance/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "TPRM",
@@ -20332,7 +19488,7 @@
     "template": false,
     "level": "",
     "url": "/risk/third-party-risk/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Training, GRC",
@@ -20342,7 +19498,7 @@
     "template": false,
     "level": "entry",
     "url": "/career/certifications-and-training/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Transfer, risk",
@@ -20352,7 +19508,7 @@
     "template": false,
     "level": "",
     "url": "/risk/risk-treatment/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Transfer, risk treatment",
@@ -20362,7 +19518,7 @@
     "template": false,
     "level": "",
     "url": "/risk/risk-treatment/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Treatment plan",
@@ -20372,7 +19528,7 @@
     "template": true,
     "level": "",
     "url": "/risk/risk-treatment/",
-    "flags": "example template fresh"
+    "flags": "example template"
    },
    {
     "t": "Trust Services Criteria",
@@ -20382,7 +19538,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/trust-services-criteria/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Type I and Type II",
@@ -20392,7 +19548,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/iso-27001-vs-soc-2/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Type I vs Type II (SOC)",
@@ -20402,7 +19558,7 @@
     "template": false,
     "level": "entry",
     "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "UK GDPR",
@@ -20412,7 +19568,7 @@
     "template": false,
     "level": "",
     "url": "/frameworks/gdpr/",
-    "flags": "fresh"
+    "flags": ""
    },
    {
     "t": "Vendor due diligence",
@@ -20422,7 +19578,7 @@
     "template": true,
     "level": "",
     "url": "/risk/third-party-risk/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Vendor risk",
@@ -20432,7 +19588,7 @@
     "template": false,
     "level": "",
     "url": "/risk/third-party-risk/",
-    "flags": "example fresh"
+    "flags": "example"
    },
    {
     "t": "Vocabulary, GRC",
@@ -20442,7 +19598,7 @@
     "template": false,
     "level": "entry",
     "url": "/foundations/terms-and-definitions/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Vulnerability management",
@@ -20452,7 +19608,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/vulnerability-management/",
-    "flags": "example level fresh"
+    "flags": "example level"
    },
    {
     "t": "Vulnerability scan vs penetration test",
@@ -20462,7 +19618,7 @@
     "template": false,
     "level": "entry",
     "url": "/compliance/vulnerability-management/",
-    "flags": "level fresh"
+    "flags": "level"
    },
    {
     "t": "Waiver, policy",
@@ -20472,7 +19628,7 @@
     "template": true,
     "level": "",
     "url": "/risk/policy-waivers/",
-    "flags": "template fresh"
+    "flags": "template"
    },
    {
     "t": "Workshop, risk",
@@ -20482,19 +19638,16 @@
     "template": true,
     "level": "",
     "url": "/risk/risk-workshop/",
-    "flags": "template fresh"
+    "flags": "template"
    }
   ],
   "coverage": [
    "233 headwords &middot; 41 with examples",
    "233 headwords live &middot; 60 entries",
-   "90 framework terms mapped",
-   "Median age 15 days"
+   "90 framework terms mapped"
   ]
  },
  "pages": {
-  "editorial_policy": "\n<h1 class=\"article__title\" style=\"max-width:none\">Editorial policy</h1>\n<p class=\"lede\" style=\"max-width:60ch\">How entries are written, who reviews them, and what\ngets corrected.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">1</span>WHO WRITES THIS</h2>\n<p>Entries are written by practitioners who have done the work being described &mdash; run the\nregister, sat the audit, written the policy that was later tested. Every entry names its editor\nand the credential they hold. An entry with no named editor is not published.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">2</span>REVIEW CYCLE</h2>\n<p>Each entry carries a review date and an edition number. Entries are reviewed quarterly, and\nsooner when a source standard is revised. The review date is the date a human read the entry\nagainst its sources, not the date a file changed.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">3</span>SOURCES</h2>\n<p>Claims about a framework cite the framework. Where an entry states a practice rather than a\nrequirement, it says so. We do not cite vendor marketing, and we do not cite ourselves.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">4</span>CORRECTIONS</h2>\n<p>Corrections are published, not quietly patched. A corrected entry increments its edition and\nrecords what changed. If you have found an error, the fastest route is the\n&ldquo;Suggest an edit&rdquo; link in the header.</p>\n",
-  "suggest": "\n<h1 class=\"article__title\" style=\"max-width:none\">Suggest an edit</h1>\n<p class=\"lede\" style=\"max-width:60ch\">Corrections are welcome and are published rather than\nquietly patched.</p>\n<p>Tell us the entry, the clause number, what is wrong, and &mdash; if you have one &mdash; the\nsource that settles it. Clause numbers are the fastest way to point at something: every heading\nin every entry has one, and clicking the <code>#</code> beside a heading copies a link straight\nto it.</p>\n<p>Replace this page with whatever intake you actually use &mdash; a form, an inbox, a repository\nissue template. It exists in the build because the editorial policy links to it, and a policy\nthat links to nothing is not a policy.</p>\n",
   "not_found": "\n<h1 class=\"article__title\" style=\"max-width:none\">No entry at that address</h1>\n<p class=\"lede\" style=\"max-width:60ch\">The reference has been renumbered before and will be\nagain. The index lists every entry currently published.</p>\n<p><a href=\"/a-z/\">Browse the A&ndash;Z index</a> or press <kbd>&#8984;K</kbd> to search.</p>\n"
  }
 }

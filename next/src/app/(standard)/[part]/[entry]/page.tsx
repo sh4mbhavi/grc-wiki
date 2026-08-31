@@ -31,7 +31,6 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
             description: entry.description,
             url: entry.url,
             type: "article",
-            modifiedTime: entry.reviewed || undefined,
         },
     };
 }
@@ -80,8 +79,6 @@ export default async function EntryPage({ params }: { params: Promise<Params> })
                         <div className="article__clause">{entry.clause}</div>
                         <h1 className="article__title">{entry.title}</h1>
                         <div className="article__meta">
-                            <span>Reviewed {entry.reviewed}</span>
-                            <span>Ed. {entry.edition}</span>
                             <span>Reading {entry.reading_minutes} min</span>
                             <span>Cited by {entry.cited_by}</span>
                             <span>{entry.sources.length} sources</span>

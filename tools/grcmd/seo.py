@@ -1,8 +1,8 @@
 """Structured data, sitemap, robots.
 
 The reference ranks on definitional queries, so the schema does three jobs:
-say what the page defines (DefinedTerm), say who stands behind it
-(TechArticle + reviewedBy), and expose the FAQ block. Nothing here is
+say what the page defines (DefinedTerm), anchor each claim to its sources
+(TechArticle + citation), and expose the FAQ block. Nothing here is
 decorative — every field maps to something visible on the page, which is the
 only version of structured data that survives a manual review.
 """
@@ -104,14 +104,7 @@ def json_ld_entry(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> lis
         "articleSection": part.name,
         "wordCount": _word_count(blocks),
         "timeRequired": f"PT{entry.reading_minutes}M",
-        "version": entry.edition,
     }
-    if entry.reviewed:
-        article["dateModified"] = entry.reviewed
-        article["datePublished"] = entry.reviewed
-    if entry.editor:
-        article["editor"] = {"@type": "Person", "name": entry.editor}
-        article["reviewedBy"] = {"@type": "Person", "name": entry.editor}
     if entry.sources:
         article["citation"] = list(entry.sources)
     if entry.keywords:

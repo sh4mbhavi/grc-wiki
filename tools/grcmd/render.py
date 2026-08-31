@@ -12,7 +12,6 @@ from typing import Any
 
 from .model import Entry, Site
 from .parse import md_inline
-from datetime import date
 
 from .seo import json_ld_entry, json_ld_home, json_ld_index
 
@@ -306,7 +305,6 @@ def head(site: Site, *, title: str, description: str, path: str, ld: list[dict],
 
 
 def masthead(site: Site, *, crumbs: str = "", with_drawer: bool = False) -> str:
-    ed = site.config["editorial"]
     total = site.entries_total
     parts = site.config["site"]["parts_total"]
     drawer = (
@@ -322,8 +320,6 @@ def masthead(site: Site, *, crumbs: str = "", with_drawer: bool = False) -> str:
 <span class="masthead__crumbs">{crumb_html}</span>
 <div class="masthead__tail">
 <button class="masthead__search" type="button" data-finder-open>Search&nbsp;&nbsp;&#8984;K</button>
-<a class="masthead__link" href="{e(site.url(ed['policy_url']))}">Editorial policy</a>
-<a class="masthead__link" href="{e(site.url(ed['suggest_url']))}">Suggest an edit</a>
 <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch colour mode">
 <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="8" cy="8" r="3.2"/><path d="M8 1v1.6M8 13.4V15M15 8h-1.6M2.6 8H1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1M12.9 12.9l-1.1-1.1M4.2 4.2 3.1 3.1"/></svg>
 <span data-theme-label>dark</span></button>
@@ -347,19 +343,14 @@ def finder(site: Site) -> str:
 
 
 def colophon(site: Site) -> str:
-    ed = site.config["editorial"]
     parts = "".join(
         f'<li><a href="{e(site.url(p.url))}">{e(p.n)} &middot; {e(p.name)}</a></li>' for p in site.parts
     )
     return f"""<footer class="colophon">
 <div><h2>THE REFERENCE</h2><ul>{parts}</ul></div>
-<div><h2>EDITORIAL</h2><ul>
-<li><a href="{e(site.url(ed['policy_url']))}">Editorial policy</a></li>
-<li><a href="{e(site.url(ed['suggest_url']))}">Suggest an edit</a></li>
+<div><h2>RESOURCES</h2><ul>
 <li><a href="{e(site.url('/a-z/'))}">A&ndash;Z index</a></li>
 </ul></div>
-<div><h2>PROVENANCE</h2>
-<p style="margin:0">Reviewed on a {e(ed['review_cycle'].lower())} cycle. Every entry names its editor and its sources.</p></div>
 </footer>"""
 
 
@@ -442,7 +433,6 @@ def page_rail(site: Site, entry: Entry) -> str:
         for label, href in (
             ("Cite this page", "#cite"),
             ("Print / PDF", "javascript:window.print()"),
-            ("Report an error", site.url(site.config["editorial"]["suggest_url"])),
         )
     )
 
@@ -458,8 +448,6 @@ def page_rail(site: Site, entry: Entry) -> str:
 <dl>
 <dt>figures</dt><dd>{e(entry.figure_count)}</dd>
 <dt>sources</dt><dd>{e(len(entry.sources))}</dd>
-<dt>editor</dt><dd>{e(entry.editor)}</dd>
-<dt>reviewed</dt><dd>{e(entry.reviewed)}</dd>
 </dl>
 </div>
 {figures}
@@ -527,8 +515,6 @@ def entry_page(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> str:
         pager = f'<nav class="pager" aria-label="Adjacent entries">{left}{right}</nav>'
 
     meta_bits = [
-        f"Reviewed {e(entry.reviewed)}",
-        f"Ed. {e(entry.edition)}",
         f"Reading {e(entry.reading_minutes)} min",
         f"Cited by {e(entry.cited_by)}",
         f"{e(len(entry.sources))} sources",
@@ -597,12 +583,6 @@ def home_page(site: Site) -> str:
         if site.by_clause(c["ref"])
     )
 
-    revised = "".join(
-        f'<li><a href="{e(site.url(en.url))}">{e(en.title)}</a>'
-        f"<span>{e(en.reviewed)} &middot; ed. {e(en.edition)}</span></li>"
-        for en in sorted(site.entries, key=lambda x: x.reviewed, reverse=True)[:3]
-    )
-
     return f"""{head(site,
         title=f"{home['title']} — {site.name}",
         description=cfg['site']['description'],
@@ -644,10 +624,7 @@ def home_page(site: Site) -> str:
 <aside class="home__aside">
 <h2 class="section-rule">MOST CITED</h2>
 <div class="cited"><ul>{cited}</ul></div>
-<h2 class="section-rule" style="margin-top:var(--s-8)">RECENTLY REVISED</h2>
-<ul class="revised">{revised}</ul>
-<div class="policy"><b>{e(cfg['home']['maintenance']['label'])}</b>{e(" ".join(cfg['home']['maintenance']['body'].split()))}
-<span style="display:block;margin-top:var(--s-2)"><a href="{e(site.url(ed['policy_url']))}">Read the editorial policy</a></span></div>
+<div class="policy"><b>{e(cfg['home']['maintenance']['label'])}</b>{e(" ".join(cfg['home']['maintenance']['body'].split()))}</div>
 </aside>
 </div>
 </main>
@@ -663,7 +640,6 @@ BROWSE_MODES = [
     ("By framework", None, False),
     ("By artefact", None, False),
     ("By role", None, False),
-    ("Recently revised", None, False),
 ]
 
 # All off by default. The handoff shows "Entry-level" ticked, but this page is
@@ -673,7 +649,6 @@ FILTERS = [
     ("level", "Entry-level explanations", False),
     ("example", "Has worked example", False),
     ("template", "Has downloadable template", False),
-    ("fresh", "Revised in last 90 days", False),
 ]
 
 
@@ -682,21 +657,10 @@ def _coverage(site: Site) -> list[str]:
     live = [t for t in terms if site.by_clause(t.ref)]
     examples = sum(1 for t in terms if t.example)
     frameworks = sum(1 for t in terms if t.ref.startswith("5."))
-    ages = []
-    for entry in site.entries:
-        if not entry.reviewed:
-            continue
-        try:
-            ages.append((date.today() - date.fromisoformat(entry.reviewed)).days)
-        except ValueError:
-            continue
-    ages.sort()
-    median = ages[len(ages) // 2] if ages else 0
     return [
         f"{len(terms)} headwords &middot; {examples} with examples",
         f"{len(live)} headwords live &middot; {site.entries_total} entries",
         f"{frameworks} framework terms mapped",
-        f"Median age {median} days",
     ]
 
 
@@ -730,7 +694,6 @@ def index_page(site: Site) -> str:
                     ("example", term.example),
                     ("template", term.template),
                     ("level", term.level == "entry"),
-                    ("fresh", _is_fresh(site, term)),
                 )
                 if on
             )
@@ -820,16 +783,6 @@ Terms in grey are commissioned and not yet published &mdash; the clause number i
 </div>
 {colophon(site)}
 {tail(site)}"""
-
-
-def _is_fresh(site: Site, term) -> bool:
-    entry = site.by_clause(term.ref)
-    if entry is None or not entry.reviewed:
-        return False
-    try:
-        return (date.today() - date.fromisoformat(entry.reviewed)).days <= 90
-    except ValueError:
-        return False
 
 
 def index_csv(site: Site) -> str:

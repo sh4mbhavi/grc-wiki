@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-import { config, editorial, href, parts, site } from "@/lib/content";
+import { config, href, parts, site } from "@/lib/content";
 
 const SearchIcon = () => (
     <svg
@@ -40,8 +40,6 @@ export function Masthead({ crumbs, withDrawer = false }: { crumbs?: ReactNode; w
                 <button className="masthead__search" type="button" data-finder-open="">
                     Search&nbsp;&nbsp;⌘K
                 </button>
-                <a className="masthead__link" href={href(editorial.policy_url)}>Editorial policy</a>
-                <a className="masthead__link" href={href(editorial.suggest_url)}>Suggest an edit</a>
                 <button
                     className="theme-toggle"
                     type="button"
@@ -105,19 +103,10 @@ export function Colophon() {
                 </ul>
             </div>
             <div>
-                <h2>EDITORIAL</h2>
+                <h2>RESOURCES</h2>
                 <ul>
-                    <li><a href={href(editorial.policy_url)}>Editorial policy</a></li>
-                    <li><a href={href(editorial.suggest_url)}>Suggest an edit</a></li>
                     <li><a href={href("/a-z/")}>A–Z index</a></li>
                 </ul>
-            </div>
-            <div>
-                <h2>PROVENANCE</h2>
-                <p style={{ margin: 0 }}>
-                    Reviewed on a {editorial.review_cycle.toLowerCase()} cycle. Every entry names its
-                    editor and its sources.
-                </p>
             </div>
         </footer>
     );

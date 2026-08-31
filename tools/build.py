@@ -31,44 +31,6 @@ DIST = ROOT / "dist"
 NEXT = ROOT / "next"
 BUNDLE = NEXT / "src" / "content" / "bundle.json"
 
-EDITORIAL_POLICY = """
-<h1 class="article__title" style="max-width:none">Editorial policy</h1>
-<p class="lede" style="max-width:60ch">How entries are written, who reviews them, and what
-gets corrected.</p>
-
-<h2 class="clause"><span class="clause__n">1</span>WHO WRITES THIS</h2>
-<p>Entries are written by practitioners who have done the work being described &mdash; run the
-register, sat the audit, written the policy that was later tested. Every entry names its editor
-and the credential they hold. An entry with no named editor is not published.</p>
-
-<h2 class="clause"><span class="clause__n">2</span>REVIEW CYCLE</h2>
-<p>Each entry carries a review date and an edition number. Entries are reviewed quarterly, and
-sooner when a source standard is revised. The review date is the date a human read the entry
-against its sources, not the date a file changed.</p>
-
-<h2 class="clause"><span class="clause__n">3</span>SOURCES</h2>
-<p>Claims about a framework cite the framework. Where an entry states a practice rather than a
-requirement, it says so. We do not cite vendor marketing, and we do not cite ourselves.</p>
-
-<h2 class="clause"><span class="clause__n">4</span>CORRECTIONS</h2>
-<p>Corrections are published, not quietly patched. A corrected entry increments its edition and
-records what changed. If you have found an error, the fastest route is the
-&ldquo;Suggest an edit&rdquo; link in the header.</p>
-"""
-
-SUGGEST = """
-<h1 class="article__title" style="max-width:none">Suggest an edit</h1>
-<p class="lede" style="max-width:60ch">Corrections are welcome and are published rather than
-quietly patched.</p>
-<p>Tell us the entry, the clause number, what is wrong, and &mdash; if you have one &mdash; the
-source that settles it. Clause numbers are the fastest way to point at something: every heading
-in every entry has one, and clicking the <code>#</code> beside a heading copies a link straight
-to it.</p>
-<p>Replace this page with whatever intake you actually use &mdash; a form, an inbox, a repository
-issue template. It exists in the build because the editorial policy links to it, and a policy
-that links to nothing is not a policy.</p>
-"""
-
 NOT_FOUND = """
 <h1 class="article__title" style="max-width:none">No entry at that address</h1>
 <p class="lede" style="max-width:60ch">The reference has been renumbered before and will be
@@ -222,20 +184,7 @@ def build(*, bundle: bool, check: bool) -> int:
     for entry in site.entries:
         blocks, _, _ = parsed[entry.clause]
         write(DIST / entry.url.strip("/") / "index.html", render.entry_page(site, entry, blocks))
-        urls.append((entry.url, entry.reviewed or seo.today(), "monthly"))
-
-    write(DIST / "editorial-policy" / "index.html", render.simple_page(
-        site, path="/editorial-policy/", title="Editorial policy",
-        description="Who writes this reference, how it is reviewed, and how corrections are "
-                    "handled.",
-        body_html=EDITORIAL_POLICY))
-    urls.append(("/editorial-policy/", seo.today(), "yearly"))
-
-    write(DIST / "suggest-an-edit" / "index.html", render.simple_page(
-        site, path="/suggest-an-edit/", title="Suggest an edit",
-        description="How to report an error in the GRC Wiki.",
-        body_html=SUGGEST))
-    urls.append(("/suggest-an-edit/", seo.today(), "yearly"))
+        urls.append((entry.url, seo.today(), "monthly"))
 
     write(DIST / "404.html", render.simple_page(
         site, path="/404.html", title="Not found",
@@ -274,7 +223,6 @@ def build(*, bundle: bool, check: bool) -> int:
                         ("example", term.example),
                         ("template", term.template),
                         ("level", term.level == "entry"),
-                        ("fresh", render._is_fresh(site, term)),
                     ) if on
                 ),
             })
@@ -299,8 +247,6 @@ def build(*, bundle: bool, check: bool) -> int:
             ],
             "index": {"terms": index_terms, "coverage": render._coverage(site)},
             "pages": {
-                "editorial_policy": EDITORIAL_POLICY,
-                "suggest": SUGGEST,
                 "not_found": NOT_FOUND,
             },
         }, ensure_ascii=False, indent=1))

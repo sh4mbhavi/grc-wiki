@@ -147,9 +147,9 @@ Why Vercel over GitHub Pages, for this site specifically:
   domain already ranking.
 - **A preview per branch**, so an entry can be reviewed rendered before it is
   live.
-- **Headroom.** `/suggest-an-edit/` is a placeholder today. Delete
-  `output: "export"` from `next.config.mjs` and it can be a real form; nothing
-  else in the app has to change.
+- **Headroom.** The site is a static export. Delete `output: "export"` from
+  `next.config.mjs` and the app can add server-rendered routes; nothing else has
+  to change.
 
 Vercel's Hobby plan is non-commercial, so a client site needs **Pro**.
 
@@ -183,9 +183,9 @@ domain — they are two renderings of one site and the canonicals would compete.
 
 ## SEO
 
-Every entry ships `TechArticle` with `reviewedBy` and `citation`, plus
-`BreadcrumbList`; entries with `defines:` add `DefinedTerm`, and entries with a
-`:::faq` add `FAQPage`. Nothing in the structured data is invisible on the page.
+Every entry ships `TechArticle` with `citation`, plus `BreadcrumbList`; entries
+with `defines:` add `DefinedTerm`, and entries with a `:::faq` add `FAQPage`.
+Nothing in the structured data is invisible on the page.
 
 Search is a prebuilt JSON index — entries, every clause, every FAQ question,
 every inline definition and every resolving index headword — fetched once and
@@ -196,9 +196,9 @@ The A–Z ships `DefinedTermSet` with every published headword, and offers the
 term list as CSV at `/a-z/index.csv` — link bait, because other GRC sites cite
 a term list.
 
-The editorial policy page is the E-E-A-T anchor: named editors, review dates,
-published corrections, and the commercial relationship stated rather than
-buried.
+Every claim is anchored to the standard it cites: each entry lists its
+`sources`, and those citations ship in the structured data. The reference is
+published anonymously — no named authors, no masthead.
 
 ## Content status
 

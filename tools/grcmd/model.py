@@ -47,9 +47,6 @@ class Entry:
     short_title: str = ""
     keywords: list[str] = field(default_factory=list)
     defines: str = ""
-    reviewed: str = ""
-    edition: int = 1
-    editor: str = ""
     reading_minutes: int = 0
     cited_by: int = 0
     canonical_entry: bool = False
@@ -180,7 +177,6 @@ def load_entry(path: Path) -> Entry:
     kwargs: dict[str, Any] = {k: v for k, v in meta.items()}
     kwargs["clause"] = str(kwargs["clause"])
     kwargs["related"] = [str(r) for r in kwargs.get("related", [])]
-    kwargs["reviewed"] = str(kwargs.get("reviewed", ""))
     kwargs["description"] = " ".join(str(kwargs["description"]).split())
     kwargs["quick_facts"] = {str(k): str(v) for k, v in (kwargs.get("quick_facts") or {}).items()}
 

@@ -19,11 +19,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         })),
         ...entries.map((entry) => ({
             url: absolute(entry.url),
-            lastModified: entry.reviewed ? new Date(entry.reviewed) : now,
+            lastModified: now,
             changeFrequency: "monthly" as const,
             priority: entry.canonical_entry ? 0.9 : 0.6,
         })),
-        { url: absolute("/editorial-policy/"), lastModified: now, changeFrequency: "yearly", priority: 0.4 },
-        { url: absolute("/suggest-an-edit/"), lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     ];
 }

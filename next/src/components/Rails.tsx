@@ -1,5 +1,5 @@
 import type { Entry } from "@/lib/content";
-import { byClause, editorial, entriesInPart, href, navTitle, parts } from "@/lib/content";
+import { byClause, entriesInPart, href, navTitle, parts } from "@/lib/content";
 
 export function CorpusRail({ current }: { current: Entry | null }) {
     const related = current
@@ -99,8 +99,6 @@ export function PageRail({ entry }: { entry: Entry }) {
                     <dl>
                         <dt>figures</dt><dd>{entry.figure_count}</dd>
                         <dt>sources</dt><dd>{entry.sources.length}</dd>
-                        <dt>editor</dt><dd>{entry.editor}</dd>
-                        <dt>reviewed</dt><dd>{entry.reviewed}</dd>
                     </dl>
                 </div>
 
@@ -119,7 +117,6 @@ export function PageRail({ entry }: { entry: Entry }) {
                     <span className="rail__heading">TOOLS</span>
                     <ul>
                         <li><a href="#cite">Cite this page</a></li>
-                        <li><a href={href(editorial.suggest_url)}>Report an error</a></li>
                     </ul>
                 </div>
             </details>

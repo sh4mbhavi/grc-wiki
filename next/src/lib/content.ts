@@ -38,9 +38,6 @@ export interface Entry {
     description: string;
     keywords: string[];
     defines: string;
-    reviewed: string;
-    edition: number;
-    editor: string;
     reading_minutes: number;
     cited_by: number;
     canonical_entry: boolean;
@@ -81,9 +78,6 @@ interface Bundle {
             parts_total: number;
         };
         editorial: {
-            policy_url: string;
-            suggest_url: string;
-            review_cycle: string;
             standfirst: string;
         };
         home: {
@@ -100,7 +94,7 @@ interface Bundle {
     parts: Part[];
     entries: Entry[];
     index: { terms: IndexTerm[]; coverage: string[] };
-    pages: { editorial_policy: string; suggest: string; not_found: string };
+    pages: { not_found: string };
 }
 
 const bundle = bundleJson as unknown as Bundle;

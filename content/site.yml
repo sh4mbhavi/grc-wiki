@@ -30,9 +30,6 @@ site:
 # an entry's recommendation note is written into that note directly.
 
 editorial:
-  policy_url: /editorial-policy/
-  suggest_url: /suggest-an-edit/
-  review_cycle: Quarterly
   standfirst: A PLAIN-LANGUAGE REFERENCE FOR PRACTITIONERS
 
 parts:
@@ -71,8 +68,7 @@ home:
   title: Governance, risk and compliance, defined properly
   blurb: >-
     Cross-referenced entries covering what the work is, which artefact answers
-    which question, and how the frameworks fit together. Reviewed quarterly.
-    No login.
+    which question, and how the frameworks fit together. No login.
   # Not decoration. These are the five highest-intent target queries, seeded as
   # the demonstrated use of the search box. Swap them as the keyword set moves.
   chips:
@@ -94,5 +90,5 @@ home:
   maintenance:
     label: HOW THIS IS MAINTAINED
     body: >-
-      Every entry carries a review date, a named editor and its sources.
-      Corrections are published, not quietly patched.
+      Every claim is checked against the standard it cites and corrected
+      against that source when it is wrong.
