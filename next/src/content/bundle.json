@@ -168,6 +168,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Annualised loss expectancy",
+     "url": "https://grc-wiki.vercel.app/risk/risk-quantification/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Appetite, risk",
      "url": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/"
     },
@@ -220,6 +225,21 @@
      "@type": "DefinedTerm",
      "name": "Breaking into GRC",
      "url": "https://grc-wiki.vercel.app/career/breaking-into-grc/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Business continuity",
+     "url": "https://grc-wiki.vercel.app/risk/business-continuity/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Business continuity vs disaster recovery",
+     "url": "https://grc-wiki.vercel.app/risk/business-continuity/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Business impact analysis",
+     "url": "https://grc-wiki.vercel.app/risk/business-impact-analysis/"
     },
     {
      "@type": "DefinedTerm",
@@ -353,13 +373,33 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Disaster recovery",
+     "url": "https://grc-wiki.vercel.app/risk/business-continuity/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Due diligence, supplier",
+     "url": "https://grc-wiki.vercel.app/risk/third-party-risk/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Emerging risk",
+     "url": "https://grc-wiki.vercel.app/risk/emerging-risk/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Evidence",
      "url": "https://grc-wiki.vercel.app/compliance/evidence-that-holds-up/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Exception log",
-     "url": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/"
+     "url": "https://grc-wiki.vercel.app/risk/policy-waivers/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Exception, policy",
+     "url": "https://grc-wiki.vercel.app/risk/policy-waivers/"
     },
     {
      "@type": "DefinedTerm",
@@ -370,6 +410,11 @@
      "@type": "DefinedTerm",
      "name": "Exit criteria, audit",
      "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "FAIR model",
+     "url": "https://grc-wiki.vercel.app/risk/risk-quantification/"
     },
     {
      "@type": "DefinedTerm",
@@ -385,6 +430,11 @@
      "@type": "DefinedTerm",
      "name": "First line",
      "url": "https://grc-wiki.vercel.app/foundations/three-lines-model/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Fourth-party risk",
+     "url": "https://grc-wiki.vercel.app/risk/third-party-risk/"
     },
     {
      "@type": "DefinedTerm",
@@ -430,6 +480,11 @@
      "@type": "DefinedTerm",
      "name": "GRC vs internal audit",
      "url": "https://grc-wiki.vercel.app/foundations/grc-vs-internal-audit/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Horizon scanning",
+     "url": "https://grc-wiki.vercel.app/risk/emerging-risk/"
     },
     {
      "@type": "DefinedTerm",
@@ -480,6 +535,21 @@
      "@type": "DefinedTerm",
      "name": "Issue log",
      "url": "https://grc-wiki.vercel.app/risk/what-the-risk-function-produces/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Key risk indicator",
+     "url": "https://grc-wiki.vercel.app/risk/key-risk-indicators/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "KRI",
+     "url": "https://grc-wiki.vercel.app/risk/key-risk-indicators/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "KRI vs KPI",
+     "url": "https://grc-wiki.vercel.app/risk/key-risk-indicators/"
     },
     {
      "@type": "DefinedTerm",
@@ -563,6 +633,26 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Quantification, risk",
+     "url": "https://grc-wiki.vercel.app/risk/risk-quantification/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Quantitative risk analysis",
+     "url": "https://grc-wiki.vercel.app/risk/risk-quantification/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Recovery point objective (RPO)",
+     "url": "https://grc-wiki.vercel.app/risk/business-impact-analysis/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Recovery time objective (RTO)",
+     "url": "https://grc-wiki.vercel.app/risk/business-impact-analysis/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Register, risk",
      "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
@@ -605,6 +695,11 @@
      "@type": "DefinedTerm",
      "name": "Risk vs issue vs incident",
      "url": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Risk workshop",
+     "url": "https://grc-wiki.vercel.app/risk/risk-workshop/"
     },
     {
      "@type": "DefinedTerm",
@@ -658,6 +753,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Supplier risk",
+     "url": "https://grc-wiki.vercel.app/risk/third-party-risk/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Terms of reference",
      "url": "https://grc-wiki.vercel.app/governance/terms-of-reference/"
     },
@@ -673,8 +773,18 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Third-party risk management",
+     "url": "https://grc-wiki.vercel.app/risk/third-party-risk/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Tolerance, risk",
      "url": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "TPRM",
+     "url": "https://grc-wiki.vercel.app/risk/third-party-risk/"
     },
     {
      "@type": "DefinedTerm",
@@ -708,8 +818,28 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Vendor due diligence",
+     "url": "https://grc-wiki.vercel.app/risk/third-party-risk/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Vendor risk",
+     "url": "https://grc-wiki.vercel.app/risk/third-party-risk/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Vocabulary, GRC",
      "url": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Waiver, policy",
+     "url": "https://grc-wiki.vercel.app/risk/policy-waivers/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Workshop, risk",
+     "url": "https://grc-wiki.vercel.app/risk/risk-workshop/"
     }
    ]
   },
@@ -754,7 +884,7 @@
    "name": "Risk",
    "count": 41,
    "blurb": "Registers, appetite, treatment, quantification, reporting.",
-   "published": 5
+   "published": 13
   },
   {
    "n": 4,
@@ -6080,8 +6210,8 @@
     "title": "Risk treatment options"
    },
    "next": {
-    "ref": "4.0",
-    "title": "What compliance produces"
+    "ref": "3.6",
+    "title": "Business continuity"
    },
    "sections": [
     {
@@ -6247,6 +6377,2311 @@
    ]
   },
   {
+   "clause": "3.6",
+   "part": 3,
+   "slug": "business-continuity",
+   "title": "Business continuity, and how it differs from disaster recovery",
+   "description": "Business continuity keeps critical activities running, or restores them in an acceptable time, when disruption hits. Disaster recovery is its IT subset.",
+   "short_title": "Business continuity",
+   "keywords": [
+    "business continuity",
+    "business continuity vs disaster recovery",
+    "BCP vs DR",
+    "what is a business continuity plan",
+    "business continuity plan"
+   ],
+   "defines": "Business continuity",
+   "reviewed": "2026-08-12",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 7,
+   "canonical_entry": false,
+   "quick_facts": {
+    "standard": "ISO 22301",
+    "DR scope": "IT systems only",
+    "BC scope": "Whole business function",
+    "proven by": "Exercising the plan",
+    "key input": "The BIA"
+   },
+   "related": [
+    "3.7",
+    "3.0",
+    "1.7"
+   ],
+   "sources": [
+    "ISO 22301:2019 — Security and resilience, business continuity management systems, requirements",
+    "ISO 22300:2021 — Security and resilience, vocabulary"
+   ],
+   "prev": {
+    "ref": "3.4",
+    "title": "Risk capacity"
+   },
+   "next": {
+    "ref": "3.7",
+    "title": "Business impact analysis"
+   },
+   "sections": [
+    {
+     "id": "the-line-between-continuity-and-disaster-recovery",
+     "clause": "3.6.1",
+     "text": "The line between continuity and disaster recovery"
+    },
+    {
+     "id": "what-a-continuity-plan-contains",
+     "clause": "3.6.2",
+     "text": "What a continuity plan contains"
+    },
+    {
+     "id": "what-a-recovery-time-objective-forces",
+     "clause": "3.6.3",
+     "text": "What a recovery time objective forces"
+    },
+    {
+     "id": "where-continuity-plans-fail",
+     "clause": "3.6.4",
+     "text": "Where continuity plans fail"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/risk/business-continuity/",
+   "part_slug": "risk",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "<strong>Business continuity</strong> is keeping the organisation&rsquo;s critical activities\nrunning, or restoring them within an acceptable time, when a disruption hits.\nDisaster recovery is the subset of that work concerned only with IT systems."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The two terms are used as synonyms and are not. Disaster recovery brings the\ntechnology back. Business continuity keeps the business function alive, by\ntechnology or by anything else that works — a manual process, an alternate\nsite, staff held in reserve. One is a component of the other.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-line-between-continuity-and-disaster-recovery",
+     "clause": "3.6.1",
+     "alias": "c3-6-1",
+     "text": "The line between continuity and disaster recovery"
+    },
+    {
+     "type": "prose",
+     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>Business continuity</th>\n<th>Disaster recovery</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Scope</td>\n<td>The critical business activity</td>\n<td>The IT systems beneath it</td>\n</tr>\n<tr>\n<td>The question it answers</td>\n<td>How does the function keep running?</td>\n<td>How do the systems come back?</td>\n</tr>\n<tr>\n<td>Owns</td>\n<td>The business line that runs the activity</td>\n<td>IT or infrastructure</td>\n</tr>\n<tr>\n<td>Trigger</td>\n<td>Any disruption to the activity</td>\n<td>Loss or failure of technology</td>\n</tr>\n<tr>\n<td>Output</td>\n<td>Workarounds, alternate arrangements, roles</td>\n<td>Restored systems, recovered data</td>\n</tr>\n</tbody>\n</table></div>\n<p>A disruption need not be technological to matter. A picket line, a burst pipe, a\nsupplier failing, a key team unreachable — none of these is a disaster recovery\nevent, and all of them stop the activity. Continuity has to cover the cases that\nhave no server in them at all.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-a-continuity-plan-contains",
+     "clause": "3.6.2",
+     "alias": "c3-6-2",
+     "text": "What a continuity plan contains"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A plan is not a policy statement. It is the specific set of things that let a\nnamed activity survive, written so that someone under pressure can follow it.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Critical activities",
+       "html": "The processes the organisation cannot be without for long, taken from the business impact analysis rather than guessed at."
+      },
+      {
+       "term": "Recovery time objective",
+       "html": "The time within which each activity must be back, derived in the BIA at <a href=\"/risk/business-impact-analysis/\">3.7</a>, not asserted by the plan."
+      },
+      {
+       "term": "Dependencies",
+       "html": "What the activity actually needs to run — people, suppliers, systems and premises. A plan that lists only systems has missed most of them."
+      },
+      {
+       "term": "Alternate arrangements",
+       "html": "The workaround. How the activity runs while its normal means are gone, and who is trained to run it that way."
+      },
+      {
+       "term": "Invocation and roles",
+       "html": "Who decides the plan is live, who does what once it is and who deputises when the first name is unreachable."
+      },
+      {
+       "term": "Communications",
+       "html": "How staff, customers and regulators are told, with contact routes that do not depend on the failed system."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-a-recovery-time-objective-forces",
+     "clause": "3.6.3",
+     "alias": "c3-6-3",
+     "text": "What a recovery time objective forces"
+    },
+    {
+     "type": "def",
+     "term": "Recovery time objective",
+     "ref": "3.7",
+     "html": "The target time within which a critical activity must be restored after a\ndisruption, set shorter than the point at which the harm becomes unacceptable.\nDerived in the business impact analysis, not chosen by IT."
+    },
+    {
+     "type": "prose",
+     "html": "<p>An RTO of four hours on order processing is not a statement about servers. It\nforces a set of arrangements to be standing by before the disruption: staff who\ncan be reached and trained on the workaround, an alternate way to take orders\nthat does not route through the failed system, and suppliers who have agreed to\nthe same window. If any of those takes six hours to stand up, the four-hour RTO\nis fiction. The number is only as real as the slowest dependency behind it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-continuity-plans-fail",
+     "clause": "3.6.4",
+     "alias": "c3-6-4",
+     "text": "Where continuity plans fail"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Never exercised.</strong> A plan that has not been walked through is an assertion, not\na capability. The first invocation is not the moment to discover the alternate\nsite has no network drops or the workaround needs a licence nobody bought.</p>\n<p><strong>RTOs asserted with no BIA behind them.</strong> A recovery time picked to look\nreassuring, rather than derived from what the activity actually needs, sets a\ntarget the arrangements were never built to hit.</p>\n<p><strong>A plan written for the building, not the process.</strong> Evacuation and premises\ncover is not continuity. If the plan says where people go but not how the work\ncontinues once they are there, the activity still stops.</p>\n<p><strong>Contact lists that rot.</strong> People move, numbers change, deputies leave. A list\nmaintained once at authoring is wrong within a year, and it is wrong at exactly\nthe moment it is needed.</p>"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is business continuity the same as disaster recovery?",
+       "id": "faq-is-business-continuity-the-same-as-disaster-recovery",
+       "html": "<p>No. Disaster recovery restores technology — systems, data, connectivity.\nBusiness continuity keeps the critical activity running by whatever means, which\nmay be a manual workaround, an alternate site or standby staff that never touch\nthe failed system. Disaster recovery is one input to continuity, not a synonym\nfor it.</p>"
+      },
+      {
+       "q": "How often should a continuity plan be tested?",
+       "id": "faq-how-often-should-a-continuity-plan-be-tested",
+       "html": "<p>On planned intervals and again after any material change to the process, its\npeople or its dependencies — ISO 22301 frames the cadence that way rather than as\na fixed figure, though annual is the common floor in practice. The test need not\nbe a full invocation each time; a\ntabletop walkthrough of one plausible scenario exposes most of the gaps that\nmatter, at a fraction of the cost.</p>"
+      },
+      {
+       "q": "Who owns business continuity?",
+       "id": "faq-who-owns-business-continuity",
+       "html": "<p>The business line that runs the activity owns its continuity, because only it can\nauthorise the workaround and carry it out. A central function may coordinate the\nprogramme, set the method and hold the plans, but it cannot own the recovery of\na process it does not run.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Risk",
+       "item": "https://grc-wiki.vercel.app/risk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Business continuity, and how it differs from disaster recovery",
+       "item": "https://grc-wiki.vercel.app/risk/business-continuity/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/risk/business-continuity/#article",
+     "headline": "Business continuity, and how it differs from disaster recovery",
+     "name": "Business continuity, and how it differs from disaster recovery",
+     "description": "Business continuity keeps critical activities running, or restores them in an acceptable time, when disruption hits. Disaster recovery is its IT subset.",
+     "url": "https://grc-wiki.vercel.app/risk/business-continuity/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/risk/business-continuity/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Risk",
+     "wordCount": 778,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-12",
+     "datePublished": "2026-08-12",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO 22301:2019 — Security and resilience, business continuity management systems, requirements",
+      "ISO 22300:2021 — Security and resilience, vocabulary"
+     ],
+     "keywords": "business continuity, business continuity vs disaster recovery, BCP vs DR, what is a business continuity plan, business continuity plan"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/risk/business-continuity/#term",
+     "name": "Business continuity",
+     "alternateName": "",
+     "description": "Business continuity keeps critical activities running, or restores them in an acceptable time, when disruption hits. Disaster recovery is its IT subset.",
+     "url": "https://grc-wiki.vercel.app/risk/business-continuity/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/risk/business-continuity/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is business continuity the same as disaster recovery?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Disaster recovery restores technology — systems, data, connectivity. Business continuity keeps the critical activity running by whatever means, which may be a manual workaround, an alternate site or standby staff that never touch the failed system. Disaster recovery is one input to continuity, not a synonym for it."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How often should a continuity plan be tested?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On planned intervals and again after any material change to the process, its people or its dependencies — ISO 22301 frames the cadence that way rather than as a fixed figure, though annual is the common floor in practice. The test need not be a full invocation each time; a tabletop walkthrough of one plausible scenario exposes most of the gaps that matter, at a fraction of the cost."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who owns business continuity?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The business line that runs the activity owns its continuity, because only it can authorise the workaround and carry it out. A central function may coordinate the programme, set the method and hold the plans, but it cannot own the recovery of a process it does not run."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "3.7",
+   "part": 3,
+   "slug": "business-impact-analysis",
+   "title": "Business impact analysis, and the numbers it sets",
+   "description": "A business impact analysis ranks activities by how fast each must return, producing the RTO, RPO and MTPD a continuity plan is sized against.",
+   "short_title": "Business impact analysis",
+   "keywords": [
+    "business impact analysis",
+    "what is a BIA",
+    "RTO vs RPO",
+    "MTPD",
+    "business impact analysis process"
+   ],
+   "defines": "Business impact analysis",
+   "reviewed": "2026-08-13",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 6,
+   "canonical_entry": false,
+   "quick_facts": {
+    "produces": "RTO, RPO, MTPD",
+    "governed by": "ISO 22301",
+    "guided by": "ISO/TS 22317",
+    "impact graded": "Against time",
+    "review cadence": "Planned and on change"
+   },
+   "related": [
+    "3.6",
+    "3.0",
+    "3.4"
+   ],
+   "sources": [
+    "ISO 22301:2019 — Security and resilience, business continuity management systems, requirements",
+    "ISO/TS 22317:2021 — Security and resilience, business continuity management systems, guidelines for business impact analysis"
+   ],
+   "prev": {
+    "ref": "3.6",
+    "title": "Business continuity"
+   },
+   "next": {
+    "ref": "3.8",
+    "title": "Third-party risk"
+   },
+   "sections": [
+    {
+     "id": "the-three-numbers",
+     "clause": "3.7.1",
+     "text": "The three numbers"
+    },
+    {
+     "id": "how-a-bia-is-run",
+     "clause": "3.7.2",
+     "text": "How a BIA is run"
+    },
+    {
+     "id": "a-worked-example",
+     "clause": "3.7.3",
+     "text": "A worked example"
+    },
+    {
+     "id": "where-the-bia-goes-wrong",
+     "clause": "3.7.4",
+     "text": "Where the BIA goes wrong"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/risk/business-impact-analysis/",
+   "part_slug": "risk",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "A <strong>business impact analysis</strong> works out which activities matter most and how\nquickly each must be back, producing the recovery time objective (RTO), recovery\npoint objective (RPO) and maximum tolerable period of disruption (MTPD) the whole\ncontinuity plan is sized against."
+    },
+    {
+     "type": "prose",
+     "html": "<p>It is the numbers engine under <a href=\"/risk/business-continuity/\">business continuity</a>.\nEverything downstream — recovery strategy, standby capacity, the plan&rsquo;s own\ndeadlines — is scaled from what the analysis produces. Get the numbers wrong and\nthe plan is either unaffordable or too slow, and there is no way to tell which\nuntil it is used.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-three-numbers",
+     "clause": "3.7.1",
+     "alias": "c3-7-1",
+     "text": "The three numbers"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Recovery time objective (RTO)",
+       "html": "The target time to restore an activity after disruption. Miss it and the activity has been down longer than the plan promised anyone it would be."
+      },
+      {
+       "term": "Recovery point objective (RPO)",
+       "html": "The maximum data loss that is tolerable, expressed as a length of time — the point back to which data must be recoverable. An RPO of fifteen minutes means never losing more than the last fifteen minutes of work."
+      },
+      {
+       "term": "Maximum tolerable period of disruption (MTPD/MTD)",
+       "html": "The elapsed time after which the impact of not resuming becomes unacceptable. The hard outer boundary the RTO has to sit inside."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>The ordering is a constraint, not a preference. RTO must be set shorter than\nMTPD. Set them equal, or the wrong way round, and the plan is scheduled to finish\nrestoring the activity at exactly the moment the damage has already become\nunacceptable — it misses its own deadline by design.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Recovery point objective",
+     "ref": "3.6",
+     "html": "The maximum tolerable data loss, stated as a length of time rather than a volume.\nIt sets how often data must be backed up or replicated: a fifteen-minute RPO\nforces backups no more than fifteen minutes apart."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "how-a-bia-is-run",
+     "clause": "3.7.2",
+     "alias": "c3-7-2",
+     "text": "How a BIA is run"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Four steps, in order.</p>\n<p><strong>List the activities.</strong> Every activity the organisation performs, not the\nsystems behind them. Payroll is an activity; the payroll server is a dependency\nof it.</p>\n<p><strong>Grade impact against time.</strong> The same outage is trivial at one hour and fatal\nat one week. Impact is assessed as a curve that grows with the length of the\ndisruption — financial, legal, reputational and safety impact each plotted across\nhours, days and weeks. This is the step most often skipped, and skipping it is\nwhat makes the resulting numbers meaningless.</p>\n<p><strong>Map dependencies.</strong> For each activity, the people, systems, suppliers and\npremises it needs to run. An activity cannot recover faster than the slowest\nthing it depends on, so an RTO shorter than its dependencies&rsquo; is a fiction.</p>\n<p><strong>Set the numbers from the curve.</strong> The point where impact turns unacceptable\nfixes the MTPD, and the RTO is set shorter than it, with margin to spare. The RPO\nanswers a separate question — how much data the activity can afford to lose — and\nis read from the tolerable gap between backups, not off the downtime curve. The\nnumbers come from the impact, not the other way round. A programme that picks a\ncomfortable RTO first and writes the impact analysis to justify it afterwards has\nthe whole process reversed.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "a-worked-example",
+     "clause": "3.7.3",
+     "alias": "c3-7-3",
+     "text": "A worked example"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Take one activity — customer payment processing — with an RTO of 4 hours, an RPO\nof 15 minutes and an MTPD of 24 hours. Each figure forces something concrete.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Figure</th>\n<th>What it forces</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>RTO 4 hours</td>\n<td>Payments must be recoverable within four hours of an outage, so the standby capacity, failover and trained staff to do it have to exist and be tested.</td>\n</tr>\n<tr>\n<td>RPO 15 minutes</td>\n<td>Transaction data must be captured or replicated at least every fifteen minutes, so no more than a quarter-hour of payments is ever lost.</td>\n</tr>\n<tr>\n<td>MTPD 24 hours</td>\n<td>Past a full day down, customers give up and move on, and the lost revenue stops being recoverable at all.</td>\n</tr>\n</tbody>\n</table></div>\n<p>The RTO buys margin against the MTPD. Four hours against a twenty-four-hour\ntolerance leaves room for a recovery that runs late without crossing the point of\nno return. That margin is the reason RTO is set below MTPD rather than at it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-the-bia-goes-wrong",
+     "clause": "3.7.4",
+     "alias": "c3-7-4",
+     "text": "Where the BIA goes wrong"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Everything is rated critical.</strong> When every activity is top priority, every RTO\ncollapses to one hour and the plan demands more simultaneous recovery than any\norganisation can fund. A BIA that does not force a ranking has not been done.</p>\n<p><strong>Impact is never graded against time.</strong> A single severity score with no time\naxis cannot locate the MTPD — the moment impact crosses from tolerable to not —\nand without that point there is nothing for the RTO to be set inside. Without the\ncurve the numbers are guesses wearing a decimal point.</p>\n<p><strong>It is run once and shelved.</strong> A BIA completed for certification and never\nrevisited describes an organisation that has since moved on — activities,\nsuppliers and volumes have all changed. It is reviewed at planned intervals and\nafter any material change to the business — commonly at least once a year in\npractice.</p>"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the difference between RTO and RPO?",
+       "id": "faq-what-is-the-difference-between-rto-and-rpo",
+       "html": "<p>RTO looks forward: how quickly the activity must be running again. RPO looks backward: how much data, measured in time, can be lost when it returns. RTO is about downtime, RPO is about data loss, and the two are set independently — a payment system can tolerate hours of downtime but almost no lost transactions.</p>"
+      },
+      {
+       "q": "Who provides the data for a BIA?",
+       "id": "faq-who-provides-the-data-for-a-bia",
+       "html": "<p>The people who run the activity, not the risk or continuity function. The business owners state what breaks and when it starts to hurt; continuity facilitates, challenges the answers and records them. Numbers set by the continuity team alone are the ones the business disowns during an actual incident.</p>"
+      },
+      {
+       "q": "How often should a BIA be redone?",
+       "id": "faq-how-often-should-a-bia-be-redone",
+       "html": "<p>At least annually, and on any material change — a new product, an acquisition, a moved supplier or a changed regulatory obligation. A BIA is a snapshot of a moving business; left unrevised it goes quietly out of date and takes the whole continuity plan with it.</p>"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Scoping a BIA and defending the RTOs it produces to the people who have to fund\nthem is covered in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s business-continuity module</a>.\nThis entry stays free."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Risk",
+       "item": "https://grc-wiki.vercel.app/risk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Business impact analysis, and the numbers it sets",
+       "item": "https://grc-wiki.vercel.app/risk/business-impact-analysis/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/risk/business-impact-analysis/#article",
+     "headline": "Business impact analysis, and the numbers it sets",
+     "name": "Business impact analysis, and the numbers it sets",
+     "description": "A business impact analysis ranks activities by how fast each must return, producing the RTO, RPO and MTPD a continuity plan is sized against.",
+     "url": "https://grc-wiki.vercel.app/risk/business-impact-analysis/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/risk/business-impact-analysis/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Risk",
+     "wordCount": 969,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-13",
+     "datePublished": "2026-08-13",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO 22301:2019 — Security and resilience, business continuity management systems, requirements",
+      "ISO/TS 22317:2021 — Security and resilience, business continuity management systems, guidelines for business impact analysis"
+     ],
+     "keywords": "business impact analysis, what is a BIA, RTO vs RPO, MTPD, business impact analysis process"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/risk/business-impact-analysis/#term",
+     "name": "Business impact analysis",
+     "alternateName": "",
+     "description": "A business impact analysis ranks activities by how fast each must return, producing the RTO, RPO and MTPD a continuity plan is sized against.",
+     "url": "https://grc-wiki.vercel.app/risk/business-impact-analysis/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/risk/business-impact-analysis/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the difference between RTO and RPO?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RTO looks forward: how quickly the activity must be running again. RPO looks backward: how much data, measured in time, can be lost when it returns. RTO is about downtime, RPO is about data loss, and the two are set independently — a payment system can tolerate hours of downtime but almost no lost transactions."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who provides the data for a BIA?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The people who run the activity, not the risk or continuity function. The business owners state what breaks and when it starts to hurt; continuity facilitates, challenges the answers and records them. Numbers set by the continuity team alone are the ones the business disowns during an actual incident."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How often should a BIA be redone?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At least annually, and on any material change — a new product, an acquisition, a moved supplier or a changed regulatory obligation. A BIA is a snapshot of a moving business; left unrevised it goes quietly out of date and takes the whole continuity plan with it."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "3.8",
+   "part": 3,
+   "slug": "third-party-risk",
+   "title": "Third-party risk management (TPRM)",
+   "description": "Third-party risk management identifies, tiers and monitors the risk suppliers and vendors carry into the organisation you no longer directly control.",
+   "short_title": "Third-party risk",
+   "keywords": [
+    "third-party risk management",
+    "TPRM",
+    "vendor risk management",
+    "supplier risk",
+    "vendor due diligence",
+    "fourth-party risk"
+   ],
+   "defines": "Third-party risk management",
+   "reviewed": "2026-08-14",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 8,
+   "canonical_entry": false,
+   "quick_facts": {
+    "scope": "Suppliers and vendors",
+    "tiered by": "Risk not spend",
+    "reassessed": "By tier",
+    "lifecycle": "Onboarding to offboarding",
+    "fourth-party": "Supplier's suppliers"
+   },
+   "related": [
+    "3.1",
+    "3.0",
+    "1.9"
+   ],
+   "sources": [
+    "ISO/IEC 27036-2:2022 — Cybersecurity, supplier relationships, Part 2: Requirements",
+    "NIST SP 800-161r1 — Cybersecurity supply chain risk management practices for systems and organizations"
+   ],
+   "prev": {
+    "ref": "3.7",
+    "title": "Business impact analysis"
+   },
+   "next": {
+    "ref": "3.9",
+    "title": "Emerging risk"
+   },
+   "sections": [
+    {
+     "id": "tiering-not-every-supplier-gets-the-same-scrutiny",
+     "clause": "3.8.1",
+     "text": "Tiering: not every supplier gets the same scrutiny"
+    },
+    {
+     "id": "the-lifecycle",
+     "clause": "3.8.2",
+     "text": "The lifecycle"
+    },
+    {
+     "id": "where-tprm-fails",
+     "clause": "3.8.3",
+     "text": "Where TPRM fails"
+    },
+    {
+     "id": "common-questions",
+     "clause": "3.8.4",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/risk/third-party-risk/",
+   "part_slug": "risk",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "Third-party risk management is identifying, <strong>tiering and monitoring the risk\nthat suppliers and vendors carry into the organisation</strong> — because a control you\ndepend on is now operated by someone you do not manage."
+    },
+    {
+     "type": "prose",
+     "html": "<p>Treat &ldquo;vendor&rdquo;, &ldquo;supplier&rdquo; and &ldquo;third party&rdquo; as one population here. The words\nsort procurement paperwork; the risk they carry is the same, and so is the\ntechnique for handling it. Every supplier operates a service or control the\norganisation has chosen to run outside its own walls, and the register at\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>\ncarries the consequences when one fails.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "tiering-not-every-supplier-gets-the-same-scrutiny",
+     "clause": "3.8.1",
+     "alias": "c3-8-1",
+     "text": "Tiering: not every supplier gets the same scrutiny"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The first move is to sort the population by what each supplier could actually\nhurt — access to production data, position inside a continuity RTO, regulatory\nexposure — and never by what it costs. Depth of due diligence then scales with\nthe tier, so effort lands where the exposure is.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Tier</th>\n<th>What the supplier can hurt</th>\n<th>Due-diligence depth</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Critical</td>\n<td>Holds production or customer data, or sits inside a recovery time objective</td>\n<td>Full assessment: security review, financial stability, evidence-backed or on-site audit, named executive sponsor</td>\n</tr>\n<tr>\n<td>Important</td>\n<td>Regulatory exposure, or access to limited personal data</td>\n<td>Questionnaire with evidence sampled, contractual controls verified before signing</td>\n</tr>\n<tr>\n<td>Routine</td>\n<td>No sensitive data, readily replaced</td>\n<td>Standard terms, a register entry and light reassessment by exception</td>\n</tr>\n</tbody>\n</table></div>\n<p>A cheap supplier with a live connection to production belongs in the top tier. A\nlarge invoice for stationery does not. Spend is the wrong axis.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-lifecycle",
+     "clause": "3.8.2",
+     "alias": "c3-8-2",
+     "text": "The lifecycle"
+    },
+    {
+     "type": "prose",
+     "html": "<p>TPRM is not an onboarding gate. It runs from before the contract to after it, and\neach stage leaves evidence the next one depends on.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Onboarding due diligence",
+       "html": "The assessment done before signing, scaled to tier — security posture, financial stability and regulatory standing, judged on the evidence behind the answers rather than the answers alone."
+      },
+      {
+       "term": "Contractual controls",
+       "html": "The rights that must survive the honeymoon: a right to audit, a breach-notification window measured in hours and limits on which sub-processors may be used and what data they may touch."
+      },
+      {
+       "term": "Ongoing monitoring",
+       "html": "Reassessment on a cadence set by tier, plus watching for the events that change the tier — a breach, a change of control, a service moved offshore."
+      },
+      {
+       "term": "Offboarding",
+       "html": "Access revoked, credentials killed and data returned or destroyed with evidence. The step skipped most often, and the first one an auditor checks."
+      }
+     ]
+    },
+    {
+     "type": "def",
+     "term": "Fourth-party risk",
+     "ref": "3.1",
+     "html": "The risk that arrives through your supplier&rsquo;s own suppliers — the parties you have no contract with and cannot assess directly. It is managed indirectly, by requiring each critical third party to control and disclose its own critical dependencies."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-tprm-fails",
+     "clause": "3.8.3",
+     "alias": "c3-8-3",
+     "text": "Where TPRM fails"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Due diligence done once.</strong> The assessment is completed at onboarding, filed and\nnever repeated. The supplier&rsquo;s risk is frozen at the one moment it was lowest —\nbefore it had access to anything.</p>\n<p><strong>Tiering by contract value.</strong> The largest invoice gets the deepest review while a\ncheap supplier with production access is waved through. That is usually where the\nincident comes from.</p>\n<p><strong>A questionnaire nobody reads.</strong> Two hundred answered questions, no evidence\nsampled, no follow-up on the &ldquo;no&rdquo; that should have stopped the deal. A completed\nquestionnaire is not assurance; a verified one is.</p>\n<p><strong>Concentration risk.</strong> Ten services behind one provider, each passed on its own\nand nobody added them up. Aggregate exposure is the risk function&rsquo;s job — see\n<a href=\"/risk/what-the-risk-function-produces/\">3.0</a> — not the procurement queue&rsquo;s.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "3.8.4",
+     "alias": "c3-8-4",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the difference between vendor risk and third-party risk?",
+       "id": "faq-what-is-the-difference-between-vendor-risk-and-third-party-risk",
+       "html": "<p>Little worth managing to separately. &ldquo;Vendor&rdquo; usually names a supplier paid for a product or service; &ldquo;third party&rdquo; is the wider set that also includes partners, agents, resellers and anyone else operating a control on your behalf. The techniques — tiering, due diligence, monitoring, offboarding — are identical, so both are handled as one population. The distinction that does matter is risk versus compliance, covered at <a href=\"/foundations/risk-vs-compliance/\">1.9</a>.</p>"
+      },
+      {
+       "q": "What is fourth-party risk?",
+       "id": "faq-what-is-fourth-party-risk",
+       "html": "<p>The risk from your suppliers&rsquo; own suppliers. A cloud host depends on a data-centre operator; a payroll processor depends on a hosting provider you have never named. You hold no contract with them and cannot assess them directly, so the control is contractual: require each critical third party to manage, and disclose, its own critical dependencies.</p>"
+      },
+      {
+       "q": "How often should a third party be reassessed?",
+       "id": "faq-how-often-should-a-third-party-be-reassessed",
+       "html": "<p>On a cadence set by tier, not a single calendar rule. Critical suppliers annually at least, and immediately on a trigger — a breach, a change of control, a service relocated. Routine suppliers can run on a longer cycle or by exception. A flat &ldquo;every three years for everyone&rdquo; repeats the tiering-by-spend mistake: it decouples effort from risk.</p>"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Standing up a supplier-tiering model and a due-diligence workflow from a blank\nsheet is one track in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s vendor-risk course</a>.\nThis entry stays free."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Risk",
+       "item": "https://grc-wiki.vercel.app/risk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Third-party risk management (TPRM)",
+       "item": "https://grc-wiki.vercel.app/risk/third-party-risk/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/risk/third-party-risk/#article",
+     "headline": "Third-party risk management (TPRM)",
+     "name": "Third-party risk management (TPRM)",
+     "description": "Third-party risk management identifies, tiers and monitors the risk suppliers and vendors carry into the organisation you no longer directly control.",
+     "url": "https://grc-wiki.vercel.app/risk/third-party-risk/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/risk/third-party-risk/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Risk",
+     "wordCount": 743,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-14",
+     "datePublished": "2026-08-14",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO/IEC 27036-2:2022 — Cybersecurity, supplier relationships, Part 2: Requirements",
+      "NIST SP 800-161r1 — Cybersecurity supply chain risk management practices for systems and organizations"
+     ],
+     "keywords": "third-party risk management, TPRM, vendor risk management, supplier risk, vendor due diligence, fourth-party risk"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/risk/third-party-risk/#term",
+     "name": "Third-party risk management",
+     "alternateName": "",
+     "description": "Third-party risk management identifies, tiers and monitors the risk suppliers and vendors carry into the organisation you no longer directly control.",
+     "url": "https://grc-wiki.vercel.app/risk/third-party-risk/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/risk/third-party-risk/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the difference between vendor risk and third-party risk?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Little worth managing to separately. &ldquo;Vendor&rdquo; usually names a supplier paid for a product or service; &ldquo;third party&rdquo; is the wider set that also includes partners, agents, resellers and anyone else operating a control on your behalf. The techniques — tiering, due diligence, monitoring, offboarding — are identical, so both are handled as one population. The distinction that does matter is risk versus compliance, covered at 1.9 ."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is fourth-party risk?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The risk from your suppliers&rsquo; own suppliers. A cloud host depends on a data-centre operator; a payroll processor depends on a hosting provider you have never named. You hold no contract with them and cannot assess them directly, so the control is contractual: require each critical third party to manage, and disclose, its own critical dependencies."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How often should a third party be reassessed?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On a cadence set by tier, not a single calendar rule. Critical suppliers annually at least, and immediately on a trigger — a breach, a change of control, a service relocated. Routine suppliers can run on a longer cycle or by exception. A flat &ldquo;every three years for everyone&rdquo; repeats the tiering-by-spend mistake: it decouples effort from risk."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "3.9",
+   "part": 3,
+   "slug": "emerging-risk",
+   "title": "Emerging risk, and keeping a horizon scan honest",
+   "description": "An emerging risk is one whose likelihood or impact cannot yet be scored reliably. Horizon scanning tracks it on a watch-list until it can.",
+   "short_title": "Emerging risk",
+   "keywords": [
+    "emerging risk",
+    "what is emerging risk",
+    "horizon scanning",
+    "emerging risk register",
+    "emerging risk examples"
+   ],
+   "defines": "Emerging risk",
+   "reviewed": "2026-08-15",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 4,
+   "cited_by": 5,
+   "canonical_entry": false,
+   "quick_facts": {
+    "status": "Not yet scorable",
+    "held on": "Separate watch-list",
+    "promoted when": "Becomes scorable",
+    "review cadence": "Quarterly sweep",
+    "owner": "Risk function"
+   },
+   "related": [
+    "3.1",
+    "3.4",
+    "3.0"
+   ],
+   "sources": [
+    "ISO 31000:2018 — Risk management, guidelines",
+    "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017"
+   ],
+   "prev": {
+    "ref": "3.8",
+    "title": "Third-party risk"
+   },
+   "next": {
+    "ref": "3.10",
+    "title": "Policy waivers"
+   },
+   "sections": [
+    {
+     "id": "why-they-resist-the-register",
+     "clause": "3.9.1",
+     "text": "Why they resist the register"
+    },
+    {
+     "id": "horizon-scanning-without-theatre",
+     "clause": "3.9.2",
+     "text": "Horizon scanning without theatre"
+    },
+    {
+     "id": "the-two-failure-modes",
+     "clause": "3.9.3",
+     "text": "The two failure modes"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/risk/emerging-risk/",
+   "part_slug": "risk",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "An emerging risk is one whose <strong>likelihood or impact is not yet understood well\nenough to score reliably</strong> — new, fast-changing or not yet materialised. That is\nexactly why it resists the ordinary register, which assumes every risk can\nalready be sized."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The label is useful and abused in roughly equal measure. Held to its meaning, it\nnames the small set of risks that a scoring scale genuinely cannot yet handle.\nUsed loosely, it becomes a place to put anything nobody wants to treat.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "why-they-resist-the-register",
+     "clause": "3.9.1",
+     "alias": "c3-9-1",
+     "text": "Why they resist the register"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A likelihood-times-impact score needs a basis to stand on: history, comparable\nevents or documented criteria to reason from. An emerging risk has none of these\nyet — that absence is what makes it emerging. Force a number onto it and the\nnumber manufactures a precision that does not exist.</p>\n<p>The failure is not that the register rejects the risk. It is that the register\nabsorbs it. An unfamiliar risk with no track record almost always scores low,\nand a low score on an ordinary register (see\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>) is where a risk goes to be forgotten.\nNothing looks wrong. The item is on the list, near the bottom, never reviewed.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "horizon-scanning-without-theatre",
+     "clause": "3.9.2",
+     "alias": "c3-9-2",
+     "text": "Horizon scanning without theatre"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Horizon scanning earns its place only when it feeds a decision. Three things\nseparate a real scan from a slideshow.</p>\n<p><strong>Named sources.</strong> Regulatory pipelines — consultations and draft legislation\nbefore they bind. Incidents in the sector, especially at comparable\norganisations. Technology shifts that change what an attacker or a competitor\ncan do. Each source has one person responsible for reading it.</p>\n<p><strong>A fixed cadence.</strong> A scan that happens when someone remembers is not a scan.\nQuarterly is common; the interval matters less than that it is booked and\nminuted.</p>\n<p><strong>A watch-list, held apart.</strong> Emerging risks sit on a list of their own, kept\nseparate from the register so they are not forced into a score, but put in front\nof the same committee that reads the register. An item is promoted into the\nregister the moment it becomes scorable — the first comparable incident, the\nfirst draft rule with a date attached.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Horizon scanning",
+     "ref": "3.1",
+     "html": "The routine of looking past the current register at signals that may become\nrisks: regulatory pipelines, sector incidents and technology shifts. Its output\nis a dated watch-list, not a score."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-two-failure-modes",
+     "clause": "3.9.3",
+     "alias": "c3-9-3",
+     "text": "The two failure modes"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Two things go wrong, and they pull in opposite directions.</p>\n<p><strong>The label as a hiding place.</strong> A risk that is perfectly scorable gets called\nemerging so that no owner, no treatment and no date have to attach to it.\nEmerging quietly becomes a synonym for untreated. The test is blunt but not\nabsolute: if a close comparable has already played out somewhere, the risk can\nusually be sized from it, and calling it emerging is often just a way to avoid\ndoing so. The honest exception is a familiar risk whose scale, context or\ntrajectory has shifted enough that the old comparables no longer size it.</p>\n<p><strong>The scan nobody acts on.</strong> The opposite failure. A tidy watch-list is produced\neach quarter, noted and filed. Nothing is ever promoted, and nothing is ever\nstruck off as no longer credible. A scan with no route into the register and no\nroute off the list is theatre with minutes.</p>"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the difference between an emerging risk and an existing one?",
+       "id": "faq-what-is-the-difference-between-an-emerging-risk-and-an-existing-one",
+       "html": "<p>An existing risk can be sized. There is history, criteria or a comparable event\nto reason from, so it carries a likelihood, an impact and a place on the\nregister. An emerging risk cannot be sized yet — it is new, moving too fast to\npin down, or has not materialised anywhere. The dividing line is not how novel\nit feels but whether a reliable score is possible.</p>"
+      },
+      {
+       "q": "How do you score an emerging risk?",
+       "id": "faq-how-do-you-score-an-emerging-risk",
+       "html": "<p>Ideally, not yet — that is the whole point. Scoring it prematurely invents a\nnumber with no basis and usually parks it low. Instead, hold it on a watch-list\nwith what is known, what would change the picture and what is being watched for.\nPromote it into the register, and score it, the moment there is a basis: a\ncomparable incident, a draft rule with a date, a first loss.</p>"
+      },
+      {
+       "q": "Who owns horizon scanning?",
+       "id": "faq-who-owns-horizon-scanning",
+       "html": "<p>The risk function owns the process — the sources, the cadence and the watch-list.\nIt does not own the subject-matter judgement behind each entry. Reading the\nregulatory pipeline sits with compliance or legal; reading sector incidents sits\nwith security or operations. See\n<a href=\"/risk/what-the-risk-function-produces/\">3.0</a> for the split between owning a\nprocess and owning the content that runs through it.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Risk",
+       "item": "https://grc-wiki.vercel.app/risk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Emerging risk, and keeping a horizon scan honest",
+       "item": "https://grc-wiki.vercel.app/risk/emerging-risk/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/risk/emerging-risk/#article",
+     "headline": "Emerging risk, and keeping a horizon scan honest",
+     "name": "Emerging risk, and keeping a horizon scan honest",
+     "description": "An emerging risk is one whose likelihood or impact cannot yet be scored reliably. Horizon scanning tracks it on a watch-list until it can.",
+     "url": "https://grc-wiki.vercel.app/risk/emerging-risk/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/risk/emerging-risk/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Risk",
+     "wordCount": 728,
+     "timeRequired": "PT4M",
+     "version": 1,
+     "dateModified": "2026-08-15",
+     "datePublished": "2026-08-15",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO 31000:2018 — Risk management, guidelines",
+      "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017"
+     ],
+     "keywords": "emerging risk, what is emerging risk, horizon scanning, emerging risk register, emerging risk examples"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/risk/emerging-risk/#term",
+     "name": "Emerging risk",
+     "alternateName": "",
+     "description": "An emerging risk is one whose likelihood or impact cannot yet be scored reliably. Horizon scanning tracks it on a watch-list until it can.",
+     "url": "https://grc-wiki.vercel.app/risk/emerging-risk/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/risk/emerging-risk/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the difference between an emerging risk and an existing one?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An existing risk can be sized. There is history, criteria or a comparable event to reason from, so it carries a likelihood, an impact and a place on the register. An emerging risk cannot be sized yet — it is new, moving too fast to pin down, or has not materialised anywhere. The dividing line is not how novel it feels but whether a reliable score is possible."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How do you score an emerging risk?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ideally, not yet — that is the whole point. Scoring it prematurely invents a number with no basis and usually parks it low. Instead, hold it on a watch-list with what is known, what would change the picture and what is being watched for. Promote it into the register, and score it, the moment there is a basis: a comparable incident, a draft rule with a date, a first loss."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who owns horizon scanning?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The risk function owns the process — the sources, the cadence and the watch-list. It does not own the subject-matter judgement behind each entry. Reading the regulatory pipeline sits with compliance or legal; reading sector incidents sits with security or operations. See 3.0 for the split between owning a process and owning the content that runs through it."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "3.10",
+   "part": 3,
+   "slug": "policy-waivers",
+   "title": "Policy waivers and exceptions",
+   "description": "A policy waiver is a documented, time-bound decision to run out of compliance with a control, backed by a compensating control and a named approver.",
+   "short_title": "Policy waivers",
+   "keywords": [
+    "policy waiver",
+    "policy exception",
+    "security exception process",
+    "exception register",
+    "risk acceptance"
+   ],
+   "defines": "Policy waiver",
+   "reviewed": "2026-08-16",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 4,
+   "cited_by": 6,
+   "canonical_entry": false,
+   "quick_facts": {
+    "also called": "Policy exception",
+    "always carries": "Expiry date",
+    "approved by": "Level matching risk",
+    "lives in": "Exception register",
+    "paired with": "Compensating control"
+   },
+   "related": [
+    "3.3",
+    "2.1",
+    "3.0"
+   ],
+   "sources": [
+    "ISO 31000:2018 — Risk management, guidelines (retaining a risk by informed decision)",
+    "Exception- and waiver-register conventions — expiry, compensating control, approver at the right level — are control-governance good practice drawn from security and audit practice, not a single mandated standard"
+   ],
+   "prev": {
+    "ref": "3.9",
+    "title": "Emerging risk"
+   },
+   "next": {
+    "ref": "3.11",
+    "title": "Key risk indicators"
+   },
+   "sections": [
+    {
+     "id": "what-a-valid-waiver-carries",
+     "clause": "3.10.1",
+     "text": "What a valid waiver carries"
+    },
+    {
+     "id": "why-every-waiver-expires",
+     "clause": "3.10.2",
+     "text": "Why every waiver expires"
+    },
+    {
+     "id": "the-exception-register",
+     "clause": "3.10.3",
+     "text": "The exception register"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/risk/policy-waivers/",
+   "part_slug": "risk",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "A policy waiver, or exception, is a <strong>documented, time-bound decision to run out\nof compliance with a control or policy</strong>: an accepted risk with a compensating\ncontrol and an expiry date, not a quiet permanent gap. It is the risk acceptance\nof <a href=\"/risk/risk-treatment/\">3.3</a>, made explicit."
+    },
+    {
+     "type": "prose",
+     "html": "<p>A waiver does not weaken the policy. It records, in one place and above someone&rsquo;s\nsignature, that a specific gap is known, is bounded and will be looked at again.\nThe alternative is not compliance — it is the same gap, undocumented and owned by\nnobody.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Compensating control",
+     "ref": "3.3",
+     "html": "An alternative control that reduces the exposure the waived control would have\ncovered, for the life of the waiver. It does not restore full compliance; it\nholds the risk down until the gap is closed or re-decided."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-a-valid-waiver-carries",
+     "clause": "3.10.1",
+     "alias": "c3-10-1",
+     "text": "What a valid waiver carries"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A waiver missing any of these is not an exception. It is a gap with a note\nattached.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "The gap being waived",
+       "html": "Which control or policy clause is not being met, stated precisely. &ldquo;The password policy&rdquo; is not a gap; &ldquo;MFA on the legacy billing console&rdquo; is."
+      },
+      {
+       "term": "The reason",
+       "html": "Why the exception is needed — a system that cannot meet the control, a delivery deadline, a disproportionate cost — recorded so the next reader can weigh it without asking."
+      },
+      {
+       "term": "The compensating control",
+       "html": "What holds the exposure down while the gap is open. Named, not promised."
+      },
+      {
+       "term": "The approver",
+       "html": "One person at a level that matches the size of the risk. A larger exposure is signed higher, by someone who could accept the underlying risk itself."
+      },
+      {
+       "term": "The expiry date",
+       "html": "The date the waiver ends and the gap returns for a fresh decision."
+      },
+      {
+       "term": "The review point",
+       "html": "When the exception is checked before that date, in case the reason has gone away sooner."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "why-every-waiver-expires",
+     "clause": "3.10.2",
+     "alias": "c3-10-2",
+     "text": "Why every waiver expires"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A waiver with no end date is not an exception. It is a silent, permanent change\nto the policy that nobody approved as permanent. The control still says one\nthing; the organisation quietly does another; and the record that this was ever\na decision fades with the person who made it.</p>\n<p>The expiry forces the gap back onto a desk for a fresh decision, rather than\nletting the exception become the new standard by default. When the date arrives\nthe choices are three: close the gap; renew the waiver, with the reason and the\ncompensating control re-examined; or accept the risk permanently through a\ndocumented change to the policy itself. Doing nothing is not one of them. That is\nthe whole purpose of the date.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-exception-register",
+     "clause": "3.10.3",
+     "alias": "c3-10-3",
+     "text": "The exception register"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Every waiver lives in one register, not in the email that approved it: an\nexception register holding every open exception with its expiry, its approver and\nits compensating control, in one place that can be counted. It is a sibling of\nthe issue log the risk function keeps (see\n<a href=\"/risk/what-the-risk-function-produces/\">3.0</a>), not the same book.</p>\n<p>Counted and trended, the register says something the individual waivers do not. A\nrising number of exceptions against one control is a signal about the control,\nnot about the teams asking to bypass it: either it is written more tightly than\nthe organisation can meet, or the policy behind it is wrong. A waiver count that\nonly ever grows is a policy being repealed one exception at a time, without anyone\ndeciding to repeal it.</p>"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the difference between a waiver and risk acceptance?",
+       "id": "faq-what-is-the-difference-between-a-waiver-and-risk-acceptance",
+       "html": "<p>A waiver is a form of risk acceptance — the acceptance decision from <a href=\"/risk/risk-treatment/\">3.3</a> — applied to a named control or policy and bounded by an expiry date. Plain acceptance can stand open-ended; a waiver is the same decision made time-bound and tied to a specific gap, so it returns for review rather than lasting forever by omission.</p>"
+      },
+      {
+       "q": "Who should approve a policy waiver?",
+       "id": "faq-who-should-approve-a-policy-waiver",
+       "html": "<p>One named person at a level that matches the exposure being accepted. A small, well-compensated gap can be signed by the control owner; a material one belongs to the risk owner or an executive — the same person who could accept the underlying risk. The approver must sit high enough to own the consequence if the compensating control fails.</p>"
+      },
+      {
+       "q": "What happens when a waiver expires but the gap remains?",
+       "id": "faq-what-happens-when-a-waiver-expires-but-the-gap-remains",
+       "html": "<p>The exception is out of force the moment it expires, so the organisation is now non-compliant with no decision behind it. Three routes close that: fix the gap; renew the waiver, with the reason and compensating control re-examined; or accept the risk permanently by changing the policy through <a href=\"/governance/policy-hierarchy/\">2.1</a>. An expired waiver left open is the exact failure the expiry date exists to prevent.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Risk",
+       "item": "https://grc-wiki.vercel.app/risk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Policy waivers and exceptions",
+       "item": "https://grc-wiki.vercel.app/risk/policy-waivers/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/risk/policy-waivers/#article",
+     "headline": "Policy waivers and exceptions",
+     "name": "Policy waivers and exceptions",
+     "description": "A policy waiver is a documented, time-bound decision to run out of compliance with a control, backed by a compensating control and a named approver.",
+     "url": "https://grc-wiki.vercel.app/risk/policy-waivers/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/risk/policy-waivers/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Risk",
+     "wordCount": 709,
+     "timeRequired": "PT4M",
+     "version": 1,
+     "dateModified": "2026-08-16",
+     "datePublished": "2026-08-16",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO 31000:2018 — Risk management, guidelines (retaining a risk by informed decision)",
+      "Exception- and waiver-register conventions — expiry, compensating control, approver at the right level — are control-governance good practice drawn from security and audit practice, not a single mandated standard"
+     ],
+     "keywords": "policy waiver, policy exception, security exception process, exception register, risk acceptance"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/risk/policy-waivers/#term",
+     "name": "Policy waiver",
+     "alternateName": "",
+     "description": "A policy waiver is a documented, time-bound decision to run out of compliance with a control, backed by a compensating control and a named approver.",
+     "url": "https://grc-wiki.vercel.app/risk/policy-waivers/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/risk/policy-waivers/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the difference between a waiver and risk acceptance?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A waiver is a form of risk acceptance — the acceptance decision from 3.3 — applied to a named control or policy and bounded by an expiry date. Plain acceptance can stand open-ended; a waiver is the same decision made time-bound and tied to a specific gap, so it returns for review rather than lasting forever by omission."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who should approve a policy waiver?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One named person at a level that matches the exposure being accepted. A small, well-compensated gap can be signed by the control owner; a material one belongs to the risk owner or an executive — the same person who could accept the underlying risk. The approver must sit high enough to own the consequence if the compensating control fails."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What happens when a waiver expires but the gap remains?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The exception is out of force the moment it expires, so the organisation is now non-compliant with no decision behind it. Three routes close that: fix the gap; renew the waiver, with the reason and compensating control re-examined; or accept the risk permanently by changing the policy through 2.1 . An expired waiver left open is the exact failure the expiry date exists to prevent."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "3.11",
+   "part": 3,
+   "slug": "key-risk-indicators",
+   "title": "Key risk indicators (KRIs), and how they differ from KPIs",
+   "description": "A key risk indicator is a leading metric that warns exposure is moving toward appetite before it becomes an incident, unlike a lagging KPI.",
+   "short_title": "Key risk indicators",
+   "keywords": [
+    "key risk indicator",
+    "KRI",
+    "KRI vs KPI",
+    "leading vs lagging indicator",
+    "risk indicator examples"
+   ],
+   "defines": "Key risk indicator",
+   "reviewed": "2026-08-18",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 7,
+   "canonical_entry": false,
+   "quick_facts": {
+    "type": "Leading indicator",
+    "tied to": "A defined threshold",
+    "owner": "Someone who can act",
+    "on breach": "Triggers a response",
+    "versus KPI": "Exposure vs objective"
+   },
+   "related": [
+    "3.2",
+    "3.1",
+    "2.3"
+   ],
+   "sources": [
+    "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
+    "ISO 31000:2018 — Risk management, guidelines"
+   ],
+   "prev": {
+    "ref": "3.10",
+    "title": "Policy waivers"
+   },
+   "next": {
+    "ref": "3.12",
+    "title": "Risk quantification"
+   },
+   "sections": [
+    {
+     "id": "how-a-kri-differs-from-a-kpi",
+     "clause": "3.11.1",
+     "text": "How a KRI differs from a KPI"
+    },
+    {
+     "id": "what-makes-a-kri-worth-having",
+     "clause": "3.11.2",
+     "text": "What makes a KRI worth having"
+    },
+    {
+     "id": "a-worked-example-tied-to-appetite",
+     "clause": "3.11.3",
+     "text": "A worked example, tied to appetite"
+    },
+    {
+     "id": "where-kris-fail",
+     "clause": "3.11.4",
+     "text": "Where KRIs fail"
+    },
+    {
+     "id": "common-questions",
+     "clause": "3.11.5",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/risk/key-risk-indicators/",
+   "part_slug": "risk",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "A key risk indicator is a <strong>metric that warns that risk exposure is moving\ntoward, or past, appetite</strong> — where a key performance indicator measures progress\ntoward an objective. A KRI is chosen to lead, so the warning arrives while there\nis still time to act."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The distinction is not simply leading versus lagging. What separates them is\nsubject: a KPI tracks performance against an objective, a KRI tracks the exposure\nbehind a risk. A KRI is then chosen so that it moves early — watching the drivers\nof a risk while there is still time to act, rather than its residual score on the\nregister <a href=\"/risk/reading-a-risk-register/\">3.1</a> after the fact.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "how-a-kri-differs-from-a-kpi",
+     "clause": "3.11.1",
+     "alias": "c3-11-1",
+     "text": "How a KRI differs from a KPI"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The two are routinely confused because both are numbers on the same dashboard.\nThey answer different questions: one tracks the exposure behind a risk, the other\nprogress toward an objective.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th></th>\n<th>Key risk indicator</th>\n<th>Key performance indicator</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>What it measures</td>\n<td>Exposure moving toward a limit</td>\n<td>Progress toward an objective</td>\n</tr>\n<tr>\n<td>Direction in time</td>\n<td>Chosen to lead — warns before the event</td>\n<td>Usually lagging — records after</td>\n</tr>\n<tr>\n<td>What it is tied to</td>\n<td>An appetite threshold</td>\n<td>A performance target</td>\n</tr>\n<tr>\n<td>The question it answers</td>\n<td>Is a risk building?</td>\n<td>Was the objective met?</td>\n</tr>\n<tr>\n<td>Example</td>\n<td>Privileged accounts without MFA</td>\n<td>Uptime achieved this quarter</td>\n</tr>\n</tbody>\n</table></div>\n<p>The same raw figure can serve as either, depending on what it is tied to. Uptime\nagainst a target is a KPI; the number of near-misses trending up beneath that\nuptime is a KRI.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-makes-a-kri-worth-having",
+     "clause": "3.11.2",
+     "alias": "c3-11-2",
+     "text": "What makes a KRI worth having"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Most indicators on a risk dashboard are neither leading nor actionable. Four\nproperties separate one that earns its place from one that fills a cell.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Leading, not lagging",
+       "html": "It moves before the event it warns about, not after. A count of incidents already suffered is a scorecard, not an early warning."
+      },
+      {
+       "term": "Tied to a defined threshold",
+       "html": "A written level at which green becomes amber and amber becomes red. Without it the number has no meaning and can never be breached."
+      },
+      {
+       "term": "Owned by someone who can act",
+       "html": "A named person, not a function, who is accountable for the response when it breaches. An indicator no one owns is watched by no one."
+      },
+      {
+       "term": "Actionable",
+       "html": "A breach triggers a specific, pre-agreed response, not a discussion about whether to have one."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "a-worked-example-tied-to-appetite",
+     "clause": "3.11.3",
+     "alias": "c3-11-3",
+     "text": "A worked example, tied to appetite"
+    },
+    {
+     "type": "def",
+     "term": "Threshold (trigger level)",
+     "ref": "3.2",
+     "html": "The level at which an indicator stops being informational and demands a response.\nIt is set relative to appetite <a href=\"/risk/appetite-vs-tolerance/\">3.2</a>, so a breach\nmeans exposure has moved to where the organisation already said it would act."
+    },
+    {
+     "type": "prose",
+     "html": "<p>Take a single control risk: privileged accounts left without multi-factor\nauthentication. The indicator is the proportion of privileged accounts with no\nsecond factor, and appetite is expressed as bands — illustratively, green below\ntwo per cent, amber at five per cent, red at ten per cent. The figures are\nexamples; the real ones come from what the organisation has decided it can carry.</p>\n<p>Amber is where the indicator earns its place. Crossing it is not an incident, so\nnothing has failed yet, but it triggers a named response: the account owner is\nnotified, the coverage gap is closed within a fixed window and if the figure\nreaches red the exception is escalated to the risk committee. An indicator with\nnone of that wiring behind it is a colour on a slide.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-kris-fail",
+     "clause": "3.11.4",
+     "alias": "c3-11-4",
+     "text": "Where KRIs fail"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Chosen because they are easy to collect.</strong> The indicator that is trivial to\npull from a system is rarely the one that predicts anything. Ease of collection\nand predictive value are unrelated, and optimising for the first buys a\ndashboard that measures nothing that matters.</p>\n<p><strong>No threshold, so nothing ever triggers.</strong> A number with no defined green,\namber and red cannot breach. It is reported, noted and forgotten, quarter after\nquarter, because there is no line for it to cross.</p>\n<p><strong>A dashboard of green that never moves.</strong> Indicators that sit at green for a\nyear are either measuring a risk that is genuinely dormant or, far more often,\nmeasuring the wrong thing. A board reporting pack <a href=\"/governance/board-reporting/\">2.3</a>\nof unchanging green is a signal to re-examine the indicators, not reassurance.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "3.11.5",
+     "alias": "c3-11-5",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the difference between a KRI and a KPI?",
+       "id": "faq-what-is-the-difference-between-a-kri-and-a-kpi",
+       "html": "<p>The difference is subject, not just timing. A KPI measures performance against an\nobjective; a KRI measures whether the exposure behind a risk is building. A KRI is\nthen deliberately chosen to lead, so it moves while there is still time to act,\nwhere a KPI usually confirms an outcome already fixed. The same figure can be\neither, depending on whether it is tied to a risk appetite threshold or a\nperformance target.</p>"
+      },
+      {
+       "q": "How many KRIs should you have?",
+       "id": "faq-how-many-kris-should-you-have",
+       "html": "<p>Few enough that each one is watched and acted on. A handful of indicators tied to\nthe risks the board actually cares about beats dozens that no one owns. If a KRI\nhas no defined threshold and no named owner, removing it loses nothing.</p>"
+      },
+      {
+       "q": "How do you set a KRI threshold?",
+       "id": "faq-how-do-you-set-a-kri-threshold",
+       "html": "<p>Work back from appetite. The red line sits where exposure would breach what the\norganisation has said it will tolerate; amber sits far enough below it to leave\ntime to act before red. Both are judgements, so record who set them and revisit\nthem when appetite changes.</p>"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Designing indicators that actually predict, and wiring their thresholds to\nappetite, is worked through in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s risk-reporting module</a>.\nThis entry stays free."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Risk",
+       "item": "https://grc-wiki.vercel.app/risk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Key risk indicators (KRIs), and how they differ from KPIs",
+       "item": "https://grc-wiki.vercel.app/risk/key-risk-indicators/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/risk/key-risk-indicators/#article",
+     "headline": "Key risk indicators (KRIs), and how they differ from KPIs",
+     "name": "Key risk indicators (KRIs), and how they differ from KPIs",
+     "description": "A key risk indicator is a leading metric that warns exposure is moving toward appetite before it becomes an incident, unlike a lagging KPI.",
+     "url": "https://grc-wiki.vercel.app/risk/key-risk-indicators/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/risk/key-risk-indicators/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Risk",
+     "wordCount": 837,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-18",
+     "datePublished": "2026-08-18",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
+      "ISO 31000:2018 — Risk management, guidelines"
+     ],
+     "keywords": "key risk indicator, KRI, KRI vs KPI, leading vs lagging indicator, risk indicator examples"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/risk/key-risk-indicators/#term",
+     "name": "Key risk indicator",
+     "alternateName": "",
+     "description": "A key risk indicator is a leading metric that warns exposure is moving toward appetite before it becomes an incident, unlike a lagging KPI.",
+     "url": "https://grc-wiki.vercel.app/risk/key-risk-indicators/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/risk/key-risk-indicators/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the difference between a KRI and a KPI?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The difference is subject, not just timing. A KPI measures performance against an objective; a KRI measures whether the exposure behind a risk is building. A KRI is then deliberately chosen to lead, so it moves while there is still time to act, where a KPI usually confirms an outcome already fixed. The same figure can be either, depending on whether it is tied to a risk appetite threshold or a performance target."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How many KRIs should you have?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Few enough that each one is watched and acted on. A handful of indicators tied to the risks the board actually cares about beats dozens that no one owns. If a KRI has no defined threshold and no named owner, removing it loses nothing."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How do you set a KRI threshold?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Work back from appetite. The red line sits where exposure would breach what the organisation has said it will tolerate; amber sits far enough below it to leave time to act before red. Both are judgements, so record who set them and revisit them when appetite changes."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "3.12",
+   "part": 3,
+   "slug": "risk-quantification",
+   "title": "Risk quantification, and when a number beats a heat map",
+   "description": "Risk quantification states exposure as a probable monetary loss and its spread, not a heat-map colour. It answers how much, which a red cell cannot.",
+   "short_title": "Risk quantification",
+   "keywords": [
+    "risk quantification",
+    "quantitative vs qualitative risk",
+    "FAIR risk model",
+    "expected loss",
+    "cyber risk quantification"
+   ],
+   "defines": "Risk quantification",
+   "reviewed": "2026-08-20",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 5,
+   "canonical_entry": false,
+   "quick_facts": {
+    "expressed as": "Monetary loss range",
+    "core formula": "Frequency × magnitude",
+    "common method": "Open FAIR",
+    "answers": "How much",
+    "worth it on": "Few decisions"
+   },
+   "related": [
+    "3.1",
+    "3.2",
+    "3.4"
+   ],
+   "sources": [
+    "ISO 31000:2018 — Risk management, guidelines",
+    "The Open Group, Risk Analysis (O-RA) Standard — the Open FAIR body of knowledge"
+   ],
+   "prev": {
+    "ref": "3.11",
+    "title": "Key risk indicators"
+   },
+   "next": {
+    "ref": "3.13",
+    "title": "Risk workshop"
+   },
+   "sections": [
+    {
+     "id": "qualitative-and-quantitative-are-not-a-hierarchy",
+     "clause": "3.12.1",
+     "text": "Qualitative and quantitative are not a hierarchy"
+    },
+    {
+     "id": "what-a-quantified-risk-looks-like",
+     "clause": "3.12.2",
+     "text": "What a quantified risk looks like"
+    },
+    {
+     "id": "where-quantification-goes-wrong",
+     "clause": "3.12.3",
+     "text": "Where quantification goes wrong"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/risk/risk-quantification/",
+   "part_slug": "risk",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "Risk quantification expresses exposure as a <strong>monetary range — a probable loss\nand its spread — instead of a colour on a heat map</strong>. It answers the one\nquestion a red, amber or green cell cannot: how much."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "qualitative-and-quantitative-are-not-a-hierarchy",
+     "clause": "3.12.1",
+     "alias": "c3-12-1",
+     "text": "Qualitative and quantitative are not a hierarchy"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Neither method outranks the other; each answers a different question.\nQualitative scoring — the likelihood-times-impact heat map at\n<a href=\"/risk/reading-a-risk-register/\">3.1</a> — triages breadth cheaply, ranking a whole\nregister in an afternoon. Quantification costs more, and earns its place on the\nfew decisions where a number actually changes the call: a large risk acceptance,\na control-spend trade-off or a board question about whether exposure sits inside\ncapacity (<a href=\"/risk/risk-capacity/\">3.4</a>).</p>\n<p>The mistake is to treat one as the grown-up version of the other. A register\nquantified end to end is not more mature than a well-kept heat map. It is usually\njust more expensive.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-a-quantified-risk-looks-like",
+     "clause": "3.12.2",
+     "alias": "c3-12-2",
+     "text": "What a quantified risk looks like"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A quantified risk is a loss, and a loss has two parts: how often the event\nhappens and how much it costs when it does. Loss equals frequency times\nmagnitude. Expressed honestly, each side is a range, so the output is a\ndistribution — a most-likely figure with a spread around it — not a single\nnumber dressed up as certainty.</p>\n<p>Money is the usual unit because it lets unlike risks be compared and weighed\nagainst the cost of treating them. A count of records exposed or hours lost is\nquantitative too; the financial form is simply the one that travels to a board.</p>\n<p>The simplest form drops the spread and multiplies two point estimates.\nAnnualised loss expectancy (ALE) is single loss expectancy times the annual rate\nof occurrence: a £2m loss expected once every ten years is an ALE of £200,000. It\nis a starting point, not the destination.</p>\n<p>FAIR — Factor Analysis of Information Risk, standardised by The Open Group as\nOpen FAIR — is the common open method for decomposing frequency and magnitude\ninto parts that can each be estimated. It gives a shared vocabulary and a\ndefensible structure. It does not manufacture data: the output is only ever as\nsound as the estimates fed into it.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Annualised loss expectancy",
+     "ref": "3.1",
+     "html": "The expected cost of a risk over one year: single loss expectancy multiplied by\nthe annual rate of occurrence. A single figure, useful as a first cut rather than\nthe whole answer."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-quantification-goes-wrong",
+     "clause": "3.12.3",
+     "alias": "c3-12-3",
+     "text": "Where quantification goes wrong"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>False precision.</strong> A probability invented in a meeting does not become data\nbecause it carries a decimal point. A confident number built on guesses is more\ndangerous than an honest colour, because it travels further before anyone thinks\nto question it.</p>\n<p><strong>Quantifying everything.</strong> The effort is justified by the decision it informs.\nRunning a full analysis on every line of the register spends the budget that the\nthree decisions actually needing it should have had.</p>\n<p><strong>A model no one can explain.</strong> If the board that has to trust the number cannot\nfollow how it was reached, the number carries no authority. Complexity that\ncannot be explained to the person signing is a cost, not a feature.</p>"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the difference between qualitative and quantitative risk analysis?",
+       "id": "faq-what-is-the-difference-between-qualitative-and-quantitative-risk-analysis",
+       "html": "<p>Qualitative analysis ranks risks on a descriptive scale — usually likelihood\ntimes impact rendered as a heat map — and is quick enough to run across an entire\nregister. Quantitative analysis expresses a risk as a monetary loss, or a range\nof losses, and takes real effort to do well.</p>\n<p>One sorts the population; the other sizes an individual decision. Most programmes\nneed both, applied where each fits.</p>"
+      },
+      {
+       "q": "What is the FAIR model?",
+       "id": "faq-what-is-the-fair-model",
+       "html": "<p>FAIR, Factor Analysis of Information Risk, is an open framework for quantifying\nrisk in financial terms. It breaks loss down into loss frequency and loss\nmagnitude, then decomposes each further so the parts can be estimated and\nrecombined. The Open Group maintains it as Open FAIR. It is a way to structure\nthe analysis, not a source of the underlying numbers.</p>"
+      },
+      {
+       "q": "Do you need to quantify risk?",
+       "id": "faq-do-you-need-to-quantify-risk",
+       "html": "<p>Not for every risk. Quantify where a number changes a decision — a large\nacceptance, a spend trade-off, a capacity question\n(<a href=\"/risk/risk-capacity/\">3.4</a>) — and leave the rest on the qualitative heat map.\nQuantifying everything wastes the effort that the decisions genuinely needing it\ndeserve.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Risk",
+       "item": "https://grc-wiki.vercel.app/risk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Risk quantification, and when a number beats a heat map",
+       "item": "https://grc-wiki.vercel.app/risk/risk-quantification/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-quantification/#article",
+     "headline": "Risk quantification, and when a number beats a heat map",
+     "name": "Risk quantification, and when a number beats a heat map",
+     "description": "Risk quantification states exposure as a probable monetary loss and its spread, not a heat-map colour. It answers how much, which a red cell cannot.",
+     "url": "https://grc-wiki.vercel.app/risk/risk-quantification/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/risk/risk-quantification/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Risk",
+     "wordCount": 674,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-20",
+     "datePublished": "2026-08-20",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO 31000:2018 — Risk management, guidelines",
+      "The Open Group, Risk Analysis (O-RA) Standard — the Open FAIR body of knowledge"
+     ],
+     "keywords": "risk quantification, quantitative vs qualitative risk, FAIR risk model, expected loss, cyber risk quantification"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-quantification/#term",
+     "name": "Risk quantification",
+     "alternateName": "",
+     "description": "Risk quantification states exposure as a probable monetary loss and its spread, not a heat-map colour. It answers how much, which a red cell cannot.",
+     "url": "https://grc-wiki.vercel.app/risk/risk-quantification/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-quantification/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the difference between qualitative and quantitative risk analysis?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Qualitative analysis ranks risks on a descriptive scale — usually likelihood times impact rendered as a heat map — and is quick enough to run across an entire register. Quantitative analysis expresses a risk as a monetary loss, or a range of losses, and takes real effort to do well. One sorts the population; the other sizes an individual decision. Most programmes need both, applied where each fits."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is the FAIR model?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FAIR, Factor Analysis of Information Risk, is an open framework for quantifying risk in financial terms. It breaks loss down into loss frequency and loss magnitude, then decomposes each further so the parts can be estimated and recombined. The Open Group maintains it as Open FAIR. It is a way to structure the analysis, not a source of the underlying numbers."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you need to quantify risk?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not for every risk. Quantify where a number changes a decision — a large acceptance, a spend trade-off, a capacity question ( 3.4 ) — and leave the rest on the qualitative heat map. Quantifying everything wastes the effort that the decisions genuinely needing it deserve."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "3.13",
+   "part": 3,
+   "slug": "risk-workshop",
+   "title": "Running a risk workshop",
+   "description": "A risk workshop is a facilitated session that surfaces and sizes risks with the people who own the work. Its real output is the argument, not just the list.",
+   "short_title": "Risk workshop",
+   "keywords": [
+    "risk workshop",
+    "how to run a risk workshop",
+    "risk identification workshop",
+    "risk assessment facilitation",
+    "risk brainstorming"
+   ],
+   "defines": "Risk workshop",
+   "reviewed": "2026-08-22",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 6,
+   "canonical_entry": false,
+   "quick_facts": {
+    "technique": "Structured brainstorming",
+    "who attends": "First and second line",
+    "output": "Register-ready rows",
+    "length": "Ninety minutes",
+    "facilitated by": "Second line"
+   },
+   "related": [
+    "3.1",
+    "3.0",
+    "3.9"
+   ],
+   "sources": [
+    "IEC 31010:2019 — Risk management, risk assessment techniques",
+    "ISO 31000:2018 — Risk management, guidelines (communication and consultation)"
+   ],
+   "prev": {
+    "ref": "3.12",
+    "title": "Risk quantification"
+   },
+   "next": {
+    "ref": "4.0",
+    "title": "What compliance produces"
+   },
+   "sections": [
+    {
+     "id": "who-is-in-the-room",
+     "clause": "3.13.1",
+     "text": "Who is in the room"
+    },
+    {
+     "id": "the-facilitation-problems-that-ruin-it",
+     "clause": "3.13.2",
+     "text": "The facilitation problems that ruin it"
+    },
+    {
+     "id": "turning-a-workshop-into-register-entries",
+     "clause": "3.13.3",
+     "text": "Turning a workshop into register entries"
+    },
+    {
+     "id": "questions-people-ask",
+     "clause": "3.13.4",
+     "text": "Questions people ask"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/risk/risk-workshop/",
+   "part_slug": "risk",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "A risk workshop is a <strong>facilitated session that surfaces and sizes risks with\nthe people who own the work</strong>. Its real output is the argument in the room, not\njust the list that leaves it. Brainstorming is one of the techniques IEC 31010\ncatalogues, and a workshop applies it in a structured form."
+    },
+    {
+     "type": "prose",
+     "html": "<p>A workshop earns its place when the risk cannot be read off a document — when it\nlives in the heads of the people doing the work and has to be talked out. The\nvalue is proportional to how honestly the room disagrees.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "who-is-in-the-room",
+     "clause": "3.13.1",
+     "alias": "c3-13-1",
+     "text": "Who is in the room"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The room needs two things at once: first-line owners, who know where the work\nactually breaks, and second-line facilitation, who keep the conversation honest\nand stop it drifting. Balance is the whole problem. Too senior and nobody will\ncontradict the person who signs the appraisals; too junior and nothing decided\nin the room can be committed to afterwards.</p>\n<p>The workable mix is people close enough to the process to see the failure and\nsenior enough to own the treatment, run by a facilitator who owns none of it.\nKeep it small — six to ten — so every voice has room. A group larger than that\nturns into an audience.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-facilitation-problems-that-ruin-it",
+     "clause": "3.13.2",
+     "alias": "c3-13-2",
+     "text": "The facilitation problems that ruin it"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Most of what wrecks a workshop is social, not analytical. Four failures recur.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Anchoring",
+       "html": "The first number spoken sets the range everyone then argues around. Ask for the consequence before anyone offers a score, and take the score last."
+      },
+      {
+       "term": "Groupthink",
+       "html": "The highest-paid person&rsquo;s opinion quietly becomes the room&rsquo;s opinion. The finding stops being the group&rsquo;s assessment and turns into theirs, unchallenged."
+      },
+      {
+       "term": "The loudest voice",
+       "html": "One confident owner crowds out three quieter ones who sit closer to the work. Airtime is not evidence; redistributing it is the facilitator&rsquo;s job."
+      },
+      {
+       "term": "Scope drift",
+       "html": "The room slides into solutioning — designing the fix — before the risks are even listed. Park every proposed control on a separate sheet and go back to naming risks."
+      }
+     ]
+    },
+    {
+     "type": "def",
+     "term": "Anchoring",
+     "ref": "3.1",
+     "html": "The tendency for the first figure said aloud to fix the range every later\nestimate clusters around. In a workshop it is countered by scoring last, after\nthe cause and consequence are agreed."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "turning-a-workshop-into-register-entries",
+     "clause": "3.13.3",
+     "alias": "c3-13-3",
+     "text": "Turning a workshop into register entries"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A workshop whose output never reaches the register was a meeting. Every risk\nshould leave the room as three things: a statement with a cause, an event and a\nconsequence; a single named owner; and a provisional score that can be revised\nlater. The facilitator&rsquo;s real task is conversion — turning an hour of argument\ninto rows that land in the register at\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>. Talk that is not written down as a row is\ntalk that did not happen.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "questions-people-ask",
+     "clause": "3.13.4",
+     "alias": "c3-13-4",
+     "text": "Questions people ask"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Who should attend a risk workshop?",
+       "id": "faq-who-should-attend-a-risk-workshop",
+       "html": "<p>The people who own the work and one facilitator who does not. First-line process owners supply where it breaks; a second-line facilitator keeps the session honest and converts the talk into register rows. Keep it to six to ten so everyone speaks. A room too senior will not contradict itself, and a room too junior cannot commit to a treatment.</p>"
+      },
+      {
+       "q": "How long should a risk workshop be?",
+       "id": "faq-how-long-should-a-risk-workshop-be",
+       "html": "<p>Ninety minutes is usually the ceiling for useful attention. Past that the scoring gets careless and the quieter owners stop contributing. Cover fewer risks properly rather than the whole register badly — a second session beats one long one.</p>"
+      },
+      {
+       "q": "How do you stop groupthink in a risk workshop?",
+       "id": "faq-how-do-you-stop-groupthink-in-a-risk-workshop",
+       "html": "<p>Take the scores last, after the cause and consequence are agreed, so the first figure said aloud cannot anchor the rest, and have the most senior person speak after the others rather than first. Then invite the disagreement explicitly. A workshop in which nobody contradicts anybody has told you nothing you did not already know.</p>"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Facilitating the room — holding anchoring and the loudest voice in check, not\njust working through the agenda — is practised in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s foundation\ntrack</a>. This entry stays free."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Risk",
+       "item": "https://grc-wiki.vercel.app/risk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Running a risk workshop",
+       "item": "https://grc-wiki.vercel.app/risk/risk-workshop/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-workshop/#article",
+     "headline": "Running a risk workshop",
+     "name": "Running a risk workshop",
+     "description": "A risk workshop is a facilitated session that surfaces and sizes risks with the people who own the work. Its real output is the argument, not just the list.",
+     "url": "https://grc-wiki.vercel.app/risk/risk-workshop/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/risk/risk-workshop/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Risk",
+     "wordCount": 618,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-22",
+     "datePublished": "2026-08-22",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "IEC 31010:2019 — Risk management, risk assessment techniques",
+      "ISO 31000:2018 — Risk management, guidelines (communication and consultation)"
+     ],
+     "keywords": "risk workshop, how to run a risk workshop, risk identification workshop, risk assessment facilitation, risk brainstorming"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-workshop/#term",
+     "name": "Risk workshop",
+     "alternateName": "",
+     "description": "A risk workshop is a facilitated session that surfaces and sizes risks with the people who own the work. Its real output is the argument, not just the list.",
+     "url": "https://grc-wiki.vercel.app/risk/risk-workshop/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/risk/risk-workshop/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Who should attend a risk workshop?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The people who own the work and one facilitator who does not. First-line process owners supply where it breaks; a second-line facilitator keeps the session honest and converts the talk into register rows. Keep it to six to ten so everyone speaks. A room too senior will not contradict itself, and a room too junior cannot commit to a treatment."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long should a risk workshop be?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ninety minutes is usually the ceiling for useful attention. Past that the scoring gets careless and the quieter owners stop contributing. Cover fewer risks properly rather than the whole register badly — a second session beats one long one."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How do you stop groupthink in a risk workshop?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Take the scores last, after the cause and consequence are agreed, so the first figure said aloud cannot anchor the rest, and have the most senior person speak after the others rather than first. Then invite the disagreement explicitly. A workshop in which nobody contradicts anybody has told you nothing you did not already know."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "clause": "4.0",
    "part": 4,
    "slug": "what-compliance-produces",
@@ -6282,8 +8717,8 @@
     "AICPA, Trust Services Criteria (TSP section 100)"
    ],
    "prev": {
-    "ref": "3.4",
-    "title": "Risk capacity"
+    "ref": "3.13",
+    "title": "Risk workshop"
    },
    "next": {
     "ref": "4.1",
@@ -9829,6 +12264,16 @@
     "flags": "example fresh"
    },
    {
+    "t": "Annualised loss expectancy",
+    "ref": "3.12",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/risk/risk-quantification/",
+    "flags": "fresh"
+   },
+   {
     "t": "Appetite, risk",
     "ref": "3.2",
     "key": true,
@@ -9971,22 +12416,32 @@
    {
     "t": "Business continuity",
     "ref": "3.6",
-    "key": false,
+    "key": true,
     "example": true,
     "template": false,
-    "level": "",
-    "url": "",
-    "flags": "example"
+    "level": "entry",
+    "url": "/risk/business-continuity/",
+    "flags": "example level fresh"
+   },
+   {
+    "t": "Business continuity vs disaster recovery",
+    "ref": "3.6",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/risk/business-continuity/",
+    "flags": "level fresh"
    },
    {
     "t": "Business impact analysis",
     "ref": "3.7",
-    "key": false,
+    "key": true,
     "example": false,
     "template": true,
-    "level": "",
-    "url": "",
-    "flags": "template"
+    "level": "entry",
+    "url": "/risk/business-impact-analysis/",
+    "flags": "template level fresh"
    },
    {
     "t": "Capacity, risk",
@@ -10289,14 +12744,24 @@
     "flags": ""
    },
    {
+    "t": "Disaster recovery",
+    "ref": "3.6",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/risk/business-continuity/",
+    "flags": "fresh"
+   },
+   {
     "t": "Due diligence, supplier",
     "ref": "3.8",
     "key": false,
     "example": false,
     "template": true,
     "level": "",
-    "url": "",
-    "flags": "template"
+    "url": "/risk/third-party-risk/",
+    "flags": "template fresh"
    },
    {
     "t": "Emerging risk",
@@ -10305,8 +12770,8 @@
     "example": false,
     "template": false,
     "level": "",
-    "url": "",
-    "flags": ""
+    "url": "/risk/emerging-risk/",
+    "flags": "fresh"
    },
    {
     "t": "Evidence",
@@ -10320,12 +12785,22 @@
    },
    {
     "t": "Exception log",
-    "ref": "3.0",
+    "ref": "3.10",
     "key": false,
     "example": false,
     "template": true,
     "level": "",
-    "url": "/risk/what-the-risk-function-produces/",
+    "url": "/risk/policy-waivers/",
+    "flags": "template fresh"
+   },
+   {
+    "t": "Exception, policy",
+    "ref": "3.10",
+    "key": false,
+    "example": false,
+    "template": true,
+    "level": "",
+    "url": "/risk/policy-waivers/",
     "flags": "template fresh"
    },
    {
@@ -10346,6 +12821,16 @@
     "template": false,
     "level": "",
     "url": "/compliance/responding-to-an-audit/",
+    "flags": "fresh"
+   },
+   {
+    "t": "FAIR model",
+    "ref": "3.12",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/risk/risk-quantification/",
     "flags": "fresh"
    },
    {
@@ -10377,6 +12862,16 @@
     "level": "entry",
     "url": "/foundations/three-lines-model/",
     "flags": "level fresh"
+   },
+   {
+    "t": "Fourth-party risk",
+    "ref": "3.8",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/risk/third-party-risk/",
+    "flags": "fresh"
    },
    {
     "t": "Framework",
@@ -10467,6 +12962,16 @@
     "level": "entry",
     "url": "/foundations/grc-vs-internal-audit/",
     "flags": "level fresh"
+   },
+   {
+    "t": "Horizon scanning",
+    "ref": "3.9",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/risk/emerging-risk/",
+    "flags": "fresh"
    },
    {
     "t": "Impact scale",
@@ -10571,12 +13076,32 @@
    {
     "t": "Key risk indicator",
     "ref": "3.11",
-    "key": false,
+    "key": true,
     "example": true,
     "template": true,
-    "level": "",
-    "url": "",
-    "flags": "example template"
+    "level": "entry",
+    "url": "/risk/key-risk-indicators/",
+    "flags": "example template level fresh"
+   },
+   {
+    "t": "KRI",
+    "ref": "3.11",
+    "key": true,
+    "example": true,
+    "template": false,
+    "level": "entry",
+    "url": "/risk/key-risk-indicators/",
+    "flags": "example level fresh"
+   },
+   {
+    "t": "KRI vs KPI",
+    "ref": "3.11",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/risk/key-risk-indicators/",
+    "flags": "level fresh"
    },
    {
     "t": "Least privilege",
@@ -10795,8 +13320,18 @@
     "example": false,
     "template": false,
     "level": "",
-    "url": "",
-    "flags": ""
+    "url": "/risk/risk-quantification/",
+    "flags": "fresh"
+   },
+   {
+    "t": "Quantitative risk analysis",
+    "ref": "3.12",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/risk/risk-quantification/",
+    "flags": "level fresh"
    },
    {
     "t": "Questionnaire, security",
@@ -10807,6 +13342,26 @@
     "level": "",
     "url": "",
     "flags": "template"
+   },
+   {
+    "t": "Recovery point objective (RPO)",
+    "ref": "3.7",
+    "key": false,
+    "example": true,
+    "template": false,
+    "level": "",
+    "url": "/risk/business-impact-analysis/",
+    "flags": "example fresh"
+   },
+   {
+    "t": "Recovery time objective (RTO)",
+    "ref": "3.7",
+    "key": true,
+    "example": true,
+    "template": false,
+    "level": "",
+    "url": "/risk/business-impact-analysis/",
+    "flags": "example fresh"
    },
    {
     "t": "Register, risk",
@@ -10897,6 +13452,16 @@
     "level": "entry",
     "url": "/foundations/risk-issue-incident/",
     "flags": "level fresh"
+   },
+   {
+    "t": "Risk workshop",
+    "ref": "3.13",
+    "key": false,
+    "example": false,
+    "template": true,
+    "level": "",
+    "url": "/risk/risk-workshop/",
+    "flags": "template fresh"
    },
    {
     "t": "Roles, GRC",
@@ -11005,8 +13570,8 @@
     "example": true,
     "template": false,
     "level": "",
-    "url": "",
-    "flags": "example"
+    "url": "/risk/third-party-risk/",
+    "flags": "example fresh"
    },
    {
     "t": "Terms of reference",
@@ -11041,12 +13606,12 @@
    {
     "t": "Third-party risk management",
     "ref": "3.8",
-    "key": false,
+    "key": true,
     "example": true,
     "template": true,
-    "level": "",
-    "url": "",
-    "flags": "example template"
+    "level": "entry",
+    "url": "/risk/third-party-risk/",
+    "flags": "example template level fresh"
    },
    {
     "t": "Tolerance, risk",
@@ -11057,6 +13622,16 @@
     "level": "entry",
     "url": "/risk/appetite-vs-tolerance/",
     "flags": "level fresh"
+   },
+   {
+    "t": "TPRM",
+    "ref": "3.8",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/risk/third-party-risk/",
+    "flags": "fresh"
    },
    {
     "t": "Training, GRC",
@@ -11119,14 +13694,24 @@
     "flags": "level fresh"
    },
    {
+    "t": "Vendor due diligence",
+    "ref": "3.8",
+    "key": false,
+    "example": false,
+    "template": true,
+    "level": "",
+    "url": "/risk/third-party-risk/",
+    "flags": "template fresh"
+   },
+   {
     "t": "Vendor risk",
     "ref": "3.8",
     "key": false,
     "example": true,
     "template": false,
     "level": "",
-    "url": "",
-    "flags": "example"
+    "url": "/risk/third-party-risk/",
+    "flags": "example fresh"
    },
    {
     "t": "Vocabulary, GRC",
@@ -11155,8 +13740,8 @@
     "example": false,
     "template": true,
     "level": "",
-    "url": "",
-    "flags": "template"
+    "url": "/risk/policy-waivers/",
+    "flags": "template fresh"
    },
    {
     "t": "Workshop, risk",
@@ -11165,15 +13750,15 @@
     "example": false,
     "template": true,
     "level": "",
-    "url": "",
-    "flags": "template"
+    "url": "/risk/risk-workshop/",
+    "flags": "template fresh"
    }
   ],
   "coverage": [
-   "138 headwords &middot; 38 with examples",
-   "113 headwords live &middot; 35 entries",
+   "153 headwords &middot; 41 with examples",
+   "139 headwords live &middot; 43 entries",
    "26 framework terms mapped",
-   "Median age 14 days"
+   "Median age 15 days"
   ]
  },
  "pages": {

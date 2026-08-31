@@ -29,8 +29,8 @@ terms:
 
   - { t: "Backup and restore testing", ref: "4.6", template: true }
   - { t: "Board reporting", ref: "2.3", key: true, template: true }
-  - { t: "Business continuity", ref: "3.6", example: true }
-  - { t: "Business impact analysis", ref: "3.7", template: true }
+  - { t: "Business continuity", ref: "3.6", key: true, example: true, level: entry }
+  - { t: "Business impact analysis", ref: "3.7", key: true, template: true, level: entry }
 
   - { t: "Certification body", ref: "5.0" }
   - { t: "Change management", ref: "4.5", example: true }
@@ -54,7 +54,7 @@ terms:
 
   - { t: "Emerging risk", ref: "3.9" }
   - { t: "Evidence", ref: "4.2", key: true, example: true, level: entry }
-  - { t: "Exception log", ref: "3.0", template: true }
+  - { t: "Exception log", ref: "3.10", template: true }
   - { t: "Exclusion, Annex A", ref: "5.3" }
   - { t: "Exit criteria, audit", ref: "4.3" }
 
@@ -75,7 +75,7 @@ terms:
   - { t: "ISO/IEC 27001", ref: "5.1", key: true, example: true }
   - { t: "ISMS", ref: "5.1", level: entry }
 
-  - { t: "Key risk indicator", ref: "3.11", example: true, template: true }
+  - { t: "Key risk indicator", ref: "3.11", key: true, example: true, template: true, level: entry }
 
   - { t: "Least privilege", ref: "4.1", level: entry }
   - { t: "Likelihood scale", ref: "3.1", example: true, template: true }
@@ -121,7 +121,7 @@ terms:
 
   - { t: "Testing, control", ref: "4.2", key: true, example: true }
   - { t: "Third line", ref: "1.5", level: entry }
-  - { t: "Third-party risk management", ref: "3.8", example: true, template: true }
+  - { t: "Third-party risk management", ref: "3.8", key: true, example: true, template: true, level: entry }
   - { t: "Tolerance, risk", ref: "3.2", key: true, level: entry }
   - { t: "Transfer, risk", ref: "3.3" }
   - { t: "Trust Services Criteria", ref: "5.1", key: true, example: true }
@@ -174,3 +174,19 @@ terms:
   - { t: "Compliance vs risk", ref: "1.9" }
   - { t: "Governance vs management", ref: "2.4", key: true, level: entry }
   - { t: "Management vs governance", ref: "2.4" }
+  # --- added with wave 3 (risk-operations colour, part 3) ------------------
+  - { t: "Disaster recovery", ref: "3.6", key: true }
+  - { t: "Business continuity vs disaster recovery", ref: "3.6", level: entry }
+  - { t: "Recovery time objective (RTO)", ref: "3.7", key: true, example: true }
+  - { t: "Recovery point objective (RPO)", ref: "3.7", example: true }
+  - { t: "TPRM", ref: "3.8", key: true }
+  - { t: "Vendor due diligence", ref: "3.8", template: true }
+  - { t: "Fourth-party risk", ref: "3.8" }
+  - { t: "Horizon scanning", ref: "3.9" }
+  - { t: "Exception, policy", ref: "3.10", template: true }
+  - { t: "KRI", ref: "3.11", key: true, example: true, level: entry }
+  - { t: "KRI vs KPI", ref: "3.11", level: entry }
+  - { t: "FAIR model", ref: "3.12" }
+  - { t: "Quantitative risk analysis", ref: "3.12", level: entry }
+  - { t: "Annualised loss expectancy", ref: "3.12" }
+  - { t: "Risk workshop", ref: "3.13", template: true }
