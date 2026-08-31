@@ -20,24 +20,24 @@ terms:
   - { t: "Annex A (ISO 27001)", ref: "5.1", example: true }
   - { t: "Appetite, risk", ref: "3.2", key: true, example: true, level: entry }
   - { t: "Artefacts, the four", ref: "1.3", key: true, level: entry }
-  - { t: "Assertion, management", ref: "4.4" }
+  - { t: "Assertion, management", ref: "4.4", key: true, level: entry }
   - { t: "Attestation", ref: "5.3" }
   - { t: "Audit, internal", ref: "1.4", key: true, level: entry }
   - { t: "Audit committee", ref: "2.3" }
   - { t: "Audit trail", ref: "4.3" }
   - { t: "Availability criterion", ref: "5.4" }
 
-  - { t: "Backup and restore testing", ref: "4.6", template: true }
+  - { t: "Backup and restore testing", ref: "4.6", key: true, template: true, level: entry }
   - { t: "Board reporting", ref: "2.3", key: true, template: true }
   - { t: "Business continuity", ref: "3.6", key: true, example: true, level: entry }
   - { t: "Business impact analysis", ref: "3.7", key: true, template: true, level: entry }
 
   - { t: "Certification body", ref: "5.0" }
-  - { t: "Change management", ref: "4.5", example: true }
+  - { t: "Change management", ref: "4.5", key: true, example: true, level: entry }
   - { t: "Committee, risk", ref: "2.2" }
   - { t: "Compliance", ref: "4.0", key: true, level: entry }
   - { t: "Confidentiality criterion", ref: "5.4" }
-  - { t: "Continuous compliance", ref: "4.8" }
+  - { t: "Continuous compliance", ref: "4.8", key: true, level: entry }
   - { t: "Control", ref: "4.1", key: true, example: true, level: entry }
   - { t: "Control inventory", ref: "1.3", example: true, template: true }
   - { t: "Control owner", ref: "4.1" }
@@ -49,7 +49,7 @@ terms:
 
   - { t: "Delegated authority matrix", ref: "2.3", template: true }
   - { t: "Design effectiveness", ref: "4.2" }
-  - { t: "Deviation, control", ref: "4.7" }
+  - { t: "Deviation, control", ref: "4.7", key: true, example: true, level: entry }
   - { t: "Due diligence, supplier", ref: "3.8", template: true }
 
   - { t: "Emerging risk", ref: "3.9" }
@@ -84,7 +84,7 @@ terms:
   - { t: "Management review", ref: "5.3" }
   - { t: "Mapping, obligation to control", ref: "4.1", key: true, example: true }
   - { t: "Maturity, control", ref: "5.9" }
-  - { t: "Monitoring, control", ref: "4.8" }
+  - { t: "Monitoring, control", ref: "4.8", level: entry }
 
   - { t: "NIST CSF 2.0", ref: "5.0", key: true, example: true }
   - { t: "Nonconformity", ref: "4.3" }
@@ -100,7 +100,7 @@ terms:
   - { t: "Procedure", ref: "2.1", level: entry }
   - { t: "Processing integrity criterion", ref: "5.4" }
 
-  - { t: "Questionnaire, security", ref: "4.9", template: true }
+  - { t: "Questionnaire, security", ref: "4.9", key: true, template: true, level: entry }
   - { t: "Quantification, risk", ref: "3.12" }
 
   - { t: "Register, risk", ref: "3.1", key: true, example: true, level: entry }
@@ -128,7 +128,7 @@ terms:
   - { t: "Type I and Type II", ref: "5.1", key: true, level: entry }
 
   - { t: "Vendor risk", ref: "3.8", example: true }
-  - { t: "Vulnerability management", ref: "4.10", example: true }
+  - { t: "Vulnerability management", ref: "4.10", key: true, example: true, level: entry }
 
   - { t: "Waiver, policy", ref: "3.10", template: true }
   - { t: "Workshop, risk", ref: "3.13", template: true }
@@ -190,3 +190,22 @@ terms:
   - { t: "Quantitative risk analysis", ref: "3.12", level: entry }
   - { t: "Annualised loss expectancy", ref: "3.12" }
   - { t: "Risk workshop", ref: "3.13", template: true }
+  # --- added with wave 4 (compliance-operations colour, part 4) -------------
+  # Canonical inverted headwords for these live above (Assertion, management /
+  # Deviation, control / Questionnaire, security), so only query-variant forms
+  # that do not duplicate them are added here.
+  - { t: "SOC 2 assertion", ref: "4.4" }
+  - { t: "Assertion vs auditor opinion", ref: "4.4" }
+  - { t: "Emergency change", ref: "4.5" }
+  - { t: "Change record", ref: "4.5" }
+  - { t: "Deviation vs policy waiver", ref: "4.7", level: entry }
+  - { t: "SOC 2 exception", ref: "4.7" }
+  - { t: "Continuous control monitoring", ref: "4.8", key: true, level: entry }
+  - { t: "SIG questionnaire", ref: "4.9" }
+  - { t: "CAIQ", ref: "4.9" }
+  - { t: "SIG vs CAIQ", ref: "4.9", level: entry }
+  - { t: "Answer library", ref: "4.9" }
+  - { t: "CVSS", ref: "4.10", example: true }
+  - { t: "Vulnerability scan vs penetration test", ref: "4.10", level: entry }
+  - { t: "Remediation SLA", ref: "4.10" }
+  - { t: "Patch management", ref: "4.10" }

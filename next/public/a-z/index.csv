@@ -4,9 +4,11 @@ headword,clause,published,worked_example,template,entry_level
 "Accountability, delegated",2.3,yes,no,no,no
 "Annex A (ISO 27001)",5.1,yes,yes,no,no
 "Annualised loss expectancy",3.12,yes,no,no,no
+"Answer library",4.9,yes,no,no,no
 "Appetite, risk",3.2,yes,yes,no,yes
 "Artefacts, the four",1.3,yes,no,no,yes
-"Assertion, management",4.4,no,no,no,no
+"Assertion vs auditor opinion",4.4,yes,no,no,no
+"Assertion, management",4.4,yes,no,no,yes
 "Attestation",5.3,yes,no,no,no
 "Audit committee",2.3,yes,no,no,no
 "Audit response",4.3,yes,no,no,no
@@ -15,18 +17,20 @@ headword,clause,published,worked_example,template,entry_level
 "Authority, delegated",2.2,yes,no,yes,no
 "Availability criterion",5.4,no,no,no,no
 "Avoid, risk treatment",3.3,yes,no,no,no
-"Backup and restore testing",4.6,no,no,yes,no
+"Backup and restore testing",4.6,yes,no,yes,yes
 "Board reporting",2.3,yes,no,yes,no
 "Breaking into GRC",6.1,yes,no,no,yes
 "Business continuity",3.6,yes,yes,no,yes
 "Business continuity vs disaster recovery",3.6,yes,no,no,yes
 "Business impact analysis",3.7,yes,no,yes,yes
+"CAIQ",4.9,yes,no,no,no
 "Capacity, risk",3.4,yes,no,no,yes
 "Career path, GRC",6.0,yes,no,no,yes
 "Career progression, GRC",6.4,yes,no,no,yes
 "Certification body",5.0,yes,no,no,no
 "Certifications, GRC",6.3,yes,no,no,yes
-"Change management",4.5,no,yes,no,no
+"Change management",4.5,yes,yes,no,yes
+"Change record",4.5,yes,no,no,no
 "CISA",6.3,yes,no,no,no
 "CISM",6.3,yes,no,no,no
 "CISSP",6.3,yes,no,no,no
@@ -35,7 +39,8 @@ headword,clause,published,worked_example,template,entry_level
 "Compliance",4.0,yes,no,no,yes
 "Compliance vs risk",1.9,yes,no,no,no
 "Confidentiality criterion",5.4,no,no,no,no
-"Continuous compliance",4.8,no,no,no,no
+"Continuous compliance",4.8,yes,no,no,yes
+"Continuous control monitoring",4.8,yes,no,no,yes
 "Control",4.1,yes,yes,no,yes
 "Control inventory",1.3,yes,yes,yes,no
 "Control owner",4.1,yes,no,no,no
@@ -46,13 +51,16 @@ headword,clause,published,worked_example,template,entry_level
 "Criteria, Trust Services",5.1,yes,no,no,no
 "Crosswalk",5.2,yes,yes,no,no
 "Crosswalk, control",5.2,yes,yes,no,no
+"CVSS",4.10,yes,yes,no,no
 "Cyber security vs GRC",1.8,yes,no,no,no
 "Day in the life, GRC",6.5,yes,no,no,yes
 "Delegated authority matrix",2.3,yes,no,yes,no
 "Design effectiveness",4.2,yes,no,no,no
-"Deviation, control",4.7,no,no,no,no
+"Deviation vs policy waiver",4.7,yes,no,no,yes
+"Deviation, control",4.7,yes,yes,no,yes
 "Disaster recovery",3.6,yes,no,no,no
 "Due diligence, supplier",3.8,yes,no,yes,no
+"Emergency change",4.5,yes,no,no,no
 "Emerging risk",3.9,yes,no,no,no
 "Evidence",4.2,yes,yes,no,yes
 "Exception log",3.10,yes,no,yes,no
@@ -95,13 +103,14 @@ headword,clause,published,worked_example,template,entry_level
 "Mapping, obligation to control",4.1,yes,yes,no,no
 "Maturity, control",5.9,no,no,no,no
 "Mitigate, risk treatment",3.3,yes,no,no,yes
-"Monitoring, control",4.8,no,no,no,no
+"Monitoring, control",4.8,yes,no,no,yes
 "NIST CSF 2.0",5.0,yes,yes,no,no
 "Nonconformity",4.3,yes,no,no,no
 "Numbering, clause",1.0,yes,no,no,no
 "Obligation register",4.1,yes,no,yes,no
 "Operating effectiveness",4.2,yes,yes,no,no
 "Owner, risk",3.1,yes,no,no,yes
+"Patch management",4.10,yes,no,no,no
 "PCI DSS",5.11,no,no,no,no
 "Policy",2.1,yes,yes,no,yes
 "Policy hierarchy",2.1,yes,yes,no,no
@@ -110,10 +119,11 @@ headword,clause,published,worked_example,template,entry_level
 "Processing integrity criterion",5.4,no,no,no,no
 "Quantification, risk",3.12,yes,no,no,no
 "Quantitative risk analysis",3.12,yes,no,no,yes
-"Questionnaire, security",4.9,no,no,yes,no
+"Questionnaire, security",4.9,yes,no,yes,yes
 "Recovery point objective (RPO)",3.7,yes,yes,no,no
 "Recovery time objective (RTO)",3.7,yes,yes,no,no
 "Register, risk",3.1,yes,yes,no,yes
+"Remediation SLA",4.10,yes,no,no,no
 "Residual risk",3.1,yes,no,no,yes
 "Review date",3.1,yes,no,no,no
 "Risk",3.0,yes,no,no,yes
@@ -130,7 +140,11 @@ headword,clause,published,worked_example,template,entry_level
 "Second line",1.5,yes,no,no,yes
 "Self-review threat",1.5,yes,no,no,no
 "Shall vs should",5.0,yes,no,no,yes
+"SIG questionnaire",4.9,yes,no,no,no
+"SIG vs CAIQ",4.9,yes,no,no,yes
 "SOC 2",5.1,yes,yes,no,no
+"SOC 2 assertion",4.4,yes,no,no,no
+"SOC 2 exception",4.7,yes,no,no,no
 "Standard",2.1,yes,no,no,yes
 "Statement of applicability",5.3,yes,yes,yes,no
 "Supplier risk",3.8,yes,yes,no,no
@@ -149,6 +163,7 @@ headword,clause,published,worked_example,template,entry_level
 "Vendor due diligence",3.8,yes,no,yes,no
 "Vendor risk",3.8,yes,yes,no,no
 "Vocabulary, GRC",1.2,yes,no,no,yes
-"Vulnerability management",4.10,no,yes,no,no
+"Vulnerability management",4.10,yes,yes,no,yes
+"Vulnerability scan vs penetration test",4.10,yes,no,no,yes
 "Waiver, policy",3.10,yes,no,yes,no
 "Workshop, risk",3.13,yes,no,yes,no

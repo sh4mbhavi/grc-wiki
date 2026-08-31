@@ -173,6 +173,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Answer library",
+     "url": "https://grc-wiki.vercel.app/compliance/security-questionnaires/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Appetite, risk",
      "url": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/"
     },
@@ -180,6 +185,16 @@
      "@type": "DefinedTerm",
      "name": "Artefacts, the four",
      "url": "https://grc-wiki.vercel.app/foundations/four-artefacts/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Assertion vs auditor opinion",
+     "url": "https://grc-wiki.vercel.app/compliance/management-assertion/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Assertion, management",
+     "url": "https://grc-wiki.vercel.app/compliance/management-assertion/"
     },
     {
      "@type": "DefinedTerm",
@@ -218,6 +233,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Backup and restore testing",
+     "url": "https://grc-wiki.vercel.app/compliance/backup-and-restore-testing/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Board reporting",
      "url": "https://grc-wiki.vercel.app/governance/board-reporting/"
     },
@@ -243,6 +263,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "CAIQ",
+     "url": "https://grc-wiki.vercel.app/compliance/security-questionnaires/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Capacity, risk",
      "url": "https://grc-wiki.vercel.app/risk/risk-capacity/"
     },
@@ -265,6 +290,16 @@
      "@type": "DefinedTerm",
      "name": "Certifications, GRC",
      "url": "https://grc-wiki.vercel.app/career/certifications-and-training/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Change management",
+     "url": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Change record",
+     "url": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/"
     },
     {
      "@type": "DefinedTerm",
@@ -300,6 +335,16 @@
      "@type": "DefinedTerm",
      "name": "Compliance vs risk",
      "url": "https://grc-wiki.vercel.app/foundations/risk-vs-compliance/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Continuous compliance",
+     "url": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Continuous control monitoring",
+     "url": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/"
     },
     {
      "@type": "DefinedTerm",
@@ -353,6 +398,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "CVSS",
+     "url": "https://grc-wiki.vercel.app/compliance/vulnerability-management/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Cyber security vs GRC",
      "url": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/"
     },
@@ -373,6 +423,16 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Deviation vs policy waiver",
+     "url": "https://grc-wiki.vercel.app/compliance/control-deviations/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Deviation, control",
+     "url": "https://grc-wiki.vercel.app/compliance/control-deviations/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Disaster recovery",
      "url": "https://grc-wiki.vercel.app/risk/business-continuity/"
     },
@@ -380,6 +440,11 @@
      "@type": "DefinedTerm",
      "name": "Due diligence, supplier",
      "url": "https://grc-wiki.vercel.app/risk/third-party-risk/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Emergency change",
+     "url": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/"
     },
     {
      "@type": "DefinedTerm",
@@ -588,6 +653,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Monitoring, control",
+     "url": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "NIST CSF 2.0",
      "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
     },
@@ -618,6 +688,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Patch management",
+     "url": "https://grc-wiki.vercel.app/compliance/vulnerability-management/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Policy",
      "url": "https://grc-wiki.vercel.app/governance/policy-hierarchy/"
     },
@@ -643,6 +718,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Questionnaire, security",
+     "url": "https://grc-wiki.vercel.app/compliance/security-questionnaires/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Recovery point objective (RPO)",
      "url": "https://grc-wiki.vercel.app/risk/business-impact-analysis/"
     },
@@ -655,6 +735,11 @@
      "@type": "DefinedTerm",
      "name": "Register, risk",
      "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Remediation SLA",
+     "url": "https://grc-wiki.vercel.app/compliance/vulnerability-management/"
     },
     {
      "@type": "DefinedTerm",
@@ -738,8 +823,28 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "SIG questionnaire",
+     "url": "https://grc-wiki.vercel.app/compliance/security-questionnaires/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "SIG vs CAIQ",
+     "url": "https://grc-wiki.vercel.app/compliance/security-questionnaires/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "SOC 2",
      "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "SOC 2 assertion",
+     "url": "https://grc-wiki.vercel.app/compliance/management-assertion/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "SOC 2 exception",
+     "url": "https://grc-wiki.vercel.app/compliance/control-deviations/"
     },
     {
      "@type": "DefinedTerm",
@@ -833,6 +938,16 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Vulnerability management",
+     "url": "https://grc-wiki.vercel.app/compliance/vulnerability-management/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Vulnerability scan vs penetration test",
+     "url": "https://grc-wiki.vercel.app/compliance/vulnerability-management/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Waiver, policy",
      "url": "https://grc-wiki.vercel.app/risk/policy-waivers/"
     },
@@ -892,7 +1007,7 @@
    "name": "Compliance",
    "count": 37,
    "blurb": "Obligations, control testing, evidence, audit response.",
-   "published": 4
+   "published": 11
   },
   {
    "n": 5,
@@ -9432,8 +9547,8 @@
     "title": "Evidence that holds up in audit"
    },
    "next": {
-    "ref": "5.0",
-    "title": "How to read a framework"
+    "ref": "4.4",
+    "title": "Management assertion"
    },
    "sections": [
     {
@@ -9617,6 +9732,2168 @@
    ]
   },
   {
+   "clause": "4.4",
+   "part": 4,
+   "slug": "management-assertion",
+   "title": "The management assertion",
+   "description": "In a SOC 2 attestation, management, not the auditor, writes the assertion that the system is described fairly and the controls were suitably designed.",
+   "short_title": "Management assertion",
+   "keywords": [
+    "management assertion",
+    "SOC 2 management assertion",
+    "assertion vs auditor opinion",
+    "SSAE 18 assertion",
+    "written assertion attestation"
+   ],
+   "defines": "Management assertion",
+   "reviewed": "2026-08-15",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 7,
+   "canonical_entry": false,
+   "quick_facts": {
+    "written by": "Management",
+    "opined on by": "The CPA firm",
+    "standard": "SSAE 18 AT-C 205",
+    "criteria": "Trust Services Criteria",
+    "Type II adds": "Operating effectiveness",
+    "ISO equivalent": "None direct"
+   },
+   "related": [
+    "4.0",
+    "4.2",
+    "5.1"
+   ],
+   "sources": [
+    "AICPA, SSAE No. 18, AT-C section 205",
+    "AICPA, Trust Services Criteria (TSP section 100)",
+    "AICPA, Description Criteria (DC section 200)",
+    "ISO/IEC 27001:2022, clause 9.3 (management review)"
+   ],
+   "prev": {
+    "ref": "4.3",
+    "title": "Responding to an audit request"
+   },
+   "next": {
+    "ref": "4.5",
+    "title": "Change management"
+   },
+   "sections": [
+    {
+     "id": "the-assertion-is-managements-the-opinion-is-the-auditors",
+     "clause": "4.4.1",
+     "text": "The assertion is management's, the opinion is the auditor's"
+    },
+    {
+     "id": "what-the-assertion-covers",
+     "clause": "4.4.2",
+     "text": "What the assertion covers"
+    },
+    {
+     "id": "where-iso-27001-puts-the-same-accountability",
+     "clause": "4.4.3",
+     "text": "Where ISO 27001 puts the same accountability"
+    },
+    {
+     "id": "how-an-assertion-fails",
+     "clause": "4.4.4",
+     "text": "How an assertion fails"
+    },
+    {
+     "id": "common-questions",
+     "clause": "4.4.5",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/compliance/management-assertion/",
+   "part_slug": "compliance",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "In an attestation engagement such as SOC 2, management provides a written\n<strong>assertion</strong>: its own statement that the system is described fairly and the\ncontrols were suitably designed. The practitioner then opines on that assertion —\nthe words are management&rsquo;s, not the auditor&rsquo;s."
+    },
+    {
+     "type": "prose",
+     "html": "<p>For a Type II the assertion reaches further: it states that those controls\noperated effectively across the whole reporting period, not merely that they were\nwell designed on one day. The report is built on top of this statement. The\npractitioner&rsquo;s opinion is a conclusion about management&rsquo;s assertion, so a weak or\noverstated assertion is management&rsquo;s exposure and does not transfer to the firm\nthat examined it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-assertion-is-managements-the-opinion-is-the-auditors",
+     "clause": "4.4.1",
+     "alias": "c4-4-1",
+     "text": "The assertion is management's, the opinion is the auditor's"
+    },
+    {
+     "type": "prose",
+     "html": "<p>These are two separate statements by two separate parties, and running them\ntogether is the most common misreading of a SOC 2 report. The assertion comes\nfirst: management describes the system and states that the description is fair and\nthe controls suitably designed. The opinion is written on top of it — the\npractitioner tests, then concludes on whether management&rsquo;s assertion is fairly\nstated. Under SSAE 18, AT-C section 205, the examination is of a subject matter\nfor which the responsible party has made an assertion; without that assertion\nthere is nothing for the practitioner to report on.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Aspect</th>\n<th>The assertion</th>\n<th>The opinion</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Written by</td>\n<td>Management</td>\n<td>The practitioner, a licensed CPA firm</td>\n</tr>\n<tr>\n<td>States</td>\n<td>The description is fair and controls were suitably designed</td>\n<td>Whether that assertion is fairly stated, on the evidence tested</td>\n</tr>\n<tr>\n<td>Order</td>\n<td>Comes first</td>\n<td>Built on the assertion</td>\n</tr>\n<tr>\n<td>Carries the exposure</td>\n<td>Management owns it</td>\n<td>The firm answers for its own testing</td>\n</tr>\n</tbody>\n</table></div>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-the-assertion-covers",
+     "clause": "4.4.2",
+     "alias": "c4-4-2",
+     "text": "What the assertion covers"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Fair presentation",
+       "html": "The system description matches the system that actually ran — its boundaries, the services in scope and the controls in place. Overstate the boundary and the assertion is signed over a system that does not exist."
+      },
+      {
+       "term": "Suitability of design",
+       "html": "The controls, as designed, would meet the applicable Trust Services Criteria if they operated as described. This, together with fair presentation, is the whole of a Type I."
+      },
+      {
+       "term": "Operating effectiveness",
+       "html": "For a Type II, that the controls operated effectively throughout the stated period. This is the part the practitioner tests against a sample."
+      },
+      {
+       "term": "The criteria",
+       "html": "Which criteria each half is measured against. The description is assessed for fair presentation against the description criteria (DC section 200); the controls are assessed against the Trust Services Criteria. Naming both keeps the report from being read against the wrong bar."
+      }
+     ]
+    },
+    {
+     "type": "def",
+     "term": "Type I and Type II",
+     "ref": "5.1",
+     "html": "A Type I assertion covers the fair presentation of the system description and the\nsuitability of control design at a point in time; a Type II adds that those\ncontrols operated effectively across a period. The same Type I / Type II split is\nused for SOC 1 reports."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-iso-27001-puts-the-same-accountability",
+     "clause": "4.4.3",
+     "alias": "c4-4-3",
+     "text": "Where ISO 27001 puts the same accountability"
+    },
+    {
+     "type": "prose",
+     "html": "<p>ISO/IEC 27001 has no direct equivalent. Certification produces a certificate from\nan accredited body, not an opinion on a statement management signed. The\naccountability lives in different machinery: clause 9.3 requires top management to\nreview the information security management system at planned intervals, and the\nStatement of Applicability records which controls apply and the justification for\nincluding or excluding each. Both put a management decision on record. Neither is\na signed assertion a practitioner then\nopines on, so an ISO certificate should never be described as resting on a\nmanagement assertion.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "how-an-assertion-fails",
+     "clause": "4.4.4",
+     "alias": "c4-4-4",
+     "text": "How an assertion fails"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Scope overstated.</strong> The description claims systems, locations or services the\ncontrols do not actually cover, and management signs it anyway. When the sample\nreaches the part that was never really in scope, the gap is management&rsquo;s — it\nasserted something untrue.</p>\n<p><strong>Effectiveness the evidence cannot support.</strong> Management asserts that controls\noperated throughout the period when the evidence covers only part of it. A Type II\nassertion is that the controls operated effectively across the whole period, in\nall material respects — not a claim resting only on the instances that happened to\nbe captured.</p>\n<p><strong>Treated as boilerplate.</strong> The assertion is read as text the auditor drafted and\nmanagement merely countersigned. It is the opposite: the statement management owns\nand the document the whole report is built to opine on. A programme that lets the\nfirm word its assertion has misunderstood who is exposed.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "4.4.5",
+     "alias": "c4-4-5",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the difference between the management assertion and the auditor's opinion?",
+       "id": "faq-what-is-the-difference-between-the-management-assertion-and-the-auditors-opinion",
+       "html": "<p>The assertion is management&rsquo;s statement; the opinion is the practitioner&rsquo;s\nconclusion about that statement. Management writes the assertion first — that the\nsystem is described fairly and the controls were suitably designed, and for a\nType II operated effectively over the period. The CPA firm then tests and issues\nan opinion on whether the assertion is fairly stated. One is the claim, the other\nis the verdict on the claim, and they are written by different parties.</p>"
+      },
+      {
+       "q": "Who signs the management assertion?",
+       "id": "faq-who-signs-the-management-assertion",
+       "html": "<p>A member of management with authority over the system in scope — commonly an\nexecutive such as the chief executive, chief technology officer or head of\nsecurity, depending on who owns the system description. It is signed by the\norganisation being examined, never by the audit firm. The signature is the point:\nit records that management, not the practitioner, stands behind the description\nand the controls.</p>"
+      },
+      {
+       "q": "Is there a management assertion in an ISO 27001 audit?",
+       "id": "faq-is-there-a-management-assertion-in-an-iso-27001-audit",
+       "html": "<p>Not in the SOC 2 sense. ISO/IEC 27001 certification produces a certificate from an\naccredited body rather than an opinion on a signed statement. The nearest\naccountability sits in the management review required by clause 9.3 and in the\nStatement of Applicability, both of which record management decisions — but\nneither is a written assertion the auditor opines on.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Compliance",
+       "item": "https://grc-wiki.vercel.app/compliance/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "The management assertion",
+       "item": "https://grc-wiki.vercel.app/compliance/management-assertion/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/compliance/management-assertion/#article",
+     "headline": "The management assertion",
+     "name": "The management assertion",
+     "description": "In a SOC 2 attestation, management, not the auditor, writes the assertion that the system is described fairly and the controls were suitably designed.",
+     "url": "https://grc-wiki.vercel.app/compliance/management-assertion/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/compliance/management-assertion/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Compliance",
+     "wordCount": 877,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-15",
+     "datePublished": "2026-08-15",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "AICPA, SSAE No. 18, AT-C section 205",
+      "AICPA, Trust Services Criteria (TSP section 100)",
+      "AICPA, Description Criteria (DC section 200)",
+      "ISO/IEC 27001:2022, clause 9.3 (management review)"
+     ],
+     "keywords": "management assertion, SOC 2 management assertion, assertion vs auditor opinion, SSAE 18 assertion, written assertion attestation"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/compliance/management-assertion/#term",
+     "name": "Management assertion",
+     "alternateName": "",
+     "description": "In a SOC 2 attestation, management, not the auditor, writes the assertion that the system is described fairly and the controls were suitably designed.",
+     "url": "https://grc-wiki.vercel.app/compliance/management-assertion/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/compliance/management-assertion/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the difference between the management assertion and the auditor's opinion?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The assertion is management&rsquo;s statement; the opinion is the practitioner&rsquo;s conclusion about that statement. Management writes the assertion first — that the system is described fairly and the controls were suitably designed, and for a Type II operated effectively over the period. The CPA firm then tests and issues an opinion on whether the assertion is fairly stated. One is the claim, the other is the verdict on the claim, and they are written by different parties."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who signs the management assertion?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A member of management with authority over the system in scope — commonly an executive such as the chief executive, chief technology officer or head of security, depending on who owns the system description. It is signed by the organisation being examined, never by the audit firm. The signature is the point: it records that management, not the practitioner, stands behind the description and the controls."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is there a management assertion in an ISO 27001 audit?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not in the SOC 2 sense. ISO/IEC 27001 certification produces a certificate from an accredited body rather than an opinion on a signed statement. The nearest accountability sits in the management review required by clause 9.3 and in the Statement of Applicability, both of which record management decisions — but neither is a written assertion the auditor opines on."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "4.5",
+   "part": 4,
+   "slug": "change-management-as-a-control",
+   "title": "Change management as a control",
+   "description": "Change management is the control that changes to production are authorised, tested and documented before release. The record it leaves, and how it fails.",
+   "short_title": "Change management",
+   "keywords": [
+    "change management control",
+    "what is change management",
+    "emergency change",
+    "change management evidence",
+    "production change approval"
+   ],
+   "defines": "Change management",
+   "reviewed": "2026-08-16",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 9,
+   "canonical_entry": false,
+   "quick_facts": {
+    "change types": "3",
+    "most abused": "Emergency path",
+    "approver": "Not the requester",
+    "record chain": "Request to deploy",
+    "evidence floor": "The change record"
+   },
+   "related": [
+    "4.1",
+    "4.2",
+    "4.7"
+   ],
+   "sources": [
+    "ISO/IEC 27001:2022, Annex A control 8.32 (change management)",
+    "AICPA, Trust Services Criteria (criterion CC8.1)",
+    "ITIL 4, change enablement"
+   ],
+   "prev": {
+    "ref": "4.4",
+    "title": "Management assertion"
+   },
+   "next": {
+    "ref": "4.6",
+    "title": "Backup and restore testing"
+   },
+   "sections": [
+    {
+     "id": "what-a-change-record-carries",
+     "clause": "4.5.1",
+     "text": "What a change record carries"
+    },
+    {
+     "id": "who-approves-and-who-cannot",
+     "clause": "4.5.2",
+     "text": "Who approves, and who cannot"
+    },
+    {
+     "id": "the-three-change-types",
+     "clause": "4.5.3",
+     "text": "The three change types"
+    },
+    {
+     "id": "where-it-fails",
+     "clause": "4.5.4",
+     "text": "Where it fails"
+    },
+    {
+     "id": "common-questions",
+     "clause": "4.5.5",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/compliance/change-management-as-a-control/",
+   "part_slug": "compliance",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "Change management is the <strong>control that changes to production are authorised,\ntested and documented before release</strong> — so no change reaches a live system\nwithout a record of who asked, who approved, what was tested and when it went\nout."
+    },
+    {
+     "type": "prose",
+     "html": "<p>An unauthorised change to production is a common way a control that looks\nhealthy on paper turns out not to be operating. It is also among the first\nthings an auditor tests, because a weak change process quietly undermines every\nother control: each of them assumes that production only changes through a path\nsomeone approved.</p>\n<p>The value of the control is not the paperwork. It is that the paperwork cannot\nbe produced honestly after the fact, so a change is either evidenced as\nauthorised or it is unsupported — and to an auditor an authorisation that cannot\nbe evidenced is one that did not happen.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-a-change-record-carries",
+     "clause": "4.5.1",
+     "alias": "c4-5-1",
+     "text": "What a change record carries"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A valid change leaves a single record that links four things, each attributable\nto a named person and each dated by the system rather than typed in afterwards.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Request",
+       "html": "What is being changed and why, raised before the work starts. A request opened after deployment is not a request; it is a reconstruction."
+      },
+      {
+       "term": "Approval",
+       "html": "A named approver who is not the person who built the change, recorded before release. This is the authorisation the whole control exists to capture."
+      },
+      {
+       "term": "Test result",
+       "html": "Evidence that the change was exercised before it reached production — the test that ran, its outcome and where it ran. &ldquo;Tested: yes&rdquo; is not a test result."
+      },
+      {
+       "term": "Deployment",
+       "html": "When the change went live, who released it and to which system. This is the line that ties the approved change to the thing now running."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>Read as a chain, the record answers request, approval, test then deployment for\nevery change, and an auditor sampling releases reads it in that order. A change\nmissing any link is the link the finding names.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "who-approves-and-who-cannot",
+     "clause": "4.5.2",
+     "alias": "c4-5-2",
+     "text": "Who approves, and who cannot"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The person who builds a change must not be the sole approver and deployer of it.\nA change approved by its own author records an authorisation that never\nhappened: there was no second judgement, only a signature the requester wrote\nfor themselves. The issue is segregation of duties, not which line reviews — a\nsecond reviewer in the same first line is fine; the author signing for themselves\nis not.</p>\n<p>Segregation here is not bureaucracy. It is the difference between a control that\ncatches a bad or malicious change before release and one that only documents it\nafterwards. The approver need not be senior; they need to be someone other than\nthe author, with enough context to refuse.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-three-change-types",
+     "clause": "4.5.3",
+     "alias": "c4-5-3",
+     "text": "The three change types"
+    },
+    {
+     "type": "prose",
+     "html": "<p>ITIL 4 and many control frameworks sort changes into three paths, and the point\nof the split is to match the weight of the process to the risk of the change\nrather than force everything through one gate.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Type</th>\n<th>Path</th>\n<th>Approval</th>\n<th>Review</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Normal</td>\n<td>Assessed and approved through the standard route</td>\n<td>Before release, by someone other than the author</td>\n<td>At release</td>\n</tr>\n<tr>\n<td>Standard</td>\n<td>Pre-authorised, low-risk and repeatable</td>\n<td>Granted once, to the change type</td>\n<td>On the pre-authorisation, periodically</td>\n</tr>\n<tr>\n<td>Emergency</td>\n<td>Expedited for genuine urgency</td>\n<td>Compressed, by an emergency approver</td>\n<td>Retrospective, and mandatory</td>\n</tr>\n</tbody>\n</table></div>\n<p>The boundaries — what counts as low-risk, how fast an emergency has to be — are\nthe organisation&rsquo;s own to set; the three-way split is the part that travels. The\nemergency path exists for real incidents where waiting for normal approval would\ndo more harm than the change. Authorisation is compressed — an emergency approver\nsigns quickly — not removed; deferring approval to a retrospective review is an\nexceptional contingency, not the design. It is also the one most often abused,\nbecause it is the fastest route through the gate.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-it-fails",
+     "clause": "4.5.4",
+     "alias": "c4-5-4",
+     "text": "Where it fails"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Four failure modes account for most change-management findings, and a tester who\nknows them looks for them first.</p>\n<p><strong>The emergency back door.</strong> When a large share of changes come through the\nemergency path, the path has stopped being for emergencies. It has become the\nroute the organisation uses to skip approval, and a rate — emergency changes as\na proportion of all changes — is the single most revealing number in the\nprocess.</p>\n<p><strong>Approver equals requester.</strong> The record shows an approval, but the approver\nand the requester are the same person, or the same shared account. There is a\nsignature and no authorisation. This is the failure segregation exists to\nprevent, and it survives in programmes that check the box for &ldquo;approved&rdquo; without\nchecking who approved.</p>\n<p><strong>&ldquo;Tested&rdquo; with no test.</strong> The change record asserts the change was tested and\ncarries nothing that shows a test ran — no result, no environment, no output. An\nassertion of testing is not evidence of testing, and an auditor treats the two\nvery differently.</p>\n<p><strong>Standing approvals.</strong> A blanket or standing approval authorises a category of\nchange rather than a change, so everything inside the category ships without a\nfresh decision. Standard changes are the bounded, reviewed version of this; a\nstanding approval that is really an open door is not.</p>\n<p>Each of these is a control deviation before anyone has named it. When a tester\nsamples releases and finds one that reached production with no approval on file,\nor an approval signed by its own author, that is the deviation the report\nrecords — and the emergency queue is a place testers commonly look first.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Evidence",
+     "ref": "4.2",
+     "html": "A dated record produced by the operation of a control, sufficient for a reviewer\nwho was not present to conclude that the control ran. A change record is\nevidence in exactly this sense, which is why &ldquo;tested: yes&rdquo; with nothing behind\nit fails."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "4.5.5",
+     "alias": "c4-5-5",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is a change management control?",
+       "id": "faq-what-is-a-change-management-control",
+       "html": "<p>It is the control that a change to production is authorised, tested and documented before it is released, so that no change reaches a live system without a record of who requested it, who approved it, what was tested and when it went out. ISO/IEC 27001&rsquo;s Annex A control 8.32 and the Trust Services criterion CC8.1 both frame it this way. The control is operating when that record exists for every change and the approver is never the author.</p>"
+      },
+      {
+       "q": "What is an emergency change?",
+       "id": "faq-what-is-an-emergency-change",
+       "html": "<p>An emergency change is one released through an expedited path because genuine urgency — an active incident, a live outage — makes waiting for normal approval more harmful than the change itself. Authorisation is expedited — compressed to an emergency approver, and only exceptionally deferred to a mandatory retrospective review. The path is legitimate and necessary; it is also the one most often abused, so the proportion of changes that use it is worth watching.</p>"
+      },
+      {
+       "q": "What evidence does an auditor want for change management?",
+       "id": "faq-what-evidence-does-an-auditor-want-for-change-management",
+       "html": "<p>The change record: the request, the approval by someone other than the requester, the test result and the deployment, each attributable to a named person and dated by the system. For a sample of changes across the whole period, not the best one. A change with a missing approval, an approval by its own author or a &ldquo;tested&rdquo; flag with no test behind it is recorded as a deviation.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Compliance",
+       "item": "https://grc-wiki.vercel.app/compliance/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Change management as a control",
+       "item": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/#article",
+     "headline": "Change management as a control",
+     "name": "Change management as a control",
+     "description": "Change management is the control that changes to production are authorised, tested and documented before release. The record it leaves, and how it fails.",
+     "url": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Compliance",
+     "wordCount": 1145,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-16",
+     "datePublished": "2026-08-16",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO/IEC 27001:2022, Annex A control 8.32 (change management)",
+      "AICPA, Trust Services Criteria (criterion CC8.1)",
+      "ITIL 4, change enablement"
+     ],
+     "keywords": "change management control, what is change management, emergency change, change management evidence, production change approval"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/#term",
+     "name": "Change management",
+     "alternateName": "",
+     "description": "Change management is the control that changes to production are authorised, tested and documented before release. The record it leaves, and how it fails.",
+     "url": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is a change management control?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is the control that a change to production is authorised, tested and documented before it is released, so that no change reaches a live system without a record of who requested it, who approved it, what was tested and when it went out. ISO/IEC 27001&rsquo;s Annex A control 8.32 and the Trust Services criterion CC8.1 both frame it this way. The control is operating when that record exists for every change and the approver is never the author."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is an emergency change?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An emergency change is one released through an expedited path because genuine urgency — an active incident, a live outage — makes waiting for normal approval more harmful than the change itself. Authorisation is expedited — compressed to an emergency approver, and only exceptionally deferred to a mandatory retrospective review. The path is legitimate and necessary; it is also the one most often abused, so the proportion of changes that use it is worth watching."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What evidence does an auditor want for change management?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The change record: the request, the approval by someone other than the requester, the test result and the deployment, each attributable to a named person and dated by the system. For a sample of changes across the whole period, not the best one. A change with a missing approval, an approval by its own author or a &ldquo;tested&rdquo; flag with no test behind it is recorded as a deviation."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "4.6",
+   "part": 4,
+   "slug": "backup-and-restore-testing",
+   "title": "Backup and restore testing",
+   "description": "The control is the proven restore, not the existence of a backup. What a real restore test involves, and the failure modes an untested backup hides.",
+   "short_title": "Restore testing",
+   "keywords": [
+    "backup and restore testing",
+    "restore testing",
+    "test a backup",
+    "RPO and RTO",
+    "disaster recovery test"
+   ],
+   "defines": "Backup and restore testing",
+   "reviewed": "2026-08-16",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 7,
+   "canonical_entry": false,
+   "quick_facts": {
+    "the control": "The restore",
+    "targets set by": "The BIA",
+    "proves": "RPO, restore time",
+    "restore to": "Separate environment",
+    "worst failure": "No decryption key"
+   },
+   "related": [
+    "3.7",
+    "4.2",
+    "3.6"
+   ],
+   "sources": [
+    "ISO/IEC 27001:2022, Annex A control 8.13 (information backup)",
+    "AICPA, Trust Services Criteria (criteria A1.2 and A1.3)",
+    "NIST SP 800-34 Rev. 1 — Contingency Planning Guide for Federal Information Systems"
+   ],
+   "prev": {
+    "ref": "4.5",
+    "title": "Change management"
+   },
+   "next": {
+    "ref": "4.7",
+    "title": "Control deviation"
+   },
+   "sections": [
+    {
+     "id": "what-the-restore-has-to-prove",
+     "clause": "4.6.1",
+     "text": "What the restore has to prove"
+    },
+    {
+     "id": "what-a-real-restore-test-involves",
+     "clause": "4.6.2",
+     "text": "What a real restore test involves"
+    },
+    {
+     "id": "where-restores-fail",
+     "clause": "4.6.3",
+     "text": "Where restores fail"
+    },
+    {
+     "id": "common-questions",
+     "clause": "4.6.4",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/compliance/backup-and-restore-testing/",
+   "part_slug": "compliance",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "The control is the <strong>restore test, not the existence of a backup</strong> — an untested\nbackup is an assumption, and the only proof a backup works is a restore that\nproduced usable data inside the required time."
+    },
+    {
+     "type": "prose",
+     "html": "<p>A backup that has never been restored is a cost with an unproven benefit. It\noccupies storage, sits on the control list and reassures nobody who has actually\nneeded one, because the ways a backup fails live almost entirely on the restore\nside — media that cannot be read, a key nobody kept, a set that was always\nmissing a table. None of those show up while the backup job is the only thing\nanyone watches.</p>\n<p>This is why an auditor testing information backup under ISO/IEC 27001 Annex A\ncontrol 8.13 — which requires backup copies to be maintained and regularly tested —\nor recovery under Trust Services criterion A1.3, asks to see a restore that\nhappened rather than a backup schedule that runs. The schedule is the assumption;\nthe restore is the evidence.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-the-restore-has-to-prove",
+     "clause": "4.6.1",
+     "alias": "c4-6-1",
+     "text": "What the restore has to prove"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A restore test is where the recovery point objective and recovery time objective\nstop being aspirations. The <a href=\"/risk/business-impact-analysis/\">business impact analysis</a>\nsets both — how much data the organisation can afford to lose (the RPO) and how\nlong it can afford to be without the activity (the RTO) — and those numbers are\nderived from the impact of the outage, not picked by whoever runs the backup\ntool. A restore either returns data recent enough to meet the RPO, within the\nrestore-time budget the RTO allows, or it does not. The full activity recovery\ntime is proven by an end-to-end recovery exercise — of which the data restore is\none part; see <a href=\"/risk/business-continuity/\">business continuity</a> at 3.6. Nothing\nshort of an actual restore tells you whether the data half will hold.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Recovery point objective",
+     "ref": "3.7",
+     "html": "The maximum tolerable data loss, expressed as a length of time rather than a\nvolume — the point in the past back to which data must be recoverable. A restore\nthat returns data older than the RPO has failed even if every file it produces\nopens cleanly."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-a-real-restore-test-involves",
+     "clause": "4.6.2",
+     "alias": "c4-6-2",
+     "text": "What a real restore test involves"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A real restore test recovers the data into a clean, separate environment — never\nover the top of live production and never back into the system that just failed —\nand then someone confirms the recovered data is complete and usable. Usable means\nopened, queried and reconciled against a known record; a job that reports success\nhas told you it finished writing, not that what it wrote can be read back. The\nrestore is timed, from start to usable, and that figure is measured against the\nRTO. Then the result is documented — what was restored, from which copy, how long\nit took, what was checked — so the next audit reads a record instead of a memory.</p>\n<p>A full restore recovers everything; a sampled restore recovers a defined subset.\nSampling is legitimate and often the only affordable way to test often, but the\nsample has to exercise the real path — the same media, the same decryption, the\nsame sequence — or it proves only that the easy part works.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>Full restore</th>\n<th>Sampled restore</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Scope</td>\n<td>The whole dataset or system</td>\n<td>A defined subset of files or records</td>\n</tr>\n<tr>\n<td>Proves</td>\n<td>The recovery path end to end</td>\n<td>The path works for what was sampled</td>\n</tr>\n<tr>\n<td>Cost</td>\n<td>Time, and a full-size clean environment</td>\n<td>Cheaper and faster, so run more often</td>\n</tr>\n<tr>\n<td>The trap</td>\n<td>Rare, so the RTO stays untested between runs</td>\n<td>A sample that skips the hard parts proves nothing</td>\n</tr>\n</tbody>\n</table></div>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-restores-fail",
+     "clause": "4.6.3",
+     "alias": "c4-6-3",
+     "text": "Where restores fail"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Every one of these passes the backup dashboard.</p>\n<p><strong>Green for years, then nothing to restore.</strong> The jobs report success for so long\nthat no one questions them, and the first real restore meets missing media, a\ndecryption key nobody held or a set that turns out to have never been complete.\nThe dashboard measured that the job ran, not that its output could be recovered.</p>\n<p><strong>Testing the flag, not the restore.</strong> The &ldquo;test&rdquo; checks that the backup job\nfinished with a success code instead of performing an actual restore. This proves\nthe software can write a file. It says nothing about whether that file reconstructs\ninto working data.</p>\n<p><strong>Restoring into the same failure.</strong> The restore is run back into the environment\nthat failed, reusing its configuration, its keys and its dependencies. It works,\nand proves nothing about recovering when that environment is the thing that is\ngone — which is the scenario a backup exists for.</p>\n<p><strong>Works in the lab, never timed.</strong> The restore succeeds but was never run against\nthe clock, so the RTO is a number in a plan that no exercise has ever met. A\nrecovery time nobody has measured is a guess, and it is usually optimistic.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "4.6.4",
+     "alias": "c4-6-4",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the difference between a backup and a restore test?",
+       "id": "faq-what-is-the-difference-between-a-backup-and-a-restore-test",
+       "html": "<p>A backup is the copy; a restore test is the proof the copy is worth keeping. The\nbackup is made by a scheduled job and confirmed by that job reporting success —\nwhich only means data was written somewhere. The restore test reads that data back\ninto a separate environment and confirms it reconstructs into something complete,\nusable and recent enough to meet the RPO. One is an activity that runs; the other\nis the control that shows the activity was worth running.</p>"
+      },
+      {
+       "q": "How often should you test restores?",
+       "id": "faq-how-often-should-you-test-restores",
+       "html": "<p>Often enough that the gap between two tests is shorter than the time it would take\na silent failure to matter, and always after a material change to the system, the\nbackup method or the encryption. A yearly full restore with lighter sampled\nrestores in between is a common shape, and higher-tier systems are tested more\noften — but those figures are examples, not a rule from any standard. The real\ncadence follows the criticality set in the BIA and the rate at which the\nenvironment changes; a system that was re-platformed last month should not be\nrelying on a restore proven against the old one.</p>"
+      },
+      {
+       "q": "What does a restore test prove?",
+       "id": "faq-what-does-a-restore-test-prove",
+       "html": "<p>That a specific backup, restored by a specific path, produced data that was\ncomplete, usable and recent enough to meet the RPO, within the restore time the\nRTO budget allows — on the day it was run. Proving the full activity recovery time\nstill needs an end-to-end exercise; a data restore is one part of it. It does not\nprove the next restore will succeed, which is why the test is\nrepeated and why its result is documented each time. A single successful restore\nretires the assumption for one configuration; it does not retire it forever.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Compliance",
+       "item": "https://grc-wiki.vercel.app/compliance/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Backup and restore testing",
+       "item": "https://grc-wiki.vercel.app/compliance/backup-and-restore-testing/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/compliance/backup-and-restore-testing/#article",
+     "headline": "Backup and restore testing",
+     "name": "Backup and restore testing",
+     "description": "The control is the proven restore, not the existence of a backup. What a real restore test involves, and the failure modes an untested backup hides.",
+     "url": "https://grc-wiki.vercel.app/compliance/backup-and-restore-testing/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/compliance/backup-and-restore-testing/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Compliance",
+     "wordCount": 1069,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-16",
+     "datePublished": "2026-08-16",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO/IEC 27001:2022, Annex A control 8.13 (information backup)",
+      "AICPA, Trust Services Criteria (criteria A1.2 and A1.3)",
+      "NIST SP 800-34 Rev. 1 — Contingency Planning Guide for Federal Information Systems"
+     ],
+     "keywords": "backup and restore testing, restore testing, test a backup, RPO and RTO, disaster recovery test"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/compliance/backup-and-restore-testing/#term",
+     "name": "Backup and restore testing",
+     "alternateName": "",
+     "description": "The control is the proven restore, not the existence of a backup. What a real restore test involves, and the failure modes an untested backup hides.",
+     "url": "https://grc-wiki.vercel.app/compliance/backup-and-restore-testing/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/compliance/backup-and-restore-testing/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the difference between a backup and a restore test?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A backup is the copy; a restore test is the proof the copy is worth keeping. The backup is made by a scheduled job and confirmed by that job reporting success — which only means data was written somewhere. The restore test reads that data back into a separate environment and confirms it reconstructs into something complete, usable and recent enough to meet the RPO. One is an activity that runs; the other is the control that shows the activity was worth running."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How often should you test restores?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often enough that the gap between two tests is shorter than the time it would take a silent failure to matter, and always after a material change to the system, the backup method or the encryption. A yearly full restore with lighter sampled restores in between is a common shape, and higher-tier systems are tested more often — but those figures are examples, not a rule from any standard. The real cadence follows the criticality set in the BIA and the rate at which the environment changes; a system that was re-platformed last month should not be relying on a restore proven against the old one."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What does a restore test prove?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That a specific backup, restored by a specific path, produced data that was complete, usable and recent enough to meet the RPO, within the restore time the RTO budget allows — on the day it was run. Proving the full activity recovery time still needs an end-to-end exercise; a data restore is one part of it. It does not prove the next restore will succeed, which is why the test is repeated and why its result is documented each time. A single successful restore retires the assumption for one configuration; it does not retire it forever."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "4.7",
+   "part": 4,
+   "slug": "control-deviations",
+   "title": "Control deviations and exceptions in testing",
+   "description": "A control deviation is a tested instance where a control did not operate as designed — what a SOC 2 report calls an exception, and why it is not a waiver.",
+   "short_title": "Control deviation",
+   "keywords": [
+    "control deviation",
+    "control exception",
+    "deviation vs policy waiver",
+    "SOC 2 exception"
+   ],
+   "defines": "Control deviation",
+   "reviewed": "2026-08-15",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 8,
+   "canonical_entry": false,
+   "quick_facts": {
+    "also called": "Exception",
+    "found in": "Testing the sample",
+    "planned in advance": "False",
+    "opposite of": "Policy waiver",
+    "response driven by": "Root cause"
+   },
+   "related": [
+    "3.10",
+    "4.2",
+    "4.3"
+   ],
+   "sources": [
+    "AICPA, SSAE No. 18, AT-C section 205 (exceptions)",
+    "AICPA, Trust Services Criteria (TSP section 100)",
+    "IIA, International Professional Practices Framework, Standard 2320"
+   ],
+   "prev": {
+    "ref": "4.6",
+    "title": "Backup and restore testing"
+   },
+   "next": {
+    "ref": "4.8",
+    "title": "Continuous control monitoring"
+   },
+   "sections": [
+    {
+     "id": "a-deviation-is-not-a-waiver",
+     "clause": "4.7.1",
+     "text": "A deviation is not a waiver"
+    },
+    {
+     "id": "what-one-deviation-says-about-the-population",
+     "clause": "4.7.2",
+     "text": "What one deviation says about the population"
+    },
+    {
+     "id": "isolated-or-systematic",
+     "clause": "4.7.3",
+     "text": "Isolated or systematic"
+    },
+    {
+     "id": "the-management-response",
+     "clause": "4.7.4",
+     "text": "The management response"
+    },
+    {
+     "id": "where-the-response-goes-wrong",
+     "clause": "4.7.5",
+     "text": "Where the response goes wrong"
+    },
+    {
+     "id": "common-questions",
+     "clause": "4.7.6",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/compliance/control-deviations/",
+   "part_slug": "compliance",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "A control deviation is an <strong>instance in the tested sample where the control did\nnot operate as designed</strong> — in a SOC 2 report these are called exceptions, and a\nsingle one can put the whole control&rsquo;s conclusion in question."
+    },
+    {
+     "type": "prose",
+     "html": "<p>A deviation is a finding about the control, not about the one instance that\nfailed. The auditor never sees the whole population — they test a sample and\nconclude back to everything that sample stands for — so a deviation bears on the\nconclusion for the whole population, not just the one instance that failed. How\nyou treat it, more than the deviation itself, is what the auditor watches next.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "a-deviation-is-not-a-waiver",
+     "clause": "4.7.1",
+     "alias": "c4-7-1",
+     "text": "A deviation is not a waiver"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The two get confused because both describe a control that was not met, and the\nconfusion is expensive. A policy waiver is a decision made before the fact: a\nnamed approver signs off, in advance, that a specific gap will run for a bounded\nperiod with a compensating control. A deviation is a failure discovered after\nthe fact, in testing, that nobody authorised.</p>\n<p>Recasting a deviation as a waiver once the auditor has found it is the move that\nturns a control finding into an integrity finding. Back-dating an approval to\ncover an instance that already failed is not exception management; it is\nfabricated evidence, and it follows a programme far longer than the deviation\never would.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Policy waiver",
+     "ref": "3.10",
+     "html": "A planned, pre-authorised and time-bound exception, signed before the gap opens\nand paired with a compensating control. A deviation is the opposite in every\nrespect: unplanned, unauthorised and found only after the control has already\nfailed."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-one-deviation-says-about-the-population",
+     "clause": "4.7.2",
+     "alias": "c4-7-2",
+     "text": "What one deviation says about the population"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The auditor tests a sample — say 25 change tickets out of a year&rsquo;s several\nthousand — and concludes on the whole population from it. One deviation in that\nsample of 25 is not one late change to be corrected in place; it puts the\noperating-effectiveness conclusion for every change the sample stood for in\nquestion, and commonly prompts the auditor to expand testing to see how far it\nreaches. The figures here are illustrative, and this sampling is judgemental\nrather than statistical, so it supports a conclusion about the population, not a\nprecise failure rate — estimating an actual rate would need a valid probability\nsample.</p>\n<p>This is why &ldquo;we fixed the ticket&rdquo; is the wrong instinct. Correcting the sampled\ninstance leaves the population — and the conclusion the sample was testing —\nexactly where they were.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "isolated-or-systematic",
+     "clause": "4.7.3",
+     "alias": "c4-7-3",
+     "text": "Isolated or systematic"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The question that decides the response is whether the deviation is a one-off or\nthe visible edge of a control that does not work.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Isolated",
+       "html": "A single instance failed for a reason that does not recur — a one-time manual slip, a cycle with the reviewer on leave and no cover. The design holds; one operation of it did not."
+      },
+      {
+       "term": "Systematic",
+       "html": "The deviation reflects a design or operating failure that will recur — the control has no step that would have caught the case, or the step exists and is routinely skipped. Every untested instance is now suspect."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>Root cause is what tells the two apart, and you cannot assert &ldquo;isolated&rdquo; without\nhaving found one. A deviation labelled isolated with no analysis behind it reads\nto an auditor as systematic with the analysis skipped.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-management-response",
+     "clause": "4.7.4",
+     "alias": "c4-7-4",
+     "text": "The management response"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A response answers why the control failed and what changes because of it; it does\nnot argue that the failure should not have counted. Three parts carry it.</p>\n<p><strong>Root cause.</strong> Why the instance failed, established by analysis rather than\nassumed. Until it is known, isolated versus systematic cannot be answered and the\nremediation is a guess.</p>\n<p><strong>Remediation.</strong> What changes so the failure does not recur, across the\npopulation and not only for the sampled instance. A fix that touches one ticket\nand leaves the process untouched has remediated nothing.</p>\n<p><strong>A statement of what failed.</strong> Whether the control&rsquo;s design was inadequate or a\nsound design was not operated. The two lead to different fixes, and an honest\nanswer to which it was is worth more than any argument that the deviation should\nnot count.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-the-response-goes-wrong",
+     "clause": "4.7.5",
+     "alias": "c4-7-5",
+     "text": "Where the response goes wrong"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Four moves recur, and each one makes the finding worse.</p>\n<p><strong>Arguing it away.</strong> Spending the response explaining why the deviation does not\nreally count instead of finding why it happened. The auditor has already recorded\nit; the only open question is the cause, and the effort spent on the argument is\nthe effort that would have shrunk the finding.</p>\n<p><strong>Back-dating a waiver.</strong> Producing an approval, dated before the failure, to\nreclassify a deviation as a planned exception. This converts a routine control\nfinding into an integrity finding and is the most damaging response available.</p>\n<p><strong>Assuming one means one.</strong> Treating a single exception in a small sample as a\nsingle isolated problem. One deviation in a sample of 25 speaks to the whole\npopulation the sample stood for, and because the sample is small and judgemental\nit rarely proves the problem is contained to the instance that failed.</p>\n<p><strong>Fixing the instance, not the population.</strong> Remediating the sampled item and\nleaving every other instance as it was. The sample stood for the population; the\nresponse has to reach the same population.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "4.7.6",
+     "alias": "c4-7-6",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is a control deviation?",
+       "id": "faq-what-is-a-control-deviation",
+       "html": "<p>A control deviation is an instance, found while testing a control, where the control did not operate as it was designed to. In SOC 2 and other examination reports these are called exceptions. Because the auditor tests a sample and concludes on the whole population, a deviation bears on whether the control operated effectively across everything the sample stood for, not just the instance that failed — so it is not a single fault to be corrected in place.</p>"
+      },
+      {
+       "q": "What is the difference between a deviation and a policy exception?",
+       "id": "faq-what-is-the-difference-between-a-deviation-and-a-policy-exception",
+       "html": "<p>Timing and authorisation. A policy exception, or <a href=\"/risk/policy-waivers/\">waiver</a>, is planned: a named approver signs off in advance that a specific gap will run for a bounded period, with a compensating control. A deviation is unplanned: a failure discovered after the fact, in testing, that nobody authorised. Reclassifying a deviation as an exception once an auditor has found it — by back-dating the approval — turns a control finding into an integrity finding.</p>"
+      },
+      {
+       "q": "Does one exception fail a SOC 2 control?",
+       "id": "faq-does-one-exception-fail-a-soc-2-control",
+       "html": "<p>Not automatically. A single exception does not by itself mean the criterion was not met; the service auditor evaluates the cause of the exception, whether it is isolated or systematic and what it implies for the rest of the population before concluding. One exception can contribute to a qualified opinion when its effect is material, and it can also be judged isolated and immaterial — which is why the root cause and the response matter more than the count.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Compliance",
+       "item": "https://grc-wiki.vercel.app/compliance/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Control deviations and exceptions in testing",
+       "item": "https://grc-wiki.vercel.app/compliance/control-deviations/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/compliance/control-deviations/#article",
+     "headline": "Control deviations and exceptions in testing",
+     "name": "Control deviations and exceptions in testing",
+     "description": "A control deviation is a tested instance where a control did not operate as designed — what a SOC 2 report calls an exception, and why it is not a waiver.",
+     "url": "https://grc-wiki.vercel.app/compliance/control-deviations/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/compliance/control-deviations/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Compliance",
+     "wordCount": 1076,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-15",
+     "datePublished": "2026-08-15",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "AICPA, SSAE No. 18, AT-C section 205 (exceptions)",
+      "AICPA, Trust Services Criteria (TSP section 100)",
+      "IIA, International Professional Practices Framework, Standard 2320"
+     ],
+     "keywords": "control deviation, control exception, deviation vs policy waiver, SOC 2 exception"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/compliance/control-deviations/#term",
+     "name": "Control deviation",
+     "alternateName": "",
+     "description": "A control deviation is a tested instance where a control did not operate as designed — what a SOC 2 report calls an exception, and why it is not a waiver.",
+     "url": "https://grc-wiki.vercel.app/compliance/control-deviations/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/compliance/control-deviations/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is a control deviation?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A control deviation is an instance, found while testing a control, where the control did not operate as it was designed to. In SOC 2 and other examination reports these are called exceptions. Because the auditor tests a sample and concludes on the whole population, a deviation bears on whether the control operated effectively across everything the sample stood for, not just the instance that failed — so it is not a single fault to be corrected in place."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is the difference between a deviation and a policy exception?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Timing and authorisation. A policy exception, or waiver , is planned: a named approver signs off in advance that a specific gap will run for a bounded period, with a compensating control. A deviation is unplanned: a failure discovered after the fact, in testing, that nobody authorised. Reclassifying a deviation as an exception once an auditor has found it — by back-dating the approval — turns a control finding into an integrity finding."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does one exception fail a SOC 2 control?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not automatically. A single exception does not by itself mean the criterion was not met; the service auditor evaluates the cause of the exception, whether it is isolated or systematic and what it implies for the rest of the population before concluding. One exception can contribute to a qualified opinion when its effect is material, and it can also be judged isolated and immaterial — which is why the root cause and the response matter more than the count."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "4.8",
+   "part": 4,
+   "slug": "continuous-control-monitoring",
+   "title": "Continuous control monitoring",
+   "description": "Continuous control monitoring is automated, ongoing proof that a control is operating, taken from the system itself instead of screenshotted once a quarter.",
+   "short_title": "Continuous monitoring",
+   "keywords": [
+    "continuous control monitoring",
+    "continuous compliance",
+    "CCM",
+    "continuous monitoring vs audit",
+    "automated evidence"
+   ],
+   "defines": "Continuous control monitoring",
+   "reviewed": "2026-08-16",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 9,
+   "canonical_entry": false,
+   "quick_facts": {
+    "type": "Automated check",
+    "cadence": "Continuous",
+    "suits": "Machine-checkable states",
+    "not for": "Judgement controls",
+    "feeds": "Audit and KRIs",
+    "supplements": "Periodic testing"
+   },
+   "related": [
+    "4.2",
+    "3.11",
+    "4.1"
+   ],
+   "sources": [
+    "AICPA, Trust Services Criteria (criterion CC4.1)",
+    "ISO/IEC 27001:2022, clause 9.1 (monitoring, measurement, analysis and evaluation)",
+    "NIST SP 800-137 — Information Security Continuous Monitoring (ISCM)"
+   ],
+   "prev": {
+    "ref": "4.7",
+    "title": "Control deviation"
+   },
+   "next": {
+    "ref": "4.9",
+    "title": "Security questionnaires"
+   },
+   "sections": [
+    {
+     "id": "what-it-changes-about-evidence",
+     "clause": "4.8.1",
+     "text": "What it changes about evidence"
+    },
+    {
+     "id": "what-automation-suits-and-what-it-does-not",
+     "clause": "4.8.2",
+     "text": "What automation suits, and what it does not"
+    },
+    {
+     "id": "what-it-feeds-and-what-it-does-not-replace",
+     "clause": "4.8.3",
+     "text": "What it feeds, and what it does not replace"
+    },
+    {
+     "id": "where-it-fails",
+     "clause": "4.8.4",
+     "text": "Where it fails"
+    },
+    {
+     "id": "common-questions",
+     "clause": "4.8.5",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/compliance/continuous-control-monitoring/",
+   "part_slug": "compliance",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "Continuous control monitoring is <strong>automated, ongoing checking that a control is\noperating</strong>, pulling the signal straight from the system rather than\nscreenshotting it once a quarter. Continuous compliance is the broader goal it\nfeeds — staying provably within requirements over time — which takes acting on\nwhat the monitoring finds, not watching alone."
+    },
+    {
+     "type": "prose",
+     "html": "<p>It closes the gap between &ldquo;we do this&rdquo; and &ldquo;we can show we did this&rdquo; to near zero\nfor the controls it covers, because the evidence <a href=\"/compliance/evidence-that-holds-up/\">4.2</a>\nis produced at the moment the control operates rather than gathered in the four\nweeks before fieldwork. What it cannot do is exercise judgement, so it earns its\nplace on the controls a machine can check and leaves the rest exactly where they\nwere.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-it-changes-about-evidence",
+     "clause": "4.8.1",
+     "alias": "c4-8-1",
+     "text": "What it changes about evidence"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Point-in-time evidence answers one question: did the control run on the day\nsomeone looked. Continuous control monitoring answers a harder one: has it run\nevery day since, and can you see the moment it stopped. The record is pulled at\nthe point of operation, continuously, from the system that enforces the control\nrather than assembled by hand before an audit.</p>\n<p>That is the whole value. Evidence <a href=\"/compliance/evidence-that-holds-up/\">4.2</a>\ncollected this way is dated and attributable by construction, and complete for the\nperiod its coverage actually spans — provided the monitoring itself has no gaps and\nits telemetry can be trusted. The programme stops sampling its own best month and\nstarts holding the full population it covers.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-automation-suits-and-what-it-does-not",
+     "clause": "4.8.2",
+     "alias": "c4-8-2",
+     "text": "What automation suits, and what it does not"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Automation suits a control whose correct state a machine can read without\ninterpretation. It does not suit a control whose correctness is a person&rsquo;s\njudgement, and wiring one of those to a green tick produces a light with no\nthought behind it.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Suits continuous monitoring</th>\n<th>Does not</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MFA coverage across privileged accounts</td>\n<td>A manager&rsquo;s review of an exception</td>\n</tr>\n<tr>\n<td>Encryption configuration on a data store</td>\n<td>A risk-acceptance decision</td>\n</tr>\n<tr>\n<td>Access still matching the joiner-mover-leaver record</td>\n<td>Whether a vendor is trustworthy</td>\n</tr>\n<tr>\n<td>Patch currency against a baseline</td>\n<td>Whether a policy is the right policy</td>\n</tr>\n</tbody>\n</table></div>\n<p>The left column is machine-checkable: there is a correct state and the system can\nreport the current one against it. The right column is not. A tool can confirm\nthat a review was recorded; it cannot confirm the review was any good, and\ntreating the record of a judgement as the judgement itself is how a green\ndashboard hides a hollow control.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-it-feeds-and-what-it-does-not-replace",
+     "clause": "4.8.3",
+     "alias": "c4-8-3",
+     "text": "What it feeds, and what it does not replace"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A continuously monitored control is a natural source for a leading indicator.\nCoverage trending down — privileged accounts without a second factor creeping\nfrom two per cent to four — is an early warning while there is still time to act,\nnot a surprise discovered at quarter end.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Key risk indicator",
+     "ref": "3.11",
+     "html": "A leading metric that warns exposure is moving toward appetite before it becomes\nan incident. A continuously monitored control is one of the cleanest feeds for\none, because the coverage figure updates itself."
+    },
+    {
+     "type": "prose",
+     "html": "<p>It does not replace the audit. An auditor still tests, still selects the sample\nand still concludes independently — but tests against a population that is\nalready instrumented, where the evidence exists for every instance rather than\nthe ones that were remembered. Continuous monitoring makes fieldwork shorter and\nduller. It does not make it unnecessary, and a programme that treats a platform&rsquo;s\ngreen dashboard as an audit opinion has confused the two.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-it-fails",
+     "clause": "4.8.4",
+     "alias": "c4-8-4",
+     "text": "Where it fails"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Watching the tool, not the control.</strong> A monitor that confirms the scanner is\nonline says nothing about whether the scan is finding anything. The signal has to\nbe the operation of the control, not the availability of the thing that checks\nit.</p>\n<p><strong>Alerting on everything.</strong> A monitor that fires on every deviation, at any\nseverity, trains everyone to ignore it. Within a month the alerts are a filtered\nfolder and a real breach sits in it unread. Thresholds and routing are part of\nthe design, not an afterthought.</p>\n<p><strong>&ldquo;Continuous&rdquo; that is really monthly.</strong> A check that runs on a schedule slow\nenough to miss the thing it watches is point-in-time sampling with a dashboard.\nIf a control can drift and be restored between runs, the gap is invisible and the\nword is marketing.</p>\n<p><strong>Coverage mistaken for effectiveness.</strong> Buying a compliance-automation platform\nand counting the controls it touches measures reach, not operation. A control can\nbe monitored, green and not working; coverage is the count of controls watched,\neffectiveness is whether the watched control does its job.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "4.8.5",
+     "alias": "c4-8-5",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is continuous control monitoring?",
+       "id": "faq-what-is-continuous-control-monitoring",
+       "html": "<p>It is automated, ongoing checking that a control is operating, taken from the\nsystem that runs the control rather than reconstructed by hand before an audit.\nInstead of confirming a control worked on the day someone screenshotted it, it\nconfirms the control has stayed in its required state and shows the moment it did\nnot. It suits controls with a machine-checkable state — MFA coverage, encryption\nsettings, patch currency <a href=\"/compliance/vulnerability-management/\">4.10</a> — and is\npoorly suited to controls that turn on human judgement.</p>"
+      },
+      {
+       "q": "What is the difference between continuous monitoring and continuous compliance?",
+       "id": "faq-what-is-the-difference-between-continuous-monitoring-and-continuous-compliance",
+       "html": "<p>Continuous monitoring is one activity inside continuous compliance, not the whole\nof it. Monitoring reads a control&rsquo;s condition on an ongoing basis. Continuous\ncompliance is the broader practice of staying provably within requirements over\ntime — which takes evaluating what the monitoring surfaces and remediating what it\nfinds, not monitoring alone. Monitoring makes the state visible; holding it is\nmore than watching.</p>"
+      },
+      {
+       "q": "Can continuous monitoring replace an audit?",
+       "id": "faq-can-continuous-monitoring-replace-an-audit",
+       "html": "<p>No. It feeds an audit rather than removing the need for one. An auditor still\nselects a sample, tests independently and forms an opinion, but does it against a\npopulation that is already instrumented, so fieldwork is shorter and holds fewer\nsurprises. A platform&rsquo;s green dashboard is evidence for an audit, not a\nsubstitute for the auditor&rsquo;s own testing.</p>"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Designing and wiring continuous control monitoring that watches the control\nrather than the tool is worked through in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s compliance-automation module</a>.\nThis entry stays free."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Compliance",
+       "item": "https://grc-wiki.vercel.app/compliance/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Continuous control monitoring",
+       "item": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/#article",
+     "headline": "Continuous control monitoring",
+     "name": "Continuous control monitoring",
+     "description": "Continuous control monitoring is automated, ongoing proof that a control is operating, taken from the system itself instead of screenshotted once a quarter.",
+     "url": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Compliance",
+     "wordCount": 951,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-16",
+     "datePublished": "2026-08-16",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "AICPA, Trust Services Criteria (criterion CC4.1)",
+      "ISO/IEC 27001:2022, clause 9.1 (monitoring, measurement, analysis and evaluation)",
+      "NIST SP 800-137 — Information Security Continuous Monitoring (ISCM)"
+     ],
+     "keywords": "continuous control monitoring, continuous compliance, CCM, continuous monitoring vs audit, automated evidence"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/#term",
+     "name": "Continuous control monitoring",
+     "alternateName": "",
+     "description": "Continuous control monitoring is automated, ongoing proof that a control is operating, taken from the system itself instead of screenshotted once a quarter.",
+     "url": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/compliance/continuous-control-monitoring/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is continuous control monitoring?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is automated, ongoing checking that a control is operating, taken from the system that runs the control rather than reconstructed by hand before an audit. Instead of confirming a control worked on the day someone screenshotted it, it confirms the control has stayed in its required state and shows the moment it did not. It suits controls with a machine-checkable state — MFA coverage, encryption settings, patch currency 4.10 — and is poorly suited to controls that turn on human judgement."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is the difference between continuous monitoring and continuous compliance?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Continuous monitoring is one activity inside continuous compliance, not the whole of it. Monitoring reads a control&rsquo;s condition on an ongoing basis. Continuous compliance is the broader practice of staying provably within requirements over time — which takes evaluating what the monitoring surfaces and remediating what it finds, not monitoring alone. Monitoring makes the state visible; holding it is more than watching."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can continuous monitoring replace an audit?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It feeds an audit rather than removing the need for one. An auditor still selects a sample, tests independently and forms an opinion, but does it against a population that is already instrumented, so fieldwork is shorter and holds fewer surprises. A platform&rsquo;s green dashboard is evidence for an audit, not a substitute for the auditor&rsquo;s own testing."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "4.9",
+   "part": 4,
+   "slug": "security-questionnaires",
+   "title": "Security questionnaires (SIG, CAIQ)",
+   "description": "A security questionnaire is a standardised set of questions used to assess a vendor's security posture. The SIG and CAIQ are the common templates.",
+   "short_title": "Security questionnaires",
+   "keywords": [
+    "security questionnaire",
+    "SIG questionnaire",
+    "CAIQ",
+    "vendor security questionnaire",
+    "SIG vs CAIQ"
+   ],
+   "defines": "Security questionnaire",
+   "reviewed": "2026-08-16",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 9,
+   "canonical_entry": false,
+   "quick_facts": {
+    "templates": "SIG, CAIQ",
+    "two sides": "Send and answer",
+    "answers are": "Self-attested",
+    "depth by": "Risk tier",
+    "library owner": "Named individual",
+    "on its own": "Not assurance"
+   },
+   "related": [
+    "3.8",
+    "4.2",
+    "5.1"
+   ],
+   "sources": [
+    "Shared Assessments, Standardized Information Gathering (SIG) Questionnaire",
+    "Cloud Security Alliance, Consensus Assessments Initiative Questionnaire (CAIQ) and STAR",
+    "ISO/IEC 27036-2:2022 — Cybersecurity, supplier relationships, Part 2: Requirements"
+   ],
+   "prev": {
+    "ref": "4.8",
+    "title": "Continuous control monitoring"
+   },
+   "next": {
+    "ref": "4.10",
+    "title": "Vulnerability management"
+   },
+   "sections": [
+    {
+     "id": "two-jobs-not-one",
+     "clause": "4.9.1",
+     "text": "Two jobs, not one"
+    },
+    {
+     "id": "why-a-completed-questionnaire-is-not-assurance",
+     "clause": "4.9.2",
+     "text": "Why a completed questionnaire is not assurance"
+    },
+    {
+     "id": "tier-the-questionnaire-to-the-risk",
+     "clause": "4.9.3",
+     "text": "Tier the questionnaire to the risk"
+    },
+    {
+     "id": "the-answer-library",
+     "clause": "4.9.4",
+     "text": "The answer library"
+    },
+    {
+     "id": "where-questionnaires-fail",
+     "clause": "4.9.5",
+     "text": "Where questionnaires fail"
+    },
+    {
+     "id": "common-questions",
+     "clause": "4.9.6",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/compliance/security-questionnaires/",
+   "part_slug": "compliance",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "A security questionnaire is a <strong>standardised set of questions used to assess a\nvendor&rsquo;s security posture</strong> — the SIG and the CAIQ are the common templates —\nand it is a diligence artefact, not assurance in itself."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The questionnaire is where third-party diligence usually starts, and it is where\nweak programmes stop. Treating the returned document as the assessment confuses\nthe instrument for the finding: three hundred answered questions with nothing\nsampled behind them tell you what a vendor is willing to assert, not what is true.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "two-jobs-not-one",
+     "clause": "4.9.1",
+     "alias": "c4-9-1",
+     "text": "Two jobs, not one"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The same document sits on two desks, and most people only ever meet one side of it.</p>\n<p><strong>Sending.</strong> As part of third-party diligence, the questionnaire goes out to a\nprospective or existing vendor to probe its security posture before and during\nthe relationship. It is one instrument of the wider\n<a href=\"/risk/third-party-risk/\">vendor due diligence</a> at 3.8, not the whole of it — a\ncompleted questionnaire narrows what still needs verifying, it does not close the\nassessment.</p>\n<p><strong>Answering.</strong> As the vendor being assessed, you complete other organisations&rsquo;\nquestionnaires to win and keep their business. For a company that sells to\nenterprises this is a standing workload measured in hundreds of questions a\nquarter, and it turns into a revenue-blocking task the moment a deal waits on it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "why-a-completed-questionnaire-is-not-assurance",
+     "clause": "4.9.2",
+     "alias": "c4-9-2",
+     "text": "Why a completed questionnaire is not assurance"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The answers are self-attested. A vendor asserting that access is reviewed\nquarterly and data is encrypted at rest has told you what it believes to be true;\nit has shown you nothing. Assurance arrives only with the artefact behind the\nanswer — an independent audit report such as SOC 2, an ISO 27001 certificate\nscoped to the service you are buying or an actual configuration export.</p>\n<p>A &ldquo;yes&rdquo; with nothing behind it is a claim, not a control. A SOC 2 report and an\nISO 27001 certificate answer different questions — see\n<a href=\"/frameworks/iso-27001-vs-soc-2/\">5.1</a> — and a certificate scoped to the wrong\nentity proves nothing about the service in front of you. The questionnaire tells\nyou what to verify; the <a href=\"/compliance/evidence-that-holds-up/\">evidence</a> is what\nverifies it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "tier-the-questionnaire-to-the-risk",
+     "clause": "4.9.3",
+     "alias": "c4-9-3",
+     "text": "Tier the questionnaire to the risk"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Sending a three-hundred-question SIG to a vendor that stores none of your data\nand touches none of your systems is questionnaire theatre: it burns the vendor&rsquo;s\ntime and yours, and nobody reads the result. Depth of questionnaire should follow\nthe risk tier set in <a href=\"/risk/third-party-risk/\">third-party risk management</a> — a\nlightweight set for a routine supplier, the full instrument reserved for a vendor\ninside a recovery time objective or holding production data. The SIG ships in\nexactly this spirit, with a shorter SIG Lite for lower-tier suppliers and the\nfull SIG Core for the ones that can actually hurt you.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>SIG</th>\n<th>CAIQ</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Author</td>\n<td>Shared Assessments</td>\n<td>Cloud Security Alliance</td>\n</tr>\n<tr>\n<td>Scope</td>\n<td>Broad third-party risk across many control domains</td>\n<td>Cloud service security, mapped to the Cloud Controls Matrix</td>\n</tr>\n<tr>\n<td>Form</td>\n<td>Configurable question set, from SIG Core down to SIG Lite</td>\n<td>Yes/no control assertions against CCM domains</td>\n</tr>\n<tr>\n<td>Standing</td>\n<td>Licensed content set, maintained and updated</td>\n<td>Freely available, underpinning CSA STAR registry listings</td>\n</tr>\n</tbody>\n</table></div>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-answer-library",
+     "clause": "4.9.4",
+     "alias": "c4-9-4",
+     "text": "The answer library"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Redrafting the same three hundred questions by hand every time is how the\nworkload becomes unbearable and how the answers go stale. The fix is a reviewed\nknowledge base — every standard question with an approved answer and a link to\nthe evidence behind it — that a response can be assembled from and then tailored\nto the asker.</p>\n<p>It needs a named owner who keeps it current. An answer library nobody maintains\nis a catalogue of last year&rsquo;s claims, and the drift is invisible until a\ncustomer&rsquo;s auditor asks to see the control behind an answer that stopped being\ntrue two releases ago.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-questionnaires-fail",
+     "clause": "4.9.5",
+     "alias": "c4-9-5",
+     "text": "Where questionnaires fail"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>A completed questionnaire treated as assurance.</strong> The document comes back, gets\nfiled and closes the assessment, with no report, certificate or export sampled\nbehind a single answer. The programme has collected assertions and recorded them\nas facts.</p>\n<p><strong>Answers that drift from reality.</strong> The questionnaire is refreshed once a year\nwhile the environment changes every week. Between refreshes the answers describe a\nposture the organisation no longer has, and nobody notices until an incident or an\naudit finds the gap.</p>\n<p><strong>Questionnaire theatre.</strong> Hundreds of questions issued and returned, none\nvalidated. The volume signals diligence and delivers none — a longer questionnaire\nthat nobody checks is weaker than a short one that is verified.</p>\n<p><strong>One questionnaire for every tier.</strong> A low-risk vendor is sent the same\ninstrument as a critical one, so the routine supplier is over-assessed and the\ncritical one is assessed no harder than the rest. Effort decouples from risk, and\nthe review that mattered gets the same cursory read as the ninety that did not.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "4.9.6",
+     "alias": "c4-9-6",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is a security questionnaire?",
+       "id": "faq-what-is-a-security-questionnaire",
+       "html": "<p>A standardised set of questions an organisation sends a vendor to assess its\nsecurity posture, or receives and completes when it is the vendor being assessed.\nThe SIG and the CAIQ are the two common templates. It is a diligence artefact — a\nstructured way to ask — and not assurance in itself, because the answers are\nself-attested until evidence is produced behind them.</p>"
+      },
+      {
+       "q": "What is the difference between a SIG and a CAIQ?",
+       "id": "faq-what-is-the-difference-between-a-sig-and-a-caiq",
+       "html": "<p>The SIG (Standardized Information Gathering, from Shared Assessments) is a broad\nthird-party-risk questionnaire covering many control domains, licensed as a\nmaintained content set and configurable from a full SIG Core down to a shorter\nSIG Lite. The CAIQ (Consensus Assessments Initiative Questionnaire, from the Cloud\nSecurity Alliance) is narrower and cloud-specific: yes/no control assertions\nmapped to the Cloud Controls Matrix and freely available, and a submitted CAIQ is\nwhat backs a Level 1 listing in the CSA STAR registry. Use the SIG for general\nsupplier diligence; expect the CAIQ from a cloud provider.</p>"
+      },
+      {
+       "q": "Is a completed security questionnaire enough assurance?",
+       "id": "faq-is-a-completed-security-questionnaire-enough-assurance",
+       "html": "<p>No. A completed questionnaire is a set of claims, not evidence they are true.\nAssurance comes from what stands behind the answers — an independent audit report\nsuch as SOC 2, a certification such as ISO 27001 scoped to the service in question\nor a direct artefact like a configuration export. Treat the questionnaire as the\nthing that tells you what to verify, then verify the answers that matter.</p>"
+      }
+     ]
+    },
+    {
+     "type": "def",
+     "term": "Vendor due diligence",
+     "ref": "3.8",
+     "html": "The assessment of a supplier&rsquo;s security, financial and regulatory standing before\nand during the relationship, scaled to the risk tier. A questionnaire is one\ninstrument of that diligence, not the whole of it — verifying what the answers\nclaim is the rest."
+    },
+    {
+     "type": "note",
+     "html": "Running a vendor questionnaire programme — tiering, an answer library and\ndemanding evidence behind the answers — is worked through in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s\nthird-party risk module</a>.\nThis entry stays free."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Compliance",
+       "item": "https://grc-wiki.vercel.app/compliance/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Security questionnaires (SIG, CAIQ)",
+       "item": "https://grc-wiki.vercel.app/compliance/security-questionnaires/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/compliance/security-questionnaires/#article",
+     "headline": "Security questionnaires (SIG, CAIQ)",
+     "name": "Security questionnaires (SIG, CAIQ)",
+     "description": "A security questionnaire is a standardised set of questions used to assess a vendor's security posture. The SIG and CAIQ are the common templates.",
+     "url": "https://grc-wiki.vercel.app/compliance/security-questionnaires/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/compliance/security-questionnaires/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Compliance",
+     "wordCount": 1061,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-16",
+     "datePublished": "2026-08-16",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "Shared Assessments, Standardized Information Gathering (SIG) Questionnaire",
+      "Cloud Security Alliance, Consensus Assessments Initiative Questionnaire (CAIQ) and STAR",
+      "ISO/IEC 27036-2:2022 — Cybersecurity, supplier relationships, Part 2: Requirements"
+     ],
+     "keywords": "security questionnaire, SIG questionnaire, CAIQ, vendor security questionnaire, SIG vs CAIQ"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/compliance/security-questionnaires/#term",
+     "name": "Security questionnaire",
+     "alternateName": "",
+     "description": "A security questionnaire is a standardised set of questions used to assess a vendor's security posture. The SIG and CAIQ are the common templates.",
+     "url": "https://grc-wiki.vercel.app/compliance/security-questionnaires/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/compliance/security-questionnaires/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is a security questionnaire?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standardised set of questions an organisation sends a vendor to assess its security posture, or receives and completes when it is the vendor being assessed. The SIG and the CAIQ are the two common templates. It is a diligence artefact — a structured way to ask — and not assurance in itself, because the answers are self-attested until evidence is produced behind them."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is the difference between a SIG and a CAIQ?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The SIG (Standardized Information Gathering, from Shared Assessments) is a broad third-party-risk questionnaire covering many control domains, licensed as a maintained content set and configurable from a full SIG Core down to a shorter SIG Lite. The CAIQ (Consensus Assessments Initiative Questionnaire, from the Cloud Security Alliance) is narrower and cloud-specific: yes/no control assertions mapped to the Cloud Controls Matrix and freely available, and a submitted CAIQ is what backs a Level 1 listing in the CSA STAR registry. Use the SIG for general supplier diligence; expect the CAIQ from a cloud provider."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is a completed security questionnaire enough assurance?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A completed questionnaire is a set of claims, not evidence they are true. Assurance comes from what stands behind the answers — an independent audit report such as SOC 2, a certification such as ISO 27001 scoped to the service in question or a direct artefact like a configuration export. Treat the questionnaire as the thing that tells you what to verify, then verify the answers that matter."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "4.10",
+   "part": 4,
+   "slug": "vulnerability-management",
+   "title": "Vulnerability management",
+   "description": "The lifecycle of discovering, prioritising, remediating and verifying technical vulnerabilities on deadlines set by severity — not a one-off scan report.",
+   "short_title": "Vulnerability management",
+   "keywords": [
+    "vulnerability management",
+    "vulnerability management lifecycle",
+    "vulnerability scan vs penetration test",
+    "CVSS prioritisation",
+    "remediation SLA"
+   ],
+   "defines": "Vulnerability management",
+   "reviewed": "2026-08-15",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 9,
+   "canonical_entry": false,
+   "quick_facts": {
+    "stages": "4",
+    "starting point": "CVSS base score",
+    "SLA driver": "Severity",
+    "verified by": "Rescan",
+    "cadence": "Continuous"
+   },
+   "related": [
+    "3.11",
+    "4.2",
+    "4.8"
+   ],
+   "sources": [
+    "ISO/IEC 27001:2022, Annex A control 8.8 (management of technical vulnerabilities)",
+    "NIST SP 800-40 Rev. 4 — Guide to Enterprise Patch Management Planning",
+    "FIRST, Common Vulnerability Scoring System (CVSS)",
+    "AICPA, Trust Services Criteria (criterion CC7.1)"
+   ],
+   "prev": {
+    "ref": "4.9",
+    "title": "Security questionnaires"
+   },
+   "next": {
+    "ref": "5.0",
+    "title": "How to read a framework"
+   },
+   "sections": [
+    {
+     "id": "the-four-stages",
+     "clause": "4.10.1",
+     "text": "The four stages"
+    },
+    {
+     "id": "cvss-is-not-risk-on-its-own",
+     "clause": "4.10.2",
+     "text": "CVSS is not risk on its own"
+    },
+    {
+     "id": "scanning-is-not-penetration-testing",
+     "clause": "4.10.3",
+     "text": "Scanning is not penetration testing"
+    },
+    {
+     "id": "the-link-to-kris-and-continuous-monitoring",
+     "clause": "4.10.4",
+     "text": "The link to KRIs and continuous monitoring"
+    },
+    {
+     "id": "where-it-fails",
+     "clause": "4.10.5",
+     "text": "Where it fails"
+    },
+    {
+     "id": "common-questions",
+     "clause": "4.10.6",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/compliance/vulnerability-management/",
+   "part_slug": "compliance",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "Vulnerability management is the <strong>lifecycle of discovering, prioritising,\nremediating and verifying technical vulnerabilities</strong> on time limits set by\nseverity — a continuous programme, not a scan report filed and forgotten."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The scan is the easy part. What separates a programme from a report is\neverything after the finding: a decision about which vulnerabilities matter, a\ndeadline to fix them by, and a rescan that proves each one is actually closed. A\nscanner that runs every week feeding a queue that never empties is not\nvulnerability management — it is a list that grows.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-four-stages",
+     "clause": "4.10.1",
+     "alias": "c4-10-1",
+     "text": "The four stages"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Discover",
+       "html": "Authenticated scanning, penetration testing and vendor and disclosure feeds find what is exposed. An unauthenticated scan sees the front door; an authenticated one sees the missing patches behind it."
+      },
+      {
+       "term": "Prioritise",
+       "html": "CVSS is the starting point, adjusted for active exploitation, exposure and asset criticality. A base score ranks the finding in the abstract; context ranks it on your estate."
+      },
+      {
+       "term": "Remediate",
+       "html": "Patch, or apply a mitigating control, within a time limit set by severity. The SLA is the commitment; without one the finding has no deadline and no owner."
+      },
+      {
+       "term": "Verify",
+       "html": "Rescan — or authoritative version or configuration evidence — to confirm the fix closed the vulnerability rather than moved it. &ldquo;Remediated&rdquo; in a ticket is a claim; a clean rescan is <a href=\"/compliance/evidence-that-holds-up/\">evidence that holds up</a>."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "cvss-is-not-risk-on-its-own",
+     "clause": "4.10.2",
+     "alias": "c4-10-2",
+     "text": "CVSS is not risk on its own"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A CVSS score measures the vulnerability, not the risk it poses to you. The base\nscore is a property of the flaw — how hard it is to exploit and what it grants —\ncomputed the same way for every organisation on earth. Risk is that score\nmeeting your estate.</p>\n<p>Illustratively, a CVSS 9.8 on an internal host reachable only from an\nadministrative network, sitting behind a compensating control, may matter less\nthan a 6.5 on an internet-facing system with a public exploit in active use — the\nscores are examples, not thresholds. Three things sit on top of the base score and\nchange the order: active exploitation, whether a working exploit exists and is\nbeing used; exposure, whether an attacker can reach the asset at all; and the\ncriticality of the asset itself.</p>\n<p>Severity then sets the clock. A programme might commit to fixing critical\nfindings within 7 days, high within 30 and medium within 90 — but those windows\nare illustrative. The real ones are the organisation&rsquo;s own decision, written\ndown and agreed before the first breach rather than argued after it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "scanning-is-not-penetration-testing",
+     "clause": "4.10.3",
+     "alias": "c4-10-3",
+     "text": "Scanning is not penetration testing"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A scanner and a penetration test both discover, and neither is a substitute for\nthe other. A scanner enumerates known weaknesses against a signature database; a\ntest tries to exploit what it finds and chains several weaknesses into a path a\nscanner would report as three unrelated mediums.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th></th>\n<th>Vulnerability scan</th>\n<th>Penetration test</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Method</td>\n<td>Enumerates known weaknesses</td>\n<td>Exploits and chains them</td>\n</tr>\n<tr>\n<td>Cadence</td>\n<td>Continuous or scheduled</td>\n<td>Point in time</td>\n</tr>\n<tr>\n<td>Coverage</td>\n<td>Broad and automated</td>\n<td>Deep and targeted</td>\n</tr>\n<tr>\n<td>Tells you</td>\n<td>What is probably wrong</td>\n<td>What an attacker could do</td>\n</tr>\n<tr>\n<td>Blind to</td>\n<td>Anything with no signature</td>\n<td>Whatever is out of scope</td>\n</tr>\n</tbody>\n</table></div>\n<p>A programme that runs scans and calls it testing has confirmed neither what is\npresent nor what is exploitable.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-link-to-kris-and-continuous-monitoring",
+     "clause": "4.10.4",
+     "alias": "c4-10-4",
+     "text": "The link to KRIs and continuous monitoring"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Two other entries connect here. The count of critical vulnerabilities open past\ntheir SLA can be a key risk indicator <a href=\"/risk/key-risk-indicators/\">3.11</a>: the SLA\ndefines when one is overdue, and the indicator&rsquo;s own threshold — how many overdue\nis too many — is a separate appetite decision, with a named owner and a response\nwhen it breaches.\nAnd vulnerability state — new criticals, SLA breaches and scan coverage — is a\nstrong candidate for continuous monitoring (4.8) rather than a quarterly\nsnapshot, because the exposure changes daily as new vulnerabilities are\ndisclosed against software that has not moved.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Key risk indicator",
+     "ref": "3.11",
+     "html": "A leading metric that warns exposure is moving toward appetite before it becomes\nan incident. The count of critical vulnerabilities still open past their SLA is a\ncandidate: the SLA sets what counts as overdue, and it earns the name once it has\nits own threshold, owner and response."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-it-fails",
+     "clause": "4.10.5",
+     "alias": "c4-10-5",
+     "text": "Where it fails"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Scanning with no remediation SLA.</strong> The report is produced on schedule and\nnobody acts on it, because no deadline attaches to any line. A finding with no\ndate is a finding no one owns.</p>\n<p><strong>Prioritising by CVSS base score alone.</strong> Ranking the queue by base score puts\na theoretical critical on an unreachable host above a medium being exploited on\nthe perimeter today. Strip out exploitability and exposure and the order is\nwrong in exactly the cases that matter.</p>\n<p><strong>No rescan, so &ldquo;remediated&rdquo; is unverified.</strong> A ticket closed on a promise is\nnot a closed vulnerability. Patches fail to apply, roll back on reboot or fix one\ninstance and miss four identical ones; only a rescan, or authoritative evidence of\nthe fixed version, tells the difference.</p>\n<p><strong>Counting scanned assets as covered.</strong> An unauthenticated scan reaches a host\nbut sees almost nothing installed on it. Reporting that host as assessed records\ncoverage the scan never had, and the missing patches behind it never enter the\nqueue.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "4.10.6",
+     "alias": "c4-10-6",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is vulnerability management?",
+       "id": "faq-what-is-vulnerability-management",
+       "html": "<p>Vulnerability management is the continuous lifecycle of finding technical\nvulnerabilities, deciding which ones matter, fixing them within a time limit set\nby severity and rescanning to confirm the fix held. It is a programme, not a\nscan: the scan is one input, and the value is in the prioritisation, the\nremediation SLA and the verification that follow it.</p>"
+      },
+      {
+       "q": "What is the difference between a vulnerability scan and a penetration test?",
+       "id": "faq-what-is-the-difference-between-a-vulnerability-scan-and-a-penetration-test",
+       "html": "<p>A scan enumerates known weaknesses automatically against a signature database —\nbroad, fast and repeatable. A penetration test tries to exploit what is found and\nchain several weaknesses into an attack path, which a scanner cannot do. Both\ndiscover, and neither replaces the other: the scan gives coverage, the test gives\ndepth and confirms what is genuinely exploitable.</p>"
+      },
+      {
+       "q": "How do you prioritise vulnerabilities?",
+       "id": "faq-how-do-you-prioritise-vulnerabilities",
+       "html": "<p>Start from the CVSS base score, then adjust for three things it does not know:\nwhether a working exploit exists and is being used, whether an attacker can\nactually reach the asset and how critical that asset is. A medium score on an\nexposed system under active exploitation outranks a critical on an isolated host\nbehind a compensating control. CVSS ranks the flaw; context ranks the risk.</p>"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Building a vulnerability-management programme — risk-based prioritisation beyond\nthe CVSS base score, SLAs and verification — is worked through in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s\nsecurity-operations module</a>.\nThis entry stays free."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Compliance",
+       "item": "https://grc-wiki.vercel.app/compliance/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Vulnerability management",
+       "item": "https://grc-wiki.vercel.app/compliance/vulnerability-management/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/compliance/vulnerability-management/#article",
+     "headline": "Vulnerability management",
+     "name": "Vulnerability management",
+     "description": "The lifecycle of discovering, prioritising, remediating and verifying technical vulnerabilities on deadlines set by severity — not a one-off scan report.",
+     "url": "https://grc-wiki.vercel.app/compliance/vulnerability-management/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/compliance/vulnerability-management/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Compliance",
+     "wordCount": 1037,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-15",
+     "datePublished": "2026-08-15",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO/IEC 27001:2022, Annex A control 8.8 (management of technical vulnerabilities)",
+      "NIST SP 800-40 Rev. 4 — Guide to Enterprise Patch Management Planning",
+      "FIRST, Common Vulnerability Scoring System (CVSS)",
+      "AICPA, Trust Services Criteria (criterion CC7.1)"
+     ],
+     "keywords": "vulnerability management, vulnerability management lifecycle, vulnerability scan vs penetration test, CVSS prioritisation, remediation SLA"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/compliance/vulnerability-management/#term",
+     "name": "Vulnerability management",
+     "alternateName": "",
+     "description": "The lifecycle of discovering, prioritising, remediating and verifying technical vulnerabilities on deadlines set by severity — not a one-off scan report.",
+     "url": "https://grc-wiki.vercel.app/compliance/vulnerability-management/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/compliance/vulnerability-management/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is vulnerability management?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vulnerability management is the continuous lifecycle of finding technical vulnerabilities, deciding which ones matter, fixing them within a time limit set by severity and rescanning to confirm the fix held. It is a programme, not a scan: the scan is one input, and the value is in the prioritisation, the remediation SLA and the verification that follow it."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is the difference between a vulnerability scan and a penetration test?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A scan enumerates known weaknesses automatically against a signature database — broad, fast and repeatable. A penetration test tries to exploit what is found and chain several weaknesses into an attack path, which a scanner cannot do. Both discover, and neither replaces the other: the scan gives coverage, the test gives depth and confirms what is genuinely exploitable."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How do you prioritise vulnerabilities?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start from the CVSS base score, then adjust for three things it does not know: whether a working exploit exists and is being used, whether an attacker can actually reach the asset and how critical that asset is. A medium score on an exposed system under active exploitation outranks a critical on an isolated host behind a compensating control. CVSS ranks the flaw; context ranks the risk."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "clause": "5.0",
    "part": 5,
    "slug": "how-to-read-a-framework",
@@ -9654,8 +11931,8 @@
     "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017"
    ],
    "prev": {
-    "ref": "4.3",
-    "title": "Responding to an audit request"
+    "ref": "4.10",
+    "title": "Vulnerability management"
    },
    "next": {
     "ref": "5.1",
@@ -12274,6 +14551,16 @@
     "flags": "fresh"
    },
    {
+    "t": "Answer library",
+    "ref": "4.9",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/compliance/security-questionnaires/",
+    "flags": "fresh"
+   },
+   {
     "t": "Appetite, risk",
     "ref": "3.2",
     "key": true,
@@ -12294,14 +14581,24 @@
     "flags": "level fresh"
    },
    {
-    "t": "Assertion, management",
+    "t": "Assertion vs auditor opinion",
     "ref": "4.4",
     "key": false,
     "example": false,
     "template": false,
     "level": "",
-    "url": "",
-    "flags": ""
+    "url": "/compliance/management-assertion/",
+    "flags": "fresh"
+   },
+   {
+    "t": "Assertion, management",
+    "ref": "4.4",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/compliance/management-assertion/",
+    "flags": "level fresh"
    },
    {
     "t": "Attestation",
@@ -12386,12 +14683,12 @@
    {
     "t": "Backup and restore testing",
     "ref": "4.6",
-    "key": false,
+    "key": true,
     "example": false,
     "template": true,
-    "level": "",
-    "url": "",
-    "flags": "template"
+    "level": "entry",
+    "url": "/compliance/backup-and-restore-testing/",
+    "flags": "template level fresh"
    },
    {
     "t": "Board reporting",
@@ -12442,6 +14739,16 @@
     "level": "entry",
     "url": "/risk/business-impact-analysis/",
     "flags": "template level fresh"
+   },
+   {
+    "t": "CAIQ",
+    "ref": "4.9",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/compliance/security-questionnaires/",
+    "flags": "fresh"
    },
    {
     "t": "Capacity, risk",
@@ -12496,12 +14803,22 @@
    {
     "t": "Change management",
     "ref": "4.5",
-    "key": false,
+    "key": true,
     "example": true,
     "template": false,
+    "level": "entry",
+    "url": "/compliance/change-management-as-a-control/",
+    "flags": "example level fresh"
+   },
+   {
+    "t": "Change record",
+    "ref": "4.5",
+    "key": false,
+    "example": false,
+    "template": false,
     "level": "",
-    "url": "",
-    "flags": "example"
+    "url": "/compliance/change-management-as-a-control/",
+    "flags": "fresh"
    },
    {
     "t": "CISA",
@@ -12586,12 +14903,22 @@
    {
     "t": "Continuous compliance",
     "ref": "4.8",
-    "key": false,
+    "key": true,
     "example": false,
     "template": false,
-    "level": "",
-    "url": "",
-    "flags": ""
+    "level": "entry",
+    "url": "/compliance/continuous-control-monitoring/",
+    "flags": "level fresh"
+   },
+   {
+    "t": "Continuous control monitoring",
+    "ref": "4.8",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/compliance/continuous-control-monitoring/",
+    "flags": "level fresh"
    },
    {
     "t": "Control",
@@ -12694,6 +15021,16 @@
     "flags": "example fresh"
    },
    {
+    "t": "CVSS",
+    "ref": "4.10",
+    "key": false,
+    "example": true,
+    "template": false,
+    "level": "",
+    "url": "/compliance/vulnerability-management/",
+    "flags": "example fresh"
+   },
+   {
     "t": "Cyber security vs GRC",
     "ref": "1.8",
     "key": false,
@@ -12734,14 +15071,24 @@
     "flags": "fresh"
    },
    {
-    "t": "Deviation, control",
+    "t": "Deviation vs policy waiver",
     "ref": "4.7",
     "key": false,
     "example": false,
     "template": false,
-    "level": "",
-    "url": "",
-    "flags": ""
+    "level": "entry",
+    "url": "/compliance/control-deviations/",
+    "flags": "level fresh"
+   },
+   {
+    "t": "Deviation, control",
+    "ref": "4.7",
+    "key": true,
+    "example": true,
+    "template": false,
+    "level": "entry",
+    "url": "/compliance/control-deviations/",
+    "flags": "example level fresh"
    },
    {
     "t": "Disaster recovery",
@@ -12762,6 +15109,16 @@
     "level": "",
     "url": "/risk/third-party-risk/",
     "flags": "template fresh"
+   },
+   {
+    "t": "Emergency change",
+    "ref": "4.5",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/compliance/change-management-as-a-control/",
+    "flags": "fresh"
    },
    {
     "t": "Emerging risk",
@@ -13189,9 +15546,9 @@
     "key": false,
     "example": false,
     "template": false,
-    "level": "",
-    "url": "",
-    "flags": ""
+    "level": "entry",
+    "url": "/compliance/continuous-control-monitoring/",
+    "flags": "level fresh"
    },
    {
     "t": "NIST CSF 2.0",
@@ -13252,6 +15609,16 @@
     "level": "entry",
     "url": "/risk/reading-a-risk-register/",
     "flags": "level fresh"
+   },
+   {
+    "t": "Patch management",
+    "ref": "4.10",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/compliance/vulnerability-management/",
+    "flags": "fresh"
    },
    {
     "t": "PCI DSS",
@@ -13336,12 +15703,12 @@
    {
     "t": "Questionnaire, security",
     "ref": "4.9",
-    "key": false,
+    "key": true,
     "example": false,
     "template": true,
-    "level": "",
-    "url": "",
-    "flags": "template"
+    "level": "entry",
+    "url": "/compliance/security-questionnaires/",
+    "flags": "template level fresh"
    },
    {
     "t": "Recovery point objective (RPO)",
@@ -13372,6 +15739,16 @@
     "level": "entry",
     "url": "/risk/reading-a-risk-register/",
     "flags": "example level fresh"
+   },
+   {
+    "t": "Remediation SLA",
+    "ref": "4.10",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/compliance/vulnerability-management/",
+    "flags": "fresh"
    },
    {
     "t": "Residual risk",
@@ -13534,6 +15911,26 @@
     "flags": "level fresh"
    },
    {
+    "t": "SIG questionnaire",
+    "ref": "4.9",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/compliance/security-questionnaires/",
+    "flags": "fresh"
+   },
+   {
+    "t": "SIG vs CAIQ",
+    "ref": "4.9",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/compliance/security-questionnaires/",
+    "flags": "level fresh"
+   },
+   {
     "t": "SOC 2",
     "ref": "5.1",
     "key": true,
@@ -13542,6 +15939,26 @@
     "level": "",
     "url": "/frameworks/iso-27001-vs-soc-2/",
     "flags": "example fresh"
+   },
+   {
+    "t": "SOC 2 assertion",
+    "ref": "4.4",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/compliance/management-assertion/",
+    "flags": "fresh"
+   },
+   {
+    "t": "SOC 2 exception",
+    "ref": "4.7",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/compliance/control-deviations/",
+    "flags": "fresh"
    },
    {
     "t": "Standard",
@@ -13726,12 +16143,22 @@
    {
     "t": "Vulnerability management",
     "ref": "4.10",
-    "key": false,
+    "key": true,
     "example": true,
     "template": false,
-    "level": "",
-    "url": "",
-    "flags": "example"
+    "level": "entry",
+    "url": "/compliance/vulnerability-management/",
+    "flags": "example level fresh"
+   },
+   {
+    "t": "Vulnerability scan vs penetration test",
+    "ref": "4.10",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/compliance/vulnerability-management/",
+    "flags": "level fresh"
    },
    {
     "t": "Waiver, policy",
@@ -13755,8 +16182,8 @@
    }
   ],
   "coverage": [
-   "153 headwords &middot; 41 with examples",
-   "139 headwords live &middot; 43 entries",
+   "168 headwords &middot; 43 with examples",
+   "162 headwords live &middot; 50 entries",
    "26 framework terms mapped",
    "Median age 15 days"
   ]
