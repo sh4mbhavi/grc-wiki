@@ -1,4 +1,4 @@
-/* GRC Reference — behaviour.
+/* GRC Wiki — behaviour.
    Five jobs: theme, the corpus drawer, the clause-map disclosure, the reading
    position, and search.
 
@@ -39,7 +39,9 @@
     function currentTheme() {
         var set = document.documentElement.getAttribute("data-theme");
         if (set) { return set; }
-        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        // Light is the default; dark is opt-in only, so an unset theme is light
+        // regardless of the OS preference.
+        return "light";
     }
 
     function initTheme() {

@@ -6,8 +6,7 @@ import { pages, siteLd } from "@/lib/content";
 export const metadata: Metadata = {
     title: "Editorial policy",
     description:
-        "Who writes this reference, how it is reviewed, how corrections are handled, and what " +
-        "the relationship to GRC Mastery is.",
+        "Who writes this reference, how it is reviewed, and how corrections are handled.",
     alternates: { canonical: "/editorial-policy/" },
 };
 

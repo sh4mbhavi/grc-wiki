@@ -5,7 +5,7 @@ import { pages, siteLd } from "@/lib/content";
 
 export const metadata: Metadata = {
     title: "Suggest an edit",
-    description: "How to report an error in the GRC Reference.",
+    description: "How to report an error in the GRC Wiki.",
     alternates: { canonical: "/suggest-an-edit/" },
 };
 

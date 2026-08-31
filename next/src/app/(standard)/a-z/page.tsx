@@ -9,7 +9,6 @@ import {
     indexLd,
     indexTerms,
     parts,
-    publisher,
     site,
     type IndexTerm,
 } from "@/lib/content";
@@ -150,8 +149,8 @@ export default function IndexPage() {
                         </div>
 
                         <p className="margin-note" style={{ marginTop: "var(--s-5)", fontSize: "var(--t-small)" }}>
-                            {examplesTotal} headwords carry a worked example. All of them come from{" "}
-                            <a href={publisher.url} rel="noopener">the course labs</a>.
+                            {examplesTotal} headwords carry a worked example, marked with a ▪ and worked
+                            through in full in the entry that owns them.
                         </p>
                     </details>
                 </aside>

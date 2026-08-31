@@ -1,6 +1,6 @@
 ---
 name: grc-entry
-description: Write, edit, or review content for the GRC Reference wiki — an entry in content/entries/ or a headword in content/index-terms.yml. Use when adding or revising either, filling out a part of the corpus, or checking something against the editorial and SEO standard before it ships. Covers the front-matter contract, the :::directive syntax including the comparison directives, clause numbering, figure discipline, the house voice, and the SEO checks that make a definitional or comparison page rank.
+description: Write, edit, or review content for the GRC Wiki — an entry in content/entries/ or a headword in content/index-terms.yml. Use when adding or revising either, filling out a part of the corpus, or checking something against the editorial and SEO standard before it ships. Covers the front-matter contract, the :::directive syntax including the comparison directives, clause numbering, figure discipline, the house voice, and the SEO checks that make a definitional or comparison page rank.
 user-invocable: true
 argument-hint: "[new <clause> <title> | review <file> | plan <part>]"
 allowed-tools:
@@ -12,7 +12,7 @@ allowed-tools:
   - Bash(.venv/bin/python tools/build.py *)
 ---
 
-# Writing for the GRC Reference
+# Writing for the GRC Wiki
 
 Two content types. Sections 1–7 cover **entries**, which are the corpus;
 sections 8–10 cover comparison entries, index headwords and the counting rule.
@@ -106,9 +106,8 @@ Sources and the pager are generated from front matter. Never write them by hand.
 | `:::lede` | The opening definition. Exactly one, first. |
 | `:::terms` | `Term :: description` per line. For a set of parallel definitions. |
 | `:::def term="X" ref="3.2"` | An inline definition callout that points at the entry owning the term. |
-| `:::diagram name="grc-loop" n="1" caption="…"` | A named CSS diagram from the design system. |
+| `:::diagram name="grc-loop" n="1" caption="…"` | A named CSS diagram from the design system. `grc-loop` and `register-row` exist today. |
 | `:::matrix n="2" mark="3,3" caption="…" note="…"` | The 5×5 risk matrix. `mark` is `row,col`, 1-indexed. |
-| `:::slot n="3" ratio="4:5" subject="…" caption="…"` | An image slot. Add `src=` and `alt=` when the real image exists. |
 | `:::faq` | `### Question` then the answer. First item renders open. Emits FAQPage schema. |
 | `:::note` | The margin note. One per entry. |
 | `:::split ratio="1.25fr 1fr"` | Two columns, separated by a line containing only `+++`. |
@@ -128,14 +127,21 @@ mapping, or the comma is read as the next key.
 
 ## 5. Figure discipline
 
-Three figures maximum, each doing a different job: a relationship diagram, a
-data figure, and at most one photographic slot showing a real artefact. Every
-figure is numbered and captioned; `--check` fails a figure with no caption and
-an image with no `alt`.
+**No images. Ever.** The reference carries CSS/SVG diagrams and the risk matrix
+and nothing photographic — no `<img>`, no markdown image, no stock photos, no
+screenshots. `--check` fails on any image syntax anywhere in `content/`, so the
+ban is a build gate, not a guideline.
 
-Photographs are of real artefacts — a printed register annotated in pen, a
-redacted screenshot with the columns intact. Never a stock boardroom, never an
-illustration of an abstraction.
+Two figure kinds do the work: a relationship diagram (a named `:::diagram`) and
+a data figure (the `:::matrix`, or a diagram like `register-row` that stands in
+for the real artefact a photograph used to show). Two figures is plenty; three
+is the ceiling. Every figure is numbered and captioned; `--check` fails a figure
+with no caption.
+
+A new diagram is a design-system part: add it to `DIAGRAMS` in
+`tools/grcmd/parse.py` and give it a renderer in `tools/grcmd/render.py` *and*
+`next/src/components/Blocks.tsx`, kept byte-for-byte in step. An author never
+draws one in markdown.
 
 ## 6. Voice
 

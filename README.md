@@ -1,4 +1,4 @@
-# GRC Reference
+# GRC Wiki
 
 A standalone encyclopedic reference on governance, risk and compliance, built
 from the Claude Design handoff.

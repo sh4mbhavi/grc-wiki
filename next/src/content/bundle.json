@@ -1,19 +1,14 @@
 {
  "site": {
   "site": {
-   "name": "GRC Reference",
-   "short_name": "GRC Reference",
+   "name": "GRC Wiki",
+   "short_name": "GRC Wiki",
    "origin": "https://grc-wiki.vercel.app",
    "base_path": "/",
    "locale": "en-GB",
    "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
    "entries_planned": 212,
    "parts_total": 6
-  },
-  "publisher": {
-   "name": "GRC Mastery",
-   "url": "https://grcmastery.com",
-   "statement": "Maintained by the team behind GRC Mastery, who teach the same material as a course."
   },
   "editorial": {
    "policy_url": "/editorial-policy/",
@@ -103,11 +98,6 @@
      "count": 19
     }
    ],
-   "image_slot": {
-    "ratio": "3:2",
-    "subject": "Desk-level photo: printed risk register, annotated in pen",
-    "caption": "One honest photograph per part page. No stock boardrooms."
-   },
    "maintenance": {
     "label": "HOW THIS IS MAINTAINED",
     "body": "Every entry carries a review date, a named editor and its sources. Corrections are published, not quietly patched."
@@ -119,14 +109,9 @@
    "@type": "WebSite",
    "@id": "https://grc-wiki.vercel.app/#website",
    "url": "https://grc-wiki.vercel.app/",
-   "name": "GRC Reference",
+   "name": "GRC Wiki",
    "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
    "inLanguage": "en-GB",
-   "publisher": {
-    "@type": "Organization",
-    "name": "GRC Mastery",
-    "url": "https://grcmastery.com"
-   },
    "potentialAction": {
     "@type": "SearchAction",
     "target": {
@@ -142,14 +127,9 @@
    "@type": "WebSite",
    "@id": "https://grc-wiki.vercel.app/#website",
    "url": "https://grc-wiki.vercel.app/",
-   "name": "GRC Reference",
+   "name": "GRC Wiki",
    "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
    "inLanguage": "en-GB",
-   "publisher": {
-    "@type": "Organization",
-    "name": "GRC Mastery",
-    "url": "https://grcmastery.com"
-   },
    "potentialAction": {
     "@type": "SearchAction",
     "target": {
@@ -162,14 +142,9 @@
   {
    "@type": "DefinedTermSet",
    "@id": "https://grc-wiki.vercel.app/a-z/#termset",
-   "name": "GRC Reference — index of terms",
+   "name": "GRC Wiki — index of terms",
    "url": "https://grc-wiki.vercel.app/a-z/",
-   "description": "Every term in the GRC Reference, alphabetically, with the clause it belongs to.",
-   "publisher": {
-    "@type": "Organization",
-    "name": "GRC Mastery",
-    "url": "https://grcmastery.com"
-   },
+   "description": "Every term in the GRC Wiki, alphabetically, with the clause it belongs to.",
    "hasDefinedTerm": [
     {
      "@type": "DefinedTerm",
@@ -659,7 +634,7 @@
     {
      "@type": "ListItem",
      "position": 1,
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "item": "https://grc-wiki.vercel.app/"
     },
     {
@@ -730,7 +705,7 @@
    "description": "Six parts, numbered clauses, every entry dated and attributed. How the reference is organised, what the numbering means, and where to start depending on why you are here.",
    "short_title": "How to use this",
    "keywords": [
-    "GRC reference",
+    "GRC wiki",
     "GRC glossary",
     "how to learn GRC"
    ],
@@ -857,7 +832,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Every entry names an editor. If one is wrong, the &ldquo;Suggest an edit&rdquo; link in the\nheader is the fastest route, and corrections are published with an incremented\nedition rather than quietly patched. The <a href=\"/editorial-policy/\">editorial policy</a>\nsays who writes this and what the relationship to GRC Mastery is.</p>"
+     "html": "<p>Every entry names an editor. If one is wrong, the &ldquo;Suggest an edit&rdquo; link in the\nheader is the fastest route, and corrections are published with an incremented\nedition rather than quietly patched. The <a href=\"/editorial-policy/\">editorial policy</a>\nsets out how entries are written, reviewed and corrected.</p>"
     }
    ],
    "ld": [
@@ -865,14 +840,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -888,7 +858,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -918,16 +888,11 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 350,
+     "wordCount": 347,
      "timeRequired": "PT4M",
      "version": 1,
      "dateModified": "2026-08-20",
@@ -943,7 +908,7 @@
      "citation": [
       "ISO/IEC Directives Part 2, rules for the structure of standards"
      ],
-     "keywords": "GRC reference, GRC glossary, how to learn GRC"
+     "keywords": "GRC wiki, GRC glossary, how to learn GRC"
     }
    ]
   },
@@ -1120,13 +1085,10 @@
       ],
       [
        {
-        "type": "slot",
+        "type": "diagram",
+        "name": "register-row",
         "n": 3,
-        "ratio": "4:5",
-        "subject": "Screenshot: a real risk register row, fields labelled",
-        "src": "",
-        "alt": "",
-        "caption": "FIG. 3 — Redact the client name, keep the columns. A real artefact outranks any illustration."
+        "caption": "FIG. 3 — <strong>A risk register row.</strong> The fields that make a score defensible — the same record keyed into any GRC tool."
        }
       ]
      ]
@@ -1190,14 +1152,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -1213,7 +1170,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -1243,16 +1200,11 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 1088,
+     "wordCount": 1095,
      "timeRequired": "PT6M",
      "version": 4,
      "dateModified": "2026-08-14",
@@ -1282,7 +1234,7 @@
      "url": "https://grc-wiki.vercel.app/foundations/what-grc-is/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
-      "name": "GRC Reference",
+      "name": "GRC Wiki",
       "url": "https://grc-wiki.vercel.app/"
      }
     },
@@ -1505,14 +1457,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -1528,7 +1475,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -1558,11 +1505,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -1596,7 +1538,7 @@
      "url": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
-      "name": "GRC Reference",
+      "name": "GRC Wiki",
       "url": "https://grc-wiki.vercel.app/"
      }
     }
@@ -1763,14 +1705,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -1786,7 +1723,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -1816,11 +1753,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -2055,14 +1987,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -2078,7 +2005,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -2108,11 +2035,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -2269,14 +2191,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -2292,7 +2209,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -2322,11 +2239,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -2495,14 +2407,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -2518,7 +2425,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -2548,11 +2455,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -2731,14 +2633,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -2754,7 +2651,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -2784,11 +2681,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -2934,14 +2826,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -2957,7 +2844,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -2987,11 +2874,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -3199,14 +3081,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -3222,7 +3099,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -3252,11 +3129,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -3418,14 +3290,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -3441,7 +3308,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -3471,11 +3338,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -3654,14 +3516,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -3677,7 +3534,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -3707,11 +3564,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -3914,14 +3766,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -3937,7 +3784,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -3967,11 +3814,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -4119,14 +3961,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -4142,7 +3979,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -4172,11 +4009,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -4392,14 +4224,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -4415,7 +4242,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -4445,11 +4272,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -4482,7 +4304,7 @@
      "url": "https://grc-wiki.vercel.app/risk/risk-treatment/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
-      "name": "GRC Reference",
+      "name": "GRC Wiki",
       "url": "https://grc-wiki.vercel.app/"
      }
     }
@@ -4607,14 +4429,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -4630,7 +4447,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -4660,11 +4477,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -4697,7 +4509,7 @@
      "url": "https://grc-wiki.vercel.app/risk/risk-capacity/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
-      "name": "GRC Reference",
+      "name": "GRC Wiki",
       "url": "https://grc-wiki.vercel.app/"
      }
     }
@@ -4857,14 +4669,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -4880,7 +4687,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -4910,11 +4717,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -4947,7 +4749,7 @@
      "url": "https://grc-wiki.vercel.app/compliance/what-compliance-produces/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
-      "name": "GRC Reference",
+      "name": "GRC Wiki",
       "url": "https://grc-wiki.vercel.app/"
      }
     }
@@ -5116,14 +4918,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -5139,7 +4936,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -5169,11 +4966,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -5359,14 +5151,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -5382,7 +5169,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -5412,11 +5199,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -5581,14 +5363,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -5604,7 +5381,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -5634,11 +5411,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -5672,7 +5444,7 @@
      "url": "https://grc-wiki.vercel.app/compliance/responding-to-an-audit/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
-      "name": "GRC Reference",
+      "name": "GRC Wiki",
       "url": "https://grc-wiki.vercel.app/"
      }
     }
@@ -5834,14 +5606,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -5857,7 +5624,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -5887,11 +5654,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -5926,7 +5688,7 @@
      "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
-      "name": "GRC Reference",
+      "name": "GRC Wiki",
       "url": "https://grc-wiki.vercel.app/"
      }
     }
@@ -6140,14 +5902,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -6163,7 +5920,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -6193,11 +5950,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -6408,14 +6160,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -6431,7 +6178,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -6461,11 +6208,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -6499,7 +6241,7 @@
      "url": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
-      "name": "GRC Reference",
+      "name": "GRC Wiki",
       "url": "https://grc-wiki.vercel.app/"
      }
     }
@@ -6664,14 +6406,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -6687,7 +6424,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -6717,11 +6454,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -6755,7 +6487,7 @@
      "url": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
-      "name": "GRC Reference",
+      "name": "GRC Wiki",
       "url": "https://grc-wiki.vercel.app/"
      }
     }
@@ -6916,14 +6648,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -6939,7 +6666,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -6969,11 +6696,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -7152,14 +6874,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -7175,7 +6892,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -7205,11 +6922,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -7374,14 +7086,9 @@
      "@type": "WebSite",
      "@id": "https://grc-wiki.vercel.app/#website",
      "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Reference",
+     "name": "GRC Wiki",
      "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
      "inLanguage": "en-GB",
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -7397,7 +7104,7 @@
       {
        "@type": "ListItem",
        "position": 1,
-       "name": "GRC Reference",
+       "name": "GRC Wiki",
        "item": "https://grc-wiki.vercel.app/"
       },
       {
@@ -7427,11 +7134,6 @@
      },
      "inLanguage": "en-GB",
      "isAccessibleForFree": true,
-     "publisher": {
-      "@type": "Organization",
-      "name": "GRC Mastery",
-      "url": "https://grcmastery.com"
-     },
      "isPartOf": {
       "@id": "https://grc-wiki.vercel.app/#website"
      },
@@ -8745,11 +8447,11 @@
    "121 headwords &middot; 38 with examples",
    "96 headwords live &middot; 27 entries",
    "26 framework terms mapped",
-   "Median age 13 days"
+   "Median age 16 days"
   ]
  },
  "pages": {
-  "editorial_policy": "\n<h1 class=\"article__title\" style=\"max-width:none\">Editorial policy</h1>\n<p class=\"lede\" style=\"max-width:60ch\">How entries are written, who reviews them, what gets\ncorrected, and what the relationship to GRC Mastery is.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">1</span>WHO WRITES THIS</h2>\n<p>Entries are written by practitioners who have done the work being described &mdash; run the\nregister, sat the audit, written the policy that was later tested. Every entry names its editor\nand the credential they hold. An entry with no named editor is not published.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">2</span>REVIEW CYCLE</h2>\n<p>Each entry carries a review date and an edition number. Entries are reviewed quarterly, and\nsooner when a source standard is revised. The review date is the date a human read the entry\nagainst its sources, not the date a file changed.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">3</span>SOURCES</h2>\n<p>Claims about a framework cite the framework. Where an entry states a practice rather than a\nrequirement, it says so. We do not cite vendor marketing, and we do not cite ourselves.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">4</span>CORRECTIONS</h2>\n<p>Corrections are published, not quietly patched. A corrected entry increments its edition and\nrecords what changed. If you have found an error, the fastest route is the\n&ldquo;Suggest an edit&rdquo; link in the header.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">5</span>THE COMMERCIAL RELATIONSHIP</h2>\n<p>This reference is maintained by the team behind GRC Mastery, which sells courses covering the\nsame material in a taught format. That relationship is stated on every page it appears on, and it\ndoes not change what an entry says. Entries link to the courses where a reader would plausibly\nwant the taught version; no entry is written to create that opportunity, and nothing here is\npaywalled.</p>\n",
+  "editorial_policy": "\n<h1 class=\"article__title\" style=\"max-width:none\">Editorial policy</h1>\n<p class=\"lede\" style=\"max-width:60ch\">How entries are written, who reviews them, and what\ngets corrected.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">1</span>WHO WRITES THIS</h2>\n<p>Entries are written by practitioners who have done the work being described &mdash; run the\nregister, sat the audit, written the policy that was later tested. Every entry names its editor\nand the credential they hold. An entry with no named editor is not published.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">2</span>REVIEW CYCLE</h2>\n<p>Each entry carries a review date and an edition number. Entries are reviewed quarterly, and\nsooner when a source standard is revised. The review date is the date a human read the entry\nagainst its sources, not the date a file changed.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">3</span>SOURCES</h2>\n<p>Claims about a framework cite the framework. Where an entry states a practice rather than a\nrequirement, it says so. We do not cite vendor marketing, and we do not cite ourselves.</p>\n\n<h2 class=\"clause\"><span class=\"clause__n\">4</span>CORRECTIONS</h2>\n<p>Corrections are published, not quietly patched. A corrected entry increments its edition and\nrecords what changed. If you have found an error, the fastest route is the\n&ldquo;Suggest an edit&rdquo; link in the header.</p>\n",
   "suggest": "\n<h1 class=\"article__title\" style=\"max-width:none\">Suggest an edit</h1>\n<p class=\"lede\" style=\"max-width:60ch\">Corrections are welcome and are published rather than\nquietly patched.</p>\n<p>Tell us the entry, the clause number, what is wrong, and &mdash; if you have one &mdash; the\nsource that settles it. Clause numbers are the fastest way to point at something: every heading\nin every entry has one, and clicking the <code>#</code> beside a heading copies a link straight\nto it.</p>\n<p>Replace this page with whatever intake you actually use &mdash; a form, an inbox, a repository\nissue template. It exists in the build because the editorial policy links to it, and a policy\nthat links to nothing is not a policy.</p>\n",
   "not_found": "\n<h1 class=\"article__title\" style=\"max-width:none\">No entry at that address</h1>\n<p class=\"lede\" style=\"max-width:60ch\">The reference has been renumbered before and will be\nagain. The index lists every entry currently published.</p>\n<p><a href=\"/a-z/\">Browse the A&ndash;Z index</a> or press <kbd>&#8984;K</kbd> to search.</p>\n"
  }

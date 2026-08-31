@@ -41,8 +41,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
                 <link rel="stylesheet" href={FONTS} />
-                <meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)" />
-                <meta name="theme-color" content="#14130f" media="(prefers-color-scheme: dark)" />
+                <meta name="theme-color" content="#f1f2f3" />
                 <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
             </head>
             <body>

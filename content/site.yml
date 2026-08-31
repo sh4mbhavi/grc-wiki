@@ -2,8 +2,8 @@
 # Both builds (tools/build.py and next/) read this file. Edit it here only.
 
 site:
-  name: GRC Reference
-  short_name: GRC Reference
+  name: GRC Wiki
+  short_name: GRC Wiki
   # Change to the real hostname before launch. Used for canonicals, sitemap,
   # Open Graph and JSON-LD — a wrong value here quietly breaks all four.
   # The live hostname. Canonicals, Open Graph, the sitemap and the JSON-LD all
@@ -25,15 +25,9 @@ site:
   entries_planned: 212
   parts_total: 6
 
-# The publisher relationship is stated once, in the colophon and in JSON-LD.
-# It is never a banner, a strip, or a section.
-publisher:
-  name: GRC Mastery
-  url: https://grcmastery.com
-  # Shown in the maintenance box on the home page.
-  statement: >-
-    Maintained by the team behind GRC Mastery, who teach the same material as
-    a course.
+# The site is published anonymously: there is no publisher block, and nothing
+# here names who maintains the reference. The grcmastery.com URL that appears in
+# an entry's recommendation note is written into that note directly.
 
 editorial:
   policy_url: /editorial-policy/
@@ -97,10 +91,6 @@ home:
     - { title: ISO 27001 crosswalk, ref: "5.1", count: 27 }
     - { title: Risk appetite, ref: "3.2", count: 22 }
     - { title: Three lines model, ref: "1.5", count: 19 }
-  image_slot:
-    ratio: "3:2"
-    subject: "Desk-level photo: printed risk register, annotated in pen"
-    caption: One honest photograph per part page. No stock boardrooms.
   maintenance:
     label: HOW THIS IS MAINTAINED
     body: >-

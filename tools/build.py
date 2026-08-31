@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the GRC Reference.
+"""Build the GRC Wiki.
 
     python tools/build.py                 # static site -> dist/
     python tools/build.py --serve         # build, then serve dist/ on :8000
@@ -33,8 +33,8 @@ BUNDLE = NEXT / "src" / "content" / "bundle.json"
 
 EDITORIAL_POLICY = """
 <h1 class="article__title" style="max-width:none">Editorial policy</h1>
-<p class="lede" style="max-width:60ch">How entries are written, who reviews them, what gets
-corrected, and what the relationship to GRC Mastery is.</p>
+<p class="lede" style="max-width:60ch">How entries are written, who reviews them, and what
+gets corrected.</p>
 
 <h2 class="clause"><span class="clause__n">1</span>WHO WRITES THIS</h2>
 <p>Entries are written by practitioners who have done the work being described &mdash; run the
@@ -54,13 +54,6 @@ requirement, it says so. We do not cite vendor marketing, and we do not cite our
 <p>Corrections are published, not quietly patched. A corrected entry increments its edition and
 records what changed. If you have found an error, the fastest route is the
 &ldquo;Suggest an edit&rdquo; link in the header.</p>
-
-<h2 class="clause"><span class="clause__n">5</span>THE COMMERCIAL RELATIONSHIP</h2>
-<p>This reference is maintained by the team behind GRC Mastery, which sells courses covering the
-same material in a taught format. That relationship is stated on every page it appears on, and it
-does not change what an entry says. Entries link to the courses where a reader would plausibly
-want the taught version; no entry is written to create that opportunity, and nothing here is
-paywalled.</p>
 """
 
 SUGGEST = """
@@ -168,6 +161,42 @@ def build(*, bundle: bool, check: bool) -> int:
     if config_errors:
         raise ContentError(f"{len(config_errors)} deploy-config problem(s) — see above")
 
+    # Content doctrine, enforced as errors so it cannot rot: the reference is
+    # image-free, and conversion is capped at one recommendation note per entry.
+    doctrine_errors: list[str] = []
+    image_markers = ("<img", "![", "image_slot", ":::slot", "image slot")
+    for entry in site.entries:
+        body_lower = entry.body.lower()
+        for marker in image_markers:
+            if marker in body_lower:
+                doctrine_errors.append(
+                    f"{entry.source_path.name}: image markup {marker!r} — the reference is image-free"
+                )
+    site_text = (CONTENT / "site.yml").read_text(encoding="utf-8").lower()
+    for marker in ("image_slot", "image slot"):
+        if marker in site_text:
+            doctrine_errors.append(f"site.yml: {marker!r} — the reference is image-free")
+    def count_notes(blocks: list[dict]) -> int:
+        total = 0
+        for b in blocks:
+            if b["type"] == "note":
+                total += 1
+            elif b["type"] == "split":
+                for col in b["columns"]:
+                    total += count_notes(col)
+        return total
+
+    for entry in site.entries:
+        notes = count_notes(parsed[entry.clause][0])
+        if notes > 1:
+            doctrine_errors.append(
+                f"{entry.source_path.name}: {notes} :::note blocks — conversion is one note per entry"
+            )
+    for error in doctrine_errors:
+        print(f"  error {error}", file=sys.stderr)
+    if doctrine_errors:
+        raise ContentError(f"{len(doctrine_errors)} content-doctrine problem(s) — see above")
+
     if check:
         print(f"parsed {len(site.entries)} entries, {len(problems)} dangling references")
         return 0
@@ -197,14 +226,14 @@ def build(*, bundle: bool, check: bool) -> int:
 
     write(DIST / "editorial-policy" / "index.html", render.simple_page(
         site, path="/editorial-policy/", title="Editorial policy",
-        description="Who writes this reference, how it is reviewed, how corrections are handled, "
-                    "and what the relationship to GRC Mastery is.",
+        description="Who writes this reference, how it is reviewed, and how corrections are "
+                    "handled.",
         body_html=EDITORIAL_POLICY))
     urls.append(("/editorial-policy/", seo.today(), "yearly"))
 
     write(DIST / "suggest-an-edit" / "index.html", render.simple_page(
         site, path="/suggest-an-edit/", title="Suggest an edit",
-        description="How to report an error in the GRC Reference.",
+        description="How to report an error in the GRC Wiki.",
         body_html=SUGGEST))
     urls.append(("/suggest-an-edit/", seo.today(), "yearly"))
 

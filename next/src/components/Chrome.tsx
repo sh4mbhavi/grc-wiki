@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-import { config, editorial, href, parts, publisher, site } from "@/lib/content";
+import { config, editorial, href, parts, site } from "@/lib/content";
 
 const SearchIcon = () => (
     <svg
@@ -31,7 +31,7 @@ export function Masthead({ crumbs, withDrawer = false }: { crumbs?: ReactNode; w
                     Contents
                 </button>
             ) : null}
-            <a className="masthead__wordmark" href={href("/")}>GRC REFERENCE</a>
+            <a className="masthead__wordmark" href={href("/")}>GRC WIKI</a>
             <span className="masthead__sep" aria-hidden="true">|</span>
             <span className="masthead__crumbs">
                 {crumbs ?? `${site.entries_total} entries · ${site.parts_total} parts · open access`}
@@ -117,9 +117,6 @@ export function Colophon() {
                 <p style={{ margin: 0 }}>
                     Reviewed on a {editorial.review_cycle.toLowerCase()} cycle. Every entry names its
                     editor and its sources.
-                    <br />
-                    Maintained by{" "}
-                    <a href={publisher.url} rel="noopener">{publisher.name}</a>.
                 </p>
             </div>
         </footer>

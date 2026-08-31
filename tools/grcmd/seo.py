@@ -15,12 +15,9 @@ from typing import Any
 from .model import Entry, Site
 
 
-def _publisher(site: Site) -> dict[str, Any]:
-    pub = site.config["publisher"]
-    return {"@type": "Organization", "name": pub["name"], "url": pub["url"]}
-
-
 def _website(site: Site) -> dict[str, Any]:
+    # No `publisher` node: the reference is published anonymously, so nothing in
+    # the structured data names or links a maintaining organisation.
     return {
         "@type": "WebSite",
         "@id": site.absolute("/") + "#website",
@@ -28,7 +25,6 @@ def _website(site: Site) -> dict[str, Any]:
         "name": site.name,
         "description": " ".join(site.config["site"]["description"].split()),
         "inLanguage": site.config["site"]["locale"],
-        "publisher": _publisher(site),
         "potentialAction": {
             "@type": "SearchAction",
             "target": {
@@ -58,7 +54,6 @@ def json_ld_index(site: Site) -> list[dict[str, Any]]:
             "description": (
                 f"Every term in the {site.name}, alphabetically, with the clause it belongs to."
             ),
-            "publisher": _publisher(site),
             "hasDefinedTerm": [
                 {
                     "@type": "DefinedTerm",
@@ -105,7 +100,6 @@ def json_ld_entry(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> lis
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "inLanguage": site.config["site"]["locale"],
         "isAccessibleForFree": True,
-        "publisher": _publisher(site),
         "isPartOf": {"@id": site.absolute("/") + "#website"},
         "articleSection": part.name,
         "wordCount": _word_count(blocks),

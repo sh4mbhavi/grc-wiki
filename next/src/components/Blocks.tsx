@@ -34,17 +34,59 @@ function Html({ html, as = "div", ...rest }: { html: string; as?: HtmlTag } & Re
     return <Tag {...rest} dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
-function aspect(ratio: string) {
-    const [w, h] = ratio.split(":");
-    return { aspectRatio: `${w}/${h}` } as const;
-}
-
 function LoopNode({ i }: { i: number }) {
     const node = LOOP_NODES[i];
     return (
         <div className={node.out ? "loop__node loop__node--out" : "loop__node"}>
             <b>{node.name}</b>
             <span>{node.sub}</span>
+        </div>
+    );
+}
+
+/* The register-row diagram: a single risk-register record as a CSS artefact.
+   Kept identical to the Python version in tools/grcmd/render.py. */
+const REGISTER_ROW: [string, string, boolean][] = [
+    ["Ref", "R-014", false],
+    ["Risk", "Supplier holds customer PII with no DPA signed", false],
+    ["Likelihood", "Likely (4)", false],
+    ["Impact", "Major (4)", false],
+    ["Residual", "16", true],
+    ["Owner", "Head of Procurement", false],
+    ["Treatment", "Mitigate", false],
+    ["Status", "Open · review 30 Sep", false],
+];
+
+const REGISTER_LABEL =
+    "A risk register row: reference R-014, a supplier holding customer PII with no " +
+    "data processing agreement, scored likely and major for a residual of 16, owned " +
+    "by the Head of Procurement, treatment mitigate, status open.";
+
+export function RegisterRow() {
+    return (
+        <div className="regrow" role="img" aria-label={REGISTER_LABEL}>
+            {REGISTER_ROW.map(([k, v, mark]) => (
+                <div key={k} className="regrow__row" data-mark={mark ? "true" : undefined}>
+                    <span className="regrow__k">{k}</span>
+                    <span className="regrow__v">{v}</span>
+                </div>
+            ))}
+        </div>
+    );
+}
+
+function LoopDiagram() {
+    return (
+        <div className="loop" role="img" aria-label={LOOP_LABEL}>
+            <LoopNode i={0} />
+            <div className="loop__edge loop__edge--h" aria-hidden="true">sets<br />———▸</div>
+            <LoopNode i={1} />
+            <div className="loop__edge loop__edge--v" aria-hidden="true">▴<br />reports</div>
+            <div />
+            <div className="loop__edge loop__edge--v" aria-hidden="true">produces<br />▾</div>
+            <LoopNode i={2} />
+            <div className="loop__edge loop__edge--h" aria-hidden="true">feeds<br />◂———</div>
+            <LoopNode i={3} />
         </div>
     );
 }
@@ -105,17 +147,7 @@ export function BlockView({ block }: { block: Block }) {
             return (
                 <figure className="figure" id={`fig-${block.n}`}>
                     <div className="figure__frame">
-                        <div className="loop" role="img" aria-label={LOOP_LABEL}>
-                            <LoopNode i={0} />
-                            <div className="loop__edge loop__edge--h" aria-hidden="true">sets<br />———▸</div>
-                            <LoopNode i={1} />
-                            <div className="loop__edge loop__edge--v" aria-hidden="true">▴<br />reports</div>
-                            <div />
-                            <div className="loop__edge loop__edge--v" aria-hidden="true">produces<br />▾</div>
-                            <LoopNode i={2} />
-                            <div className="loop__edge loop__edge--h" aria-hidden="true">feeds<br />◂———</div>
-                            <LoopNode i={3} />
-                        </div>
+                        {block.name === "register-row" ? <RegisterRow /> : <LoopDiagram />}
                     </div>
                     <Html as="figcaption" html={block.caption} />
                 </figure>
@@ -163,29 +195,6 @@ export function BlockView({ block }: { block: Block }) {
                 </figure>
             );
         }
-
-        case "slot":
-            return (
-                <figure className="figure" id={`fig-${block.n}`}>
-                    {block.src ? (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img
-                            src={href(block.src)}
-                            alt={block.alt}
-                            style={{ ...aspect(block.ratio), objectFit: "cover" }}
-                        />
-                    ) : (
-                        <div className="slot" style={aspect(block.ratio)}>
-                            <span>
-                                IMAGE SLOT · {block.ratio}
-                                <br />
-                                {block.subject}
-                            </span>
-                        </div>
-                    )}
-                    <Html as="figcaption" html={block.caption} />
-                </figure>
-            );
 
         case "faq":
             return (

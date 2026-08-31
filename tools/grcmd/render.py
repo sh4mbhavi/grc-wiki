@@ -103,9 +103,27 @@ def _b_def(b, site):
     )
 
 
-def _b_diagram(b, site):
-    if b["name"] != "grc-loop":
-        raise KeyError(b["name"])
+# The register-row diagram: a single risk-register record rendered as a CSS
+# artefact. It carries the "real artefact" job a photograph used to do, without
+# an image. Kept identical to the React version in next/src/components/Blocks.tsx.
+REGISTER_ROW = [
+    ("Ref", "R-014", False),
+    ("Risk", "Supplier holds customer PII with no DPA signed", False),
+    ("Likelihood", "Likely (4)", False),
+    ("Impact", "Major (4)", False),
+    ("Residual", "16", True),
+    ("Owner", "Head of Procurement", False),
+    ("Treatment", "Mitigate", False),
+    ("Status", "Open · review 30 Sep", False),
+]
+REGISTER_LABEL = (
+    "A risk register row: reference R-014, a supplier holding customer PII with no "
+    "data processing agreement, scored likely and major for a residual of 16, owned "
+    "by the Head of Procurement, treatment mitigate, status open."
+)
+
+
+def _diagram_loop():
     nodes = [
         ("Governance", "sets objectives &amp; appetite", False),
         ("Risk", "sizes &amp; treats the threats", False),
@@ -118,7 +136,7 @@ def _b_diagram(b, site):
         cls = "loop__node loop__node--out" if out else "loop__node"
         return f'<div class="{cls}"><b>{name}</b><span>{sub}</span></div>'
 
-    body = (
+    return (
         f'<div class="loop" role="img" aria-label="Governance sets objectives and appetite for Risk. '
         f'Risk produces controls and evidence held by Compliance. Compliance feeds Assurance, which '
         f'reports back to Governance.">'
@@ -132,6 +150,27 @@ def _b_diagram(b, site):
         + node(3)
         + "</div>"
     )
+
+
+def _diagram_register_row():
+    out = []
+    for k, v, mark in REGISTER_ROW:
+        mark_attr = ' data-mark="true"' if mark else ""
+        out.append(
+            f'<div class="regrow__row"{mark_attr}>'
+            f'<span class="regrow__k">{e(k)}</span>'
+            f'<span class="regrow__v">{e(v)}</span></div>'
+        )
+    return f'<div class="regrow" role="img" aria-label="{e(REGISTER_LABEL)}">{"".join(out)}</div>'
+
+
+def _b_diagram(b, site):
+    if b["name"] == "grc-loop":
+        body = _diagram_loop()
+    elif b["name"] == "register-row":
+        body = _diagram_register_row()
+    else:
+        raise KeyError(b["name"])
     return (
         f'<figure class="figure" id="fig-{b["n"]}"><div class="figure__frame">{body}</div>'
         f"<figcaption>{b['caption']}</figcaption></figure>"
@@ -164,23 +203,6 @@ def _b_matrix(b, site):
         f'<thead><tr><td></td>{head_row}</tr></thead>'
         f'<tbody>{"".join(body)}</tbody>'
         f"</table></div>{caption}</figure>"
-    )
-
-
-def _b_slot(b, site):
-    w, _, h = b["ratio"].partition(":")
-    style = f"aspect-ratio:{e(w)}/{e(h)}"
-    if b["src"]:
-        inner = f'<img src="{e(site.url(b["src"]))}" alt="{e(b["alt"])}" style="{style};object-fit:cover">'
-    else:
-        subject = e(b["subject"]).replace(": ", ":<br>")
-        inner = (
-            f'<div class="slot" style="{style}"><span>IMAGE SLOT &middot; {e(b["ratio"])}'
-            f"<br>{subject}</span></div>"
-        )
-    return (
-        f'<figure class="figure" id="fig-{b["n"]}">{inner}'
-        f'<figcaption>{b["caption"]}</figcaption></figure>'
     )
 
 
@@ -240,7 +262,6 @@ _BLOCKS = {
     "def": _b_def,
     "diagram": _b_diagram,
     "matrix": _b_matrix,
-    "slot": _b_slot,
     "faq": _b_faq,
     "split": _b_split,
     "versus": _b_versus,
@@ -271,8 +292,7 @@ def head(site: Site, *, title: str, description: str, path: str, ld: list[dict],
 <meta property="og:url" content="{e(canonical)}">
 <meta property="og:locale" content="{e(site.config['site']['locale'].replace('-', '_'))}">
 <meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#14130f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f1f2f3">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{e(FONT_HREF)}">
@@ -297,7 +317,7 @@ def masthead(site: Site, *, crumbs: str = "", with_drawer: bool = False) -> str:
     )
     crumb_html = crumbs or f"{total} entries &middot; {parts} parts &middot; open access"
     return f"""<header class="masthead">
-{drawer}<a class="masthead__wordmark" href="{e(site.url(''))}">GRC REFERENCE</a>
+{drawer}<a class="masthead__wordmark" href="{e(site.url(''))}">GRC WIKI</a>
 <span class="masthead__sep" aria-hidden="true">|</span>
 <span class="masthead__crumbs">{crumb_html}</span>
 <div class="masthead__tail">
@@ -328,7 +348,6 @@ def finder(site: Site) -> str:
 
 def colophon(site: Site) -> str:
     ed = site.config["editorial"]
-    pub = site.config["publisher"]
     parts = "".join(
         f'<li><a href="{e(site.url(p.url))}">{e(p.n)} &middot; {e(p.name)}</a></li>' for p in site.parts
     )
@@ -340,8 +359,7 @@ def colophon(site: Site) -> str:
 <li><a href="{e(site.url('/a-z/'))}">A&ndash;Z index</a></li>
 </ul></div>
 <div><h2>PROVENANCE</h2>
-<p style="margin:0">Reviewed on a {e(ed['review_cycle'].lower())} cycle. Every entry names its editor and its sources.<br>
-Maintained by <a href="{e(pub['url'])}" rel="noopener">{e(pub['name'])}</a>.</p></div>
+<p style="margin:0">Reviewed on a {e(ed['review_cycle'].lower())} cycle. Every entry names its editor and its sources.</p></div>
 </footer>"""
 
 
@@ -585,11 +603,6 @@ def home_page(site: Site) -> str:
         for en in sorted(site.entries, key=lambda x: x.reviewed, reverse=True)[:3]
     )
 
-    slot = home["image_slot"]
-    w, _, h = slot["ratio"].partition(":")
-
-    pub = cfg["publisher"]
-
     return f"""{head(site,
         title=f"{home['title']} — {site.name}",
         description=cfg['site']['description'],
@@ -622,9 +635,8 @@ def home_page(site: Site) -> str:
 <h2 class="section-rule">START HERE &mdash; IF YOU ARE NEW</h2>
 <div class="start">{''.join(start)}</div>
 </section>
-<figure class="figure" style="margin:0">
-<div class="slot" style="aspect-ratio:{e(w)}/{e(h)}"><span>IMAGE SLOT &middot; {e(slot['ratio'])}<br>{e(slot['subject'])}</span></div>
-<figcaption>FIG. &mdash; {e(slot['caption'])}</figcaption>
+<figure class="figure" style="margin:0"><div class="figure__frame">{_diagram_register_row()}</div>
+<figcaption>FIG. &mdash; A risk register row &mdash; the fields that make a score defensible.</figcaption>
 </figure>
 </div>
 </div>
@@ -636,8 +648,6 @@ def home_page(site: Site) -> str:
 <ul class="revised">{revised}</ul>
 <div class="policy"><b>{e(cfg['home']['maintenance']['label'])}</b>{e(" ".join(cfg['home']['maintenance']['body'].split()))}
 <span style="display:block;margin-top:var(--s-2)"><a href="{e(site.url(ed['policy_url']))}">Read the editorial policy</a></span></div>
-<p class="margin-note" style="margin-top:var(--s-5)">Maintained by the team behind
-<a href="{e(pub['url'])}" rel="noopener">{e(pub['name'])}</a>, who teach the same material as a course.</p>
 </aside>
 </div>
 </main>
@@ -791,7 +801,7 @@ def index_page(site: Site) -> str:
 <li><a href="javascript:window.print()">Full index (PDF)</a></li>
 </ul></div>
 <p class="margin-note" style="margin-top:var(--s-5);font-size:var(--t-small)">{e(examples_total)} headwords carry a worked
-example. All of them come from <a href="{e(site.config['publisher']['url'])}" rel="noopener">the course labs</a>.</p>
+example, marked with a &#9642; and worked through in full in the entry that owns them.</p>
 </details>
 </aside>
 

@@ -30,13 +30,14 @@ HEADING = re.compile(r"^(?P<hashes>#{2,4})\s+(?P<text>.+?)\s*$")
 COLUMN_BREAK = "+++"
 
 BLOCK_DIRECTIVES = {
-    "lede", "terms", "diagram", "matrix", "slot", "def", "faq", "note", "split", "col",
+    "lede", "terms", "diagram", "matrix", "def", "faq", "note", "split", "col",
     "versus", "attrs",
 }
 
 # Diagrams are named, not free-form: a diagram is a piece of the design system,
-# not something an author draws in markdown.
-DIAGRAMS = {"grc-loop"}
+# not something an author draws in markdown. They are also the only figure the
+# reference carries — there are no photographs and no image slots.
+DIAGRAMS = {"grc-loop", "register-row"}
 
 
 def slugify(text: str) -> str:
@@ -267,23 +268,6 @@ class Builder:
             "mark": cell,
             "caption": self.caption(attrs, n),
             "note": md_inline(str(attrs["note"])) if attrs.get("note") else "",
-        }]
-
-    def d_slot(self, attrs, children, raw) -> list[dict[str, Any]]:
-        n = self.next_figure(attrs)
-        src = attrs.get("src")
-        if src and not attrs.get("alt"):
-            raise ContentError(f"{self.where}: figure {n} has src= but no alt=")
-        if not src and not attrs.get("subject"):
-            raise ContentError(f"{self.where}: figure {n} is an empty slot and needs subject=\"...\"")
-        return [{
-            "type": "slot",
-            "n": n,
-            "ratio": str(attrs.get("ratio", "3:2")),
-            "subject": str(attrs.get("subject", "")),
-            "src": str(src) if src else "",
-            "alt": str(attrs.get("alt", "")),
-            "caption": self.caption(attrs, n),
         }]
 
     def d_faq(self, attrs, children, raw) -> list[dict[str, Any]]:

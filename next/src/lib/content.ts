@@ -18,7 +18,6 @@ export type Block =
     | { type: "def"; term: string; ref: string; html: string }
     | { type: "diagram"; name: string; n: number; caption: string }
     | { type: "matrix"; n: number; mark: number[]; caption: string; note: string }
-    | { type: "slot"; n: number; ratio: string; subject: string; src: string; alt: string; caption: string }
     | { type: "faq"; items: { q: string; id: string; html: string }[] }
     | { type: "split"; ratio: string; columns: Block[][] };
 
@@ -81,7 +80,6 @@ interface Bundle {
             entries_total: number;
             parts_total: number;
         };
-        publisher: { name: string; url: string; statement: string };
         editorial: {
             policy_url: string;
             suggest_url: string;
@@ -94,7 +92,6 @@ interface Bundle {
             chips: string[];
             start_here: string[];
             most_cited: { title: string; ref: string; count: number }[];
-            image_slot: { ratio: string; subject: string; caption: string };
             maintenance: { label: string; body: string };
         };
     };
@@ -110,7 +107,6 @@ const bundle = bundleJson as unknown as Bundle;
 
 export const config = bundle.site;
 export const site = bundle.site.site;
-export const publisher = bundle.site.publisher;
 export const editorial = bundle.site.editorial;
 export const home = bundle.site.home;
 export const parts = bundle.parts;

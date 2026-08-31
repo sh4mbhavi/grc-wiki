@@ -1,5 +1,5 @@
 /* ==========================================================================
-   GRC Reference — design system
+   GRC Wiki — design system
    Direction 1a "normative standard", built out as 2a shell / 3a home / 3b entry.
    Two type roles only: Source Serif 4 carries all prose, IBM Plex Mono carries
    structure (clause IDs, metadata, rails, tables of contents). No sans.
@@ -10,45 +10,40 @@
 :root {
     color-scheme: light;
 
-    /* Paper */
-    --paper:        #f7f5f0;
-    --paper-raised: #fffdf9;
-    --paper-fill:   #efe9dc;
+    /* Paper — cool stone, no warm cast */
+    --paper:        #f1f2f3;
+    --paper-raised: #ffffff;
+    --paper-fill:   #e7e9eb;
 
-    /* Ink. The two quietest greys are darker than the handoff's #8a8272 and
-       #9a9285: every use of them is 10–12px mono, which WCAG scores as normal
-       text and needs 4.5:1. The measured values are 5.65 and 4.56 on the
-       darkest paper they sit on. */
-    --ink:        #171512;
-    --ink-body:   #3f3a32;
-    --ink-quiet:  #4a453c;
-    --ink-meta:   #6b6559;
-    --ink-faint:  #605a4e;
-    --ink-fainter:#6f685b;
+    /* Ink — cool greys. The two quietest are dark enough to clear 4.5:1 as
+       10–12px mono (WCAG normal text) on the lightest paper they sit on. */
+    --ink:        #17181a;
+    --ink-body:   #3a3c40;
+    --ink-quiet:  #45474b;
+    --ink-meta:   #5f6267;
+    --ink-faint:  #585b60;
+    --ink-fainter:#616469;
 
     /* Rules */
-    --rule-strong: #171512;
-    --rule:        #dcd6c9;
-    --rule-soft:   #e6e0d3;
-    --rule-input:  #cfc7b6;
+    --rule-strong: #17181a;
+    --rule:        #d7d9dc;
+    --rule-soft:   #e3e5e7;
+    --rule-input:  #c8cace;
 
-    /* Accent — oxblood. Structural, never decorative. */
-    --accent:      #7a1f1f;
-    --accent-weak: rgba(122, 31, 31, 0.09);
+    /* Accent — graphite. Hue-free near-black; structure, never decoration. */
+    --accent:      #2b2c2e;
+    --accent-weak: rgba(43, 44, 46, 0.06);
 
-    /* Risk matrix ramp, light */
-    --heat-0: #faf7ef;
-    --heat-1: #f5f0e4;
-    --heat-2: #f0e8d4;
-    --heat-3: #ecdfc2;
-    --heat-4: #e8d8b0;
-    --heat-5: #dfae7a;
-    --heat-6: #c9805c;
-    --heat-7: #a8452f;
-    --heat-8: #7a1f1f;
-
-    /* Hatch used for unfilled image slots */
-    --hatch: rgba(23, 21, 18, 0.05);
+    /* Risk matrix ramp, light — neutral pale → charcoal, no hue */
+    --heat-0: #eef0f1;
+    --heat-1: #e2e4e6;
+    --heat-2: #d2d5d8;
+    --heat-3: #bfc2c6;
+    --heat-4: #a8acb1;
+    --heat-5: #8d9197;
+    --heat-6: #70747a;
+    --heat-7: #565a60;
+    --heat-8: #3c4045;
 
     /* Spacing — 4px base */
     --s-1: 0.25rem;  --s-2: 0.5rem;   --s-3: 0.75rem;  --s-4: 1rem;
@@ -88,55 +83,31 @@
     --ease-in:  cubic-bezier(0.7, 0, 0.84, 0);
 }
 
-/* Inverse mode. The design's dark band: warm near-black paper, terracotta
-   accent — the oxblood goes muddy below 4.5:1 on dark, so it is replaced,
-   not dimmed. */
-@media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-        color-scheme: dark;
-        --paper:        #14130f;
-        --paper-raised: #1e1b15;
-        --paper-fill:   #232019;
-        --ink:        #e8e4da;
-        --ink-body:   #c4bfb2;
-        --ink-quiet:  #b3ada0;
-        --ink-meta:   #948d80;
-        --ink-faint:  #a09a8c;
-        --ink-fainter:#8d877a;
-        --rule-strong: #6f6959;
-        --rule:        #3a352d;
-        --rule-soft:   #2d2a22;
-        --rule-input:  #4a463c;
-        --accent:      #d9a184;
-        --accent-weak: rgba(217, 161, 132, 0.12);
-        --heat-0: #1a1813; --heat-1: #221f18; --heat-2: #2c271d;
-        --heat-3: #3a3122; --heat-4: #4b3d28; --heat-5: #6b4f31;
-        --heat-6: #8a5a3d; --heat-7: #a8563c; --heat-8: #c4634a;
-        --hatch: rgba(232, 228, 218, 0.06);
-    }
-}
-
+/* Inverse mode — cool graphite. Near-black stone paper with a near-white,
+   hue-free accent (the light accent is near-black, so on dark it inverts
+   rather than dims). Light is the default: dark applies only when the reader
+   picks it with the toggle, which sets data-theme="dark" and stores the
+   choice. The OS prefers-color-scheme is deliberately not consulted. */
 :root[data-theme="dark"] {
     color-scheme: dark;
-    --paper:        #14130f;
-    --paper-raised: #1e1b15;
-    --paper-fill:   #232019;
-    --ink:        #e8e4da;
-    --ink-body:   #c4bfb2;
-    --ink-quiet:  #b3ada0;
-    --ink-meta:   #948d80;
-    --ink-faint:  #a09a8c;
-    --ink-fainter:#8d877a;
-    --rule-strong: #6f6959;
-    --rule:        #3a352d;
-    --rule-soft:   #2d2a22;
-    --rule-input:  #4a463c;
-    --accent:      #d9a184;
-    --accent-weak: rgba(217, 161, 132, 0.12);
-    --heat-0: #1a1813; --heat-1: #221f18; --heat-2: #2c271d;
-    --heat-3: #3a3122; --heat-4: #4b3d28; --heat-5: #6b4f31;
-    --heat-6: #8a5a3d; --heat-7: #a8563c; --heat-8: #c4634a;
-    --hatch: rgba(232, 228, 218, 0.06);
+    --paper:        #141517;
+    --paper-raised: #1d1e21;
+    --paper-fill:   #26282b;
+    --ink:        #e8e9ea;
+    --ink-body:   #c2c4c7;
+    --ink-quiet:  #b1b3b6;
+    --ink-meta:   #909398;
+    --ink-faint:  #9c9fa3;
+    --ink-fainter:#86898e;
+    --rule-strong: #5a5d62;
+    --rule:        #34363a;
+    --rule-soft:   #2a2c2f;
+    --rule-input:  #43454a;
+    --accent:      #d6d8db;
+    --accent-weak: rgba(214, 216, 219, 0.12);
+    --heat-0: #1b1c1e; --heat-1: #232427; --heat-2: #2d2f32;
+    --heat-3: #3a3c40; --heat-4: #4a4d51; --heat-5: #5f6368;
+    --heat-6: #787c81; --heat-7: #979a9f; --heat-8: #b7babf;
 }
 
 /* --- 2. Reset & base ---------------------------------------------------- */
@@ -607,26 +578,36 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .figure figcaption b { color: var(--ink); font-weight: 600; }
 
-/* Image slot — hatched placeholder until real photography lands */
-.slot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--paper-fill);
-    background-image: repeating-linear-gradient(
-        45deg, transparent, transparent 7px, var(--hatch) 7px, var(--hatch) 14px
-    );
-    border: 1px solid var(--rule);
-    text-align: center;
+/* Register-row diagram — a single risk-register record as a CSS artefact. The
+   reference carries diagrams and the matrix, and nothing photographic. */
+.regrow {
+    border: 1px solid var(--rule-strong);
+    background: var(--paper-raised);
 }
-.slot span {
+.regrow__row {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    gap: var(--s-3);
+    padding: var(--s-2) var(--s-3);
+    border-top: 1px solid var(--rule);
+}
+.regrow__row:first-child { border-top: 0; }
+.regrow__row[data-mark="true"] { background: var(--accent-weak); }
+.regrow__k {
     font-family: var(--mono);
     font-size: var(--t-micro);
-    letter-spacing: 0.08em;
-    line-height: 1.7;
-    color: var(--ink-faint);
-    padding: var(--s-4);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-meta);
+    align-self: center;
 }
+.regrow__v {
+    font-family: var(--serif);
+    font-size: var(--t-small);
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+}
+.regrow__row[data-mark="true"] .regrow__v { font-weight: 600; }
 
 /* FIG 1 — the GRC loop, four nodes and four labelled edges. CSS only. */
 .loop {

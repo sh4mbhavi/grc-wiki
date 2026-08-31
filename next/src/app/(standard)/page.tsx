@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { Ld, Masthead, SearchBar } from "@/components/Chrome";
+import { RegisterRow } from "@/components/Blocks";
 import {
     byClause,
     editorial,
@@ -8,7 +9,6 @@ import {
     home,
     href,
     parts,
-    publisher,
     site,
     siteLd,
 } from "@/lib/content";
@@ -25,7 +25,6 @@ export default function Home() {
     const startHere = home.start_here.map(byClause).filter(Boolean);
     const cited = home.most_cited.filter((c) => byClause(c.ref));
     const revised = [...entries].sort((a, b) => b.reviewed.localeCompare(a.reviewed)).slice(0, 3);
-    const [w, h] = home.image_slot.ratio.split(":");
 
     return (
         <>
@@ -86,14 +85,10 @@ export default function Home() {
                                 </div>
                             </section>
                             <figure className="figure" style={{ margin: 0 }}>
-                                <div className="slot" style={{ aspectRatio: `${w}/${h}` }}>
-                                    <span>
-                                        IMAGE SLOT · {home.image_slot.ratio}
-                                        <br />
-                                        {home.image_slot.subject}
-                                    </span>
+                                <div className="figure__frame">
+                                    <RegisterRow />
                                 </div>
-                                <figcaption>FIG. — {home.image_slot.caption}</figcaption>
+                                <figcaption>FIG. — A risk register row — the fields that make a score defensible.</figcaption>
                             </figure>
                         </div>
                     </div>
@@ -131,11 +126,6 @@ export default function Home() {
                             </span>
                         </div>
 
-                        <p className="margin-note" style={{ marginTop: "var(--s-5)" }}>
-                            Maintained by the team behind{" "}
-                            <a href={publisher.url} rel="noopener">{publisher.name}</a>, who teach the
-                            same material as a course.
-                        </p>
                     </aside>
                 </div>
             </main>
