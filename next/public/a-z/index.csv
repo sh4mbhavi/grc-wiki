@@ -1,4 +1,8 @@
 headword,clause,published,worked_example,template,entry_level
+"72-hour breach notification",5.13,yes,no,no,no
+"800-53 control families",5.7,yes,no,no,no
+"800-53 Revision 5",5.7,yes,no,no,no
+"800-53 vs 800-53A vs 800-53B",5.7,yes,no,no,yes
 "Accept, risk treatment",3.3,yes,no,no,yes
 "Access review",4.2,yes,yes,no,yes
 "Accountability, delegated",2.3,yes,no,no,no
@@ -20,6 +24,7 @@ headword,clause,published,worked_example,template,entry_level
 "Backup and restore testing",4.6,yes,no,yes,yes
 "Board reporting",2.3,yes,no,yes,no
 "Breaking into GRC",6.1,yes,no,no,yes
+"Business associate",5.10,yes,no,no,no
 "Business continuity",3.6,yes,yes,no,yes
 "Business continuity vs disaster recovery",3.6,yes,no,no,yes
 "Business impact analysis",3.7,yes,no,yes,yes
@@ -33,6 +38,10 @@ headword,clause,published,worked_example,template,entry_level
 "Certifications, GRC",6.3,yes,no,no,yes
 "Change management",4.5,yes,yes,no,yes
 "Change record",4.5,yes,no,no,no
+"CIS Benchmarks",5.8,yes,no,no,no
+"CIS Controls",5.8,yes,no,no,yes
+"CIS Controls vs Benchmarks",5.8,yes,no,no,yes
+"CIS Critical Security Controls",5.8,yes,no,no,no
 "CISA",6.3,yes,no,no,no
 "CISM",6.3,yes,no,no,no
 "CISSP",6.3,yes,no,no,no
@@ -46,6 +55,7 @@ headword,clause,published,worked_example,template,entry_level
 "Continuous compliance",4.8,yes,no,no,yes
 "Continuous control monitoring",4.8,yes,no,no,yes
 "Control",4.1,yes,yes,no,yes
+"Control baseline (low, moderate, high)",5.7,yes,no,no,no
 "Control inventory",1.3,yes,yes,yes,no
 "Control owner",4.1,yes,no,no,no
 "Control testing",4.2,yes,yes,no,no
@@ -54,6 +64,7 @@ headword,clause,published,worked_example,template,entry_level
 "COSO ERM",5.6,yes,no,no,yes
 "COSO ICIF (2013)",5.6,yes,no,no,no
 "COSO internal control",5.6,yes,no,no,no
+"Covered entity",5.10,yes,no,no,no
 "CRISC",6.3,yes,no,no,no
 "Criteria, Trust Services",5.4,yes,no,no,no
 "Crosswalk",5.2,yes,yes,no,no
@@ -63,6 +74,8 @@ headword,clause,published,worked_example,template,entry_level
 "CSF Tiers",5.5,yes,no,no,no
 "CVSS",4.10,yes,yes,no,no
 "Cyber security vs GRC",1.8,yes,no,no,no
+"Data controller vs processor",5.13,yes,no,no,yes
+"Data subject rights",5.13,yes,no,no,no
 "Day in the life, GRC",6.5,yes,no,no,yes
 "Delegated authority matrix",2.3,yes,no,yes,no
 "Description criteria (DC 200)",4.4,yes,no,no,no
@@ -70,9 +83,12 @@ headword,clause,published,worked_example,template,entry_level
 "Deviation vs policy waiver",4.7,yes,no,no,yes
 "Deviation, control",4.7,yes,yes,no,yes
 "Disaster recovery",3.6,yes,no,no,no
+"DPIA",5.13,yes,no,no,no
 "Due diligence, supplier",3.8,yes,no,yes,no
 "Emergency change",4.5,yes,no,no,no
 "Emerging risk",3.9,yes,no,no,no
+"ePHI",5.10,yes,no,no,no
+"Essential cyber hygiene (IG1)",5.8,yes,no,no,no
 "Evidence",4.2,yes,yes,no,yes
 "Exception log",3.10,yes,no,yes,no
 "Exception, policy",3.10,yes,no,yes,no
@@ -85,6 +101,9 @@ headword,clause,published,worked_example,template,entry_level
 "Fourth-party risk",3.8,yes,no,no,no
 "Framework",5.0,yes,no,no,yes
 "Framework, kinds of",5.0,yes,no,no,yes
+"GDPR",5.13,yes,no,no,yes
+"GDPR fines",5.13,yes,no,no,no
+"General Data Protection Regulation",5.13,yes,no,no,no
 "GIAC (SANS)",6.3,yes,no,no,no
 "GOVERN function",5.5,yes,no,no,no
 "Governance",2.0,yes,no,no,yes
@@ -93,17 +112,25 @@ headword,clause,published,worked_example,template,entry_level
 "GRC analyst",6.1,yes,no,no,yes
 "GRC vs cyber security",1.8,yes,no,no,yes
 "GRC vs internal audit",1.4,yes,no,no,yes
+"HIPAA",5.10,yes,no,no,no
+"HIPAA risk analysis",5.10,yes,no,no,no
+"HIPAA Security Rule",5.10,yes,no,no,yes
 "Horizon scanning",3.9,yes,no,no,no
 "ICIF vs ERM",5.6,yes,no,no,yes
 "Impact scale",3.1,yes,yes,yes,no
+"Implementation Groups (IG1 to IG3)",5.8,yes,no,no,no
 "Incident vs issue",1.7,yes,no,no,no
 "Inherent risk",3.1,yes,no,no,yes
 "Internal audit",1.4,yes,no,no,yes
 "Interview questions, GRC",6.2,yes,no,no,yes
+"Is GDPR a law",5.13,yes,no,no,no
 "Is GRC technical",1.8,yes,no,no,yes
+"Is NIST 800-53 certifiable",5.7,yes,no,no,no
 "Is NIST CSF certifiable",5.5,yes,no,no,no
 "Is PCI DSS a law",5.11,yes,no,no,no
 "Is privacy mandatory in SOC 2",5.4,yes,no,no,no
+"Is SOC 2 a certification",5.12,yes,no,no,no
+"Is there a HIPAA certification",5.10,yes,no,no,no
 "ISMS",5.1,yes,no,no,yes
 "ISO 31000",3.0,yes,no,no,no
 "ISO/IEC 27001",5.1,yes,yes,no,no
@@ -111,6 +138,7 @@ headword,clause,published,worked_example,template,entry_level
 "Key risk indicator",3.11,yes,yes,yes,yes
 "KRI",3.11,yes,yes,no,yes
 "KRI vs KPI",3.11,yes,no,no,yes
+"Lawful basis (GDPR)",5.13,yes,no,no,no
 "Least privilege",4.1,yes,no,no,yes
 "Likelihood scale",3.1,yes,yes,yes,no
 "Lines model, three",1.5,yes,no,no,yes
@@ -125,6 +153,7 @@ headword,clause,published,worked_example,template,entry_level
 "Monitoring, control",4.8,yes,no,no,yes
 "NIST CSF 2.0",5.5,yes,no,no,yes
 "NIST Cybersecurity Framework",5.5,yes,no,no,no
+"NIST SP 800-53",5.7,yes,no,no,yes
 "Nonconformity",4.3,yes,no,no,no
 "Numbering, clause",1.0,yes,no,no,no
 "Obligation register",4.1,yes,no,yes,no
@@ -147,16 +176,19 @@ headword,clause,published,worked_example,template,entry_level
 "Register, risk",3.1,yes,yes,no,yes
 "Remediation SLA",4.10,yes,no,no,no
 "Report on compliance (ROC)",5.11,yes,no,no,no
+"Required vs addressable (HIPAA)",5.10,yes,no,no,yes
 "Residual risk",3.1,yes,no,no,yes
 "Review date",3.1,yes,no,no,no
 "Risk",3.0,yes,no,no,yes
 "Risk appetite statement",3.2,yes,yes,yes,no
+"Risk Management Framework (RMF)",5.7,yes,no,no,no
 "Risk matrix",1.1,yes,yes,no,yes
 "Risk treatment",3.3,yes,yes,no,yes
 "Risk vs compliance",1.9,yes,no,no,yes
 "Risk vs issue vs incident",1.7,yes,no,no,yes
 "Risk workshop",3.13,yes,no,yes,no
 "Roles, GRC",6.0,yes,no,no,yes
+"Safeguard (CIS)",5.8,yes,no,no,no
 "Sampling",4.3,yes,yes,no,no
 "Scale, risk",3.1,yes,yes,yes,no
 "Scope, ISMS",5.3,yes,yes,no,no
@@ -167,10 +199,14 @@ headword,clause,published,worked_example,template,entry_level
 "Shall vs should",5.0,yes,no,no,yes
 "SIG questionnaire",4.9,yes,no,no,no
 "SIG vs CAIQ",4.9,yes,no,no,yes
+"SOC 1 report",5.12,yes,no,no,no
+"SOC 1 vs SOC 2 vs SOC 3",5.12,yes,no,no,yes
 "SOC 2",5.1,yes,yes,no,no
 "SOC 2 assertion",4.4,yes,no,no,no
 "SOC 2 categories",5.4,yes,no,no,yes
 "SOC 2 exception",4.7,yes,no,no,no
+"SOC 3 report",5.12,yes,no,no,no
+"SOC reports",5.12,yes,no,no,no
 "SOX 404",5.6,yes,no,no,no
 "Standard",2.1,yes,no,no,yes
 "Statement of applicability",5.3,yes,yes,yes,no
@@ -187,6 +223,8 @@ headword,clause,published,worked_example,template,entry_level
 "Treatment plan",3.3,yes,yes,yes,no
 "Trust Services Criteria",5.4,yes,no,no,yes
 "Type I and Type II",5.1,yes,no,no,yes
+"Type I vs Type II (SOC)",5.12,yes,no,no,yes
+"UK GDPR",5.13,yes,no,no,no
 "Vendor due diligence",3.8,yes,no,yes,no
 "Vendor risk",3.8,yes,yes,no,no
 "Vocabulary, GRC",1.2,yes,no,no,yes

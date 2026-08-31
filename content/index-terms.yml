@@ -241,3 +241,44 @@ terms:
   - { t: "Merchant levels", ref: "5.11" }
   - { t: "QSA", ref: "5.11" }
   - { t: "Is PCI DSS a law", ref: "5.11" }
+  # --- added with wave 6 (framework depth, part 5) --------------------------
+  # New topics with no prior headwords, so the canonical forms are introduced
+  # here alongside the query variants (the index sorts alphabetically at build).
+  - { t: "NIST SP 800-53", ref: "5.7", key: true, level: entry }
+  - { t: "800-53 control families", ref: "5.7" }
+  - { t: "800-53 Revision 5", ref: "5.7" }
+  - { t: "800-53 vs 800-53A vs 800-53B", ref: "5.7", level: entry }
+  - { t: "Control baseline (low, moderate, high)", ref: "5.7" }
+  - { t: "Risk Management Framework (RMF)", ref: "5.7" }
+  - { t: "Is NIST 800-53 certifiable", ref: "5.7" }
+  - { t: "CIS Controls", ref: "5.8", key: true, level: entry }
+  - { t: "CIS Critical Security Controls", ref: "5.8" }
+  - { t: "Implementation Groups (IG1 to IG3)", ref: "5.8" }
+  - { t: "Essential cyber hygiene (IG1)", ref: "5.8" }
+  - { t: "CIS Controls vs Benchmarks", ref: "5.8", level: entry }
+  - { t: "CIS Benchmarks", ref: "5.8" }
+  - { t: "Safeguard (CIS)", ref: "5.8" }
+  - { t: "HIPAA Security Rule", ref: "5.10", key: true, level: entry }
+  - { t: "HIPAA", ref: "5.10", key: true }
+  - { t: "ePHI", ref: "5.10" }
+  - { t: "Required vs addressable (HIPAA)", ref: "5.10", level: entry }
+  - { t: "HIPAA risk analysis", ref: "5.10" }
+  - { t: "Business associate", ref: "5.10" }
+  - { t: "Covered entity", ref: "5.10" }
+  - { t: "Is there a HIPAA certification", ref: "5.10" }
+  - { t: "SOC 1 vs SOC 2 vs SOC 3", ref: "5.12", key: true, level: entry }
+  - { t: "SOC reports", ref: "5.12" }
+  - { t: "SOC 1 report", ref: "5.12" }
+  - { t: "SOC 3 report", ref: "5.12" }
+  - { t: "Type I vs Type II (SOC)", ref: "5.12", level: entry }
+  - { t: "Is SOC 2 a certification", ref: "5.12" }
+  - { t: "GDPR", ref: "5.13", key: true, level: entry }
+  - { t: "General Data Protection Regulation", ref: "5.13" }
+  - { t: "Data controller vs processor", ref: "5.13", level: entry }
+  - { t: "Lawful basis (GDPR)", ref: "5.13" }
+  - { t: "Data subject rights", ref: "5.13" }
+  - { t: "GDPR fines", ref: "5.13" }
+  - { t: "72-hour breach notification", ref: "5.13" }
+  - { t: "DPIA", ref: "5.13" }
+  - { t: "UK GDPR", ref: "5.13" }
+  - { t: "Is GDPR a law", ref: "5.13" }

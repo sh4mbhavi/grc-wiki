@@ -148,6 +148,26 @@
    "hasDefinedTerm": [
     {
      "@type": "DefinedTerm",
+     "name": "72-hour breach notification",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "800-53 control families",
+     "url": "https://grc-wiki.vercel.app/frameworks/nist-800-53/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "800-53 Revision 5",
+     "url": "https://grc-wiki.vercel.app/frameworks/nist-800-53/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "800-53 vs 800-53A vs 800-53B",
+     "url": "https://grc-wiki.vercel.app/frameworks/nist-800-53/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Accept, risk treatment",
      "url": "https://grc-wiki.vercel.app/risk/risk-treatment/"
     },
@@ -253,6 +273,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Business associate",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Business continuity",
      "url": "https://grc-wiki.vercel.app/risk/business-continuity/"
     },
@@ -315,6 +340,26 @@
      "@type": "DefinedTerm",
      "name": "Change record",
      "url": "https://grc-wiki.vercel.app/compliance/change-management-as-a-control/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "CIS Benchmarks",
+     "url": "https://grc-wiki.vercel.app/frameworks/cis-controls/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "CIS Controls",
+     "url": "https://grc-wiki.vercel.app/frameworks/cis-controls/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "CIS Controls vs Benchmarks",
+     "url": "https://grc-wiki.vercel.app/frameworks/cis-controls/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "CIS Critical Security Controls",
+     "url": "https://grc-wiki.vercel.app/frameworks/cis-controls/"
     },
     {
      "@type": "DefinedTerm",
@@ -383,6 +428,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Control baseline (low, moderate, high)",
+     "url": "https://grc-wiki.vercel.app/frameworks/nist-800-53/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Control inventory",
      "url": "https://grc-wiki.vercel.app/foundations/four-artefacts/"
     },
@@ -420,6 +470,11 @@
      "@type": "DefinedTerm",
      "name": "COSO internal control",
      "url": "https://grc-wiki.vercel.app/frameworks/coso-frameworks/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Covered entity",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
     },
     {
      "@type": "DefinedTerm",
@@ -468,6 +523,16 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Data controller vs processor",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Data subject rights",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Day in the life, GRC",
      "url": "https://grc-wiki.vercel.app/career/day-in-the-life/"
     },
@@ -503,6 +568,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "DPIA",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Due diligence, supplier",
      "url": "https://grc-wiki.vercel.app/risk/third-party-risk/"
     },
@@ -515,6 +585,16 @@
      "@type": "DefinedTerm",
      "name": "Emerging risk",
      "url": "https://grc-wiki.vercel.app/risk/emerging-risk/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "ePHI",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Essential cyber hygiene (IG1)",
+     "url": "https://grc-wiki.vercel.app/frameworks/cis-controls/"
     },
     {
      "@type": "DefinedTerm",
@@ -578,6 +658,21 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "GDPR",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "GDPR fines",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "General Data Protection Regulation",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "GIAC (SANS)",
      "url": "https://grc-wiki.vercel.app/career/certifications-and-training/"
     },
@@ -618,6 +713,21 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "HIPAA",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "HIPAA risk analysis",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "HIPAA Security Rule",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Horizon scanning",
      "url": "https://grc-wiki.vercel.app/risk/emerging-risk/"
     },
@@ -630,6 +740,11 @@
      "@type": "DefinedTerm",
      "name": "Impact scale",
      "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Implementation Groups (IG1 to IG3)",
+     "url": "https://grc-wiki.vercel.app/frameworks/cis-controls/"
     },
     {
      "@type": "DefinedTerm",
@@ -653,8 +768,18 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Is GDPR a law",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Is GRC technical",
      "url": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Is NIST 800-53 certifiable",
+     "url": "https://grc-wiki.vercel.app/frameworks/nist-800-53/"
     },
     {
      "@type": "DefinedTerm",
@@ -670,6 +795,16 @@
      "@type": "DefinedTerm",
      "name": "Is privacy mandatory in SOC 2",
      "url": "https://grc-wiki.vercel.app/frameworks/trust-services-criteria/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Is SOC 2 a certification",
+     "url": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Is there a HIPAA certification",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
     },
     {
      "@type": "DefinedTerm",
@@ -705,6 +840,11 @@
      "@type": "DefinedTerm",
      "name": "KRI vs KPI",
      "url": "https://grc-wiki.vercel.app/risk/key-risk-indicators/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Lawful basis (GDPR)",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
     },
     {
      "@type": "DefinedTerm",
@@ -775,6 +915,11 @@
      "@type": "DefinedTerm",
      "name": "NIST Cybersecurity Framework",
      "url": "https://grc-wiki.vercel.app/frameworks/nist-csf-2/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "NIST SP 800-53",
+     "url": "https://grc-wiki.vercel.app/frameworks/nist-800-53/"
     },
     {
      "@type": "DefinedTerm",
@@ -888,6 +1033,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Required vs addressable (HIPAA)",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Residual risk",
      "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
     },
@@ -905,6 +1055,11 @@
      "@type": "DefinedTerm",
      "name": "Risk appetite statement",
      "url": "https://grc-wiki.vercel.app/risk/appetite-vs-tolerance/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Risk Management Framework (RMF)",
+     "url": "https://grc-wiki.vercel.app/frameworks/nist-800-53/"
     },
     {
      "@type": "DefinedTerm",
@@ -935,6 +1090,11 @@
      "@type": "DefinedTerm",
      "name": "Roles, GRC",
      "url": "https://grc-wiki.vercel.app/career/grc-roles/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Safeguard (CIS)",
+     "url": "https://grc-wiki.vercel.app/frameworks/cis-controls/"
     },
     {
      "@type": "DefinedTerm",
@@ -988,6 +1148,16 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "SOC 1 report",
+     "url": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "SOC 1 vs SOC 2 vs SOC 3",
+     "url": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "SOC 2",
      "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
     },
@@ -1005,6 +1175,16 @@
      "@type": "DefinedTerm",
      "name": "SOC 2 exception",
      "url": "https://grc-wiki.vercel.app/compliance/control-deviations/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "SOC 3 report",
+     "url": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "SOC reports",
+     "url": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/"
     },
     {
      "@type": "DefinedTerm",
@@ -1085,6 +1265,16 @@
      "@type": "DefinedTerm",
      "name": "Type I and Type II",
      "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Type I vs Type II (SOC)",
+     "url": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "UK GDPR",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
     },
     {
      "@type": "DefinedTerm",
@@ -1180,7 +1370,7 @@
    "name": "Frameworks",
    "count": 52,
    "blurb": "ISO 27001, NIST CSF 2.0, SOC 2, PCI DSS, COSO — and the crosswalks.",
-   "published": 9
+   "published": 14
   },
   {
    "n": 6,
@@ -13809,8 +13999,8 @@
     "title": "NIST CSF 2.0"
    },
    "next": {
-    "ref": "5.9",
-    "title": "Control maturity"
+    "ref": "5.7",
+    "title": "NIST SP 800-53"
    },
    "sections": [
     {
@@ -14069,6 +14259,671 @@
    ]
   },
   {
+   "clause": "5.7",
+   "part": 5,
+   "slug": "nist-800-53",
+   "title": "NIST SP 800-53",
+   "description": "NIST SP 800-53 is a catalogue of security and privacy controls, not a framework you certify against. What Revision 5 changed and where it fits.",
+   "short_title": "NIST 800-53",
+   "keywords": [
+    "nist 800-53",
+    "nist 800-53 control families",
+    "nist 800-53 revision 5",
+    "is nist 800-53 certifiable",
+    "800-53 vs 800-53a vs 800-53b"
+   ],
+   "defines": "NIST SP 800-53",
+   "reviewed": "2026-08-31",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 7,
+   "canonical_entry": false,
+   "quick_facts": {
+    "Type": "Control catalogue",
+    "Current revision": "Rev 5 (Sept 2020)",
+    "Control families": "20",
+    "New in Rev 5": "PT and SR",
+    "Certifiable": "False",
+    "Mandatory": "US federal and applicable contractor systems"
+   },
+   "related": [
+    "5.5",
+    "5.8",
+    "5.0"
+   ],
+   "sources": [
+    "NIST, SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations (2020)",
+    "NIST, SP 800-37 Rev. 2 — Risk Management Framework"
+   ],
+   "prev": {
+    "ref": "5.6",
+    "title": "COSO frameworks"
+   },
+   "next": {
+    "ref": "5.8",
+    "title": "CIS Controls"
+   },
+   "sections": [
+    {
+     "id": "a-catalogue-not-a-framework",
+     "clause": "5.7.1",
+     "text": "A catalogue, not a framework"
+    },
+    {
+     "id": "what-revision-5-changed",
+     "clause": "5.7.2",
+     "text": "What Revision 5 changed"
+    },
+    {
+     "id": "the-800-53-family-and-the-rmf",
+     "clause": "5.7.3",
+     "text": "The 800-53 family and the RMF"
+    },
+    {
+     "id": "catalogue-shortlist-or-outcomes",
+     "clause": "5.7.4",
+     "text": "Catalogue, shortlist or outcomes"
+    },
+    {
+     "id": "where-it-goes-wrong",
+     "clause": "5.7.5",
+     "text": "Where it goes wrong"
+    },
+    {
+     "id": "common-questions",
+     "clause": "5.7.6",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/frameworks/nist-800-53/",
+   "part_slug": "frameworks",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "<strong>NIST SP 800-53</strong> is the US National Institute of Standards and Technology&rsquo;s catalogue of security and privacy controls for information systems and organisations — a control set that other processes draw from, not a framework an organisation is certified against."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The current revision is Revision 5, published in September 2020. It is the control content underneath much of US federal security practice: the Risk Management Framework selects from it, FedRAMP builds its cloud authorisation baselines on it and the <a href=\"/frameworks/nist-csf-2/\">NIST Cybersecurity Framework</a> (5.5) points at it through its Informative References. What 800-53 does not do is tell you which of its controls apply to you, or issue a certificate when you implement them.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "a-catalogue-not-a-framework",
+     "clause": "5.7.1",
+     "alias": "c5-7-1",
+     "text": "A catalogue, not a framework"
+    },
+    {
+     "type": "prose",
+     "html": "<p>800-53 is a menu. Revision 5 organises the controls into 20 control families, each with a two-letter identifier, and every family holds a set of related controls stated as requirements. The document tells you what a control is; it does not tell you which controls to select, in what order to implement them or whether you have implemented them well. Those decisions live in other documents, which is exactly what makes 800-53 a catalogue rather than a <a href=\"/frameworks/how-to-read-a-framework/\">framework you work through</a> (5.0).</p>\n<p>The families cover the breadth of an information-security programme. A representative sample of the 20:</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "AC — Access Control",
+       "html": "Who and what may reach a system, and on what terms."
+      },
+      {
+       "term": "AU — Audit and Accountability",
+       "html": "Generating, protecting and reviewing the records that show what happened."
+      },
+      {
+       "term": "CM — Configuration Management",
+       "html": "Establishing and holding a known-good configuration for systems and components."
+      },
+      {
+       "term": "IR — Incident Response",
+       "html": "Preparing for, detecting and handling security incidents."
+      },
+      {
+       "term": "RA — Risk Assessment",
+       "html": "Identifying and analysing the risk that bears on a system."
+      },
+      {
+       "term": "SC — System and Communications Protection",
+       "html": "Protecting information in transit and the boundaries around it."
+      },
+      {
+       "term": "PT — PII Processing and Transparency",
+       "html": "Handling personally identifiable information lawfully and openly. Added in Revision 5."
+      },
+      {
+       "term": "SR — Supply Chain Risk Management",
+       "html": "Managing the risk carried in by suppliers and components. Added in Revision 5."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>PT and SR are the two families Revision 5 added; the rest carry over from earlier revisions.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Control catalogue",
+     "ref": "5.0",
+     "html": "A published set of controls an organisation selects and tailors from, rather than a standard an accredited body certifies it against. 800-53 is the large US example; a process such as the Risk Management Framework, or a framework such as the CSF, draws its actual control content from a catalogue like this one."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-revision-5-changed",
+     "clause": "5.7.2",
+     "alias": "c5-7-2",
+     "text": "What Revision 5 changed"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Three changes matter before anything else. Privacy controls were integrated into the main catalogue — the separate privacy appendix of earlier revisions was retired, so security and privacy controls now sit in one consolidated list rather than sending you to a second appendix. Controls were made outcome-based and consolidated: the phrase &ldquo;the information system&rdquo; was removed as the implied actor, so a control now applies to whatever entity — a person, a process or a system — is responsible for the outcome, rather than assuming a machine does the work. And the PT and SR families were added, making privacy transparency and supply-chain risk first-class parts of the catalogue.</p>\n<p>The fourth change is structural and the one most often missed. The control baselines — the low, moderate and high starting sets — were moved out of 800-53 in Revision 5 into a companion publication, SP 800-53B. In Revision 5 the baselines are not inside 800-53 at all.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-800-53-family-and-the-rmf",
+     "clause": "5.7.3",
+     "alias": "c5-7-3",
+     "text": "The 800-53 family and the RMF"
+    },
+    {
+     "type": "prose",
+     "html": "<p>&ldquo;800-53&rdquo; is used loosely to mean three different documents, and the distinction is load-bearing.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Document</th>\n<th>What it is</th>\n<th>What it gives you</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>SP 800-53</td>\n<td>The control catalogue</td>\n<td>The controls themselves</td>\n</tr>\n<tr>\n<td>SP 800-53A</td>\n<td>Assessment procedures</td>\n<td>How to assess whether a control is met</td>\n</tr>\n<tr>\n<td>SP 800-53B</td>\n<td>Control baselines</td>\n<td>Low, moderate and high starting sets, driven by FIPS 199</td>\n</tr>\n</tbody>\n</table></div>\n<p>Impact level comes from FIPS 199, which categorises a system as low, moderate or high; FIPS 200 sets the minimum security requirements; 800-53B turns that categorisation into a starting baseline of controls. All three sit inside the NIST Risk Management Framework, described in SP 800-37 Revision 2, whose seven steps are prepare, categorise, select, implement, assess, authorise and monitor. 800-53 supplies the menu the select step draws from, 800-53B supplies the starting baseline and 800-53A supplies the procedures the assess step runs.</p>\n<p>A baseline is a starting point, not a verdict. Controls are then tailored to context — added, removed or adjusted for the system in front of you — and overlays provide ready-made baselines for a specific community or technology so that tailoring does not start from scratch each time.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "catalogue-shortlist-or-outcomes",
+     "clause": "5.7.4",
+     "alias": "c5-7-4",
+     "text": "Catalogue, shortlist or outcomes"
+    },
+    {
+     "type": "prose",
+     "html": "<p>800-53 is one of three documents a team reaches for, and they are not interchangeable. Choosing between them starts with what shape of answer you need.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Document</th>\n<th>Shape</th>\n<th>Reach for it to</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>NIST SP 800-53</td>\n<td>A large catalogue you select and tailor from</td>\n<td>Draw the control content an authorisation or programme needs</td>\n</tr>\n<tr>\n<td><a href=\"/frameworks/cis-controls/\">CIS Controls</a> (5.8)</td>\n<td>A prioritised shortlist</td>\n<td>Start from a defensible minimum in priority order</td>\n</tr>\n<tr>\n<td><a href=\"/frameworks/nist-csf-2/\">NIST CSF 2.0</a> (5.5)</td>\n<td>Outcomes that reference control sets</td>\n<td>Structure and communicate a programme; it points at 800-53 for the controls</td>\n</tr>\n</tbody>\n</table></div>\n<p>The CSF and 800-53 are complementary rather than rival: the framework names an outcome and 800-53 supplies a control that delivers it. The CIS Controls trade comprehensiveness for a running order, which is the opposite bet from 800-53&rsquo;s breadth.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-it-goes-wrong",
+     "clause": "5.7.5",
+     "alias": "c5-7-5",
+     "text": "Where it goes wrong"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Called a certification.</strong> There is no 800-53 certificate for an organisation. What exists is an assessment against the controls — for example the assessment behind an authorisation to operate — not an accredited certification. This is the sharp contrast with ISO 27001, which is certifiable; a supplier claiming to be &ldquo;800-53 certified&rdquo; is describing an assessment, and often overstating even that.</p>\n<p><strong>Assuming every control applies.</strong> The catalogue holds far more controls than any one system needs, and treating it as a checklist to satisfy in full misreads it. Baselines and tailoring exist precisely so that most controls do not apply to most systems; the work is selecting and tailoring, not implementing everything.</p>\n<p><strong>Confusing 800-53 with 800-53A or 800-53B.</strong> Since Revision 5 the baselines live in 800-53B and the assessment procedures in 800-53A. Citing &ldquo;800-53&rdquo; for a baseline, or for how to assess a control, sends the reader to the wrong document — the catalogue states the controls but not their baselines and not how to test them.</p>\n<p><strong>Treated as mandatory for a private company.</strong> 800-53 is mandatory for US federal information systems, and often for federal contractors, through FISMA. It does not reach a private company with no federal nexus, where it is voluntary — widely adopted and referenced, through the CSF Informative References and FedRAMP among others, but not required by FISMA.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "5.7.6",
+     "alias": "c5-7-6",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Can you get NIST 800-53 certified?",
+       "id": "faq-can-you-get-nist-800-53-certified",
+       "html": "<p>No. There is no 800-53 certification for an organisation and no certificate to hold up. A system can be assessed against the controls — most visibly as part of an authorisation to operate — but that assessment is not an accredited certification in the way ISO/IEC 27001 is. A vendor describing itself as &ldquo;800-53 certified&rdquo; is describing an assessment rather than a certificate.</p>"
+      },
+      {
+       "q": "Is NIST 800-53 mandatory for my company?",
+       "id": "faq-is-nist-800-53-mandatory-for-my-company",
+       "html": "<p>It depends on whether you touch the US federal government. FISMA makes 800-53 mandatory for federal information systems and frequently for federal contractors handling government data. A private company with no such nexus is under no FISMA obligation to use it; there it is voluntary, though it is widely adopted and referenced by other frameworks and by FedRAMP.</p>"
+      },
+      {
+       "q": "What is the difference between 800-53, 800-53A and 800-53B?",
+       "id": "faq-what-is-the-difference-between-800-53-800-53a-and-800-53b",
+       "html": "<p>800-53 is the control catalogue itself. 800-53A is the companion that gives the procedures for assessing whether a control is met. 800-53B holds the low, moderate and high control baselines, which moved out of 800-53 in Revision 5. Three documents, three jobs — the controls, how to test them and where to start.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Frameworks",
+       "item": "https://grc-wiki.vercel.app/frameworks/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "NIST SP 800-53",
+       "item": "https://grc-wiki.vercel.app/frameworks/nist-800-53/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/frameworks/nist-800-53/#article",
+     "headline": "NIST SP 800-53",
+     "name": "NIST SP 800-53",
+     "description": "NIST SP 800-53 is a catalogue of security and privacy controls, not a framework you certify against. What Revision 5 changed and where it fits.",
+     "url": "https://grc-wiki.vercel.app/frameworks/nist-800-53/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/frameworks/nist-800-53/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Frameworks",
+     "wordCount": 1228,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-31",
+     "datePublished": "2026-08-31",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "NIST, SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations (2020)",
+      "NIST, SP 800-37 Rev. 2 — Risk Management Framework"
+     ],
+     "keywords": "nist 800-53, nist 800-53 control families, nist 800-53 revision 5, is nist 800-53 certifiable, 800-53 vs 800-53a vs 800-53b"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/frameworks/nist-800-53/#term",
+     "name": "NIST SP 800-53",
+     "alternateName": "",
+     "description": "NIST SP 800-53 is a catalogue of security and privacy controls, not a framework you certify against. What Revision 5 changed and where it fits.",
+     "url": "https://grc-wiki.vercel.app/frameworks/nist-800-53/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/frameworks/nist-800-53/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Can you get NIST 800-53 certified?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. There is no 800-53 certification for an organisation and no certificate to hold up. A system can be assessed against the controls — most visibly as part of an authorisation to operate — but that assessment is not an accredited certification in the way ISO/IEC 27001 is. A vendor describing itself as &ldquo;800-53 certified&rdquo; is describing an assessment rather than a certificate."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is NIST 800-53 mandatory for my company?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on whether you touch the US federal government. FISMA makes 800-53 mandatory for federal information systems and frequently for federal contractors handling government data. A private company with no such nexus is under no FISMA obligation to use it; there it is voluntary, though it is widely adopted and referenced by other frameworks and by FedRAMP."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is the difference between 800-53, 800-53A and 800-53B?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "800-53 is the control catalogue itself. 800-53A is the companion that gives the procedures for assessing whether a control is met. 800-53B holds the low, moderate and high control baselines, which moved out of 800-53 in Revision 5. Three documents, three jobs — the controls, how to test them and where to start."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "5.8",
+   "part": 5,
+   "slug": "cis-controls",
+   "title": "CIS Controls",
+   "description": "The CIS Controls are a prioritised, prescriptive set of 18 controls and 153 safeguards, tiered by Implementation Group and not certifiable.",
+   "short_title": "CIS Controls",
+   "keywords": [
+    "cis controls",
+    "cis controls v8",
+    "implementation groups ig1",
+    "cis controls vs benchmarks",
+    "are cis controls certifiable"
+   ],
+   "defines": "CIS Controls",
+   "reviewed": "2026-08-31",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 8,
+   "canonical_entry": false,
+   "quick_facts": {
+    "Current version": "v8.1 (2024)",
+    "Controls": "18",
+    "Safeguards": "153",
+    "IG1 baseline": "56 safeguards",
+    "Certifiable": "False",
+    "Maintained by": "CIS (non-profit)"
+   },
+   "related": [
+    "5.7",
+    "5.5",
+    "5.9"
+   ],
+   "sources": [
+    "Center for Internet Security, CIS Critical Security Controls v8 (2021)",
+    "CIS, Implementation Groups and the Community Defense Model"
+   ],
+   "prev": {
+    "ref": "5.7",
+    "title": "NIST SP 800-53"
+   },
+   "next": {
+    "ref": "5.9",
+    "title": "Control maturity"
+   },
+   "sections": [
+    {
+     "id": "the-18-controls-and-153-safeguards",
+     "clause": "5.8.1",
+     "text": "The 18 controls and 153 safeguards"
+    },
+    {
+     "id": "implementation-groups-choose-a-tier-by-risk",
+     "clause": "5.8.2",
+     "text": "Implementation Groups: choose a tier by risk"
+    },
+    {
+     "id": "prescriptive-and-prioritised-not-a-catalogue",
+     "clause": "5.8.3",
+     "text": "Prescriptive and prioritised, not a catalogue"
+    },
+    {
+     "id": "controls-are-not-benchmarks",
+     "clause": "5.8.4",
+     "text": "Controls are not Benchmarks"
+    },
+    {
+     "id": "where-it-goes-wrong",
+     "clause": "5.8.5",
+     "text": "Where it goes wrong"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/frameworks/cis-controls/",
+   "part_slug": "frameworks",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "The <strong>CIS Controls</strong> are a prioritised, prescriptive set of cyber-defence actions maintained by the Center for Internet Security, a non-profit. Version 8 organises 18 controls into 153 measurable safeguards, ordered so an organisation knows not just what to do but in what order to do it."
+    },
+    {
+     "type": "prose",
+     "html": "<p>Formerly the SANS Top 20 and later the CIS Critical Security Controls, the set has been renamed more than once but keeps the same job: tell a defender which actions cut the most risk first. It is free to adopt and certifies nothing. Where an outcomes framework such as <a href=\"/frameworks/nist-csf-2/\">NIST CSF</a> (5.5) states results to achieve and leaves the controls to you, the CIS Controls hand you the actions and the order — which is why they read less like a standard to interpret and more like a roadmap to work through. Read them against <a href=\"/frameworks/how-to-read-a-framework/\">how to read a framework</a> (5.0) before adopting.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-18-controls-and-153-safeguards",
+     "clause": "5.8.1",
+     "alias": "c5-8-1",
+     "text": "The 18 controls and 153 safeguards"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Version 8, published in 2021, introduced the structure the Controls still use. It cut the count from 20 controls in version 7 to 18 and made the safeguard — not the control — the unit that matters. A control is a theme; a safeguard is one specific, measurable action inside it, and version 8 defines 153 of them.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Control",
+       "html": "A theme or category of defensive activity — 18 in version 8 — such as inventory of enterprise assets or data protection."
+      },
+      {
+       "term": "Safeguard",
+       "html": "A single, measurable action inside a control. The safeguard, not the control, is what gets an owner and evidence; version 8 holds 153."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>The reorganisation in version 8 is the change worth understanding. Earlier versions grouped controls partly by who owned the asset. Version 8 groups them by the activity being performed, so a single control now spans whatever devices, users or cloud services that activity touches — which matches how a modern estate actually runs. A later refresh, version 8.1 (2024), realigned the mappings to <a href=\"/frameworks/nist-csf-2/\">NIST CSF</a> 2.0 and sharpened the governance and asset-class framing.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "implementation-groups-choose-a-tier-by-risk",
+     "clause": "5.8.2",
+     "alias": "c5-8-2",
+     "text": "Implementation Groups: choose a tier by risk"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Not every enterprise is expected to implement all 153 safeguards. Implementation Groups — IG1, IG2 and IG3 — are a prioritisation overlay that sorts every safeguard into a tier, so an organisation can start with what matters most and add the rest as its risk and resources justify.</p>\n<p>The groups are nested. IG1 is a subset of IG2, which is a subset of IG3, and every safeguard is assigned to the lowest group that requires it. IG1 is the foundational baseline — CIS calls it essential cyber hygiene — and holds 56 of the 153 safeguards in version 8.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Group</th>\n<th>What it is</th>\n<th>Chosen when</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>IG1</td>\n<td>Essential cyber hygiene; the 56-safeguard baseline every enterprise should meet</td>\n<td>Always — it is the floor</td>\n</tr>\n<tr>\n<td>IG2</td>\n<td>IG1 plus safeguards for more sensitive data and more complex operations</td>\n<td>Regulated or sensitive data is held across departments</td>\n</tr>\n<tr>\n<td>IG3</td>\n<td>IG2 plus the remaining safeguards</td>\n<td>The organisation must withstand sophisticated, targeted attacks</td>\n</tr>\n</tbody>\n</table></div>"
+    },
+    {
+     "type": "def",
+     "term": "Implementation Group 1 (IG1)",
+     "ref": "5.9",
+     "html": "The foundational tier of the CIS Controls — 56 safeguards CIS calls essential cyber hygiene — meant as the baseline every enterprise should meet. It is chosen by an organisation&rsquo;s resources and data sensitivity, not climbed towards: IG1 done well is a legitimate end state, not a rung below IG3. Distinct from a maturity level, which rates how well a control is performed rather than which safeguards are in scope."
+    },
+    {
+     "type": "prose",
+     "html": "<p>Which group you target is a risk decision, not a maturity climb. It is set by the organisation&rsquo;s resources and the sensitivity of the data it holds — not by an ambition to reach IG3. A small business that meets IG1 well has arrived somewhere legitimate, not paused partway up a ladder. Reading IG3 as the destination is the most common way the model is misused, and it is close kin to the mistake of treating <a href=\"/frameworks/control-maturity/\">control maturity</a> (5.9) as a ladder to level 5.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "prescriptive-and-prioritised-not-a-catalogue",
+     "clause": "5.8.3",
+     "alias": "c5-8-3",
+     "text": "Prescriptive and prioritised, not a catalogue"
+    },
+    {
+     "type": "prose",
+     "html": "<p>What distinguishes the CIS Controls from most other frameworks is that they tell you what to do and in what order. A large control catalogue such as <a href=\"/frameworks/nist-800-53/\">NIST SP 800-53</a> (5.7) gives you a superset to select and tailor from; an outcomes framework such as <a href=\"/frameworks/nist-csf-2/\">NIST CSF</a> (5.5) states results and leaves the mechanism open. The CIS Controls sit at the prescriptive, prioritised end: the safeguards are the actions, and the Implementation Groups set the priority.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Aspect</th>\n<th>CIS Controls</th>\n<th>NIST 800-53</th>\n<th>NIST CSF</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Form</td>\n<td>Prioritised action list</td>\n<td>Control catalogue</td>\n<td>Outcome statements</td>\n</tr>\n<tr>\n<td>Tells you</td>\n<td>What to do, in what order</td>\n<td>The full menu to tailor</td>\n<td>The result to achieve</td>\n</tr>\n<tr>\n<td>First move</td>\n<td>Work IG1</td>\n<td>Pick a baseline, then tailor</td>\n<td>Set target outcomes</td>\n</tr>\n</tbody>\n</table></div>\n<p>Prescriptive does not mean isolated. CIS publishes mappings from the Controls to NIST CSF, NIST 800-53, ISO/IEC 27001, PCI DSS and others, so the set can act as an implementation-ordered layer that crosswalks to whichever compliance framework you owe. You work the safeguards in priority order, and the mapping shows which obligations each one helps satisfy — a way to sequence hardening while still tracking against the standard you are held to.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "controls-are-not-benchmarks",
+     "clause": "5.8.4",
+     "alias": "c5-8-4",
+     "text": "Controls are not Benchmarks"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Two CIS products are constantly confused. The CIS Controls tell you what to do. The CIS Benchmarks are a separate product — secure-configuration guidance for specific technologies, such as a given operating system, browser or cloud service, down to individual settings. A control might say to configure enterprise assets securely; the matching Benchmark is the setting-by-setting document telling you how to harden a particular version of a particular system. Both come from CIS. They answer different questions, and neither is a substitute for the other.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-it-goes-wrong",
+     "clause": "5.8.5",
+     "alias": "c5-8-5",
+     "text": "Where it goes wrong"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>IGs treated as a maturity ladder.</strong> The three groups get read as levels to climb, with IG3 as the goal. They are a prioritisation overlay keyed to risk and resources, not rungs — IG1 met properly is a legitimate end state for many organisations, and reaching for IG3 without the data sensitivity or threat exposure to justify it spends effort where the risk does not warrant it.</p>\n<p><strong>Controls confused with Benchmarks.</strong> A team hardens its servers to the CIS Benchmarks and reports that it has &ldquo;done CIS&rdquo;, or adopts the Controls and assumes its systems are configured. The two are different products answering different questions — what to do versus how to configure one specific system — and neither covers the other&rsquo;s ground.</p>\n<p><strong>IG1 hygiene skipped to chase advanced safeguards.</strong> Attention goes to sophisticated IG3 safeguards while basic hygiene in IG1 — asset inventory, account management and patching — is left incomplete. The safeguards are ordered for a reason: the IG1 baseline blocks the most common attacks for the least effort, and building advanced defences on top of an incomplete baseline leaves the front door open behind them.</p>\n<p><strong>A certificate expected.</strong> Someone asks to see the organisation&rsquo;s &ldquo;CIS certification&rdquo;. There is none. The Controls are free to adopt and not certifiable; you can self-assess, and CIS offers configuration-assessment tooling such as CIS-CAT that scores systems against the Benchmarks, but none of that is an organisational certification of the kind ISO/IEC 27001 provides.</p>"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Do I have to implement all 153 safeguards?",
+       "id": "faq-do-i-have-to-implement-all-153-safeguards",
+       "html": "<p>No. The safeguards are tiered into Implementation Groups so you start where your risk and resources put you. IG1, the 56-safeguard essential-hygiene baseline, is the floor every enterprise should meet; IG2 and IG3 add the rest for organisations holding more sensitive data or facing more capable attackers. Meeting IG1 well is a legitimate place to stop, not a partial result.</p>"
+      },
+      {
+       "q": "Are the CIS Controls the same as the CIS Benchmarks?",
+       "id": "faq-are-the-cis-controls-the-same-as-the-cis-benchmarks",
+       "html": "<p>No, and conflating them is the most common CIS mistake. The Controls are a prioritised list of what to do across a programme; the Benchmarks are secure-configuration guides for specific technologies — how to harden a particular operating system, browser or cloud service. Both come from CIS, but one sets the actions and the other details the settings for a single system.</p>"
+      },
+      {
+       "q": "Can my organisation get CIS certified?",
+       "id": "faq-can-my-organisation-get-cis-certified",
+       "html": "<p>No. There is no CIS certification for an organisation. The Controls are free to adopt and you can assess yourself against them; CIS also sells assessment tooling like CIS-CAT that checks systems against the Benchmarks. None of that is an accredited certificate — if you need one, it comes from a framework such as ISO/IEC 27001, which the Controls can be mapped to.</p>"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Working through CIS Implementation Group 1 as a first hardening roadmap — mapping each safeguard to an owner and to the evidence that proves it — is covered in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Frameworks",
+       "item": "https://grc-wiki.vercel.app/frameworks/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "CIS Controls",
+       "item": "https://grc-wiki.vercel.app/frameworks/cis-controls/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/frameworks/cis-controls/#article",
+     "headline": "CIS Controls",
+     "name": "CIS Controls",
+     "description": "The CIS Controls are a prioritised, prescriptive set of 18 controls and 153 safeguards, tiered by Implementation Group and not certifiable.",
+     "url": "https://grc-wiki.vercel.app/frameworks/cis-controls/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/frameworks/cis-controls/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Frameworks",
+     "wordCount": 1377,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-31",
+     "datePublished": "2026-08-31",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "Center for Internet Security, CIS Critical Security Controls v8 (2021)",
+      "CIS, Implementation Groups and the Community Defense Model"
+     ],
+     "keywords": "cis controls, cis controls v8, implementation groups ig1, cis controls vs benchmarks, are cis controls certifiable"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/frameworks/cis-controls/#term",
+     "name": "CIS Controls",
+     "alternateName": "",
+     "description": "The CIS Controls are a prioritised, prescriptive set of 18 controls and 153 safeguards, tiered by Implementation Group and not certifiable.",
+     "url": "https://grc-wiki.vercel.app/frameworks/cis-controls/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/frameworks/cis-controls/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Do I have to implement all 153 safeguards?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The safeguards are tiered into Implementation Groups so you start where your risk and resources put you. IG1, the 56-safeguard essential-hygiene baseline, is the floor every enterprise should meet; IG2 and IG3 add the rest for organisations holding more sensitive data or facing more capable attackers. Meeting IG1 well is a legitimate place to stop, not a partial result."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Are the CIS Controls the same as the CIS Benchmarks?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, and conflating them is the most common CIS mistake. The Controls are a prioritised list of what to do across a programme; the Benchmarks are secure-configuration guides for specific technologies — how to harden a particular operating system, browser or cloud service. Both come from CIS, but one sets the actions and the other details the settings for a single system."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can my organisation get CIS certified?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. There is no CIS certification for an organisation. The Controls are free to adopt and you can assess yourself against them; CIS also sells assessment tooling like CIS-CAT that checks systems against the Benchmarks. None of that is an accredited certificate — if you need one, it comes from a framework such as ISO/IEC 27001, which the Controls can be mapped to."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "clause": "5.9",
    "part": 5,
    "slug": "control-maturity",
@@ -14106,12 +14961,12 @@
     "NIST Cybersecurity Framework 2.0, 2024 — Implementation Tiers"
    ],
    "prev": {
-    "ref": "5.6",
-    "title": "COSO frameworks"
+    "ref": "5.8",
+    "title": "CIS Controls"
    },
    "next": {
-    "ref": "5.11",
-    "title": "PCI DSS"
+    "ref": "5.10",
+    "title": "HIPAA Security Rule"
    },
    "sections": [
     {
@@ -14365,6 +15220,363 @@
    ]
   },
   {
+   "clause": "5.10",
+   "part": 5,
+   "slug": "hipaa-security-rule",
+   "title": "HIPAA Security Rule",
+   "description": "The HIPAA Security Rule sets US federal standards for protecting electronic health information through administrative, physical and technical safeguards.",
+   "short_title": "HIPAA",
+   "keywords": [
+    "hipaa security rule",
+    "what is the hipaa security rule",
+    "hipaa required vs addressable",
+    "hipaa risk analysis",
+    "is there a hipaa certification",
+    "hipaa business associate liability"
+   ],
+   "defines": "HIPAA Security Rule",
+   "reviewed": "2026-08-31",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 8,
+   "canonical_entry": false,
+   "quick_facts": {
+    "Full name": "Health Insurance Portability and Accountability Act",
+    "Legal status": "US federal law",
+    "Rule finalised": "2003 (required from 2005)",
+    "Codified at": "45 CFR Parts 160 & 164",
+    "Enforced by": "HHS Office for Civil Rights",
+    "Certification": "None exists"
+   },
+   "related": [
+    "3.0",
+    "5.11",
+    "4.0"
+   ],
+   "sources": [
+    "HIPAA Security Rule, 45 CFR Part 160 and Part 164 Subparts A and C",
+    "HHS Office for Civil Rights, Security Rule guidance"
+   ],
+   "prev": {
+    "ref": "5.9",
+    "title": "Control maturity"
+   },
+   "next": {
+    "ref": "5.11",
+    "title": "PCI DSS"
+   },
+   "sections": [
+    {
+     "id": "what-it-protects-and-who-it-binds",
+     "clause": "5.10.1",
+     "text": "What it protects and who it binds"
+    },
+    {
+     "id": "the-safeguards",
+     "clause": "5.10.2",
+     "text": "The safeguards"
+    },
+    {
+     "id": "required-and-addressable-specifications",
+     "clause": "5.10.3",
+     "text": "Required and addressable specifications"
+    },
+    {
+     "id": "the-risk-analysis-is-the-foundation",
+     "clause": "5.10.4",
+     "text": "The risk analysis is the foundation"
+    },
+    {
+     "id": "enforcement-and-the-certification-that-does-not-exist",
+     "clause": "5.10.5",
+     "text": "Enforcement, and the certification that does not exist"
+    },
+    {
+     "id": "where-it-goes-wrong",
+     "clause": "5.10.6",
+     "text": "Where it goes wrong"
+    },
+    {
+     "id": "common-questions",
+     "clause": "5.10.7",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/frameworks/hipaa-security-rule/",
+   "part_slug": "frameworks",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "The <strong>HIPAA Security Rule</strong> is the part of US federal law that sets national standards for protecting electronic protected health information — ePHI — through administrative, physical and technical safeguards. It is technology-neutral and scales to the size and complexity of the organisation."
+    },
+    {
+     "type": "prose",
+     "html": "<p>HIPAA — the Health Insurance Portability and Accountability Act — was enacted in 1996; the Security Rule itself was finalised in 2003, with compliance required from 2005. It is codified at 45 CFR Part 160 and Part 164, and it governs one thing narrowly: ePHI, health information created, held or moved in electronic form. The broader Privacy Rule covers protected health information in every form, paper included, and the two are routinely conflated. This entry is the Security Rule.</p>\n<p>The distinction that matters most sits underneath all of it: this is law, not a contract. Non-compliance is enforced by a federal regulator, and the safeguards are written to be assessed as legal obligations rather than as a supplier&rsquo;s promise. Everything below follows from that.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-it-protects-and-who-it-binds",
+     "clause": "5.10.1",
+     "alias": "c5-10-1",
+     "text": "What it protects and who it binds"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The Rule protects ePHI, and it binds two classes of party. <strong>Covered entities</strong> are health plans, health-care clearinghouses and health-care providers who transmit health information electronically in connection with a transaction for which HHS has adopted a standard. <strong>Business associates</strong> are the vendors that create, receive, maintain or transmit ePHI on a covered entity&rsquo;s behalf — a cloud host, a billing processor, a managed-service provider.</p>\n<p>Business associates were not always directly on the hook. The 2013 HIPAA Omnibus Rule, implementing the HITECH Act, made them <strong>directly liable</strong> to the regulator for the Security Rule, rather than liable only through the contract with the covered entity that engaged them. A vendor handling ePHI is answerable to the regulator in its own right, and a covered entity that treats its vendors&rsquo; compliance as the vendors&rsquo; problem alone has misread the position.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-safeguards",
+     "clause": "5.10.2",
+     "alias": "c5-10-2",
+     "text": "The safeguards"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The Rule groups its standards into three families of safeguards, plus organisational requirements and a documentation regime.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Administrative safeguards",
+       "html": "The largest group — assigned security responsibility, workforce training, contingency planning and the required risk analysis that governs how ePHI is protected."
+      },
+      {
+       "term": "Physical safeguards",
+       "html": "Controls over physical access to the systems and facilities that hold ePHI — facility access controls; workstation use; workstation security; and device and media controls."
+      },
+      {
+       "term": "Technical safeguards",
+       "html": "The technology controls on the ePHI itself — access control, audit controls, integrity, authentication and transmission security."
+      },
+      {
+       "term": "Organisational requirements",
+       "html": "The contracts that bind the parties who handle ePHI, most visibly the business-associate agreement."
+      },
+      {
+       "term": "Policies, procedures and documentation",
+       "html": "The written policies behind the safeguards and the records that evidence them, retained for six years."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>The documentation family is not administrative overhead. It is the raw material a compliance function turns into evidence — see <a href=\"/compliance/what-compliance-produces/\">what compliance produces</a> (4.0) — and an unwritten control is, for enforcement purposes, close to an absent one.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "required-and-addressable-specifications",
+     "clause": "5.10.3",
+     "alias": "c5-10-3",
+     "text": "Required and addressable specifications"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Each standard carries one or more <strong>implementation specifications</strong>, and every specification is marked either <strong>required</strong> or <strong>addressable</strong>. The single most expensive misreading of the Security Rule is treating &ldquo;addressable&rdquo; as &ldquo;optional&rdquo;. It is not.</p>\n<p>For an addressable specification an organisation must assess whether the safeguard is a reasonable and appropriate control in its own environment, and then do one of two things: implement it; or, where it is genuinely not reasonable and appropriate, document why not and implement an equivalent alternative measure where reasonable to do so. Assessing nothing and implementing nothing is not one of the options. Reading specification language precisely is a general framework skill, not a HIPAA quirk — see <a href=\"/frameworks/how-to-read-a-framework/\">how to read a framework</a> (5.0).</p>"
+    },
+    {
+     "type": "def",
+     "term": "Addressable",
+     "ref": "5.0",
+     "html": "A status on an implementation specification meaning the organisation must decide whether the safeguard is reasonable and appropriate for its environment, then either implement it or record why it is not reasonable and appropriate and put an equivalent alternative measure in place where reasonable. It does not mean optional and it does not license inaction."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-risk-analysis-is-the-foundation",
+     "clause": "5.10.4",
+     "alias": "c5-10-4",
+     "text": "The risk analysis is the foundation"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A <strong>risk analysis</strong> — an accurate and thorough assessment of the risks to the confidentiality, integrity and availability of ePHI — is itself a required administrative safeguard, at 45 CFR 164.308(a)(1)(ii)(A). It is not a preliminary; it is the control the rest of the programme is built on. Which addressable specifications are reasonable, where scarce effort should go first, what &ldquo;reasonable and appropriate&rdquo; means for this organisation — all of it is decided from the risk analysis.</p>\n<p>This is <a href=\"/risk/what-the-risk-function-produces/\">what the risk function produces</a> (3.0) pointed at a single dataset. It is also, done badly or not at all, one of the most common findings in enforcement: a risk analysis that covers one system and ignores the rest, or that was run once and never revisited, is a recurring theme in settled cases.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "enforcement-and-the-certification-that-does-not-exist",
+     "clause": "5.10.5",
+     "alias": "c5-10-5",
+     "text": "Enforcement, and the certification that does not exist"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The Security Rule is enforced by the <strong>HHS Office for Civil Rights (OCR)</strong>. Because HIPAA is a law, the consequences of non-compliance are legal: civil monetary penalties tiered by culpability — from a genuinely unknowing breach up to wilful neglect — and, in some cases, criminal penalties. That is the sharp contrast with <a href=\"/frameworks/pci-dss/\">PCI DSS</a> (5.11), which imposes similar-looking security requirements but binds through a private contract with the card brands rather than through statute — different enforcer and different teeth.</p>\n<p>One consequence is worth stating plainly, because it costs organisations real money: there is no official <strong>HIPAA certification</strong>. No government body certifies HIPAA compliance, and no certificate confers it. An organisation can undergo a third-party assessment or make an attestation, and either can be useful, but &ldquo;HIPAA certified&rdquo; is not a government credential and a vendor advertising one is describing an assessment at best.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-it-goes-wrong",
+     "clause": "5.10.6",
+     "alias": "c5-10-6",
+     "text": "Where it goes wrong"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Reading &ldquo;addressable&rdquo; as &ldquo;optional&rdquo;.</strong> Addressable specifications demand an assessment and then either implementation or a documented, equivalent alternative. Skipping one because it is &ldquo;only addressable&rdquo; is a straightforward finding waiting to be made.</p>\n<p><strong>Skimping the risk analysis.</strong> A required safeguard treated as a formality — narrow scope, stale date, no follow-through — undermines every decision that should have flowed from it, and it is among the most cited failings in enforcement.</p>\n<p><strong>Assuming a &ldquo;HIPAA certification&rdquo; exists.</strong> It does not. Buying or claiming one wastes money and can mislead partners; the honest statement is that an independent assessment was performed against the Rule.</p>\n<p><strong>Confusing the Security Rule with the Privacy Rule.</strong> The Security Rule governs ePHI — electronic data. The Privacy Rule governs protected health information in every form, and covers uses and disclosures the Security Rule never touches. A programme built for one is not automatically compliant with the other.</p>\n<p><strong>Forgetting business associates are directly liable.</strong> Since the 2013 Omnibus Rule a vendor handling ePHI answers to the regulator itself, not only to the covered entity that hired it. A business-associate agreement allocates responsibility; it does not move a vendor&rsquo;s ePHI outside the Rule&rsquo;s reach.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "5.10.7",
+     "alias": "c5-10-7",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is HIPAA a law or a framework?",
+       "id": "faq-is-hipaa-a-law-or-a-framework",
+       "html": "<p>HIPAA is a US federal law, enacted in 1996, and the Security Rule is a regulation issued under it. That is why it is enforced by a regulator with civil and, in some cases, criminal penalties, rather than through a contract the way PCI DSS is. It is not a voluntary framework you adopt; if you handle ePHI as a covered entity or business associate, it applies to you.</p>"
+      },
+      {
+       "q": "Does \"addressable\" mean I can skip the control?",
+       "id": "faq-does-addressable-mean-i-can-skip-the-control",
+       "html": "<p>No. Addressable means you must assess whether the safeguard is reasonable and appropriate for your environment, then either implement it or document why it is not and put an equivalent measure in place where reasonable. The one response that is never compliant is doing nothing and recording nothing.</p>"
+      },
+      {
+       "q": "Can my company get HIPAA certified?",
+       "id": "faq-can-my-company-get-hipaa-certified",
+       "html": "<p>No — there is no official HIPAA certification and no government body issues one. You can have an independent assessor evaluate your safeguards against the Security Rule, and that can be worth doing, but the result is an assessment or attestation, not a government-recognised certificate. Treat any &ldquo;HIPAA certified&rdquo; badge as marketing.</p>"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Running a HIPAA Security Rule risk analysis and working the administrative, physical and technical safeguards into an evidenced control set is covered in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Frameworks",
+       "item": "https://grc-wiki.vercel.app/frameworks/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "HIPAA Security Rule",
+       "item": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/#article",
+     "headline": "HIPAA Security Rule",
+     "name": "HIPAA Security Rule",
+     "description": "The HIPAA Security Rule sets US federal standards for protecting electronic health information through administrative, physical and technical safeguards.",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Frameworks",
+     "wordCount": 1307,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-31",
+     "datePublished": "2026-08-31",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "HIPAA Security Rule, 45 CFR Part 160 and Part 164 Subparts A and C",
+      "HHS Office for Civil Rights, Security Rule guidance"
+     ],
+     "keywords": "hipaa security rule, what is the hipaa security rule, hipaa required vs addressable, hipaa risk analysis, is there a hipaa certification, hipaa business associate liability"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/#term",
+     "name": "HIPAA Security Rule",
+     "alternateName": "",
+     "description": "The HIPAA Security Rule sets US federal standards for protecting electronic health information through administrative, physical and technical safeguards.",
+     "url": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/frameworks/hipaa-security-rule/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is HIPAA a law or a framework?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HIPAA is a US federal law, enacted in 1996, and the Security Rule is a regulation issued under it. That is why it is enforced by a regulator with civil and, in some cases, criminal penalties, rather than through a contract the way PCI DSS is. It is not a voluntary framework you adopt; if you handle ePHI as a covered entity or business associate, it applies to you."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does \"addressable\" mean I can skip the control?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Addressable means you must assess whether the safeguard is reasonable and appropriate for your environment, then either implement it or document why it is not and put an equivalent measure in place where reasonable. The one response that is never compliant is doing nothing and recording nothing."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can my company get HIPAA certified?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — there is no official HIPAA certification and no government body issues one. You can have an independent assessor evaluate your safeguards against the Security Rule, and that can be worth doing, but the result is an assessment or attestation, not a government-recognised certificate. Treat any &ldquo;HIPAA certified&rdquo; badge as marketing."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "clause": "5.11",
    "part": 5,
    "slug": "pci-dss",
@@ -14404,12 +15616,12 @@
     "PCI SSC, Self-Assessment Questionnaire (SAQ) Instructions and Guidelines"
    ],
    "prev": {
-    "ref": "5.9",
-    "title": "Control maturity"
+    "ref": "5.10",
+    "title": "HIPAA Security Rule"
    },
    "next": {
-    "ref": "6.0",
-    "title": "What GRC roles exist"
+    "ref": "5.12",
+    "title": "SOC 1 vs SOC 2 vs SOC 3"
    },
    "sections": [
     {
@@ -14707,6 +15919,678 @@
    ]
   },
   {
+   "clause": "5.12",
+   "part": 5,
+   "slug": "soc-1-vs-soc-2-vs-soc-3",
+   "title": "SOC 1 vs SOC 2 vs SOC 3",
+   "description": "SOC 1, SOC 2 and SOC 3 are AICPA attestation reports on a service organisation's controls — financial-reporting, security and a public trust summary.",
+   "short_title": "SOC reports",
+   "keywords": [
+    "SOC 1 vs SOC 2 vs SOC 3",
+    "SOC 1 vs SOC 2 difference",
+    "what is a SOC 3 report",
+    "SOC 2 certified",
+    "SOC report types"
+   ],
+   "defines": "SOC report",
+   "reviewed": "2026-08-31",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 8,
+   "canonical_entry": false,
+   "quick_facts": {
+    "SOC 1 scope": "Financial reporting (ICFR)",
+    "SOC 2 scope": "Trust Services Criteria",
+    "SOC 3 scope": "Same as SOC 2, public",
+    "Type I / II": "SOC 1 and SOC 2 only",
+    "Issued by": "Licensed CPA firm",
+    "Report is": "Attestation, not certification"
+   },
+   "related": [
+    "5.4",
+    "4.4",
+    "5.1"
+   ],
+   "sources": [
+    "AICPA, SOC 1 — SSAE 18 (AT-C section 320)",
+    "AICPA, 2017 Trust Services Criteria",
+    "AICPA, AT-C section 205 — Assertion-Based Examination Engagements"
+   ],
+   "prev": {
+    "ref": "5.11",
+    "title": "PCI DSS"
+   },
+   "next": {
+    "ref": "5.13",
+    "title": "GDPR"
+   },
+   "sections": [
+    {
+     "id": "what-each-report-answers",
+     "clause": "5.12.1",
+     "text": "What each report answers"
+    },
+    {
+     "id": "side-by-side",
+     "clause": "5.12.2",
+     "text": "Side by side"
+    },
+    {
+     "id": "type-i-and-type-ii",
+     "clause": "5.12.3",
+     "text": "Type I and Type II"
+    },
+    {
+     "id": "where-it-goes-wrong",
+     "clause": "5.12.4",
+     "text": "Where it goes wrong"
+    },
+    {
+     "id": "common-questions",
+     "clause": "5.12.5",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
+   "part_slug": "frameworks",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "<strong>System and Organization Controls (SOC)</strong> reports are a suite of attestation reports defined by the AICPA and issued by a licensed CPA firm on a service organisation&rsquo;s controls. The three in common use — SOC 1, SOC 2 and SOC 3 — answer different questions for different readers."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The numbers invite the reader to rank them, as though SOC 3 were a beginner&rsquo;s SOC 2 and SOC 1 the serious one. They are not a ladder. SOC 1 and SOC 2 cover different subject matter, and SOC 3 is a public version of a SOC 2 rather than a weaker one. Choosing the right report starts with knowing which question each was built to answer.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-each-report-answers",
+     "clause": "5.12.1",
+     "alias": "c5-12-1",
+     "text": "What each report answers"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>SOC 1</strong> reports on a service organisation&rsquo;s controls that are relevant to its user entities&rsquo; internal control over financial reporting (ICFR). It is performed under SSAE 18 (AT-C section 320), and its audience is the user entity&rsquo;s own management and their financial-statement auditors. It is a restricted-use report. A payroll bureau or a claims processor produces a SOC 1 because its processing feeds directly into its customers&rsquo; financial statements. SOC 1 is not the &ldquo;financial&rdquo; report you hand a prospect to prove security — it is specifically about financial-reporting controls.</p>\n<p><strong>SOC 2</strong> reports on controls relevant to the <a href=\"/frameworks/trust-services-criteria/\">Trust Services Criteria</a>: security, which is mandatory, and optionally availability, processing integrity, confidentiality and privacy. It is performed under AT-C section 205 and is a detailed report — it sets out the system and the controls, and in a Type II report the auditor&rsquo;s tests of operating effectiveness and their results, the <a href=\"/compliance/evidence-that-holds-up/\">evidence</a> that lets a reader weigh the controls rather than take an assertion on trust. It is restricted-use, shared with management, customers and regulators, typically under NDA. This is the report an enterprise security team means when it asks a vendor for &ldquo;your SOC report&rdquo;.</p>\n<p><strong>SOC 3</strong> covers the same subject matter and the same Trust Services Criteria as a SOC 2, but is a short, general-use report. It carries the auditor&rsquo;s opinion and management&rsquo;s assertion but omits the system description, the control listing and the test results. Stripped of that detail, it can be distributed freely — published on a website as a public trust summary. A SOC 3 is a public companion to a SOC 2, not a lower grade of assurance on the same criteria.</p>\n<p>Beyond these three, the AICPA also defines reports such as SOC for Cybersecurity and SOC for Supply Chain. They serve narrower purposes and sit outside the SOC 1 / SOC 2 / SOC 3 comparison this entry draws.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "side-by-side",
+     "clause": "5.12.2",
+     "alias": "c5-12-2",
+     "text": "Side by side"
+    },
+    {
+     "type": "prose",
+     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>SOC 1</th>\n<th>SOC 2</th>\n<th>SOC 3</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Subject / criteria</td>\n<td>Controls relevant to user entities&rsquo; internal control over financial reporting (ICFR)</td>\n<td>Trust Services Criteria — security, plus optional availability, processing integrity, confidentiality and privacy</td>\n<td>Same subject and criteria as SOC 2</td>\n</tr>\n<tr>\n<td>Standard</td>\n<td>SSAE 18 (AT-C 320)</td>\n<td>AT-C 205</td>\n<td>AT-C 205</td>\n</tr>\n<tr>\n<td>Audience &amp; distribution</td>\n<td>User management and their financial-statement auditors; restricted-use</td>\n<td>Management, customers and regulators; restricted-use, usually under NDA</td>\n<td>Anyone; general-use, freely publishable</td>\n</tr>\n<tr>\n<td>Level of detail</td>\n<td>Detailed: system and controls; a Type II adds operating-effectiveness tests and results</td>\n<td>Detailed: system and controls; a Type II adds operating-effectiveness tests and results</td>\n<td>Short: opinion and assertion only, no description, control listing or results</td>\n</tr>\n<tr>\n<td>Type I / II</td>\n<td>Applies</td>\n<td>Applies</td>\n<td>Does not apply</td>\n</tr>\n<tr>\n<td>Typical use</td>\n<td>Given to a customer&rsquo;s auditors when your service touches their financial statements</td>\n<td>Shared with customers and prospects reviewing your security</td>\n<td>Public trust summary on a website</td>\n</tr>\n</tbody>\n</table></div>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "type-i-and-type-ii",
+     "clause": "5.12.3",
+     "alias": "c5-12-3",
+     "text": "Type I and Type II"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A further distinction cuts across SOC 1 and SOC 2 — but not SOC 3. A Type I report tests whether the controls were suitably designed at a single point in time; a Type II tests whether they also operated effectively across a period, commonly three to twelve months. Enterprise procurement asking for &ldquo;a SOC 2&rdquo; almost always means a Type II, because a Type I speaks only to the suitability of design at a point in time, not to operating effectiveness.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Type I and Type II",
+     "ref": "4.4",
+     "html": "Two forms a SOC 1 or SOC 2 report can take. A Type I opinion addresses the suitability of the design of controls at a point in time; a Type II addresses design and operating effectiveness over a period, and so carries the auditor&rsquo;s tests and their results. SOC 3 has neither form. How the two bear on <a href=\"/compliance/management-assertion/\">the management assertion</a> is set out separately."
+    },
+    {
+     "type": "prose",
+     "html": "<p>When you rely on a counterparty&rsquo;s SOC report, check the Type first and the period it covers second. A Type I, or a Type II over a short or stale window, supports far less weight than a clean cover page implies.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-it-goes-wrong",
+     "clause": "5.12.4",
+     "alias": "c5-12-4",
+     "text": "Where it goes wrong"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>&ldquo;SOC 2 certified.&rdquo;</strong> There is no such thing. SOC 2 is an attestation — an opinion expressed in a report by a licensed CPA firm — not a certification, and nothing is issued that an organisation is &ldquo;certified&rdquo; against. The certifiable security standard is <a href=\"/frameworks/iso-27001-vs-soc-2/\">ISO 27001</a>; where a claim of certification is what matters, that is the one to reach for. Saying &ldquo;SOC 2 certified&rdquo; signals to a knowledgeable reader that the speaker has not read one.</p>\n<p><strong>Reaching for SOC 1 when you mean security.</strong> SOC 1 is about controls over financial reporting, not information security. A prospect asking about your security posture wants a SOC 2. Commissioning a SOC 1 to answer a security questionnaire spends real money on the wrong report and answers a question nobody asked.</p>\n<p><strong>Treating SOC 3 as a lesser SOC 2.</strong> A SOC 3 is not a cut-price or entry-level SOC 2. It is examined against the same criteria and carries the same opinion; what it drops is the confidential detail, so that it can be published. Reading the absence of a system description as weaker assurance mistakes distribution for rigour.</p>\n<p><strong>Ignoring Type I versus Type II when relying on a report.</strong> A Type I says only that the controls were designed suitably on one day. Accepting it as evidence that controls operated across the whole year is a common and consequential misread. Check the Type, then the period it covers, before you lean on someone else&rsquo;s report.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "5.12.5",
+     "alias": "c5-12-5",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "A customer is asking for \"our SOC report\" — which one do they mean?",
+       "id": "faq-a-customer-is-asking-for-our-soc-report-which-one-do-they-mean",
+       "html": "<p>Almost always a SOC 2, and almost always a Type II. SOC 1 comes up only when your service affects the customer&rsquo;s financial statements — a payroll or billing processor, say — in which case their auditors, not their security team, will ask. If in doubt, ask whether they want it for a financial-statement audit (SOC 1) or a vendor security review (SOC 2).</p>"
+      },
+      {
+       "q": "Can I say we are \"SOC 2 certified\"?",
+       "id": "faq-can-i-say-we-are-soc-2-certified",
+       "html": "<p>No. SOC 2 produces an attestation report with an auditor&rsquo;s opinion, not a certificate, so &ldquo;certified&rdquo; is incorrect and reads as a tell that the report has not been understood. Say instead that you &ldquo;have a SOC 2 report&rdquo; or &ldquo;completed a SOC 2 Type II examination&rdquo;. The certifiable standard is ISO 27001.</p>"
+      },
+      {
+       "q": "Is a SOC 3 weaker than a SOC 2?",
+       "id": "faq-is-a-soc-3-weaker-than-a-soc-2",
+       "html": "<p>No. A SOC 3 is assessed against the same Trust Services Criteria and carries the same auditor&rsquo;s opinion as the SOC 2 it accompanies. It simply leaves out the system description, control listing and test results so that it can be shared publicly. Treat it as the public summary, not a lower tier of assurance.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Frameworks",
+       "item": "https://grc-wiki.vercel.app/frameworks/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "SOC 1 vs SOC 2 vs SOC 3",
+       "item": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/#article",
+     "headline": "SOC 1 vs SOC 2 vs SOC 3",
+     "name": "SOC 1 vs SOC 2 vs SOC 3",
+     "description": "SOC 1, SOC 2 and SOC 3 are AICPA attestation reports on a service organisation's controls — financial-reporting, security and a public trust summary.",
+     "url": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Frameworks",
+     "wordCount": 1184,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-31",
+     "datePublished": "2026-08-31",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "AICPA, SOC 1 — SSAE 18 (AT-C section 320)",
+      "AICPA, 2017 Trust Services Criteria",
+      "AICPA, AT-C section 205 — Assertion-Based Examination Engagements"
+     ],
+     "keywords": "SOC 1 vs SOC 2 vs SOC 3, SOC 1 vs SOC 2 difference, what is a SOC 3 report, SOC 2 certified, SOC report types"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/#term",
+     "name": "SOC report",
+     "alternateName": "",
+     "description": "SOC 1, SOC 2 and SOC 3 are AICPA attestation reports on a service organisation's controls — financial-reporting, security and a public trust summary.",
+     "url": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/frameworks/soc-1-vs-soc-2-vs-soc-3/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "A customer is asking for \"our SOC report\" — which one do they mean?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Almost always a SOC 2, and almost always a Type II. SOC 1 comes up only when your service affects the customer&rsquo;s financial statements — a payroll or billing processor, say — in which case their auditors, not their security team, will ask. If in doubt, ask whether they want it for a financial-statement audit (SOC 1) or a vendor security review (SOC 2)."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I say we are \"SOC 2 certified\"?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. SOC 2 produces an attestation report with an auditor&rsquo;s opinion, not a certificate, so &ldquo;certified&rdquo; is incorrect and reads as a tell that the report has not been understood. Say instead that you &ldquo;have a SOC 2 report&rdquo; or &ldquo;completed a SOC 2 Type II examination&rdquo;. The certifiable standard is ISO 27001."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is a SOC 3 weaker than a SOC 2?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A SOC 3 is assessed against the same Trust Services Criteria and carries the same auditor&rsquo;s opinion as the SOC 2 it accompanies. It simply leaves out the system description, control listing and test results so that it can be shared publicly. Treat it as the public summary, not a lower tier of assurance."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "5.13",
+   "part": 5,
+   "slug": "gdpr",
+   "title": "GDPR",
+   "description": "GDPR, Regulation (EU) 2016/679, is the EU's binding data-protection law: what it requires, who it binds beyond Europe and why no GDPR certificate exists.",
+   "short_title": "GDPR",
+   "keywords": [
+    "GDPR",
+    "what is GDPR",
+    "General Data Protection Regulation",
+    "is GDPR a law",
+    "GDPR principles",
+    "GDPR fines"
+   ],
+   "defines": "GDPR",
+   "reviewed": "2026-08-31",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 8,
+   "cited_by": 8,
+   "canonical_entry": false,
+   "quick_facts": {
+    "Full name": "General Data Protection Regulation",
+    "Legal instrument": "Regulation (EU) 2016/679",
+    "In force": "25 May 2018",
+    "Legal status": "Binding law, not a framework",
+    "Enforced by": "National supervisory authorities",
+    "Maximum fine": "EUR 20m or 4% worldwide turnover, whichever is higher"
+   },
+   "related": [
+    "5.10",
+    "5.11",
+    "4.0"
+   ],
+   "sources": [
+    "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+    "European Data Protection Board, guidelines on the GDPR"
+   ],
+   "prev": {
+    "ref": "5.12",
+    "title": "SOC 1 vs SOC 2 vs SOC 3"
+   },
+   "next": {
+    "ref": "6.0",
+    "title": "What GRC roles exist"
+   },
+   "sections": [
+    {
+     "id": "a-law-not-a-framework",
+     "clause": "5.13.1",
+     "text": "A law, not a framework"
+    },
+    {
+     "id": "controller-and-processor",
+     "clause": "5.13.2",
+     "text": "Controller and processor"
+    },
+    {
+     "id": "principles-lawful-bases-and-rights",
+     "clause": "5.13.3",
+     "text": "Principles, lawful bases and rights"
+    },
+    {
+     "id": "key-obligations",
+     "clause": "5.13.4",
+     "text": "Key obligations"
+    },
+    {
+     "id": "enforcement-fines-and-gdpr-certification",
+     "clause": "5.13.5",
+     "text": "Enforcement, fines and \"GDPR certification\""
+    },
+    {
+     "id": "where-it-goes-wrong",
+     "clause": "5.13.6",
+     "text": "Where it goes wrong"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/frameworks/gdpr/",
+   "part_slug": "frameworks",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "The <strong>General Data Protection Regulation (GDPR)</strong> is the European Union&rsquo;s binding data-protection law — Regulation (EU) 2016/679, in force since 25 May 2018 — governing how personal data about people in the EU is handled. It is legislation, not a voluntary framework."
+    },
+    {
+     "type": "prose",
+     "html": "<p>That single fact changes what the rest of this part means. Most other documents in this part are things an organisation elects to adopt; GDPR, like the HIPAA Security Rule, applies whether or not anyone has decided to engage with it, and a regulator can act without a contract or a customer asking it to. It appears among the frameworks because most organisations run their obligations under it as a compliance programme, but the obligation itself is statutory.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "a-law-not-a-framework",
+     "clause": "5.13.1",
+     "alias": "c5-13-1",
+     "text": "A law, not a framework"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Reading GDPR as one more optional standard is the mistake everything else follows from. Its reach also does not stop at the EU border. Article 3 makes the Regulation <strong>extraterritorial</strong>: it binds a controller or processor established outside the EU whenever they offer goods or services to people in the EU or monitor their behaviour. A company with no European office, billing in dollars, is caught the moment it targets or tracks people in the Union.</p>\n<p>This is the honest reason GDPR sits in this part and also the reason it does not behave like its neighbours. <a href=\"/frameworks/pci-dss/\">PCI DSS</a> is a contract with the card brands; ISO 27001 is a certificate you choose to pursue. GDPR is neither — it is law, and the only comparable neighbours here are other statutory regimes such as the <a href=\"/frameworks/hipaa-security-rule/\">HIPAA Security Rule</a>. If you are unsure which kind of document you are holding, <a href=\"/frameworks/how-to-read-a-framework/\">how to read a framework</a> sorts them.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Framework",
+     "ref": "5.0",
+     "html": "A framework, in the sense used across this part, is a document an organisation chooses to adopt and be measured against. GDPR is not one: it applies by operation of law, with or without any decision to take it on."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "controller-and-processor",
+     "clause": "5.13.2",
+     "alias": "c5-13-2",
+     "text": "Controller and processor"
+    },
+    {
+     "type": "prose",
+     "html": "<p>GDPR splits responsibility between two roles, and the split decides who answers for what. The <strong>controller</strong> decides the purposes and means of processing — the why and the how — and carries the primary legal accountability. A <strong>processor</strong> processes personal data on the controller&rsquo;s behalf and only on its documented instructions, typically a supplier running a service. The distinction is not cosmetic: it determines who owes which duty, and the two must have a written contract under Article 28 governing the processing. A vendor that quietly starts deciding its own purposes for the data has become a controller in its own right, with a controller&rsquo;s liabilities.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "principles-lawful-bases-and-rights",
+     "clause": "5.13.3",
+     "alias": "c5-13-3",
+     "text": "Principles, lawful bases and rights"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Article 5 sets out seven principles that every act of processing has to satisfy.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Lawfulness, fairness and transparency",
+       "html": "Process on a valid legal basis, do not mislead the data subject and be open about what happens to their data."
+      },
+      {
+       "term": "Purpose limitation",
+       "html": "Collect data for specified, explicit and legitimate purposes and do not reuse it in ways incompatible with those."
+      },
+      {
+       "term": "Data minimisation",
+       "html": "Hold only the data the purpose actually needs, and no more."
+      },
+      {
+       "term": "Accuracy",
+       "html": "Keep personal data correct and current, and correct or erase what is wrong."
+      },
+      {
+       "term": "Storage limitation",
+       "html": "Keep data in identifiable form no longer than the purpose requires."
+      },
+      {
+       "term": "Integrity and confidentiality",
+       "html": "Secure the data against unauthorised access, loss or damage — the security principle."
+      },
+      {
+       "term": "Accountability",
+       "html": "Be able to demonstrate compliance with the other six, not merely assert it."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>Accountability is the principle that turns the rest into work you can show. The controller must be able to produce the records, assessments and evidence that <a href=\"/compliance/what-compliance-produces/\">demonstrate compliance</a>, because under GDPR being compliant and being able to prove it are the same requirement.</p>\n<p>Article 6 then says every act of processing needs a <strong>lawful basis</strong>, and there are six: consent, a contract with the data subject, a legal obligation, protection of someone&rsquo;s vital interests, a public task and legitimate interests. At least one must apply before processing begins, and the basis has to be fixed up front — you cannot reach for a different one afterwards to justify what you have already done. Consent is only one of the six and often the weakest, because it must be freely given, specific, informed and unambiguous, and it can be withdrawn at any moment. For routine business processing a contract, a legal obligation or legitimate interests is usually the sounder footing.</p>\n<p>GDPR also gives data subjects a set of enforceable <strong>rights</strong> over their own data: the right to be informed; access to it; rectification of inaccurate data; erasure, the &ldquo;right to be forgotten&rdquo;; restriction of processing; data portability; objection to processing; and rights concerning solely automated decision-making and profiling. The rights are not absolute — several carry exemptions — but a controller has to be able to recognise a request, respond within the statutory deadline and explain any refusal.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "key-obligations",
+     "clause": "5.13.4",
+     "alias": "c5-13-4",
+     "text": "Key obligations"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The principles and rights translate into a handful of concrete duties a supervisory authority will expect to see met.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Records of processing activities",
+       "html": "Article 30 — a documented inventory of what personal data you process, why, where it flows and how long you keep it."
+      },
+      {
+       "term": "Data protection by design and by default",
+       "html": "Article 25 — build data protection into systems and processes from the outset, and default to the least data and the tightest sharing."
+      },
+      {
+       "term": "Data protection impact assessment (DPIA)",
+       "html": "Article 35 — a structured risk assessment required before high-risk processing, such as large-scale profiling or systematic monitoring."
+      },
+      {
+       "term": "Breach notification",
+       "html": "Articles 33 and 34 — unless the breach is unlikely to result in a risk, notify the competent supervisory authority without undue delay and generally within 72 hours of becoming aware; under Article 34, tell affected individuals without undue delay where the breach is likely to result in a high risk to them."
+      },
+      {
+       "term": "Data protection officer (DPO)",
+       "html": "Article 37 — appoint one where you are a public authority (other than a court acting judicially), or where your core activities involve large-scale regular and systematic monitoring or large-scale processing of special-category or criminal-conviction data."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>The 72-hour clock is the one that catches people out. It runs from awareness of the breach, not from the end of the investigation, so the notification often goes in while the facts are still incomplete.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "enforcement-fines-and-gdpr-certification",
+     "clause": "5.13.5",
+     "alias": "c5-13-5",
+     "text": "Enforcement, fines and \"GDPR certification\""
+    },
+    {
+     "type": "prose",
+     "html": "<p>GDPR is enforced by national <strong>supervisory authorities</strong> — the data protection authorities, one or more per member state, such as Ireland&rsquo;s Data Protection Commission or France&rsquo;s CNIL. Where processing crosses borders, a lead authority coordinates through a one-stop-shop mechanism. Their power is real: administrative fines run in two tiers, each set at the higher of a fixed ceiling or a percentage of worldwide turnover.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Tier</th>\n<th>Maximum fine</th>\n<th>Applies to</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lower</td>\n<td>EUR 10 million or 2% of total worldwide annual turnover, whichever is higher</td>\n<td>Breaches of specific obligations such as records, security and DPO duties</td>\n</tr>\n<tr>\n<td>Higher</td>\n<td>EUR 20 million or 4% of total worldwide annual turnover, whichever is higher</td>\n<td>Breaches of the core principles, lawful-basis rules and data-subject rights</td>\n</tr>\n</tbody>\n</table></div>\n<p>There is no single certificate that makes an organisation &ldquo;GDPR compliant&rdquo;. Article 42 provides for approved certification mechanisms that can help demonstrate compliance for specific processing, but no scheme signs off the whole Regulation, and &ldquo;GDPR certified&rdquo; presented as a blanket badge is marketing rather than a legal status.</p>\n<p>Following the UK&rsquo;s departure from the EU, the <strong>UK GDPR</strong> is the retained domestic version, broadly mirroring the EU text and enforced by the Information Commissioner&rsquo;s Office. An organisation handling both UK and EU data is generally subject to both regimes at once.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-it-goes-wrong",
+     "clause": "5.13.6",
+     "alias": "c5-13-6",
+     "text": "Where it goes wrong"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Treating it as optional.</strong> The commonest error is filing GDPR alongside the voluntary standards and waiting to be asked. It is directly applicable law: the duty exists the moment you process the data, and a supervisory authority needs no contract or complaint to act.</p>\n<p><strong>Assuming distance is protection.</strong> &ldquo;We are not in the EU, so it does not apply&rdquo; ignores Article 3. Offer goods or services to people in the EU, or monitor their behaviour, and you are in scope with no European office at all — and may additionally have to appoint an EU representative under Article 27.</p>\n<p><strong>Leaning on consent for everything.</strong> Consent is one lawful basis of six, and often the most fragile, because it can be withdrawn and must clear a high bar to be valid. Processing that would sit comfortably on contract, legal obligation or legitimate interests is left exposed when it is bolted to a consent the data subject can revoke at will.</p>\n<p><strong>Buying a &ldquo;GDPR certification&rdquo;.</strong> No product or audit makes an organisation compliant with the whole Regulation. Article 42 schemes can evidence compliance for a defined activity, but a vendor selling blanket &ldquo;GDPR certification&rdquo; as proof of compliance is overstating what it can deliver, and relying on it leaves the actual obligations unmet.</p>"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Does GDPR apply to my company if it is based outside the EU?",
+       "id": "faq-does-gdpr-apply-to-my-company-if-it-is-based-outside-the-eu",
+       "html": "<p>It can. Article 3 gives GDPR extraterritorial reach: if you offer goods or services to people in the EU, or monitor their behaviour, you are in scope even with no EU establishment. Where you have no EU presence you may also have to appoint an EU representative under Article 27. Being outside Europe is not, by itself, a reason the Regulation does not reach you.</p>"
+      },
+      {
+       "q": "Do I always need consent to process personal data?",
+       "id": "faq-do-i-always-need-consent-to-process-personal-data",
+       "html": "<p>No. Consent is only one of six lawful bases, and often not the best. For much routine processing a contract, a legal obligation or legitimate interests gives you a stronger footing, and consent means honouring a withdrawal at any time. You need one valid basis, fixed before processing starts — not necessarily consent.</p>"
+      },
+      {
+       "q": "Can I get my organisation \"GDPR certified\"?",
+       "id": "faq-can-i-get-my-organisation-gdpr-certified",
+       "html": "<p>Not in the sense the phrase implies. There is no official certificate that renders an organisation compliant with the whole Regulation. Article 42 allows approved schemes that can evidence compliance for particular processing, and those can help, but any vendor selling blanket &ldquo;GDPR certification&rdquo; as proof of overall compliance is overstating what it means.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Frameworks",
+       "item": "https://grc-wiki.vercel.app/frameworks/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "GDPR",
+       "item": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/frameworks/gdpr/#article",
+     "headline": "GDPR",
+     "name": "GDPR",
+     "description": "GDPR, Regulation (EU) 2016/679, is the EU's binding data-protection law: what it requires, who it binds beyond Europe and why no GDPR certificate exists.",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/frameworks/gdpr/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Frameworks",
+     "wordCount": 1577,
+     "timeRequired": "PT8M",
+     "version": 1,
+     "dateModified": "2026-08-31",
+     "datePublished": "2026-08-31",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "European Data Protection Board, guidelines on the GDPR"
+     ],
+     "keywords": "GDPR, what is GDPR, General Data Protection Regulation, is GDPR a law, GDPR principles, GDPR fines"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/frameworks/gdpr/#term",
+     "name": "GDPR",
+     "alternateName": "",
+     "description": "GDPR, Regulation (EU) 2016/679, is the EU's binding data-protection law: what it requires, who it binds beyond Europe and why no GDPR certificate exists.",
+     "url": "https://grc-wiki.vercel.app/frameworks/gdpr/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/frameworks/gdpr/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Does GDPR apply to my company if it is based outside the EU?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can. Article 3 gives GDPR extraterritorial reach: if you offer goods or services to people in the EU, or monitor their behaviour, you are in scope even with no EU establishment. Where you have no EU presence you may also have to appoint an EU representative under Article 27. Being outside Europe is not, by itself, a reason the Regulation does not reach you."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I always need consent to process personal data?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Consent is only one of six lawful bases, and often not the best. For much routine processing a contract, a legal obligation or legitimate interests gives you a stronger footing, and consent means honouring a withdrawal at any time. You need one valid basis, fixed before processing starts — not necessarily consent."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I get my organisation \"GDPR certified\"?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not in the sense the phrase implies. There is no official certificate that renders an organisation compliant with the whole Regulation. Article 42 allows approved schemes that can evidence compliance for particular processing, and those can help, but any vendor selling blanket &ldquo;GDPR certification&rdquo; as proof of overall compliance is overstating what it means."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "clause": "6.0",
    "part": 6,
    "slug": "grc-roles",
@@ -14743,8 +16627,8 @@
     "(ISC)² Cybersecurity Workforce Study, 2025"
    ],
    "prev": {
-    "ref": "5.11",
-    "title": "PCI DSS"
+    "ref": "5.13",
+    "title": "GDPR"
    },
    "next": {
     "ref": "6.1",
@@ -16271,6 +18155,46 @@
  "index": {
   "terms": [
    {
+    "t": "72-hour breach notification",
+    "ref": "5.13",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/gdpr/",
+    "flags": "fresh"
+   },
+   {
+    "t": "800-53 control families",
+    "ref": "5.7",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/nist-800-53/",
+    "flags": "fresh"
+   },
+   {
+    "t": "800-53 Revision 5",
+    "ref": "5.7",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/nist-800-53/",
+    "flags": "fresh"
+   },
+   {
+    "t": "800-53 vs 800-53A vs 800-53B",
+    "ref": "5.7",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/nist-800-53/",
+    "flags": "level fresh"
+   },
+   {
     "t": "Accept, risk treatment",
     "ref": "3.3",
     "key": false,
@@ -16481,6 +18405,16 @@
     "flags": "level fresh"
    },
    {
+    "t": "Business associate",
+    "ref": "5.10",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/hipaa-security-rule/",
+    "flags": "fresh"
+   },
+   {
     "t": "Business continuity",
     "ref": "3.6",
     "key": true,
@@ -16608,6 +18542,46 @@
     "template": false,
     "level": "",
     "url": "/compliance/change-management-as-a-control/",
+    "flags": "fresh"
+   },
+   {
+    "t": "CIS Benchmarks",
+    "ref": "5.8",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/cis-controls/",
+    "flags": "fresh"
+   },
+   {
+    "t": "CIS Controls",
+    "ref": "5.8",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/cis-controls/",
+    "flags": "level fresh"
+   },
+   {
+    "t": "CIS Controls vs Benchmarks",
+    "ref": "5.8",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/cis-controls/",
+    "flags": "level fresh"
+   },
+   {
+    "t": "CIS Critical Security Controls",
+    "ref": "5.8",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/cis-controls/",
     "flags": "fresh"
    },
    {
@@ -16741,6 +18715,16 @@
     "flags": "example level fresh"
    },
    {
+    "t": "Control baseline (low, moderate, high)",
+    "ref": "5.7",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/nist-800-53/",
+    "flags": "fresh"
+   },
+   {
     "t": "Control inventory",
     "ref": "1.3",
     "key": false,
@@ -16818,6 +18802,16 @@
     "template": false,
     "level": "",
     "url": "/frameworks/coso-frameworks/",
+    "flags": "fresh"
+   },
+   {
+    "t": "Covered entity",
+    "ref": "5.10",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/hipaa-security-rule/",
     "flags": "fresh"
    },
    {
@@ -16911,6 +18905,26 @@
     "flags": "fresh"
    },
    {
+    "t": "Data controller vs processor",
+    "ref": "5.13",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/gdpr/",
+    "flags": "level fresh"
+   },
+   {
+    "t": "Data subject rights",
+    "ref": "5.13",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/gdpr/",
+    "flags": "fresh"
+   },
+   {
     "t": "Day in the life, GRC",
     "ref": "6.5",
     "key": false,
@@ -16981,6 +18995,16 @@
     "flags": "fresh"
    },
    {
+    "t": "DPIA",
+    "ref": "5.13",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/gdpr/",
+    "flags": "fresh"
+   },
+   {
     "t": "Due diligence, supplier",
     "ref": "3.8",
     "key": false,
@@ -17008,6 +19032,26 @@
     "template": false,
     "level": "",
     "url": "/risk/emerging-risk/",
+    "flags": "fresh"
+   },
+   {
+    "t": "ePHI",
+    "ref": "5.10",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/hipaa-security-rule/",
+    "flags": "fresh"
+   },
+   {
+    "t": "Essential cyber hygiene (IG1)",
+    "ref": "5.8",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/cis-controls/",
     "flags": "fresh"
    },
    {
@@ -17131,6 +19175,36 @@
     "flags": "level fresh"
    },
    {
+    "t": "GDPR",
+    "ref": "5.13",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/gdpr/",
+    "flags": "level fresh"
+   },
+   {
+    "t": "GDPR fines",
+    "ref": "5.13",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/gdpr/",
+    "flags": "fresh"
+   },
+   {
+    "t": "General Data Protection Regulation",
+    "ref": "5.13",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/gdpr/",
+    "flags": "fresh"
+   },
+   {
     "t": "GIAC (SANS)",
     "ref": "6.3",
     "key": false,
@@ -17211,6 +19285,36 @@
     "flags": "level fresh"
    },
    {
+    "t": "HIPAA",
+    "ref": "5.10",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/hipaa-security-rule/",
+    "flags": "fresh"
+   },
+   {
+    "t": "HIPAA risk analysis",
+    "ref": "5.10",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/hipaa-security-rule/",
+    "flags": "fresh"
+   },
+   {
+    "t": "HIPAA Security Rule",
+    "ref": "5.10",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/hipaa-security-rule/",
+    "flags": "level fresh"
+   },
+   {
     "t": "Horizon scanning",
     "ref": "3.9",
     "key": false,
@@ -17239,6 +19343,16 @@
     "level": "",
     "url": "/risk/reading-a-risk-register/",
     "flags": "example template fresh"
+   },
+   {
+    "t": "Implementation Groups (IG1 to IG3)",
+    "ref": "5.8",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/cis-controls/",
+    "flags": "fresh"
    },
    {
     "t": "Incident vs issue",
@@ -17281,6 +19395,16 @@
     "flags": "level fresh"
    },
    {
+    "t": "Is GDPR a law",
+    "ref": "5.13",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/gdpr/",
+    "flags": "fresh"
+   },
+   {
     "t": "Is GRC technical",
     "ref": "1.8",
     "key": false,
@@ -17289,6 +19413,16 @@
     "level": "entry",
     "url": "/foundations/grc-vs-cyber-security/",
     "flags": "level fresh"
+   },
+   {
+    "t": "Is NIST 800-53 certifiable",
+    "ref": "5.7",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/nist-800-53/",
+    "flags": "fresh"
    },
    {
     "t": "Is NIST CSF certifiable",
@@ -17318,6 +19452,26 @@
     "template": false,
     "level": "",
     "url": "/frameworks/trust-services-criteria/",
+    "flags": "fresh"
+   },
+   {
+    "t": "Is SOC 2 a certification",
+    "ref": "5.12",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
+    "flags": "fresh"
+   },
+   {
+    "t": "Is there a HIPAA certification",
+    "ref": "5.10",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/hipaa-security-rule/",
     "flags": "fresh"
    },
    {
@@ -17389,6 +19543,16 @@
     "level": "entry",
     "url": "/risk/key-risk-indicators/",
     "flags": "level fresh"
+   },
+   {
+    "t": "Lawful basis (GDPR)",
+    "ref": "5.13",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/gdpr/",
+    "flags": "fresh"
    },
    {
     "t": "Least privilege",
@@ -17529,6 +19693,16 @@
     "level": "",
     "url": "/frameworks/nist-csf-2/",
     "flags": "fresh"
+   },
+   {
+    "t": "NIST SP 800-53",
+    "ref": "5.7",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/nist-800-53/",
+    "flags": "level fresh"
    },
    {
     "t": "Nonconformity",
@@ -17751,6 +19925,16 @@
     "flags": "fresh"
    },
    {
+    "t": "Required vs addressable (HIPAA)",
+    "ref": "5.10",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/hipaa-security-rule/",
+    "flags": "level fresh"
+   },
+   {
     "t": "Residual risk",
     "ref": "3.1",
     "key": true,
@@ -17789,6 +19973,16 @@
     "level": "",
     "url": "/risk/appetite-vs-tolerance/",
     "flags": "example template fresh"
+   },
+   {
+    "t": "Risk Management Framework (RMF)",
+    "ref": "5.7",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/nist-800-53/",
+    "flags": "fresh"
    },
    {
     "t": "Risk matrix",
@@ -17849,6 +20043,16 @@
     "level": "entry",
     "url": "/career/grc-roles/",
     "flags": "level fresh"
+   },
+   {
+    "t": "Safeguard (CIS)",
+    "ref": "5.8",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/cis-controls/",
+    "flags": "fresh"
    },
    {
     "t": "Sampling",
@@ -17951,6 +20155,26 @@
     "flags": "level fresh"
    },
    {
+    "t": "SOC 1 report",
+    "ref": "5.12",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
+    "flags": "fresh"
+   },
+   {
+    "t": "SOC 1 vs SOC 2 vs SOC 3",
+    "ref": "5.12",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
+    "flags": "level fresh"
+   },
+   {
     "t": "SOC 2",
     "ref": "5.1",
     "key": true,
@@ -17988,6 +20212,26 @@
     "template": false,
     "level": "",
     "url": "/compliance/control-deviations/",
+    "flags": "fresh"
+   },
+   {
+    "t": "SOC 3 report",
+    "ref": "5.12",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
+    "flags": "fresh"
+   },
+   {
+    "t": "SOC reports",
+    "ref": "5.12",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
     "flags": "fresh"
    },
    {
@@ -18151,6 +20395,26 @@
     "flags": "level fresh"
    },
    {
+    "t": "Type I vs Type II (SOC)",
+    "ref": "5.12",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/frameworks/soc-1-vs-soc-2-vs-soc-3/",
+    "flags": "level fresh"
+   },
+   {
+    "t": "UK GDPR",
+    "ref": "5.13",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/frameworks/gdpr/",
+    "flags": "fresh"
+   },
+   {
     "t": "Vendor due diligence",
     "ref": "3.8",
     "key": false,
@@ -18222,9 +20486,9 @@
    }
   ],
   "coverage": [
-   "195 headwords &middot; 41 with examples",
-   "195 headwords live &middot; 55 entries",
-   "52 framework terms mapped",
+   "233 headwords &middot; 41 with examples",
+   "233 headwords live &middot; 60 entries",
+   "90 framework terms mapped",
    "Median age 15 days"
   ]
  },
