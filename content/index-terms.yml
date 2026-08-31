@@ -64,7 +64,7 @@ terms:
 
   - { t: "GRC", ref: "1.1", key: true, example: true, level: entry }
   - { t: "GRC analyst", ref: "6.1", level: entry }
-  - { t: "GRC vs cyber security", ref: "1.6", level: entry }
+  - { t: "GRC vs cyber security", ref: "1.8", key: true, level: entry }
   - { t: "GRC vs internal audit", ref: "1.4", key: true, level: entry }
 
   - { t: "Impact scale", ref: "3.1", example: true, template: true }
@@ -149,7 +149,7 @@ terms:
   - { t: "Day in the life, GRC", ref: "6.5", level: entry }
   - { t: "GIAC (SANS)", ref: "6.3" }
   - { t: "Training, GRC", ref: "6.3", key: true, level: entry }
-  - { t: "Committee, terms of reference", ref: "2.2", template: true }
+  - { t: "Committee, terms of reference", ref: "2.5" }
   - { t: "Crosswalk", ref: "5.2", key: true, example: true }
   - { t: "Fieldwork, audit", ref: "4.3" }
   - { t: "Framework, kinds of", ref: "5.0", key: true, level: entry }
@@ -161,7 +161,16 @@ terms:
   - { t: "Scale, risk", ref: "3.1", example: true, template: true }
   - { t: "Scope, ISMS", ref: "5.3", example: true }
   - { t: "Shall vs should", ref: "5.0", level: entry }
-  - { t: "Terms of reference", ref: "2.2", template: true }
+  - { t: "Terms of reference", ref: "2.5", level: entry }
   - { t: "Transfer, risk treatment", ref: "3.3" }
   - { t: "Treatment plan", ref: "3.3", example: true, template: true }
   - { t: "Vocabulary, GRC", ref: "1.2", key: true, level: entry }
+  # --- added with wave 2 (definitional spine, parts 1-2) -------------------
+  - { t: "Risk vs issue vs incident", ref: "1.7", key: true, level: entry }
+  - { t: "Incident vs issue", ref: "1.7" }
+  - { t: "Cyber security vs GRC", ref: "1.8" }
+  - { t: "Is GRC technical", ref: "1.8", level: entry }
+  - { t: "Risk vs compliance", ref: "1.9", key: true, level: entry }
+  - { t: "Compliance vs risk", ref: "1.9" }
+  - { t: "Governance vs management", ref: "2.4", key: true, level: entry }
+  - { t: "Management vs governance", ref: "2.4" }

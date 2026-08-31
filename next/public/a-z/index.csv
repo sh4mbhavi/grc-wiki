@@ -29,8 +29,9 @@ headword,clause,published,worked_example,template,entry_level
 "CISM",6.3,yes,no,no,no
 "CISSP",6.3,yes,no,no,no
 "Committee, risk",2.2,yes,no,no,no
-"Committee, terms of reference",2.2,yes,no,yes,no
+"Committee, terms of reference",2.5,yes,no,no,no
 "Compliance",4.0,yes,no,no,yes
+"Compliance vs risk",1.9,yes,no,no,no
 "Confidentiality criterion",5.4,no,no,no,no
 "Continuous compliance",4.8,no,no,no,no
 "Control",4.1,yes,yes,no,yes
@@ -43,6 +44,7 @@ headword,clause,published,worked_example,template,entry_level
 "Criteria, Trust Services",5.1,yes,no,no,no
 "Crosswalk",5.2,yes,yes,no,no
 "Crosswalk, control",5.2,yes,yes,no,no
+"Cyber security vs GRC",1.8,yes,no,no,no
 "Day in the life, GRC",6.5,yes,no,no,yes
 "Delegated authority matrix",2.3,yes,no,yes,no
 "Design effectiveness",4.2,yes,no,no,no
@@ -60,14 +62,17 @@ headword,clause,published,worked_example,template,entry_level
 "Framework, kinds of",5.0,yes,no,no,yes
 "GIAC (SANS)",6.3,yes,no,no,no
 "Governance",2.0,yes,no,no,yes
+"Governance vs management",2.4,yes,no,no,yes
 "GRC",1.1,yes,yes,no,yes
 "GRC analyst",6.1,yes,no,no,yes
-"GRC vs cyber security",1.6,yes,no,no,yes
+"GRC vs cyber security",1.8,yes,no,no,yes
 "GRC vs internal audit",1.4,yes,no,no,yes
 "Impact scale",3.1,yes,yes,yes,no
+"Incident vs issue",1.7,yes,no,no,no
 "Inherent risk",3.1,yes,no,no,yes
 "Internal audit",1.4,yes,no,no,yes
 "Interview questions, GRC",6.2,yes,no,no,yes
+"Is GRC technical",1.8,yes,no,no,yes
 "ISMS",5.1,yes,no,no,yes
 "ISO 31000",3.0,yes,no,no,no
 "ISO/IEC 27001",5.1,yes,yes,no,no
@@ -77,6 +82,7 @@ headword,clause,published,worked_example,template,entry_level
 "Likelihood scale",3.1,yes,yes,yes,no
 "Lines model, three",1.5,yes,no,no,yes
 "Management review",5.3,yes,no,no,no
+"Management vs governance",2.4,yes,no,no,no
 "Mapping, obligation to control",4.1,yes,yes,no,no
 "Maturity, control",5.9,no,no,no,no
 "Mitigate, risk treatment",3.3,yes,no,no,yes
@@ -102,6 +108,8 @@ headword,clause,published,worked_example,template,entry_level
 "Risk appetite statement",3.2,yes,yes,yes,no
 "Risk matrix",1.1,yes,yes,no,yes
 "Risk treatment",3.3,yes,yes,no,yes
+"Risk vs compliance",1.9,yes,no,no,yes
+"Risk vs issue vs incident",1.7,yes,no,no,yes
 "Roles, GRC",6.0,yes,no,no,yes
 "Sampling",4.3,yes,yes,no,no
 "Scale, risk",3.1,yes,yes,yes,no
@@ -113,7 +121,7 @@ headword,clause,published,worked_example,template,entry_level
 "Standard",2.1,yes,no,no,yes
 "Statement of applicability",5.3,yes,yes,yes,no
 "Supplier risk",3.8,no,yes,no,no
-"Terms of reference",2.2,yes,no,yes,no
+"Terms of reference",2.5,yes,no,no,yes
 "Testing, control",4.2,yes,yes,no,no
 "Third line",1.5,yes,no,no,yes
 "Third-party risk management",3.8,no,yes,yes,no

@@ -269,12 +269,17 @@
     {
      "@type": "DefinedTerm",
      "name": "Committee, terms of reference",
-     "url": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/"
+     "url": "https://grc-wiki.vercel.app/governance/terms-of-reference/"
     },
     {
      "@type": "DefinedTerm",
      "name": "Compliance",
      "url": "https://grc-wiki.vercel.app/compliance/what-compliance-produces/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Compliance vs risk",
+     "url": "https://grc-wiki.vercel.app/foundations/risk-vs-compliance/"
     },
     {
      "@type": "DefinedTerm",
@@ -325,6 +330,11 @@
      "@type": "DefinedTerm",
      "name": "Crosswalk, control",
      "url": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Cyber security vs GRC",
+     "url": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/"
     },
     {
      "@type": "DefinedTerm",
@@ -398,6 +408,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Governance vs management",
+     "url": "https://grc-wiki.vercel.app/governance/governance-vs-management/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "GRC",
      "url": "https://grc-wiki.vercel.app/foundations/what-grc-is/"
     },
@@ -409,7 +424,7 @@
     {
      "@type": "DefinedTerm",
      "name": "GRC vs cyber security",
-     "url": "https://grc-wiki.vercel.app/foundations/who-does-grc-work/"
+     "url": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/"
     },
     {
      "@type": "DefinedTerm",
@@ -420,6 +435,11 @@
      "@type": "DefinedTerm",
      "name": "Impact scale",
      "url": "https://grc-wiki.vercel.app/risk/reading-a-risk-register/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Incident vs issue",
+     "url": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/"
     },
     {
      "@type": "DefinedTerm",
@@ -435,6 +455,11 @@
      "@type": "DefinedTerm",
      "name": "Interview questions, GRC",
      "url": "https://grc-wiki.vercel.app/career/interview-questions/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Is GRC technical",
+     "url": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/"
     },
     {
      "@type": "DefinedTerm",
@@ -475,6 +500,11 @@
      "@type": "DefinedTerm",
      "name": "Management review",
      "url": "https://grc-wiki.vercel.app/frameworks/statement-of-applicability/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Management vs governance",
+     "url": "https://grc-wiki.vercel.app/governance/governance-vs-management/"
     },
     {
      "@type": "DefinedTerm",
@@ -568,6 +598,16 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Risk vs compliance",
+     "url": "https://grc-wiki.vercel.app/foundations/risk-vs-compliance/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Risk vs issue vs incident",
+     "url": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Roles, GRC",
      "url": "https://grc-wiki.vercel.app/career/grc-roles/"
     },
@@ -619,7 +659,7 @@
     {
      "@type": "DefinedTerm",
      "name": "Terms of reference",
-     "url": "https://grc-wiki.vercel.app/governance/committees-and-delegated-authority/"
+     "url": "https://grc-wiki.vercel.app/governance/terms-of-reference/"
     },
     {
      "@type": "DefinedTerm",
@@ -698,7 +738,7 @@
    "name": "Foundations",
    "count": 43,
    "blurb": "What the function is for, the vocabulary, and who does the work.",
-   "published": 7
+   "published": 10
   },
   {
    "n": 2,
@@ -706,7 +746,7 @@
    "name": "Governance",
    "count": 18,
    "blurb": "Policy hierarchy, committees, delegated authority, board reporting.",
-   "published": 4
+   "published": 6
   },
   {
    "n": 3,
@@ -2349,8 +2389,8 @@
     "title": "The three lines model"
    },
    "next": {
-    "ref": "2.0",
-    "title": "What governance produces"
+    "ref": "1.7",
+    "title": "Risk, issue and incident"
    },
    "sections": [
     {
@@ -2526,6 +2566,994 @@
    ]
   },
   {
+   "clause": "1.7",
+   "part": 1,
+   "slug": "risk-issue-incident",
+   "title": "Risk, issue and incident — the difference",
+   "description": "A risk is a possible future effect of uncertainty, an issue is one that has materialised and an incident is a discrete event that has already occurred.",
+   "short_title": "Risk vs issue vs incident",
+   "keywords": [
+    "risk vs issue vs incident",
+    "difference between a risk and an issue",
+    "what is an issue in risk management",
+    "is an issue a realised risk",
+    "risk issue incident difference"
+   ],
+   "defines": "",
+   "reviewed": "2026-08-18",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 6,
+   "canonical_entry": false,
+   "quick_facts": {
+    "concepts": "3",
+    "risk": "Future/uncertain",
+    "issue": "Present/certain",
+    "incident": "Past/occurred",
+    "logged in": "3 records"
+   },
+   "related": [
+    "3.0",
+    "3.1",
+    "1.3"
+   ],
+   "sources": [
+    "ISO 31000:2018 — Risk management, guidelines (risk defined as the effect of uncertainty on objectives, clause 3.1)",
+    "ISO/IEC 27000:2018 — Information security management systems, overview and vocabulary (information security event and information security incident)",
+    "ISO/IEC 27035-1:2023 — Information security incident management, principles and process",
+    "\"Issue\" has no single ISO definition; the term is used in common operational and project-management practice for a present problem already affecting delivery"
+   ],
+   "prev": {
+    "ref": "1.6",
+    "title": "Who does GRC work"
+   },
+   "next": {
+    "ref": "1.8",
+    "title": "GRC vs cyber security"
+   },
+   "sections": [
+    {
+     "id": "the-three-defined",
+     "clause": "1.7.1",
+     "text": "The three, defined"
+    },
+    {
+     "id": "tense-is-the-whole-distinction",
+     "clause": "1.7.2",
+     "text": "Tense is the whole distinction"
+    },
+    {
+     "id": "where-each-is-logged-and-who-owns-it",
+     "clause": "1.7.3",
+     "text": "Where each is logged, and who owns it"
+    },
+    {
+     "id": "how-one-becomes-another",
+     "clause": "1.7.4",
+     "text": "How one becomes another"
+    },
+    {
+     "id": "why-mixing-them-corrupts-the-register",
+     "clause": "1.7.5",
+     "text": "Why mixing them corrupts the register"
+    },
+    {
+     "id": "common-questions",
+     "clause": "1.7.6",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/foundations/risk-issue-incident/",
+   "part_slug": "foundations",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "A risk is a possible future effect of uncertainty — it has not happened yet. An\nissue is a risk that has materialised, or a present problem demanding action\nnow. An incident is a discrete event that has already occurred, often a control\nfailure or a security event."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The distinction is one of tense. Risk is future and uncertain, issue is present\nand certain, incident has already occurred — though its consequences may still be\nunfolding. Where each is logged, who owns it and what happens next all follow\nfrom where the thing sits on that timeline.</p>\n<p>Practitioners collapse the three constantly, and the collapse is not cosmetic.\nAn incident filed as a risk overstates open exposure — it counts a thing that\nalready happened as a thing that might. A live issue left in the register as a\n&ldquo;risk&rdquo; hides that action is already overdue. Either way the register stops\ndescribing the world.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-three-defined",
+     "clause": "1.7.1",
+     "alias": "c1-7-1",
+     "text": "The three, defined"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Risk",
+       "html": "A possible future effect of uncertainty on objectives — something that has not happened and may not. ISO 31000:2018 defines it as the &ldquo;effect of uncertainty on objectives&rdquo;, where an effect is a deviation from the expected, in either direction."
+      },
+      {
+       "term": "Issue",
+       "html": "A risk that has materialised, or a present problem that needs action now. It has no single ISO definition; in common operational and project-management usage it names a condition already affecting delivery that must be managed, as distinct from a risk that only might."
+      },
+      {
+       "term": "Incident",
+       "html": "A discrete event that has already occurred, typically a control failure or, in security, an unwanted event that harms operations. ISO/IEC 27000 separates an information security <em>event</em> — something happened that may matter — from an <em>incident</em>, an event or series with significant potential to compromise operations."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "tense-is-the-whole-distinction",
+     "clause": "1.7.2",
+     "alias": "c1-7-2",
+     "text": "Tense is the whole distinction"
+    },
+    {
+     "type": "prose",
+     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Concept</th>\n<th>Tense</th>\n<th>Where it is logged</th>\n<th>Who acts</th>\n<th>Worked example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Risk</td>\n<td>Future, uncertain</td>\n<td>Risk register</td>\n<td>Risk owner</td>\n<td>A key supplier could fail and take checkout down</td>\n</tr>\n<tr>\n<td>Issue</td>\n<td>Present, certain</td>\n<td>Issue log</td>\n<td>Action owner</td>\n<td>The supplier has raised prices past budget and a decision is needed this quarter</td>\n</tr>\n<tr>\n<td>Incident</td>\n<td>Past, occurred</td>\n<td>Incident log or ticketing</td>\n<td>Incident responder</td>\n<td>The supplier&rsquo;s outage took checkout down for 90 minutes on 14 August</td>\n</tr>\n</tbody>\n</table></div>\n<p>The example column runs one thread through all three deliberately. The same\nsupplier is a risk while the failure is hypothetical, an issue the moment a\npresent problem needs deciding, and an incident once an event has actually\nlanded. Nothing about the supplier changed; the tense did.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-each-is-logged-and-who-owns-it",
+     "clause": "1.7.3",
+     "alias": "c1-7-3",
+     "text": "Where each is logged, and who owns it"
+    },
+    {
+     "type": "prose",
+     "html": "<p>These arrangements are common practice rather than anything a standard mandates.\nA risk lives in the risk register and, in most schemes, belongs to a named risk\nowner — one person who can authorise its treatment rather than a team (see\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>). An issue lives in an issue log, sometimes\na tab on the same spreadsheet and sometimes a separate action tracker, and\nbelongs to whoever owns closing it. An incident lives in an incident log or the\nticketing system and belongs to the responder handling it until it is contained\nand reviewed.</p>\n<p>They are kept as separate records for the same reason the three concepts are\nseparate (see <a href=\"/foundations/four-artefacts/\">1.3</a>): a single document that mixes\nfuture exposure with present problems and past events cannot be sorted, counted\nor reported without first pulling the three back apart.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "how-one-becomes-another",
+     "clause": "1.7.4",
+     "alias": "c1-7-4",
+     "text": "How one becomes another"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A risk becomes an issue at the moment it materialises. The uncertain future\neffect is now a present fact, and it moves from the register — where it was being\nwatched — to the issue log, where it gets an action owner and a due date. The\nrisk line does not simply vanish; it is marked as realised and cross-referenced,\nso the history survives the question an auditor asks after the fact. Nor does the\nrisk always close: recurrence or knock-on uncertainty can keep a line open on the\nregister even after this instance has landed.</p>\n<p>An incident runs the other way. A single event can open several new risks — what\nelse is exposed the same way — and several issues that must be fixed now, and\nclosing it well usually means adding or strengthening a control. That control\nchanges the residual score of the risk the incident sat under, which is the\npoint at which the incident log, the issue log and the register are meant to\nreconcile. When they do not, one of the three is lying.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "why-mixing-them-corrupts-the-register",
+     "clause": "1.7.5",
+     "alias": "c1-7-5",
+     "text": "Why mixing them corrupts the register"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A register that quietly fills with issues and incidents is no longer a risk\nregister; it is a to-do list with scores on it. Two specific corruptions follow,\nand both are common.</p>\n<p>An incident logged as a risk overstates open exposure. Risk reporting counts\nwhat is open and above appetite, so a past event sitting in that total is read as\na live threat and the risk picture looks worse than reality — or the incident&rsquo;s\none-off severity inflates a score that then never comes back down.</p>\n<p>A live issue left in the register as a &ldquo;risk&rdquo; does the opposite and hides that\naction is already required. A risk carries a treatment decision and a review\ndate; an issue carries an owner and a deadline. Dressed as a risk, an overdue\nproblem reads as something merely being monitored, and the deadline that should\nbe escalating does not exist.</p>\n<p>The tell, when reviewing someone else&rsquo;s register, is a row whose statement is in\nthe past tense. &ldquo;Supplier X failed and checkout was down&rdquo; is not a risk — it\nalready happened. It belongs in the incident log, with whatever new risk it\nexposed rewritten as its own forward-looking line.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "1.7.6",
+     "alias": "c1-7-6",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is an issue just a realised risk?",
+       "id": "faq-is-an-issue-just-a-realised-risk",
+       "html": "<p>Often, but not only. Many issues began as a risk on the register that then\nmaterialised — the supplier you flagged did raise its prices. But an issue can\nalso be a present problem nobody had logged as a risk: a defect found in\nproduction, a control that turns out never to have run. The test is not where it\ncame from but its tense — an issue is a problem that exists now and needs a\ndecision now, whatever its history.</p>\n<p>Treating every issue as a &ldquo;realised risk&rdquo; also tempts you to reopen the risk\nline and re-score it, when what the issue actually needs is an action owner and a\ndate, not a fresh likelihood.</p>"
+      },
+      {
+       "q": "What is the difference between an issue and an incident?",
+       "id": "faq-what-is-the-difference-between-an-issue-and-an-incident",
+       "html": "<p>An incident is a discrete event that occurred at a point in time — an outage, a\nbreach, a control failure — and in security ISO/IEC 27000 draws a further line\nbetween an <em>event</em> (something happened that might matter) and an <em>incident</em> (an\nevent, or series, likely to harm operations). An issue is broader and need not\nbe a single event: a supplier that keeps missing SLAs, a project running over\nbudget or an unresolved control gap are all issues without being incidents.</p>\n<p>Put plainly, an incident is something that happened; an issue is something that\nis wrong. An incident is closed once it is contained and reviewed; an issue is\nclosed once the underlying problem is resolved.</p>"
+      },
+      {
+       "q": "Does every incident create a risk?",
+       "id": "faq-does-every-incident-create-a-risk",
+       "html": "<p>No, but a serious one usually should. The value of an incident to the risk\nfunction is what it reveals — an incident that exploited a control gap is\nevidence the residual risk was understated, and the post-incident review is\nwhere that score gets corrected and a new treatment added. An incident fully\ncontained by controls working as designed confirms the existing risk rather than\nopening a new one.</p>\n<p>The failure mode is the incident that closes with a &ldquo;lessons learned&rdquo; slide and\nnever touches the register, so the same event recurs against a risk line that\nstill reads green.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Foundations",
+       "item": "https://grc-wiki.vercel.app/foundations/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Risk, issue and incident — the difference",
+       "item": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/#article",
+     "headline": "Risk, issue and incident — the difference",
+     "name": "Risk, issue and incident — the difference",
+     "description": "A risk is a possible future effect of uncertainty, an issue is one that has materialised and an incident is a discrete event that has already occurred.",
+     "url": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Foundations",
+     "wordCount": 1252,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-18",
+     "datePublished": "2026-08-18",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO 31000:2018 — Risk management, guidelines (risk defined as the effect of uncertainty on objectives, clause 3.1)",
+      "ISO/IEC 27000:2018 — Information security management systems, overview and vocabulary (information security event and information security incident)",
+      "ISO/IEC 27035-1:2023 — Information security incident management, principles and process",
+      "\"Issue\" has no single ISO definition; the term is used in common operational and project-management practice for a present problem already affecting delivery"
+     ],
+     "keywords": "risk vs issue vs incident, difference between a risk and an issue, what is an issue in risk management, is an issue a realised risk, risk issue incident difference"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is an issue just a realised risk?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often, but not only. Many issues began as a risk on the register that then materialised — the supplier you flagged did raise its prices. But an issue can also be a present problem nobody had logged as a risk: a defect found in production, a control that turns out never to have run. The test is not where it came from but its tense — an issue is a problem that exists now and needs a decision now, whatever its history. Treating every issue as a &ldquo;realised risk&rdquo; also tempts you to reopen the risk line and re-score it, when what the issue actually needs is an action owner and a date, not a fresh likelihood."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is the difference between an issue and an incident?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An incident is a discrete event that occurred at a point in time — an outage, a breach, a control failure — and in security ISO/IEC 27000 draws a further line between an event (something happened that might matter) and an incident (an event, or series, likely to harm operations). An issue is broader and need not be a single event: a supplier that keeps missing SLAs, a project running over budget or an unresolved control gap are all issues without being incidents. Put plainly, an incident is something that happened; an issue is something that is wrong. An incident is closed once it is contained and reviewed; an issue is closed once the underlying problem is resolved."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does every incident create a risk?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, but a serious one usually should. The value of an incident to the risk function is what it reveals — an incident that exploited a control gap is evidence the residual risk was understated, and the post-incident review is where that score gets corrected and a new treatment added. An incident fully contained by controls working as designed confirms the existing risk rather than opening a new one. The failure mode is the incident that closes with a &ldquo;lessons learned&rdquo; slide and never touches the register, so the same event recurs against a risk line that still reads green."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "1.8",
+   "part": 1,
+   "slug": "grc-vs-cyber-security",
+   "title": "GRC vs cyber security",
+   "description": "Cyber security builds and operates the defences; GRC governs, measures and evidences them. Where the two meet, and why GRC is not a technical security role.",
+   "short_title": "GRC vs cyber security",
+   "keywords": [
+    "GRC vs cyber security",
+    "is GRC cyber security",
+    "is GRC a technical role",
+    "does GRC sit under the CISO",
+    "GRC vs security"
+   ],
+   "defines": "",
+   "reviewed": "2026-08-28",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 6,
+   "canonical_entry": false,
+   "quick_facts": {
+    "GRC does": "Governs & evidences",
+    "Security does": "Builds & defends",
+    "they meet at": "The control",
+    "GRC is technical": "False",
+    "reports to": "Varies"
+   },
+   "related": [
+    "1.1",
+    "1.4",
+    "6.0"
+   ],
+   "sources": [
+    "NIST Cybersecurity Framework 2.0, February 2024 (the Govern function)",
+    "ISO/IEC 27001:2022 — Information security management systems, requirements"
+   ],
+   "prev": {
+    "ref": "1.7",
+    "title": "Risk, issue and incident"
+   },
+   "next": {
+    "ref": "1.9",
+    "title": "Risk vs compliance"
+   },
+   "sections": [
+    {
+     "id": "the-comparison",
+     "clause": "1.8.1",
+     "text": "The comparison"
+    },
+    {
+     "id": "where-they-overlap",
+     "clause": "1.8.2",
+     "text": "Where they overlap"
+    },
+    {
+     "id": "where-people-wrongly-merge-them",
+     "clause": "1.8.3",
+     "text": "Where people wrongly merge them"
+    },
+    {
+     "id": "where-grc-reports",
+     "clause": "1.8.4",
+     "text": "Where GRC reports"
+    },
+    {
+     "id": "common-questions",
+     "clause": "1.8.5",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/foundations/grc-vs-cyber-security/",
+   "part_slug": "foundations",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "GRC and cyber security are <strong>different disciplines that meet at the control</strong>.\nCyber security builds and operates the defences; GRC governs, measures and\nevidences them. GRC is not a technical security role."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The two get merged because in a technology company they are often the same\nbudget and sometimes the same team. A security engineer configures the firewall;\nthe GRC analyst three desks away writes the standard that says the firewall must\nexist, checks that it does and hands the proof to an auditor. Same subject,\ndifferent sentence — one operates, the other governs and records.</p>\n<p>The distinction holds even where the org chart hides it, because the two roles\nfail in different ways. Security fails when the defences do not stop or contain\nthe attack. GRC fails when the control worked and nobody can prove it did.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-comparison",
+     "clause": "1.8.1",
+     "alias": "c1-8-1",
+     "text": "The comparison"
+    },
+    {
+     "type": "versus",
+     "sides": [
+      {
+       "name": "GRC",
+       "badge": "GOVERNS & EVIDENCES",
+       "html": "Decides which controls the organisation is obliged to run, defines what\n&ldquo;working&rdquo; means, checks that they run and keeps the evidence a customer or\nauditor will ask for."
+      },
+      {
+       "name": "Cyber security",
+       "badge": "BUILDS & DEFENDS",
+       "html": "Designs, builds and operates the defences — firewalls, identity, monitoring and\nincident response — and answers to whether an attack is stopped, not to whether\nthe paperwork exists."
+      }
+     ]
+    },
+    {
+     "type": "attrs",
+     "a": "GRC",
+     "b": "Cyber security",
+     "rows": [
+      {
+       "attr": "The question it answers",
+       "a": "Can we prove the control is required, owned and operating?",
+       "av": "",
+       "b": "Does the defence actually stop the attack?",
+       "bv": ""
+      },
+      {
+       "attr": "Primary output",
+       "a": "Evidence, policy, register",
+       "av": "",
+       "b": "Configured, running defences",
+       "bv": ""
+      },
+      {
+       "attr": "Relationship to the control",
+       "a": "Requires and evidences it",
+       "av": "",
+       "b": "Builds and operates it",
+       "bv": ""
+      },
+      {
+       "attr": "Measured on",
+       "a": "Audit and assessment outcomes",
+       "av": "",
+       "b": "Incidents prevented and contained",
+       "bv": ""
+      },
+      {
+       "attr": "Typical background",
+       "a": "Audit, risk, compliance, IT",
+       "av": "",
+       "b": "Engineering, networks, security operations",
+       "bv": ""
+      },
+      {
+       "attr": "Reports to",
+       "a": "Varies — CISO, risk, legal or COO",
+       "av": "",
+       "b": "Usually the CISO",
+       "bv": ""
+      },
+      {
+       "attr": "Fails when",
+       "a": "The control worked but nobody can prove it",
+       "av": "",
+       "b": "The defence does not stop or contain the attack",
+       "bv": ""
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>The &ldquo;relationship to the control&rdquo; row is where the two most often get miscast.\nSecurity operates the control; GRC establishes that it is required, that a named\nperson owns it and that it ran — while the control itself is usually owned by the\nbusiness or system owner, not by either function. Neither role covers the other,\nwhich is why one function cannot simply absorb the work of the other.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-they-overlap",
+     "clause": "1.8.2",
+     "alias": "c1-8-2",
+     "text": "Where they overlap"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Both live at the control, and that is the whole source of the confusion. A single\naccess-review control is designed and run by security, and separately recorded by\nGRC as required, owned by a named person and operated on a schedule — the last\npart being the evidence. Neither produces the audit outcome alone: a control that\nruns but is undocumented fails the audit, and a documented control that does not\nrun fails the attack.</p>\n<p>NIST CSF 2.0 made the split easier to see. Its February 2024 revision added a\nsixth function, GOVERN, alongside the five operational functions — Identify,\nProtect, Detect, Respond, Recover — precisely because organisations were maturing\ndefences with nobody owning the decisions, roles and oversight behind them.\nGOVERN is not a seventh silo, though: it sits across the framework and informs how\nthe other five are run. It elevates the governance and risk-oversight outcomes a\nsecurity-GRC role tends to concentrate on, while the operational functions are\nwhere the defences are built and run — the same framework, holding both kinds of\nwork.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-people-wrongly-merge-them",
+     "clause": "1.8.3",
+     "alias": "c1-8-3",
+     "text": "Where people wrongly merge them"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Two mistakes recur. The first is imagining a GRC analyst configures firewalls.\nThe daily tools of GRC are documents, interviews and evidence requests; the\nanalyst reads a system diagram and challenges an engineer&rsquo;s answer but does not\ntouch the console. Hiring a GRC analyst to harden systems, or a security engineer\nto run an ISO 27001 audit programme, produces someone doing half of each job\nbadly.</p>\n<p>The second is assuming a strong security team makes GRC redundant — that if the\ndefences are genuinely good, the governance layer is overhead. It does not\nfollow. An auditor does not accept &ldquo;our security team is excellent&rdquo; as evidence,\nand a customer&rsquo;s procurement questionnaire does not accept it either. ISO/IEC\n27001 certification assesses whether the ISMS is implemented and effective, which\nturns on documented information and objective evidence that the controls operate\n— not on the operator&rsquo;s confidence that they do. Excellent security with no\nevidence trail struggles to demonstrate an effective ISMS, and cannot be sold to\na buyer who requires certification.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-grc-reports",
+     "clause": "1.8.4",
+     "alias": "c1-8-4",
+     "text": "Where GRC reports"
+    },
+    {
+     "type": "prose",
+     "html": "<p>There is no single answer, and the honest one is that the reporting line varies\nby organisation. GRC reports to the CISO in many technology companies, where the\nwork is mostly security compliance and that is where it already sits. It reports\nto a Chief Risk Officer where risk is a board-level function in its own right,\ncommon in financial services. It reports to legal or the General Counsel where\nthe binding obligations are contractual and regulatory more than technical, and\nto the COO where GRC is treated as operational assurance spanning more than\nsecurity.</p>\n<p>What drives the choice is the breadth of the mandate. A function scoped to\ninformation security alone tends to sit under the CISO. One that also covers\nprivacy, financial reporting, health and safety or supplier conduct cannot sit\ncleanly under security, because it would then be governing controls its own boss\noperates — the self-review problem under another name.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "1.8.5",
+     "alias": "c1-8-5",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is GRC cyber security?",
+       "id": "faq-is-grc-cyber-security",
+       "html": "<p>No, though in a technology company the two overlap enough to be staffed from one\nteam. Cyber security is one obligation domain GRC covers, alongside privacy,\nfinancial reporting and whatever else binds the organisation. Security builds and\noperates the defence; GRC decides the defence is required, checks it runs and\nkeeps the proof. Where a company does only security compliance, &ldquo;GRC&rdquo; and\n&ldquo;security&rdquo; can look like the same job — the boundary gets clearer the broader the\nmandate is.</p>"
+      },
+      {
+       "q": "Is GRC a technical role?",
+       "id": "faq-is-grc-a-technical-role",
+       "html": "<p>Not in the sense of configuring systems, though it is a literate one. You need to\nread a network diagram, follow an engineer&rsquo;s explanation and challenge it; you do\nnot need to build or run the system. The daily work is documents, interviews and\nevidence. It varies with seniority and company — a GRC engineer automating\nevidence collection sits closer to the console than a compliance analyst chasing\na quarterly access review — but the core skill is judgement about obligations and\nproof, not hands on the firewall.</p>"
+      },
+      {
+       "q": "Does GRC sit under the CISO?",
+       "id": "faq-does-grc-sit-under-the-ciso",
+       "html": "<p>Sometimes, not always. It reports to the CISO where its scope is information\nsecurity; to a Chief Risk Officer, legal or the COO where the mandate is broader\nthan security. A GRC function that governs controls the CISO&rsquo;s own team operates\nhas an independence problem if it also reports to that CISO, which is one reason\nlarger organisations move it out from under security as it grows.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Foundations",
+       "item": "https://grc-wiki.vercel.app/foundations/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "GRC vs cyber security",
+       "item": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/#article",
+     "headline": "GRC vs cyber security",
+     "name": "GRC vs cyber security",
+     "description": "Cyber security builds and operates the defences; GRC governs, measures and evidences them. Where the two meet, and why GRC is not a technical security role.",
+     "url": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Foundations",
+     "wordCount": 943,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-28",
+     "datePublished": "2026-08-28",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "NIST Cybersecurity Framework 2.0, February 2024 (the Govern function)",
+      "ISO/IEC 27001:2022 — Information security management systems, requirements"
+     ],
+     "keywords": "GRC vs cyber security, is GRC cyber security, is GRC a technical role, does GRC sit under the CISO, GRC vs security"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/foundations/grc-vs-cyber-security/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is GRC cyber security?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, though in a technology company the two overlap enough to be staffed from one team. Cyber security is one obligation domain GRC covers, alongside privacy, financial reporting and whatever else binds the organisation. Security builds and operates the defence; GRC decides the defence is required, checks it runs and keeps the proof. Where a company does only security compliance, &ldquo;GRC&rdquo; and &ldquo;security&rdquo; can look like the same job — the boundary gets clearer the broader the mandate is."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is GRC a technical role?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not in the sense of configuring systems, though it is a literate one. You need to read a network diagram, follow an engineer&rsquo;s explanation and challenge it; you do not need to build or run the system. The daily work is documents, interviews and evidence. It varies with seniority and company — a GRC engineer automating evidence collection sits closer to the console than a compliance analyst chasing a quarterly access review — but the core skill is judgement about obligations and proof, not hands on the firewall."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does GRC sit under the CISO?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes, not always. It reports to the CISO where its scope is information security; to a Chief Risk Officer, legal or the COO where the mandate is broader than security. A GRC function that governs controls the CISO&rsquo;s own team operates has an independence problem if it also reports to that CISO, which is one reason larger organisations move it out from under security as it grows."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "1.9",
+   "part": 1,
+   "slug": "risk-vs-compliance",
+   "title": "Risk vs compliance",
+   "description": "Risk and compliance use the same controls to answer different questions: is our exposure within appetite, and can we prove we meet our obligations.",
+   "short_title": "Risk vs compliance",
+   "keywords": [
+    "risk vs compliance",
+    "difference between risk and compliance",
+    "is compliance part of risk management",
+    "compliant but not secure"
+   ],
+   "defines": "",
+   "reviewed": "2026-08-19",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 6,
+   "canonical_entry": false,
+   "quick_facts": {
+    "Risk asks": "Within appetite?",
+    "Compliance asks": "Can we prove it?",
+    "Shared": "Controls and register",
+    "Risk reports to": "Risk committee",
+    "Compliance reports to": "Audit committee",
+    "Compliance is": "A floor not a ceiling"
+   },
+   "related": [
+    "3.0",
+    "4.0",
+    "1.1"
+   ],
+   "sources": [
+    "ISO 31000:2018 — Risk management, guidelines",
+    "ISO 37301:2021 — Compliance management systems, requirements with guidance for use",
+    "COSO, Internal Control — Integrated Framework, 2013"
+   ],
+   "prev": {
+    "ref": "1.8",
+    "title": "GRC vs cyber security"
+   },
+   "next": {
+    "ref": "2.0",
+    "title": "What governance produces"
+   },
+   "sections": [
+    {
+     "id": "the-comparison",
+     "clause": "1.9.1",
+     "text": "The comparison"
+    },
+    {
+     "id": "the-overlap",
+     "clause": "1.9.2",
+     "text": "The overlap"
+    },
+    {
+     "id": "where-they-pull-apart",
+     "clause": "1.9.3",
+     "text": "Where they pull apart"
+    },
+    {
+     "id": "how-they-report",
+     "clause": "1.9.4",
+     "text": "How they report"
+    },
+    {
+     "id": "the-short-version",
+     "clause": "1.9.5",
+     "text": "The short version"
+    },
+    {
+     "id": "common-questions",
+     "clause": "1.9.6",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/foundations/risk-vs-compliance/",
+   "part_slug": "foundations",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "Risk and compliance <strong>use the same controls to answer different questions</strong>.\nRisk asks what could hurt the organisation and whether the exposure sits within\nappetite. Compliance asks what the organisation is required to do and whether it\ncan prove it did."
+    },
+    {
+     "type": "prose",
+     "html": "<p>Most of the time the two answers agree, which is why the same overlapping team\nruns both off one register. A single quarterly access review treats the risk of\nexcessive access and evidences the obligation to review it — one control, logged\ntwice. The distinction only becomes load-bearing when the two answers disagree:\nwhen a control passes its compliance test and the risk behind it is still outside\nappetite, or when a risk the business is willing to carry runs straight into an\nobligation it is not allowed to carry.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-comparison",
+     "clause": "1.9.1",
+     "alias": "c1-9-1",
+     "text": "The comparison"
+    },
+    {
+     "type": "versus",
+     "sides": [
+      {
+       "name": "Risk",
+       "badge": "EXPOSURE & APPETITE",
+       "html": "Begins with what could go wrong, sizes it against the objectives and asks\nwhether the residual sits inside appetite. The register is never finished; the\nexposure keeps moving."
+      },
+      {
+       "name": "Compliance",
+       "badge": "OBLIGATION & EVIDENCE",
+       "html": "Begins from the obligations that bind it — law, contract, standard — maps each to\na control and keeps the proof it operated. Each obligation is either evidenced\nor open."
+      }
+     ]
+    },
+    {
+     "type": "attrs",
+     "a": "Risk",
+     "b": "Compliance",
+     "rows": [
+      {
+       "attr": "Driven by",
+       "a": "Exposure and appetite",
+       "av": "",
+       "b": "Obligation and evidence",
+       "bv": ""
+      },
+      {
+       "attr": "The question",
+       "a": "\"What could hurt us, and is it within appetite?\"",
+       "av": "",
+       "b": "\"What are we required to do, and can we prove it?\"",
+       "bv": ""
+      },
+      {
+       "attr": "Measured on",
+       "a": "Residual exposure against appetite",
+       "av": "",
+       "b": "Obligations evidenced against obligations open",
+       "bv": ""
+      },
+      {
+       "attr": "When it is \"done\"",
+       "a": "Never — re-scored as the exposure moves",
+       "av": "",
+       "b": "Per obligation, when its evidence is current — the system itself never stops",
+       "bv": ""
+      },
+      {
+       "attr": "Fails when",
+       "a": "Exposure sits above appetite and nobody owns the treatment",
+       "av": "",
+       "b": "A control has no evidence, or an obligation no control",
+       "bv": ""
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>ISO 31000 defines risk as the effect of uncertainty on objectives and has the\norganisation evaluate it against risk criteria, which typically encode the\nappetite governance has set. ISO 37301 builds the other side into an ongoing\nmanagement system — one of monitoring, evaluation and improvement — whose unit of\nwork is the compliance obligation: a requirement you must meet or a commitment you\nhave chosen to. COSO supplies the join: a control is the response to a risk to an\nobjective, and the same control is often what a compliance regime points to as\nproof. The controls are shared. The questions asked of them are not.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-overlap",
+     "clause": "1.9.2",
+     "alias": "c1-9-2",
+     "text": "The overlap"
+    },
+    {
+     "type": "prose",
+     "html": "<p>In most teams the two live in one register, and a control carries two keys: the\nrisk it treats and the obligation it evidences. The access review above is the\nordinary case — raised as a treatment for an access risk, cited as evidence\nagainst an access-control obligation, closed once with a single artefact.</p>\n<p>Running them as two registers is the common mistake in a young programme. It\nproduces two control inventories that drift apart, two owners for the same\nreview and a control that is marked effective on the compliance side while the\nrisk it was meant to reduce sits open on the other. One register with two keys —\nhowever it is physically stored — is the arrangement that tends to survive an\naudit.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-they-pull-apart",
+     "clause": "1.9.3",
+     "alias": "c1-9-3",
+     "text": "Where they pull apart"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The value is in the two cases where a clean answer on one side is worthless on\nthe other.</p>\n<p>A fully compliant control can still leave risk above appetite. Compliance is\na floor, not a ceiling. Multi-factor authentication is required by policy and the\nevidence shows it running — the obligation is met and the test passes. If it is\nnot enforced on a legacy login path, the account-takeover exposure is still\noutside appetite. The compliance answer is green; the risk answer is red; both\nare correct. Meeting the obligation says only that the obligation&rsquo;s bar was\ncleared, never that the bar was set where your exposure actually is.</p>\n<p>An accepted risk can still breach an obligation you cannot accept your way out\nof. Acceptance — retaining a risk by informed decision, in ISO 31000&rsquo;s terms — is\na legitimate treatment: the business may formally decide to carry a risk. That\ndecision has no force against a binding obligation. A retention rule fixed in law is breached whether or not the risk\ncommittee signed off carrying it — you can accept a risk, you cannot accept a\nstatute. When acceptance is the treatment, the compliance question has to be\nasked separately, because it is the one the acceptance cannot answer.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "how-they-report",
+     "clause": "1.9.4",
+     "alias": "c1-9-4",
+     "text": "How they report"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The two answers go to different rooms, in different shapes.</p>\n<p>Risk reports exposure against appetite to a risk committee: where the residual\nsits, which items have moved and what is above appetite still waiting on a\ntreatment. The unit is a risk, and the question in the room is whether the\norganisation is carrying more than it agreed to.</p>\n<p>Compliance reports obligations met against obligations open to a compliance or\naudit committee: which obligations have current evidence, which have gaps and\nwhich are in breach. The unit is an obligation, and the question in the room is\nwhether anything the organisation is bound by is unproven or unmet.</p>\n<p>An item can be comfortable in one report and alarming in the other. That is not\na reporting error — it is the two functions doing their separate jobs on the same\ncontrol.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-short-version",
+     "clause": "1.9.5",
+     "alias": "c1-9-5",
+     "text": "The short version"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Ask which question is on the table. If it is &ldquo;are we carrying more than we agreed\nto&rdquo;, it is risk, and the answer is measured against appetite. If it is &ldquo;can we\nprove we meet what binds us&rdquo;, it is compliance, and the answer is measured\nagainst the obligation. The controls are the same; treat the two answers as\nindependent, because the day they disagree is the day both matter.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "1.9.6",
+     "alias": "c1-9-6",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is compliance part of risk management?",
+       "id": "faq-is-compliance-part-of-risk-management",
+       "html": "<p>It depends who you ask, and both answers are defensible. To a risk function\nworking in COSO or ISO 31000 terms, non-compliance is one category of risk, so\ncompliance sits inside enterprise risk as a subset. To a compliance function\nunder ISO 37301, compliance is its own management system with obligations that\nexist whether or not anyone has scored them as risky — a peer, not a subset.</p>\n<p>In practice it is both. The obligation exists on its own footing; the exposure\ncreated by failing it is managed as a risk. Teams that insist on one framing\nusually do it to settle who owns the register, which is a reporting-line question\ndressed up as a definitional one.</p>"
+      },
+      {
+       "q": "Can you be compliant but not secure?",
+       "id": "faq-can-you-be-compliant-but-not-secure",
+       "html": "<p>Routinely. Compliance is a floor: it confirms the obligation&rsquo;s bar was cleared,\nnot that the bar matches your exposure. A control can pass every compliance test\nand still leave a risk above appetite, because the obligation demanded less than\nyour situation needs — an old standard, a narrow contract clause, a control that\nruns but not everywhere it has to.</p>\n<p>The reverse happens too. A well-secured system can hold an obligation open\nbecause the evidence was never captured in the form an assessor accepts. Secure\nand compliant are correlated, not the same measurement.</p>"
+      },
+      {
+       "q": "Which comes first, risk or compliance?",
+       "id": "faq-which-comes-first-risk-or-compliance",
+       "html": "<p>It turns on the trigger. If a regulator, contract or standard already binds you,\ncompliance comes first — the obligation exists regardless of how your risk\nassessment comes out, and you cannot risk-assess your way out of it. If you are\ndeciding where to spend a fixed control budget, risk comes first, because it\ntells you which threats to objectives are worth the money.</p>\n<p>In a mature programme the ordering dissolves: obligations and risks feed one\nregister, and each control is justified by both the exposure it reduces and the\nobligation it satisfies.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Foundations",
+       "item": "https://grc-wiki.vercel.app/foundations/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Risk vs compliance",
+       "item": "https://grc-wiki.vercel.app/foundations/risk-vs-compliance/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/foundations/risk-vs-compliance/#article",
+     "headline": "Risk vs compliance",
+     "name": "Risk vs compliance",
+     "description": "Risk and compliance use the same controls to answer different questions: is our exposure within appetite, and can we prove we meet our obligations.",
+     "url": "https://grc-wiki.vercel.app/foundations/risk-vs-compliance/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/foundations/risk-vs-compliance/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Foundations",
+     "wordCount": 1090,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-19",
+     "datePublished": "2026-08-19",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO 31000:2018 — Risk management, guidelines",
+      "ISO 37301:2021 — Compliance management systems, requirements with guidance for use",
+      "COSO, Internal Control — Integrated Framework, 2013"
+     ],
+     "keywords": "risk vs compliance, difference between risk and compliance, is compliance part of risk management, compliant but not secure"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/foundations/risk-vs-compliance/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is compliance part of risk management?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends who you ask, and both answers are defensible. To a risk function working in COSO or ISO 31000 terms, non-compliance is one category of risk, so compliance sits inside enterprise risk as a subset. To a compliance function under ISO 37301, compliance is its own management system with obligations that exist whether or not anyone has scored them as risky — a peer, not a subset. In practice it is both. The obligation exists on its own footing; the exposure created by failing it is managed as a risk. Teams that insist on one framing usually do it to settle who owns the register, which is a reporting-line question dressed up as a definitional one."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you be compliant but not secure?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Routinely. Compliance is a floor: it confirms the obligation&rsquo;s bar was cleared, not that the bar matches your exposure. A control can pass every compliance test and still leave a risk above appetite, because the obligation demanded less than your situation needs — an old standard, a narrow contract clause, a control that runs but not everywhere it has to. The reverse happens too. A well-secured system can hold an obligation open because the evidence was never captured in the form an assessor accepts. Secure and compliant are correlated, not the same measurement."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Which comes first, risk or compliance?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It turns on the trigger. If a regulator, contract or standard already binds you, compliance comes first — the obligation exists regardless of how your risk assessment comes out, and you cannot risk-assess your way out of it. If you are deciding where to spend a fixed control budget, risk comes first, because it tells you which threats to objectives are worth the money. In a mature programme the ordering dissolves: obligations and risks feed one register, and each control is justified by both the exposure it reduces and the obligation it satisfies."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "clause": "2.0",
    "part": 2,
    "slug": "what-governance-produces",
@@ -2560,8 +3588,8 @@
     "NIST Cybersecurity Framework 2.0, Govern (GV) function, 2024"
    ],
    "prev": {
-    "ref": "1.6",
-    "title": "Who does GRC work"
+    "ref": "1.9",
+    "title": "Risk vs compliance"
    },
    "next": {
     "ref": "2.1",
@@ -3238,8 +4266,8 @@
     "title": "Committees and delegated authority"
    },
    "next": {
-    "ref": "3.0",
-    "title": "What the risk function produces"
+    "ref": "2.4",
+    "title": "Governance vs management"
    },
    "sections": [
     {
@@ -3409,6 +4437,664 @@
    ]
   },
   {
+   "clause": "2.4",
+   "part": 2,
+   "slug": "governance-vs-management",
+   "title": "Governance vs management",
+   "description": "Governance sets direction, appetite and accountability; management runs the organisation within it. Where the deciding-versus-doing line blurs and fails.",
+   "short_title": "Governance vs management",
+   "keywords": [
+    "governance vs management",
+    "difference between governance and management",
+    "board vs management",
+    "corporate governance vs management"
+   ],
+   "defines": "",
+   "reviewed": "2026-08-20",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 6,
+   "canonical_entry": false,
+   "quick_facts": {
+    "Governance sits with": "The board",
+    "Management sits with": "The executive",
+    "Governance sets": "Direction and appetite",
+    "Management runs": "Daily operation",
+    "The hinge": "Delegated authority"
+   },
+   "related": [
+    "2.0",
+    "2.2",
+    "1.5"
+   ],
+   "sources": [
+    "ISO 37000:2021 — Governance of organizations, guidance",
+    "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
+    "IIA, The Three Lines Model, 2020"
+   ],
+   "prev": {
+    "ref": "2.3",
+    "title": "Board reporting"
+   },
+   "next": {
+    "ref": "2.5",
+    "title": "Terms of reference"
+   },
+   "sections": [
+    {
+     "id": "the-comparison",
+     "clause": "2.4.1",
+     "text": "The comparison"
+    },
+    {
+     "id": "why-the-separation-exists",
+     "clause": "2.4.2",
+     "text": "Why the separation exists"
+    },
+    {
+     "id": "where-the-line-blurs",
+     "clause": "2.4.3",
+     "text": "Where the line blurs"
+    },
+    {
+     "id": "the-failure-mode",
+     "clause": "2.4.4",
+     "text": "The failure mode"
+    },
+    {
+     "id": "common-questions",
+     "clause": "2.4.5",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/governance/governance-vs-management/",
+   "part_slug": "governance",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "Governance and management divide along <strong>deciding versus doing</strong>: governance sets\nthe direction, the risk appetite and the lines of accountability; management runs\nthe organisation within them. They are distinct functions — usually held by the\nboard and the executive respectively — not two words for one, so that the people\nwho set the target are not the sole judges of whether it was hit."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The separation is the whole point, and it is the first thing to erode. A board\nthat starts approving individual purchases has stopped governing; an executive\nthat starts deciding how much risk is acceptable has started governing without a\nmandate. Both are ordinary, and both are named at the foot of this entry.</p>\n<p>When something goes wrong, the first useful question is which of the two failed,\nbecause the remedies do not overlap. A governance failure is answered by changing\na strategy, an appetite or a person on the board; a management failure is\nanswered by changing how the work is run. Blur the two and the right fix lands on\nthe wrong body.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-comparison",
+     "clause": "2.4.1",
+     "alias": "c2-4-1",
+     "text": "The comparison"
+    },
+    {
+     "type": "versus",
+     "sides": [
+      {
+       "name": "Governance",
+       "badge": "THE BOARD",
+       "html": "Sets the direction, fixes the risk appetite, appoints the executive and holds it\nto account. Owns the destination and runs nothing itself."
+      },
+      {
+       "name": "Management",
+       "badge": "THE EXECUTIVE",
+       "html": "Runs the organisation day to day within the direction and appetite the board set,\nand reports back on whether it is working. Owns the journey and sets nothing\nabove itself."
+      }
+     ]
+    },
+    {
+     "type": "attrs",
+     "a": "Governance",
+     "b": "Management",
+     "rows": [
+      {
+       "attr": "Who (typically)",
+       "a": "The board, largely non-executive, acting collectively",
+       "av": "",
+       "b": "The executive — the CEO and the management team",
+       "bv": ""
+      },
+      {
+       "attr": "Time horizon",
+       "a": "The long term — strategy, appetite, succession",
+       "av": "",
+       "b": "The operating cycle — this quarter, this year",
+       "bv": ""
+      },
+      {
+       "attr": "Decides",
+       "a": "Direction, risk appetite, who holds authority",
+       "av": "",
+       "b": "How to execute within that direction",
+       "bv": ""
+      },
+      {
+       "attr": "Accountable for",
+       "a": "Oversight and outcomes, to stakeholders",
+       "av": "",
+       "b": "Delivery and daily operation, to the board",
+       "bv": ""
+      },
+      {
+       "attr": "Primary output",
+       "a": "Approved strategy, appetite statement, terms of reference",
+       "av": "",
+       "b": "Operating results, running controls, reports up",
+       "bv": ""
+      },
+      {
+       "attr": "Cadence",
+       "a": "Periodic — the board and committee calendar",
+       "av": "",
+       "b": "Continuous — the working day",
+       "bv": ""
+      },
+      {
+       "attr": "Fails when",
+       "a": "It drifts into running the operation",
+       "av": "",
+       "b": "It sets the appetite it is judged against",
+       "bv": ""
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>The <em>Accountable for</em> row does the real work. Both bodies answer to someone, but\nnot to the same someone and not for the same thing. Management answers to the\nboard for delivery; the board answers to shareholders, members or the public for\nwhether the organisation was directed and overseen well. ISO 37000 puts this at\nthe centre of governance and draws the line most people miss: responsibility can\nbe delegated to management, but accountability is retained by the governing body.\nThe board can hand over the running of the place; it cannot hand over answering\nfor it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "why-the-separation-exists",
+     "clause": "2.4.2",
+     "alias": "c2-4-2",
+     "text": "Why the separation exists"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Two bodies exist rather than one because of separation of duties, applied at the\ntop of the house. It is the same principle that stops the person who raises an\ninvoice from being the person who approves it — whoever sets a target should not\nalso be the only judge of whether it was met. Fold direction-setting and delivery\ninto one pair of hands and the appetite quietly bends to fit the results.</p>\n<p>The <a href=\"/foundations/three-lines-model/\">three lines model</a> draws the same line\nlower down — the governing body above, management owning the first and second\nlines, independent assurance in the third — and the whole arrangement rests on the\ngoverning body being distinct from the management it oversees. What joins the two\nbodies without merging them is delegated authority. The board does not run the\norganisation, so it grants the executive the power to, within limits it writes\ndown and can withdraw, recorded in the\n<a href=\"/governance/committees-and-delegated-authority/\">committee and delegation structure</a>\nbeneath it.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Delegated authority",
+     "ref": "2.2",
+     "html": "The board&rsquo;s grant of decision-making power to the executive, within limits it\nsets and can revoke. The hinge between the two bodies: governance decides what\nthe organisation is for, then delegates the authority to run it — and keeps the\naccountability."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-the-line-blurs",
+     "clause": "2.4.3",
+     "alias": "c2-4-3",
+     "text": "Where the line blurs"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The clean two-body picture assumes a board of non-executives and a separate\nexecutive team, which describes a listed company and not much else.</p>\n<p>In an owner-managed business the founder chairs the board on Monday and runs the\noperation for the rest of the week, and the two roles share one diary. The\ndistinction has not vanished; it has become a discipline the individual has to\nkeep in their own head — knowing, at any given decision, whether they are setting\nthe appetite or spending it. Small firms fail here not by collapsing the roles\nbut by never noticing they hold both.</p>\n<p>The executive director is the deliberate blur. Most boards seat at least one —\nthe CEO, often the finance director — as a full member of the governing body who\nis also part of the management it oversees. They govern in the boardroom and\nmanage outside it, which is why a functioning board structures itself so the\nexecutive members cannot dominate the governance decisions: non-executive\nmajorities, committees chaired by non-executives, sessions the executives leave.</p>\n<p>The distinction still matters where one person holds both roles, because\naccountability does not merge just because the diary did. When the owner-manager&rsquo;s\ncompany is sued or audited, whether this was a governance failure or a management\nfailure still has to be answered — by the same person, in the right role, if the\nanswer is to be worth anything.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-failure-mode",
+     "clause": "2.4.4",
+     "alias": "c2-4-4",
+     "text": "The failure mode"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Two failures sit either side of the line, and each is the other&rsquo;s mirror.</p>\n<p>The first is a board that drifts into managing. It fills its meetings approving\nindividual hires, signing off line items and reading operational dashboards —\nrubber-stamping the detail the executive was appointed to own. The detail feels\nlike diligence, but it crowds out the work only the board can do: setting\ndirection, testing the strategy and holding the executive to account. A board\ndeep in operational minutiae is usually a board that has quietly stopped\noverseeing, because no time is left for it.</p>\n<p>The second is an executive that makes governance-level calls without saying so.\nThe clearest case is an executive that sets its own risk appetite — deciding how\nmuch risk is acceptable, then reporting performance against a bar it set for\nitself. COSO puts risk appetite under board oversight for exactly this reason: the\nexecutive may propose it, but the board reviews and concurs, so that the body\nmeasured against the appetite is not the body that fixes it. Left to itself, an\nexecutive can widen the appetite whenever the results demand, and no one above it\nis the wiser. It is self-review raised to the level of strategy — the body being\nheld to account has taken over defining what account looks like.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "2.4.5",
+     "alias": "c2-4-5",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is governance the same as management?",
+       "id": "faq-is-governance-the-same-as-management",
+       "html": "<p>No. Governance decides what the organisation is for, how much risk it will run\nand who holds authority; management operates inside those decisions and reports\nback. Same organisation, two jobs — one sets the frame, the other works within\nit. The words are used loosely in everyday speech, which is where the confusion\nstarts, but every governance standard treats them as distinct functions.</p>"
+      },
+      {
+       "q": "Who actually does governance?",
+       "id": "faq-who-actually-does-governance",
+       "html": "<p>The governing body — in a company, the board and its committees, acting\ncollectively rather than through the chair alone. In a charity it is the\ntrustees, in a public body the accountable board. In a very small organisation it\nmay be one or two people who put the governance hat on at set moments — approving\nthe annual plan, signing the accounts — and take it off to run the place the rest\nof the time. Governance is a role a body performs, not a department on the chart.</p>"
+      },
+      {
+       "q": "Can a manager do governance work?",
+       "id": "faq-can-a-manager-do-governance-work",
+       "html": "<p>Yes, but only when acting in a governance capacity, not by virtue of being\nsenior. A manager who sits on a governance committee, or the executive director\non the board, is doing governance in that seat — bound by its terms of reference\nand its record. The moment they leave the seat they are managing again. What\ndecides whether a piece of work is governance is the authority it is done under,\nnot the seniority of the person doing it.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Governance",
+       "item": "https://grc-wiki.vercel.app/governance/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Governance vs management",
+       "item": "https://grc-wiki.vercel.app/governance/governance-vs-management/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/governance/governance-vs-management/#article",
+     "headline": "Governance vs management",
+     "name": "Governance vs management",
+     "description": "Governance sets direction, appetite and accountability; management runs the organisation within it. Where the deciding-versus-doing line blurs and fails.",
+     "url": "https://grc-wiki.vercel.app/governance/governance-vs-management/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/governance/governance-vs-management/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Governance",
+     "wordCount": 1165,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-20",
+     "datePublished": "2026-08-20",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO 37000:2021 — Governance of organizations, guidance",
+      "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
+      "IIA, The Three Lines Model, 2020"
+     ],
+     "keywords": "governance vs management, difference between governance and management, board vs management, corporate governance vs management"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/governance/governance-vs-management/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is governance the same as management?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Governance decides what the organisation is for, how much risk it will run and who holds authority; management operates inside those decisions and reports back. Same organisation, two jobs — one sets the frame, the other works within it. The words are used loosely in everyday speech, which is where the confusion starts, but every governance standard treats them as distinct functions."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who actually does governance?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The governing body — in a company, the board and its committees, acting collectively rather than through the chair alone. In a charity it is the trustees, in a public body the accountable board. In a very small organisation it may be one or two people who put the governance hat on at set moments — approving the annual plan, signing the accounts — and take it off to run the place the rest of the time. Governance is a role a body performs, not a department on the chart."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can a manager do governance work?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but only when acting in a governance capacity, not by virtue of being senior. A manager who sits on a governance committee, or the executive director on the board, is doing governance in that seat — bound by its terms of reference and its record. The moment they leave the seat they are managing again. What decides whether a piece of work is governance is the authority it is done under, not the seniority of the person doing it."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "2.5",
+   "part": 2,
+   "slug": "terms-of-reference",
+   "title": "Terms of reference for a committee",
+   "description": "A committee's terms of reference set out its mandate, membership and decision rights — what it decides, who sits on it and what it must escalate.",
+   "short_title": "Terms of reference",
+   "keywords": [
+    "terms of reference",
+    "committee terms of reference",
+    "terms of reference vs charter",
+    "who approves terms of reference",
+    "how often review terms of reference"
+   ],
+   "defines": "Terms of reference",
+   "reviewed": "2026-08-20",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 5,
+   "cited_by": 4,
+   "canonical_entry": false,
+   "quick_facts": {
+    "approved by": "Parent body or board",
+    "quorum": "Set in the ToR",
+    "review cadence": "Typically annual",
+    "also called": "Charter",
+    "basis": "Governance good practice"
+   },
+   "related": [
+    "2.2",
+    "2.3"
+   ],
+   "sources": [
+    "ISO 37000:2021 — Governance of organizations, guidance",
+    "Committee terms-of-reference conventions — quorum, membership, review cadence — are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
+   ],
+   "prev": {
+    "ref": "2.4",
+    "title": "Governance vs management"
+   },
+   "next": {
+    "ref": "3.0",
+    "title": "What the risk function produces"
+   },
+   "sections": [
+    {
+     "id": "what-the-terms-of-reference-contain",
+     "clause": "2.5.1",
+     "text": "What the terms of reference contain"
+    },
+    {
+     "id": "why-an-auditor-asks-for-it-first",
+     "clause": "2.5.2",
+     "text": "Why an auditor asks for it first"
+    },
+    {
+     "id": "where-terms-of-reference-fail",
+     "clause": "2.5.3",
+     "text": "Where terms of reference fail"
+    },
+    {
+     "id": "common-questions",
+     "clause": "2.5.4",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/governance/terms-of-reference/",
+   "part_slug": "governance",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "A committee&rsquo;s terms of reference set out its mandate, membership and decision\nrights — what it exists to decide, who sits on it and what it must escalate."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The terms of reference are what separate a committee from a recurring meeting. A\nmeeting gathers people; a committee holds a mandate, and the terms of reference\nare where that mandate is written down and bounded. Take them away and the group\nhas no way to show that a decision it made was one it was entitled to make.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-the-terms-of-reference-contain",
+     "clause": "2.5.1",
+     "alias": "c2-5-1",
+     "text": "What the terms of reference contain"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Seven things, and a set of terms of reference that is missing one of them tends\nto fail at exactly that point.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "Purpose and mandate",
+       "html": "The class of decision the committee owns — the reason it exists and the matter it may settle. If you cannot name that class, you have scheduled a meeting."
+      },
+      {
+       "term": "Membership and chair",
+       "html": "Who sits on it, who chairs it and who may send a deputy. Seats are named by role, not by person, so the committee survives someone leaving."
+      },
+      {
+       "term": "Quorum",
+       "html": "The minimum attendance for a decision to stand. Set low enough that the forum can actually meet, and specific enough that three people from the same team cannot constitute it."
+      },
+      {
+       "term": "Frequency and cadence",
+       "html": "How often it meets, and the out-of-cycle path for a matter that cannot wait for the next scheduled sitting."
+      },
+      {
+       "term": "Decision rights and delegated authority",
+       "html": "What the committee may settle alone, up to what limit, and what it must send higher. See <a href=\"/governance/committees-and-delegated-authority/\">2.2</a> for the matrix that records this."
+      },
+      {
+       "term": "Reporting and escalation line",
+       "html": "Who the committee reports to, what it must escalate and on what trigger. See <a href=\"/governance/board-reporting/\">2.3</a> for what that report looks like when the parent body is the board."
+      },
+      {
+       "term": "Review cycle",
+       "html": "When the terms of reference are themselves re-read and re-approved — commonly once a year — and by whom."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "html": "<p>No single standard dictates what these must contain. ISO 37000 frames how a\ngoverning body sets a mandate and delegates authority to the bodies beneath it,\nand IIA guidance sets out what an audit committee&rsquo;s charter should establish; but\nthe specific conventions above — a stated quorum, an annual review — are\ngovernance good practice rather than a clause you can be marked against.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "why-an-auditor-asks-for-it-first",
+     "clause": "2.5.2",
+     "alias": "c2-5-2",
+     "text": "Why an auditor asks for it first"
+    },
+    {
+     "type": "prose",
+     "html": "<p>A committee with no current terms of reference makes decisions it cannot evidence\nthe authority for. The first thing an auditor or an external reviewer asks a\ncommittee is not what it decided but by what right: show me your terms of\nreference, and show me you met quorum when you decided it. A decision minuted by\na forum that cannot produce a current mandate, or that was taken below quorum, is\na decision the organisation may have to unpick.</p>"
+    },
+    {
+     "type": "def",
+     "term": "Quorum",
+     "ref": "2.2",
+     "html": "The minimum attendance for a committee&rsquo;s decisions to stand. A decision taken\nbelow it is invalid on the committee&rsquo;s own terms, whatever its merits."
+    },
+    {
+     "type": "prose",
+     "html": "<p>This is why the terms of reference are read together with the minutes, never on\ntheir own. The document states the rule; the minutes are where you find out\nwhether the committee kept it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-terms-of-reference-fail",
+     "clause": "2.5.3",
+     "alias": "c2-5-3",
+     "text": "Where terms of reference fail"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Three failure modes recur, and each one is visible the moment you read the\nminutes against the terms.</p>\n<p>The stale mandate is the first. The terms were written when the committee was formed and\nnever reviewed since. The remit has drifted — the committee now decides things\nthe document does not mention, or has stopped covering things it lists — and\nnobody has reconciled the two. The review cycle exists to catch this; a committee\nwhose terms carry no review date usually has not.</p>\n<p>The quorum that is never met is the second. The terms set a quorum the committee cannot\nrealistically achieve, so meetings proceed anyway with whoever turned up. Every\ndecision taken below quorum is, on the committee&rsquo;s own terms, technically\ninvalid, and a reviewer who counts attendees against the stated quorum will find\nthem. A quorum nobody meets is worse than a low one, because it makes valid\ndecisions look defective and defective ones look valid.</p>\n<p>Deciding outside the mandate is the third. The committee routinely settles matters that\nbelong to another forum or to a higher authority, because it is the meeting that\nhappens to be in the room. This is the failure the delegated authority matrix\nexists to prevent, and it surfaces when two committees are found to have decided\nthe same thing differently.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "2.5.4",
+     "alias": "c2-5-4",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the difference between terms of reference and a charter?",
+       "id": "faq-what-is-the-difference-between-terms-of-reference-and-a-charter",
+       "html": "<p>Mostly regional vocabulary for the same document. &ldquo;Charter&rdquo; is the more common\nword in North American practice and for audit committees specifically; &ldquo;terms of\nreference&rdquo; is standard in UK, Commonwealth and much European governance. Both\nname the document that sets a committee&rsquo;s mandate, membership and authority.</p>\n<p>Where a distinction is drawn, a charter is sometimes treated as the broader\nfounding document approved by the board, with the terms of reference as the\noperating detail beneath it. The usage is not consistent, so read whichever word\nyour organisation uses as meaning the mandate document.</p>"
+      },
+      {
+       "q": "Who approves a committee's terms of reference?",
+       "id": "faq-who-approves-a-committees-terms-of-reference",
+       "html": "<p>The body that created the committee and delegated authority to it — usually the\nboard for a board committee, or the parent committee for a sub-committee. A\ncommittee does not approve its own terms of reference, for the same reason a\nfunction does not sign off its own audit: the authority to set the mandate has to\ncome from above the mandate. In practice the committee drafts them and the parent\nbody approves them.</p>"
+      },
+      {
+       "q": "How often should terms of reference be reviewed?",
+       "id": "faq-how-often-should-terms-of-reference-be-reviewed",
+       "html": "<p>Annually is the common convention, and many committees take their terms as the\nfirst item at a set meeting each year. There is no mandated interval — review\ncadence is governance good practice rather than a rule you can be measured\nagainst — but the review should also be triggered by change: a new regulator, a\nmerger, a shift in remit. The failure to guard against is terms reviewed on paper\nwithout being read, so the review quietly re-approves a drift nobody examined.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Governance",
+       "item": "https://grc-wiki.vercel.app/governance/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Terms of reference for a committee",
+       "item": "https://grc-wiki.vercel.app/governance/terms-of-reference/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/governance/terms-of-reference/#article",
+     "headline": "Terms of reference for a committee",
+     "name": "Terms of reference for a committee",
+     "description": "A committee's terms of reference set out its mandate, membership and decision rights — what it decides, who sits on it and what it must escalate.",
+     "url": "https://grc-wiki.vercel.app/governance/terms-of-reference/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/governance/terms-of-reference/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Governance",
+     "wordCount": 956,
+     "timeRequired": "PT5M",
+     "version": 1,
+     "dateModified": "2026-08-20",
+     "datePublished": "2026-08-20",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISO 37000:2021 — Governance of organizations, guidance",
+      "Committee terms-of-reference conventions — quorum, membership, review cadence — are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
+     ],
+     "keywords": "terms of reference, committee terms of reference, terms of reference vs charter, who approves terms of reference, how often review terms of reference"
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://grc-wiki.vercel.app/governance/terms-of-reference/#term",
+     "name": "Terms of reference",
+     "alternateName": "",
+     "description": "A committee's terms of reference set out its mandate, membership and decision rights — what it decides, who sits on it and what it must escalate.",
+     "url": "https://grc-wiki.vercel.app/governance/terms-of-reference/",
+     "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "GRC Wiki",
+      "url": "https://grc-wiki.vercel.app/"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/governance/terms-of-reference/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the difference between terms of reference and a charter?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mostly regional vocabulary for the same document. &ldquo;Charter&rdquo; is the more common word in North American practice and for audit committees specifically; &ldquo;terms of reference&rdquo; is standard in UK, Commonwealth and much European governance. Both name the document that sets a committee&rsquo;s mandate, membership and authority. Where a distinction is drawn, a charter is sometimes treated as the broader founding document approved by the board, with the terms of reference as the operating detail beneath it. The usage is not consistent, so read whichever word your organisation uses as meaning the mandate document."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who approves a committee's terms of reference?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The body that created the committee and delegated authority to it — usually the board for a board committee, or the parent committee for a sub-committee. A committee does not approve its own terms of reference, for the same reason a function does not sign off its own audit: the authority to set the mandate has to come from above the mandate. In practice the committee drafts them and the parent body approves them."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How often should terms of reference be reviewed?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Annually is the common convention, and many committees take their terms as the first item at a set meeting each year. There is no mandated interval — review cadence is governance good practice rather than a rule you can be measured against — but the review should also be triggered by change: a new regulator, a merger, a shift in remit. The failure to guard against is terms reviewed on paper without being read, so the review quietly re-approves a drift nobody examined."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "clause": "3.0",
    "part": 3,
    "slug": "what-the-risk-function-produces",
@@ -3443,8 +5129,8 @@
     "ISO/IEC 27005:2022 — Guidance on managing information security risks"
    ],
    "prev": {
-    "ref": "2.3",
-    "title": "Board reporting"
+    "ref": "2.5",
+    "title": "Terms of reference"
    },
    "next": {
     "ref": "3.1",
@@ -8404,13 +10090,13 @@
    },
    {
     "t": "Committee, terms of reference",
-    "ref": "2.2",
+    "ref": "2.5",
     "key": false,
     "example": false,
-    "template": true,
+    "template": false,
     "level": "",
-    "url": "/governance/committees-and-delegated-authority/",
-    "flags": "template fresh"
+    "url": "/governance/terms-of-reference/",
+    "flags": "fresh"
    },
    {
     "t": "Compliance",
@@ -8421,6 +10107,16 @@
     "level": "entry",
     "url": "/compliance/what-compliance-produces/",
     "flags": "level fresh"
+   },
+   {
+    "t": "Compliance vs risk",
+    "ref": "1.9",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/foundations/risk-vs-compliance/",
+    "flags": "fresh"
    },
    {
     "t": "Confidentiality criterion",
@@ -8541,6 +10237,16 @@
     "level": "",
     "url": "/frameworks/building-a-crosswalk/",
     "flags": "example fresh"
+   },
+   {
+    "t": "Cyber security vs GRC",
+    "ref": "1.8",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/foundations/grc-vs-cyber-security/",
+    "flags": "fresh"
    },
    {
     "t": "Day in the life, GRC",
@@ -8713,6 +10419,16 @@
     "flags": "level fresh"
    },
    {
+    "t": "Governance vs management",
+    "ref": "2.4",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/governance/governance-vs-management/",
+    "flags": "level fresh"
+   },
+   {
     "t": "GRC",
     "ref": "1.1",
     "key": true,
@@ -8734,12 +10450,12 @@
    },
    {
     "t": "GRC vs cyber security",
-    "ref": "1.6",
-    "key": false,
+    "ref": "1.8",
+    "key": true,
     "example": false,
     "template": false,
     "level": "entry",
-    "url": "/foundations/who-does-grc-work/",
+    "url": "/foundations/grc-vs-cyber-security/",
     "flags": "level fresh"
    },
    {
@@ -8761,6 +10477,16 @@
     "level": "",
     "url": "/risk/reading-a-risk-register/",
     "flags": "example template fresh"
+   },
+   {
+    "t": "Incident vs issue",
+    "ref": "1.7",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/foundations/risk-issue-incident/",
+    "flags": "fresh"
    },
    {
     "t": "Inherent risk",
@@ -8790,6 +10516,16 @@
     "template": false,
     "level": "entry",
     "url": "/career/interview-questions/",
+    "flags": "level fresh"
+   },
+   {
+    "t": "Is GRC technical",
+    "ref": "1.8",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/foundations/grc-vs-cyber-security/",
     "flags": "level fresh"
    },
    {
@@ -8880,6 +10616,16 @@
     "template": false,
     "level": "",
     "url": "/frameworks/statement-of-applicability/",
+    "flags": "fresh"
+   },
+   {
+    "t": "Management vs governance",
+    "ref": "2.4",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/governance/governance-vs-management/",
     "flags": "fresh"
    },
    {
@@ -9133,6 +10879,26 @@
     "flags": "example level fresh"
    },
    {
+    "t": "Risk vs compliance",
+    "ref": "1.9",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/foundations/risk-vs-compliance/",
+    "flags": "level fresh"
+   },
+   {
+    "t": "Risk vs issue vs incident",
+    "ref": "1.7",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/foundations/risk-issue-incident/",
+    "flags": "level fresh"
+   },
+   {
     "t": "Roles, GRC",
     "ref": "6.0",
     "key": true,
@@ -9244,13 +11010,13 @@
    },
    {
     "t": "Terms of reference",
-    "ref": "2.2",
+    "ref": "2.5",
     "key": false,
     "example": false,
-    "template": true,
-    "level": "",
-    "url": "/governance/committees-and-delegated-authority/",
-    "flags": "template fresh"
+    "template": false,
+    "level": "entry",
+    "url": "/governance/terms-of-reference/",
+    "flags": "level fresh"
    },
    {
     "t": "Testing, control",
@@ -9404,10 +11170,10 @@
    }
   ],
   "coverage": [
-   "130 headwords &middot; 38 with examples",
-   "105 headwords live &middot; 30 entries",
+   "138 headwords &middot; 38 with examples",
+   "113 headwords live &middot; 35 entries",
    "26 framework terms mapped",
-   "Median age 16 days"
+   "Median age 14 days"
   ]
  },
  "pages": {
