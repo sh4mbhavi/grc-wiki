@@ -21,8 +21,13 @@ headword,clause,published,worked_example,template,entry_level
 "Business impact analysis",3.7,no,no,yes,no
 "Capacity, risk",3.4,yes,no,no,yes
 "Career path, GRC",6.0,yes,no,no,yes
+"Career progression, GRC",6.4,yes,no,no,yes
 "Certification body",5.0,yes,no,no,no
+"Certifications, GRC",6.3,yes,no,no,yes
 "Change management",4.5,no,yes,no,no
+"CISA",6.3,yes,no,no,no
+"CISM",6.3,yes,no,no,no
+"CISSP",6.3,yes,no,no,no
 "Committee, risk",2.2,yes,no,no,no
 "Committee, terms of reference",2.2,yes,no,yes,no
 "Compliance",4.0,yes,no,no,yes
@@ -34,9 +39,11 @@ headword,clause,published,worked_example,template,entry_level
 "Control testing",4.2,yes,yes,no,no
 "Corrective action",4.3,yes,no,no,no
 "COSO ERM",5.0,yes,no,no,yes
+"CRISC",6.3,yes,no,no,no
 "Criteria, Trust Services",5.1,yes,no,no,no
 "Crosswalk",5.2,yes,yes,no,no
 "Crosswalk, control",5.2,yes,yes,no,no
+"Day in the life, GRC",6.5,yes,no,no,yes
 "Delegated authority matrix",2.3,yes,no,yes,no
 "Design effectiveness",4.2,yes,no,no,no
 "Deviation, control",4.7,no,no,no,no
@@ -51,6 +58,7 @@ headword,clause,published,worked_example,template,entry_level
 "First line",1.5,yes,no,no,yes
 "Framework",5.0,yes,no,no,yes
 "Framework, kinds of",5.0,yes,no,no,yes
+"GIAC (SANS)",6.3,yes,no,no,no
 "Governance",2.0,yes,no,no,yes
 "GRC",1.1,yes,yes,no,yes
 "GRC analyst",6.1,yes,no,no,yes
@@ -110,6 +118,7 @@ headword,clause,published,worked_example,template,entry_level
 "Third line",1.5,yes,no,no,yes
 "Third-party risk management",3.8,no,yes,yes,no
 "Tolerance, risk",3.2,yes,no,no,yes
+"Training, GRC",6.3,yes,no,no,yes
 "Transfer, risk",3.3,yes,no,no,no
 "Transfer, risk treatment",3.3,yes,no,no,no
 "Treatment plan",3.3,yes,yes,yes,no

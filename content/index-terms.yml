@@ -140,6 +140,15 @@ terms:
   - { t: "Breaking into GRC", ref: "6.1", key: true, level: entry }
   - { t: "Capacity, risk", ref: "3.4", key: true, level: entry }
   - { t: "Career path, GRC", ref: "6.0", key: true, level: entry }
+  - { t: "Career progression, GRC", ref: "6.4", key: true, level: entry }
+  - { t: "Certifications, GRC", ref: "6.3", key: true, level: entry }
+  - { t: "CISA", ref: "6.3" }
+  - { t: "CISM", ref: "6.3" }
+  - { t: "CISSP", ref: "6.3" }
+  - { t: "CRISC", ref: "6.3" }
+  - { t: "Day in the life, GRC", ref: "6.5", level: entry }
+  - { t: "GIAC (SANS)", ref: "6.3" }
+  - { t: "Training, GRC", ref: "6.3", key: true, level: entry }
   - { t: "Committee, terms of reference", ref: "2.2", template: true }
   - { t: "Crosswalk", ref: "5.2", key: true, example: true }
   - { t: "Fieldwork, audit", ref: "4.3" }

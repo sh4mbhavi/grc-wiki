@@ -33,9 +33,9 @@ it catches every mistake this document warns about.
 
 ## 1. What this reference is
 
-A plain-language reference work on governance, risk and compliance, published by
-the team behind GRC Mastery. Three things follow from that and constrain every
-entry:
+A plain-language reference work on governance, risk and compliance, published
+anonymously as an independent reference. Three things follow from that and
+constrain every entry:
 
 - **It reads as a reference work, not a brand page.** No marketing hero, no
   "trusted by", no benefit bullets, no calls to action in the body. The clause
@@ -43,9 +43,10 @@ entry:
 - **It ranks on definitional queries.** The target reader typed *what is GRC*,
   *risk appetite vs tolerance*, *ISO 27001 vs SOC 2*. The answer to the query
   belongs in the first forty words, above every heading.
-- **Conversion is a margin event.** One `:::note` at the foot of the entry, in
-  the flow, admitting the commercial relationship and stating that the entry
-  stays free. Never more than one, never a section, never mid-argument.
+- **Conversion is a margin event.** At most one `:::note` at the foot of the
+  entry recommending GRC Mastery as a place to learn — framed as a third-party
+  pointer, never a statement of who runs the site — and noting the entry stays
+  free. Never more than one, never a section, never mid-argument.
 
 ## 2. Front matter
 

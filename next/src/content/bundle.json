@@ -233,8 +233,33 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Career progression, GRC",
+     "url": "https://grc-wiki.vercel.app/career/career-progression/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Certification body",
      "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Certifications, GRC",
+     "url": "https://grc-wiki.vercel.app/career/certifications-and-training/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "CISA",
+     "url": "https://grc-wiki.vercel.app/career/certifications-and-training/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "CISM",
+     "url": "https://grc-wiki.vercel.app/career/certifications-and-training/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "CISSP",
+     "url": "https://grc-wiki.vercel.app/career/certifications-and-training/"
     },
     {
      "@type": "DefinedTerm",
@@ -283,6 +308,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "CRISC",
+     "url": "https://grc-wiki.vercel.app/career/certifications-and-training/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Criteria, Trust Services",
      "url": "https://grc-wiki.vercel.app/frameworks/iso-27001-vs-soc-2/"
     },
@@ -295,6 +325,11 @@
      "@type": "DefinedTerm",
      "name": "Crosswalk, control",
      "url": "https://grc-wiki.vercel.app/frameworks/building-a-crosswalk/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Day in the life, GRC",
+     "url": "https://grc-wiki.vercel.app/career/day-in-the-life/"
     },
     {
      "@type": "DefinedTerm",
@@ -350,6 +385,11 @@
      "@type": "DefinedTerm",
      "name": "Framework, kinds of",
      "url": "https://grc-wiki.vercel.app/frameworks/how-to-read-a-framework/"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "GIAC (SANS)",
+     "url": "https://grc-wiki.vercel.app/career/certifications-and-training/"
     },
     {
      "@type": "DefinedTerm",
@@ -598,6 +638,11 @@
     },
     {
      "@type": "DefinedTerm",
+     "name": "Training, GRC",
+     "url": "https://grc-wiki.vercel.app/career/certifications-and-training/"
+    },
+    {
+     "@type": "DefinedTerm",
      "name": "Transfer, risk",
      "url": "https://grc-wiki.vercel.app/risk/risk-treatment/"
     },
@@ -693,7 +738,7 @@
    "name": "Career",
    "count": 21,
    "blurb": "Roles, interview questions, certifications, what the work looks like daily.",
-   "published": 3
+   "published": 6
   }
  ],
  "entries": [
@@ -6986,7 +7031,10 @@
     "ref": "6.1",
     "title": "Breaking into GRC"
    },
-   "next": null,
+   "next": {
+    "ref": "6.3",
+    "title": "Certifications compared"
+   },
    "sections": [
     {
      "id": "the-eight",
@@ -7228,6 +7276,828 @@
      ]
     }
    ]
+  },
+  {
+   "clause": "6.3",
+   "part": 6,
+   "slug": "certifications-and-training",
+   "title": "GRC certifications and training compared",
+   "description": "ISO 27001, CISA, CISM, CRISC, CISSP, SANS and GRC courses side by side — what each certifies, who it suits, and why a beginner needs breadth before a badge.",
+   "short_title": "Certifications",
+   "keywords": [
+    "best GRC certification",
+    "best GRC training",
+    "GRC certification for beginners",
+    "CISA vs CISM vs CISSP",
+    "which GRC certification first"
+   ],
+   "defines": "",
+   "reviewed": "2026-08-27",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 9,
+   "cited_by": 6,
+   "canonical_entry": false,
+   "quick_facts": {
+    "options compared": "7",
+    "best single cert": "None — it depends",
+    "beginner needs": "Breadth first",
+    "credentials assume": "Years of experience"
+   },
+   "related": [
+    "6.1",
+    "6.0",
+    "5.0"
+   ],
+   "sources": [
+    "ISACA, CISA / CISM / CRISC certification requirements, 2025",
+    "(ISC)² CISSP experience, endorsement and CBK domains, 2024",
+    "GIAC certification catalogue and eligibility, SANS Institute, 2025",
+    "ISO/IEC 27001:2022 — lead implementer / auditor grades are provider schemes (PECB, BSI and others)"
+   ],
+   "prev": {
+    "ref": "6.2",
+    "title": "Interview questions"
+   },
+   "next": {
+    "ref": "6.4",
+    "title": "Career progression"
+   },
+   "sections": [
+    {
+     "id": "the-landscape",
+     "clause": "6.3.1",
+     "text": "The landscape"
+    },
+    {
+     "id": "what-the-chart-shows",
+     "clause": "6.3.2",
+     "text": "What the chart shows"
+    },
+    {
+     "id": "sequencing-which-matters-more-than-choice",
+     "clause": "6.3.3",
+     "text": "Sequencing, which matters more than choice"
+    },
+    {
+     "id": "common-questions",
+     "clause": "6.3.4",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/career/certifications-and-training/",
+   "part_slug": "career",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "No single GRC certification suits every role. The right one depends on the seat\nyou are aiming at, how much experience you already have, and whether your\nimmediate need is broad grounding or specialist evidence — and most of the\nrespected credentials are narrower than their reputation suggests."
+    },
+    {
+     "type": "prose",
+     "html": "<p>Almost all of the well-known certifications qualify a slice of the work rather\nthan GRC as a whole — an audit exam, a risk exam, a management exam, a security\ngeneralist&rsquo;s exam, a single standard. For someone already in a seat, that focus\nis the point. For someone entering the field it is the trap: a specialist\ncredential bought before there is any context to attach it to teaches vocabulary\nwith nothing behind it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-landscape",
+     "clause": "6.3.1",
+     "alias": "c6-3-1",
+     "text": "The landscape"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The options a newcomer actually weighs, described by what each one is rather than\nhow it markets itself. The last column is the experience needed to <em>hold</em> the\ncredential, not to sit the exam.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Path</th>\n<th>What it certifies</th>\n<th>Who it suits</th>\n<th>Breadth</th>\n<th>Experience to be certified</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>GRC foundation course</strong></td>\n<td>A taught grounding in how the function works</td>\n<td>Someone entering GRC from any route</td>\n<td>Broad — the function end to end (varies by provider)</td>\n<td>None</td>\n</tr>\n<tr>\n<td><strong>ISO 27001 Lead Implementer / Auditor</strong></td>\n<td>Competence to implement or audit one standard</td>\n<td>Someone standing up or auditing an ISMS</td>\n<td>Narrow — a single standard</td>\n<td>Scheme-dependent: provisional grades none, full lead grades several years</td>\n</tr>\n<tr>\n<td><strong>ISACA CISA</strong></td>\n<td>Information systems audit, governance and control</td>\n<td>Auditors and audit-adjacent roles</td>\n<td>Specialised — the audit seat</td>\n<td>Five years in IS audit, control or security; up to three waivable</td>\n</tr>\n<tr>\n<td><strong>ISACA CRISC</strong></td>\n<td>IT risk identification and control</td>\n<td>Risk-register and control practitioners</td>\n<td>Specialised — the risk seat</td>\n<td>Three years across two or more of four domains; no waivers</td>\n</tr>\n<tr>\n<td><strong>ISACA CISM</strong></td>\n<td>Information security management</td>\n<td>Practitioners moving into a security-management role</td>\n<td>Specialised — the management seat</td>\n<td>Five years in information security, three of them in security management</td>\n</tr>\n<tr>\n<td><strong>ISC2 CISSP</strong></td>\n<td>Broad security across eight domains</td>\n<td>Security generalists and leads</td>\n<td>Broad in security, thin on GRC</td>\n<td>Five years across two or more of the eight domains; one year waivable</td>\n</tr>\n<tr>\n<td><strong>SANS / GIAC</strong></td>\n<td>Hands-on technical skill in a chosen domain</td>\n<td>Practitioners doing the technical work</td>\n<td>Deep and domain-specific; some management and audit tracks too</td>\n<td>GIAC exams: none formal</td>\n</tr>\n</tbody>\n</table></div>\n<p>The credential exams — CISA, CRISC, CISM and CISSP — can each be sat before that\nexperience is complete, but the certification itself waits on it. Read the last\ncolumn as a destination, not a starting line.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-the-chart-shows",
+     "clause": "6.3.2",
+     "alias": "c6-3-2",
+     "text": "What the chart shows"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Two patterns. First, every credential in the table is either specialised — the\naudit seat, the risk seat, the management seat, one standard, one technical\ndomain — or, in CISSP&rsquo;s case, broad across <em>security engineering</em> rather than\nacross governance, risk and compliance. None of them is a general grounding in\nthe GRC function itself.</p>\n<p>Second, all of them assume experience a newcomer does not yet have. They are\nthings you work toward from inside a seat, while the experience accrues, not\nthings you enter the field holding.</p>\n<p>What a person entering GRC needs first is the opposite shape: a working map of\nthe whole function — the four artefacts, how a register is scored, what an\nauditor asks for — that assumes nothing and is tied to no single standard or\nvendor. With a target seat already in view, the matching credential can come\nfirst; without one, the grounding comes first, because a specialist exam taken\nwith no context to attach it to does not stick.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "sequencing-which-matters-more-than-choice",
+     "clause": "6.3.3",
+     "alias": "c6-3-3",
+     "text": "Sequencing, which matters more than choice"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The order tends to beat the pick. If you already know the seat you are heading\nfor, the matching credential is a reasonable first move: CISA for audit, CRISC\nfor an IT-risk role, CISM once you are in a security-management role, an ISO lead\ncourse if your first job is standing up an ISMS. If you do not, start with the\ngeneral grounding and one real artefact you have handled — the walk-through in\n<a href=\"/career/breaking-into-grc/\">6.1</a> — then choose.</p>\n<p>Certifications do most of their work at the screening stage, where a recognised\nacronym gets a CV read; they do less in the interview, where a specific artefact\nyou can walk through tends to carry more weight than a badge. How that balance\nfalls is employer-dependent, but it is worth knowing which investment does which\njob.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "6.3.4",
+     "alias": "c6-3-4",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What is the best GRC certification?",
+       "id": "faq-what-is-the-best-grc-certification",
+       "html": "<p>There is no single best one, because the certifications answer different\nquestions. CISA is the credential most often asked for in audit-facing roles,\nCRISC maps to the risk seat, CISM to a security-management role, and CISSP to\nbroad security leadership. For someone entering GRC without a seat in mind,\nbreadth matters more than any one exam: a grounding in the whole function, taken\nbefore the specialist badge, is what makes the badge worth having.</p>"
+      },
+      {
+       "q": "Which GRC certification should I get first?",
+       "id": "faq-which-grc-certification-should-i-get-first",
+       "html": "<p>If you know the role you are targeting, the credential that matches it. If you do\nnot, usually none first — start with a broad grounding in how the function works\nand one real artefact you have handled, then choose the certification that fits\nthe seat you are moving toward. A specialist exam taken with no context is hard\nto retain.</p>"
+      },
+      {
+       "q": "Is CISA worth it for GRC?",
+       "id": "faq-is-cisa-worth-it-for-grc",
+       "html": "<p>For audit-adjacent GRC roles it is among the most commonly requested credentials,\nand it sets no formal education or technical-role prerequisite. Note the\nexperience requirement: five years of IS audit, control or security work, with up\nto three years of permitted substitutions. You can sit the exam earlier;\ncertification waits on the experience.</p>"
+      },
+      {
+       "q": "Is CISSP a GRC certification?",
+       "id": "faq-is-cissp-a-grc-certification",
+       "html": "<p>No. CISSP is a broad information-security certification across eight domains. One\nof them — security and risk management — covers governance, risk and compliance\ndirectly, but the certification as a whole is security engineering and leadership\nrather than GRC operational work, and it does not centre on the artefacts a GRC\nseat produces.</p>"
+      },
+      {
+       "q": "Do I need a certification to get into GRC?",
+       "id": "faq-do-i-need-a-certification-to-get-into-grc",
+       "html": "<p>No. A certification helps pass the CV screen; it does not close an interview. A\ncandidate who can walk through one risk they assessed — how it was scored, who\nowned it, what evidence closed it — tends to outperform one with certificates and\nnothing to describe. Build the artefact either way.</p>"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "For the broad, vendor-agnostic grounding a beginner needs before any specialist\nbadge, <a href=\"https://grcmastery.com\">GRC Mastery</a> is one option built for exactly\nthat. This entry and its comparison stay free and standard-neutral."
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Career",
+       "item": "https://grc-wiki.vercel.app/career/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "GRC certifications and training compared",
+       "item": "https://grc-wiki.vercel.app/career/certifications-and-training/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/career/certifications-and-training/#article",
+     "headline": "GRC certifications and training compared",
+     "name": "GRC certifications and training compared",
+     "description": "ISO 27001, CISA, CISM, CRISC, CISSP, SANS and GRC courses side by side — what each certifies, who it suits, and why a beginner needs breadth before a badge.",
+     "url": "https://grc-wiki.vercel.app/career/certifications-and-training/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/career/certifications-and-training/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Career",
+     "wordCount": 1031,
+     "timeRequired": "PT9M",
+     "version": 1,
+     "dateModified": "2026-08-27",
+     "datePublished": "2026-08-27",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISACA, CISA / CISM / CRISC certification requirements, 2025",
+      "(ISC)² CISSP experience, endorsement and CBK domains, 2024",
+      "GIAC certification catalogue and eligibility, SANS Institute, 2025",
+      "ISO/IEC 27001:2022 — lead implementer / auditor grades are provider schemes (PECB, BSI and others)"
+     ],
+     "keywords": "best GRC certification, best GRC training, GRC certification for beginners, CISA vs CISM vs CISSP, which GRC certification first"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/career/certifications-and-training/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is the best GRC certification?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no single best one, because the certifications answer different questions. CISA is the credential most often asked for in audit-facing roles, CRISC maps to the risk seat, CISM to a security-management role, and CISSP to broad security leadership. For someone entering GRC without a seat in mind, breadth matters more than any one exam: a grounding in the whole function, taken before the specialist badge, is what makes the badge worth having."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Which GRC certification should I get first?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you know the role you are targeting, the credential that matches it. If you do not, usually none first — start with a broad grounding in how the function works and one real artefact you have handled, then choose the certification that fits the seat you are moving toward. A specialist exam taken with no context is hard to retain."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is CISA worth it for GRC?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For audit-adjacent GRC roles it is among the most commonly requested credentials, and it sets no formal education or technical-role prerequisite. Note the experience requirement: five years of IS audit, control or security work, with up to three years of permitted substitutions. You can sit the exam earlier; certification waits on the experience."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is CISSP a GRC certification?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. CISSP is a broad information-security certification across eight domains. One of them — security and risk management — covers governance, risk and compliance directly, but the certification as a whole is security engineering and leadership rather than GRC operational work, and it does not centre on the artefacts a GRC seat produces."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need a certification to get into GRC?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A certification helps pass the CV screen; it does not close an interview. A candidate who can walk through one risk they assessed — how it was scored, who owned it, what evidence closed it — tends to outperform one with certificates and nothing to describe. Build the artefact either way."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "6.4",
+   "part": 6,
+   "slug": "career-progression",
+   "title": "How a GRC career progresses",
+   "description": "Analyst to manager to head is a change in what you own, not a bigger version of the same job. What earns each move, how long it takes, and where people stall.",
+   "short_title": "Progression",
+   "keywords": [
+    "GRC career progression",
+    "GRC analyst to manager",
+    "GRC career path",
+    "how to get promoted in GRC"
+   ],
+   "defines": "",
+   "reviewed": "2026-08-26",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 7,
+   "cited_by": 5,
+   "canonical_entry": false,
+   "quick_facts": {
+    "real rungs": "3",
+    "the lever": "What you own, not years",
+    "first move": "Owning a framework",
+    "common plateau": "The permanent analyst"
+   },
+   "related": [
+    "6.0",
+    "6.1",
+    "6.3"
+   ],
+   "sources": [
+    "IIA, The Three Lines Model, 2020",
+    "ISACA, State of Cybersecurity, workforce sections, 2025",
+    "(ISC)² Cybersecurity Workforce Study, 2025"
+   ],
+   "prev": {
+    "ref": "6.3",
+    "title": "Certifications compared"
+   },
+   "next": {
+    "ref": "6.5",
+    "title": "A day in the life"
+   },
+   "sections": [
+    {
+     "id": "the-three-moves",
+     "clause": "6.4.1",
+     "text": "The three moves"
+    },
+    {
+     "id": "what-earns-each-move",
+     "clause": "6.4.2",
+     "text": "What earns each move"
+    },
+    {
+     "id": "where-people-plateau",
+     "clause": "6.4.3",
+     "text": "Where people plateau"
+    },
+    {
+     "id": "common-questions",
+     "clause": "6.4.4",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/career/career-progression/",
+   "part_slug": "career",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "Progression in GRC is not doing more of the analyst job faster. Each move up\nhands you a different thing to own — first a framework, then a programme, then\nthe board&rsquo;s picture of risk — and the people who stall are usually the ones\ndoing the lower job extremely well."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The ladder has three real rungs, whatever the titles in between suggest. What\nseparates them is not time served but what you can be handed without supervision.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-three-moves",
+     "clause": "6.4.1",
+     "alias": "c6-4-1",
+     "text": "The three moves"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>Analyst to manager.</strong> The analyst runs the register, chases evidence and\ncompletes questionnaires — work measured on whether the artefacts are current and\nlegible. The manager owns a framework end to end and the audit relationship that\ncomes with it. The step is the first time you carry a right to say no: to a\ncontrol owner, to a timeline, to a scope. Nobody hands that over because you\nprocessed questionnaires quickly; they hand it over once you have shown judgement\nabout which risks matter and which findings are worth the fight.</p>\n<p><strong>Manager to head.</strong> The manager answers for a framework; the head answers for\nthe programme and the narrative the board hears. The work shifts from controls to\nresourcing, from the audit to the story of the function&rsquo;s risk position. This is\nthe move where technical fluency stops being the constraint and political\nliteracy starts — the head who cannot get a budget conversation to land is\nlimited regardless of how well they understand the controls.</p>\n<p><strong>The sideways move.</strong> More common than either, and not a demotion. Risk to\nprivacy, compliance to internal audit, GRC to security architecture or into\nproduct. Each rebuilds depth in a new domain on top of the general grounding, and\na person with two domains behind them is worth more than one with a single deep\nspecialisation, particularly on the route into consulting.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-earns-each-move",
+     "clause": "6.4.2",
+     "alias": "c6-4-2",
+     "text": "What earns each move"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Not certifications, and not tenure. The signal is the same at every rung: an\nartefact you owned and a decision you made that turned out to be right.</p>\n<p>The analyst earns the manager seat by showing judgement — pushing back on a\nfinding, spotting a risk before it was raised, running a piece of the framework\nwithout being told the next step. The manager earns the head seat by owning an\noutcome the board saw: an audit that produced no surprises, a risk position that\nmatched reality when it was tested. Each move is granted on evidence of the next\njob, done early, not on mastery of the current one.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "where-people-plateau",
+     "clause": "6.4.3",
+     "alias": "c6-4-3",
+     "text": "Where people plateau"
+    },
+    {
+     "type": "prose",
+     "html": "<p>The permanent analyst is the common one: someone excellent at the mechanics who\nnever develops the judgement calls that the next seat is made of. The mechanics\nare visible and rewarded, so it is comfortable to stay, and the register keeps\nrunning. The way out is to start making the calls before you are asked to — form\na view on which risks matter, argue a finding, own a decision — because the seat\nis granted to people already doing its work, not promised to people who have\nearned a turn.</p>\n<p>The second plateau is the specialist who went deep too early, built a career on\none framework, and finds the head-of-function role wants breadth they traded away.\nDepth is valuable and it is also a ceiling if it is the only thing you have.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "6.4.4",
+     "alias": "c6-4-4",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "How long does it take to go from analyst to manager?",
+       "id": "faq-how-long-does-it-take-to-go-from-analyst-to-manager",
+       "html": "<p>There is no fixed number, because the move is granted on demonstrated judgement\nrather than years served. Some make it inside two years by owning real decisions\nearly; others run the register competently for longer without ever showing the\njudgement the next seat requires. Time is a weak predictor; what you have owned is\na strong one.</p>"
+      },
+      {
+       "q": "Do I need a certification to get promoted in GRC?",
+       "id": "faq-do-i-need-a-certification-to-get-promoted-in-grc",
+       "html": "<p>Rarely for the move itself. Certifications help you get hired and pass CV\nscreens; promotion turns on whether you have shown you can do the next job. A\ncertification that matches your target seat — CISM heading into management, CRISC\ninto a risk role — can support the case, but it does not make it. See\n<a href=\"/career/certifications-and-training/\">6.3</a>.</p>"
+      },
+      {
+       "q": "Is GRC manager a technical role?",
+       "id": "faq-is-grc-manager-a-technical-role",
+       "html": "<p>Usually it shifts away from hands-on work rather than toward it: the job is owning\na framework, the audit relationship and a set of decisions, and the constraint is\njudgement more than technical depth. How much fluency it needs still varies by\norganisation and domain — a manager over cloud or product controls reads more\narchitecture than one over policy and third-party risk. You need enough to\nchallenge an engineer&rsquo;s answer either way.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Career",
+       "item": "https://grc-wiki.vercel.app/career/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "How a GRC career progresses",
+       "item": "https://grc-wiki.vercel.app/career/career-progression/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/career/career-progression/#article",
+     "headline": "How a GRC career progresses",
+     "name": "How a GRC career progresses",
+     "description": "Analyst to manager to head is a change in what you own, not a bigger version of the same job. What earns each move, how long it takes, and where people stall.",
+     "url": "https://grc-wiki.vercel.app/career/career-progression/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/career/career-progression/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Career",
+     "wordCount": 740,
+     "timeRequired": "PT7M",
+     "version": 1,
+     "dateModified": "2026-08-26",
+     "datePublished": "2026-08-26",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "IIA, The Three Lines Model, 2020",
+      "ISACA, State of Cybersecurity, workforce sections, 2025",
+      "(ISC)² Cybersecurity Workforce Study, 2025"
+     ],
+     "keywords": "GRC career progression, GRC analyst to manager, GRC career path, how to get promoted in GRC"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/career/career-progression/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How long does it take to go from analyst to manager?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no fixed number, because the move is granted on demonstrated judgement rather than years served. Some make it inside two years by owning real decisions early; others run the register competently for longer without ever showing the judgement the next seat requires. Time is a weak predictor; what you have owned is a strong one."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need a certification to get promoted in GRC?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rarely for the move itself. Certifications help you get hired and pass CV screens; promotion turns on whether you have shown you can do the next job. A certification that matches your target seat — CISM heading into management, CRISC into a risk role — can support the case, but it does not make it. See 6.3 ."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is GRC manager a technical role?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually it shifts away from hands-on work rather than toward it: the job is owning a framework, the audit relationship and a set of decisions, and the constraint is judgement more than technical depth. How much fluency it needs still varies by organisation and domain — a manager over cloud or product controls reads more architecture than one over policy and third-party risk. You need enough to challenge an engineer&rsquo;s answer either way."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "clause": "6.5",
+   "part": 6,
+   "slug": "day-in-the-life",
+   "title": "A day in the life of a GRC analyst",
+   "description": "What a GRC analyst does all week — questionnaires, evidence chasing, register updates and one hard conversation. How technical it is depends on the seat.",
+   "short_title": "Day in the life",
+   "keywords": [
+    "day in the life GRC analyst",
+    "what does a GRC analyst do",
+    "is GRC boring",
+    "GRC analyst daily tasks"
+   ],
+   "defines": "",
+   "reviewed": "2026-08-25",
+   "edition": 1,
+   "editor": "C.T., CISA",
+   "reading_minutes": 6,
+   "cited_by": 4,
+   "canonical_entry": false,
+   "quick_facts": {
+    "the seat": "GRC analyst",
+    "most of the week": "Writing things down",
+    "the rhythm": "Cadence plus audit spikes",
+    "not the job": "Configuring systems"
+   },
+   "related": [
+    "6.0",
+    "6.1",
+    "3.1"
+   ],
+   "sources": [
+    "ISACA, State of Cybersecurity, workforce sections, 2025",
+    "(ISC)² Cybersecurity Workforce Study, 2025"
+   ],
+   "prev": {
+    "ref": "6.4",
+    "title": "Career progression"
+   },
+   "next": null,
+   "sections": [
+    {
+     "id": "the-recurring-work",
+     "clause": "6.5.1",
+     "text": "The recurring work"
+    },
+    {
+     "id": "the-triggered-work",
+     "clause": "6.5.2",
+     "text": "The triggered work"
+    },
+    {
+     "id": "the-one-hard-conversation",
+     "clause": "6.5.3",
+     "text": "The one hard conversation"
+    },
+    {
+     "id": "what-surprises-people",
+     "clause": "6.5.4",
+     "text": "What surprises people"
+    },
+    {
+     "id": "common-questions",
+     "clause": "6.5.5",
+     "text": "Common questions"
+    }
+   ],
+   "figure_count": 0,
+   "url": "/career/day-in-the-life/",
+   "part_slug": "career",
+   "blocks": [
+    {
+     "type": "lede",
+     "html": "Most of a GRC analyst&rsquo;s week is turning other people&rsquo;s work into a record\nsomebody can act on months later, when the person who did the work is not in the\nroom. It is writing-heavy, meeting-heavy and deadline-driven, and for a typical\ncompliance-facing seat far less of it is hands-on technical than people expect."
+    },
+    {
+     "type": "prose",
+     "html": "<p>The rhythm is a steady cadence of recurring work with periodic spikes around\naudits and questionnaires, not a queue of tickets. Knowing which kind of work is\nin front of you is most of managing the week.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-recurring-work",
+     "clause": "6.5.1",
+     "alias": "c6-5-1",
+     "text": "The recurring work"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Some things come round on a cycle whether or not anything has happened.</p>"
+    },
+    {
+     "type": "terms",
+     "items": [
+      {
+       "term": "The register",
+       "html": "Keeping risk entries current — chasing owners for updates, moving review dates, flagging anything that has drifted past its date. The register is only as trustworthy as its most stale row."
+      },
+      {
+       "term": "Evidence",
+       "html": "Collecting the artefacts that show a control operated — an access review, a change record, a backup test — and filing them so they are legible to someone who was not there. The habit, not the collection, is the skill."
+      },
+      {
+       "term": "Policy upkeep",
+       "html": "Nudging policies through their review dates, tracking exceptions and waivers, keeping the set consistent when one document changes."
+      },
+      {
+       "term": "Access and change reviews",
+       "html": "The routine control checks that recur monthly or quarterly, where the work is noticing the exception in a list that is mostly fine."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-triggered-work",
+     "clause": "6.5.2",
+     "alias": "c6-5-2",
+     "text": "The triggered work"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Then there is the work that arrives, usually with a date attached.</p>\n<p>A <strong>security questionnaire</strong> from a prospect&rsquo;s procurement team, which has to be\nanswered accurately and fast because a deal is waiting on it. An <strong>audit\nwindow</strong>, where weeks of collected evidence get assembled, gaps get closed under\ntime pressure, and the analyst is the person who knows where everything is. A\n<strong>new obligation</strong> — a contract clause, a regulation, a customer requirement —\nthat has to be mapped to a control before anyone can say whether it is met.</p>\n<p>The triggered work is where the recurring work pays off: an analyst who kept the\nevidence current all quarter has a calm audit week, and one who did not has a bad\none.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-one-hard-conversation",
+     "clause": "6.5.3",
+     "alias": "c6-5-3",
+     "text": "The one hard conversation"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Nearly every week contains a version of the same conversation: a control owner\nwho has not produced what you asked for. The skill is not escalation — it is\nfinding out why first (usually the request was ambiguous or the system cannot\nproduce it), making the ask specific and easy, and keeping a record. Most of the\njob&rsquo;s friction lives in this exchange, and handling it well is what separates a\nuseful analyst from an irritating one.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "what-surprises-people",
+     "clause": "6.5.4",
+     "alias": "c6-5-4",
+     "text": "What surprises people"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Three things, consistently. It is <strong>writing-heavy</strong> — the output is documents and\nrecords, not configurations. For a typical compliance-facing seat it is <strong>not\nhands-on technical</strong>; you read systems and challenge answers rather than build\nthem, though analysts embedded with a cloud, identity or data team do need that\ndepth. And it is <strong>deadline-driven in bursts</strong> rather than uniformly busy, with\nquiet cadence weeks and intense audit weeks. The tools are a GRC platform, a spreadsheet and a ticketing system —\nthe platform matters less than the discipline behind what goes into it.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "6.5.5",
+     "alias": "c6-5-5",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is GRC work boring?",
+       "id": "faq-is-grc-work-boring",
+       "html": "<p>It is administrative in stretches and it is not a coding job, so people expecting\nconstant technical problem-solving find the cadence work slow. What keeps it\nengaging for the people who stay is the judgement — deciding which risks matter,\nhandling the control-owner conversation, seeing the whole organisation&rsquo;s exposure\nin a way few other seats do.</p>"
+      },
+      {
+       "q": "What does a GRC analyst do all day?",
+       "id": "faq-what-does-a-grc-analyst-do-all-day",
+       "html": "<p>Keeps the register current, collects and files evidence, answers security\nquestionnaires, runs recurring control checks, and chases the people whose work\nthose records depend on. Most of the day is turning other people&rsquo;s activity into\na record that will hold up later.</p>"
+      },
+      {
+       "q": "How technical is a GRC analyst role?",
+       "id": "faq-how-technical-is-a-grc-analyst-role",
+       "html": "<p>It depends on the seat. A typical compliance-facing analyst needs to be literate\nrather than hands-on: read a system diagram, understand what a control does, and\nchallenge an engineer&rsquo;s answer without accepting it whole, without configuring\nthe system or writing code. An analyst embedded with a cloud or platform team may\nneed real technical depth — cloud IAM, logging, scripting. See\n<a href=\"/career/grc-roles/\">6.0</a> for how that changes across the seats.</p>"
+      }
+     ]
+    }
+   ],
+   "ld": [
+    {
+     "@type": "WebSite",
+     "@id": "https://grc-wiki.vercel.app/#website",
+     "url": "https://grc-wiki.vercel.app/",
+     "name": "GRC Wiki",
+     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
+     "inLanguage": "en-GB",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+       "@type": "EntryPoint",
+       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "GRC Wiki",
+       "item": "https://grc-wiki.vercel.app/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Career",
+       "item": "https://grc-wiki.vercel.app/career/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "A day in the life of a GRC analyst",
+       "item": "https://grc-wiki.vercel.app/career/day-in-the-life/"
+      }
+     ]
+    },
+    {
+     "@type": "TechArticle",
+     "@id": "https://grc-wiki.vercel.app/career/day-in-the-life/#article",
+     "headline": "A day in the life of a GRC analyst",
+     "name": "A day in the life of a GRC analyst",
+     "description": "What a GRC analyst does all week — questionnaires, evidence chasing, register updates and one hard conversation. How technical it is depends on the seat.",
+     "url": "https://grc-wiki.vercel.app/career/day-in-the-life/",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://grc-wiki.vercel.app/career/day-in-the-life/"
+     },
+     "inLanguage": "en-GB",
+     "isAccessibleForFree": true,
+     "isPartOf": {
+      "@id": "https://grc-wiki.vercel.app/#website"
+     },
+     "articleSection": "Career",
+     "wordCount": 678,
+     "timeRequired": "PT6M",
+     "version": 1,
+     "dateModified": "2026-08-25",
+     "datePublished": "2026-08-25",
+     "editor": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "reviewedBy": {
+      "@type": "Person",
+      "name": "C.T., CISA"
+     },
+     "citation": [
+      "ISACA, State of Cybersecurity, workforce sections, 2025",
+      "(ISC)² Cybersecurity Workforce Study, 2025"
+     ],
+     "keywords": "day in the life GRC analyst, what does a GRC analyst do, is GRC boring, GRC analyst daily tasks"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/career/day-in-the-life/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is GRC work boring?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is administrative in stretches and it is not a coding job, so people expecting constant technical problem-solving find the cadence work slow. What keeps it engaging for the people who stay is the judgement — deciding which risks matter, handling the control-owner conversation, seeing the whole organisation&rsquo;s exposure in a way few other seats do."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What does a GRC analyst do all day?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Keeps the register current, collects and files evidence, answers security questionnaires, runs recurring control checks, and chases the people whose work those records depend on. Most of the day is turning other people&rsquo;s activity into a record that will hold up later."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How technical is a GRC analyst role?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the seat. A typical compliance-facing analyst needs to be literate rather than hands-on: read a system diagram, understand what a control does, and challenge an engineer&rsquo;s answer without accepting it whole, without configuring the system or writing code. An analyst embedded with a cloud or platform team may need real technical depth — cloud IAM, logging, scripting. See 6.0 for how that changes across the seats."
+       }
+      }
+     ]
+    }
+   ]
   }
  ],
  "index": {
@@ -7453,6 +8323,16 @@
     "flags": "level fresh"
    },
    {
+    "t": "Career progression, GRC",
+    "ref": "6.4",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/career/career-progression/",
+    "flags": "level fresh"
+   },
+   {
     "t": "Certification body",
     "ref": "5.0",
     "key": false,
@@ -7463,6 +8343,16 @@
     "flags": "fresh"
    },
    {
+    "t": "Certifications, GRC",
+    "ref": "6.3",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/career/certifications-and-training/",
+    "flags": "level fresh"
+   },
+   {
     "t": "Change management",
     "ref": "4.5",
     "key": false,
@@ -7471,6 +8361,36 @@
     "level": "",
     "url": "",
     "flags": "example"
+   },
+   {
+    "t": "CISA",
+    "ref": "6.3",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/career/certifications-and-training/",
+    "flags": "fresh"
+   },
+   {
+    "t": "CISM",
+    "ref": "6.3",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/career/certifications-and-training/",
+    "flags": "fresh"
+   },
+   {
+    "t": "CISSP",
+    "ref": "6.3",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/career/certifications-and-training/",
+    "flags": "fresh"
    },
    {
     "t": "Committee, risk",
@@ -7583,6 +8503,16 @@
     "flags": "level fresh"
    },
    {
+    "t": "CRISC",
+    "ref": "6.3",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/career/certifications-and-training/",
+    "flags": "fresh"
+   },
+   {
     "t": "Criteria, Trust Services",
     "ref": "5.1",
     "key": false,
@@ -7611,6 +8541,16 @@
     "level": "",
     "url": "/frameworks/building-a-crosswalk/",
     "flags": "example fresh"
+   },
+   {
+    "t": "Day in the life, GRC",
+    "ref": "6.5",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/career/day-in-the-life/",
+    "flags": "level fresh"
    },
    {
     "t": "Delegated authority matrix",
@@ -7751,6 +8691,16 @@
     "level": "entry",
     "url": "/frameworks/how-to-read-a-framework/",
     "flags": "level fresh"
+   },
+   {
+    "t": "GIAC (SANS)",
+    "ref": "6.3",
+    "key": false,
+    "example": false,
+    "template": false,
+    "level": "",
+    "url": "/career/certifications-and-training/",
+    "flags": "fresh"
    },
    {
     "t": "Governance",
@@ -8343,6 +9293,16 @@
     "flags": "level fresh"
    },
    {
+    "t": "Training, GRC",
+    "ref": "6.3",
+    "key": true,
+    "example": false,
+    "template": false,
+    "level": "entry",
+    "url": "/career/certifications-and-training/",
+    "flags": "level fresh"
+   },
+   {
     "t": "Transfer, risk",
     "ref": "3.3",
     "key": false,
@@ -8444,8 +9404,8 @@
    }
   ],
   "coverage": [
-   "121 headwords &middot; 38 with examples",
-   "96 headwords live &middot; 27 entries",
+   "130 headwords &middot; 38 with examples",
+   "105 headwords live &middot; 30 entries",
    "26 framework terms mapped",
    "Median age 16 days"
   ]
