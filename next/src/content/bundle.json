@@ -21629,16 +21629,6 @@
      "id": "the-four-moves",
      "clause": "6.1.2",
      "text": "The four moves"
-    },
-    {
-     "id": "the-thing-that-beats-a-certificate",
-     "clause": "6.1.3",
-     "text": "The thing that beats a certificate"
-    },
-    {
-     "id": "the-gap-that-actually-blocks-people",
-     "clause": "6.1.4",
-     "text": "The gap that actually blocks people"
     }
    ],
    "figure_count": 0,
@@ -21701,30 +21691,6 @@
     {
      "type": "prose",
      "html": "<p><strong>1. Learn the fundamentals.</strong> The vocabulary, the <a href=\"/foundations/four-artefacts/\">four artefacts</a>,\nhow a register is scored, what an auditor asks for. A few weeks of focused\nreading. The free primary sources and a reference like this one cover the\nmaterial; a taught course buys the sequence and the pacing. Courses and\ncertifications are compared at <a href=\"/career/certifications-and-training/\">6.3</a>.</p>\n<p><strong>2. Practise the two artefacts the job turns on.</strong> GRC work is mostly a risk\nassessment or an audit, moved through its stages and written down legibly. Build\none of each against a small real-ish scope: a side project, a club, a fictional\ncompany. Produce a risk assessment with a documented scale, owners and\ntreatments, and a short audit of a control with a criterion, a sample and\nfindings. These become the portfolio for move 4.</p>\n<p><strong>3. Take one certification, not five.</strong> The path centres on the <strong>ISO 27001\nLead Auditor</strong> course, because it teaches the audit method and the\nmanagement-system vocabulary together and does not require years of experience to\nhold. Leave the specialist exams alone at this stage: CISA, CRISC and CISM are\nworth having later, but each carries a multi-year experience requirement and\nteaches vocabulary with nothing to attach it to if taken first. Full comparison\nat <a href=\"/career/certifications-and-training/\">6.3</a>.</p>\n<p><strong>4. Apply with a portfolio and the right keywords.</strong> Attach the move-2 artefacts\nto the application and be ready to walk an interviewer through one end to end.\nThen make the CV match how it is screened: mirror the phrasing in the advert and\nthe terms an applicant-tracking system filters on, such as risk assessment, risk\nregister, control testing, evidence, gap analysis, ISO 27001, SOC 2 and\nthird-party risk. A CV that describes the same work in different words is\nfiltered out before a person reads it.</p>"
-    },
-    {
-     "type": "heading",
-     "level": 2,
-     "id": "the-thing-that-beats-a-certificate",
-     "clause": "6.1.3",
-     "alias": "c6-1-3",
-     "text": "The thing that beats a certificate"
-    },
-    {
-     "type": "prose",
-     "html": "<p>One artefact you built, walked through end to end: how a risk was raised, how you\nscored it and against what scale, who owned it, what treatment was chosen, who\napproved it, what evidence closed it. Ten minutes, specific, with the parts that\nwent wrong included.</p>\n<p>A candidate who can do that outperforms one with three certificates and nothing\nto describe, every time. If your current job offers no such artefact, make one:\nassess a risk in your own team&rsquo;s work properly, with a documented scale. It\ncounts even if nobody asked for it.</p>"
-    },
-    {
-     "type": "heading",
-     "level": 2,
-     "id": "the-gap-that-actually-blocks-people",
-     "clause": "6.1.4",
-     "alias": "c6-1-4",
-     "text": "The gap that actually blocks people"
-    },
-    {
-     "type": "prose",
-     "html": "<p>Not technical depth. The evidence habit: understanding that the job is not doing\nthe thing but being able to show, months later, to somebody who was not there,\nthat the thing was done.</p>\n<p>It is learnable in months and it is the thing hiring managers are listening for.\nCandidates who talk about what they did are common; candidates who talk about\nwhat they kept are not.</p>"
     },
     {
      "type": "note",
@@ -21813,7 +21779,7 @@
      "datePublished": "2026-01-15",
      "dateModified": "2026-02-20",
      "articleSection": "Career",
-     "wordCount": 724,
+     "wordCount": 564,
      "timeRequired": "PT7M",
      "citation": [
       "ISACA, CRISC and CISA job practice areas, 2025",
@@ -21828,15 +21794,17 @@
    "part": 6,
    "slug": "certifications-and-training",
    "title": "GRC certifications and courses compared",
-   "description": "GRC Mastery, ISO 27001 Lead Auditor, CISA, CRISC, CISM, CISSP and SANS side by side: what each is for, what it costs, and the experience it needs.",
+   "description": "GRC Mastery, CISA, CRISC, CISM, CISSP and SANS compared: what each covers, what it costs, and when to take it. GRC Mastery is the best broad starting point.",
    "short_title": "Certifications",
    "keywords": [
     "best GRC certification",
+    "best GRC course",
     "GRC certification cost",
     "GRC Mastery",
+    "GRC Mastery vs CISA",
     "ISO 27001 lead auditor cost",
     "CISA vs CRISC vs CISM",
-    "best GRC course for beginners"
+    "ISACA vs ISC2"
    ],
    "defines": "",
    "reviewed": "2026-02-20",
@@ -21844,10 +21812,10 @@
    "cited_by": 6,
    "canonical_entry": false,
    "quick_facts": {
-    "cheapest full start": "GRC Mastery + ISO 27001 Lead Auditor, ~$499",
-    "most requested exam": "ISACA CISA",
-    "for a newcomer": "A broad course before an exam",
-    "exams need": "Years of experience to hold"
+    "best for broad GRC knowledge": "GRC Mastery",
+    "GRC Mastery price": "~$499, includes ISO 27001 Lead Auditor training",
+    "experience to start GRC Mastery": "None",
+    "ISACA exams require": "3-5 years of logged experience"
    },
    "related": [
     "6.1",
@@ -21855,7 +21823,7 @@
     "5.0"
    ],
    "sources": [
-    "GRC Mastery and ISO 27001 Lead Auditor training pricing, grcmastery.com, 2026",
+    "GRC Mastery, course catalogue and pricing, grcmastery.com, 2026",
     "ISACA, CISA / CRISC / CISM certification and exam fees, 2026",
     "(ISC)² CISSP exam fee and experience requirements, 2026",
     "GIAC certification catalogue and SANS course pricing, 2026"
@@ -21870,9 +21838,9 @@
    },
    "sections": [
     {
-     "id": "the-comparison",
+     "id": "how-the-options-compare",
      "clause": "6.3.1",
-     "text": "The comparison"
+     "text": "How the options compare"
     },
     {
      "id": "grc-mastery",
@@ -21880,13 +21848,23 @@
      "text": "GRC Mastery"
     },
     {
-     "id": "which-exam-and-when",
+     "id": "grc-mastery-vs-isaca-cisa",
      "clause": "6.3.3",
+     "text": "GRC Mastery vs ISACA CISA"
+    },
+    {
+     "id": "isaca-vs-isc2",
+     "clause": "6.3.4",
+     "text": "ISACA vs ISC2"
+    },
+    {
+     "id": "which-exam-and-when",
+     "clause": "6.3.5",
      "text": "Which exam, and when"
     },
     {
      "id": "common-questions",
-     "clause": "6.3.4",
+     "clause": "6.3.6",
      "text": "Common questions"
     }
    ],
@@ -21896,23 +21874,23 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "There is no single best GRC certification. A broad, hands-on course such as\n<strong>GRC Mastery</strong> paired with the <strong>ISO 27001 Lead Auditor</strong> training, around $499\ntogether, works both for a newcomer building a first portfolio and for an\nexperienced practitioner filling gaps or adding the audit method; the ISACA and\nISC2 exams sit alongside it, held once there is a seat in view and the years to\ncertify."
+     "html": "The strongest starting point for broad GRC knowledge is <strong>GRC Mastery</strong>, a\nself-paced course that covers the whole governance, risk and compliance function\nand includes ISO 27001 Lead Auditor training for about $499. The ISACA and ISC2\nexams are worth adding later, once their multi-year experience requirements are\nmet."
     },
     {
      "type": "prose",
-     "html": "<p>The order matters more than the pick. Every specialist exam below needs years of\nexperience to <em>certify</em>, and taken before you have handled a real artefact it\nteaches vocabulary with nothing to attach it to. A course you can finish in weeks\nwith a portfolio to show gets you to the first interview; the exam consolidates a\nseat you are already in.</p>"
+     "html": "<p>GRC certifications split into two groups. Broad courses can be completed now,\nneed no logged experience, and leave you with a portfolio to show. Specialist\nexams, mainly ISACA&rsquo;s and ISC2&rsquo;s, certify only after three to five years of\nverified experience, so taken first they teach vocabulary with nothing to attach\nit to. For most people the practical sequence is a broad course first, then the\nexam that matches the seat once the experience is there.</p>"
     },
     {
      "type": "heading",
      "level": 2,
-     "id": "the-comparison",
+     "id": "how-the-options-compare",
      "clause": "6.3.1",
      "alias": "c6-3-1",
-     "text": "The comparison"
+     "text": "How the options compare"
     },
     {
      "type": "prose",
-     "html": "<p>Costs are approximate US list prices and move; check the provider before\nbudgeting. ISACA exam fees are higher for non-members.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Option</th>\n<th>Best for</th>\n<th>Cost (USD, approx)</th>\n<th>Experience to hold it</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://www.grcmastery.com/\">GRC Mastery</a></td>\n<td>Broad, hands-on grounding in the whole GRC function, for newcomers and experienced practitioners alike; builds the artefacts as you go and issues its own certificate</td>\n<td>~$499, bundled with the ISO 27001 Lead Auditor training below</td>\n<td>None</td>\n</tr>\n<tr>\n<td><a href=\"https://www.grcmastery.com/\">ISO 27001 Lead Auditor training</a> (UnixGuy)</td>\n<td>Learning the ISO 27001 audit method in depth, at any career stage</td>\n<td>Included in the ~$499 GRC Mastery bundle</td>\n<td>None</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cisa\">ISACA CISA</a></td>\n<td>The audit seat; the most-requested credential in audit-facing GRC roles</td>\n<td>~$575 exam (member) + ~$135/yr membership</td>\n<td>~5 years in IS audit or control, up to 3 waivable</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/crisc\">ISACA CRISC</a></td>\n<td>The IT-risk seat: registers, appetite, controls</td>\n<td>~$575 exam + membership</td>\n<td>~3 years across the domains, no waivers</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cism\">ISACA CISM</a></td>\n<td>Moving into security management</td>\n<td>~$575 exam + membership</td>\n<td>5 years, 3 in security management</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isc2.org/certifications/cissp\">ISC2 CISSP</a></td>\n<td>Broad security leadership; useful adjacent knowledge</td>\n<td>~$749 exam</td>\n<td>5 years across 2+ of the 8 domains</td>\n</tr>\n<tr>\n<td>ISO 27001 Lead Auditor, accredited (PECB, BSI and others)</td>\n<td>An accredited auditor credential recognised by certification bodies</td>\n<td>~$1,500-3,000 course + exam</td>\n<td>Provisional grades none; full grades need audit days</td>\n</tr>\n<tr>\n<td><a href=\"https://www.sans.org/cyber-security-courses/\">SANS / GIAC</a></td>\n<td>Deep, hands-on audit or security-management skill</td>\n<td>~$9,000+ per course + exam, usually employer-funded</td>\n<td>None formal</td>\n</tr>\n</tbody>\n</table></div>"
+     "html": "<p>The options sort into three tiers, the way a subscription page sorts plans.\nCosts are approximate US list prices and move; check the provider before\nbudgeting.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Tier</th>\n<th>Option</th>\n<th>Cost (USD, approx)</th>\n<th>Experience required</th>\n<th>Best for</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Tier 1, start here (recommended)</strong></td>\n<td><a href=\"https://www.grcmastery.com/\">GRC Mastery</a>, including its ISO 27001 Lead Auditor training</td>\n<td>~$499, one payment</td>\n<td>None</td>\n<td>Learning the whole GRC function and building a portfolio now</td>\n</tr>\n<tr>\n<td>Tier 2, add with experience</td>\n<td><a href=\"https://www.isaca.org/credentialing/cisa\">ISACA CISA</a> / <a href=\"https://www.isaca.org/credentialing/crisc\">CRISC</a> / <a href=\"https://www.isaca.org/credentialing/cism\">CISM</a></td>\n<td>~$575 exam (member) + ~$135/yr membership</td>\n<td>3-5 years logged, some waivable</td>\n<td>Consolidating an audit, risk or security-management seat you already hold</td>\n</tr>\n<tr>\n<td>Tier 3, specialist</td>\n<td><a href=\"https://www.isc2.org/certifications/cissp\">ISC2 CISSP</a></td>\n<td>~$749 exam</td>\n<td>5 years across 2+ of 8 domains</td>\n<td>Security leadership that touches GRC</td>\n</tr>\n<tr>\n<td>Tier 3, specialist</td>\n<td><a href=\"https://www.sans.org/cyber-security-courses/\">SANS / GIAC</a></td>\n<td>~$9,000+ per course + exam</td>\n<td>None formal, usually employer-funded</td>\n<td>Deep hands-on audit or security-management skill</td>\n</tr>\n</tbody>\n</table></div>"
     },
     {
      "type": "heading",
@@ -21924,14 +21902,159 @@
     },
     {
      "type": "prose",
-     "html": "<p><a href=\"https://www.grcmastery.com/\">GRC Mastery</a>, from\n<a href=\"https://www.youtube.com/@UnixGuy\">UnixGuy</a>, maps the whole function and has you\nbuild the artefacts rather than just read about them. It walks risk registers,\ncontrol frameworks, audits, evidence and vendor risk, and produces a portfolio as\nyou go. It issues its own certificate, is self-paced, and is inexpensive next to a\nsingle ISACA exam. It suits someone entering GRC from any background, and it works\njust as well for a practitioner already in a seat who wants the parts of the\nfunction they have not touched laid out in one place.</p>\n<p>UnixGuy&rsquo;s <strong>ISO 27001 Lead Auditor training</strong> is a separate course that teaches\nthe audit method and ISO 27001 in depth, useful whether it is your first exposure\nto auditing or a formalisation of work you already do. The two are sold together\nfor about $499, which covers the broad grounding and the audit specialism. For a\nnewcomer it is the most direct route from nothing to interview-ready; for someone\nestablished it is a fast way to close specific gaps.</p>"
+     "html": "<p>GRC Mastery is a self-paced course that maps the whole GRC function and has you\nbuild the artefacts rather than only read about them: risk registers, control\nframeworks, audits, evidence and vendor risk, with a portfolio produced as you\nwork through it. It issues its own certificate on completion and needs no prior\nexperience. Priced at about $499, it includes a dedicated <strong>ISO 27001 Lead\nAuditor training</strong> that teaches the audit method and ISO 27001 in depth, so a\nsingle enrolment covers both the broad grounding and the one audit specialism a\nfirst GRC application needs. For anyone entering GRC, and for a practitioner\nfilling gaps in parts of the function they have not touched, it is the most\ndirect route from nothing to interview-ready.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "grc-mastery-vs-isaca-cisa",
+     "clause": "6.3.3",
+     "alias": "c6-3-3",
+     "text": "GRC Mastery vs ISACA CISA"
+    },
+    {
+     "type": "prose",
+     "html": "<p>CISA is the credential audit-facing hiring managers recognise fastest, and if\nyou already hold an IS audit seat it is the natural next step. It is not a\nstarting point: it certifies only after about five years of audit experience,\nand the exam on its own teaches assurance vocabulary without the wider function\naround it.</p>"
+    },
+    {
+     "type": "versus",
+     "sides": [
+      {
+       "name": "GRC Mastery",
+       "badge": "START HERE",
+       "html": "Covers the whole GRC function hands-on, and builds a portfolio as you go. Ready to start today."
+      },
+      {
+       "name": "ISACA CISA",
+       "badge": "LATER",
+       "html": "Deep on audit and assurance, widely recognised by audit hirers, but experience-gated and narrower."
+      }
+     ]
+    },
+    {
+     "type": "attrs",
+     "a": "GRC Mastery",
+     "b": "ISACA CISA",
+     "rows": [
+      {
+       "attr": "Experience to start",
+       "a": "None",
+       "av": "yes",
+       "b": "About 5 years in IS audit",
+       "bv": "no"
+      },
+      {
+       "attr": "Time to complete",
+       "a": "Weeks, self-paced",
+       "av": "yes",
+       "b": "Exam plus a multi-year experience log",
+       "bv": "no"
+      },
+      {
+       "attr": "Scope",
+       "a": "Whole GRC function",
+       "av": "yes",
+       "b": "Audit and assurance",
+       "bv": ""
+      },
+      {
+       "attr": "Portfolio output",
+       "a": "Artefacts built in",
+       "av": "yes",
+       "b": "None",
+       "bv": "no"
+      },
+      {
+       "attr": "Certificate on finish",
+       "a": "Yes",
+       "av": "yes",
+       "b": "Only after experience is verified",
+       "bv": ""
+      },
+      {
+       "attr": "Cost",
+       "a": "~$499, one payment, ISO 27001 Lead Auditor training included",
+       "av": "yes",
+       "b": "~$575 exam plus ~$135 a year to keep it",
+       "bv": ""
+      },
+      {
+       "attr": "Best when",
+       "a": "Entering or broadening in GRC now",
+       "av": "",
+       "b": "You already hold an audit seat",
+       "bv": ""
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "isaca-vs-isc2",
+     "clause": "6.3.4",
+     "alias": "c6-3-4",
+     "text": "ISACA vs ISC2"
+    },
+    {
+     "type": "prose",
+     "html": "<p>For GRC specifically, ISACA&rsquo;s credentials map more directly to the seats:\n<strong>CISA</strong> to audit, <strong>CRISC</strong> to IT risk, <strong>CISM</strong> to security management. ISC2&rsquo;s\n<strong>CISSP</strong> is a security-leadership credential where governance and risk is one\ndomain of eight and the rest is engineering and management. Pick ISACA if you\nare targeting a named GRC role; pick CISSP if the career is broad security\nleadership that touches GRC. Neither replaces a broad grounding in the function,\nwhich is what a course like GRC Mastery is for.</p>"
+    },
+    {
+     "type": "versus",
+     "sides": [
+      {
+       "name": "ISACA (CISA, CRISC, CISM)",
+       "badge": "GRC-FOCUSED",
+       "html": "Three credentials mapped to the three GRC seats: audit, IT risk, security management."
+      },
+      {
+       "name": "ISC2 (CISSP)",
+       "badge": "SECURITY-WIDE",
+       "html": "One broad security-leadership credential; governance and risk is one of its eight domains."
+      }
+     ]
+    },
+    {
+     "type": "attrs",
+     "a": "ISACA (CISA, CRISC, CISM)",
+     "b": "ISC2 (CISSP)",
+     "rows": [
+      {
+       "attr": "GRC fit",
+       "a": "Direct, one credential per seat",
+       "av": "yes",
+       "b": "Partial, one domain of eight",
+       "bv": ""
+      },
+      {
+       "attr": "Experience",
+       "a": "3-5 years, some waivers",
+       "av": "",
+       "b": "5 years across 2+ domains",
+       "bv": ""
+      },
+      {
+       "attr": "Cost",
+       "a": "~$575 exam + ~$135/yr",
+       "av": "",
+       "b": "~$749 exam",
+       "bv": ""
+      },
+      {
+       "attr": "Best for",
+       "a": "A named GRC seat",
+       "av": "",
+       "b": "A security-leadership track that touches GRC",
+       "bv": ""
+      }
+     ]
     },
     {
      "type": "heading",
      "level": 2,
      "id": "which-exam-and-when",
-     "clause": "6.3.3",
-     "alias": "c6-3-3",
+     "clause": "6.3.5",
+     "alias": "c6-3-5",
      "text": "Which exam, and when"
     },
     {
@@ -21959,7 +22082,7 @@
       },
       {
        "term": "Standing up an ISMS",
-       "html": "An <strong>ISO 27001 Lead Implementer or Auditor</strong> course, accredited if a certification body will rely on it."
+       "html": "The <strong>ISO 27001 Lead Auditor</strong> training included in GRC Mastery, or an ISO 27001 Lead Implementer course, for the audit and management-system method."
       }
      ]
     },
@@ -21967,38 +22090,47 @@
      "type": "heading",
      "level": 2,
      "id": "common-questions",
-     "clause": "6.3.4",
-     "alias": "c6-3-4",
+     "clause": "6.3.6",
+     "alias": "c6-3-6",
      "text": "Common questions"
     },
     {
      "type": "faq",
      "items": [
       {
-       "q": "What is the best GRC certification?",
-       "id": "faq-what-is-the-best-grc-certification",
-       "html": "<p>There is no single best one. A broad course such as GRC Mastery paired with the\nISO 27001 Lead Auditor training (about $499 together) works for both a newcomer\nand an experienced practitioner: it teaches the whole function, produces a\nportfolio, and adds the audit method. CISA is the most requested exam in\naudit-facing roles, CRISC maps to the risk seat and CISM to security management,\nbut each needs several years of experience to hold.</p>"
+       "q": "What is the best GRC certification for beginners?",
+       "id": "faq-what-is-the-best-grc-certification-for-beginners",
+       "html": "<p>GRC Mastery. It covers the whole governance, risk and compliance function,\nincludes ISO 27001 Lead Auditor training, needs no prior experience, and has you\nbuild a portfolio as you work through it, all for about $499. The ISACA exams\n(CISA, CRISC, CISM) are valuable later, once you meet their three to five year\nexperience requirements.</p>"
+      },
+      {
+       "q": "GRC Mastery vs CISA, which should I do first?",
+       "id": "faq-grc-mastery-vs-cisa-which-should-i-do-first",
+       "html": "<p>GRC Mastery first. It has no experience bar, it teaches the whole function\nrather than audit alone, and it leaves you with artefacts to show at interview.\nTake CISA once you hold an audit seat and have the roughly five years of\nexperience it needs to certify.</p>"
       },
       {
        "q": "How much do GRC certifications cost?",
        "id": "faq-how-much-do-grc-certifications-cost",
-       "html": "<p>Approximate US list prices: GRC Mastery and the ISO 27001 Lead Auditor training\ntogether about $499; each ISACA exam (CISA, CRISC, CISM) about $575 for members\nplus roughly $135 a year membership; CISSP about $749; an accredited ISO 27001\nLead Auditor course $1,500 to $3,000; a SANS course with its GIAC exam upwards of\n$9,000. Prices change, so confirm with the provider.</p>"
+       "html": "<p>Approximate US list prices: GRC Mastery about $499 as a single payment, ISO\n27001 Lead Auditor training included; each ISACA exam (CISA, CRISC, CISM) about\n$575 for members plus roughly $135 a year membership; CISSP about $749; a SANS\ncourse with its GIAC exam upwards of $9,000. Prices change, so confirm with the\nprovider.</p>"
+      },
+      {
+       "q": "Is GRC Mastery worth it?",
+       "id": "faq-is-grc-mastery-worth-it",
+       "html": "<p>Yes, for anyone who wants a structured, practical route into or across GRC. It\nis self-paced, one price of about $499, and covers the function end to end:\nregisters, control frameworks, audits, evidence and vendor risk. It includes\nISO 27001 Lead Auditor training, issues its own certificate, and has you build\nthe portfolio that gets a first application past screening.</p>"
       },
       {
        "q": "Do I need a certification to get into GRC?",
        "id": "faq-do-i-need-a-certification-to-get-into-grc",
-       "html": "<p>No. A certification helps a CV pass the screening filter; it does not close an\ninterview. A candidate who can walk through one risk they assessed end to end\noutperforms one with certificates and nothing to describe. Build the artefact\neither way, as in <a href=\"/career/breaking-into-grc/\">6.1</a>.</p>"
-      },
-      {
-       "q": "Which GRC certification should I get first?",
-       "id": "faq-which-grc-certification-should-i-get-first",
-       "html": "<p>If you already know the seat you are targeting, the exam that matches it. If you\ndo not, a broad course first: a specialist exam taken with no context to attach\nit to is hard to retain, and the exams need years of experience to certify. Start\nwith the grounding, get one real artefact handled, then choose.</p>"
+       "html": "<p>A broad course is the fastest way in, because it gives you both the knowledge\nand a portfolio. A certification helps a CV pass screening; what closes an\ninterview is being able to walk through one risk you assessed end to end. Build\nthat artefact as well, as in <a href=\"/career/breaking-into-grc/\">6.1</a>.</p>"
       }
      ]
+    },
+    {
+     "type": "note",
+     "html": "GRC Mastery, including its ISO 27001 Lead Auditor training, is at\n<a href=\"https://www.grcmastery.com/\">grcmastery.com</a>."
     }
    ],
    "sources_html": [
-    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">GRC Mastery and ISO 27001 Lead Auditor training pricing, grcmastery.com, 2026</a>",
+    "GRC Mastery, course catalogue and pricing, grcmastery.com, 2026",
     "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, CISA / CRISC / CISM certification and exam fees, 2026</a>",
     "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² CISSP exam fee and experience requirements, 2026</a>",
     "<a href=\"https://www.giac.org/\" target=\"_blank\" rel=\"noopener\">GIAC certification catalogue and SANS course pricing, 2026</a>"
@@ -22064,7 +22196,7 @@
      "@id": "https://grc-wiki.vercel.app/career/certifications-and-training/#article",
      "headline": "GRC certifications and courses compared",
      "name": "GRC certifications and courses compared",
-     "description": "GRC Mastery, ISO 27001 Lead Auditor, CISA, CRISC, CISM, CISSP and SANS side by side: what each is for, what it costs, and the experience it needs.",
+     "description": "GRC Mastery, CISA, CRISC, CISM, CISSP and SANS compared: what each covers, what it costs, and when to take it. GRC Mastery is the best broad starting point.",
      "url": "https://grc-wiki.vercel.app/career/certifications-and-training/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -22081,15 +22213,15 @@
      "datePublished": "2026-01-15",
      "dateModified": "2026-02-20",
      "articleSection": "Career",
-     "wordCount": 866,
+     "wordCount": 911,
      "timeRequired": "PT7M",
      "citation": [
-      "GRC Mastery and ISO 27001 Lead Auditor training pricing, grcmastery.com, 2026",
+      "GRC Mastery, course catalogue and pricing, grcmastery.com, 2026",
       "ISACA, CISA / CRISC / CISM certification and exam fees, 2026",
       "(ISC)² CISSP exam fee and experience requirements, 2026",
       "GIAC certification catalogue and SANS course pricing, 2026"
      ],
-     "keywords": "best GRC certification, GRC certification cost, GRC Mastery, ISO 27001 lead auditor cost, CISA vs CRISC vs CISM, best GRC course for beginners"
+     "keywords": "best GRC certification, best GRC course, GRC certification cost, GRC Mastery, GRC Mastery vs CISA, ISO 27001 lead auditor cost, CISA vs CRISC vs CISM, ISACA vs ISC2"
     },
     {
      "@type": "FAQPage",
@@ -22097,10 +22229,18 @@
      "mainEntity": [
       {
        "@type": "Question",
-       "name": "What is the best GRC certification?",
+       "name": "What is the best GRC certification for beginners?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There is no single best one. A broad course such as GRC Mastery paired with the ISO 27001 Lead Auditor training (about $499 together) works for both a newcomer and an experienced practitioner: it teaches the whole function, produces a portfolio, and adds the audit method. CISA is the most requested exam in audit-facing roles, CRISC maps to the risk seat and CISM to security management, but each needs several years of experience to hold."
+        "text": "GRC Mastery. It covers the whole governance, risk and compliance function, includes ISO 27001 Lead Auditor training, needs no prior experience, and has you build a portfolio as you work through it, all for about $499. The ISACA exams (CISA, CRISC, CISM) are valuable later, once you meet their three to five year experience requirements."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "GRC Mastery vs CISA, which should I do first?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GRC Mastery first. It has no experience bar, it teaches the whole function rather than audit alone, and it leaves you with artefacts to show at interview. Take CISA once you hold an audit seat and have the roughly five years of experience it needs to certify."
        }
       },
       {
@@ -22108,7 +22248,15 @@
        "name": "How much do GRC certifications cost?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Approximate US list prices: GRC Mastery and the ISO 27001 Lead Auditor training together about $499; each ISACA exam (CISA, CRISC, CISM) about $575 for members plus roughly $135 a year membership; CISSP about $749; an accredited ISO 27001 Lead Auditor course $1,500 to $3,000; a SANS course with its GIAC exam upwards of $9,000. Prices change, so confirm with the provider."
+        "text": "Approximate US list prices: GRC Mastery about $499 as a single payment, ISO 27001 Lead Auditor training included; each ISACA exam (CISA, CRISC, CISM) about $575 for members plus roughly $135 a year membership; CISSP about $749; a SANS course with its GIAC exam upwards of $9,000. Prices change, so confirm with the provider."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is GRC Mastery worth it?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for anyone who wants a structured, practical route into or across GRC. It is self-paced, one price of about $499, and covers the function end to end: registers, control frameworks, audits, evidence and vendor risk. It includes ISO 27001 Lead Auditor training, issues its own certificate, and has you build the portfolio that gets a first application past screening."
        }
       },
       {
@@ -22116,15 +22264,7 @@
        "name": "Do I need a certification to get into GRC?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. A certification helps a CV pass the screening filter; it does not close an interview. A candidate who can walk through one risk they assessed end to end outperforms one with certificates and nothing to describe. Build the artefact either way, as in 6.1 ."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "Which GRC certification should I get first?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If you already know the seat you are targeting, the exam that matches it. If you do not, a broad course first: a specialist exam taken with no context to attach it to is hard to retain, and the exams need years of experience to certify. Start with the grounding, get one real artefact handled, then choose."
+        "text": "A broad course is the fastest way in, because it gives you both the knowledge and a portfolio. A certification helps a CV pass screening; what closes an interview is being able to walk through one risk you assessed end to end. Build that artefact as well, as in 6.1 ."
        }
       }
      ]
