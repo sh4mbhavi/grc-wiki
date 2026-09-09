@@ -80,7 +80,7 @@ class Entry:
 @dataclass
 class IndexTerm:
     """A headword in the A-Z index. Points at a clause, which may or may not
-    be published yet — an index that hides the corpus's shape is less useful
+    be published yet - an index that hides the corpus's shape is less useful
     than one that shows where it is going."""
     t: str
     ref: str
@@ -155,7 +155,7 @@ def _split_front_matter(text: str, path: Path) -> tuple[dict[str, Any], str]:
     try:
         meta = yaml.safe_load(match.group(1)) or {}
     except yaml.YAMLError as exc:
-        raise ContentError(f"{path.name}: front matter is not valid YAML — {exc}") from exc
+        raise ContentError(f"{path.name}: front matter is not valid YAML - {exc}") from exc
     return meta, text[match.end():]
 
 

@@ -3,7 +3,7 @@
 The reference ranks on definitional queries, so the schema does three jobs:
 say what the page defines (DefinedTerm), anchor each claim to its sources
 (TechArticle + citation), and expose the FAQ block. Nothing here is
-decorative — every field maps to something visible on the page, which is the
+decorative - every field maps to something visible on the page, which is the
 only version of structured data that survives a manual review.
 """
 
@@ -49,7 +49,7 @@ def json_ld_index(site: Site) -> list[dict[str, Any]]:
         {
             "@type": "DefinedTermSet",
             "@id": url + "#termset",
-            "name": f"{site.name} — index of terms",
+            "name": f"{site.name} - index of terms",
             "url": url,
             "description": (
                 f"Every term in the {site.name}, alphabetically, with the clause it belongs to."

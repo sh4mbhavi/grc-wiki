@@ -19,7 +19,7 @@ const FONTS = "https://cdn.jsdelivr.net/npm/@fontsource-variable/hubot-sans/inde
 
 export const metadata: Metadata = {
     metadataBase: new URL(site.origin),
-    title: { default: site.name, template: `%s — ${site.name}` },
+    title: { default: site.name, template: `%s - ${site.name}` },
     description: site.description,
     alternates: { canonical: "/" },
     openGraph: {

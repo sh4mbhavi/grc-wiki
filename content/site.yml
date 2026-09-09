@@ -5,7 +5,7 @@ site:
   name: GRC Wiki
   short_name: GRC Wiki
   # Change to the real hostname before launch. Used for canonicals, sitemap,
-  # Open Graph and JSON-LD — a wrong value here quietly breaks all four.
+  # Open Graph and JSON-LD - a wrong value here quietly breaks all four.
   # The live hostname. Canonicals, Open Graph, the sitemap and the JSON-LD all
   # derive from it, so a wrong value here quietly breaks all four. Change this
   # one line when the custom domain is attached.
@@ -57,7 +57,7 @@ parts:
     slug: frameworks
     name: Frameworks
     count: 52
-    blurb: ISO 27001, NIST CSF 2.0, SOC 2, PCI DSS, COSO — and the crosswalks.
+    blurb: ISO 27001, NIST CSF 2.0, SOC 2, PCI DSS, COSO - and the crosswalks.
   - n: 6
     slug: career
     name: Career
@@ -73,7 +73,7 @@ home:
   # the demonstrated use of the search box. Swap them as the keyword set moves.
   chips:
     - what is GRC
-    - how to learn GRC
+    - breaking into GRC
     - ISO 27001 vs SOC 2
     - risk appetite vs tolerance
     - incident response lifecycle
@@ -87,7 +87,7 @@ home:
     - { title: Risk register, ref: "3.1", count: 31 }
     - { title: ISO 27001 explained, ref: "5.14", count: 28 }
     - { title: ISO 27001 vs SOC 2, ref: "5.1", count: 27 }
-    - { title: How to learn GRC, ref: "6.7", count: 24 }
+    - { title: Breaking into GRC, ref: "6.1", count: 24 }
     - { title: Risk appetite, ref: "3.2", count: 22 }
     - { title: Incident response, ref: "4.15", count: 20 }
     - { title: Three lines model, ref: "1.5", count: 19 }

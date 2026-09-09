@@ -1,7 +1,7 @@
-# The A–Z index (3c).
+# The A-Z index (3c).
 #
-# Headwords, not entry titles. Index convention is the inverted form — "Appetite,
-# risk" rather than "Risk appetite" — so related terms cluster alphabetically,
+# Headwords, not entry titles. Index convention is the inverted form - "Appetite,
+# risk" rather than "Risk appetite" - so related terms cluster alphabetically,
 # which also happens to capture both query orders.
 #
 # `ref` is the clause the headword points at. Where that clause is published the
@@ -146,7 +146,6 @@ terms:
   - { t: "CISM", ref: "6.3" }
   - { t: "CISSP", ref: "6.3" }
   - { t: "CRISC", ref: "6.3" }
-  - { t: "Day in the life, GRC", ref: "6.5", level: entry }
   - { t: "GIAC (SANS)", ref: "6.3" }
   - { t: "Training, GRC", ref: "6.3", key: true, level: entry }
   - { t: "Committee, terms of reference", ref: "2.5" }

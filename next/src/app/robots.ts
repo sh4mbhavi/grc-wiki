@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-/* Required by output: "export" — the file is written once at build time. */
+/* Required by output: "export" - the file is written once at build time. */
 export const dynamic = "force-static";
 
 import { absolute } from "@/lib/content";

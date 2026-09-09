@@ -1,4 +1,4 @@
-/* GRC Wiki — behaviour.
+/* GRC Wiki - behaviour.
    Five jobs: theme, the corpus drawer, the clause-map disclosure, the reading
    position, and search.
 
@@ -159,7 +159,7 @@
     /* The meter shows live position, because that is what a progress bar is
        for and a page that opens at 19% just looks broken. What persists is the
        furthest you have reached, and it surfaces as the read-mark in the corpus
-       rail rather than in the meter. Private-mode failures are silent — the
+       rail rather than in the meter. Private-mode failures are silent - the
        meter still works, it just forgets. */
 
     var READ_KEY = "grc-read";
@@ -235,8 +235,8 @@
         }
 
         /* Computed synchronously. Gating this behind requestAnimationFrame
-           strands the meter whenever rAF is throttled — a background tab, a
-           busy main thread — and one rect read per scroll event costs nothing.
+           strands the meter whenever rAF is throttled - a background tab, a
+           busy main thread - and one rect read per scroll event costs nothing.
            The write is what is expensive, so that is what gets rationed. */
         function update() {
             var value = measure();

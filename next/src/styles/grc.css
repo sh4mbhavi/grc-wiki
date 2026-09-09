@@ -1,5 +1,5 @@
 /* ==========================================================================
-   GRC Wiki — design system
+   GRC Wiki - design system
    Direction 1a "normative standard", built out as 2a shell / 3a home / 3b entry.
    Two type roles only: Source Serif 4 carries all prose, IBM Plex Mono carries
    structure (clause IDs, metadata, rails, tables of contents). No sans.
@@ -10,13 +10,13 @@
 :root {
     color-scheme: light;
 
-    /* Paper — cool stone, no warm cast */
+    /* Paper - cool stone, no warm cast */
     --paper:        #f1f2f3;
     --paper-raised: #ffffff;
     --paper-fill:   #e7e9eb;
 
-    /* Ink — cool greys. The two quietest are dark enough to clear 4.5:1 as
-       10–12px mono (WCAG normal text) on the lightest paper they sit on. */
+    /* Ink - cool greys. The two quietest are dark enough to clear 4.5:1 as
+       10-12px mono (WCAG normal text) on the lightest paper they sit on. */
     --ink:        #17181a;
     --ink-body:   #3a3c40;
     --ink-quiet:  #45474b;
@@ -30,11 +30,11 @@
     --rule-soft:   #e3e5e7;
     --rule-input:  #c8cace;
 
-    /* Accent — graphite. Hue-free near-black; structure, never decoration. */
+    /* Accent - graphite. Hue-free near-black; structure, never decoration. */
     --accent:      #2b2c2e;
     --accent-weak: rgba(43, 44, 46, 0.06);
 
-    /* Risk matrix ramp, light — neutral pale → charcoal, no hue */
+    /* Risk matrix ramp, light - neutral pale → charcoal, no hue */
     --heat-0: #eef0f1;
     --heat-1: #e2e4e6;
     --heat-2: #d2d5d8;
@@ -45,23 +45,23 @@
     --heat-7: #565a60;
     --heat-8: #3c4045;
 
-    /* Spacing — 4px base */
+    /* Spacing - 4px base */
     --s-1: 0.25rem;  --s-2: 0.5rem;   --s-3: 0.75rem;  --s-4: 1rem;
     --s-5: 1.25rem;  --s-6: 1.5rem;   --s-8: 2rem;     --s-10: 2.5rem;
     --s-12: 3rem;    --s-16: 4rem;
 
-    /* Type — one family across the whole site: Hubot Sans. The --serif and
+    /* Type - one family across the whole site: Hubot Sans. The --serif and
        --mono token names are kept so the rest of the sheet does not churn;
        --mono just adds tabular figures for clause IDs and tables. */
     --serif: "Hubot Sans Variable", "Hubot Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --mono:  "Hubot Sans Variable", "Hubot Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
-    --t-display: 2.75rem;   /* 44px — entry title */
-    --t-hero:    3.5rem;    /* 56px — home only, one per site */
+    --t-display: 2.75rem;   /* 44px - entry title */
+    --t-hero:    3.5rem;    /* 56px - home only, one per site */
     --t-lead:    1.219rem;  /* 19.5px */
     --t-body:    1.031rem;  /* 16.5px */
     --t-small:   0.969rem;  /* 15.5px */
-    --t-struct:  0.938rem;  /* 15px — clause heading, mono */
+    --t-struct:  0.938rem;  /* 15px - clause heading, mono */
     --t-meta:    0.719rem;  /* 11.5px */
     --t-micro:   0.656rem;  /* 10.5px */
 
@@ -85,7 +85,7 @@
     --ease-in:  cubic-bezier(0.7, 0, 0.84, 0);
 }
 
-/* Inverse mode — cool graphite. Near-black stone paper with a near-white,
+/* Inverse mode - cool graphite. Near-black stone paper with a near-white,
    hue-free accent (the light accent is near-black, so on dark it inverts
    rather than dims). Light is the default: dark applies only when the reader
    picks it with the toggle, which sets data-theme="dark" and stores the
@@ -336,7 +336,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .tree__page--stub { color: var(--ink-fainter); }
 
-/* An entry you have finished gets its clause number in the accent — quiet, and
+/* An entry you have finished gets its clause number in the accent - quiet, and
    it reuses a mark the design already means something by. Set from
    localStorage, so it is a fact about this browser and nothing else. */
 .tree__page[data-read="true"] .tree__n { color: var(--accent); }
@@ -446,7 +446,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 .article > * + * { margin-top: 0; }
 
-/* Clause headings — mono, structural, ruled above. The rule is a section
+/* Clause headings - mono, structural, ruled above. The rule is a section
    break, not an underline: it sits well clear of the heading and is drawn in
    the softest neutral, so it separates without competing with the type. */
 .clause {
@@ -596,7 +596,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .figure figcaption b { color: var(--ink); font-weight: 600; }
 
-/* Register-row diagram — a single risk-register record as a CSS artefact. The
+/* Register-row diagram - a single risk-register record as a CSS artefact. The
    reference carries diagrams and the matrix, and nothing photographic. */
 .regrow {
     border: 1px solid var(--rule-strong);
@@ -627,7 +627,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .regrow__row[data-mark="true"] .regrow__v { font-weight: 600; }
 
-/* FIG 1 — the GRC loop, four nodes and four labelled edges. CSS only. */
+/* FIG 1 - the GRC loop, four nodes and four labelled edges. CSS only. */
 .loop {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 62px minmax(0, 1fr);
@@ -654,7 +654,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .loop__edge { text-align: center; color: var(--accent); letter-spacing: 0.06em; line-height: 1.6; }
 .loop__edge--v { padding: var(--s-3) 0; }
 
-/* FIG 2 — 5×5 risk matrix. A real table: rows and columns are headers. */
+/* FIG 2 - 5×5 risk matrix. A real table: rows and columns are headers. */
 .matrix { width: 100%; border-collapse: separate; border-spacing: 2px; }
 .matrix caption {
     caption-side: top;
@@ -686,7 +686,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .matrix [data-heat="8"] span { background: var(--heat-8); }
 .matrix td[data-mark] span { box-shadow: inset 0 0 0 2px var(--ink); }
 
-/* Data table — grid ruled, no zebra */
+/* Data table - grid ruled, no zebra */
 .dtable { width: 100%; border-collapse: collapse; font-size: var(--t-small); }
 .dtable caption { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .dtable th {
@@ -760,7 +760,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .dtable--attrs td:first-child { font-weight: 400; }
 .dtable--attrs td[data-v="yes"] { color: var(--accent); font-weight: 600; }
 .dtable--attrs td[data-v="no"] { color: var(--ink); font-weight: 600; }
-.dtable--attrs td[data-v="no"]::before { content: "\2014\00a0"; color: var(--ink-faint); }
+.dtable--attrs td[data-v="no"]::before { content: "-\00a0"; color: var(--ink-faint); }
 
 @media (max-width: 700px) {
     .versus { grid-template-columns: minmax(0, 1fr); }
@@ -772,7 +772,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     }
 }
 
-/* FAQ — native disclosure, one open by default */
+/* FAQ - native disclosure, one open by default */
 .faq { max-width: var(--measure); }
 .faq details { border-bottom: 1px solid var(--rule-soft); }
 .faq summary {
@@ -845,7 +845,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .sources a { color: var(--ink-body); border-bottom: 1px solid var(--rule-input); }
 .sources a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
-/* Margin note — the conversion event, in the flow, never a section */
+/* Margin note - the conversion event, in the flow, never a section */
 .margin-note {
     max-width: var(--measure);
     margin-top: var(--s-6);
@@ -1034,7 +1034,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     color: var(--accent);
 }
 
-/* --- 8. Index (A–Z) ----------------------------------------------------- */
+/* --- 8. Index (A-Z) ----------------------------------------------------- */
 
 /* Used by the editorial pages, which are prose on a single column. */
 .index-page { max-width: 1100px; margin: 0 auto; padding: var(--s-8) var(--s-6) var(--s-16); }
@@ -1367,7 +1367,7 @@ mark { background: var(--accent-weak); color: inherit; font-weight: 600; }
 }
 
 @media (min-width: 1201px) {
-    /* Source order is corpus rail, page rail, article — so the page rail
+    /* Source order is corpus rail, page rail, article - so the page rail
        lands above the article when the frame collapses. Above 1200px the
        three are placed explicitly instead. */
     .rail--corpus { grid-column: 1; grid-row: 1; }

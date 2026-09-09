@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: site.description,
     keywords: home.chips,
     alternates: { canonical: "/" },
-    openGraph: { title: `${home.title} — ${site.name}`, description: site.description, url: "/" },
+    openGraph: { title: `${home.title} - ${site.name}`, description: site.description, url: "/" },
 };
 
 export default function Home() {
@@ -70,7 +70,7 @@ export default function Home() {
                         </div>
 
                         <section>
-                            <h2 className="section-rule">START HERE — IF YOU ARE NEW</h2>
+                            <h2 className="section-rule">START HERE - IF YOU ARE NEW</h2>
                             <div className="start">
                                 {startHere.map((entry, i) => (
                                     <div key={entry!.clause} style={{ display: "contents" }}>
@@ -121,12 +121,12 @@ export default function Home() {
                         </div>
 
                         <a className="aside-card" href={href("/a-z/")}>
-                            <b>A–Z INDEX</b>
+                            <b>A-Z INDEX</b>
                             <span>Every term, alphabetically, with the clause it belongs to.</span>
                         </a>
-                        <a className="aside-card" href={href("/career/how-to-learn-grc/")}>
+                        <a className="aside-card" href={href("/career/breaking-into-grc/")}>
                             <b>NEW TO GRC?</b>
-                            <span>Start with the from-scratch learning path.</span>
+                            <span>How people move into the field, and the gap that blocks them.</span>
                         </a>
                     </aside>
                 </div>

@@ -79,13 +79,13 @@ function LoopDiagram() {
     return (
         <div className="loop" role="img" aria-label={LOOP_LABEL}>
             <LoopNode i={0} />
-            <div className="loop__edge loop__edge--h" aria-hidden="true">sets<br />———▸</div>
+            <div className="loop__edge loop__edge--h" aria-hidden="true">sets<br />---▸</div>
             <LoopNode i={1} />
             <div className="loop__edge loop__edge--v" aria-hidden="true">▴<br />reports</div>
             <div />
             <div className="loop__edge loop__edge--v" aria-hidden="true">produces<br />▾</div>
             <LoopNode i={2} />
-            <div className="loop__edge loop__edge--h" aria-hidden="true">feeds<br />◂———</div>
+            <div className="loop__edge loop__edge--h" aria-hidden="true">feeds<br />◂---</div>
             <LoopNode i={3} />
         </div>
     );
@@ -174,7 +174,7 @@ export function BlockView({ block }: { block: Block }) {
                                             const marked = markRow === r + 1 && markCol === c + 1;
                                             const label =
                                                 `${rowName} likelihood, ${colName.toLowerCase()} impact` +
-                                                (marked ? " — the worked example" : "");
+                                                (marked ? " - the worked example" : "");
                                             return (
                                                 <td
                                                     key={colName}

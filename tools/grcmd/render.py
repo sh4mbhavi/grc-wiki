@@ -233,12 +233,12 @@ def _diagram_loop():
         f'Risk produces controls and evidence held by Compliance. Compliance feeds Assurance, which '
         f'reports back to Governance.">'
         + node(0)
-        + '<div class="loop__edge loop__edge--h" aria-hidden="true">sets<br>&mdash;&mdash;&mdash;&#9656;</div>'
+        + '<div class="loop__edge loop__edge--h" aria-hidden="true">sets<br>---&#9656;</div>'
         + node(1)
         + '<div class="loop__edge loop__edge--v" aria-hidden="true">&#9652;<br>reports</div><div></div>'
         + '<div class="loop__edge loop__edge--v" aria-hidden="true">produces<br>&#9662;</div>'
         + node(2)
-        + '<div class="loop__edge loop__edge--h" aria-hidden="true">feeds<br>&#9666;&mdash;&mdash;&mdash;</div>'
+        + '<div class="loop__edge loop__edge--h" aria-hidden="true">feeds<br>&#9666;---</div>'
         + node(3)
         + "</div>"
     )
@@ -280,7 +280,7 @@ def _b_matrix(b, site):
             marked = " data-mark=\"true\"" if mark == (r, c) else ""
             label = f"{row_name} likelihood, {col_name.lower()} impact"
             if marked:
-                label += " — the worked example"
+                label += " - the worked example"
             cells.append(
                 f'<td data-heat="{heat}"{marked}><span></span>'
                 f'<span class="u-vh">{e(label)}</span></td>'
@@ -450,8 +450,8 @@ def colophon(site: Site) -> str:
 <div class="colophon__cols">
 <div><h2>THE REFERENCE</h2><ul>{parts}</ul></div>
 <div><h2>RESOURCES</h2><ul>
-<li><a href="{e(site.url('/a-z/'))}">A&ndash;Z index</a></li>
-<li><a href="{e(site.url('/career/how-to-learn-grc/'))}">How to learn GRC</a></li>
+<li><a href="{e(site.url('/a-z/'))}">A-Z index</a></li>
+<li><a href="{e(site.url('/career/breaking-into-grc/'))}">Breaking into GRC</a></li>
 <li><a href="{e(site.url('/career/grc-courses-and-training/'))}">Courses &amp; training</a></li>
 <li><a href="{e(site.url('sitemap.xml'))}">Sitemap</a></li>
 </ul></div>
@@ -573,7 +573,7 @@ def entry_page(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> str:
     part = entry.part_obj
     assert part is not None
 
-    title = f"{entry.title} — {site.name}"
+    title = f"{entry.title} - {site.name}"
     crumbs = (
         f'Part {e(part.n)} / <a href="{e(site.url(part.url))}">{e(part.name)}</a> / '
         f"{e(entry.clause)}"
@@ -679,7 +679,7 @@ def home_drawer(site: Site) -> str:
             )
         out.append('</ul></div>')
     out.append(
-        f'<a class="drawer__az" href="{e(site.url("/a-z/"))}">A&ndash;Z index &#8594;</a>'
+        f'<a class="drawer__az" href="{e(site.url("/a-z/"))}">A-Z index &#8594;</a>'
     )
     out.append('</nav>')
     return "\n".join(out)
@@ -735,7 +735,7 @@ def home_page(site: Site) -> str:
         )
 
     return f"""{head(site,
-        title=f"{home['title']} — {site.name}",
+        title=f"{home['title']} - {site.name}",
         description=cfg['site']['description'],
         path='/',
         keywords=[c for c in home['chips']],
@@ -764,7 +764,7 @@ def home_page(site: Site) -> str:
 <div class="parts">{parts}</div>
 
 <section>
-<h2 class="section-rule">START HERE &mdash; IF YOU ARE NEW</h2>
+<h2 class="section-rule">START HERE - IF YOU ARE NEW</h2>
 <div class="start">{''.join(start)}</div>
 </section>
 
@@ -777,8 +777,8 @@ def home_page(site: Site) -> str:
 <aside class="home__aside">
 <h2 class="section-rule">MOST CITED</h2>
 <div class="cited"><ul>{cited}</ul></div>
-<a class="aside-card" href="{e(site.url('/a-z/'))}"><b>A&ndash;Z INDEX</b><span>Every term, alphabetically, with the clause it belongs to.</span></a>
-<a class="aside-card" href="{e(site.url('/career/how-to-learn-grc/'))}"><b>NEW TO GRC?</b><span>Start with the from-scratch learning path.</span></a>
+<a class="aside-card" href="{e(site.url('/a-z/'))}"><b>A-Z INDEX</b><span>Every term, alphabetically, with the clause it belongs to.</span></a>
+<a class="aside-card" href="{e(site.url('/career/breaking-into-grc/'))}"><b>NEW TO GRC?</b><span>How people move into the field, and the gap that blocks them.</span></a>
 </aside>
 </div>
 </main>
@@ -789,7 +789,7 @@ def home_page(site: Site) -> str:
 ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 BROWSE_MODES = [
-    ("A–Z index", "/a-z/", True),
+    ("A-Z index", "/a-z/", True),
     ("By part", None, False),
     ("By framework", None, False),
     ("By artefact", None, False),
@@ -797,7 +797,7 @@ BROWSE_MODES = [
 ]
 
 # All off by default. The handoff shows "Entry-level" ticked, but this page is
-# the crawl surface — shipping it pre-filtered would hide most of the corpus
+# the crawl surface - shipping it pre-filtered would hide most of the corpus
 # from the first render, which is the one thing it exists not to do.
 FILTERS = [
     ("level", "Entry-level explanations", False),
@@ -819,7 +819,7 @@ def _coverage(site: Site) -> list[str]:
 
 
 def index_page(site: Site) -> str:
-    """3c — the A–Z. This is the crawl surface: one page that links every
+    """3c - the A-Z. This is the crawl surface: one page that links every
     headword with its clause number, so depth is two clicks from anywhere."""
     groups: dict[str, list] = {}
     for term in site.index_terms:
@@ -892,12 +892,12 @@ def index_page(site: Site) -> str:
     examples_total = sum(1 for t in site.index_terms if t.example)
 
     return f"""{head(site,
-        title=f"Index of entries — {site.name}",
+        title=f"Index of entries - {site.name}",
         description=f"Every term in the {site.name}, alphabetically, with the clause it belongs to. "
                     f"{len(site.index_terms)} headwords across {len(site.parts)} parts.",
         path='/a-z/',
         ld=json_ld_index(site))}
-{masthead(site, crumbs='Index / A&ndash;Z', with_drawer=True)}
+{masthead(site, crumbs='Index / A-Z', with_drawer=True)}
 <div class="frame">
 <nav class="rail rail--corpus" id="corpus" data-drawer aria-label="Browse the index">
 <div class="rail__label">BROWSE BY</div>
@@ -926,7 +926,7 @@ example, marked with a &#9642; and worked through in full in the entry that owns
 <h1 class="idx__title">Index of entries</h1>
 <p class="idx__intro">Every term in the reference, alphabetically. <b>Bold</b> entries are the ones most
 people arrive looking for; a <span class="idx__mark">&#9642;</span> marks an entry with a worked example.
-Terms in grey are commissioned and not yet published &mdash; the clause number is where they will live.</p>
+Terms in grey are commissioned and not yet published - the clause number is where they will live.</p>
 <nav class="strip" aria-label="Letters in use">{''.join(strip)}</nav>
 <div class="idx__cols" data-index>{''.join(blocks)}</div>
 <div class="idx__foot">
@@ -967,7 +967,7 @@ def part_page(site: Site, part) -> str:
         for en in entries
     )
     return f"""{head(site,
-        title=f"{part.name} — {site.name}",
+        title=f"{part.name} - {site.name}",
         description=part.blurb,
         path=part.url,
         ld=json_ld_home(site))}
@@ -987,7 +987,7 @@ def part_page(site: Site, part) -> str:
 
 
 def simple_page(site: Site, *, path: str, title: str, description: str, body_html: str, robots="index,follow") -> str:
-    return f"""{head(site, title=f"{title} — {site.name}", description=description, path=path, ld=json_ld_home(site), robots=robots)}
+    return f"""{head(site, title=f"{title} - {site.name}", description=description, path=path, ld=json_ld_home(site), robots=robots)}
 {masthead(site, crumbs=e(title))}
 <main class="index-page" id="main" style="max-width:760px">
 {body_html}

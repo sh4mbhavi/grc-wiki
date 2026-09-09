@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 const BROWSE_MODES: [string, string | null, boolean][] = [
-    ["A–Z index", "/a-z/", true],
+    ["A-Z index", "/a-z/", true],
     ["By part", null, false],
     ["By framework", null, false],
     ["By artefact", null, false],
@@ -73,7 +73,7 @@ export default function IndexPage() {
     return (
         <>
             <Ld nodes={indexLd} />
-            <Masthead withDrawer crumbs="Index / A–Z" />
+            <Masthead withDrawer crumbs="Index / A-Z" />
             <div className="frame">
                 <nav className="rail rail--corpus" id="corpus" data-drawer="" aria-label="Browse the index">
                     <div className="rail__label">BROWSE BY</div>
@@ -161,7 +161,7 @@ export default function IndexPage() {
                         Every term in the reference, alphabetically. <b>Bold</b> entries are the ones
                         most people arrive looking for; a <span className="idx__mark">▪</span> marks an
                         entry with a worked example. Terms in grey are commissioned and not yet
-                        published — the clause number is where they will live.
+                        published - the clause number is where they will live.
                     </p>
 
                     <nav className="strip" aria-label="Letters in use">

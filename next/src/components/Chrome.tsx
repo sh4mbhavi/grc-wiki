@@ -119,8 +119,8 @@ export function Colophon() {
                 <div>
                     <h2>RESOURCES</h2>
                     <ul>
-                        <li><a href={href("/a-z/")}>A–Z index</a></li>
-                        <li><a href={href("/career/how-to-learn-grc/")}>How to learn GRC</a></li>
+                        <li><a href={href("/a-z/")}>A-Z index</a></li>
+                        <li><a href={href("/career/breaking-into-grc/")}>Breaking into GRC</a></li>
                         <li><a href={href("/career/grc-courses-and-training/")}>Courses &amp; training</a></li>
                         <li><a href={href("/sitemap.xml")}>Sitemap</a></li>
                     </ul>
@@ -163,7 +163,7 @@ export function HomeDrawer() {
                         </ul>
                     </div>
                 ))}
-                <a className="drawer__az" href={href("/a-z/")}>A–Z index →</a>
+                <a className="drawer__az" href={href("/a-z/")}>A-Z index →</a>
             </nav>
             <div className="drawer__scrim" data-drawer-scrim="" hidden />
         </>

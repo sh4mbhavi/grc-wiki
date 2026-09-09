@@ -35,12 +35,12 @@ NOT_FOUND = """
 <h1 class="article__title" style="max-width:none">No entry at that address</h1>
 <p class="lede" style="max-width:60ch">The reference has been renumbered before and will be
 again. The index lists every entry currently published.</p>
-<p><a href="/a-z/">Browse the A&ndash;Z index</a> or press <kbd>&#8984;K</kbd> to search.</p>
+<p><a href="/a-z/">Browse the A-Z index</a> or press <kbd>&#8984;K</kbd> to search.</p>
 """
 
 
 # vercel.json is schema-validated on Vercel's side with additionalProperties
-# false at every level, so an unknown key — including a "//" comment — fails the
+# false at every level, so an unknown key - including a "//" comment - fails the
 # deploy after a successful build. Checked here so it fails on a laptop instead.
 VERCEL_TOP = {
     "$schema", "alias", "build", "buildCommand", "builds", "cleanUrls", "crons",
@@ -58,7 +58,7 @@ def check_vercel(path: Path) -> list[str]:
     try:
         cfg = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
-        return [f"{path.name}: not valid JSON — {exc}"]
+        return [f"{path.name}: not valid JSON - {exc}"]
 
     problems = [f"{path.name}: unknown key {k!r}" for k in sorted(set(cfg) - VERCEL_TOP)]
     for rule in cfg.get("redirects", []):
@@ -71,7 +71,7 @@ def check_vercel(path: Path) -> list[str]:
     # is in .next/ and the deploy fails after a successful build.
     if cfg.get("framework") == "nextjs" and cfg.get("outputDirectory"):
         problems.append(
-            f"{path.name}: outputDirectory must not be set alongside framework 'nextjs' — "
+            f"{path.name}: outputDirectory must not be set alongside framework 'nextjs' - "
             "Vercel reads it as distDir and will not find routes-manifest.json"
         )
     return problems
@@ -121,7 +121,7 @@ def build(*, bundle: bool, check: bool) -> int:
     for error in config_errors:
         print(f"  error {error}", file=sys.stderr)
     if config_errors:
-        raise ContentError(f"{len(config_errors)} deploy-config problem(s) — see above")
+        raise ContentError(f"{len(config_errors)} deploy-config problem(s) - see above")
 
     # Content doctrine, enforced as errors so it cannot rot: the reference is
     # image-free, and conversion is capped at one recommendation note per entry.
@@ -132,12 +132,12 @@ def build(*, bundle: bool, check: bool) -> int:
         for marker in image_markers:
             if marker in body_lower:
                 doctrine_errors.append(
-                    f"{entry.source_path.name}: image markup {marker!r} — the reference is image-free"
+                    f"{entry.source_path.name}: image markup {marker!r} - the reference is image-free"
                 )
     site_text = (CONTENT / "site.yml").read_text(encoding="utf-8").lower()
     for marker in ("image_slot", "image slot"):
         if marker in site_text:
-            doctrine_errors.append(f"site.yml: {marker!r} — the reference is image-free")
+            doctrine_errors.append(f"site.yml: {marker!r} - the reference is image-free")
     def count_notes(blocks: list[dict]) -> int:
         total = 0
         for b in blocks:
@@ -152,12 +152,12 @@ def build(*, bundle: bool, check: bool) -> int:
         notes = count_notes(parsed[entry.clause][0])
         if notes > 1:
             doctrine_errors.append(
-                f"{entry.source_path.name}: {notes} :::note blocks — conversion is one note per entry"
+                f"{entry.source_path.name}: {notes} :::note blocks - conversion is one note per entry"
             )
     for error in doctrine_errors:
         print(f"  error {error}", file=sys.stderr)
     if doctrine_errors:
-        raise ContentError(f"{len(doctrine_errors)} content-doctrine problem(s) — see above")
+        raise ContentError(f"{len(doctrine_errors)} content-doctrine problem(s) - see above")
 
     if check:
         print(f"parsed {len(site.entries)} entries, {len(problems)} dangling references")

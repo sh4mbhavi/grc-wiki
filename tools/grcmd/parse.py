@@ -36,7 +36,7 @@ BLOCK_DIRECTIVES = {
 
 # Diagrams are named, not free-form: a diagram is a piece of the design system,
 # not something an author draws in markdown. They are also the only figure the
-# reference carries — there are no photographs and no image slots.
+# reference carries - there are no photographs and no image slots.
 DIAGRAMS = {"grc-loop", "register-row"}
 
 
@@ -151,7 +151,7 @@ class Builder:
         text = attrs.get("caption")
         if not text:
             raise ContentError(f"{self.where}: figure {n} has no caption. Every figure is captioned.")
-        return f"FIG. {n} — " + md_inline(str(text))
+        return f"FIG. {n} - " + md_inline(str(text))
 
     # -- text runs
 
@@ -231,7 +231,7 @@ class Builder:
             if not line:
                 continue
             if "::" not in line:
-                raise ContentError(f"{self.where}: ':::terms' line is missing '::' — {line[:48]!r}")
+                raise ContentError(f"{self.where}: ':::terms' line is missing '::' - {line[:48]!r}")
             term, _, body = line.partition("::")
             items.append({"term": term.strip(), "html": md_inline(body.strip())})
         if not items:
@@ -333,7 +333,7 @@ class Builder:
             cells = [c.strip() for c in line.split("::")]
             if len(cells) != 3:
                 raise ContentError(
-                    f"{self.where}: ':::attrs' row needs 'attribute :: a :: b' — {line[:48]!r}"
+                    f"{self.where}: ':::attrs' row needs 'attribute :: a :: b' - {line[:48]!r}"
                 )
             row = {"attr": cells[0]}
             for key, cell in zip(("a", "b"), cells[1:]):
@@ -380,7 +380,7 @@ class Builder:
         }]
 
     def d_col(self, attrs, children, raw) -> list[dict[str, Any]]:
-        raise ContentError(f"{self.where}: ':::col' is not used — separate split columns with '{COLUMN_BREAK}'")
+        raise ContentError(f"{self.where}: ':::col' is not used - separate split columns with '{COLUMN_BREAK}'")
 
     # -- entry point
 
