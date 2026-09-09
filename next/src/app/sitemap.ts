@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return [
         { url: absolute("/"), lastModified: now, changeFrequency: "weekly", priority: 1 },
         { url: absolute("/a-z/"), lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+        { url: absolute("/about/"), lastModified: now, changeFrequency: "yearly", priority: 0.5 },
         ...livePartsOnly().map((part) => ({
             url: absolute(`/${part.slug}/`),
             lastModified: now,
