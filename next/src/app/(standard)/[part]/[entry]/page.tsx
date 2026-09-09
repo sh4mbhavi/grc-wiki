@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Blocks, BlockView } from "@/components/Blocks";
 import { Ld, Masthead } from "@/components/Chrome";
 import { CorpusRail, PageRail } from "@/components/Rails";
-import { byClause, editorial, entries, href, OG_IMAGE, partBySlug, parts } from "@/lib/content";
+import { byClause, editorial, entries, href, partBySlug, parts } from "@/lib/content";
 
 type Params = { part: string; entry: string };
 
@@ -31,7 +31,6 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
             description: entry.description,
             url: entry.url,
             type: "article",
-            images: OG_IMAGE,
         },
     };
 }

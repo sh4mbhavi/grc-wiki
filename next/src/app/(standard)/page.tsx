@@ -8,7 +8,6 @@ import {
     home,
     href,
     navTitle,
-    OG_IMAGE,
     parts,
     site,
     siteLd,
@@ -19,7 +18,7 @@ export const metadata: Metadata = {
     description: site.description,
     keywords: home.chips,
     alternates: { canonical: "/" },
-    openGraph: { title: `${home.title} - ${site.name}`, description: site.description, url: "/", images: OG_IMAGE },
+    openGraph: { title: `${home.title} - ${site.name}`, description: site.description, url: "/" },
 };
 
 export default function Home() {

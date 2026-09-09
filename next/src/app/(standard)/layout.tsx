@@ -22,17 +22,12 @@ export const metadata: Metadata = {
     title: { default: site.name, template: `%s - ${site.name}` },
     description: site.description,
     alternates: { canonical: "/" },
-    icons: {
-        icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
-        apple: [{ url: "/favicon.svg" }],
-    },
     openGraph: {
         type: "article",
         siteName: site.name,
         locale: site.locale.replace("-", "_"),
-        images: [{ url: "/assets/logo.svg", width: 148, height: 34 }],
     },
-    twitter: { card: "summary", images: ["/assets/logo.svg"] },
+    twitter: { card: "summary" },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

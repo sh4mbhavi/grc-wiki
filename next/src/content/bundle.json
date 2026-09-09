@@ -15,7 +15,7 @@
    "standfirst": "A PLAIN-LANGUAGE REFERENCE FOR PRACTITIONERS",
    "maintainer": "Maintained by working governance, risk and compliance practitioners.",
    "first_published": "2026-01-15",
-   "reviewed": "2026-02-20"
+   "reviewed": "2026-09-09"
   },
   "parts": [
    {
@@ -127,13 +127,7 @@
    "@id": "https://grc-wiki.vercel.app/#org",
    "name": "GRC Wiki",
    "url": "https://grc-wiki.vercel.app/",
-   "description": "Maintained by working governance, risk and compliance practitioners.",
-   "logo": {
-    "@type": "ImageObject",
-    "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-    "width": 148,
-    "height": 34
-   }
+   "description": "Maintained by working governance, risk and compliance practitioners."
   },
   {
    "@type": "WebSite",
@@ -161,13 +155,7 @@
    "@id": "https://grc-wiki.vercel.app/#org",
    "name": "GRC Wiki",
    "url": "https://grc-wiki.vercel.app/",
-   "description": "Maintained by working governance, risk and compliance practitioners.",
-   "logo": {
-    "@type": "ImageObject",
-    "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-    "width": 148,
-    "height": 34
-   }
+   "description": "Maintained by working governance, risk and compliance practitioners."
   },
   {
    "@type": "WebSite",
@@ -1565,13 +1553,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -1635,7 +1617,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 312,
      "timeRequired": "PT4M",
@@ -1887,13 +1869,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -1957,7 +1933,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 1068,
      "timeRequired": "PT6M",
@@ -2205,13 +2181,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -2275,7 +2245,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 598,
      "timeRequired": "PT7M",
@@ -2462,13 +2432,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -2532,7 +2496,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 505,
      "timeRequired": "PT9M",
@@ -2756,13 +2720,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -2826,7 +2784,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 386,
      "timeRequired": "PT5M",
@@ -2972,13 +2930,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -3042,7 +2994,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 394,
      "timeRequired": "PT5M",
@@ -3196,13 +3148,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -3266,7 +3212,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 379,
      "timeRequired": "PT5M",
@@ -3481,13 +3427,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -3551,7 +3491,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 1234,
      "timeRequired": "PT6M",
@@ -3835,13 +3775,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -3905,7 +3839,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 931,
      "timeRequired": "PT5M",
@@ -4192,13 +4126,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -4262,7 +4190,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 1076,
      "timeRequired": "PT5M",
@@ -4556,13 +4484,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -4626,7 +4548,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Foundations",
      "wordCount": 845,
      "timeRequired": "PT7M",
@@ -4847,13 +4769,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -4917,7 +4833,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Governance",
      "wordCount": 394,
      "timeRequired": "PT5M",
@@ -5052,13 +4968,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -5122,7 +5032,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Governance",
      "wordCount": 349,
      "timeRequired": "PT6M",
@@ -5319,13 +5229,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -5389,7 +5293,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Governance",
      "wordCount": 368,
      "timeRequired": "PT6M",
@@ -5540,13 +5444,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -5610,7 +5508,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Governance",
      "wordCount": 410,
      "timeRequired": "PT6M",
@@ -5869,13 +5767,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -5939,7 +5831,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Governance",
      "wordCount": 1147,
      "timeRequired": "PT5M",
@@ -6180,13 +6072,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -6250,7 +6136,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Governance",
      "wordCount": 945,
      "timeRequired": "PT5M",
@@ -6461,13 +6347,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -6531,7 +6411,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 382,
      "timeRequired": "PT5M",
@@ -6720,13 +6600,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -6790,7 +6664,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 490,
      "timeRequired": "PT8M",
@@ -6928,13 +6802,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -6998,7 +6866,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 423,
      "timeRequired": "PT5M",
@@ -7203,13 +7071,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -7273,7 +7135,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 409,
      "timeRequired": "PT6M",
@@ -7420,13 +7282,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -7490,7 +7346,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 347,
      "timeRequired": "PT4M",
@@ -7706,13 +7562,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -7776,7 +7626,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 773,
      "timeRequired": "PT5M",
@@ -8010,13 +7860,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -8080,7 +7924,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 925,
      "timeRequired": "PT5M",
@@ -8315,13 +8159,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -8385,7 +8223,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 706,
      "timeRequired": "PT6M",
@@ -8585,13 +8423,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -8655,7 +8487,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 722,
      "timeRequired": "PT4M",
@@ -8884,13 +8716,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -8954,7 +8780,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 704,
      "timeRequired": "PT4M",
@@ -9205,13 +9031,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -9275,7 +9095,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 809,
      "timeRequired": "PT5M",
@@ -9471,13 +9291,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -9541,7 +9355,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 662,
      "timeRequired": "PT5M",
@@ -9775,13 +9589,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -9845,7 +9653,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 580,
      "timeRequired": "PT5M",
@@ -10094,13 +9902,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -10164,7 +9966,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Risk",
      "wordCount": 839,
      "timeRequired": "PT8M",
@@ -10386,13 +10188,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -10456,7 +10252,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 405,
      "timeRequired": "PT5M",
@@ -10648,13 +10444,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -10718,7 +10508,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 455,
      "timeRequired": "PT8M",
@@ -10894,13 +10684,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -10964,7 +10748,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 422,
      "timeRequired": "PT7M",
@@ -11119,13 +10903,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -11189,7 +10967,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 456,
      "timeRequired": "PT7M",
@@ -11412,13 +11190,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -11482,7 +11254,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 869,
      "timeRequired": "PT6M",
@@ -11741,13 +11513,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -11811,7 +11577,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 1131,
      "timeRequired": "PT6M",
@@ -12027,13 +11793,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -12097,7 +11857,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 1051,
      "timeRequired": "PT5M",
@@ -12363,13 +12123,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -12433,7 +12187,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 1063,
      "timeRequired": "PT6M",
@@ -12671,13 +12425,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -12741,7 +12489,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 916,
      "timeRequired": "PT5M",
@@ -12992,13 +12740,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -13062,7 +12804,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 1018,
      "timeRequired": "PT6M",
@@ -13331,13 +13073,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -13401,7 +13137,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 995,
      "timeRequired": "PT6M",
@@ -13650,13 +13386,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -13720,7 +13450,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 687,
      "timeRequired": "PT6M",
@@ -13987,13 +13717,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -14057,7 +13781,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 800,
      "timeRequired": "PT7M",
@@ -14312,13 +14036,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -14382,7 +14100,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 712,
      "timeRequired": "PT6M",
@@ -14627,13 +14345,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -14697,7 +14409,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 698,
      "timeRequired": "PT6M",
@@ -14959,13 +14671,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -15029,7 +14735,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 773,
      "timeRequired": "PT7M",
@@ -15325,13 +15031,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -15395,7 +15095,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Compliance",
      "wordCount": 754,
      "timeRequired": "PT7M",
@@ -15621,13 +15321,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -15691,7 +15385,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 444,
      "timeRequired": "PT6M",
@@ -15926,13 +15620,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -15996,7 +15684,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 432,
      "timeRequired": "PT8M",
@@ -16197,13 +15885,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -16267,7 +15949,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 389,
      "timeRequired": "PT7M",
@@ -16456,13 +16138,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -16526,7 +16202,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 445,
      "timeRequired": "PT6M",
@@ -16769,13 +16445,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -16839,7 +16509,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 1329,
      "timeRequired": "PT6M",
@@ -17117,13 +16787,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -17187,7 +16851,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 990,
      "timeRequired": "PT5M",
@@ -17431,13 +17095,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -17501,7 +17159,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 990,
      "timeRequired": "PT5M",
@@ -17790,13 +17448,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -17860,7 +17512,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 1213,
      "timeRequired": "PT6M",
@@ -18116,13 +17768,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -18186,7 +17832,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 1316,
      "timeRequired": "PT5M",
@@ -18420,13 +18066,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -18490,7 +18130,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 1211,
      "timeRequired": "PT6M",
@@ -18785,13 +18425,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -18855,7 +18489,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 1253,
      "timeRequired": "PT6M",
@@ -19135,13 +18769,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -19205,7 +18833,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 1554,
      "timeRequired": "PT7M",
@@ -19442,13 +19070,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -19512,7 +19134,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 1173,
      "timeRequired": "PT6M",
@@ -19832,13 +19454,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -19902,7 +19518,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 1560,
      "timeRequired": "PT8M",
@@ -20177,13 +19793,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -20247,7 +19857,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 935,
      "timeRequired": "PT9M",
@@ -20491,13 +20101,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -20561,7 +20165,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 701,
      "timeRequired": "PT7M",
@@ -20828,13 +20432,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -20898,7 +20496,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 879,
      "timeRequired": "PT8M",
@@ -21197,13 +20795,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -21267,7 +20859,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Frameworks",
      "wordCount": 924,
      "timeRequired": "PT8M",
@@ -21492,13 +21084,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -21562,7 +21148,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Career",
      "wordCount": 485,
      "timeRequired": "PT7M",
@@ -21580,27 +21166,27 @@
    "part": 6,
    "slug": "breaking-into-grc",
    "title": "Breaking into GRC",
-   "description": "A structured path in with no prior experience: learn the fundamentals, practise a risk assessment and an audit, take one certification, and apply with a portfolio and the words a screener searches for.",
+   "description": "The barrier to a first GRC job is experience, not a degree. Build it yourself: learn the fundamentals, work real risk assessments and audits, then apply wide.",
    "short_title": "Breaking in",
    "keywords": [
     "how to get into GRC",
     "GRC entry level",
+    "GRC with no experience",
     "GRC roadmap",
-    "GRC without experience",
-    "learn GRC in 90 days",
-    "ISO 27001 lead auditor first job"
+    "manufacture experience GRC",
+    "GRC resume keywords"
    ],
    "defines": "",
-   "reviewed": "",
-   "reading_minutes": 7,
+   "reviewed": "2026-09-09",
+   "reading_minutes": 8,
    "cited_by": 7,
    "canonical_entry": false,
    "quick_facts": {
-    "moves": "4",
-    "the two artefacts": "Risk assessment and audit",
-    "the one certification": "ISO 27001 Lead Auditor",
-    "realistic timeline": "A few months part-time",
-    "best signal": "A worked artefact"
+    "the real barrier": "Experience, not a degree",
+    "steps": "4",
+    "the two artefacts": "A risk assessment and an audit",
+    "the one course": "A broad GRC course with ISO 27001 Lead Auditor training",
+    "best signal": "A project you can walk through end to end"
    },
    "related": [
     "6.0",
@@ -21626,9 +21212,34 @@
      "text": "Where the field hires from"
     },
     {
-     "id": "the-four-moves",
+     "id": "step-1-build-the-foundation",
      "clause": "6.1.2",
-     "text": "The four moves"
+     "text": "Step 1: build the foundation"
+    },
+    {
+     "id": "step-2-build-the-two-artefacts-the-job-turns-on",
+     "clause": "6.1.3",
+     "text": "Step 2: build the two artefacts the job turns on"
+    },
+    {
+     "id": "step-3-take-one-course-not-five-certifications",
+     "clause": "6.1.4",
+     "text": "Step 3: take one course, not five certifications"
+    },
+    {
+     "id": "step-4-write-the-experience-up-and-apply-wide",
+     "clause": "6.1.5",
+     "text": "Step 4: write the experience up and apply wide"
+    },
+    {
+     "id": "the-generalist-route",
+     "clause": "6.1.6",
+     "text": "The generalist route"
+    },
+    {
+     "id": "common-questions",
+     "clause": "6.1.7",
+     "text": "Common questions"
     }
    ],
    "figure_count": 0,
@@ -21637,11 +21248,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "A structured path into GRC with no prior experience runs in four moves: learn\nthe fundamentals, practise the two artefacts the job turns on, take one\ncertification, and apply with a portfolio and the words a screener searches for."
+     "html": "The reason most people do not get a first GRC job is not a missing degree or a\nmissing certification. It is experience. You can build that experience yourself:\nwork through real risk assessments and audits, document them, and present them\nas a portfolio a hiring manager can question."
     },
     {
      "type": "prose",
-     "html": "<p>It is measured in months, not years, and it needs no coding background. What it\nneeds is the discipline to finish each move with something concrete to show,\nbecause the interview question underneath all of them is whether you have\nhandled a real artefact or only read about one.</p>"
+     "html": "<p>It takes months, not years, and it needs no coding background. What it needs is\nthe discipline to finish each step with something concrete, because the question\nunderneath every GRC interview is whether you have handled a real artefact or\nonly read about one. The four steps below assume no starting point.</p>"
     },
     {
      "type": "heading",
@@ -21678,19 +21289,100 @@
     },
     {
      "type": "prose",
-     "html": "<p>Coming in with none of these is workable too. The four moves below assume no\nstarting point.</p>"
+     "html": "<p>Coming in with none of these is workable too. Nothing below assumes a prior seat.</p>"
     },
     {
      "type": "heading",
      "level": 2,
-     "id": "the-four-moves",
+     "id": "step-1-build-the-foundation",
      "clause": "6.1.2",
      "alias": "c6-1-2",
-     "text": "The four moves"
+     "text": "Step 1: build the foundation"
     },
     {
      "type": "prose",
-     "html": "<p><strong>1. Learn the fundamentals.</strong> The vocabulary, the <a href=\"/foundations/four-artefacts/\">four artefacts</a>,\nhow a register is scored, what an auditor asks for. A few weeks of focused\nreading. The free primary sources and a reference like this one cover the\nmaterial; a taught course buys the sequence and the pacing. Courses and\ncertifications are compared at <a href=\"/career/certifications-and-training/\">6.3</a>.</p>\n<p><strong>2. Practise the two artefacts the job turns on.</strong> GRC work is mostly a risk\nassessment or an audit, moved through its stages and written down legibly. Build\none of each against a small real-ish scope: a side project, a club, a fictional\ncompany. Produce a risk assessment with a documented scale, owners and\ntreatments, and a short audit of a control with a criterion, a sample and\nfindings. These become the portfolio for move 4.</p>\n<p><strong>3. Take one certification, not five.</strong> The path centres on the <strong>ISO 27001\nLead Auditor</strong> course, because it teaches the audit method and the\nmanagement-system vocabulary together and does not require years of experience to\nhold. Leave the specialist exams alone at this stage: CISA, CRISC and CISM are\nworth having later, but each carries a multi-year experience requirement and\nteaches vocabulary with nothing to attach it to if taken first. Full comparison\nat <a href=\"/career/certifications-and-training/\">6.3</a>.</p>\n<p><strong>4. Apply with a portfolio and the right keywords.</strong> Attach the move-2 artefacts\nto the application and be ready to walk an interviewer through one end to end.\nThen make the CV match how it is screened: mirror the phrasing in the advert and\nthe terms an applicant-tracking system filters on, such as risk assessment, risk\nregister, control testing, evidence, gap analysis, ISO 27001, SOC 2 and\nthird-party risk. A CV that describes the same work in different words is\nfiltered out before a person reads it.</p>"
+     "html": "<p>The foundation is the GRC function itself, not network engineering. It is the\nvocabulary, the <a href=\"/foundations/four-artefacts/\">four artefacts</a>, how a register\nis scored, what an auditor asks for, and how the main frameworks fit together:\nISO 27001, NIST CSF and SOC 2. A few weeks of focused study covers it.</p>\n<p>A broad course buys the sequence and the pacing that free primary sources do\nnot. GRC Mastery is built for exactly this: someone entering the field with no\nexperience who wants the whole function mapped in order. Do not over-invest in\ngeneric introductory security certificates at this stage; they introduce\ndefinitions and little else, and the goal here is to get to practical work\nquickly.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "step-2-build-the-two-artefacts-the-job-turns-on",
+     "clause": "6.1.3",
+     "alias": "c6-1-3",
+     "text": "Step 2: build the two artefacts the job turns on"
+    },
+    {
+     "type": "prose",
+     "html": "<p>GRC work is mostly a risk assessment or an audit, moved through its stages and\nwritten down legibly. Build one of each against a small real-ish scope: a side\nproject, a club, a fictional company. Produce a risk assessment with a\ndocumented scale, owners and treatments, and a short audit of one control with a\ncriterion, a sample and findings.</p>\n<p>This is how you manufacture experience. Working through practical cases, rather\nthan passing a multiple-choice exam, means that at interview you can talk\nthrough what you assessed, what you found and what you recommended, and give the\nhiring manager confidence that you can do the work. GRC Mastery includes\npractical cases and an ISO 27001 Lead Auditor training that covers the audit\nmethod in depth. The artefacts you produce become the portfolio for step 4.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "step-3-take-one-course-not-five-certifications",
+     "clause": "6.1.4",
+     "alias": "c6-1-4",
+     "text": "Step 3: take one course, not five certifications"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Centre the path on one broad GRC course with <strong>ISO 27001 Lead Auditor</strong>\ntraining, because it teaches the audit method and the management-system\nvocabulary together and needs no years of experience to hold. Leave the\nspecialist exams alone at this stage: CISA, CRISC and CISM are worth having\nlater, but each carries a multi-year experience requirement and teaches\nvocabulary with nothing to attach it to if taken first. Full comparison at\n<a href=\"/career/certifications-and-training/\">6.3</a>.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "step-4-write-the-experience-up-and-apply-wide",
+     "clause": "6.1.5",
+     "alias": "c6-1-5",
+     "text": "Step 4: write the experience up and apply wide"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Put each project and course on the CV as a short paragraph with bullet points\nthat name the tools, frameworks and deliverables: risk assessment, risk\nregister, control testing, evidence, gap analysis, ISO 27001, SOC 2,\nthird-party risk. Those are the terms a hiring manager and an applicant-tracking\nsystem search for. One line saying you passed a course, with nothing under it,\nis the common mistake; the detail is what makes you stand out.</p>\n<p>Then apply wide. Search a job board with one broad keyword, GRC or risk or\ncompliance or audit, rather than a narrow title, and apply whenever you meet a\nfraction of the list. Job adverts are wish lists of ten or twenty items; if you\nhave a quarter of them, apply and let them decide. Do not reject yourself.\nLinkedIn first, then whatever local board is used where you are.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-generalist-route",
+     "clause": "6.1.6",
+     "alias": "c6-1-6",
+     "text": "The generalist route"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Small and mid-size organisations often want one person across several areas: a\nsecurity analyst who can also run a risk assessment, or a GRC analyst who\nunderstands the cloud environment the evidence lives in. Adding GRC skills to a\ntechnical background, or cloud and security literacy to a GRC background, makes\nan application stand out in a field where most candidates have done the\nminimum.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "common-questions",
+     "clause": "6.1.7",
+     "alias": "c6-1-7",
+     "text": "Common questions"
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Can you get into GRC with no experience?",
+       "id": "faq-can-you-get-into-grc-with-no-experience",
+       "html": "<p>Yes. The barrier is experience, but you can build it yourself by working through\nreal risk assessments and audits, documenting them, and presenting them as a\nportfolio. Most people also enter from an adjacent seat such as IT support,\ninternal audit, project delivery or a legal role, which covers part of the job\nalready.</p>"
+      },
+      {
+       "q": "How long does it take to break into GRC?",
+       "id": "faq-how-long-does-it-take-to-break-into-grc",
+       "html": "<p>A few months of focused part-time work for most people: a few weeks on the\nfundamentals, several weeks building a risk assessment and an audit you can walk\nthrough, one course alongside it, then applying. It is measured in months, not\nyears, and needs no coding background.</p>"
+      },
+      {
+       "q": "Do you need a certification to get into GRC?",
+       "id": "faq-do-you-need-a-certification-to-get-into-grc",
+       "html": "<p>No. A broad course helps because it gives you both the knowledge and a\nportfolio, and a certification can get a CV past screening, but what closes an\ninterview is being able to describe one risk you assessed end to end. Build that\nartefact regardless of which course you take.</p>"
+      },
+      {
+       "q": "Which course should I take to break into GRC?",
+       "id": "faq-which-course-should-i-take-to-break-into-grc",
+       "html": "<p>One broad GRC course that includes ISO 27001 Lead Auditor training, because it\nteaches the whole function and the audit method without a years-of-experience\nrequirement. The specialist ISACA and ISC2 exams come later. See\n<a href=\"/career/certifications-and-training/\">6.3</a>.</p>"
+      }
+     ]
     },
     {
      "type": "note",
@@ -21707,13 +21399,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -21762,7 +21448,7 @@
      "@id": "https://grc-wiki.vercel.app/career/breaking-into-grc/#article",
      "headline": "Breaking into GRC",
      "name": "Breaking into GRC",
-     "description": "A structured path in with no prior experience: learn the fundamentals, practise a risk assessment and an audit, take one certification, and apply with a portfolio and the words a screener searches for.",
+     "description": "The barrier to a first GRC job is experience, not a degree. Build it yourself: learn the fundamentals, work real risk assessments and audits, then apply wide.",
      "url": "https://grc-wiki.vercel.app/career/breaking-into-grc/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -21777,15 +21463,53 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Career",
-     "wordCount": 564,
-     "timeRequired": "PT7M",
+     "wordCount": 998,
+     "timeRequired": "PT8M",
      "citation": [
       "ISACA, CRISC and CISA job practice areas, 2025",
       "(ISC)² Cybersecurity Workforce Study, 2025"
      ],
-     "keywords": "how to get into GRC, GRC entry level, GRC roadmap, GRC without experience, learn GRC in 90 days, ISO 27001 lead auditor first job"
+     "keywords": "how to get into GRC, GRC entry level, GRC with no experience, GRC roadmap, manufacture experience GRC, GRC resume keywords"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://grc-wiki.vercel.app/career/breaking-into-grc/#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Can you get into GRC with no experience?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The barrier is experience, but you can build it yourself by working through real risk assessments and audits, documenting them, and presenting them as a portfolio. Most people also enter from an adjacent seat such as IT support, internal audit, project delivery or a legal role, which covers part of the job already."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long does it take to break into GRC?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A few months of focused part-time work for most people: a few weeks on the fundamentals, several weeks building a risk assessment and an audit you can walk through, one course alongside it, then applying. It is measured in months, not years, and needs no coding background."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you need a certification to get into GRC?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A broad course helps because it gives you both the knowledge and a portfolio, and a certification can get a CV past screening, but what closes an interview is being able to describe one risk you assessed end to end. Build that artefact regardless of which course you take."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Which course should I take to break into GRC?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One broad GRC course that includes ISO 27001 Lead Auditor training, because it teaches the whole function and the audit method without a years-of-experience requirement. The specialist ISACA and ISC2 exams come later. See 6.3 ."
+       }
+      }
+     ]
     }
    ]
   },
@@ -21807,13 +21531,13 @@
     "ISACA vs ISC2"
    ],
    "defines": "",
-   "reviewed": "2026-02-20",
+   "reviewed": "2026-09-09",
    "reading_minutes": 7,
    "cited_by": 6,
    "canonical_entry": false,
    "quick_facts": {
     "best for broad GRC knowledge": "GRC Mastery",
-    "GRC Mastery price": "~$499, includes ISO 27001 Lead Auditor training",
+    "GRC Mastery covers": "The whole GRC function, hands-on",
     "experience to start GRC Mastery": "None",
     "ISACA exams require": "3-5 years of logged experience"
    },
@@ -21824,7 +21548,7 @@
    ],
    "sources": [
     "GRC Mastery, course catalogue and pricing, grcmastery.com, 2026",
-    "ISACA, CISA / CRISC / CISM certification and exam fees, 2026",
+    "ISACA, CISA / CRISC / CISM / CGEIT / CDPSE certification and exam fees, 2026",
     "(ISC)² CISSP exam fee and experience requirements, 2026",
     "GIAC certification catalogue and SANS course pricing, 2026"
    ],
@@ -21838,9 +21562,9 @@
    },
    "sections": [
     {
-     "id": "how-the-options-compare",
+     "id": "the-comparison",
      "clause": "6.3.1",
-     "text": "How the options compare"
+     "text": "The comparison"
     },
     {
      "id": "grc-mastery",
@@ -21874,7 +21598,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "The strongest starting point for broad GRC knowledge is <strong>GRC Mastery</strong>, a\nself-paced course that covers the whole governance, risk and compliance function\nand includes ISO 27001 Lead Auditor training for about $499. The ISACA and ISC2\nexams are worth adding later, once their multi-year experience requirements are\nmet."
+     "html": "The strongest starting point for broad GRC knowledge is <strong>GRC Mastery</strong>, a\nself-paced course that covers the whole governance, risk and compliance function\nand includes ISO 27001 Lead Auditor training. The ISACA and ISC2 exams are worth\nadding later, once their multi-year experience requirements are met."
     },
     {
      "type": "prose",
@@ -21883,14 +21607,14 @@
     {
      "type": "heading",
      "level": 2,
-     "id": "how-the-options-compare",
+     "id": "the-comparison",
      "clause": "6.3.1",
      "alias": "c6-3-1",
-     "text": "How the options compare"
+     "text": "The comparison"
     },
     {
      "type": "prose",
-     "html": "<p>The options sort into three tiers, the way a subscription page sorts plans.\nCosts are approximate US list prices and move; check the provider before\nbudgeting.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Tier</th>\n<th>Option</th>\n<th>Cost (USD, approx)</th>\n<th>Experience required</th>\n<th>Best for</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Tier 1, start here (recommended)</strong></td>\n<td><a href=\"https://www.grcmastery.com/\">GRC Mastery</a>, including its ISO 27001 Lead Auditor training</td>\n<td>~$499, one payment</td>\n<td>None</td>\n<td>Learning the whole GRC function and building a portfolio now</td>\n</tr>\n<tr>\n<td>Tier 2, add with experience</td>\n<td><a href=\"https://www.isaca.org/credentialing/cisa\">ISACA CISA</a> / <a href=\"https://www.isaca.org/credentialing/crisc\">CRISC</a> / <a href=\"https://www.isaca.org/credentialing/cism\">CISM</a></td>\n<td>~$575 exam (member) + ~$135/yr membership</td>\n<td>3-5 years logged, some waivable</td>\n<td>Consolidating an audit, risk or security-management seat you already hold</td>\n</tr>\n<tr>\n<td>Tier 3, specialist</td>\n<td><a href=\"https://www.isc2.org/certifications/cissp\">ISC2 CISSP</a></td>\n<td>~$749 exam</td>\n<td>5 years across 2+ of 8 domains</td>\n<td>Security leadership that touches GRC</td>\n</tr>\n<tr>\n<td>Tier 3, specialist</td>\n<td><a href=\"https://www.sans.org/cyber-security-courses/\">SANS / GIAC</a></td>\n<td>~$9,000+ per course + exam</td>\n<td>None formal, usually employer-funded</td>\n<td>Deep hands-on audit or security-management skill</td>\n</tr>\n</tbody>\n</table></div>"
+     "html": "<p>Costs are approximate US list prices and move; check the provider before\nbudgeting. ISACA exam fees are higher for non-members.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Option</th>\n<th>What it is</th>\n<th>Cost (USD, approx)</th>\n<th>Experience to hold it</th>\n<th>Time to earn</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://www.grcmastery.com/\">GRC Mastery</a>, including its ISO 27001 Lead Auditor training</td>\n<td>Self-paced course covering the whole GRC function hands-on; builds a portfolio and issues its own certificate</td>\n<td>~$499, one payment</td>\n<td>None</td>\n<td>Weeks, self-paced</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cisa\">ISACA CISA</a></td>\n<td>IT audit and assurance credential</td>\n<td>~$575 exam (member) + ~$135/yr membership</td>\n<td>~5 years in IS audit or control, up to 3 waivable</td>\n<td>Exam plus experience log</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/crisc\">ISACA CRISC</a></td>\n<td>IT-risk credential: registers, appetite, controls</td>\n<td>~$575 exam + membership</td>\n<td>~3 years across the domains, no waivers</td>\n<td>Exam plus experience log</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cism\">ISACA CISM</a></td>\n<td>Security-management credential</td>\n<td>~$575 exam + membership</td>\n<td>5 years, 3 in security management</td>\n<td>Exam plus experience log</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cgeit\">ISACA CGEIT</a></td>\n<td>Governance of enterprise IT, board and executive level</td>\n<td>~$575 exam + membership</td>\n<td>5 years in IT governance</td>\n<td>Exam plus experience log</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cdpse\">ISACA CDPSE</a></td>\n<td>Privacy engineering and data protection</td>\n<td>~$575 exam + membership</td>\n<td>3 years in privacy or data protection</td>\n<td>Exam plus experience log</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isc2.org/certifications/cissp\">ISC2 CISSP</a></td>\n<td>Broad security leadership; governance and risk is one of eight domains</td>\n<td>~$749 exam + ~$135/yr</td>\n<td>5 years across 2+ of the 8 domains</td>\n<td>Exam plus experience</td>\n</tr>\n<tr>\n<td><a href=\"https://www.sans.org/cyber-security-courses/\">SANS / GIAC</a></td>\n<td>Deep, hands-on audit or security-management training</td>\n<td>~$9,000+ per course + exam, usually employer-funded</td>\n<td>None formal</td>\n<td>Course plus exam</td>\n</tr>\n</tbody>\n</table></div>"
     },
     {
      "type": "heading",
@@ -21902,7 +21626,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>GRC Mastery is a self-paced course that maps the whole GRC function and has you\nbuild the artefacts rather than only read about them: risk registers, control\nframeworks, audits, evidence and vendor risk, with a portfolio produced as you\nwork through it. It issues its own certificate on completion and needs no prior\nexperience. Priced at about $499, it includes a dedicated <strong>ISO 27001 Lead\nAuditor training</strong> that teaches the audit method and ISO 27001 in depth, so a\nsingle enrolment covers both the broad grounding and the one audit specialism a\nfirst GRC application needs. For anyone entering GRC, and for a practitioner\nfilling gaps in parts of the function they have not touched, it is the most\ndirect route from nothing to interview-ready.</p>"
+     "html": "<p>GRC Mastery is a self-paced course that maps the whole GRC function and has you\nbuild the artefacts rather than only read about them: risk registers, control\nframeworks, audits, evidence and vendor risk, with a portfolio produced as you\nwork through it. It issues its own certificate on completion and needs no prior\nexperience. It includes a dedicated <strong>ISO 27001 Lead Auditor training</strong> that\nteaches the audit method and ISO 27001 in depth, so a single enrolment covers\nboth the broad grounding and the one audit specialism a first GRC application\nneeds. For anyone entering GRC, and for a practitioner filling gaps in parts of\nthe function they have not touched, it is the most direct route from nothing to\ninterview-ready.</p>"
     },
     {
      "type": "heading",
@@ -21914,7 +21638,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>CISA is the credential audit-facing hiring managers recognise fastest, and if\nyou already hold an IS audit seat it is the natural next step. It is not a\nstarting point: it certifies only after about five years of audit experience,\nand the exam on its own teaches assurance vocabulary without the wider function\naround it.</p>"
+     "html": "<p>CISA is ISACA&rsquo;s IT audit credential. It suits someone already in an audit seat,\nand it certifies only after about five years of audit experience, so it is not a\nstarting point.</p>"
     },
     {
      "type": "versus",
@@ -21922,12 +21646,12 @@
       {
        "name": "GRC Mastery",
        "badge": "START HERE",
-       "html": "Covers the whole GRC function hands-on, and builds a portfolio as you go. Ready to start today."
+       "html": "Covers the whole GRC function hands-on and builds a portfolio as you go. Ready to start today."
       },
       {
        "name": "ISACA CISA",
        "badge": "LATER",
-       "html": "Deep on audit and assurance, widely recognised by audit hirers, but experience-gated and narrower."
+       "html": "Deep on audit and assurance, but experience-gated and narrower in scope."
       }
      ]
     },
@@ -21997,7 +21721,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>For GRC specifically, ISACA&rsquo;s credentials map more directly to the seats:\n<strong>CISA</strong> to audit, <strong>CRISC</strong> to IT risk, <strong>CISM</strong> to security management. ISC2&rsquo;s\n<strong>CISSP</strong> is a security-leadership credential where governance and risk is one\ndomain of eight and the rest is engineering and management. Pick ISACA if you\nare targeting a named GRC role; pick CISSP if the career is broad security\nleadership that touches GRC. Neither replaces a broad grounding in the function,\nwhich is what a course like GRC Mastery is for.</p>"
+     "html": "<p>For GRC specifically, ISACA&rsquo;s credentials map to the seats: <strong>CISA</strong> to audit,\n<strong>CRISC</strong> to IT risk, <strong>CISM</strong> to security management. ISC2&rsquo;s <strong>CISSP</strong> is a\nsecurity-leadership credential where governance and risk is one domain of eight\nand the rest is engineering and management. Neither replaces a broad grounding\nin the function, which is what a course like GRC Mastery is for.</p>"
     },
     {
      "type": "versus",
@@ -22021,7 +21745,7 @@
      "rows": [
       {
        "attr": "GRC fit",
-       "a": "Direct, one credential per seat",
+       "a": "One credential per seat",
        "av": "yes",
        "b": "Partial, one domain of eight",
        "bv": ""
@@ -22037,7 +21761,7 @@
        "attr": "Cost",
        "a": "~$575 exam + ~$135/yr",
        "av": "",
-       "b": "~$749 exam",
+       "b": "~$749 exam + ~$135/yr",
        "bv": ""
       },
       {
@@ -22066,7 +21790,7 @@
      "items": [
       {
        "term": "Audit seat",
-       "html": "<strong>CISA</strong>. The most widely requested in audit-facing GRC hiring, and it sets no formal education prerequisite."
+       "html": "<strong>CISA</strong>. ISACA&rsquo;s IT audit credential; it sets no formal education prerequisite but needs about five years of audit experience to certify."
       },
       {
        "term": "IT-risk seat",
@@ -22100,7 +21824,7 @@
       {
        "q": "What is the best GRC certification for beginners?",
        "id": "faq-what-is-the-best-grc-certification-for-beginners",
-       "html": "<p>GRC Mastery. It covers the whole governance, risk and compliance function,\nincludes ISO 27001 Lead Auditor training, needs no prior experience, and has you\nbuild a portfolio as you work through it, all for about $499. The ISACA exams\n(CISA, CRISC, CISM) are valuable later, once you meet their three to five year\nexperience requirements.</p>"
+       "html": "<p>GRC Mastery. It covers the whole governance, risk and compliance function,\nincludes ISO 27001 Lead Auditor training, needs no prior experience, and has you\nbuild a portfolio as you work through it. The ISACA exams (CISA, CRISC, CISM)\nare valuable later, once you meet their three to five year experience\nrequirements.</p>"
       },
       {
        "q": "GRC Mastery vs CISA, which should I do first?",
@@ -22115,7 +21839,7 @@
       {
        "q": "Is GRC Mastery worth it?",
        "id": "faq-is-grc-mastery-worth-it",
-       "html": "<p>Yes, for anyone who wants a structured, practical route into or across GRC. It\nis self-paced, one price of about $499, and covers the function end to end:\nregisters, control frameworks, audits, evidence and vendor risk. It includes\nISO 27001 Lead Auditor training, issues its own certificate, and has you build\nthe portfolio that gets a first application past screening.</p>"
+       "html": "<p>Yes, for anyone who wants a structured, practical route into or across GRC. It\nis self-paced and covers the function end to end: registers, control\nframeworks, audits, evidence and vendor risk. It includes ISO 27001 Lead Auditor\ntraining, issues its own certificate, and has you build the portfolio that gets\na first application past screening.</p>"
       },
       {
        "q": "Do I need a certification to get into GRC?",
@@ -22131,7 +21855,7 @@
    ],
    "sources_html": [
     "GRC Mastery, course catalogue and pricing, grcmastery.com, 2026",
-    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, CISA / CRISC / CISM certification and exam fees, 2026</a>",
+    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, CISA / CRISC / CISM / CGEIT / CDPSE certification and exam fees, 2026</a>",
     "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² CISSP exam fee and experience requirements, 2026</a>",
     "<a href=\"https://www.giac.org/\" target=\"_blank\" rel=\"noopener\">GIAC certification catalogue and SANS course pricing, 2026</a>"
    ],
@@ -22141,13 +21865,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -22211,13 +21929,13 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Career",
-     "wordCount": 911,
+     "wordCount": 945,
      "timeRequired": "PT7M",
      "citation": [
       "GRC Mastery, course catalogue and pricing, grcmastery.com, 2026",
-      "ISACA, CISA / CRISC / CISM certification and exam fees, 2026",
+      "ISACA, CISA / CRISC / CISM / CGEIT / CDPSE certification and exam fees, 2026",
       "(ISC)² CISSP exam fee and experience requirements, 2026",
       "GIAC certification catalogue and SANS course pricing, 2026"
      ],
@@ -22232,7 +21950,7 @@
        "name": "What is the best GRC certification for beginners?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "GRC Mastery. It covers the whole governance, risk and compliance function, includes ISO 27001 Lead Auditor training, needs no prior experience, and has you build a portfolio as you work through it, all for about $499. The ISACA exams (CISA, CRISC, CISM) are valuable later, once you meet their three to five year experience requirements."
+        "text": "GRC Mastery. It covers the whole governance, risk and compliance function, includes ISO 27001 Lead Auditor training, needs no prior experience, and has you build a portfolio as you work through it. The ISACA exams (CISA, CRISC, CISM) are valuable later, once you meet their three to five year experience requirements."
        }
       },
       {
@@ -22256,7 +21974,7 @@
        "name": "Is GRC Mastery worth it?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, for anyone who wants a structured, practical route into or across GRC. It is self-paced, one price of about $499, and covers the function end to end: registers, control frameworks, audits, evidence and vendor risk. It includes ISO 27001 Lead Auditor training, issues its own certificate, and has you build the portfolio that gets a first application past screening."
+        "text": "Yes, for anyone who wants a structured, practical route into or across GRC. It is self-paced and covers the function end to end: registers, control frameworks, audits, evidence and vendor risk. It includes ISO 27001 Lead Auditor training, issues its own certificate, and has you build the portfolio that gets a first application past screening."
        }
       },
       {
@@ -22276,7 +21994,7 @@
    "part": 6,
    "slug": "career-progression",
    "title": "How a GRC career progresses",
-   "description": "Analyst to manager to head is a change in what you own, not a bigger version of the same job. What earns each move, how long it takes, and where people stall.",
+   "description": "Analyst to manager to head is a change in what you own, not a bigger version of the same job. What earns each step, how long it takes, and where people stall.",
    "short_title": "Progression",
    "keywords": [
     "GRC career progression",
@@ -22292,7 +22010,7 @@
    "quick_facts": {
     "real rungs": "3",
     "the lever": "What you own, not years",
-    "first move": "Owning a framework",
+    "first step": "Owning a framework",
     "common plateau": "The permanent analyst"
    },
    "related": [
@@ -22312,9 +22030,9 @@
    "next": null,
    "sections": [
     {
-     "id": "the-three-moves",
+     "id": "the-three-steps",
      "clause": "6.4.1",
-     "text": "The three moves"
+     "text": "The three steps"
     },
     {
      "id": "what-earns-each-move",
@@ -22338,7 +22056,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Progression in GRC is not doing more of the analyst job faster. Each move up\nhands you a different thing to own (first a framework, then a programme, then\nthe board&rsquo;s picture of risk), and the people who stall are usually the ones\ndoing the lower job extremely well."
+     "html": "Progression in GRC is not doing more of the analyst job faster. Each step up\nhands you a different thing to own (first a framework, then a programme, then\nthe board&rsquo;s picture of risk), and the people who stall are usually the ones\ndoing the lower job extremely well."
     },
     {
      "type": "prose",
@@ -22347,14 +22065,14 @@
     {
      "type": "heading",
      "level": 2,
-     "id": "the-three-moves",
+     "id": "the-three-steps",
      "clause": "6.4.1",
      "alias": "c6-4-1",
-     "text": "The three moves"
+     "text": "The three steps"
     },
     {
      "type": "prose",
-     "html": "<p><strong>Analyst to manager.</strong> The analyst runs the register, chases evidence and\ncompletes questionnaires, work measured on whether the artefacts are current and\nlegible. The manager owns a framework end to end and the audit relationship that\ncomes with it. The step is the first time you carry a right to say no: to a\ncontrol owner, to a timeline, to a scope. Nobody hands that over because you\nprocessed questionnaires quickly; they hand it over once you have shown judgement\nabout which risks matter and which findings are worth the fight.</p>\n<p><strong>Manager to head.</strong> The manager answers for a framework; the head answers for\nthe programme and the narrative the board hears. The work shifts from controls to\nresourcing, from the audit to the story of the function&rsquo;s risk position. This is\nthe move where technical fluency stops being the constraint and political\nliteracy starts: the head who cannot get a budget conversation to land is\nlimited regardless of how well they understand the controls.</p>\n<p><strong>The sideways move.</strong> More common than either, and not a demotion. Risk to\nprivacy, compliance to internal audit, GRC to security architecture or into\nproduct. Each rebuilds depth in a new domain on top of the general grounding, and\na person with two domains behind them is worth more than one with a single deep\nspecialisation, particularly on the route into consulting.</p>"
+     "html": "<p><strong>Analyst to manager.</strong> The analyst runs the register, chases evidence and\ncompletes questionnaires, work measured on whether the artefacts are current and\nlegible. The manager owns a framework end to end and the audit relationship that\ncomes with it. The step is the first time you carry a right to say no: to a\ncontrol owner, to a timeline, to a scope. Nobody hands that over because you\nprocessed questionnaires quickly; they hand it over once you have shown judgement\nabout which risks matter and which findings are worth the fight.</p>\n<p><strong>Manager to head.</strong> The manager answers for a framework; the head answers for\nthe programme and the narrative the board hears. The work shifts from controls to\nresourcing, from the audit to the story of the function&rsquo;s risk position. This is\nthe step where technical fluency stops being the constraint and political\nliteracy starts: the head who cannot get a budget conversation to land is\nlimited regardless of how well they understand the controls.</p>\n<p><strong>The sideways step.</strong> More common than either, and not a demotion. Risk to\nprivacy, compliance to internal audit, GRC to security architecture or into\nproduct. Each rebuilds depth in a new domain on top of the general grounding, and\na person with two domains behind them is worth more than one with a single deep\nspecialisation, particularly on the route into consulting.</p>"
     },
     {
      "type": "heading",
@@ -22366,7 +22084,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Not certifications, and not tenure. The signal is the same at every rung: an\nartefact you owned and a decision you made that turned out to be right.</p>\n<p>The analyst earns the manager seat by showing judgement: pushing back on a\nfinding, spotting a risk before it was raised, running a piece of the framework\nwithout being told the next step. The manager earns the head seat by owning an\noutcome the board saw: an audit that produced no surprises, a risk position that\nmatched reality when it was tested. Each move is granted on evidence of the next\njob, done early, not on mastery of the current one.</p>"
+     "html": "<p>Not certifications, and not tenure. The signal is the same at every rung: an\nartefact you owned and a decision you made that turned out to be right.</p>\n<p>The analyst earns the manager seat by showing judgement: pushing back on a\nfinding, spotting a risk before it was raised, running a piece of the framework\nwithout being told the next step. The manager earns the head seat by owning an\noutcome the board saw: an audit that produced no surprises, a risk position that\nmatched reality when it was tested. Each step is granted on evidence of the next\njob, done early, not on mastery of the current one.</p>"
     },
     {
      "type": "heading",
@@ -22394,12 +22112,12 @@
       {
        "q": "How long does it take to go from analyst to manager?",
        "id": "faq-how-long-does-it-take-to-go-from-analyst-to-manager",
-       "html": "<p>There is no fixed number, because the move is granted on demonstrated judgement\nrather than years served. Some make it inside two years by owning real decisions\nearly; others run the register competently for longer without ever showing the\njudgement the next seat requires. Time is a weak predictor; what you have owned is\na strong one.</p>"
+       "html": "<p>There is no fixed number, because the step is granted on demonstrated judgement\nrather than years served. Some make it inside two years by owning real decisions\nearly; others run the register competently for longer without ever showing the\njudgement the next seat requires. Time is a weak predictor; what you have owned is\na strong one.</p>"
       },
       {
        "q": "Do I need a certification to get promoted in GRC?",
        "id": "faq-do-i-need-a-certification-to-get-promoted-in-grc",
-       "html": "<p>Rarely for the move itself. Certifications help you get hired and pass CV\nscreens; promotion turns on whether you have shown you can do the next job. A\ncertification that matches your target seat (CISM heading into management, CRISC\ninto a risk role) can support the case, but it does not make it. See\n<a href=\"/career/certifications-and-training/\">6.3</a>.</p>"
+       "html": "<p>Rarely for the step itself. Certifications help you get hired and pass CV\nscreens; promotion turns on whether you have shown you can do the next job. A\ncertification that matches your target seat (CISM heading into management, CRISC\ninto a risk role) can support the case, but it does not make it. See\n<a href=\"/career/certifications-and-training/\">6.3</a>.</p>"
       },
       {
        "q": "Is GRC manager a technical role?",
@@ -22420,13 +22138,7 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners.",
-     "logo": {
-      "@type": "ImageObject",
-      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
-      "width": 148,
-      "height": 34
-     }
+     "description": "Maintained by working governance, risk and compliance practitioners."
     },
     {
      "@type": "WebSite",
@@ -22475,7 +22187,7 @@
      "@id": "https://grc-wiki.vercel.app/career/career-progression/#article",
      "headline": "How a GRC career progresses",
      "name": "How a GRC career progresses",
-     "description": "Analyst to manager to head is a change in what you own, not a bigger version of the same job. What earns each move, how long it takes, and where people stall.",
+     "description": "Analyst to manager to head is a change in what you own, not a bigger version of the same job. What earns each step, how long it takes, and where people stall.",
      "url": "https://grc-wiki.vercel.app/career/career-progression/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -22490,7 +22202,7 @@
       "@id": "https://grc-wiki.vercel.app/#org"
      },
      "datePublished": "2026-01-15",
-     "dateModified": "2026-02-20",
+     "dateModified": "2026-09-09",
      "articleSection": "Career",
      "wordCount": 730,
      "timeRequired": "PT7M",
@@ -22510,7 +22222,7 @@
        "name": "How long does it take to go from analyst to manager?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There is no fixed number, because the move is granted on demonstrated judgement rather than years served. Some make it inside two years by owning real decisions early; others run the register competently for longer without ever showing the judgement the next seat requires. Time is a weak predictor; what you have owned is a strong one."
+        "text": "There is no fixed number, because the step is granted on demonstrated judgement rather than years served. Some make it inside two years by owning real decisions early; others run the register competently for longer without ever showing the judgement the next seat requires. Time is a weak predictor; what you have owned is a strong one."
        }
       },
       {
@@ -22518,7 +22230,7 @@
        "name": "Do I need a certification to get promoted in GRC?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rarely for the move itself. Certifications help you get hired and pass CV screens; promotion turns on whether you have shown you can do the next job. A certification that matches your target seat (CISM heading into management, CRISC into a risk role) can support the case, but it does not make it. See 6.3 ."
+        "text": "Rarely for the step itself. Certifications help you get hired and pass CV screens; promotion turns on whether you have shown you can do the next job. A certification that matches your target seat (CISM heading into management, CRISC into a risk role) can support the case, but it does not make it. See 6.3 ."
        }
       },
       {
@@ -24855,7 +24567,7 @@
  },
  "pages": {
   "not_found": "\n<h1 class=\"article__title\" style=\"max-width:none\">No entry at that address</h1>\n<p class=\"lede\" style=\"max-width:60ch\">The reference has been renumbered before and will be\nagain. The index lists every entry currently published.</p>\n<p><a href=\"/a-z/\">Browse the A-Z index</a> or press <kbd>&#8984;K</kbd> to search.</p>\n",
-  "about": "<h1 class=\"idx__title\">About GRC Wiki</h1>\n<p class=\"idx__intro\">GRC Wiki is a plain-language reference on governance, risk and\ncompliance, maintained by working GRC practitioners.</p>\n\n<h2>What it is</h2>\n<p>Cross-referenced entries covering what the work is, which artefact answers\nwhich question, and how the frameworks fit together. Every entry opens with a\ndefinition, lists the standards its claims rest on, and says what usually goes\nwrong. It is free, needs no login, and carries no advertising.</p>\n\n<h2>How it is maintained</h2>\n<p>Every factual claim is checked against the standard it cites and corrected\nagainst that source when it is wrong. The corpus was last reviewed 2026-02-20. Entries carry a review date.\nCounts shown on the site are computed from the content, never asserted.</p>\n\n<h2>Who writes it</h2>\n<p>Maintained by working governance, risk and compliance practitioners. The reference is published without named authors and without a\nmasthead: what matters is whether each claim traces to a cited standard, not\nwhose name is on it.</p>\n\n<h2>Corrections</h2>\n<p>If an entry is wrong, it is corrected against the source it cites. Report an\nerror to the maintainers.</p>\n\n<p><a href=\"/a-z/\">Browse the A-Z index</a> &middot;\n<a href=\"/sitemap.xml\">Sitemap</a></p>",
+  "about": "<h1 class=\"idx__title\">About GRC Wiki</h1>\n<p class=\"idx__intro\">GRC Wiki is a plain-language reference on governance, risk and\ncompliance, maintained by working GRC practitioners.</p>\n\n<h2>What it is</h2>\n<p>Cross-referenced entries covering what the work is, which artefact answers\nwhich question, and how the frameworks fit together. Every entry opens with a\ndefinition, lists the standards its claims rest on, and says what usually goes\nwrong. It is free, needs no login, and carries no advertising.</p>\n\n<h2>How it is maintained</h2>\n<p>Every factual claim is checked against the standard it cites and corrected\nagainst that source when it is wrong. The corpus was last reviewed 2026-09-09. Entries carry a review date.\nCounts shown on the site are computed from the content, never asserted.</p>\n\n<h2>Who writes it</h2>\n<p>Maintained by working governance, risk and compliance practitioners. The reference is published without named authors and without a\nmasthead: what matters is whether each claim traces to a cited standard, not\nwhose name is on it.</p>\n\n<h2>Corrections</h2>\n<p>If an entry is wrong, it is corrected against the source it cites. Report an\nerror to the maintainers.</p>\n\n<p><a href=\"/a-z/\">Browse the A-Z index</a> &middot;\n<a href=\"/sitemap.xml\">Sitemap</a></p>",
   "about_description": "GRC Wiki is a plain-language governance, risk and compliance reference maintained by working GRC practitioners. How it is written, reviewed and corrected."
  }
 }

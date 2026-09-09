@@ -126,10 +126,6 @@ export function absolute(path: string): string {
     return site.origin.replace(/\/$/, "") + href(path);
 }
 
-/** Shared Open Graph image. Page-level `openGraph` replaces the parent's, so
-    every page that sets its own must spread this back in. */
-export const OG_IMAGE = [{ url: "/assets/logo.svg", width: 148, height: 34 }];
-
 export function byClause(clause: string): Entry | undefined {
     return entries.find((e) => e.clause === clause);
 }

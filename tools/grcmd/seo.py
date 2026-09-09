@@ -37,12 +37,6 @@ def _organization(site: Site) -> dict[str, Any]:
         "name": site.name,
         "url": site.absolute("/"),
         "description": _maintainer(site),
-        "logo": {
-            "@type": "ImageObject",
-            "url": site.absolute("/assets/logo.svg"),
-            "width": 148,
-            "height": 34,
-        },
     }
 
 

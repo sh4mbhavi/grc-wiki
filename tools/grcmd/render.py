@@ -383,12 +383,8 @@ def head(site: Site, *, title: str, description: str, path: str, ld: list[dict],
 <meta property="og:description" content="{e(description)}">
 <meta property="og:url" content="{e(canonical)}">
 <meta property="og:locale" content="{e(site.config['site']['locale'].replace('-', '_'))}">
-<meta property="og:image" content="{e(site.absolute('/assets/logo.svg'))}">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{e(site.absolute('/assets/logo.svg'))}">
 <meta name="theme-color" content="#f1f2f3">
-<link rel="icon" type="image/svg+xml" href="{e(site.url('favicon.svg'))}">
-<link rel="apple-touch-icon" href="{e(site.url('favicon.svg'))}">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="{e(FONT_HREF)}">
 <link rel="stylesheet" href="{e(site.url('assets/grc.css'))}">
@@ -419,7 +415,7 @@ def masthead(site: Site, *, crumbs: str = "", with_drawer: bool = False, home: b
     )
     cls = "masthead masthead--home" if home else "masthead"
     return f"""<header class="{cls}">
-{drawer}<a class="masthead__wordmark" href="{e(site.url(''))}" aria-label="GRC Wiki home"><img class="masthead__logo" src="{e(site.url('assets/logo.svg'))}" width="148" height="34" alt="grcwiki"></a>
+{drawer}<a class="masthead__wordmark" href="{e(site.url(''))}">GRC WIKI</a>
 {crumb_html}
 <div class="masthead__tail">
 <button class="masthead__search" type="button" data-finder-open>Search<span class="masthead__search-key">&nbsp;&nbsp;&#8984;K</span></button>

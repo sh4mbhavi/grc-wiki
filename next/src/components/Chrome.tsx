@@ -42,10 +42,7 @@ export function Masthead({
                     <span>Browse</span>
                 </button>
             ) : null}
-            <a className="masthead__wordmark" href={href("/")} aria-label="GRC Wiki home">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="masthead__logo" src={href("/assets/logo.svg")} width={148} height={34} alt="grcwiki" />
-            </a>
+            <a className="masthead__wordmark" href={href("/")}>GRC WIKI</a>
             {crumbs ? (
                 <>
                     <span className="masthead__sep" aria-hidden="true">|</span>
