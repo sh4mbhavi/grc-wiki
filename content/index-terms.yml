@@ -153,7 +153,6 @@ terms:
   - { t: "Fieldwork, audit", ref: "4.3" }
   - { t: "Framework, kinds of", ref: "5.0", key: true, level: entry }
   - { t: "Governance", ref: "2.0", key: true, level: entry }
-  - { t: "Interview questions, GRC", ref: "6.2", key: true, level: entry }
   - { t: "Mitigate, risk treatment", ref: "3.3", level: entry }
   - { t: "Numbering, clause", ref: "1.0" }
   - { t: "Roles, GRC", ref: "6.0", key: true, level: entry }

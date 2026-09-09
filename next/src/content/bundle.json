@@ -9,7 +9,7 @@
    "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
    "entries_planned": 212,
    "parts_total": 6,
-   "entries_total": 72
+   "entries_total": 71
   },
   "editorial": {
    "standfirst": "A PLAIN-LANGUAGE REFERENCE FOR PRACTITIONERS"
@@ -772,11 +772,6 @@
     },
     {
      "@type": "DefinedTerm",
-     "name": "Interview questions, GRC",
-     "url": "https://grc-wiki.vercel.app/career/interview-questions/"
-    },
-    {
-     "@type": "DefinedTerm",
      "name": "Is GDPR a law",
      "url": "https://grc-wiki.vercel.app/frameworks/gdpr/"
     },
@@ -1387,7 +1382,7 @@
    "name": "Career",
    "count": 21,
    "blurb": "Roles, interview questions, certifications, what the work looks like daily.",
-   "published": 6
+   "published": 5
   }
  ],
  "entries": [
@@ -1825,7 +1820,7 @@
    "sources_html": [
     "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022 - Information security management systems, requirements</a>",
     "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, February 2024</a>",
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
     "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100), 2017, revised 2022</a>"
    ],
    "ld": [
@@ -2628,7 +2623,7 @@
     }
    ],
    "sources_html": [
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
     "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, International Professional Practices Framework, Standard 1100 (Independence and Objectivity)</a>"
    ],
    "ld": [
@@ -2822,7 +2817,7 @@
     }
    ],
    "sources_html": [
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
     "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, Position Paper: The Three Lines of Defence in Effective Risk Management and Control, 2013</a>"
    ],
    "ld": [
@@ -3024,7 +3019,7 @@
     }
    ],
    "sources_html": [
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
     "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, State of Cybersecurity, workforce sections, 2025</a>"
    ],
    "ld": [
@@ -4295,7 +4290,7 @@
    ],
    "sources_html": [
     "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, International Standards for the Professional Practice of Internal Auditing, 2017</a>",
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
     "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO 19011:2018 - Guidelines for auditing management systems</a>",
     "<a href=\"https://www.iaasb.org/\" target=\"_blank\" rel=\"noopener\">IAASB, ISA 200 - Overall objectives of the independent auditor</a>"
    ],
@@ -4994,7 +4989,7 @@
    ],
    "sources_html": [
     "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management - Integrating with Strategy and Performance, 2017</a>",
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>"
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>"
    ],
    "ld": [
     {
@@ -5500,7 +5495,7 @@
    "sources_html": [
     "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO 37000:2021 - Governance of organizations, guidance</a>",
     "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management - Integrating with Strategy and Performance, 2017</a>",
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>"
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>"
    ],
    "ld": [
     {
@@ -7182,8 +7177,8 @@
     }
    ],
    "sources_html": [
-    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO 22301:2019 - Security and resilience, business continuity management systems, requirements</a>",
-    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO 22300:2021 - Security and resilience, vocabulary</a>"
+    "<a href=\"https://www.iso.org/standard/75106.html\" target=\"_blank\" rel=\"noopener\">ISO 22301:2019 - Security and resilience, business continuity management systems, requirements</a>",
+    "<a href=\"https://www.iso.org/standard/75106.html\" target=\"_blank\" rel=\"noopener\">ISO 22300:2021 - Security and resilience, vocabulary</a>"
    ],
    "ld": [
     {
@@ -7464,8 +7459,8 @@
     }
    ],
    "sources_html": [
-    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO 22301:2019 - Security and resilience, business continuity management systems, requirements</a>",
-    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO/TS 22317:2021 - Security and resilience, business continuity management systems, guidelines for business impact analysis</a>"
+    "<a href=\"https://www.iso.org/standard/75106.html\" target=\"_blank\" rel=\"noopener\">ISO 22301:2019 - Security and resilience, business continuity management systems, requirements</a>",
+    "<a href=\"https://www.iso.org/standard/75106.html\" target=\"_blank\" rel=\"noopener\">ISO/TS 22317:2021 - Security and resilience, business continuity management systems, guidelines for business impact analysis</a>"
    ],
    "ld": [
     {
@@ -17469,8 +17464,8 @@
     }
    ],
    "sources_html": [
-    "<a href=\"https://www.hhs.gov/hipaa/for-professionals/security/index.html\" target=\"_blank\" rel=\"noopener\">HIPAA Security Rule, 45 CFR Part 160 and Part 164 Subparts A and C</a>",
-    "<a href=\"https://www.hhs.gov/hipaa/for-professionals/security/index.html\" target=\"_blank\" rel=\"noopener\">HHS Office for Civil Rights, Security Rule guidance</a>"
+    "<a href=\"https://www.hhs.gov/hipaa/for-professionals/security/\" target=\"_blank\" rel=\"noopener\">HIPAA Security Rule, 45 CFR Part 160 and Part 164 Subparts A and C</a>",
+    "<a href=\"https://www.hhs.gov/hipaa/for-professionals/security/\" target=\"_blank\" rel=\"noopener\">HHS Office for Civil Rights, Security Rule guidance</a>"
    ],
    "ld": [
     {
@@ -19064,8 +19059,8 @@
    "sources_html": [
     "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27701:2019 - Privacy information management - extension to 27001/27002</a>",
     "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27017:2015 and ISO/IEC 27018:2019 - cloud security and cloud PII</a>",
-    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO 22301:2019 - Business continuity management systems</a>",
-    "<a href=\"https://www.iso.org/artificial-intelligence.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 42001:2023 - Artificial intelligence management system</a>",
+    "<a href=\"https://www.iso.org/standard/75106.html\" target=\"_blank\" rel=\"noopener\">ISO 22301:2019 - Business continuity management systems</a>",
+    "<a href=\"https://www.iso.org/standard/81230.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 42001:2023 - Artificial intelligence management system</a>",
     "<a href=\"https://www.iso.org/directives-and-policies.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC Directives Part 1, Annex SL (Harmonised Structure)</a>"
    ],
    "ld": [
@@ -19999,7 +19994,7 @@
     }
    ],
    "sources_html": [
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
     "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, State of Cybersecurity, workforce sections, 2025</a>",
     "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² Cybersecurity Workforce Study, 2025</a>"
    ],
@@ -20096,7 +20091,7 @@
    },
    "related": [
     "6.0",
-    "6.2",
+    "6.3",
     "1.3"
    ],
    "sources": [
@@ -20108,8 +20103,8 @@
     "title": "What GRC roles exist"
    },
    "next": {
-    "ref": "6.2",
-    "title": "Interview questions"
+    "ref": "6.3",
+    "title": "GRC certifications and training compared"
    },
    "sections": [
     {
@@ -20283,277 +20278,6 @@
    ]
   },
   {
-   "clause": "6.2",
-   "part": 6,
-   "slug": "interview-questions",
-   "title": "Interview questions, and how to answer them",
-   "description": "The eight questions that come up in almost every GRC interview, what each one is really testing, and the shape of an answer that lands.",
-   "short_title": "Interview questions",
-   "keywords": [
-    "GRC interview questions",
-    "risk analyst interview",
-    "compliance interview questions",
-    "GRC interview answers"
-   ],
-   "defines": "",
-   "reading_minutes": 8,
-   "cited_by": 10,
-   "canonical_entry": false,
-   "quick_facts": {
-    "questions": "8",
-    "tests": "Judgement",
-    "worst answer": "The textbook one",
-    "best prop": "One real artefact"
-   },
-   "related": [
-    "6.1",
-    "1.4",
-    "3.2"
-   ],
-   "sources": [
-    "IIA, The Three Lines Model, 2020",
-    "ISO 31000:2018 - Risk management, guidelines"
-   ],
-   "prev": {
-    "ref": "6.1",
-    "title": "Breaking into GRC"
-   },
-   "next": {
-    "ref": "6.3",
-    "title": "Certifications compared"
-   },
-   "sections": [
-    {
-     "id": "the-eight",
-     "clause": "6.2.1",
-     "text": "The eight"
-    },
-    {
-     "id": "what-to-ask-them",
-     "clause": "6.2.2",
-     "text": "What to ask them"
-    }
-   ],
-   "figure_count": 0,
-   "url": "/career/interview-questions/",
-   "part_slug": "career",
-   "blocks": [
-    {
-     "type": "lede",
-     "html": "Every one of these questions has a textbook answer and a real answer. The\ntextbook answer gets you to the next question; the real answer gets you the job."
-    },
-    {
-     "type": "prose",
-     "html": "<p>What interviewers are testing, almost without exception, is whether you have\nheld the artefact or only read about it. Answers that name a specific instance\ndo that; answers that recite a definition do not.</p>"
-    },
-    {
-     "type": "heading",
-     "level": 2,
-     "id": "the-eight",
-     "clause": "6.2.1",
-     "alias": "c6-2-1",
-     "text": "The eight"
-    },
-    {
-     "type": "faq",
-     "items": [
-      {
-       "q": "What is the difference between GRC and internal audit?",
-       "id": "faq-what-is-the-difference-between-grc-and-internal-audit",
-       "html": "<p>The accountability line, not the task list. &ldquo;GRC reports to management and owns\nthe outcome; internal audit reports to the audit committee and owns the\nopinion.&rdquo; Everything about tools and frameworks follows from it.</p>\n<p>The follow-up is usually about independence, and the answer they are listening\nfor is that it is structural rather than personal: an auditor who helped fix\nthe gap has lost the opinion they were hired to give, however honest they are.\nSee <a href=\"/foundations/grc-vs-internal-audit/\">1.4</a>.</p>"
-      },
-      {
-       "q": "Appetite or tolerance: what is the difference?",
-       "id": "faq-appetite-or-tolerance-what-is-the-difference",
-       "html": "<p>Appetite is how much risk the organisation is willing to accept in pursuit of\nits objectives, set annually by the board, usually by category. Tolerance is the\nacceptable variation around one specific objective, and it is a number you can\ncross.</p>\n<p>The good answer adds when the distinction bites: at the moment somebody has to\ndecide whether a specific risk gets treated or accepted. See\n<a href=\"/risk/appetite-vs-tolerance/\">3.2</a>.</p>"
-      },
-      {
-       "q": "Walk me through a risk you assessed.",
-       "id": "faq-walk-me-through-a-risk-you-assessed",
-       "html": "<p>The one that matters. Pick a real one, and include what went wrong.</p>\n<p>How it was raised. How you scored it, against what documented scale. Who owned\nit, and it has to be a person. What treatment was chosen and who had the\nauthority to approve it. What evidence closed it. Then the honest part: what you would do\ndifferently, which is where the interview stops being a test.</p>"
-      },
-      {
-       "q": "How do you handle a control owner who will not give you evidence?",
-       "id": "faq-how-do-you-handle-a-control-owner-who-will-not-give-you-evidence",
-       "html": "<p>They are testing whether you escalate straight away, which is the wrong answer.</p>\n<p>Find out why first: usually the request is ambiguous, the system cannot produce\nwhat you asked for, or they do not know they own the control. Then make the\nrequest specific and easy. Escalation is the third move, not the first, and when\nit comes it goes with a record of the two attempts before it.</p>"
-      },
-      {
-       "q": "ISO 27001 or SOC 2?",
-       "id": "faq-iso-27001-or-soc-2",
-       "html": "<p>Answer with a question: who is asking for it. North American technology buyers\nask for SOC 2; European and enterprise procurement asks for ISO. If both,\nsequence rather than choose.</p>\n<p>Candidates who answer with a preference are describing a document they have read.\nCandidates who answer with the buyer are describing work they have done. See\n<a href=\"/frameworks/iso-27001-vs-soc-2/\">5.1</a>.</p>"
-      },
-      {
-       "q": "Is GRC a technical job?",
-       "id": "faq-is-grc-a-technical-job",
-       "html": "<p>No, but it is a literate one. You need to read a system diagram and challenge an\nengineer&rsquo;s answer; you do not need to configure the system.</p>\n<p>Worth adding the failure mode, because it shows self-awareness: the risk is not\nbeing insufficiently technical, it is accepting an answer you did not understand\nbecause asking again felt awkward.</p>"
-      },
-      {
-       "q": "How would you build a programme from nothing?",
-       "id": "faq-how-would-you-build-a-programme-from-nothing",
-       "html": "<p>Register first, even a rough one, because the argument about the scale is easier\nwith real entries in front of it. Then the policy set, then the control\ninventory with its mapping, then the evidence habit.</p>\n<p>Starting with policy is the intuitive answer and the slow one: you end up\nwriting rules for risks you have not established you carry. Saying so\ndemonstrates you have thought about order rather than listing artefacts.</p>"
-      },
-      {
-       "q": "Where do you see the function failing?",
-       "id": "faq-where-do-you-see-the-function-failing",
-       "html": "<p>An invitation, and most candidates waste it on something generic about tone at\nthe top.</p>\n<p>Better: name a failure mode you have seen. Registers where nothing has moved in\ntwo quarters. Treatment columns full of &ldquo;monitor&rdquo;. Evidence collected in the\nfour weeks before fieldwork. Each of those is specific, checkable, and shows you\nknow what a working function looks like because you know what a broken one looks\nlike.</p>"
-      }
-     ]
-    },
-    {
-     "type": "heading",
-     "level": 2,
-     "id": "what-to-ask-them",
-     "clause": "6.2.2",
-     "alias": "c6-2-2",
-     "text": "What to ask them"
-    },
-    {
-     "type": "prose",
-     "html": "<p>Two questions worth more than a dozen polite ones.</p>\n<p><em>How do you know this function is working?</em> Coverage percentages describe a\nfunction that reports on itself; decisions made and surprises avoided describe\none that is used.</p>\n<p><em>What was the last finding you disagreed with, and what happened?</em> The answer\ntells you whether the function has standing, or whether it writes what it is\nasked to write.</p>"
-    }
-   ],
-   "sources_html": [
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
-    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 - Risk management, guidelines</a>"
-   ],
-   "ld": [
-    {
-     "@type": "WebSite",
-     "@id": "https://grc-wiki.vercel.app/#website",
-     "url": "https://grc-wiki.vercel.app/",
-     "name": "GRC Wiki",
-     "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
-     "inLanguage": "en-GB",
-     "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-       "@type": "EntryPoint",
-       "urlTemplate": "https://grc-wiki.vercel.app/a-z/?q={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
-     }
-    },
-    {
-     "@type": "BreadcrumbList",
-     "itemListElement": [
-      {
-       "@type": "ListItem",
-       "position": 1,
-       "name": "GRC Wiki",
-       "item": "https://grc-wiki.vercel.app/"
-      },
-      {
-       "@type": "ListItem",
-       "position": 2,
-       "name": "Career",
-       "item": "https://grc-wiki.vercel.app/career/"
-      },
-      {
-       "@type": "ListItem",
-       "position": 3,
-       "name": "Interview questions, and how to answer them",
-       "item": "https://grc-wiki.vercel.app/career/interview-questions/"
-      }
-     ]
-    },
-    {
-     "@type": "TechArticle",
-     "@id": "https://grc-wiki.vercel.app/career/interview-questions/#article",
-     "headline": "Interview questions, and how to answer them",
-     "name": "Interview questions, and how to answer them",
-     "description": "The eight questions that come up in almost every GRC interview, what each one is really testing, and the shape of an answer that lands.",
-     "url": "https://grc-wiki.vercel.app/career/interview-questions/",
-     "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://grc-wiki.vercel.app/career/interview-questions/"
-     },
-     "inLanguage": "en-GB",
-     "isAccessibleForFree": true,
-     "isPartOf": {
-      "@id": "https://grc-wiki.vercel.app/#website"
-     },
-     "articleSection": "Career",
-     "wordCount": 668,
-     "timeRequired": "PT8M",
-     "citation": [
-      "IIA, The Three Lines Model, 2020",
-      "ISO 31000:2018 - Risk management, guidelines"
-     ],
-     "keywords": "GRC interview questions, risk analyst interview, compliance interview questions, GRC interview answers"
-    },
-    {
-     "@type": "FAQPage",
-     "@id": "https://grc-wiki.vercel.app/career/interview-questions/#faq",
-     "mainEntity": [
-      {
-       "@type": "Question",
-       "name": "What is the difference between GRC and internal audit?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The accountability line, not the task list. &ldquo;GRC reports to management and owns the outcome; internal audit reports to the audit committee and owns the opinion.&rdquo; Everything about tools and frameworks follows from it. The follow-up is usually about independence, and the answer they are listening for is that it is structural rather than personal: an auditor who helped fix the gap has lost the opinion they were hired to give, however honest they are. See 1.4 ."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "Appetite or tolerance: what is the difference?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Appetite is how much risk the organisation is willing to accept in pursuit of its objectives, set annually by the board, usually by category. Tolerance is the acceptable variation around one specific objective, and it is a number you can cross. The good answer adds when the distinction bites: at the moment somebody has to decide whether a specific risk gets treated or accepted. See 3.2 ."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "Walk me through a risk you assessed.",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The one that matters. Pick a real one, and include what went wrong. How it was raised. How you scored it, against what documented scale. Who owned it, and it has to be a person. What treatment was chosen and who had the authority to approve it. What evidence closed it. Then the honest part: what you would do differently, which is where the interview stops being a test."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "How do you handle a control owner who will not give you evidence?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They are testing whether you escalate straight away, which is the wrong answer. Find out why first: usually the request is ambiguous, the system cannot produce what you asked for, or they do not know they own the control. Then make the request specific and easy. Escalation is the third move, not the first, and when it comes it goes with a record of the two attempts before it."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "ISO 27001 or SOC 2?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Answer with a question: who is asking for it. North American technology buyers ask for SOC 2; European and enterprise procurement asks for ISO. If both, sequence rather than choose. Candidates who answer with a preference are describing a document they have read. Candidates who answer with the buyer are describing work they have done. See 5.1 ."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "Is GRC a technical job?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, but it is a literate one. You need to read a system diagram and challenge an engineer&rsquo;s answer; you do not need to configure the system. Worth adding the failure mode, because it shows self-awareness: the risk is not being insufficiently technical, it is accepting an answer you did not understand because asking again felt awkward."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "How would you build a programme from nothing?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Register first, even a rough one, because the argument about the scale is easier with real entries in front of it. Then the policy set, then the control inventory with its mapping, then the evidence habit. Starting with policy is the intuitive answer and the slow one: you end up writing rules for risks you have not established you carry. Saying so demonstrates you have thought about order rather than listing artefacts."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "Where do you see the function failing?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An invitation, and most candidates waste it on something generic about tone at the top. Better: name a failure mode you have seen. Registers where nothing has moved in two quarters. Treatment columns full of &ldquo;monitor&rdquo;. Evidence collected in the four weeks before fieldwork. Each of those is specific, checkable, and shows you know what a working function looks like because you know what a broken one looks like."
-       }
-      }
-     ]
-    }
-   ]
-  },
-  {
    "clause": "6.3",
    "part": 6,
    "slug": "certifications-and-training",
@@ -20589,8 +20313,8 @@
     "ISO/IEC 27001:2022 - lead implementer / auditor grades are provider schemes (PECB, BSI and others)"
    ],
    "prev": {
-    "ref": "6.2",
-    "title": "Interview questions"
+    "ref": "6.1",
+    "title": "Breaking into GRC"
    },
    "next": {
     "ref": "6.4",
@@ -20971,7 +20695,7 @@
     }
    ],
    "sources_html": [
-    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
     "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, State of Cybersecurity, workforce sections, 2025</a>",
     "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² Cybersecurity Workforce Study, 2025</a>"
    ],
@@ -22503,16 +22227,6 @@
     "flags": "level"
    },
    {
-    "t": "Interview questions, GRC",
-    "ref": "6.2",
-    "key": true,
-    "example": false,
-    "template": false,
-    "level": "entry",
-    "url": "/career/interview-questions/",
-    "flags": "level"
-   },
-   {
     "t": "Is GDPR a law",
     "ref": "5.13",
     "key": false,
@@ -23604,8 +23318,8 @@
    }
   ],
   "coverage": [
-   "232 headwords &middot; 41 with examples",
-   "232 headwords live &middot; 72 entries",
+   "231 headwords &middot; 41 with examples",
+   "231 headwords live &middot; 71 entries",
    "90 framework terms mapped"
   ]
  },

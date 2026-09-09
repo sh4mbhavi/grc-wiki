@@ -78,10 +78,10 @@ _cite(r"ISO(?:/IEC)?\s*270\d\d|ISO/IEC\s*27000\b",
 _cite(r"\bISO\s*31000\b|\bIEC\s*31010\b|ISO\s+Guide\s*73\b",
       "https://www.iso.org/iso-31000-risk-management.html")
 _cite(r"\bISO(?:/TS)?\s*2230\d\b|\bISO/TS\s*22317\b",
-      "https://www.iso.org/iso-22301-business-continuity.html")
+      "https://www.iso.org/standard/75106.html")
 _cite(r"\bISO\s*9001\b", "https://www.iso.org/iso-9001-quality-management.html")
 _cite(r"\bISO/IEC\s*42001\b|Artificial intelligence management system",
-      "https://www.iso.org/artificial-intelligence.html")
+      "https://www.iso.org/standard/81230.html")
 _cite(r"ISO/IEC\s+Directives", "https://www.iso.org/directives-and-policies.html")
 _cite(r"\bISO\b", "https://www.iso.org/standards.html")
 
@@ -92,7 +92,7 @@ _cite(r"\bGIAC\b", "https://www.giac.org/")
 _cite(r"\bSANS\b", "https://www.sans.org/")
 
 _cite(r"Three Lines Model",
-      "https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/")
+      "https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/")
 _cite(r"\bIIA\b|International Professional Practices Framework|Three Lines of Defence|Standards for the Professional Practice",
       "https://www.theiia.org/en/standards/")
 _cite(r"\bIAASB\b|\bISA\s*200\b", "https://www.iaasb.org/")
@@ -109,7 +109,7 @@ _cite(r"\bPCI\b|Payment Card Industry|Self-Assessment Questionnaire",
 _cite(r"Center for Internet Security|CIS Critical Security Controls|\bCIS\b",
       "https://www.cisecurity.org/controls")
 _cite(r"\bCOSO\b", "https://www.coso.org/")
-_cite(r"\bHIPAA\b|45 CFR|Office for Civil Rights", "https://www.hhs.gov/hipaa/for-professionals/security/index.html")
+_cite(r"\bHIPAA\b|45 CFR|Office for Civil Rights", "https://www.hhs.gov/hipaa/for-professionals/security/")
 _cite(r"\bFIRST\b|Common Vulnerability Scoring System|\bCVSS\b", "https://www.first.org/cvss/")
 _cite(r"Open Group|\bO-RA\b|\bO-RT\b|Open FAIR|\bFAIR\b", "https://www.opengroup.org/open-fair")
 _cite(r"Cloud Security Alliance|Cloud Controls Matrix|\bCAIQ\b|\bCCM\b|\bSTAR\b", "https://cloudsecurityalliance.org/")
