@@ -4424,7 +4424,7 @@
    "part": 2,
    "slug": "what-governance-produces",
    "title": "What governance produces",
-   "description": "Governance is not a meeting. It is four artefacts - a policy set, a committee calendar, a delegated authority matrix and a board pack - and the decisions recorded in them.",
+   "description": "Governance is not a meeting. It is four artefacts (a policy set, a committee calendar, a delegated authority matrix and a board pack) and the decisions recorded in them.",
    "short_title": "What governance produces",
    "keywords": [
     "what is governance",
@@ -4531,7 +4531,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The distinction is the one COSO and the NIST CSF&rsquo;s Govern function both turn on.\nManagement runs the organisation. Governance sets the direction management runs\nin, and holds it to account for the result.</p>\n<p>Practically: management decides how to close a gap; governance decides whether\nthe gap is acceptable in the first place, and hears about it either way. When\nthe same forum does both, the challenge disappears - the group approving the\nplan is the group that wrote it.</p>"
+     "html": "<p>The distinction is the one COSO and the NIST CSF&rsquo;s Govern function both turn on.\nManagement runs the organisation. Governance sets the direction management runs\nin, and holds it to account for the result.</p>\n<p>Practically: management decides how to close a gap; governance decides whether\nthe gap is acceptable in the first place, and hears about it either way. When\nthe same forum does both, the challenge disappears: the group approving the\nplan is the group that wrote it.</p>"
     },
     {
      "type": "heading",
@@ -4549,7 +4549,7 @@
      "type": "def",
      "term": "Delegated authority",
      "ref": "2.2",
-     "html": "The specific power a role holds to decide without escalating, stated with its\nlimit. An authority with no limit is not delegated - it is assumed."
+     "html": "The specific power a role holds to decide without escalating, stated with its\nlimit. An authority with no limit is not delegated; it is assumed."
     },
     {
      "type": "heading",
@@ -4561,7 +4561,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A twenty-person company does not need four committees. It needs the four\nartefacts to exist in some form, and one of them is usually a shared document\nrather than a governance platform.</p>\n<p>The failure at this size is not absent governance; it is undocumented\ngovernance. The founders genuinely do decide things, consistently, on defensible\ngrounds - and none of it is written down, so the first customer security review\nfinds a company that cannot show it governs anything.</p>"
+     "html": "<p>A twenty-person company does not need four committees. It needs the four\nartefacts to exist in some form, and one of them is usually a shared document\nrather than a governance platform.</p>\n<p>The failure at this size is not absent governance; it is undocumented\ngovernance. The founders genuinely do decide things, consistently, on defensible\ngrounds, and none of it is written down, so the first customer security review\nfinds a company that cannot show it governs anything.</p>"
     }
    ],
    "sources_html": [
@@ -4613,7 +4613,7 @@
      "@id": "https://grc-wiki.vercel.app/governance/what-governance-produces/#article",
      "headline": "What governance produces",
      "name": "What governance produces",
-     "description": "Governance is not a meeting. It is four artefacts - a policy set, a committee calendar, a delegated authority matrix and a board pack - and the decisions recorded in them.",
+     "description": "Governance is not a meeting. It is four artefacts (a policy set, a committee calendar, a delegated authority matrix and a board pack) and the decisions recorded in them.",
      "url": "https://grc-wiki.vercel.app/governance/what-governance-produces/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -4625,7 +4625,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
-     "wordCount": 397,
+     "wordCount": 394,
      "timeRequired": "PT5M",
      "citation": [
       "COSO, Enterprise Risk Management - Integrating with Strategy and Performance, 2017",
@@ -4639,7 +4639,7 @@
    "clause": "2.1",
    "part": 2,
    "slug": "policy-hierarchy",
-   "title": "Policy, standard, procedure - the document hierarchy",
+   "title": "Policy, standard, procedure: the document hierarchy",
    "description": "A policy states the rule, a standard states the measurable version, a procedure states the steps. Getting the three levels wrong is the most common documentation failure in a young GRC programme.",
    "short_title": "Policy hierarchy",
    "keywords": [
@@ -4714,7 +4714,7 @@
     },
     {
      "type": "prose",
-     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Level</th>\n<th>Answers</th>\n<th>Changes</th>\n<th>Approved by</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Policy</td>\n<td>What is required, and why</td>\n<td>Rarely - annually at most</td>\n<td>Board or delegated committee</td>\n</tr>\n<tr>\n<td>Standard</td>\n<td>How much is enough, measurably</td>\n<td>When the threat or tooling moves</td>\n<td>Function head</td>\n</tr>\n<tr>\n<td>Procedure</td>\n<td>How the work is done, step by step</td>\n<td>Whenever the tool changes</td>\n<td>Process owner</td>\n</tr>\n</tbody>\n</table></div>\n<p>The approval column is the reason the split exists. Different levels change at\ndifferent speeds and warrant different levels of scrutiny; binding them into one\ndocument forces the slowest approval path onto the fastest-moving content.</p>"
+     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Level</th>\n<th>Answers</th>\n<th>Changes</th>\n<th>Approved by</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Policy</td>\n<td>What is required, and why</td>\n<td>Rarely, annually at most</td>\n<td>Board or delegated committee</td>\n</tr>\n<tr>\n<td>Standard</td>\n<td>How much is enough, measurably</td>\n<td>When the threat or tooling moves</td>\n<td>Function head</td>\n</tr>\n<tr>\n<td>Procedure</td>\n<td>How the work is done, step by step</td>\n<td>Whenever the tool changes</td>\n<td>Process owner</td>\n</tr>\n</tbody>\n</table></div>\n<p>The approval column is the reason the split exists. Different levels change at\ndifferent speeds and warrant different levels of scrutiny; binding them into one\ndocument forces the slowest approval path onto the fastest-moving content.</p>"
     },
     {
      "type": "heading",
@@ -4786,7 +4786,7 @@
       {
        "@type": "ListItem",
        "position": 3,
-       "name": "Policy, standard, procedure - the document hierarchy",
+       "name": "Policy, standard, procedure: the document hierarchy",
        "item": "https://grc-wiki.vercel.app/governance/policy-hierarchy/"
       }
      ]
@@ -4794,8 +4794,8 @@
     {
      "@type": "TechArticle",
      "@id": "https://grc-wiki.vercel.app/governance/policy-hierarchy/#article",
-     "headline": "Policy, standard, procedure - the document hierarchy",
-     "name": "Policy, standard, procedure - the document hierarchy",
+     "headline": "Policy, standard, procedure: the document hierarchy",
+     "name": "Policy, standard, procedure: the document hierarchy",
      "description": "A policy states the rule, a standard states the measurable version, a procedure states the steps. Getting the three levels wrong is the most common documentation failure in a young GRC programme.",
      "url": "https://grc-wiki.vercel.app/governance/policy-hierarchy/",
      "mainEntityOfPage": {
@@ -4808,7 +4808,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
-     "wordCount": 350,
+     "wordCount": 349,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, clause 5.2 (Policy) and clause 7.5 (Documented information)",
@@ -4901,7 +4901,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Purpose - the class of decision this forum owns. Membership - by role, with a\nquorum. Cadence. Inputs - what must be tabled, by whom, how far in advance.\nOutputs - minutes, decisions, actions with owners and dates. Escalation - what\nthis forum sends upward, and on what trigger.</p>\n<p>Anything longer is usually a description of the organisation rather than a\nmandate. Anything shorter cannot settle an argument about whether a decision was\nin scope.</p>"
+     "html": "<p>Purpose: the class of decision this forum owns. Membership: by role, with a\nquorum. Cadence. Inputs: what must be tabled, by whom, how far in advance.\nOutputs: minutes, decisions, actions with owners and dates. Escalation: what\nthis forum sends upward, and on what trigger.</p>\n<p>Anything longer is usually a description of the organisation rather than a\nmandate. Anything shorter cannot settle an argument about whether a decision was\nin scope.</p>"
     },
     {
      "type": "heading",
@@ -4971,7 +4971,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Tie it to the appetite statement. If governance has published <em>no accepted risk\nabove a residual score of 12 without board sign-off</em>, the matrix inherits that\nnumber and the trigger is arithmetic rather than judgement.</p>\n<p>Where appetite is qualitative, the trigger has to be categorical instead - any\nrisk touching customer funds, any obligation with a regulatory penalty attached.\nEither works. What does not work is a trigger that requires the person pulling\nit to already know the answer.</p>"
+     "html": "<p>Tie it to the appetite statement. If governance has published <em>no accepted risk\nabove a residual score of 12 without board sign-off</em>, the matrix inherits that\nnumber and the trigger is arithmetic rather than judgement.</p>\n<p>Where appetite is qualitative, the trigger has to be categorical instead: any\nrisk touching customer funds, any obligation with a regulatory penalty attached.\nEither works. What does not work is a trigger that requires the person pulling\nit to already know the answer.</p>"
     },
     {
      "type": "def",
@@ -4989,7 +4989,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>One, until it does not. A single risk and compliance forum, meeting quarterly,\nwith the CEO or COO in the chair, covers most organisations under two hundred\npeople and produces a real minute trail.</p>\n<p>Split it when the agenda stops fitting - usually when privacy or a regulator\narrives with its own reporting obligations. Splitting earlier produces forums\nthat meet without a decision to make, which is how a governance calendar starts\nbeing ignored.</p>"
+     "html": "<p>One, until it does not. A single risk and compliance forum, meeting quarterly,\nwith the CEO or COO in the chair, covers most organisations under two hundred\npeople and produces a real minute trail.</p>\n<p>Split it when the agenda stops fitting, usually when privacy or a regulator\narrives with its own reporting obligations. Splitting earlier produces forums\nthat meet without a decision to make, which is how a governance calendar starts\nbeing ignored.</p>"
     }
    ],
    "sources_html": [
@@ -5053,7 +5053,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
-     "wordCount": 375,
+     "wordCount": 368,
      "timeRequired": "PT6M",
      "citation": [
       "COSO, Enterprise Risk Management - Integrating with Strategy and Performance, 2017",
@@ -5134,7 +5134,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Everything else - the register extract, the control coverage, the audit\ntimetable - belongs in an annex nobody is expected to read in the room, and\neverybody can read afterwards.</p>"
+     "html": "<p>Everything else (the register extract, the control coverage, the audit\ntimetable) belongs in an annex nobody is expected to read in the room, and\neverybody can read afterwards.</p>"
     },
     {
      "type": "heading",
@@ -5158,7 +5158,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A four-colour grid with dots on it is the most requested and least useful board\nartefact in the discipline. It shows position without showing movement,\ncompresses away the ownership, and invites an argument about whether something\nis amber or red rather than about what to do.</p>\n<p>If the board wants one, give them one - and put the movement beside it. An arrow\nper entry showing where it was last quarter turns the same picture into a\nnarrative, which is what a board is actually assembling.</p>"
+     "html": "<p>A four-colour grid with dots on it is the most requested and least useful board\nartefact in the discipline. It shows position without showing movement,\ncompresses away the ownership, and invites an argument about whether something\nis amber or red rather than about what to do.</p>\n<p>If the board wants one, give them one, and put the movement beside it. An arrow\nper entry showing where it was last quarter turns the same picture into a\nnarrative, which is what a board is actually assembling.</p>"
     },
     {
      "type": "def",
@@ -5252,7 +5252,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
-     "wordCount": 413,
+     "wordCount": 410,
      "timeRequired": "PT6M",
      "citation": [
       "COSO, Enterprise Risk Management - Integrating with Strategy and Performance, 2017",
@@ -5337,7 +5337,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Governance and management divide along <strong>deciding versus doing</strong>: governance sets\nthe direction, the risk appetite and the lines of accountability; management runs\nthe organisation within them. They are distinct functions - usually held by the\nboard and the executive respectively - not two words for one, so that the people\nwho set the target are not the sole judges of whether it was hit."
+     "html": "Governance and management divide along <strong>deciding versus doing</strong>: governance sets\nthe direction, the risk appetite and the lines of accountability; management runs\nthe organisation within them. They are distinct functions (usually held by the\nboard and the executive respectively), not two words for one, so that the people\nwho set the target are not the sole judges of whether it was hit."
     },
     {
      "type": "prose",
@@ -5375,14 +5375,14 @@
        "attr": "Who (typically)",
        "a": "The board, largely non-executive, acting collectively",
        "av": "",
-       "b": "The executive - the CEO and the management team",
+       "b": "The executive: the CEO and the management team",
        "bv": ""
       },
       {
        "attr": "Time horizon",
-       "a": "The long term - strategy, appetite, succession",
+       "a": "The long term: strategy, appetite, succession",
        "av": "",
-       "b": "The operating cycle - this quarter, this year",
+       "b": "The operating cycle: this quarter, this year",
        "bv": ""
       },
       {
@@ -5408,9 +5408,9 @@
       },
       {
        "attr": "Cadence",
-       "a": "Periodic - the board and committee calendar",
+       "a": "Periodic: the board and committee calendar",
        "av": "",
-       "b": "Continuous - the working day",
+       "b": "Continuous: the working day",
        "bv": ""
       },
       {
@@ -5436,13 +5436,13 @@
     },
     {
      "type": "prose",
-     "html": "<p>Two bodies exist rather than one because of separation of duties, applied at the\ntop of the house. It is the same principle that stops the person who raises an\ninvoice from being the person who approves it - whoever sets a target should not\nalso be the only judge of whether it was met. Fold direction-setting and delivery\ninto one pair of hands and the appetite quietly bends to fit the results.</p>\n<p>The <a href=\"/foundations/three-lines-model/\">three lines model</a> draws the same line\nlower down - the governing body above, management owning the first and second\nlines, independent assurance in the third - and the whole arrangement rests on the\ngoverning body being distinct from the management it oversees. What joins the two\nbodies without merging them is delegated authority. The board does not run the\norganisation, so it grants the executive the power to, within limits it writes\ndown and can withdraw, recorded in the\n<a href=\"/governance/committees-and-delegated-authority/\">committee and delegation structure</a>\nbeneath it.</p>"
+     "html": "<p>Two bodies exist rather than one because of separation of duties, applied at the\ntop of the house. It is the same principle that stops the person who raises an\ninvoice from being the person who approves it: whoever sets a target should not\nalso be the only judge of whether it was met. Fold direction-setting and delivery\ninto one pair of hands and the appetite quietly bends to fit the results.</p>\n<p>The <a href=\"/foundations/three-lines-model/\">three lines model</a> draws the same line\nlower down (the governing body above, management owning the first and second\nlines, independent assurance in the third), and the whole arrangement rests on the\ngoverning body being distinct from the management it oversees. What joins the two\nbodies without merging them is delegated authority. The board does not run the\norganisation, so it grants the executive the power to, within limits it writes\ndown and can withdraw, recorded in the\n<a href=\"/governance/committees-and-delegated-authority/\">committee and delegation structure</a>\nbeneath it.</p>"
     },
     {
      "type": "def",
      "term": "Delegated authority",
      "ref": "2.2",
-     "html": "The board&rsquo;s grant of decision-making power to the executive, within limits it\nsets and can revoke. The hinge between the two bodies: governance decides what\nthe organisation is for, then delegates the authority to run it - and keeps the\naccountability."
+     "html": "The board&rsquo;s grant of decision-making power to the executive, within limits it\nsets and can revoke. The hinge between the two bodies: governance decides what\nthe organisation is for, then delegates the authority to run it, and keeps the\naccountability."
     },
     {
      "type": "heading",
@@ -5454,7 +5454,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The clean two-body picture assumes a board of non-executives and a separate\nexecutive team, which describes a listed company and not much else.</p>\n<p>In an owner-managed business the founder chairs the board on Monday and runs the\noperation for the rest of the week, and the two roles share one diary. The\ndistinction has not vanished; it has become a discipline the individual has to\nkeep in their own head - knowing, at any given decision, whether they are setting\nthe appetite or spending it. Small firms fail here not by collapsing the roles\nbut by never noticing they hold both.</p>\n<p>The executive director is the deliberate blur. Most boards seat at least one -\nthe CEO, often the finance director - as a full member of the governing body who\nis also part of the management it oversees. They govern in the boardroom and\nmanage outside it, which is why a functioning board structures itself so the\nexecutive members cannot dominate the governance decisions: non-executive\nmajorities, committees chaired by non-executives, sessions the executives leave.</p>\n<p>The distinction still matters where one person holds both roles, because\naccountability does not merge just because the diary did. When the owner-manager&rsquo;s\ncompany is sued or audited, whether this was a governance failure or a management\nfailure still has to be answered - by the same person, in the right role, if the\nanswer is to be worth anything.</p>"
+     "html": "<p>The clean two-body picture assumes a board of non-executives and a separate\nexecutive team, which describes a listed company and not much else.</p>\n<p>In an owner-managed business the founder chairs the board on Monday and runs the\noperation for the rest of the week, and the two roles share one diary. The\ndistinction has not vanished; it has become a discipline the individual has to\nkeep in their own head: knowing, at any given decision, whether they are setting\nthe appetite or spending it. Small firms fail here not by collapsing the roles\nbut by never noticing they hold both.</p>\n<p>The executive director is the deliberate blur. Most boards seat at least one (the\nCEO, often the finance director) as a full member of the governing body who is\nalso part of the management it oversees. They govern in the boardroom and\nmanage outside it, which is why a functioning board structures itself so the\nexecutive members cannot dominate the governance decisions: non-executive\nmajorities, committees chaired by non-executives, sessions the executives leave.</p>\n<p>The distinction still matters where one person holds both roles, because\naccountability does not merge just because the diary did. When the owner-manager&rsquo;s\ncompany is sued or audited, whether this was a governance failure or a management\nfailure still has to be answered, by the same person, in the right role, if the\nanswer is to be worth anything.</p>"
     },
     {
      "type": "heading",
@@ -5466,7 +5466,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Two failures sit either side of the line, and each is the other&rsquo;s mirror.</p>\n<p>The first is a board that drifts into managing. It fills its meetings approving\nindividual hires, signing off line items and reading operational dashboards -\nrubber-stamping the detail the executive was appointed to own. The detail feels\nlike diligence, but it crowds out the work only the board can do: setting\ndirection, testing the strategy and holding the executive to account. A board\ndeep in operational minutiae is usually a board that has quietly stopped\noverseeing, because no time is left for it.</p>\n<p>The second is an executive that makes governance-level calls without saying so.\nThe clearest case is an executive that sets its own risk appetite - deciding how\nmuch risk is acceptable, then reporting performance against a bar it set for\nitself. COSO puts risk appetite under board oversight for exactly this reason: the\nexecutive may propose it, but the board reviews and concurs, so that the body\nmeasured against the appetite is not the body that fixes it. Left to itself, an\nexecutive can widen the appetite whenever the results demand, and no one above it\nis the wiser. It is self-review raised to the level of strategy - the body being\nheld to account has taken over defining what account looks like.</p>"
+     "html": "<p>Two failures sit either side of the line, and each is the other&rsquo;s mirror.</p>\n<p>The first is a board that drifts into managing. It fills its meetings approving\nindividual hires, signing off line items and reading operational dashboards,\nrubber-stamping the detail the executive was appointed to own. The detail feels\nlike diligence, but it crowds out the work only the board can do: setting\ndirection, testing the strategy and holding the executive to account. A board\ndeep in operational minutiae is usually a board that has quietly stopped\noverseeing, because no time is left for it.</p>\n<p>The second is an executive that makes governance-level calls without saying so.\nThe clearest case is an executive that sets its own risk appetite, deciding how\nmuch risk is acceptable, then reporting performance against a bar it set for\nitself. COSO puts risk appetite under board oversight for exactly this reason: the\nexecutive may propose it, but the board reviews and concurs, so that the body\nmeasured against the appetite is not the body that fixes it. Left to itself, an\nexecutive can widen the appetite whenever the results demand, and no one above it\nis the wiser. It is self-review raised to the level of strategy: the body being\nheld to account has taken over defining what account looks like.</p>"
     },
     {
      "type": "heading",
@@ -5482,17 +5482,17 @@
       {
        "q": "Is governance the same as management?",
        "id": "faq-is-governance-the-same-as-management",
-       "html": "<p>No. Governance decides what the organisation is for, how much risk it will run\nand who holds authority; management operates inside those decisions and reports\nback. Same organisation, two jobs - one sets the frame, the other works within\nit. The words are used loosely in everyday speech, which is where the confusion\nstarts, but every governance standard treats them as distinct functions.</p>"
+       "html": "<p>No. Governance decides what the organisation is for, how much risk it will run\nand who holds authority; management operates inside those decisions and reports\nback. Same organisation, two jobs: one sets the frame, the other works within\nit. The words are used loosely in everyday speech, which is where the confusion\nstarts, but every governance standard treats them as distinct functions.</p>"
       },
       {
        "q": "Who actually does governance?",
        "id": "faq-who-actually-does-governance",
-       "html": "<p>The governing body - in a company, the board and its committees, acting\ncollectively rather than through the chair alone. In a charity it is the\ntrustees, in a public body the accountable board. In a very small organisation it\nmay be one or two people who put the governance hat on at set moments - approving\nthe annual plan, signing the accounts - and take it off to run the place the rest\nof the time. Governance is a role a body performs, not a department on the chart.</p>"
+       "html": "<p>The governing body: in a company, the board and its committees, acting\ncollectively rather than through the chair alone. In a charity it is the\ntrustees, in a public body the accountable board. In a very small organisation it\nmay be one or two people who put the governance hat on at set moments (approving\nthe annual plan, signing the accounts) and take it off to run the place the rest\nof the time. Governance is a role a body performs, not a department on the chart.</p>"
       },
       {
        "q": "Can a manager do governance work?",
        "id": "faq-can-a-manager-do-governance-work",
-       "html": "<p>Yes, but only when acting in a governance capacity, not by virtue of being\nsenior. A manager who sits on a governance committee, or the executive director\non the board, is doing governance in that seat - bound by its terms of reference\nand its record. The moment they leave the seat they are managing again. What\ndecides whether a piece of work is governance is the authority it is done under,\nnot the seniority of the person doing it.</p>"
+       "html": "<p>Yes, but only when acting in a governance capacity, not by virtue of being\nsenior. A manager who sits on a governance committee, or the executive director\non the board, is doing governance in that seat, bound by its terms of reference\nand its record. The moment they leave the seat they are managing again. What\ndecides whether a piece of work is governance is the authority it is done under,\nnot the seniority of the person doing it.</p>"
       }
      ]
     }
@@ -5559,7 +5559,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
-     "wordCount": 1165,
+     "wordCount": 1147,
      "timeRequired": "PT5M",
      "citation": [
       "ISO 37000:2021 - Governance of organizations, guidance",
@@ -5577,7 +5577,7 @@
        "name": "Is governance the same as management?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Governance decides what the organisation is for, how much risk it will run and who holds authority; management operates inside those decisions and reports back. Same organisation, two jobs - one sets the frame, the other works within it. The words are used loosely in everyday speech, which is where the confusion starts, but every governance standard treats them as distinct functions."
+        "text": "No. Governance decides what the organisation is for, how much risk it will run and who holds authority; management operates inside those decisions and reports back. Same organisation, two jobs: one sets the frame, the other works within it. The words are used loosely in everyday speech, which is where the confusion starts, but every governance standard treats them as distinct functions."
        }
       },
       {
@@ -5585,7 +5585,7 @@
        "name": "Who actually does governance?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The governing body - in a company, the board and its committees, acting collectively rather than through the chair alone. In a charity it is the trustees, in a public body the accountable board. In a very small organisation it may be one or two people who put the governance hat on at set moments - approving the annual plan, signing the accounts - and take it off to run the place the rest of the time. Governance is a role a body performs, not a department on the chart."
+        "text": "The governing body: in a company, the board and its committees, acting collectively rather than through the chair alone. In a charity it is the trustees, in a public body the accountable board. In a very small organisation it may be one or two people who put the governance hat on at set moments (approving the annual plan, signing the accounts) and take it off to run the place the rest of the time. Governance is a role a body performs, not a department on the chart."
        }
       },
       {
@@ -5593,7 +5593,7 @@
        "name": "Can a manager do governance work?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, but only when acting in a governance capacity, not by virtue of being senior. A manager who sits on a governance committee, or the executive director on the board, is doing governance in that seat - bound by its terms of reference and its record. The moment they leave the seat they are managing again. What decides whether a piece of work is governance is the authority it is done under, not the seniority of the person doing it."
+        "text": "Yes, but only when acting in a governance capacity, not by virtue of being senior. A manager who sits on a governance committee, or the executive director on the board, is doing governance in that seat, bound by its terms of reference and its record. The moment they leave the seat they are managing again. What decides whether a piece of work is governance is the authority it is done under, not the seniority of the person doing it."
        }
       }
      ]
@@ -5605,7 +5605,7 @@
    "part": 2,
    "slug": "terms-of-reference",
    "title": "Terms of reference for a committee",
-   "description": "A committee's terms of reference set out its mandate, membership and decision rights - what it decides, who sits on it and what it must escalate.",
+   "description": "A committee's terms of reference set out its mandate, membership and decision rights: what it decides, who sits on it and what it must escalate.",
    "short_title": "Terms of reference",
    "keywords": [
     "terms of reference",
@@ -5631,7 +5631,7 @@
    ],
    "sources": [
     "ISO 37000:2021 - Governance of organizations, guidance",
-    "Committee terms-of-reference conventions - quorum, membership, review cadence - are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
+    "Committee terms-of-reference conventions (quorum, membership, review cadence) are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
    ],
    "prev": {
     "ref": "2.4",
@@ -5669,7 +5669,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "A committee&rsquo;s terms of reference set out its mandate, membership and decision\nrights - what it exists to decide, who sits on it and what it must escalate."
+     "html": "A committee&rsquo;s terms of reference set out its mandate, membership and decision\nrights: what it exists to decide, who sits on it and what it must escalate."
     },
     {
      "type": "prose",
@@ -5692,7 +5692,7 @@
      "items": [
       {
        "term": "Purpose and mandate",
-       "html": "The class of decision the committee owns - the reason it exists and the matter it may settle. If you cannot name that class, you have scheduled a meeting."
+       "html": "The class of decision the committee owns: the reason it exists and the matter it may settle. If you cannot name that class, you have scheduled a meeting."
       },
       {
        "term": "Membership and chair",
@@ -5716,13 +5716,13 @@
       },
       {
        "term": "Review cycle",
-       "html": "When the terms of reference are themselves re-read and re-approved - commonly once a year - and by whom."
+       "html": "When the terms of reference are themselves re-read and re-approved (commonly once a year), and by whom."
       }
      ]
     },
     {
      "type": "prose",
-     "html": "<p>No single standard dictates what these must contain. ISO 37000 frames how a\ngoverning body sets a mandate and delegates authority to the bodies beneath it,\nand IIA guidance sets out what an audit committee&rsquo;s charter should establish; but\nthe specific conventions above - a stated quorum, an annual review - are\ngovernance good practice rather than a clause you can be marked against.</p>"
+     "html": "<p>No single standard dictates what these must contain. ISO 37000 frames how a\ngoverning body sets a mandate and delegates authority to the bodies beneath it,\nand IIA guidance sets out what an audit committee&rsquo;s charter should establish; but\nthe specific conventions above (a stated quorum, an annual review) are\ngovernance good practice rather than a clause you can be marked against.</p>"
     },
     {
      "type": "heading",
@@ -5756,7 +5756,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Three failure modes recur, and each one is visible the moment you read the\nminutes against the terms.</p>\n<p>The stale mandate is the first. The terms were written when the committee was formed and\nnever reviewed since. The remit has drifted - the committee now decides things\nthe document does not mention, or has stopped covering things it lists - and\nnobody has reconciled the two. The review cycle exists to catch this; a committee\nwhose terms carry no review date usually has not.</p>\n<p>The quorum that is never met is the second. The terms set a quorum the committee cannot\nrealistically achieve, so meetings proceed anyway with whoever turned up. Every\ndecision taken below quorum is, on the committee&rsquo;s own terms, technically\ninvalid, and a reviewer who counts attendees against the stated quorum will find\nthem. A quorum nobody meets is worse than a low one, because it makes valid\ndecisions look defective and defective ones look valid.</p>\n<p>Deciding outside the mandate is the third. The committee routinely settles matters that\nbelong to another forum or to a higher authority, because it is the meeting that\nhappens to be in the room. This is the failure the delegated authority matrix\nexists to prevent, and it surfaces when two committees are found to have decided\nthe same thing differently.</p>"
+     "html": "<p>Three failure modes recur, and each one is visible the moment you read the\nminutes against the terms.</p>\n<p>The stale mandate is the first. The terms were written when the committee was formed and\nnever reviewed since. The remit has drifted (the committee now decides things\nthe document does not mention, or has stopped covering things it lists) and\nnobody has reconciled the two. The review cycle exists to catch this; a committee\nwhose terms carry no review date usually has not.</p>\n<p>The quorum that is never met is the second. The terms set a quorum the committee cannot\nrealistically achieve, so meetings proceed anyway with whoever turned up. Every\ndecision taken below quorum is, on the committee&rsquo;s own terms, technically\ninvalid, and a reviewer who counts attendees against the stated quorum will find\nthem. A quorum nobody meets is worse than a low one, because it makes valid\ndecisions look defective and defective ones look valid.</p>\n<p>Deciding outside the mandate is the third. The committee routinely settles matters that\nbelong to another forum or to a higher authority, because it is the meeting that\nhappens to be in the room. This is the failure the delegated authority matrix\nexists to prevent, and it surfaces when two committees are found to have decided\nthe same thing differently.</p>"
     },
     {
      "type": "heading",
@@ -5777,19 +5777,19 @@
       {
        "q": "Who approves a committee's terms of reference?",
        "id": "faq-who-approves-a-committees-terms-of-reference",
-       "html": "<p>The body that created the committee and delegated authority to it - usually the\nboard for a board committee, or the parent committee for a sub-committee. A\ncommittee does not approve its own terms of reference, for the same reason a\nfunction does not sign off its own audit: the authority to set the mandate has to\ncome from above the mandate. In practice the committee drafts them and the parent\nbody approves them.</p>"
+       "html": "<p>The body that created the committee and delegated authority to it: usually the\nboard for a board committee, or the parent committee for a sub-committee. A\ncommittee does not approve its own terms of reference, for the same reason a\nfunction does not sign off its own audit: the authority to set the mandate has to\ncome from above the mandate. In practice the committee drafts them and the parent\nbody approves them.</p>"
       },
       {
        "q": "How often should terms of reference be reviewed?",
        "id": "faq-how-often-should-terms-of-reference-be-reviewed",
-       "html": "<p>Annually is the common convention, and many committees take their terms as the\nfirst item at a set meeting each year. There is no mandated interval - review\ncadence is governance good practice rather than a rule you can be measured\nagainst - but the review should also be triggered by change: a new regulator, a\nmerger, a shift in remit. The failure to guard against is terms reviewed on paper\nwithout being read, so the review quietly re-approves a drift nobody examined.</p>"
+       "html": "<p>Annually is the common convention, and many committees take their terms as the\nfirst item at a set meeting each year. There is no mandated interval (review\ncadence is governance good practice rather than a rule you can be measured\nagainst), but the review should also be triggered by change: a new regulator, a\nmerger, a shift in remit. The failure to guard against is terms reviewed on paper\nwithout being read, so the review quietly re-approves a drift nobody examined.</p>"
       }
      ]
     }
    ],
    "sources_html": [
     "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO 37000:2021 - Governance of organizations, guidance</a>",
-    "Committee terms-of-reference conventions - quorum, membership, review cadence - are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
+    "Committee terms-of-reference conventions (quorum, membership, review cadence) are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
    ],
    "ld": [
     {
@@ -5836,7 +5836,7 @@
      "@id": "https://grc-wiki.vercel.app/governance/terms-of-reference/#article",
      "headline": "Terms of reference for a committee",
      "name": "Terms of reference for a committee",
-     "description": "A committee's terms of reference set out its mandate, membership and decision rights - what it decides, who sits on it and what it must escalate.",
+     "description": "A committee's terms of reference set out its mandate, membership and decision rights: what it decides, who sits on it and what it must escalate.",
      "url": "https://grc-wiki.vercel.app/governance/terms-of-reference/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -5848,11 +5848,11 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Governance",
-     "wordCount": 956,
+     "wordCount": 945,
      "timeRequired": "PT5M",
      "citation": [
       "ISO 37000:2021 - Governance of organizations, guidance",
-      "Committee terms-of-reference conventions - quorum, membership, review cadence - are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
+      "Committee terms-of-reference conventions (quorum, membership, review cadence) are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
      ],
      "keywords": "terms of reference, committee terms of reference, terms of reference vs charter, who approves terms of reference, how often review terms of reference"
     },
@@ -5861,7 +5861,7 @@
      "@id": "https://grc-wiki.vercel.app/governance/terms-of-reference/#term",
      "name": "Terms of reference",
      "alternateName": "",
-     "description": "A committee's terms of reference set out its mandate, membership and decision rights - what it decides, who sits on it and what it must escalate.",
+     "description": "A committee's terms of reference set out its mandate, membership and decision rights: what it decides, who sits on it and what it must escalate.",
      "url": "https://grc-wiki.vercel.app/governance/terms-of-reference/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
@@ -5886,7 +5886,7 @@
        "name": "Who approves a committee's terms of reference?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The body that created the committee and delegated authority to it - usually the board for a board committee, or the parent committee for a sub-committee. A committee does not approve its own terms of reference, for the same reason a function does not sign off its own audit: the authority to set the mandate has to come from above the mandate. In practice the committee drafts them and the parent body approves them."
+        "text": "The body that created the committee and delegated authority to it: usually the board for a board committee, or the parent committee for a sub-committee. A committee does not approve its own terms of reference, for the same reason a function does not sign off its own audit: the authority to set the mandate has to come from above the mandate. In practice the committee drafts them and the parent body approves them."
        }
       },
       {
@@ -5894,7 +5894,7 @@
        "name": "How often should terms of reference be reviewed?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Annually is the common convention, and many committees take their terms as the first item at a set meeting each year. There is no mandated interval - review cadence is governance good practice rather than a rule you can be measured against - but the review should also be triggered by change: a new regulator, a merger, a shift in remit. The failure to guard against is terms reviewed on paper without being read, so the review quietly re-approves a drift nobody examined."
+        "text": "Annually is the common convention, and many committees take their terms as the first item at a set meeting each year. There is no mandated interval (review cadence is governance good practice rather than a rule you can be measured against), but the review should also be triggered by change: a new regulator, a merger, a shift in remit. The failure to guard against is terms reviewed on paper without being read, so the review quietly re-approves a drift nobody examined."
        }
       }
      ]
