@@ -19852,7 +19852,7 @@
    "part": 6,
    "slug": "grc-roles",
    "title": "What GRC roles exist",
-   "description": "Analyst, manager, lead, head - plus the four specialisations the work splits into. What each seat does daily, what it pays attention to, and where each one goes next.",
+   "description": "Analyst, manager, lead, head, plus the four specialisations the work splits into. What each seat does daily, what it pays attention to, and where each one goes next.",
    "short_title": "GRC roles",
    "keywords": [
     "GRC roles",
@@ -19961,7 +19961,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Third-party risk.</strong> The first split in almost every organisation, because the\nvolume of supplier assessments is relentless and unlike the rest of the work.</p>\n<p><strong>Privacy.</strong> A distinct obligation set with its own regulator, its own artefacts\nand - where a statutory DPO is required - independence constraints that make it\na poor fit for a general compliance seat.</p>\n<p><strong>Technology / product compliance.</strong> Sits closest to engineering. Owns the\ncontrols that live in the pipeline, and needs enough fluency to challenge an\narchitecture decision.</p>\n<p><strong>Financial controls / SOX.</strong> A different lineage entirely, closer to internal\naudit and the finance function, with its own qualification path.</p>"
+     "html": "<p><strong>Third-party risk.</strong> The first split in almost every organisation, because the\nvolume of supplier assessments is relentless and unlike the rest of the work.</p>\n<p><strong>Privacy.</strong> A distinct obligation set with its own regulator, its own artefacts\nand, where a statutory DPO is required, independence constraints that make it\na poor fit for a general compliance seat.</p>\n<p><strong>Technology / product compliance.</strong> Sits closest to engineering. Owns the\ncontrols that live in the pipeline, and needs enough fluency to challenge an\narchitecture decision.</p>\n<p><strong>Financial controls / SOX.</strong> A different lineage entirely, closer to internal\naudit and the finance function, with its own qualification path.</p>"
     },
     {
      "type": "heading",
@@ -19991,7 +19991,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Sideways more often than up, and that is normal. Risk to privacy, compliance to\ninternal audit, GRC to security architecture, and - increasingly - GRC into\nproduct, because the person who understands the obligations understands what the\nproduct has to do.</p>\n<p>The route out that surprises people is into consulting, where the breadth of a\ngeneralist seat is worth more than the depth of a specialist one.</p>"
+     "html": "<p>Sideways more often than up, and that is normal. Risk to privacy, compliance to\ninternal audit, GRC to security architecture, and, increasingly, GRC into\nproduct, because the person who understands the obligations understands what the\nproduct has to do.</p>\n<p>The route out that surprises people is into consulting, where the breadth of a\ngeneralist seat is worth more than the depth of a specialist one.</p>"
     },
     {
      "type": "note",
@@ -20048,7 +20048,7 @@
      "@id": "https://grc-wiki.vercel.app/career/grc-roles/#article",
      "headline": "What GRC roles exist",
      "name": "What GRC roles exist",
-     "description": "Analyst, manager, lead, head - plus the four specialisations the work splits into. What each seat does daily, what it pays attention to, and where each one goes next.",
+     "description": "Analyst, manager, lead, head, plus the four specialisations the work splits into. What each seat does daily, what it pays attention to, and where each one goes next.",
      "url": "https://grc-wiki.vercel.app/career/grc-roles/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -20060,7 +20060,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 489,
+     "wordCount": 485,
      "timeRequired": "PT7M",
      "citation": [
       "IIA, The Three Lines Model, 2020",
@@ -20158,7 +20158,7 @@
      "items": [
       {
        "term": "IT support",
-       "html": "Brings the ability to read a system you did not build and write down what happened. Lacks the evidence habit - what makes a screenshot admissible, why a date matters, what the auditor asks next."
+       "html": "Brings the ability to read a system you did not build and write down what happened. Lacks the evidence habit: what makes a screenshot admissible, why a date matters, what the auditor asks next."
       },
       {
        "term": "Internal audit",
@@ -20166,7 +20166,7 @@
       },
       {
        "term": "Project delivery",
-       "html": "Brings tracking, chasing and getting a dozen people to a date. Lacks the domain - which obligations exist and why they bind."
+       "html": "Brings tracking, chasing and getting a dozen people to a date. Lacks the domain: which obligations exist and why they bind."
       },
       {
        "term": "Law or contracts",
@@ -20208,7 +20208,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Not technical depth. The evidence habit - understanding that the job is not\ndoing the thing but being able to show, months later, to somebody who was not\nthere, that the thing was done.</p>\n<p>It is learnable in months and it is the thing hiring managers are listening for.\nCandidates who talk about what they did are common; candidates who talk about\nwhat they kept are not.</p>"
+     "html": "<p>Not technical depth. The evidence habit: understanding that the job is not\ndoing the thing but being able to show, months later, to somebody who was not\nthere, that the thing was done.</p>\n<p>It is learnable in months and it is the thing hiring managers are listening for.\nCandidates who talk about what they did are common; candidates who talk about\nwhat they kept are not.</p>"
     }
    ],
    "sources_html": [
@@ -20272,7 +20272,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 433,
+     "wordCount": 430,
      "timeRequired": "PT7M",
      "citation": [
       "ISACA, CRISC and CISA job practice areas, 2025",
@@ -20360,22 +20360,22 @@
       {
        "q": "What is the difference between GRC and internal audit?",
        "id": "faq-what-is-the-difference-between-grc-and-internal-audit",
-       "html": "<p>The accountability line, not the task list. &ldquo;GRC reports to management and owns\nthe outcome; internal audit reports to the audit committee and owns the\nopinion.&rdquo; Everything about tools and frameworks follows from it.</p>\n<p>The follow-up is usually about independence, and the answer they are listening\nfor is that it is structural rather than personal - an auditor who helped fix\nthe gap has lost the opinion they were hired to give, however honest they are.\nSee <a href=\"/foundations/grc-vs-internal-audit/\">1.4</a>.</p>"
+       "html": "<p>The accountability line, not the task list. &ldquo;GRC reports to management and owns\nthe outcome; internal audit reports to the audit committee and owns the\nopinion.&rdquo; Everything about tools and frameworks follows from it.</p>\n<p>The follow-up is usually about independence, and the answer they are listening\nfor is that it is structural rather than personal: an auditor who helped fix\nthe gap has lost the opinion they were hired to give, however honest they are.\nSee <a href=\"/foundations/grc-vs-internal-audit/\">1.4</a>.</p>"
       },
       {
-       "q": "Appetite or tolerance - what is the difference?",
+       "q": "Appetite or tolerance: what is the difference?",
        "id": "faq-appetite-or-tolerance-what-is-the-difference",
        "html": "<p>Appetite is how much risk the organisation is willing to accept in pursuit of\nits objectives, set annually by the board, usually by category. Tolerance is the\nacceptable variation around one specific objective, and it is a number you can\ncross.</p>\n<p>The good answer adds when the distinction bites: at the moment somebody has to\ndecide whether a specific risk gets treated or accepted. See\n<a href=\"/risk/appetite-vs-tolerance/\">3.2</a>.</p>"
       },
       {
        "q": "Walk me through a risk you assessed.",
        "id": "faq-walk-me-through-a-risk-you-assessed",
-       "html": "<p>The one that matters. Pick a real one, and include what went wrong.</p>\n<p>How it was raised. How you scored it, against what documented scale. Who owned\nit - a person. What treatment was chosen and who had the authority to approve\nit. What evidence closed it. Then the honest part: what you would do\ndifferently, which is where the interview stops being a test.</p>"
+       "html": "<p>The one that matters. Pick a real one, and include what went wrong.</p>\n<p>How it was raised. How you scored it, against what documented scale. Who owned\nit, and it has to be a person. What treatment was chosen and who had the\nauthority to approve it. What evidence closed it. Then the honest part: what you would do\ndifferently, which is where the interview stops being a test.</p>"
       },
       {
        "q": "How do you handle a control owner who will not give you evidence?",
        "id": "faq-how-do-you-handle-a-control-owner-who-will-not-give-you-evidence",
-       "html": "<p>They are testing whether you escalate straight away, which is the wrong answer.</p>\n<p>Find out why first - usually the request is ambiguous, the system cannot produce\nwhat you asked for, or they do not know they own the control. Then make the\nrequest specific and easy. Escalation is the third move, not the first, and when\nit comes it goes with a record of the two attempts before it.</p>"
+       "html": "<p>They are testing whether you escalate straight away, which is the wrong answer.</p>\n<p>Find out why first: usually the request is ambiguous, the system cannot produce\nwhat you asked for, or they do not know they own the control. Then make the\nrequest specific and easy. Escalation is the third move, not the first, and when\nit comes it goes with a record of the two attempts before it.</p>"
       },
       {
        "q": "ISO 27001 or SOC 2?",
@@ -20390,7 +20390,7 @@
       {
        "q": "How would you build a programme from nothing?",
        "id": "faq-how-would-you-build-a-programme-from-nothing",
-       "html": "<p>Register first, even a rough one, because the argument about the scale is easier\nwith real entries in front of it. Then the policy set, then the control\ninventory with its mapping, then the evidence habit.</p>\n<p>Starting with policy is the intuitive answer and the slow one - you end up\nwriting rules for risks you have not established you carry. Saying so\ndemonstrates you have thought about order rather than listing artefacts.</p>"
+       "html": "<p>Register first, even a rough one, because the argument about the scale is easier\nwith real entries in front of it. Then the policy set, then the control\ninventory with its mapping, then the evidence habit.</p>\n<p>Starting with policy is the intuitive answer and the slow one: you end up\nwriting rules for risks you have not established you carry. Saying so\ndemonstrates you have thought about order rather than listing artefacts.</p>"
       },
       {
        "q": "Where do you see the function failing?",
@@ -20473,7 +20473,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 667,
+     "wordCount": 668,
      "timeRequired": "PT8M",
      "citation": [
       "IIA, The Three Lines Model, 2020",
@@ -20490,12 +20490,12 @@
        "name": "What is the difference between GRC and internal audit?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The accountability line, not the task list. &ldquo;GRC reports to management and owns the outcome; internal audit reports to the audit committee and owns the opinion.&rdquo; Everything about tools and frameworks follows from it. The follow-up is usually about independence, and the answer they are listening for is that it is structural rather than personal - an auditor who helped fix the gap has lost the opinion they were hired to give, however honest they are. See 1.4 ."
+        "text": "The accountability line, not the task list. &ldquo;GRC reports to management and owns the outcome; internal audit reports to the audit committee and owns the opinion.&rdquo; Everything about tools and frameworks follows from it. The follow-up is usually about independence, and the answer they are listening for is that it is structural rather than personal: an auditor who helped fix the gap has lost the opinion they were hired to give, however honest they are. See 1.4 ."
        }
       },
       {
        "@type": "Question",
-       "name": "Appetite or tolerance - what is the difference?",
+       "name": "Appetite or tolerance: what is the difference?",
        "acceptedAnswer": {
         "@type": "Answer",
         "text": "Appetite is how much risk the organisation is willing to accept in pursuit of its objectives, set annually by the board, usually by category. Tolerance is the acceptable variation around one specific objective, and it is a number you can cross. The good answer adds when the distinction bites: at the moment somebody has to decide whether a specific risk gets treated or accepted. See 3.2 ."
@@ -20506,7 +20506,7 @@
        "name": "Walk me through a risk you assessed.",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The one that matters. Pick a real one, and include what went wrong. How it was raised. How you scored it, against what documented scale. Who owned it - a person. What treatment was chosen and who had the authority to approve it. What evidence closed it. Then the honest part: what you would do differently, which is where the interview stops being a test."
+        "text": "The one that matters. Pick a real one, and include what went wrong. How it was raised. How you scored it, against what documented scale. Who owned it, and it has to be a person. What treatment was chosen and who had the authority to approve it. What evidence closed it. Then the honest part: what you would do differently, which is where the interview stops being a test."
        }
       },
       {
@@ -20514,7 +20514,7 @@
        "name": "How do you handle a control owner who will not give you evidence?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "They are testing whether you escalate straight away, which is the wrong answer. Find out why first - usually the request is ambiguous, the system cannot produce what you asked for, or they do not know they own the control. Then make the request specific and easy. Escalation is the third move, not the first, and when it comes it goes with a record of the two attempts before it."
+        "text": "They are testing whether you escalate straight away, which is the wrong answer. Find out why first: usually the request is ambiguous, the system cannot produce what you asked for, or they do not know they own the control. Then make the request specific and easy. Escalation is the third move, not the first, and when it comes it goes with a record of the two attempts before it."
        }
       },
       {
@@ -20538,7 +20538,7 @@
        "name": "How would you build a programme from nothing?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Register first, even a rough one, because the argument about the scale is easier with real entries in front of it. Then the policy set, then the control inventory with its mapping, then the evidence habit. Starting with policy is the intuitive answer and the slow one - you end up writing rules for risks you have not established you carry. Saying so demonstrates you have thought about order rather than listing artefacts."
+        "text": "Register first, even a rough one, because the argument about the scale is easier with real entries in front of it. Then the policy set, then the control inventory with its mapping, then the evidence habit. Starting with policy is the intuitive answer and the slow one: you end up writing rules for risks you have not established you carry. Saying so demonstrates you have thought about order rather than listing artefacts."
        }
       },
       {
@@ -20558,7 +20558,7 @@
    "part": 6,
    "slug": "certifications-and-training",
    "title": "GRC certifications and training compared",
-   "description": "ISO 27001, CISA, CISM, CRISC, CISSP, SANS and GRC courses side by side - what each certifies, who it suits, and why a beginner needs breadth before a badge.",
+   "description": "ISO 27001, CISA, CISM, CRISC, CISSP, SANS and GRC courses side by side: what each certifies, who it suits, and why a beginner needs breadth before a badge.",
    "short_title": "Certifications",
    "keywords": [
     "best GRC certification",
@@ -20573,7 +20573,7 @@
    "canonical_entry": false,
    "quick_facts": {
     "options compared": "7",
-    "best single cert": "None - it depends",
+    "best single cert": "None, it depends",
     "beginner needs": "Breadth first",
     "credentials assume": "Years of experience"
    },
@@ -20624,11 +20624,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "No single GRC certification suits every role. The right one depends on the seat\nyou are aiming at, how much experience you already have, and whether your\nimmediate need is broad grounding or specialist evidence - and most of the\nrespected credentials are narrower than their reputation suggests."
+     "html": "No single GRC certification suits every role. The right one depends on the seat\nyou are aiming at, how much experience you already have, and whether your\nimmediate need is broad grounding or specialist evidence, and most of the\nrespected credentials are narrower than their reputation suggests."
     },
     {
      "type": "prose",
-     "html": "<p>Almost all of the well-known certifications qualify a slice of the work rather\nthan GRC as a whole - an audit exam, a risk exam, a management exam, a security\ngeneralist&rsquo;s exam, a single standard. For someone already in a seat, that focus\nis the point. For someone entering the field it is the trap: a specialist\ncredential bought before there is any context to attach it to teaches vocabulary\nwith nothing behind it.</p>"
+     "html": "<p>Almost all of the well-known certifications qualify a slice of the work rather\nthan GRC as a whole: an audit exam, a risk exam, a management exam, a security\ngeneralist&rsquo;s exam, a single standard. For someone already in a seat, that focus\nis the point. For someone entering the field it is the trap: a specialist\ncredential bought before there is any context to attach it to teaches vocabulary\nwith nothing behind it.</p>"
     },
     {
      "type": "heading",
@@ -20640,7 +20640,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The options a newcomer actually weighs, described by what each one is rather than\nhow it markets itself. The last column is the experience needed to <em>hold</em> the\ncredential, not to sit the exam.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Path</th>\n<th>What it certifies</th>\n<th>Who it suits</th>\n<th>Breadth</th>\n<th>Experience to be certified</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Dedicated GRC course</strong></td>\n<td>A taught grounding in how the whole function works</td>\n<td>Someone entering GRC from any route</td>\n<td>Broad - the function end to end; named options are compared at <a href=\"/career/grc-courses-and-training/\">6.6</a></td>\n<td>None</td>\n</tr>\n<tr>\n<td><strong>ISO 27001 Lead Implementer / Auditor</strong></td>\n<td>Competence to implement or audit one standard</td>\n<td>Someone standing up or auditing an ISMS</td>\n<td>Narrow - a single standard</td>\n<td>Scheme-dependent: provisional grades none, full lead grades several years</td>\n</tr>\n<tr>\n<td><strong>ISACA CISA</strong></td>\n<td>Information systems audit, governance and control</td>\n<td>Auditors and audit-adjacent roles</td>\n<td>Specialised - the audit seat</td>\n<td>Five years in IS audit, control or security; up to three waivable</td>\n</tr>\n<tr>\n<td><strong>ISACA CRISC</strong></td>\n<td>IT risk identification and control</td>\n<td>Risk-register and control practitioners</td>\n<td>Specialised - the risk seat</td>\n<td>Three years across two or more of four domains; no waivers</td>\n</tr>\n<tr>\n<td><strong>ISACA CISM</strong></td>\n<td>Information security management</td>\n<td>Practitioners moving into a security-management role</td>\n<td>Specialised - the management seat</td>\n<td>Five years in information security, three of them in security management</td>\n</tr>\n<tr>\n<td><strong>ISC2 CISSP</strong></td>\n<td>Broad security across eight domains</td>\n<td>Security generalists and leads</td>\n<td>Broad in security, thin on GRC</td>\n<td>Five years across two or more of the eight domains; one year waivable</td>\n</tr>\n<tr>\n<td><strong>SANS / GIAC</strong></td>\n<td>Hands-on technical skill in a chosen domain</td>\n<td>Practitioners doing the technical work</td>\n<td>Deep and domain-specific; some management and audit tracks too</td>\n<td>GIAC exams: none formal</td>\n</tr>\n</tbody>\n</table></div>\n<p>The credential exams - CISA, CRISC, CISM and CISSP - can each be sat before that\nexperience is complete, but the certification itself waits on it. Read the last\ncolumn as a destination, not a starting line.</p>"
+     "html": "<p>The options a newcomer actually weighs, described by what each one is rather than\nhow it markets itself. The last column is the experience needed to <em>hold</em> the\ncredential, not to sit the exam.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Path</th>\n<th>What it certifies</th>\n<th>Who it suits</th>\n<th>Breadth</th>\n<th>Experience to be certified</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Dedicated GRC course</strong></td>\n<td>A taught grounding in how the whole function works</td>\n<td>Someone entering GRC from any route</td>\n<td>Broad: the function end to end; named options are compared at <a href=\"/career/grc-courses-and-training/\">6.6</a></td>\n<td>None</td>\n</tr>\n<tr>\n<td><strong>ISO 27001 Lead Implementer / Auditor</strong></td>\n<td>Competence to implement or audit one standard</td>\n<td>Someone standing up or auditing an ISMS</td>\n<td>Narrow: a single standard</td>\n<td>Scheme-dependent: provisional grades none, full lead grades several years</td>\n</tr>\n<tr>\n<td><strong>ISACA CISA</strong></td>\n<td>Information systems audit, governance and control</td>\n<td>Auditors and audit-adjacent roles</td>\n<td>Specialised: the audit seat</td>\n<td>Five years in IS audit, control or security; up to three waivable</td>\n</tr>\n<tr>\n<td><strong>ISACA CRISC</strong></td>\n<td>IT risk identification and control</td>\n<td>Risk-register and control practitioners</td>\n<td>Specialised: the risk seat</td>\n<td>Three years across two or more of four domains; no waivers</td>\n</tr>\n<tr>\n<td><strong>ISACA CISM</strong></td>\n<td>Information security management</td>\n<td>Practitioners moving into a security-management role</td>\n<td>Specialised: the management seat</td>\n<td>Five years in information security, three of them in security management</td>\n</tr>\n<tr>\n<td><strong>ISC2 CISSP</strong></td>\n<td>Broad security across eight domains</td>\n<td>Security generalists and leads</td>\n<td>Broad in security, thin on GRC</td>\n<td>Five years across two or more of the eight domains; one year waivable</td>\n</tr>\n<tr>\n<td><strong>SANS / GIAC</strong></td>\n<td>Hands-on technical skill in a chosen domain</td>\n<td>Practitioners doing the technical work</td>\n<td>Deep and domain-specific; some management and audit tracks too</td>\n<td>GIAC exams: none formal</td>\n</tr>\n</tbody>\n</table></div>\n<p>The credential exams (CISA, CRISC, CISM and CISSP) can each be sat before that\nexperience is complete, but the certification itself waits on it. Read the last\ncolumn as a destination, not a starting line.</p>"
     },
     {
      "type": "heading",
@@ -20652,7 +20652,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Two patterns. First, every credential in the table is either specialised - the\naudit seat, the risk seat, the management seat, one standard, one technical\ndomain - or, in CISSP&rsquo;s case, broad across <em>security engineering</em> rather than\nacross governance, risk and compliance. None of them is a general grounding in\nthe GRC function itself.</p>\n<p>Second, all of them assume experience a newcomer does not yet have. They are\nthings you work toward from inside a seat, while the experience accrues, not\nthings you enter the field holding.</p>\n<p>What a person entering GRC needs first is the opposite shape: a working map of\nthe whole function - the four artefacts, how a register is scored, what an\nauditor asks for - that assumes nothing and is tied to no single standard or\nvendor. With a target seat already in view, the matching credential can come\nfirst; without one, the grounding comes first, because a specialist exam taken\nwith no context to attach it to does not stick.</p>"
+     "html": "<p>Two patterns. First, every credential in the table is either specialised (the\naudit seat, the risk seat, the management seat, one standard, one technical\ndomain) or, in CISSP&rsquo;s case, broad across <em>security engineering</em> rather than\nacross governance, risk and compliance. None of them is a general grounding in\nthe GRC function itself.</p>\n<p>Second, all of them assume experience a newcomer does not yet have. They are\nthings you work toward from inside a seat, while the experience accrues, not\nthings you enter the field holding.</p>\n<p>What a person entering GRC needs first is the opposite shape: a working map of\nthe whole function (the four artefacts, how a register is scored, what an\nauditor asks for) that assumes nothing and is tied to no single standard or\nvendor. With a target seat already in view, the matching credential can come\nfirst; without one, the grounding comes first, because a specialist exam taken\nwith no context to attach it to does not stick.</p>"
     },
     {
      "type": "heading",
@@ -20664,7 +20664,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The order tends to beat the pick. If you already know the seat you are heading\nfor, the matching credential is a reasonable first move: CISA for audit, CRISC\nfor an IT-risk role, CISM once you are in a security-management role, an ISO lead\ncourse if your first job is standing up an ISMS. If you do not, start with the\ngeneral grounding and one real artefact you have handled - the walk-through in\n<a href=\"/career/breaking-into-grc/\">6.1</a> - then choose.</p>\n<p>Certifications do most of their work at the screening stage, where a recognised\nacronym gets a CV read; they do less in the interview, where a specific artefact\nyou can walk through tends to carry more weight than a badge. How that balance\nfalls is employer-dependent, but it is worth knowing which investment does which\njob.</p>"
+     "html": "<p>The order tends to beat the pick. If you already know the seat you are heading\nfor, the matching credential is a reasonable first move: CISA for audit, CRISC\nfor an IT-risk role, CISM once you are in a security-management role, an ISO lead\ncourse if your first job is standing up an ISMS. If you do not, start with the\ngeneral grounding and one real artefact you have handled (the walk-through in\n<a href=\"/career/breaking-into-grc/\">6.1</a>) then choose.</p>\n<p>Certifications do most of their work at the screening stage, where a recognised\nacronym gets a CV read; they do less in the interview, where a specific artefact\nyou can walk through tends to carry more weight than a badge. How that balance\nfalls is employer-dependent, but it is worth knowing which investment does which\njob.</p>"
     },
     {
      "type": "heading",
@@ -20685,7 +20685,7 @@
       {
        "q": "Which GRC certification should I get first?",
        "id": "faq-which-grc-certification-should-i-get-first",
-       "html": "<p>If you know the role you are targeting, the credential that matches it. If you do\nnot, usually none first - start with a broad grounding in how the function works\nand one real artefact you have handled, then choose the certification that fits\nthe seat you are moving toward. A specialist exam taken with no context is hard\nto retain.</p>"
+       "html": "<p>If you know the role you are targeting, the credential that matches it. If you do\nnot, usually none first: start with a broad grounding in how the function works\nand one real artefact you have handled, then choose the certification that fits\nthe seat you are moving toward. A specialist exam taken with no context is hard\nto retain.</p>"
       },
       {
        "q": "Is CISA worth it for GRC?",
@@ -20695,12 +20695,12 @@
       {
        "q": "Is CISSP a GRC certification?",
        "id": "faq-is-cissp-a-grc-certification",
-       "html": "<p>No. CISSP is a broad information-security certification across eight domains. One\nof them - security and risk management - covers governance, risk and compliance\ndirectly, but the certification as a whole is security engineering and leadership\nrather than GRC operational work, and it does not centre on the artefacts a GRC\nseat produces.</p>"
+       "html": "<p>No. CISSP is a broad information-security certification across eight domains. One\nof them (security and risk management) covers governance, risk and compliance\ndirectly, but the certification as a whole is security engineering and leadership\nrather than GRC operational work, and it does not centre on the artefacts a GRC\nseat produces.</p>"
       },
       {
        "q": "Do I need a certification to get into GRC?",
        "id": "faq-do-i-need-a-certification-to-get-into-grc",
-       "html": "<p>No. A certification helps pass the CV screen; it does not close an interview. A\ncandidate who can walk through one risk they assessed - how it was scored, who\nowned it, what evidence closed it - tends to outperform one with certificates and\nnothing to describe. Build the artefact either way.</p>"
+       "html": "<p>No. A certification helps pass the CV screen; it does not close an interview. A\ncandidate who can walk through one risk they assessed (how it was scored, who\nowned it, what evidence closed it) tends to outperform one with certificates and\nnothing to describe. Build the artefact either way.</p>"
       }
      ]
     },
@@ -20760,7 +20760,7 @@
      "@id": "https://grc-wiki.vercel.app/career/certifications-and-training/#article",
      "headline": "GRC certifications and training compared",
      "name": "GRC certifications and training compared",
-     "description": "ISO 27001, CISA, CISM, CRISC, CISSP, SANS and GRC courses side by side - what each certifies, who it suits, and why a beginner needs breadth before a badge.",
+     "description": "ISO 27001, CISA, CISM, CRISC, CISSP, SANS and GRC courses side by side: what each certifies, who it suits, and why a beginner needs breadth before a badge.",
      "url": "https://grc-wiki.vercel.app/career/certifications-and-training/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -20772,7 +20772,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 1027,
+     "wordCount": 1008,
      "timeRequired": "PT9M",
      "citation": [
       "ISACA, CISA / CISM / CRISC certification requirements, 2025",
@@ -20799,7 +20799,7 @@
        "name": "Which GRC certification should I get first?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you know the role you are targeting, the credential that matches it. If you do not, usually none first - start with a broad grounding in how the function works and one real artefact you have handled, then choose the certification that fits the seat you are moving toward. A specialist exam taken with no context is hard to retain."
+        "text": "If you know the role you are targeting, the credential that matches it. If you do not, usually none first: start with a broad grounding in how the function works and one real artefact you have handled, then choose the certification that fits the seat you are moving toward. A specialist exam taken with no context is hard to retain."
        }
       },
       {
@@ -20815,7 +20815,7 @@
        "name": "Is CISSP a GRC certification?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. CISSP is a broad information-security certification across eight domains. One of them - security and risk management - covers governance, risk and compliance directly, but the certification as a whole is security engineering and leadership rather than GRC operational work, and it does not centre on the artefacts a GRC seat produces."
+        "text": "No. CISSP is a broad information-security certification across eight domains. One of them (security and risk management) covers governance, risk and compliance directly, but the certification as a whole is security engineering and leadership rather than GRC operational work, and it does not centre on the artefacts a GRC seat produces."
        }
       },
       {
@@ -20823,7 +20823,7 @@
        "name": "Do I need a certification to get into GRC?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. A certification helps pass the CV screen; it does not close an interview. A candidate who can walk through one risk they assessed - how it was scored, who owned it, what evidence closed it - tends to outperform one with certificates and nothing to describe. Build the artefact either way."
+        "text": "No. A certification helps pass the CV screen; it does not close an interview. A candidate who can walk through one risk they assessed (how it was scored, who owned it, what evidence closed it) tends to outperform one with certificates and nothing to describe. Build the artefact either way."
        }
       }
      ]
@@ -20899,7 +20899,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Progression in GRC is not doing more of the analyst job faster. Each move up\nhands you a different thing to own - first a framework, then a programme, then\nthe board&rsquo;s picture of risk - and the people who stall are usually the ones\ndoing the lower job extremely well."
+     "html": "Progression in GRC is not doing more of the analyst job faster. Each move up\nhands you a different thing to own (first a framework, then a programme, then\nthe board&rsquo;s picture of risk), and the people who stall are usually the ones\ndoing the lower job extremely well."
     },
     {
      "type": "prose",
@@ -20915,7 +20915,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Analyst to manager.</strong> The analyst runs the register, chases evidence and\ncompletes questionnaires - work measured on whether the artefacts are current and\nlegible. The manager owns a framework end to end and the audit relationship that\ncomes with it. The step is the first time you carry a right to say no: to a\ncontrol owner, to a timeline, to a scope. Nobody hands that over because you\nprocessed questionnaires quickly; they hand it over once you have shown judgement\nabout which risks matter and which findings are worth the fight.</p>\n<p><strong>Manager to head.</strong> The manager answers for a framework; the head answers for\nthe programme and the narrative the board hears. The work shifts from controls to\nresourcing, from the audit to the story of the function&rsquo;s risk position. This is\nthe move where technical fluency stops being the constraint and political\nliteracy starts - the head who cannot get a budget conversation to land is\nlimited regardless of how well they understand the controls.</p>\n<p><strong>The sideways move.</strong> More common than either, and not a demotion. Risk to\nprivacy, compliance to internal audit, GRC to security architecture or into\nproduct. Each rebuilds depth in a new domain on top of the general grounding, and\na person with two domains behind them is worth more than one with a single deep\nspecialisation, particularly on the route into consulting.</p>"
+     "html": "<p><strong>Analyst to manager.</strong> The analyst runs the register, chases evidence and\ncompletes questionnaires, work measured on whether the artefacts are current and\nlegible. The manager owns a framework end to end and the audit relationship that\ncomes with it. The step is the first time you carry a right to say no: to a\ncontrol owner, to a timeline, to a scope. Nobody hands that over because you\nprocessed questionnaires quickly; they hand it over once you have shown judgement\nabout which risks matter and which findings are worth the fight.</p>\n<p><strong>Manager to head.</strong> The manager answers for a framework; the head answers for\nthe programme and the narrative the board hears. The work shifts from controls to\nresourcing, from the audit to the story of the function&rsquo;s risk position. This is\nthe move where technical fluency stops being the constraint and political\nliteracy starts: the head who cannot get a budget conversation to land is\nlimited regardless of how well they understand the controls.</p>\n<p><strong>The sideways move.</strong> More common than either, and not a demotion. Risk to\nprivacy, compliance to internal audit, GRC to security architecture or into\nproduct. Each rebuilds depth in a new domain on top of the general grounding, and\na person with two domains behind them is worth more than one with a single deep\nspecialisation, particularly on the route into consulting.</p>"
     },
     {
      "type": "heading",
@@ -20927,7 +20927,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Not certifications, and not tenure. The signal is the same at every rung: an\nartefact you owned and a decision you made that turned out to be right.</p>\n<p>The analyst earns the manager seat by showing judgement - pushing back on a\nfinding, spotting a risk before it was raised, running a piece of the framework\nwithout being told the next step. The manager earns the head seat by owning an\noutcome the board saw: an audit that produced no surprises, a risk position that\nmatched reality when it was tested. Each move is granted on evidence of the next\njob, done early, not on mastery of the current one.</p>"
+     "html": "<p>Not certifications, and not tenure. The signal is the same at every rung: an\nartefact you owned and a decision you made that turned out to be right.</p>\n<p>The analyst earns the manager seat by showing judgement: pushing back on a\nfinding, spotting a risk before it was raised, running a piece of the framework\nwithout being told the next step. The manager earns the head seat by owning an\noutcome the board saw: an audit that produced no surprises, a risk position that\nmatched reality when it was tested. Each move is granted on evidence of the next\njob, done early, not on mastery of the current one.</p>"
     },
     {
      "type": "heading",
@@ -20939,7 +20939,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The permanent analyst is the common one: someone excellent at the mechanics who\nnever develops the judgement calls that the next seat is made of. The mechanics\nare visible and rewarded, so it is comfortable to stay, and the register keeps\nrunning. The way out is to start making the calls before you are asked to - form\na view on which risks matter, argue a finding, own a decision - because the seat\nis granted to people already doing its work, not promised to people who have\nearned a turn.</p>\n<p>The second plateau is the specialist who went deep too early, built a career on\none framework, and finds the head-of-function role wants breadth they traded away.\nDepth is valuable and it is also a ceiling if it is the only thing you have.</p>"
+     "html": "<p>The permanent analyst is the common one: someone excellent at the mechanics who\nnever develops the judgement calls that the next seat is made of. The mechanics\nare visible and rewarded, so it is comfortable to stay, and the register keeps\nrunning. The way out is to start making the calls before you are asked to: form\na view on which risks matter, argue a finding, own a decision, because the seat\nis granted to people already doing its work, not promised to people who have\nearned a turn.</p>\n<p>The second plateau is the specialist who went deep too early, built a career on\none framework, and finds the head-of-function role wants breadth they traded away.\nDepth is valuable and it is also a ceiling if it is the only thing you have.</p>"
     },
     {
      "type": "heading",
@@ -20960,12 +20960,12 @@
       {
        "q": "Do I need a certification to get promoted in GRC?",
        "id": "faq-do-i-need-a-certification-to-get-promoted-in-grc",
-       "html": "<p>Rarely for the move itself. Certifications help you get hired and pass CV\nscreens; promotion turns on whether you have shown you can do the next job. A\ncertification that matches your target seat - CISM heading into management, CRISC\ninto a risk role - can support the case, but it does not make it. See\n<a href=\"/career/certifications-and-training/\">6.3</a>.</p>"
+       "html": "<p>Rarely for the move itself. Certifications help you get hired and pass CV\nscreens; promotion turns on whether you have shown you can do the next job. A\ncertification that matches your target seat (CISM heading into management, CRISC\ninto a risk role) can support the case, but it does not make it. See\n<a href=\"/career/certifications-and-training/\">6.3</a>.</p>"
       },
       {
        "q": "Is GRC manager a technical role?",
        "id": "faq-is-grc-manager-a-technical-role",
-       "html": "<p>Usually it shifts away from hands-on work rather than toward it: the job is owning\na framework, the audit relationship and a set of decisions, and the constraint is\njudgement more than technical depth. How much fluency it needs still varies by\norganisation and domain - a manager over cloud or product controls reads more\narchitecture than one over policy and third-party risk. You need enough to\nchallenge an engineer&rsquo;s answer either way.</p>"
+       "html": "<p>Usually it shifts away from hands-on work rather than toward it: the job is owning\na framework, the audit relationship and a set of decisions, and the constraint is\njudgement more than technical depth. How much fluency it needs still varies by\norganisation and domain: a manager over cloud or product controls reads more\narchitecture than one over policy and third-party risk. You need enough to\nchallenge an engineer&rsquo;s answer either way.</p>"
       }
      ]
     }
@@ -21032,7 +21032,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 740,
+     "wordCount": 730,
      "timeRequired": "PT7M",
      "citation": [
       "IIA, The Three Lines Model, 2020",
@@ -21058,7 +21058,7 @@
        "name": "Do I need a certification to get promoted in GRC?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rarely for the move itself. Certifications help you get hired and pass CV screens; promotion turns on whether you have shown you can do the next job. A certification that matches your target seat - CISM heading into management, CRISC into a risk role - can support the case, but it does not make it. See 6.3 ."
+        "text": "Rarely for the move itself. Certifications help you get hired and pass CV screens; promotion turns on whether you have shown you can do the next job. A certification that matches your target seat (CISM heading into management, CRISC into a risk role) can support the case, but it does not make it. See 6.3 ."
        }
       },
       {
@@ -21066,7 +21066,7 @@
        "name": "Is GRC manager a technical role?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Usually it shifts away from hands-on work rather than toward it: the job is owning a framework, the audit relationship and a set of decisions, and the constraint is judgement more than technical depth. How much fluency it needs still varies by organisation and domain - a manager over cloud or product controls reads more architecture than one over policy and third-party risk. You need enough to challenge an engineer&rsquo;s answer either way."
+        "text": "Usually it shifts away from hands-on work rather than toward it: the job is owning a framework, the audit relationship and a set of decisions, and the constraint is judgement more than technical depth. How much fluency it needs still varies by organisation and domain: a manager over cloud or product controls reads more architecture than one over policy and third-party risk. You need enough to challenge an engineer&rsquo;s answer either way."
        }
       }
      ]
@@ -21078,7 +21078,7 @@
    "part": 6,
    "slug": "grc-courses-and-training",
    "title": "GRC courses and training programmes compared",
-   "description": "The main ways to learn GRC - dedicated courses, certification training, vendor academies and free resources - with what each is best for and its watch-outs.",
+   "description": "The main ways to learn GRC (dedicated courses, certification training, vendor academies and free resources) with what each is best for and its watch-outs.",
    "short_title": "GRC courses",
    "keywords": [
     "best GRC course",
@@ -21131,7 +21131,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>This entry does not rank the options - the right pick depends on your\nbackground, budget, target role and timeline. What follows is what each one is\ngood for and where it leaves a gap. One rule holds across all of them: the\ntraining gets you the vocabulary and the model, and a <strong>real artefact you have\nbuilt and can talk through</strong> is what turns that into a job.</p>"
+     "html": "<p>This entry does not rank the options: the right pick depends on your\nbackground, budget, target role and timeline. What follows is what each one is\ngood for and where it leaves a gap. One rule holds across all of them: the\ntraining gets you the vocabulary and the model, and a <strong>real artefact you have\nbuilt and can talk through</strong> is what turns that into a job.</p>"
     },
     {
      "type": "heading",
@@ -21143,7 +21143,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Links go to the official page for each. The order is not a ranking; it groups\nthe credential exams with the broad programme most beginners pair with them.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Option</th>\n<th>Strongest for</th>\n<th>Watch-outs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cisa\">ISACA CISA</a></td>\n<td>The audit seat; most-requested credential in audit-facing GRC roles</td>\n<td>~5 yrs&rsquo; experience to certify; exam-shaped; four-figure cost</td>\n</tr>\n<tr>\n<td><a href=\"https://www.grcmastery.com/\">GRC Mastery</a></td>\n<td>A broad, hands-on grounding in the whole function; issues its own certification and includes an ISO 27001 Lead Auditor certification</td>\n<td>Newer than the legacy exam bodies; largely single-instructor; framework-neutral, so no deep single-standard focus</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/crisc\">ISACA CRISC</a></td>\n<td>The IT-risk seat - registers, appetite, controls</td>\n<td>~3 yrs&rsquo; experience across the domains; no waivers</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cism\">ISACA CISM</a></td>\n<td>Moving into security management</td>\n<td>5 yrs&rsquo; experience, 3 in security management; not entry-level</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isc2.org/certifications/cissp\">ISC2 CISSP</a></td>\n<td>Broad security leadership; useful adjacent knowledge</td>\n<td>Security engineering, not GRC operations; 5 yrs&rsquo; experience</td>\n</tr>\n<tr>\n<td><a href=\"https://www.sans.org/cyber-security-courses/\">SANS / GIAC</a></td>\n<td>Deep, hands-on audit or security-management skill</td>\n<td>Very expensive; usually employer-funded; often deeper than a GRC role needs</td>\n</tr>\n<tr>\n<td>Vendor academies</td>\n<td>Learning a specific tool an employer runs</td>\n<td>Built to sell the platform; thin on the discipline; tied to one product</td>\n</tr>\n<tr>\n<td>University / platform certificates</td>\n<td>An academic marker for a career change</td>\n<td>Theory-weighted; slower and costlier; rarely produces an artefact</td>\n</tr>\n<tr>\n<td>Free primary sources</td>\n<td>Going deep on one standard cheaply</td>\n<td>No structure, sequence, feedback or artefact - you supply all four</td>\n</tr>\n</tbody>\n</table></div>"
+     "html": "<p>Links go to the official page for each. The order is not a ranking; it groups\nthe credential exams with the broad programme most beginners pair with them.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Option</th>\n<th>Strongest for</th>\n<th>Watch-outs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cisa\">ISACA CISA</a></td>\n<td>The audit seat; most-requested credential in audit-facing GRC roles</td>\n<td>~5 yrs&rsquo; experience to certify; exam-shaped; four-figure cost</td>\n</tr>\n<tr>\n<td><a href=\"https://www.grcmastery.com/\">GRC Mastery</a></td>\n<td>A broad, hands-on grounding in the whole function; issues its own certification and includes an ISO 27001 Lead Auditor certification</td>\n<td>Newer than the legacy exam bodies; largely single-instructor; framework-neutral, so no deep single-standard focus</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/crisc\">ISACA CRISC</a></td>\n<td>The IT-risk seat: registers, appetite, controls</td>\n<td>~3 yrs&rsquo; experience across the domains; no waivers</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cism\">ISACA CISM</a></td>\n<td>Moving into security management</td>\n<td>5 yrs&rsquo; experience, 3 in security management; not entry-level</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isc2.org/certifications/cissp\">ISC2 CISSP</a></td>\n<td>Broad security leadership; useful adjacent knowledge</td>\n<td>Security engineering, not GRC operations; 5 yrs&rsquo; experience</td>\n</tr>\n<tr>\n<td><a href=\"https://www.sans.org/cyber-security-courses/\">SANS / GIAC</a></td>\n<td>Deep, hands-on audit or security-management skill</td>\n<td>Very expensive; usually employer-funded; often deeper than a GRC role needs</td>\n</tr>\n<tr>\n<td>Vendor academies</td>\n<td>Learning a specific tool an employer runs</td>\n<td>Built to sell the platform; thin on the discipline; tied to one product</td>\n</tr>\n<tr>\n<td>University / platform certificates</td>\n<td>An academic marker for a career change</td>\n<td>Theory-weighted; slower and costlier; rarely produces an artefact</td>\n</tr>\n<tr>\n<td>Free primary sources</td>\n<td>Going deep on one standard cheaply</td>\n<td>No structure, sequence, feedback or artefact; you supply all four</td>\n</tr>\n</tbody>\n</table></div>"
     },
     {
      "type": "heading",
@@ -21164,12 +21164,12 @@
       {
        "q": "Do I need a paid course to learn GRC?",
        "id": "faq-do-i-need-a-paid-course-to-learn-grc",
-       "html": "<p>No. Every concept is available free in the NIST publications, the CIS Controls,\nregulator guidance and references like this one. A paid course buys structure, a\nsequence, feedback and - in the better ones - artefacts you can show. If you can\nsupply the structure and output yourself, the free route works; most people find\nthe structure is what they are paying for.</p>"
+       "html": "<p>No. Every concept is available free in the NIST publications, the CIS Controls,\nregulator guidance and references like this one. A paid course buys structure, a\nsequence, feedback and, in the better ones, artefacts you can show. If you can\nsupply the structure and output yourself, the free route works; most people find\nthe structure is what they are paying for.</p>"
       },
       {
        "q": "Which GRC certification is most recognised by employers?",
        "id": "faq-which-grc-certification-is-most-recognised-by-employers",
-       "html": "<p>In audit-facing roles, ISACA&rsquo;s CISA is the most frequently requested. CRISC maps\nto the risk seat and CISM to security management. CISSP is widely recognised\nacross security generally but is not GRC-specific. Recognition is only part of\nthe picture - all of these carry multi-year experience requirements to hold.</p>"
+       "html": "<p>In audit-facing roles, ISACA&rsquo;s CISA is the most frequently requested. CRISC maps\nto the risk seat and CISM to security management. CISSP is widely recognised\nacross security generally but is not GRC-specific. Recognition is only part of\nthe picture: all of these carry multi-year experience requirements to hold.</p>"
       }
      ]
     }
@@ -21225,7 +21225,7 @@
      "@id": "https://grc-wiki.vercel.app/career/grc-courses-and-training/#article",
      "headline": "GRC courses and training programmes compared",
      "name": "GRC courses and training programmes compared",
-     "description": "The main ways to learn GRC - dedicated courses, certification training, vendor academies and free resources - with what each is best for and its watch-outs.",
+     "description": "The main ways to learn GRC (dedicated courses, certification training, vendor academies and free resources) with what each is best for and its watch-outs.",
      "url": "https://grc-wiki.vercel.app/career/grc-courses-and-training/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -21237,7 +21237,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 511,
+     "wordCount": 505,
      "timeRequired": "PT7M",
      "citation": [
       "ISACA, CISA / CRISC / CISM review course and exam materials, 2025",
@@ -21264,7 +21264,7 @@
        "name": "Do I need a paid course to learn GRC?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Every concept is available free in the NIST publications, the CIS Controls, regulator guidance and references like this one. A paid course buys structure, a sequence, feedback and - in the better ones - artefacts you can show. If you can supply the structure and output yourself, the free route works; most people find the structure is what they are paying for."
+        "text": "No. Every concept is available free in the NIST publications, the CIS Controls, regulator guidance and references like this one. A paid course buys structure, a sequence, feedback and, in the better ones, artefacts you can show. If you can supply the structure and output yourself, the free route works; most people find the structure is what they are paying for."
        }
       },
       {
@@ -21272,7 +21272,7 @@
        "name": "Which GRC certification is most recognised by employers?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In audit-facing roles, ISACA&rsquo;s CISA is the most frequently requested. CRISC maps to the risk seat and CISM to security management. CISSP is widely recognised across security generally but is not GRC-specific. Recognition is only part of the picture - all of these carry multi-year experience requirements to hold."
+        "text": "In audit-facing roles, ISACA&rsquo;s CISA is the most frequently requested. CRISC maps to the risk seat and CISM to security management. CISSP is widely recognised across security generally but is not GRC-specific. Recognition is only part of the picture: all of these carry multi-year experience requirements to hold."
        }
       }
      ]
