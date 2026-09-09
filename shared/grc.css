@@ -494,6 +494,15 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .article .prose > .scroll-x,
 .article .clause { max-width: var(--measure); }
 
+/* A markdown data table is read across its columns, not down a measure. Let a
+   plain .dtable use the full article width so wide comparison tables lay out
+   instead of hiding behind a horizontal scrollbar. The :::attrs table keeps
+   its own narrower cap (.dtable--attrs, below). */
+.article .prose > .scroll-x:has(> .dtable:not(.dtable--attrs)) { max-width: 100%; }
+.article .prose > .scroll-x > .dtable:not(.dtable--attrs) { font-size: var(--t-meta); }
+.article .prose > .scroll-x > .dtable:not(.dtable--attrs) td:first-child,
+.article .prose > .scroll-x > .dtable:not(.dtable--attrs) th:first-child { white-space: normal; }
+
 /* Inside a split, the column is the measure. */
 .split .prose > *,
 .split .clause { max-width: none; }
