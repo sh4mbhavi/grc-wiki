@@ -20071,23 +20071,26 @@
    "part": 6,
    "slug": "breaking-into-grc",
    "title": "Breaking into GRC",
-   "description": "The field hires from IT support, audit, project delivery and law more often than from graduate schemes. What transfers, what has to be learned, and the one artefact that beats a certificate in an interview.",
+   "description": "A structured path in with no prior experience: learn the fundamentals, practise a risk assessment and an audit, take one certification, and apply with a portfolio and the words a screener searches for.",
    "short_title": "Breaking in",
    "keywords": [
     "how to get into GRC",
     "GRC entry level",
-    "career change to GRC",
-    "GRC without experience"
+    "GRC roadmap",
+    "GRC without experience",
+    "learn GRC in 90 days",
+    "ISO 27001 lead auditor first job"
    ],
    "defines": "",
    "reading_minutes": 7,
    "cited_by": 7,
    "canonical_entry": false,
    "quick_facts": {
-    "common routes": "4",
-    "best signal": "A worked artefact",
-    "certificate helps": "Sometimes",
-    "hardest gap": "Evidence habit"
+    "moves": "4",
+    "the two artefacts": "Risk assessment and audit",
+    "the one certification": "ISO 27001 Lead Auditor",
+    "realistic timeline": "A few months part-time",
+    "best signal": "A worked artefact"
    },
    "related": [
     "6.0",
@@ -20108,19 +20111,19 @@
    },
    "sections": [
     {
-     "id": "what-each-route-brings-and-what-it-lacks",
+     "id": "where-the-field-hires-from",
      "clause": "6.1.1",
-     "text": "What each route brings, and what it lacks"
+     "text": "Where the field hires from"
+    },
+    {
+     "id": "the-four-moves",
+     "clause": "6.1.2",
+     "text": "The four moves"
     },
     {
      "id": "the-thing-that-beats-a-certificate",
-     "clause": "6.1.2",
-     "text": "The thing that beats a certificate"
-    },
-    {
-     "id": "certificates-honestly",
      "clause": "6.1.3",
-     "text": "Certificates, honestly"
+     "text": "The thing that beats a certificate"
     },
     {
      "id": "the-gap-that-actually-blocks-people",
@@ -20134,19 +20137,23 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Almost nobody starts here. The field hires from IT support, internal audit,\nproject delivery and law, and each route arrives with most of one half of the\njob already done."
+     "html": "A structured path into GRC with no prior experience runs in four moves: learn\nthe fundamentals, practise the two artefacts the job turns on, take one\ncertification, and apply with a portfolio and the words a screener searches for."
     },
     {
      "type": "prose",
-     "html": "<p>Knowing which half you already have is the difference between a targeted\napplication and a scattergun one.</p>"
+     "html": "<p>It is measured in months, not years, and it needs no coding background. What it\nneeds is the discipline to finish each move with something concrete to show,\nbecause the interview question underneath all of them is whether you have\nhandled a real artefact or only read about one.</p>"
     },
     {
      "type": "heading",
      "level": 2,
-     "id": "what-each-route-brings-and-what-it-lacks",
+     "id": "where-the-field-hires-from",
      "clause": "6.1.1",
      "alias": "c6-1-1",
-     "text": "What each route brings, and what it lacks"
+     "text": "Where the field hires from"
+    },
+    {
+     "type": "prose",
+     "html": "<p>Almost nobody starts here cold. Most people arrive from an adjacent seat with\nhalf the job already done, and knowing which half you hold makes the application\ntargeted rather than scattergun.</p>"
     },
     {
      "type": "terms",
@@ -20170,28 +20177,32 @@
      ]
     },
     {
+     "type": "prose",
+     "html": "<p>Coming in with none of these is workable too. The four moves below assume no\nstarting point.</p>"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "id": "the-four-moves",
+     "clause": "6.1.2",
+     "alias": "c6-1-2",
+     "text": "The four moves"
+    },
+    {
+     "type": "prose",
+     "html": "<p><strong>1. Learn the fundamentals.</strong> The vocabulary, the <a href=\"/foundations/four-artefacts/\">four artefacts</a>,\nhow a register is scored, what an auditor asks for. A few weeks of focused\nreading. The free primary sources and a reference like this one cover the\nmaterial; a taught course buys the sequence and the pacing, compared at\n<a href=\"/career/grc-courses-and-training/\">6.6</a>.</p>\n<p><strong>2. Practise the two artefacts the job turns on.</strong> GRC work is mostly a risk\nassessment or an audit, moved through its stages and written down legibly. Build\none of each against a small real-ish scope: a side project, a club, a fictional\ncompany. Produce a risk assessment with a documented scale, owners and\ntreatments, and a short audit of a control with a criterion, a sample and\nfindings. These become the portfolio for move 4.</p>\n<p><strong>3. Take one certification, not five.</strong> The path centres on the <strong>ISO 27001\nLead Auditor</strong> course, because it teaches the audit method and the\nmanagement-system vocabulary together and does not require years of experience to\nhold. Leave the specialist exams alone at this stage: CISA, CRISC and CISM are\nworth having later, but each carries a multi-year experience requirement and\nteaches vocabulary with nothing to attach it to if taken first. Full comparison\nat <a href=\"/career/certifications-and-training/\">6.3</a>.</p>\n<p><strong>4. Apply with a portfolio and the right keywords.</strong> Attach the move-2 artefacts\nto the application and be ready to walk an interviewer through one end to end.\nThen make the CV match how it is screened: mirror the phrasing in the advert and\nthe terms an applicant-tracking system filters on, such as risk assessment, risk\nregister, control testing, evidence, gap analysis, ISO 27001, SOC 2 and\nthird-party risk. A CV that describes the same work in different words is\nfiltered out before a person reads it.</p>"
+    },
+    {
      "type": "heading",
      "level": 2,
      "id": "the-thing-that-beats-a-certificate",
-     "clause": "6.1.2",
-     "alias": "c6-1-2",
+     "clause": "6.1.3",
+     "alias": "c6-1-3",
      "text": "The thing that beats a certificate"
     },
     {
      "type": "prose",
-     "html": "<p>One artefact you built, that you can walk somebody through end to end.</p>\n<p>A risk you assessed: how it was raised, how you scored it and against what\nscale, who owned it, what treatment was chosen, who approved it, what evidence\nclosed it. Ten minutes, specific, with the parts that went wrong included.</p>\n<p>A candidate who can do that outperforms one with three certificates and nothing\nto describe, every time, because the interviewer&rsquo;s actual question is whether\nyou have handled a real artefact or only read about them.</p>\n<p>If your current job has none, build one. Assess a risk in your own team&rsquo;s work,\nproperly, with a documented scale. It is a real artefact even if the\norganisation never asked for it.</p>"
-    },
-    {
-     "type": "heading",
-     "level": 2,
-     "id": "certificates-honestly",
-     "clause": "6.1.3",
-     "alias": "c6-1-3",
-     "text": "Certificates, honestly"
-    },
-    {
-     "type": "prose",
-     "html": "<p>They help with the screening filter and they do not close the interview.</p>\n<p>CISA is the most widely recognised in audit-adjacent roles and does not assume a\ntechnical background. ISO 27001 Lead Implementer teaches the management-system\nvocabulary faster than anything else. CRISC maps well to the risk seat. A\nsecurity certification like Security+ helps only if the gap you are closing is\ntechnical literacy.</p>\n<p>Sequencing matters more than choice: a certificate taken before you have handled\nan artefact teaches you vocabulary with nothing to attach it to, and it fades.</p>"
+     "html": "<p>One artefact you built, walked through end to end: how a risk was raised, how you\nscored it and against what scale, who owned it, what treatment was chosen, who\napproved it, what evidence closed it. Ten minutes, specific, with the parts that\nwent wrong included.</p>\n<p>A candidate who can do that outperforms one with three certificates and nothing\nto describe, every time. If your current job offers no such artefact, make one:\nassess a risk in your own team&rsquo;s work properly, with a documented scale. It\ncounts even if nobody asked for it.</p>"
     },
     {
      "type": "heading",
@@ -20203,7 +20214,11 @@
     },
     {
      "type": "prose",
-     "html": "<p>Not technical depth. The evidence habit: understanding that the job is not\ndoing the thing but being able to show, months later, to somebody who was not\nthere, that the thing was done.</p>\n<p>It is learnable in months and it is the thing hiring managers are listening for.\nCandidates who talk about what they did are common; candidates who talk about\nwhat they kept are not.</p>"
+     "html": "<p>Not technical depth. The evidence habit: understanding that the job is not doing\nthe thing but being able to show, months later, to somebody who was not there,\nthat the thing was done.</p>\n<p>It is learnable in months and it is the thing hiring managers are listening for.\nCandidates who talk about what they did are common; candidates who talk about\nwhat they kept are not.</p>"
+    },
+    {
+     "type": "note",
+     "html": "UnixGuy walks through this path, with the certification and resume detail, in\n<a href=\"https://www.youtube.com/watch?v=78Dmz-F5_r8\">FASTEST Way to Learn GRC and ACTUALLY Get a Job</a>\non YouTube. This entry stays free."
     }
    ],
    "sources_html": [
@@ -20255,7 +20270,7 @@
      "@id": "https://grc-wiki.vercel.app/career/breaking-into-grc/#article",
      "headline": "Breaking into GRC",
      "name": "Breaking into GRC",
-     "description": "The field hires from IT support, audit, project delivery and law more often than from graduate schemes. What transfers, what has to be learned, and the one artefact that beats a certificate in an interview.",
+     "description": "A structured path in with no prior experience: learn the fundamentals, practise a risk assessment and an audit, take one certification, and apply with a portfolio and the words a screener searches for.",
      "url": "https://grc-wiki.vercel.app/career/breaking-into-grc/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -20267,13 +20282,13 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 430,
+     "wordCount": 720,
      "timeRequired": "PT7M",
      "citation": [
       "ISACA, CRISC and CISA job practice areas, 2025",
       "(ISC)² Cybersecurity Workforce Study, 2025"
      ],
-     "keywords": "how to get into GRC, GRC entry level, career change to GRC, GRC without experience"
+     "keywords": "how to get into GRC, GRC entry level, GRC roadmap, GRC without experience, learn GRC in 90 days, ISO 27001 lead auditor first job"
     }
    ]
   },
