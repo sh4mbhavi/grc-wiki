@@ -11094,11 +11094,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "The control is the <strong>restore test, not the existence of a backup</strong> - an untested\nbackup is an assumption, and the only proof a backup works is a restore that\nproduced usable data inside the required time."
+     "html": "The control is the <strong>restore test, not the existence of a backup</strong>. An untested\nbackup is an assumption, and the only proof a backup works is a restore that\nproduced usable data inside the required time."
     },
     {
      "type": "prose",
-     "html": "<p>A backup that has never been restored is a cost with an unproven benefit. It\noccupies storage, sits on the control list and reassures nobody who has actually\nneeded one, because the ways a backup fails live almost entirely on the restore\nside - media that cannot be read, a key nobody kept, a set that was always\nmissing a table. None of those show up while the backup job is the only thing\nanyone watches.</p>\n<p>This is why an auditor testing information backup under ISO/IEC 27001 Annex A\ncontrol 8.13 - which requires backup copies to be maintained and regularly tested -\nor recovery under Trust Services criterion A1.3, asks to see a restore that\nhappened rather than a backup schedule that runs. The schedule is the assumption;\nthe restore is the evidence.</p>"
+     "html": "<p>A backup that has never been restored is a cost with an unproven benefit. It\noccupies storage, sits on the control list and reassures nobody who has actually\nneeded one, because the ways a backup fails live almost entirely on the restore\nside: media that cannot be read, a key nobody kept, a set that was always\nmissing a table. None of those show up while the backup job is the only thing\nanyone watches.</p>\n<p>This is why an auditor testing information backup under ISO/IEC 27001 Annex A\ncontrol 8.13 (which requires backup copies to be maintained and regularly tested),\nor recovery under Trust Services criterion A1.3, asks to see a restore that\nhappened rather than a backup schedule that runs. The schedule is the assumption;\nthe restore is the evidence.</p>"
     },
     {
      "type": "heading",
@@ -11110,13 +11110,13 @@
     },
     {
      "type": "prose",
-     "html": "<p>A restore test is where the recovery point objective and recovery time objective\nstop being aspirations. The <a href=\"/risk/business-impact-analysis/\">business impact analysis</a>\nsets both - how much data the organisation can afford to lose (the RPO) and how\nlong it can afford to be without the activity (the RTO) - and those numbers are\nderived from the impact of the outage, not picked by whoever runs the backup\ntool. A restore either returns data recent enough to meet the RPO, within the\nrestore-time budget the RTO allows, or it does not. The full activity recovery\ntime is proven by an end-to-end recovery exercise - of which the data restore is\none part; see <a href=\"/risk/business-continuity/\">business continuity</a> at 3.6. Nothing\nshort of an actual restore tells you whether the data half will hold.</p>"
+     "html": "<p>A restore test is where the recovery point objective and recovery time objective\nstop being aspirations. The <a href=\"/risk/business-impact-analysis/\">business impact analysis</a>\nsets both: how much data the organisation can afford to lose (the RPO) and how\nlong it can afford to be without the activity (the RTO). Those numbers are\nderived from the impact of the outage, not picked by whoever runs the backup\ntool. A restore either returns data recent enough to meet the RPO, within the\nrestore-time budget the RTO allows, or it does not. The full activity recovery\ntime is proven by an end-to-end recovery exercise, of which the data restore is\none part; see <a href=\"/risk/business-continuity/\">business continuity</a> at 3.6. Nothing\nshort of an actual restore tells you whether the data half will hold.</p>"
     },
     {
      "type": "def",
      "term": "Recovery point objective",
      "ref": "3.7",
-     "html": "The maximum tolerable data loss, expressed as a length of time rather than a\nvolume - the point in the past back to which data must be recoverable. A restore\nthat returns data older than the RPO has failed even if every file it produces\nopens cleanly."
+     "html": "The maximum tolerable data loss, expressed as a length of time rather than a\nvolume, the point in the past back to which data must be recoverable. A restore\nthat returns data older than the RPO has failed even if every file it produces\nopens cleanly."
     },
     {
      "type": "heading",
@@ -11128,7 +11128,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A real restore test recovers the data into a clean, separate environment - never\nover the top of live production and never back into the system that just failed -\nand then someone confirms the recovered data is complete and usable. Usable means\nopened, queried and reconciled against a known record; a job that reports success\nhas told you it finished writing, not that what it wrote can be read back. The\nrestore is timed, from start to usable, and that figure is measured against the\nRTO. Then the result is documented - what was restored, from which copy, how long\nit took, what was checked - so the next audit reads a record instead of a memory.</p>\n<p>A full restore recovers everything; a sampled restore recovers a defined subset.\nSampling is legitimate and often the only affordable way to test often, but the\nsample has to exercise the real path - the same media, the same decryption, the\nsame sequence - or it proves only that the easy part works.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>Full restore</th>\n<th>Sampled restore</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Scope</td>\n<td>The whole dataset or system</td>\n<td>A defined subset of files or records</td>\n</tr>\n<tr>\n<td>Proves</td>\n<td>The recovery path end to end</td>\n<td>The path works for what was sampled</td>\n</tr>\n<tr>\n<td>Cost</td>\n<td>Time, and a full-size clean environment</td>\n<td>Cheaper and faster, so run more often</td>\n</tr>\n<tr>\n<td>The trap</td>\n<td>Rare, so the RTO stays untested between runs</td>\n<td>A sample that skips the hard parts proves nothing</td>\n</tr>\n</tbody>\n</table></div>"
+     "html": "<p>A real restore test recovers the data into a clean, separate environment (never\nover the top of live production and never back into the system that just failed),\nand then someone confirms the recovered data is complete and usable. Usable means\nopened, queried and reconciled against a known record; a job that reports success\nhas told you it finished writing, not that what it wrote can be read back. The\nrestore is timed, from start to usable, and that figure is measured against the\nRTO. Then the result is documented (what was restored, from which copy, how long\nit took, what was checked) so the next audit reads a record instead of a memory.</p>\n<p>A full restore recovers everything; a sampled restore recovers a defined subset.\nSampling is legitimate and often the only affordable way to test often, but the\nsample has to exercise the real path (the same media, the same decryption, the\nsame sequence) or it proves only that the easy part works.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>Full restore</th>\n<th>Sampled restore</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Scope</td>\n<td>The whole dataset or system</td>\n<td>A defined subset of files or records</td>\n</tr>\n<tr>\n<td>Proves</td>\n<td>The recovery path end to end</td>\n<td>The path works for what was sampled</td>\n</tr>\n<tr>\n<td>Cost</td>\n<td>Time, and a full-size clean environment</td>\n<td>Cheaper and faster, so run more often</td>\n</tr>\n<tr>\n<td>The trap</td>\n<td>Rare, so the RTO stays untested between runs</td>\n<td>A sample that skips the hard parts proves nothing</td>\n</tr>\n</tbody>\n</table></div>"
     },
     {
      "type": "heading",
@@ -11140,7 +11140,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Every one of these passes the backup dashboard.</p>\n<p><strong>Green for years, then nothing to restore.</strong> The jobs report success for so long\nthat no one questions them, and the first real restore meets missing media, a\ndecryption key nobody held or a set that turns out to have never been complete.\nThe dashboard measured that the job ran, not that its output could be recovered.</p>\n<p><strong>Testing the flag, not the restore.</strong> The &ldquo;test&rdquo; checks that the backup job\nfinished with a success code instead of performing an actual restore. This proves\nthe software can write a file. It says nothing about whether that file reconstructs\ninto working data.</p>\n<p><strong>Restoring into the same failure.</strong> The restore is run back into the environment\nthat failed, reusing its configuration, its keys and its dependencies. It works,\nand proves nothing about recovering when that environment is the thing that is\ngone - which is the scenario a backup exists for.</p>\n<p><strong>Works in the lab, never timed.</strong> The restore succeeds but was never run against\nthe clock, so the RTO is a number in a plan that no exercise has ever met. A\nrecovery time nobody has measured is a guess, and it is usually optimistic.</p>"
+     "html": "<p>Every one of these passes the backup dashboard.</p>\n<p><strong>Green for years, then nothing to restore.</strong> The jobs report success for so long\nthat no one questions them, and the first real restore meets missing media, a\ndecryption key nobody held or a set that turns out to have never been complete.\nThe dashboard measured that the job ran, not that its output could be recovered.</p>\n<p><strong>Testing the flag, not the restore.</strong> The &ldquo;test&rdquo; checks that the backup job\nfinished with a success code instead of performing an actual restore. This proves\nthe software can write a file. It says nothing about whether that file reconstructs\ninto working data.</p>\n<p><strong>Restoring into the same failure.</strong> The restore is run back into the environment\nthat failed, reusing its configuration, its keys and its dependencies. It works,\nand proves nothing about recovering when that environment is the thing that is\ngone, which is the scenario a backup exists for.</p>\n<p><strong>Works in the lab, never timed.</strong> The restore succeeds but was never run against\nthe clock, so the RTO is a number in a plan that no exercise has ever met. A\nrecovery time nobody has measured is a guess, and it is usually optimistic.</p>"
     },
     {
      "type": "heading",
@@ -11156,17 +11156,17 @@
       {
        "q": "What is the difference between a backup and a restore test?",
        "id": "faq-what-is-the-difference-between-a-backup-and-a-restore-test",
-       "html": "<p>A backup is the copy; a restore test is the proof the copy is worth keeping. The\nbackup is made by a scheduled job and confirmed by that job reporting success -\nwhich only means data was written somewhere. The restore test reads that data back\ninto a separate environment and confirms it reconstructs into something complete,\nusable and recent enough to meet the RPO. One is an activity that runs; the other\nis the control that shows the activity was worth running.</p>"
+       "html": "<p>A backup is the copy; a restore test is the proof the copy is worth keeping. The\nbackup is made by a scheduled job and confirmed by that job reporting success,\nwhich only means data was written somewhere. The restore test reads that data back\ninto a separate environment and confirms it reconstructs into something complete,\nusable and recent enough to meet the RPO. One is an activity that runs; the other\nis the control that shows the activity was worth running.</p>"
       },
       {
        "q": "How often should you test restores?",
        "id": "faq-how-often-should-you-test-restores",
-       "html": "<p>Often enough that the gap between two tests is shorter than the time it would take\na silent failure to matter, and always after a material change to the system, the\nbackup method or the encryption. A yearly full restore with lighter sampled\nrestores in between is a common shape, and higher-tier systems are tested more\noften - but those figures are examples, not a rule from any standard. The real\ncadence follows the criticality set in the BIA and the rate at which the\nenvironment changes; a system that was re-platformed last month should not be\nrelying on a restore proven against the old one.</p>"
+       "html": "<p>Often enough that the gap between two tests is shorter than the time it would take\na silent failure to matter, and always after a material change to the system, the\nbackup method or the encryption. A yearly full restore with lighter sampled\nrestores in between is a common shape, and higher-tier systems are tested more\noften, but those figures are examples, not a rule from any standard. The real\ncadence follows the criticality set in the BIA and the rate at which the\nenvironment changes; a system that was re-platformed last month should not be\nrelying on a restore proven against the old one.</p>"
       },
       {
        "q": "What does a restore test prove?",
        "id": "faq-what-does-a-restore-test-prove",
-       "html": "<p>That a specific backup, restored by a specific path, produced data that was\ncomplete, usable and recent enough to meet the RPO, within the restore time the\nRTO budget allows - on the day it was run. Proving the full activity recovery time\nstill needs an end-to-end exercise; a data restore is one part of it. It does not\nprove the next restore will succeed, which is why the test is\nrepeated and why its result is documented each time. A single successful restore\nretires the assumption for one configuration; it does not retire it forever.</p>"
+       "html": "<p>That a specific backup, restored by a specific path, produced data that was\ncomplete, usable and recent enough to meet the RPO, within the restore time the\nRTO budget allows, on the day it was run. Proving the full activity recovery time\nstill needs an end-to-end exercise; a data restore is one part of it. It does not\nprove the next restore will succeed, which is why the test is\nrepeated and why its result is documented each time. A single successful restore\nretires the assumption for one configuration; it does not retire it forever.</p>"
       }
      ]
     }
@@ -11233,7 +11233,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 1069,
+     "wordCount": 1051,
      "timeRequired": "PT5M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 8.13 (information backup)",
@@ -11264,7 +11264,7 @@
        "name": "What is the difference between a backup and a restore test?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A backup is the copy; a restore test is the proof the copy is worth keeping. The backup is made by a scheduled job and confirmed by that job reporting success - which only means data was written somewhere. The restore test reads that data back into a separate environment and confirms it reconstructs into something complete, usable and recent enough to meet the RPO. One is an activity that runs; the other is the control that shows the activity was worth running."
+        "text": "A backup is the copy; a restore test is the proof the copy is worth keeping. The backup is made by a scheduled job and confirmed by that job reporting success, which only means data was written somewhere. The restore test reads that data back into a separate environment and confirms it reconstructs into something complete, usable and recent enough to meet the RPO. One is an activity that runs; the other is the control that shows the activity was worth running."
        }
       },
       {
@@ -11272,7 +11272,7 @@
        "name": "How often should you test restores?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Often enough that the gap between two tests is shorter than the time it would take a silent failure to matter, and always after a material change to the system, the backup method or the encryption. A yearly full restore with lighter sampled restores in between is a common shape, and higher-tier systems are tested more often - but those figures are examples, not a rule from any standard. The real cadence follows the criticality set in the BIA and the rate at which the environment changes; a system that was re-platformed last month should not be relying on a restore proven against the old one."
+        "text": "Often enough that the gap between two tests is shorter than the time it would take a silent failure to matter, and always after a material change to the system, the backup method or the encryption. A yearly full restore with lighter sampled restores in between is a common shape, and higher-tier systems are tested more often, but those figures are examples, not a rule from any standard. The real cadence follows the criticality set in the BIA and the rate at which the environment changes; a system that was re-platformed last month should not be relying on a restore proven against the old one."
        }
       },
       {
@@ -11280,7 +11280,7 @@
        "name": "What does a restore test prove?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "That a specific backup, restored by a specific path, produced data that was complete, usable and recent enough to meet the RPO, within the restore time the RTO budget allows - on the day it was run. Proving the full activity recovery time still needs an end-to-end exercise; a data restore is one part of it. It does not prove the next restore will succeed, which is why the test is repeated and why its result is documented each time. A single successful restore retires the assumption for one configuration; it does not retire it forever."
+        "text": "That a specific backup, restored by a specific path, produced data that was complete, usable and recent enough to meet the RPO, within the restore time the RTO budget allows, on the day it was run. Proving the full activity recovery time still needs an end-to-end exercise; a data restore is one part of it. It does not prove the next restore will succeed, which is why the test is repeated and why its result is documented each time. A single successful restore retires the assumption for one configuration; it does not retire it forever."
        }
       }
      ]
@@ -11292,7 +11292,7 @@
    "part": 4,
    "slug": "control-deviations",
    "title": "Control deviations and exceptions in testing",
-   "description": "A control deviation is a tested instance where a control did not operate as designed - what a SOC 2 report calls an exception, and why it is not a waiver.",
+   "description": "A control deviation is a tested instance where a control did not operate as designed, what a SOC 2 report calls an exception, and why it is not a waiver.",
    "short_title": "Control deviation",
    "keywords": [
     "control deviation",
@@ -11367,11 +11367,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "A control deviation is an <strong>instance in the tested sample where the control did\nnot operate as designed</strong> - in a SOC 2 report these are called exceptions, and a\nsingle one can put the whole control&rsquo;s conclusion in question."
+     "html": "A control deviation is an <strong>instance in the tested sample where the control did\nnot operate as designed</strong>. In a SOC 2 report these are called exceptions, and a\nsingle one can put the whole control&rsquo;s conclusion in question."
     },
     {
      "type": "prose",
-     "html": "<p>A deviation is a finding about the control, not about the one instance that\nfailed. The auditor never sees the whole population - they test a sample and\nconclude back to everything that sample stands for - so a deviation bears on the\nconclusion for the whole population, not just the one instance that failed. How\nyou treat it, more than the deviation itself, is what the auditor watches next.</p>"
+     "html": "<p>A deviation is a finding about the control, not about the one instance that\nfailed. The auditor never sees the whole population (they test a sample and\nconclude back to everything that sample stands for), so a deviation bears on the\nconclusion for the whole population, not just the one instance that failed. How\nyou treat it, more than the deviation itself, is what the auditor watches next.</p>"
     },
     {
      "type": "heading",
@@ -11401,7 +11401,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The auditor tests a sample - say 25 change tickets out of a year&rsquo;s several\nthousand - and concludes on the whole population from it. One deviation in that\nsample of 25 is not one late change to be corrected in place; it puts the\noperating-effectiveness conclusion for every change the sample stood for in\nquestion, and commonly prompts the auditor to expand testing to see how far it\nreaches. The figures here are illustrative, and this sampling is judgemental\nrather than statistical, so it supports a conclusion about the population, not a\nprecise failure rate - estimating an actual rate would need a valid probability\nsample.</p>\n<p>This is why &ldquo;we fixed the ticket&rdquo; is the wrong instinct. Correcting the sampled\ninstance leaves the population - and the conclusion the sample was testing -\nexactly where they were.</p>"
+     "html": "<p>The auditor tests a sample (say 25 change tickets out of a year&rsquo;s several\nthousand) and concludes on the whole population from it. One deviation in that\nsample of 25 is not one late change to be corrected in place; it puts the\noperating-effectiveness conclusion for every change the sample stood for in\nquestion, and commonly prompts the auditor to expand testing to see how far it\nreaches. The figures here are illustrative, and this sampling is judgemental\nrather than statistical, so it supports a conclusion about the population, not a\nprecise failure rate: estimating an actual rate would need a valid probability\nsample.</p>\n<p>This is why &ldquo;we fixed the ticket&rdquo; is the wrong instinct. Correcting the sampled\ninstance leaves the population (and the conclusion the sample was testing)\nexactly where they were.</p>"
     },
     {
      "type": "heading",
@@ -11420,11 +11420,11 @@
      "items": [
       {
        "term": "Isolated",
-       "html": "A single instance failed for a reason that does not recur - a one-time manual slip, a cycle with the reviewer on leave and no cover. The design holds; one operation of it did not."
+       "html": "A single instance failed for a reason that does not recur: a one-time manual slip, a cycle with the reviewer on leave and no cover. The design holds; one operation of it did not."
       },
       {
        "term": "Systematic",
-       "html": "The deviation reflects a design or operating failure that will recur - the control has no step that would have caught the case, or the step exists and is routinely skipped. Every untested instance is now suspect."
+       "html": "The deviation reflects a design or operating failure that will recur: the control has no step that would have caught the case, or the step exists and is routinely skipped. Every untested instance is now suspect."
       }
      ]
     },
@@ -11470,17 +11470,17 @@
       {
        "q": "What is a control deviation?",
        "id": "faq-what-is-a-control-deviation",
-       "html": "<p>A control deviation is an instance, found while testing a control, where the control did not operate as it was designed to. In SOC 2 and other examination reports these are called exceptions. Because the auditor tests a sample and concludes on the whole population, a deviation bears on whether the control operated effectively across everything the sample stood for, not just the instance that failed - so it is not a single fault to be corrected in place.</p>"
+       "html": "<p>A control deviation is an instance, found while testing a control, where the control did not operate as it was designed to. In SOC 2 and other examination reports these are called exceptions. Because the auditor tests a sample and concludes on the whole population, a deviation bears on whether the control operated effectively across everything the sample stood for, not just the instance that failed, so it is not a single fault to be corrected in place.</p>"
       },
       {
        "q": "What is the difference between a deviation and a policy exception?",
        "id": "faq-what-is-the-difference-between-a-deviation-and-a-policy-exception",
-       "html": "<p>Timing and authorisation. A policy exception, or <a href=\"/risk/policy-waivers/\">waiver</a>, is planned: a named approver signs off in advance that a specific gap will run for a bounded period, with a compensating control. A deviation is unplanned: a failure discovered after the fact, in testing, that nobody authorised. Reclassifying a deviation as an exception once an auditor has found it - by back-dating the approval - turns a control finding into an integrity finding.</p>"
+       "html": "<p>Timing and authorisation. A policy exception, or <a href=\"/risk/policy-waivers/\">waiver</a>, is planned: a named approver signs off in advance that a specific gap will run for a bounded period, with a compensating control. A deviation is unplanned: a failure discovered after the fact, in testing, that nobody authorised. Reclassifying a deviation as an exception once an auditor has found it (by back-dating the approval) turns a control finding into an integrity finding.</p>"
       },
       {
        "q": "Does one exception fail a SOC 2 control?",
        "id": "faq-does-one-exception-fail-a-soc-2-control",
-       "html": "<p>Not automatically. A single exception does not by itself mean the criterion was not met; the service auditor evaluates the cause of the exception, whether it is isolated or systematic and what it implies for the rest of the population before concluding. One exception can contribute to a qualified opinion when its effect is material, and it can also be judged isolated and immaterial - which is why the root cause and the response matter more than the count.</p>"
+       "html": "<p>Not automatically. A single exception does not by itself mean the criterion was not met; the service auditor evaluates the cause of the exception, whether it is isolated or systematic and what it implies for the rest of the population before concluding. One exception can contribute to a qualified opinion when its effect is material, and it can also be judged isolated and immaterial, which is why the root cause and the response matter more than the count.</p>"
       }
      ]
     }
@@ -11535,7 +11535,7 @@
      "@id": "https://grc-wiki.vercel.app/compliance/control-deviations/#article",
      "headline": "Control deviations and exceptions in testing",
      "name": "Control deviations and exceptions in testing",
-     "description": "A control deviation is a tested instance where a control did not operate as designed - what a SOC 2 report calls an exception, and why it is not a waiver.",
+     "description": "A control deviation is a tested instance where a control did not operate as designed, what a SOC 2 report calls an exception, and why it is not a waiver.",
      "url": "https://grc-wiki.vercel.app/compliance/control-deviations/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -11547,7 +11547,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 1076,
+     "wordCount": 1063,
      "timeRequired": "PT6M",
      "citation": [
       "AICPA, SSAE No. 18, AT-C section 205 (exceptions)",
@@ -11561,7 +11561,7 @@
      "@id": "https://grc-wiki.vercel.app/compliance/control-deviations/#term",
      "name": "Control deviation",
      "alternateName": "",
-     "description": "A control deviation is a tested instance where a control did not operate as designed - what a SOC 2 report calls an exception, and why it is not a waiver.",
+     "description": "A control deviation is a tested instance where a control did not operate as designed, what a SOC 2 report calls an exception, and why it is not a waiver.",
      "url": "https://grc-wiki.vercel.app/compliance/control-deviations/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
@@ -11578,7 +11578,7 @@
        "name": "What is a control deviation?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A control deviation is an instance, found while testing a control, where the control did not operate as it was designed to. In SOC 2 and other examination reports these are called exceptions. Because the auditor tests a sample and concludes on the whole population, a deviation bears on whether the control operated effectively across everything the sample stood for, not just the instance that failed - so it is not a single fault to be corrected in place."
+        "text": "A control deviation is an instance, found while testing a control, where the control did not operate as it was designed to. In SOC 2 and other examination reports these are called exceptions. Because the auditor tests a sample and concludes on the whole population, a deviation bears on whether the control operated effectively across everything the sample stood for, not just the instance that failed, so it is not a single fault to be corrected in place."
        }
       },
       {
@@ -11586,7 +11586,7 @@
        "name": "What is the difference between a deviation and a policy exception?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Timing and authorisation. A policy exception, or waiver , is planned: a named approver signs off in advance that a specific gap will run for a bounded period, with a compensating control. A deviation is unplanned: a failure discovered after the fact, in testing, that nobody authorised. Reclassifying a deviation as an exception once an auditor has found it - by back-dating the approval - turns a control finding into an integrity finding."
+        "text": "Timing and authorisation. A policy exception, or waiver , is planned: a named approver signs off in advance that a specific gap will run for a bounded period, with a compensating control. A deviation is unplanned: a failure discovered after the fact, in testing, that nobody authorised. Reclassifying a deviation as an exception once an auditor has found it (by back-dating the approval) turns a control finding into an integrity finding."
        }
       },
       {
@@ -11594,7 +11594,7 @@
        "name": "Does one exception fail a SOC 2 control?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not automatically. A single exception does not by itself mean the criterion was not met; the service auditor evaluates the cause of the exception, whether it is isolated or systematic and what it implies for the rest of the population before concluding. One exception can contribute to a qualified opinion when its effect is material, and it can also be judged isolated and immaterial - which is why the root cause and the response matter more than the count."
+        "text": "Not automatically. A single exception does not by itself mean the criterion was not met; the service auditor evaluates the cause of the exception, whether it is isolated or systematic and what it implies for the rest of the population before concluding. One exception can contribute to a qualified opinion when its effect is material, and it can also be judged isolated and immaterial, which is why the root cause and the response matter more than the count."
        }
       }
      ]
@@ -11678,7 +11678,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Continuous control monitoring is <strong>automated, ongoing checking that a control is\noperating</strong>, pulling the signal straight from the system rather than\nscreenshotting it once a quarter. Continuous compliance is the broader goal it\nfeeds - staying provably within requirements over time - which takes acting on\nwhat the monitoring finds, not watching alone."
+     "html": "Continuous control monitoring is <strong>automated, ongoing checking that a control is\noperating</strong>, pulling the signal straight from the system rather than\nscreenshotting it once a quarter. Continuous compliance is the broader goal it\nfeeds (staying provably within requirements over time), which takes acting on\nwhat the monitoring finds, not watching alone."
     },
     {
      "type": "prose",
@@ -11694,7 +11694,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Point-in-time evidence answers one question: did the control run on the day\nsomeone looked. Continuous control monitoring answers a harder one: has it run\nevery day since, and can you see the moment it stopped. The record is pulled at\nthe point of operation, continuously, from the system that enforces the control\nrather than assembled by hand before an audit.</p>\n<p>That is the whole value. Evidence <a href=\"/compliance/evidence-that-holds-up/\">4.2</a>\ncollected this way is dated and attributable by construction, and complete for the\nperiod its coverage actually spans - provided the monitoring itself has no gaps and\nits telemetry can be trusted. The programme stops sampling its own best month and\nstarts holding the full population it covers.</p>"
+     "html": "<p>Point-in-time evidence answers one question: did the control run on the day\nsomeone looked. Continuous control monitoring answers a harder one: has it run\nevery day since, and can you see the moment it stopped. The record is pulled at\nthe point of operation, continuously, from the system that enforces the control\nrather than assembled by hand before an audit.</p>\n<p>That is the whole value. Evidence <a href=\"/compliance/evidence-that-holds-up/\">4.2</a>\ncollected this way is dated and attributable by construction, and complete for the\nperiod its coverage actually spans, provided the monitoring itself has no gaps and\nits telemetry can be trusted. The programme stops sampling its own best month and\nstarts holding the full population it covers.</p>"
     },
     {
      "type": "heading",
@@ -11718,7 +11718,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A continuously monitored control is a natural source for a leading indicator.\nCoverage trending down - privileged accounts without a second factor creeping\nfrom two per cent to four - is an early warning while there is still time to act,\nnot a surprise discovered at quarter end.</p>"
+     "html": "<p>A continuously monitored control is a natural source for a leading indicator.\nCoverage trending down (privileged accounts without a second factor creeping\nfrom two per cent to four) is an early warning while there is still time to act,\nnot a surprise discovered at quarter end.</p>"
     },
     {
      "type": "def",
@@ -11728,7 +11728,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>It does not replace the audit. An auditor still tests, still selects the sample\nand still concludes independently - but tests against a population that is\nalready instrumented, where the evidence exists for every instance rather than\nthe ones that were remembered. Continuous monitoring makes fieldwork shorter and\nduller. It does not make it unnecessary, and a programme that treats a platform&rsquo;s\ngreen dashboard as an audit opinion has confused the two.</p>"
+     "html": "<p>It does not replace the audit. An auditor still tests, still selects the sample\nand still concludes independently, but tests against a population that is\nalready instrumented, where the evidence exists for every instance rather than\nthe ones that were remembered. Continuous monitoring makes fieldwork shorter and\nduller. It does not make it unnecessary, and a programme that treats a platform&rsquo;s\ngreen dashboard as an audit opinion has confused the two.</p>"
     },
     {
      "type": "heading",
@@ -11756,12 +11756,12 @@
       {
        "q": "What is continuous control monitoring?",
        "id": "faq-what-is-continuous-control-monitoring",
-       "html": "<p>It is automated, ongoing checking that a control is operating, taken from the\nsystem that runs the control rather than reconstructed by hand before an audit.\nInstead of confirming a control worked on the day someone screenshotted it, it\nconfirms the control has stayed in its required state and shows the moment it did\nnot. It suits controls with a machine-checkable state - MFA coverage, encryption\nsettings, patch currency <a href=\"/compliance/vulnerability-management/\">4.10</a> - and is\npoorly suited to controls that turn on human judgement.</p>"
+       "html": "<p>It is automated, ongoing checking that a control is operating, taken from the\nsystem that runs the control rather than reconstructed by hand before an audit.\nInstead of confirming a control worked on the day someone screenshotted it, it\nconfirms the control has stayed in its required state and shows the moment it did\nnot. It suits controls with a machine-checkable state (MFA coverage, encryption\nsettings, patch currency <a href=\"/compliance/vulnerability-management/\">4.10</a>) and is\npoorly suited to controls that turn on human judgement.</p>"
       },
       {
        "q": "What is the difference between continuous monitoring and continuous compliance?",
        "id": "faq-what-is-the-difference-between-continuous-monitoring-and-continuous-compliance",
-       "html": "<p>Continuous monitoring is one activity inside continuous compliance, not the whole\nof it. Monitoring reads a control&rsquo;s condition on an ongoing basis. Continuous\ncompliance is the broader practice of staying provably within requirements over\ntime - which takes evaluating what the monitoring surfaces and remediating what it\nfinds, not monitoring alone. Monitoring makes the state visible; holding it is\nmore than watching.</p>"
+       "html": "<p>Continuous monitoring is one activity inside continuous compliance, not the whole\nof it. Monitoring reads a control&rsquo;s condition on an ongoing basis. Continuous\ncompliance is the broader practice of staying provably within requirements over\ntime: it takes evaluating what the monitoring surfaces and remediating what it\nfinds, not monitoring alone. Monitoring makes the state visible; holding it is\nmore than watching.</p>"
       },
       {
        "q": "Can continuous monitoring replace an audit?",
@@ -11833,7 +11833,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 924,
+     "wordCount": 916,
      "timeRequired": "PT5M",
      "citation": [
       "AICPA, Trust Services Criteria (criterion CC4.1)",
@@ -11864,7 +11864,7 @@
        "name": "What is continuous control monitoring?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It is automated, ongoing checking that a control is operating, taken from the system that runs the control rather than reconstructed by hand before an audit. Instead of confirming a control worked on the day someone screenshotted it, it confirms the control has stayed in its required state and shows the moment it did not. It suits controls with a machine-checkable state - MFA coverage, encryption settings, patch currency 4.10 - and is poorly suited to controls that turn on human judgement."
+        "text": "It is automated, ongoing checking that a control is operating, taken from the system that runs the control rather than reconstructed by hand before an audit. Instead of confirming a control worked on the day someone screenshotted it, it confirms the control has stayed in its required state and shows the moment it did not. It suits controls with a machine-checkable state (MFA coverage, encryption settings, patch currency 4.10 ) and is poorly suited to controls that turn on human judgement."
        }
       },
       {
@@ -11872,7 +11872,7 @@
        "name": "What is the difference between continuous monitoring and continuous compliance?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Continuous monitoring is one activity inside continuous compliance, not the whole of it. Monitoring reads a control&rsquo;s condition on an ongoing basis. Continuous compliance is the broader practice of staying provably within requirements over time - which takes evaluating what the monitoring surfaces and remediating what it finds, not monitoring alone. Monitoring makes the state visible; holding it is more than watching."
+        "text": "Continuous monitoring is one activity inside continuous compliance, not the whole of it. Monitoring reads a control&rsquo;s condition on an ongoing basis. Continuous compliance is the broader practice of staying provably within requirements over time: it takes evaluating what the monitoring surfaces and remediating what it finds, not monitoring alone. Monitoring makes the state visible; holding it is more than watching."
        }
       },
       {
@@ -11969,7 +11969,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "A security questionnaire is a <strong>standardised set of questions used to assess a\nvendor&rsquo;s security posture</strong> - the SIG and the CAIQ are the common templates -\nand it is a diligence artefact, not assurance in itself."
+     "html": "A security questionnaire is a <strong>standardised set of questions used to assess a\nvendor&rsquo;s security posture</strong> (the SIG and the CAIQ are the common templates),\nand it is a diligence artefact, not assurance in itself."
     },
     {
      "type": "prose",
@@ -11985,7 +11985,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The same document sits on two desks, and most people only ever meet one side of it.</p>\n<p><strong>Sending.</strong> As part of third-party diligence, the questionnaire goes out to a\nprospective or existing vendor to probe its security posture before and during\nthe relationship. It is one instrument of the wider\n<a href=\"/risk/third-party-risk/\">vendor due diligence</a> at 3.8, not the whole of it - a\ncompleted questionnaire narrows what still needs verifying, it does not close the\nassessment.</p>\n<p><strong>Answering.</strong> As the vendor being assessed, you complete other organisations&rsquo;\nquestionnaires to win and keep their business. For a company that sells to\nenterprises this is a standing workload measured in hundreds of questions a\nquarter, and it turns into a revenue-blocking task the moment a deal waits on it.</p>"
+     "html": "<p>The same document sits on two desks, and most people only ever meet one side of it.</p>\n<p><strong>Sending.</strong> As part of third-party diligence, the questionnaire goes out to a\nprospective or existing vendor to probe its security posture before and during\nthe relationship. It is one instrument of the wider\n<a href=\"/risk/third-party-risk/\">vendor due diligence</a> at 3.8, not the whole of it: a\ncompleted questionnaire narrows what still needs verifying, it does not close the\nassessment.</p>\n<p><strong>Answering.</strong> As the vendor being assessed, you complete other organisations&rsquo;\nquestionnaires to win and keep their business. For a company that sells to\nenterprises this is a standing workload measured in hundreds of questions a\nquarter, and it turns into a revenue-blocking task the moment a deal waits on it.</p>"
     },
     {
      "type": "heading",
@@ -11997,7 +11997,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The answers are self-attested. A vendor asserting that access is reviewed\nquarterly and data is encrypted at rest has told you what it believes to be true;\nit has shown you nothing. Assurance arrives only with the artefact behind the\nanswer - an independent audit report such as SOC 2, an ISO 27001 certificate\nscoped to the service you are buying or an actual configuration export.</p>\n<p>A &ldquo;yes&rdquo; with nothing behind it is a claim, not a control. A SOC 2 report and an\nISO 27001 certificate answer different questions - see\n<a href=\"/frameworks/iso-27001-vs-soc-2/\">5.1</a> - and a certificate scoped to the wrong\nentity proves nothing about the service in front of you. The questionnaire tells\nyou what to verify; the <a href=\"/compliance/evidence-that-holds-up/\">evidence</a> is what\nverifies it.</p>"
+     "html": "<p>The answers are self-attested. A vendor asserting that access is reviewed\nquarterly and data is encrypted at rest has told you what it believes to be true;\nit has shown you nothing. Assurance arrives only with the artefact behind the\nanswer: an independent audit report such as SOC 2, an ISO 27001 certificate\nscoped to the service you are buying or an actual configuration export.</p>\n<p>A &ldquo;yes&rdquo; with nothing behind it is a claim, not a control. A SOC 2 report and an\nISO 27001 certificate answer different questions (see\n<a href=\"/frameworks/iso-27001-vs-soc-2/\">5.1</a>), and a certificate scoped to the wrong\nentity proves nothing about the service in front of you. The questionnaire tells\nyou what to verify; the <a href=\"/compliance/evidence-that-holds-up/\">evidence</a> is what\nverifies it.</p>"
     },
     {
      "type": "heading",
@@ -12009,7 +12009,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Sending a three-hundred-question SIG to a vendor that stores none of your data\nand touches none of your systems is questionnaire theatre: it burns the vendor&rsquo;s\ntime and yours, and nobody reads the result. Depth of questionnaire should follow\nthe risk tier set in <a href=\"/risk/third-party-risk/\">third-party risk management</a> - a\nlightweight set for a routine supplier, the full instrument reserved for a vendor\ninside a recovery time objective or holding production data. The SIG ships in\nexactly this spirit, with a shorter SIG Lite for lower-tier suppliers and the\nfull SIG Core for the ones that can actually hurt you.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>SIG</th>\n<th>CAIQ</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Author</td>\n<td>Shared Assessments</td>\n<td>Cloud Security Alliance</td>\n</tr>\n<tr>\n<td>Scope</td>\n<td>Broad third-party risk across many control domains</td>\n<td>Cloud service security, mapped to the Cloud Controls Matrix</td>\n</tr>\n<tr>\n<td>Form</td>\n<td>Configurable question set, from SIG Core down to SIG Lite</td>\n<td>Yes/no control assertions against CCM domains</td>\n</tr>\n<tr>\n<td>Standing</td>\n<td>Licensed content set, maintained and updated</td>\n<td>Freely available, underpinning CSA STAR registry listings</td>\n</tr>\n</tbody>\n</table></div>"
+     "html": "<p>Sending a three-hundred-question SIG to a vendor that stores none of your data\nand touches none of your systems is questionnaire theatre: it burns the vendor&rsquo;s\ntime and yours, and nobody reads the result. Depth of questionnaire should follow\nthe risk tier set in <a href=\"/risk/third-party-risk/\">third-party risk management</a>: a\nlightweight set for a routine supplier, the full instrument reserved for a vendor\ninside a recovery time objective or holding production data. The SIG ships in\nexactly this spirit, with a shorter SIG Lite for lower-tier suppliers and the\nfull SIG Core for the ones that can actually hurt you.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>SIG</th>\n<th>CAIQ</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Author</td>\n<td>Shared Assessments</td>\n<td>Cloud Security Alliance</td>\n</tr>\n<tr>\n<td>Scope</td>\n<td>Broad third-party risk across many control domains</td>\n<td>Cloud service security, mapped to the Cloud Controls Matrix</td>\n</tr>\n<tr>\n<td>Form</td>\n<td>Configurable question set, from SIG Core down to SIG Lite</td>\n<td>Yes/no control assertions against CCM domains</td>\n</tr>\n<tr>\n<td>Standing</td>\n<td>Licensed content set, maintained and updated</td>\n<td>Freely available, underpinning CSA STAR registry listings</td>\n</tr>\n</tbody>\n</table></div>"
     },
     {
      "type": "heading",
@@ -12021,7 +12021,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Redrafting the same three hundred questions by hand every time is how the\nworkload becomes unbearable and how the answers go stale. The fix is a reviewed\nknowledge base - every standard question with an approved answer and a link to\nthe evidence behind it - that a response can be assembled from and then tailored\nto the asker.</p>\n<p>It needs a named owner who keeps it current. An answer library nobody maintains\nis a catalogue of last year&rsquo;s claims, and the drift is invisible until a\ncustomer&rsquo;s auditor asks to see the control behind an answer that stopped being\ntrue two releases ago.</p>"
+     "html": "<p>Redrafting the same three hundred questions by hand every time is how the\nworkload becomes unbearable and how the answers go stale. The fix is a reviewed\nknowledge base (every standard question with an approved answer and a link to\nthe evidence behind it) that a response can be assembled from and then tailored\nto the asker.</p>\n<p>It needs a named owner who keeps it current. An answer library nobody maintains\nis a catalogue of last year&rsquo;s claims, and the drift is invisible until a\ncustomer&rsquo;s auditor asks to see the control behind an answer that stopped being\ntrue two releases ago.</p>"
     },
     {
      "type": "heading",
@@ -12033,7 +12033,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>A completed questionnaire treated as assurance.</strong> The document comes back, gets\nfiled and closes the assessment, with no report, certificate or export sampled\nbehind a single answer. The programme has collected assertions and recorded them\nas facts.</p>\n<p><strong>Answers that drift from reality.</strong> The questionnaire is refreshed once a year\nwhile the environment changes every week. Between refreshes the answers describe a\nposture the organisation no longer has, and nobody notices until an incident or an\naudit finds the gap.</p>\n<p><strong>Questionnaire theatre.</strong> Hundreds of questions issued and returned, none\nvalidated. The volume signals diligence and delivers none - a longer questionnaire\nthat nobody checks is weaker than a short one that is verified.</p>\n<p><strong>One questionnaire for every tier.</strong> A low-risk vendor is sent the same\ninstrument as a critical one, so the routine supplier is over-assessed and the\ncritical one is assessed no harder than the rest. Effort decouples from risk, and\nthe review that mattered gets the same cursory read as the ninety that did not.</p>"
+     "html": "<p><strong>A completed questionnaire treated as assurance.</strong> The document comes back, gets\nfiled and closes the assessment, with no report, certificate or export sampled\nbehind a single answer. The programme has collected assertions and recorded them\nas facts.</p>\n<p><strong>Answers that drift from reality.</strong> The questionnaire is refreshed once a year\nwhile the environment changes every week. Between refreshes the answers describe a\nposture the organisation no longer has, and nobody notices until an incident or an\naudit finds the gap.</p>\n<p><strong>Questionnaire theatre.</strong> Hundreds of questions issued and returned, none\nvalidated. The volume signals diligence and delivers none: a longer questionnaire\nthat nobody checks is weaker than a short one that is verified.</p>\n<p><strong>One questionnaire for every tier.</strong> A low-risk vendor is sent the same\ninstrument as a critical one, so the routine supplier is over-assessed and the\ncritical one is assessed no harder than the rest. Effort decouples from risk, and\nthe review that mattered gets the same cursory read as the ninety that did not.</p>"
     },
     {
      "type": "heading",
@@ -12049,7 +12049,7 @@
       {
        "q": "What is a security questionnaire?",
        "id": "faq-what-is-a-security-questionnaire",
-       "html": "<p>A standardised set of questions an organisation sends a vendor to assess its\nsecurity posture, or receives and completes when it is the vendor being assessed.\nThe SIG and the CAIQ are the two common templates. It is a diligence artefact - a\nstructured way to ask - and not assurance in itself, because the answers are\nself-attested until evidence is produced behind them.</p>"
+       "html": "<p>A standardised set of questions an organisation sends a vendor to assess its\nsecurity posture, or receives and completes when it is the vendor being assessed.\nThe SIG and the CAIQ are the two common templates. It is a diligence artefact (a\nstructured way to ask) and not assurance in itself, because the answers are\nself-attested until evidence is produced behind them.</p>"
       },
       {
        "q": "What is the difference between a SIG and a CAIQ?",
@@ -12059,7 +12059,7 @@
       {
        "q": "Is a completed security questionnaire enough assurance?",
        "id": "faq-is-a-completed-security-questionnaire-enough-assurance",
-       "html": "<p>No. A completed questionnaire is a set of claims, not evidence they are true.\nAssurance comes from what stands behind the answers - an independent audit report\nsuch as SOC 2, a certification such as ISO 27001 scoped to the service in question\nor a direct artefact like a configuration export. Treat the questionnaire as the\nthing that tells you what to verify, then verify the answers that matter.</p>"
+       "html": "<p>No. A completed questionnaire is a set of claims, not evidence they are true.\nAssurance comes from what stands behind the answers: an independent audit report\nsuch as SOC 2, a certification such as ISO 27001 scoped to the service in question\nor a direct artefact like a configuration export. Treat the questionnaire as the\nthing that tells you what to verify, then verify the answers that matter.</p>"
       }
      ]
     },
@@ -12067,7 +12067,7 @@
      "type": "def",
      "term": "Vendor due diligence",
      "ref": "3.8",
-     "html": "The assessment of a supplier&rsquo;s security, financial and regulatory standing before\nand during the relationship, scaled to the risk tier. A questionnaire is one\ninstrument of that diligence, not the whole of it - verifying what the answers\nclaim is the rest."
+     "html": "The assessment of a supplier&rsquo;s security, financial and regulatory standing before\nand during the relationship, scaled to the risk tier. A questionnaire is one\ninstrument of that diligence, not the whole of it: verifying what the answers\nclaim is the rest."
     }
    ],
    "sources_html": [
@@ -12132,7 +12132,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 1030,
+     "wordCount": 1018,
      "timeRequired": "PT6M",
      "citation": [
       "Shared Assessments, Standardized Information Gathering (SIG) Questionnaire",
@@ -12163,7 +12163,7 @@
        "name": "What is a security questionnaire?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A standardised set of questions an organisation sends a vendor to assess its security posture, or receives and completes when it is the vendor being assessed. The SIG and the CAIQ are the two common templates. It is a diligence artefact - a structured way to ask - and not assurance in itself, because the answers are self-attested until evidence is produced behind them."
+        "text": "A standardised set of questions an organisation sends a vendor to assess its security posture, or receives and completes when it is the vendor being assessed. The SIG and the CAIQ are the two common templates. It is a diligence artefact (a structured way to ask) and not assurance in itself, because the answers are self-attested until evidence is produced behind them."
        }
       },
       {
@@ -12179,7 +12179,7 @@
        "name": "Is a completed security questionnaire enough assurance?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. A completed questionnaire is a set of claims, not evidence they are true. Assurance comes from what stands behind the answers - an independent audit report such as SOC 2, a certification such as ISO 27001 scoped to the service in question or a direct artefact like a configuration export. Treat the questionnaire as the thing that tells you what to verify, then verify the answers that matter."
+        "text": "No. A completed questionnaire is a set of claims, not evidence they are true. Assurance comes from what stands behind the answers: an independent audit report such as SOC 2, a certification such as ISO 27001 scoped to the service in question or a direct artefact like a configuration export. Treat the questionnaire as the thing that tells you what to verify, then verify the answers that matter."
        }
       }
      ]
@@ -12191,7 +12191,7 @@
    "part": 4,
    "slug": "vulnerability-management",
    "title": "Vulnerability management",
-   "description": "The lifecycle of discovering, prioritising, remediating and verifying technical vulnerabilities on deadlines set by severity - not a one-off scan report.",
+   "description": "The lifecycle of discovering, prioritising, remediating and verifying technical vulnerabilities on deadlines set by severity, not a one-off scan report.",
    "short_title": "Vulnerability management",
    "keywords": [
     "vulnerability management",
@@ -12268,11 +12268,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Vulnerability management is the <strong>lifecycle of discovering, prioritising,\nremediating and verifying technical vulnerabilities</strong> on time limits set by\nseverity - a continuous programme, not a scan report filed and forgotten."
+     "html": "Vulnerability management is the <strong>lifecycle of discovering, prioritising,\nremediating and verifying technical vulnerabilities</strong> on time limits set by\nseverity, a continuous programme, not a scan report filed and forgotten."
     },
     {
      "type": "prose",
-     "html": "<p>The scan is the easy part. What separates a programme from a report is\neverything after the finding: a decision about which vulnerabilities matter, a\ndeadline to fix them by, and a rescan that proves each one is actually closed. A\nscanner that runs every week feeding a queue that never empties is not\nvulnerability management - it is a list that grows.</p>"
+     "html": "<p>The scan is the easy part. What separates a programme from a report is\neverything after the finding: a decision about which vulnerabilities matter, a\ndeadline to fix them by, and a rescan that proves each one is actually closed. A\nscanner that runs every week feeding a queue that never empties is not\nvulnerability management: it is a list that grows.</p>"
     },
     {
      "type": "heading",
@@ -12299,7 +12299,7 @@
       },
       {
        "term": "Verify",
-       "html": "Rescan - or authoritative version or configuration evidence - to confirm the fix closed the vulnerability rather than moved it. &ldquo;Remediated&rdquo; in a ticket is a claim; a clean rescan is <a href=\"/compliance/evidence-that-holds-up/\">evidence that holds up</a>."
+       "html": "Rescan (or authoritative version or configuration evidence) to confirm the fix closed the vulnerability rather than moved it. &ldquo;Remediated&rdquo; in a ticket is a claim; a clean rescan is <a href=\"/compliance/evidence-that-holds-up/\">evidence that holds up</a>."
       }
      ]
     },
@@ -12313,7 +12313,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A CVSS score measures the vulnerability, not the risk it poses to you. The base\nscore is a property of the flaw - how hard it is to exploit and what it grants -\ncomputed the same way for every organisation on earth. Risk is that score\nmeeting your estate.</p>\n<p>Illustratively, a CVSS 9.8 on an internal host reachable only from an\nadministrative network, sitting behind a compensating control, may matter less\nthan a 6.5 on an internet-facing system with a public exploit in active use - the\nscores are examples, not thresholds. Three things sit on top of the base score and\nchange the order: active exploitation, whether a working exploit exists and is\nbeing used; exposure, whether an attacker can reach the asset at all; and the\ncriticality of the asset itself.</p>\n<p>Severity then sets the clock. A programme might commit to fixing critical\nfindings within 7 days, high within 30 and medium within 90 - but those windows\nare illustrative. The real ones are the organisation&rsquo;s own decision, written\ndown and agreed before the first breach rather than argued after it.</p>"
+     "html": "<p>A CVSS score measures the vulnerability, not the risk it poses to you. The base\nscore is a property of the flaw (how hard it is to exploit and what it grants),\ncomputed the same way for every organisation on earth. Risk is that score\nmeeting your estate.</p>\n<p>Illustratively, a CVSS 9.8 on an internal host reachable only from an\nadministrative network, sitting behind a compensating control, may matter less\nthan a 6.5 on an internet-facing system with a public exploit in active use. The\nscores are examples, not thresholds. Three things sit on top of the base score and\nchange the order: active exploitation, whether a working exploit exists and is\nbeing used; exposure, whether an attacker can reach the asset at all; and the\ncriticality of the asset itself.</p>\n<p>Severity then sets the clock. A programme might commit to fixing critical\nfindings within 7 days, high within 30 and medium within 90, but those windows\nare illustrative. The real ones are the organisation&rsquo;s own decision, written\ndown and agreed before the first breach rather than argued after it.</p>"
     },
     {
      "type": "heading",
@@ -12337,7 +12337,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Two other entries connect here. The count of critical vulnerabilities open past\ntheir SLA can be a key risk indicator <a href=\"/risk/key-risk-indicators/\">3.11</a>: the SLA\ndefines when one is overdue, and the indicator&rsquo;s own threshold - how many overdue\nis too many - is a separate appetite decision, with a named owner and a response\nwhen it breaches.\nAnd vulnerability state - new criticals, SLA breaches and scan coverage - is a\nstrong candidate for continuous monitoring (4.8) rather than a quarterly\nsnapshot, because the exposure changes daily as new vulnerabilities are\ndisclosed against software that has not moved.</p>"
+     "html": "<p>Two other entries connect here. The count of critical vulnerabilities open past\ntheir SLA can be a key risk indicator <a href=\"/risk/key-risk-indicators/\">3.11</a>: the SLA\ndefines when one is overdue, and the indicator&rsquo;s own threshold (how many overdue\nis too many) is a separate appetite decision, with a named owner and a response\nwhen it breaches.\nAnd vulnerability state (new criticals, SLA breaches and scan coverage) is a\nstrong candidate for continuous monitoring (4.8) rather than a quarterly\nsnapshot, because the exposure changes daily as new vulnerabilities are\ndisclosed against software that has not moved.</p>"
     },
     {
      "type": "def",
@@ -12376,7 +12376,7 @@
       {
        "q": "What is the difference between a vulnerability scan and a penetration test?",
        "id": "faq-what-is-the-difference-between-a-vulnerability-scan-and-a-penetration-test",
-       "html": "<p>A scan enumerates known weaknesses automatically against a signature database -\nbroad, fast and repeatable. A penetration test tries to exploit what is found and\nchain several weaknesses into an attack path, which a scanner cannot do. Both\ndiscover, and neither replaces the other: the scan gives coverage, the test gives\ndepth and confirms what is genuinely exploitable.</p>"
+       "html": "<p>A scan enumerates known weaknesses automatically against a signature database:\nbroad, fast and repeatable. A penetration test tries to exploit what is found and\nchain several weaknesses into an attack path, which a scanner cannot do. Both\ndiscover, and neither replaces the other: the scan gives coverage, the test gives\ndepth and confirms what is genuinely exploitable.</p>"
       },
       {
        "q": "How do you prioritise vulnerabilities?",
@@ -12437,7 +12437,7 @@
      "@id": "https://grc-wiki.vercel.app/compliance/vulnerability-management/#article",
      "headline": "Vulnerability management",
      "name": "Vulnerability management",
-     "description": "The lifecycle of discovering, prioritising, remediating and verifying technical vulnerabilities on deadlines set by severity - not a one-off scan report.",
+     "description": "The lifecycle of discovering, prioritising, remediating and verifying technical vulnerabilities on deadlines set by severity, not a one-off scan report.",
      "url": "https://grc-wiki.vercel.app/compliance/vulnerability-management/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -12449,7 +12449,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 1008,
+     "wordCount": 995,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 8.8 (management of technical vulnerabilities)",
@@ -12464,7 +12464,7 @@
      "@id": "https://grc-wiki.vercel.app/compliance/vulnerability-management/#term",
      "name": "Vulnerability management",
      "alternateName": "",
-     "description": "The lifecycle of discovering, prioritising, remediating and verifying technical vulnerabilities on deadlines set by severity - not a one-off scan report.",
+     "description": "The lifecycle of discovering, prioritising, remediating and verifying technical vulnerabilities on deadlines set by severity, not a one-off scan report.",
      "url": "https://grc-wiki.vercel.app/compliance/vulnerability-management/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
@@ -12489,7 +12489,7 @@
        "name": "What is the difference between a vulnerability scan and a penetration test?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A scan enumerates known weaknesses automatically against a signature database - broad, fast and repeatable. A penetration test tries to exploit what is found and chain several weaknesses into an attack path, which a scanner cannot do. Both discover, and neither replaces the other: the scan gives coverage, the test gives depth and confirms what is genuinely exploitable."
+        "text": "A scan enumerates known weaknesses automatically against a signature database: broad, fast and repeatable. A penetration test tries to exploit what is found and chain several weaknesses into an attack path, which a scanner cannot do. Both discover, and neither replaces the other: the scan gives coverage, the test gives depth and confirms what is genuinely exploitable."
        }
       },
       {
