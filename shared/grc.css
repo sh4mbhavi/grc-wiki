@@ -865,41 +865,46 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 /* --- 7. Home (3a) ------------------------------------------------------- */
 
 .portal { border-bottom: 1px solid var(--rule); background: var(--paper-raised); }
-.portal__inner { max-width: 900px; margin: 0 auto; padding: var(--s-12) var(--s-6) var(--s-10); text-align: center; }
+.portal__inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: clamp(var(--s-12), 8vw, var(--s-16)) var(--s-6) clamp(var(--s-10), 6vw, var(--s-16));
+    text-align: center;
+}
 
 .portal__standfirst {
     font-family: var(--mono);
-    font-size: 0.688rem;
+    font-size: clamp(0.688rem, 0.9vw, 0.85rem);
     letter-spacing: 0.16em;
     color: var(--accent);
 }
 .portal__title {
-    margin: var(--s-3) auto 0;
-    font-size: var(--t-hero);
+    margin: var(--s-4) auto 0;
+    font-size: clamp(2.5rem, 4.6vw, 4.5rem);
     line-height: 1.04;
     letter-spacing: -0.02em;
-    max-width: 15em;
+    max-width: 16em;
 }
 .portal__blurb {
-    margin: 14px auto 0;
-    font-size: var(--t-lead);
+    margin: clamp(14px, 1.6vw, 22px) auto 0;
+    font-size: clamp(var(--t-lead), 1.5vw, 1.5rem);
     line-height: 1.55;
     color: var(--ink-quiet);
-    max-width: 58ch;
+    max-width: 60ch;
 }
 
 .searchbar {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 16px;
     width: 100%;
-    max-width: 720px;
-    margin: var(--s-8) auto 0;
+    max-width: 860px;
+    margin: clamp(var(--s-8), 4vw, var(--s-12)) auto 0;
     border: 1.5px solid var(--rule-strong);
     background: var(--paper-raised);
-    padding: var(--s-4) var(--s-5);
+    padding: clamp(var(--s-4), 1.6vw, var(--s-6)) clamp(var(--s-5), 2vw, var(--s-8));
     font-family: var(--mono);
-    font-size: 0.938rem;
+    font-size: clamp(0.938rem, 1.2vw, 1.125rem);
     color: var(--ink-faint);
     text-align: left;
     transition: border-color 120ms ease, background-color 120ms ease;
@@ -908,6 +913,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .searchbar__icon { color: var(--accent); display: flex; }
 .finder__icon { color: var(--accent); display: flex; }
 .icon-search { width: 16px; height: 16px; }
+.searchbar .icon-search { width: clamp(16px, 1.4vw, 20px); height: clamp(16px, 1.4vw, 20px); }
 .searchbar__label { flex: 1; }
 .searchbar__key {
     font-size: var(--t-micro);
@@ -921,8 +927,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     flex-wrap: wrap;
     gap: var(--s-2);
     justify-content: center;
-    max-width: 720px;
-    margin: var(--s-3) auto 0;
+    max-width: 860px;
+    margin: var(--s-4) auto 0;
 }
 .chip {
     border: 1px solid var(--rule-input);
