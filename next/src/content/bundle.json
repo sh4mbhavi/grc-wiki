@@ -5972,7 +5972,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>ISO 31000 describes the process - identify, analyse, evaluate, treat, monitor,\ncommunicate - but the artefacts are what other people actually consume, and each\none fails in a recognisable way.</p>"
+     "html": "<p>ISO 31000 describes the process (identify, analyse, evaluate, treat, monitor,\ncommunicate), but the artefacts are what other people actually consume, and each\none fails in a recognisable way.</p>"
     },
     {
      "type": "heading",
@@ -6025,7 +6025,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Register first, even a rough one. Twenty entries written badly beat an empty\ntemplate, because the argument about the scale is easier to have with real\nentries in front of it.</p>\n<p>Appetite second, once there is something to apply it to. Writing appetite first\nproduces a statement calibrated against nothing.</p>\n<p>Treatment third. Issue log last, or rather immediately - you will need it the\nfirst week, and it is a table.</p>"
+     "html": "<p>Register first, even a rough one. Twenty entries written badly beat an empty\ntemplate, because the argument about the scale is easier to have with real\nentries in front of it.</p>\n<p>Appetite second, once there is something to apply it to. Writing appetite first\nproduces a statement calibrated against nothing.</p>\n<p>Treatment third. Issue log last, or rather immediately: you will need it the\nfirst week, and it is a table.</p>"
     },
     {
      "type": "def",
@@ -6107,7 +6107,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 385,
+     "wordCount": 382,
      "timeRequired": "PT5M",
      "citation": [
       "ISO 31000:2018 - Risk management, guidelines",
@@ -6207,7 +6207,7 @@
      "items": [
       {
        "term": "Risk statement",
-       "html": "A cause, an event and a consequence in one sentence. &ldquo;Supplier X fails, our checkout is unavailable, we lose transactions and breach the SLA.&rdquo; Not a topic - &ldquo;supply chain&rdquo; is not a risk."
+       "html": "A cause, an event and a consequence in one sentence. &ldquo;Supplier X fails, our checkout is unavailable, we lose transactions and breach the SLA.&rdquo; Not a topic: &ldquo;supply chain&rdquo; is not a risk."
       },
       {
        "term": "Inherent score",
@@ -6227,7 +6227,7 @@
       },
       {
        "term": "Treatment",
-       "html": "Accept, mitigate, transfer or avoid - with a date and a target score if it is anything but accept."
+       "html": "Accept, mitigate, transfer or avoid, with a date and a target score if it is anything but accept."
       },
       {
        "term": "Review date",
@@ -6249,7 +6249,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Likelihood times impact, on whatever scale the organisation has documented -\nusually 5 × 5, giving scores from 1 to 25. See <a href=\"/foundations/what-grc-is/\">1.1</a>\nfor the matrix itself.</p>\n<p>Precision is not the goal. Two competent assessors will land in adjacent cells,\nand that is fine. What matters is that the bands are defined in writing, that a\nscore can be traced to the criteria that produced it, and that the same criteria\nwere applied last quarter. A register whose scale lives in one person&rsquo;s head\nproduces numbers that evaporate when they leave.</p>"
+     "html": "<p>Likelihood times impact, on whatever scale the organisation has documented,\nusually 5 × 5, giving scores from 1 to 25. See <a href=\"/foundations/what-grc-is/\">1.1</a>\nfor the matrix itself.</p>\n<p>Precision is not the goal. Two competent assessors will land in adjacent cells,\nand that is fine. What matters is that the bands are defined in writing, that a\nscore can be traced to the criteria that produced it, and that the same criteria\nwere applied last quarter. A register whose scale lives in one person&rsquo;s head\nproduces numbers that evaporate when they leave.</p>"
     },
     {
      "type": "def",
@@ -6279,7 +6279,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Sort by residual score descending. Read the top ten statements and check each is\na sentence with a consequence in it. Look at the review dates. Then find the\nappetite statement and check the top ten are actually above it - if they are\nnot, either the appetite is set too high to be meaningful, or the register is\nonly recording what was comfortable to write down.</p>"
+     "html": "<p>Sort by residual score descending. Read the top ten statements and check each is\na sentence with a consequence in it. Look at the review dates. Then find the\nappetite statement and check the top ten are actually above it. If they are\nnot, either the appetite is set too high to be meaningful, or the register is\nonly recording what was comfortable to write down.</p>"
     }
    ],
    "sources_html": [
@@ -6344,7 +6344,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 494,
+     "wordCount": 490,
      "timeRequired": "PT8M",
      "citation": [
       "ISO 31000:2018 - Risk management, guidelines, clause 6.4",
@@ -6435,7 +6435,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Appetite</strong> is set once a year, by the board, and covers a category. <em>We accept\nmoderate operational risk to enter new markets quickly; we accept no risk that\nwould compromise customer funds.</em> It is directional and mostly qualitative.</p>\n<p><strong>Tolerance</strong> is the numeric edge on a specific objective. <em>Availability must not\nfall below 99.5% in any calendar month.</em> Cross it and something specific happens\n- an escalation, a treatment, a board paper.</p>\n<p>Appetite tells you which risks you are in the business of taking. Tolerance tells\nyou when a particular one has gone too far.</p>"
+     "html": "<p><strong>Appetite</strong> is set once a year, by the board, and covers a category. <em>We accept\nmoderate operational risk to enter new markets quickly; we accept no risk that\nwould compromise customer funds.</em> It is directional and mostly qualitative.</p>\n<p><strong>Tolerance</strong> is the numeric edge on a specific objective. <em>Availability must not\nfall below 99.5% in any calendar month.</em> Cross it and something specific happens:\nan escalation, a treatment, a board paper.</p>\n<p>Appetite tells you which risks you are in the business of taking. Tolerance tells\nyou when a particular one has gone too far.</p>"
     },
     {
      "type": "heading",
@@ -6447,7 +6447,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Most published appetite statements cannot be applied to a decision, which is the\nonly test that matters. The three ways they fail:</p>\n<p><strong>Too abstract to test.</strong> &ldquo;We have a low appetite for cyber risk&rdquo; cannot resolve\na specific question. Against what score, in what category, approved by whom?</p>\n<p><strong>No threshold.</strong> An appetite with no number attached cannot tell you whether the\nrisk in front of you is inside it. The usable form names a residual score - <em>no\naccepted risk above 12 without board sign-off</em> - even when the category framing\nstays qualitative.</p>\n<p><strong>Uniform across categories.</strong> An organisation genuinely has different appetites\nfor different things. A single statement covering all risk is either so\npermissive it permits everything or so restrictive it is ignored.</p>"
+     "html": "<p>Most published appetite statements cannot be applied to a decision, which is the\nonly test that matters. The three ways they fail:</p>\n<p><strong>Too abstract to test.</strong> &ldquo;We have a low appetite for cyber risk&rdquo; cannot resolve\na specific question. Against what score, in what category, approved by whom?</p>\n<p><strong>No threshold.</strong> An appetite with no number attached cannot tell you whether the\nrisk in front of you is inside it. The usable form names a residual score (<em>no\naccepted risk above 12 without board sign-off</em>) even when the category framing\nstays qualitative.</p>\n<p><strong>Uniform across categories.</strong> An organisation genuinely has different appetites\nfor different things. A single statement covering all risk is either so\npermissive it permits everything or so restrictive it is ignored.</p>"
     },
     {
      "type": "def",
@@ -6465,7 +6465,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The risk function scores an entry, produces a residual figure, and compares it\nagainst the appetite threshold for that category. Above it, the entry needs a\ntreatment plan or a documented acceptance at the right level of authority. Below\nit, the entry is monitored on its review cycle.</p>\n<p>Tolerance operates in a different loop, usually automated: a metric crosses a\nline, someone is notified, an issue is raised. It is the operational tripwire;\nappetite is the annual stance the tripwire was placed to protect.</p>\n<p>Get the two the wrong way round - an appetite reviewed monthly, a tolerance\nargued about annually - and the function spends its time on the wrong meeting.</p>"
+     "html": "<p>The risk function scores an entry, produces a residual figure, and compares it\nagainst the appetite threshold for that category. Above it, the entry needs a\ntreatment plan or a documented acceptance at the right level of authority. Below\nit, the entry is monitored on its review cycle.</p>\n<p>Tolerance operates in a different loop, usually automated: a metric crosses a\nline, someone is notified, an issue is raised. It is the operational tripwire;\nappetite is the annual stance the tripwire was placed to protect.</p>\n<p>Get the two the wrong way round (an appetite reviewed monthly, a tolerance\nargued about annually) and the function spends its time on the wrong meeting.</p>"
     }
    ],
    "sources_html": [
@@ -6530,7 +6530,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 426,
+     "wordCount": 423,
      "timeRequired": "PT5M",
      "citation": [
       "ISO Guide 73:2009 - Risk management, vocabulary",
@@ -6546,7 +6546,7 @@
    "part": 3,
    "slug": "risk-treatment",
    "title": "Risk treatment options",
-   "description": "Four options and nothing else - accept, mitigate, transfer, avoid. What each commits you to, what evidence each needs, and which one \"monitor\" is really hiding.",
+   "description": "Four options and nothing else: accept, mitigate, transfer, avoid. What each commits you to, what evidence each needs, and which one \"monitor\" is really hiding.",
    "short_title": "Risk treatment",
    "keywords": [
     "risk treatment options",
@@ -6636,7 +6636,7 @@
       },
       {
        "term": "Transfer",
-       "html": "Move the financial consequence elsewhere - insurance, a contractual indemnity, an outsourced service. Note what does not transfer: the regulatory obligation and the reputational consequence almost never do."
+       "html": "Move the financial consequence elsewhere: insurance, a contractual indemnity, an outsourced service. Note what does not transfer: the regulatory obligation and the reputational consequence almost never do."
       },
       {
        "term": "Avoid",
@@ -6654,7 +6654,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>It is the most common entry in a treatment column and it is the absence of a\ntreatment, written to avoid the acceptance decision somebody would have to sign.</p>\n<p>Everything is monitored - that is what the review cycle is. Writing &ldquo;monitor&rdquo;\nsays the risk is being accepted without anybody putting their name to the\nacceptance, which is precisely the situation the register exists to prevent.</p>\n<p>If the answer is genuinely accept, write accept, and get it approved. It is a\nrespectable answer and auditors treat it as one.</p>"
+     "html": "<p>It is the most common entry in a treatment column and it is the absence of a\ntreatment, written to avoid the acceptance decision somebody would have to sign.</p>\n<p>Everything is monitored; that is what the review cycle is. Writing &ldquo;monitor&rdquo;\nsays the risk is being accepted without anybody putting their name to the\nacceptance, which is precisely the situation the register exists to prevent.</p>\n<p>If the answer is genuinely accept, write accept, and get it approved. It is a\nrespectable answer and auditors treat it as one.</p>"
     },
     {
      "type": "heading",
@@ -6701,7 +6701,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The right-hand column is the one programmes skip. A mitigation approved eighteen\nmonths ago, whose control was never built, still shows a reduced residual score\nin most registers - which makes the register actively misleading rather than\nmerely stale.</p>"
+     "html": "<p>The right-hand column is the one programmes skip. A mitigation approved eighteen\nmonths ago, whose control was never built, still shows a reduced residual score\nin most registers, which makes the register actively misleading rather than\nmerely stale.</p>"
     },
     {
      "type": "def",
@@ -6771,7 +6771,7 @@
      "@id": "https://grc-wiki.vercel.app/risk/risk-treatment/#article",
      "headline": "Risk treatment options",
      "name": "Risk treatment options",
-     "description": "Four options and nothing else - accept, mitigate, transfer, avoid. What each commits you to, what evidence each needs, and which one \"monitor\" is really hiding.",
+     "description": "Four options and nothing else: accept, mitigate, transfer, avoid. What each commits you to, what evidence each needs, and which one \"monitor\" is really hiding.",
      "url": "https://grc-wiki.vercel.app/risk/risk-treatment/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -6783,7 +6783,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 412,
+     "wordCount": 409,
      "timeRequired": "PT6M",
      "citation": [
       "ISO 31000:2018, clause 6.5 (Risk treatment)",
@@ -6796,7 +6796,7 @@
      "@id": "https://grc-wiki.vercel.app/risk/risk-treatment/#term",
      "name": "Risk treatment",
      "alternateName": "",
-     "description": "Four options and nothing else - accept, mitigate, transfer, avoid. What each commits you to, what evidence each needs, and which one \"monitor\" is really hiding.",
+     "description": "Four options and nothing else: accept, mitigate, transfer, avoid. What each commits you to, what evidence each needs, and which one \"monitor\" is really hiding.",
      "url": "https://grc-wiki.vercel.app/risk/risk-treatment/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
@@ -6884,7 +6884,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Capacity is not a score. It is expressed in whatever would actually run out.</p>\n<p><strong>Money.</strong> The loss that would breach a covenant, exhaust the cash runway, or\nrequire an emergency raise.</p>\n<p><strong>Time.</strong> The outage after which contracted customers may terminate, which is\nusually written in your own service agreements and rarely read by the risk\nfunction.</p>\n<p><strong>Licence.</strong> The regulatory finding that would suspend an authorisation. Binary,\nand in regulated sectors it is the binding constraint regardless of the money.</p>\n<p>An organisation that has never expressed capacity in at least one of these has\nno basis for saying its appetite is set conservatively - it has nothing to be\nconservative relative to.</p>"
+     "html": "<p>Capacity is not a score. It is expressed in whatever would actually run out.</p>\n<p><strong>Money.</strong> The loss that would breach a covenant, exhaust the cash runway, or\nrequire an emergency raise.</p>\n<p><strong>Time.</strong> The outage after which contracted customers may terminate, which is\nusually written in your own service agreements and rarely read by the risk\nfunction.</p>\n<p><strong>Licence.</strong> The regulatory finding that would suspend an authorisation. Binary,\nand in regulated sectors it is the binding constraint regardless of the money.</p>\n<p>An organisation that has never expressed capacity in at least one of these has\nno basis for saying its appetite is set conservatively: it has nothing to be\nconservative relative to.</p>"
     },
     {
      "type": "heading",
@@ -6978,7 +6978,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 348,
+     "wordCount": 347,
      "timeRequired": "PT4M",
      "citation": [
       "COSO, Enterprise Risk Management - Integrating with Strategy and Performance, 2017",
@@ -7075,7 +7075,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The two terms are used as synonyms and are not. Disaster recovery brings the\ntechnology back. Business continuity keeps the business function alive, by\ntechnology or by anything else that works - a manual process, an alternate\nsite, staff held in reserve. One is a component of the other.</p>"
+     "html": "<p>The two terms are used as synonyms and are not. Disaster recovery brings the\ntechnology back. Business continuity keeps the business function alive, by\ntechnology or by anything else that works: a manual process, an alternate\nsite, staff held in reserve. One is a component of the other.</p>"
     },
     {
      "type": "heading",
@@ -7087,7 +7087,7 @@
     },
     {
      "type": "prose",
-     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>Business continuity</th>\n<th>Disaster recovery</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Scope</td>\n<td>The critical business activity</td>\n<td>The IT systems beneath it</td>\n</tr>\n<tr>\n<td>The question it answers</td>\n<td>How does the function keep running?</td>\n<td>How do the systems come back?</td>\n</tr>\n<tr>\n<td>Owns</td>\n<td>The business line that runs the activity</td>\n<td>IT or infrastructure</td>\n</tr>\n<tr>\n<td>Trigger</td>\n<td>Any disruption to the activity</td>\n<td>Loss or failure of technology</td>\n</tr>\n<tr>\n<td>Output</td>\n<td>Workarounds, alternate arrangements, roles</td>\n<td>Restored systems, recovered data</td>\n</tr>\n</tbody>\n</table></div>\n<p>A disruption need not be technological to matter. A picket line, a burst pipe, a\nsupplier failing, a key team unreachable - none of these is a disaster recovery\nevent, and all of them stop the activity. Continuity has to cover the cases that\nhave no server in them at all.</p>"
+     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Dimension</th>\n<th>Business continuity</th>\n<th>Disaster recovery</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Scope</td>\n<td>The critical business activity</td>\n<td>The IT systems beneath it</td>\n</tr>\n<tr>\n<td>The question it answers</td>\n<td>How does the function keep running?</td>\n<td>How do the systems come back?</td>\n</tr>\n<tr>\n<td>Owns</td>\n<td>The business line that runs the activity</td>\n<td>IT or infrastructure</td>\n</tr>\n<tr>\n<td>Trigger</td>\n<td>Any disruption to the activity</td>\n<td>Loss or failure of technology</td>\n</tr>\n<tr>\n<td>Output</td>\n<td>Workarounds, alternate arrangements, roles</td>\n<td>Restored systems, recovered data</td>\n</tr>\n</tbody>\n</table></div>\n<p>A disruption need not be technological to matter. A picket line, a burst pipe, a\nsupplier failing, a key team unreachable: none of these is a disaster recovery\nevent, and all of them stop the activity. Continuity has to cover the cases that\nhave no server in them at all.</p>"
     },
     {
      "type": "heading",
@@ -7114,7 +7114,7 @@
       },
       {
        "term": "Dependencies",
-       "html": "What the activity actually needs to run - people, suppliers, systems and premises. A plan that lists only systems has missed most of them."
+       "html": "What the activity actually needs to run: people, suppliers, systems and premises. A plan that lists only systems has missed most of them."
       },
       {
        "term": "Alternate arrangements",
@@ -7166,12 +7166,12 @@
       {
        "q": "Is business continuity the same as disaster recovery?",
        "id": "faq-is-business-continuity-the-same-as-disaster-recovery",
-       "html": "<p>No. Disaster recovery restores technology - systems, data, connectivity.\nBusiness continuity keeps the critical activity running by whatever means, which\nmay be a manual workaround, an alternate site or standby staff that never touch\nthe failed system. Disaster recovery is one input to continuity, not a synonym\nfor it.</p>"
+       "html": "<p>No. Disaster recovery restores technology: systems, data, connectivity.\nBusiness continuity keeps the critical activity running by whatever means, which\nmay be a manual workaround, an alternate site or standby staff that never touch\nthe failed system. Disaster recovery is one input to continuity, not a synonym\nfor it.</p>"
       },
       {
        "q": "How often should a continuity plan be tested?",
        "id": "faq-how-often-should-a-continuity-plan-be-tested",
-       "html": "<p>On planned intervals and again after any material change to the process, its\npeople or its dependencies - ISO 22301 frames the cadence that way rather than as\na fixed figure, though annual is the common floor in practice. The test need not\nbe a full invocation each time; a\ntabletop walkthrough of one plausible scenario exposes most of the gaps that\nmatter, at a fraction of the cost.</p>"
+       "html": "<p>On planned intervals and again after any material change to the process, its\npeople or its dependencies. ISO 22301 frames the cadence that way rather than as\na fixed figure, though annual is the common floor in practice. The test need not\nbe a full invocation each time; a tabletop walkthrough of one plausible scenario\nexposes most of the gaps that matter, at a fraction of the cost.</p>"
       },
       {
        "q": "Who owns business continuity?",
@@ -7242,7 +7242,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 778,
+     "wordCount": 773,
      "timeRequired": "PT5M",
      "citation": [
       "ISO 22301:2019 - Security and resilience, business continuity management systems, requirements",
@@ -7272,7 +7272,7 @@
        "name": "Is business continuity the same as disaster recovery?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Disaster recovery restores technology - systems, data, connectivity. Business continuity keeps the critical activity running by whatever means, which may be a manual workaround, an alternate site or standby staff that never touch the failed system. Disaster recovery is one input to continuity, not a synonym for it."
+        "text": "No. Disaster recovery restores technology: systems, data, connectivity. Business continuity keeps the critical activity running by whatever means, which may be a manual workaround, an alternate site or standby staff that never touch the failed system. Disaster recovery is one input to continuity, not a synonym for it."
        }
       },
       {
@@ -7280,7 +7280,7 @@
        "name": "How often should a continuity plan be tested?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "On planned intervals and again after any material change to the process, its people or its dependencies - ISO 22301 frames the cadence that way rather than as a fixed figure, though annual is the common floor in practice. The test need not be a full invocation each time; a tabletop walkthrough of one plausible scenario exposes most of the gaps that matter, at a fraction of the cost."
+        "text": "On planned intervals and again after any material change to the process, its people or its dependencies. ISO 22301 frames the cadence that way rather than as a fixed figure, though annual is the common floor in practice. The test need not be a full invocation each time; a tabletop walkthrough of one plausible scenario exposes most of the gaps that matter, at a fraction of the cost."
        }
       },
       {
@@ -7369,7 +7369,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>It is the numbers engine under <a href=\"/risk/business-continuity/\">business continuity</a>.\nEverything downstream - recovery strategy, standby capacity, the plan&rsquo;s own\ndeadlines - is scaled from what the analysis produces. Get the numbers wrong and\nthe plan is either unaffordable or too slow, and there is no way to tell which\nuntil it is used.</p>"
+     "html": "<p>It is the numbers engine under <a href=\"/risk/business-continuity/\">business continuity</a>.\nEverything downstream (recovery strategy, standby capacity, the plan&rsquo;s own\ndeadlines) is scaled from what the analysis produces. Get the numbers wrong and\nthe plan is either unaffordable or too slow, and there is no way to tell which\nuntil it is used.</p>"
     },
     {
      "type": "heading",
@@ -7388,7 +7388,7 @@
       },
       {
        "term": "Recovery point objective (RPO)",
-       "html": "The maximum data loss that is tolerable, expressed as a length of time - the point back to which data must be recoverable. An RPO of fifteen minutes means never losing more than the last fifteen minutes of work."
+       "html": "The maximum data loss that is tolerable, expressed as a length of time, the point back to which data must be recoverable. An RPO of fifteen minutes means never losing more than the last fifteen minutes of work."
       },
       {
        "term": "Maximum tolerable period of disruption (MTPD/MTD)",
@@ -7398,7 +7398,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The ordering is a constraint, not a preference. RTO must be set shorter than\nMTPD. Set them equal, or the wrong way round, and the plan is scheduled to finish\nrestoring the activity at exactly the moment the damage has already become\nunacceptable - it misses its own deadline by design.</p>"
+     "html": "<p>The ordering is a constraint, not a preference. RTO must be set shorter than\nMTPD. Set them equal, or the wrong way round, and the plan is scheduled to finish\nrestoring the activity at exactly the moment the damage has already become\nunacceptable: it misses its own deadline by design.</p>"
     },
     {
      "type": "def",
@@ -7416,7 +7416,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Four steps, in order.</p>\n<p><strong>List the activities.</strong> Every activity the organisation performs, not the\nsystems behind them. Payroll is an activity; the payroll server is a dependency\nof it.</p>\n<p><strong>Grade impact against time.</strong> The same outage is trivial at one hour and fatal\nat one week. Impact is assessed as a curve that grows with the length of the\ndisruption - financial, legal, reputational and safety impact each plotted across\nhours, days and weeks. This is the step most often skipped, and skipping it is\nwhat makes the resulting numbers meaningless.</p>\n<p><strong>Map dependencies.</strong> For each activity, the people, systems, suppliers and\npremises it needs to run. An activity cannot recover faster than the slowest\nthing it depends on, so an RTO shorter than its dependencies&rsquo; is a fiction.</p>\n<p><strong>Set the numbers from the curve.</strong> The point where impact turns unacceptable\nfixes the MTPD, and the RTO is set shorter than it, with margin to spare. The RPO\nanswers a separate question - how much data the activity can afford to lose - and\nis read from the tolerable gap between backups, not off the downtime curve. The\nnumbers come from the impact, not the other way round. A programme that picks a\ncomfortable RTO first and writes the impact analysis to justify it afterwards has\nthe whole process reversed.</p>"
+     "html": "<p>Four steps, in order.</p>\n<p><strong>List the activities.</strong> Every activity the organisation performs, not the\nsystems behind them. Payroll is an activity; the payroll server is a dependency\nof it.</p>\n<p><strong>Grade impact against time.</strong> The same outage is trivial at one hour and fatal\nat one week. Impact is assessed as a curve that grows with the length of the\ndisruption: financial, legal, reputational and safety impact each plotted across\nhours, days and weeks. This is the step most often skipped, and skipping it is\nwhat makes the resulting numbers meaningless.</p>\n<p><strong>Map dependencies.</strong> For each activity, the people, systems, suppliers and\npremises it needs to run. An activity cannot recover faster than the slowest\nthing it depends on, so an RTO shorter than its dependencies&rsquo; is a fiction.</p>\n<p><strong>Set the numbers from the curve.</strong> The point where impact turns unacceptable\nfixes the MTPD, and the RTO is set shorter than it, with margin to spare. The RPO\nanswers a separate question (how much data the activity can afford to lose) and\nis read from the tolerable gap between backups, not off the downtime curve. The\nnumbers come from the impact, not the other way round. A programme that picks a\ncomfortable RTO first and writes the impact analysis to justify it afterwards has\nthe whole process reversed.</p>"
     },
     {
      "type": "heading",
@@ -7428,7 +7428,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Take one activity - customer payment processing - with an RTO of 4 hours, an RPO\nof 15 minutes and an MTPD of 24 hours. Each figure forces something concrete.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Figure</th>\n<th>What it forces</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>RTO 4 hours</td>\n<td>Payments must be recoverable within four hours of an outage, so the standby capacity, failover and trained staff to do it have to exist and be tested.</td>\n</tr>\n<tr>\n<td>RPO 15 minutes</td>\n<td>Transaction data must be captured or replicated at least every fifteen minutes, so no more than a quarter-hour of payments is ever lost.</td>\n</tr>\n<tr>\n<td>MTPD 24 hours</td>\n<td>Past a full day down, customers give up and move on, and the lost revenue stops being recoverable at all.</td>\n</tr>\n</tbody>\n</table></div>\n<p>The RTO buys margin against the MTPD. Four hours against a twenty-four-hour\ntolerance leaves room for a recovery that runs late without crossing the point of\nno return. That margin is the reason RTO is set below MTPD rather than at it.</p>"
+     "html": "<p>Take one activity, customer payment processing, with an RTO of 4 hours, an RPO\nof 15 minutes and an MTPD of 24 hours. Each figure forces something concrete.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Figure</th>\n<th>What it forces</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>RTO 4 hours</td>\n<td>Payments must be recoverable within four hours of an outage, so the standby capacity, failover and trained staff to do it have to exist and be tested.</td>\n</tr>\n<tr>\n<td>RPO 15 minutes</td>\n<td>Transaction data must be captured or replicated at least every fifteen minutes, so no more than a quarter-hour of payments is ever lost.</td>\n</tr>\n<tr>\n<td>MTPD 24 hours</td>\n<td>Past a full day down, customers give up and move on, and the lost revenue stops being recoverable at all.</td>\n</tr>\n</tbody>\n</table></div>\n<p>The RTO buys margin against the MTPD. Four hours against a twenty-four-hour\ntolerance leaves room for a recovery that runs late without crossing the point of\nno return. That margin is the reason RTO is set below MTPD rather than at it.</p>"
     },
     {
      "type": "heading",
@@ -7440,7 +7440,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Everything is rated critical.</strong> When every activity is top priority, every RTO\ncollapses to one hour and the plan demands more simultaneous recovery than any\norganisation can fund. A BIA that does not force a ranking has not been done.</p>\n<p><strong>Impact is never graded against time.</strong> A single severity score with no time\naxis cannot locate the MTPD - the moment impact crosses from tolerable to not -\nand without that point there is nothing for the RTO to be set inside. Without the\ncurve the numbers are guesses wearing a decimal point.</p>\n<p><strong>It is run once and shelved.</strong> A BIA completed for certification and never\nrevisited describes an organisation that has since moved on - activities,\nsuppliers and volumes have all changed. It is reviewed at planned intervals and\nafter any material change to the business - commonly at least once a year in\npractice.</p>"
+     "html": "<p><strong>Everything is rated critical.</strong> When every activity is top priority, every RTO\ncollapses to one hour and the plan demands more simultaneous recovery than any\norganisation can fund. A BIA that does not force a ranking has not been done.</p>\n<p><strong>Impact is never graded against time.</strong> A single severity score with no time\naxis cannot locate the MTPD (the moment impact crosses from tolerable to not),\nand without that point there is nothing for the RTO to be set inside. Without the\ncurve the numbers are guesses wearing a decimal point.</p>\n<p><strong>It is run once and shelved.</strong> A BIA completed for certification and never\nrevisited describes an organisation that has since moved on: activities,\nsuppliers and volumes have all changed. It is reviewed at planned intervals and\nafter any material change to the business, commonly at least once a year in\npractice.</p>"
     },
     {
      "type": "faq",
@@ -7448,7 +7448,7 @@
       {
        "q": "What is the difference between RTO and RPO?",
        "id": "faq-what-is-the-difference-between-rto-and-rpo",
-       "html": "<p>RTO looks forward: how quickly the activity must be running again. RPO looks backward: how much data, measured in time, can be lost when it returns. RTO is about downtime, RPO is about data loss, and the two are set independently - a payment system can tolerate hours of downtime but almost no lost transactions.</p>"
+       "html": "<p>RTO looks forward: how quickly the activity must be running again. RPO looks backward: how much data, measured in time, can be lost when it returns. RTO is about downtime, RPO is about data loss, and the two are set independently: a payment system can tolerate hours of downtime but almost no lost transactions.</p>"
       },
       {
        "q": "Who provides the data for a BIA?",
@@ -7458,7 +7458,7 @@
       {
        "q": "How often should a BIA be redone?",
        "id": "faq-how-often-should-a-bia-be-redone",
-       "html": "<p>At least annually, and on any material change - a new product, an acquisition, a moved supplier or a changed regulatory obligation. A BIA is a snapshot of a moving business; left unrevised it goes quietly out of date and takes the whole continuity plan with it.</p>"
+       "html": "<p>At least annually, and on any material change: a new product, an acquisition, a moved supplier or a changed regulatory obligation. A BIA is a snapshot of a moving business; left unrevised it goes quietly out of date and takes the whole continuity plan with it.</p>"
       }
      ]
     }
@@ -7524,7 +7524,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 940,
+     "wordCount": 925,
      "timeRequired": "PT5M",
      "citation": [
       "ISO 22301:2019 - Security and resilience, business continuity management systems, requirements",
@@ -7554,7 +7554,7 @@
        "name": "What is the difference between RTO and RPO?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "RTO looks forward: how quickly the activity must be running again. RPO looks backward: how much data, measured in time, can be lost when it returns. RTO is about downtime, RPO is about data loss, and the two are set independently - a payment system can tolerate hours of downtime but almost no lost transactions."
+        "text": "RTO looks forward: how quickly the activity must be running again. RPO looks backward: how much data, measured in time, can be lost when it returns. RTO is about downtime, RPO is about data loss, and the two are set independently: a payment system can tolerate hours of downtime but almost no lost transactions."
        }
       },
       {
@@ -7570,7 +7570,7 @@
        "name": "How often should a BIA be redone?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "At least annually, and on any material change - a new product, an acquisition, a moved supplier or a changed regulatory obligation. A BIA is a snapshot of a moving business; left unrevised it goes quietly out of date and takes the whole continuity plan with it."
+        "text": "At least annually, and on any material change: a new product, an acquisition, a moved supplier or a changed regulatory obligation. A BIA is a snapshot of a moving business; left unrevised it goes quietly out of date and takes the whole continuity plan with it."
        }
       }
      ]
@@ -7648,7 +7648,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Third-party risk management is identifying, <strong>tiering and monitoring the risk\nthat suppliers and vendors carry into the organisation</strong> - because a control you\ndepend on is now operated by someone you do not manage."
+     "html": "Third-party risk management is identifying, <strong>tiering and monitoring the risk\nthat suppliers and vendors carry into the organisation</strong>, because a control you\ndepend on is now operated by someone you do not manage."
     },
     {
      "type": "prose",
@@ -7664,7 +7664,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The first move is to sort the population by what each supplier could actually\nhurt - access to production data, position inside a continuity RTO, regulatory\nexposure - and never by what it costs. Depth of due diligence then scales with\nthe tier, so effort lands where the exposure is.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Tier</th>\n<th>What the supplier can hurt</th>\n<th>Due-diligence depth</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Critical</td>\n<td>Holds production or customer data, or sits inside a recovery time objective</td>\n<td>Full assessment: security review, financial stability, evidence-backed or on-site audit, named executive sponsor</td>\n</tr>\n<tr>\n<td>Important</td>\n<td>Regulatory exposure, or access to limited personal data</td>\n<td>Questionnaire with evidence sampled, contractual controls verified before signing</td>\n</tr>\n<tr>\n<td>Routine</td>\n<td>No sensitive data, readily replaced</td>\n<td>Standard terms, a register entry and light reassessment by exception</td>\n</tr>\n</tbody>\n</table></div>\n<p>A cheap supplier with a live connection to production belongs in the top tier. A\nlarge invoice for stationery does not. Spend is the wrong axis.</p>"
+     "html": "<p>The first move is to sort the population by what each supplier could actually\nhurt (access to production data, position inside a continuity RTO, regulatory\nexposure), never by what it costs. Depth of due diligence then scales with\nthe tier, so effort lands where the exposure is.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Tier</th>\n<th>What the supplier can hurt</th>\n<th>Due-diligence depth</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Critical</td>\n<td>Holds production or customer data, or sits inside a recovery time objective</td>\n<td>Full assessment: security review, financial stability, evidence-backed or on-site audit, named executive sponsor</td>\n</tr>\n<tr>\n<td>Important</td>\n<td>Regulatory exposure, or access to limited personal data</td>\n<td>Questionnaire with evidence sampled, contractual controls verified before signing</td>\n</tr>\n<tr>\n<td>Routine</td>\n<td>No sensitive data, readily replaced</td>\n<td>Standard terms, a register entry and light reassessment by exception</td>\n</tr>\n</tbody>\n</table></div>\n<p>A cheap supplier with a live connection to production belongs in the top tier. A\nlarge invoice for stationery does not. Spend is the wrong axis.</p>"
     },
     {
      "type": "heading",
@@ -7683,7 +7683,7 @@
      "items": [
       {
        "term": "Onboarding due diligence",
-       "html": "The assessment done before signing, scaled to tier - security posture, financial stability and regulatory standing, judged on the evidence behind the answers rather than the answers alone."
+       "html": "The assessment done before signing, scaled to tier: security posture, financial stability and regulatory standing, judged on the evidence behind the answers rather than the answers alone."
       },
       {
        "term": "Contractual controls",
@@ -7691,7 +7691,7 @@
       },
       {
        "term": "Ongoing monitoring",
-       "html": "Reassessment on a cadence set by tier, plus watching for the events that change the tier - a breach, a change of control, a service moved offshore."
+       "html": "Reassessment on a cadence set by tier, plus watching for the events that change the tier: a breach, a change of control, a service moved offshore."
       },
       {
        "term": "Offboarding",
@@ -7703,7 +7703,7 @@
      "type": "def",
      "term": "Fourth-party risk",
      "ref": "3.1",
-     "html": "The risk that arrives through your supplier&rsquo;s own suppliers - the parties you have no contract with and cannot assess directly. It is managed indirectly, by requiring each critical third party to control and disclose its own critical dependencies."
+     "html": "The risk that arrives through your supplier&rsquo;s own suppliers: the parties you have no contract with and cannot assess directly. It is managed indirectly, by requiring each critical third party to control and disclose its own critical dependencies."
     },
     {
      "type": "heading",
@@ -7715,7 +7715,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Due diligence done once.</strong> The assessment is completed at onboarding, filed and\nnever repeated. The supplier&rsquo;s risk is frozen at the one moment it was lowest -\nbefore it had access to anything.</p>\n<p><strong>Tiering by contract value.</strong> The largest invoice gets the deepest review while a\ncheap supplier with production access is waved through. That is usually where the\nincident comes from.</p>\n<p><strong>A questionnaire nobody reads.</strong> Two hundred answered questions, no evidence\nsampled, no follow-up on the &ldquo;no&rdquo; that should have stopped the deal. A completed\nquestionnaire is not assurance; a verified one is.</p>\n<p><strong>Concentration risk.</strong> Ten services behind one provider, each passed on its own\nand nobody added them up. Aggregate exposure is the risk function&rsquo;s job - see\n<a href=\"/risk/what-the-risk-function-produces/\">3.0</a> - not the procurement queue&rsquo;s.</p>"
+     "html": "<p><strong>Due diligence done once.</strong> The assessment is completed at onboarding, filed and\nnever repeated. The supplier&rsquo;s risk is frozen at the one moment it was lowest,\nbefore it had access to anything.</p>\n<p><strong>Tiering by contract value.</strong> The largest invoice gets the deepest review while a\ncheap supplier with production access is waved through. That is usually where the\nincident comes from.</p>\n<p><strong>A questionnaire nobody reads.</strong> Two hundred answered questions, no evidence\nsampled, no follow-up on the &ldquo;no&rdquo; that should have stopped the deal. A completed\nquestionnaire is not assurance; a verified one is.</p>\n<p><strong>Concentration risk.</strong> Ten services behind one provider, each passed on its own\nand nobody added them up. Aggregate exposure is the risk function&rsquo;s job (see\n<a href=\"/risk/what-the-risk-function-produces/\">3.0</a>), not the procurement queue&rsquo;s.</p>"
     },
     {
      "type": "heading",
@@ -7731,7 +7731,7 @@
       {
        "q": "What is the difference between vendor risk and third-party risk?",
        "id": "faq-what-is-the-difference-between-vendor-risk-and-third-party-risk",
-       "html": "<p>Little worth managing to separately. &ldquo;Vendor&rdquo; usually names a supplier paid for a product or service; &ldquo;third party&rdquo; is the wider set that also includes partners, agents, resellers and anyone else operating a control on your behalf. The techniques - tiering, due diligence, monitoring, offboarding - are identical, so both are handled as one population. The distinction that does matter is risk versus compliance, covered at <a href=\"/foundations/risk-vs-compliance/\">1.9</a>.</p>"
+       "html": "<p>Little worth managing to separately. &ldquo;Vendor&rdquo; usually names a supplier paid for a product or service; &ldquo;third party&rdquo; is the wider set that also includes partners, agents, resellers and anyone else operating a control on your behalf. The techniques (tiering, due diligence, monitoring, offboarding) are identical, so both are handled as one population. The distinction that does matter is risk versus compliance, covered at <a href=\"/foundations/risk-vs-compliance/\">1.9</a>.</p>"
       },
       {
        "q": "What is fourth-party risk?",
@@ -7741,7 +7741,7 @@
       {
        "q": "How often should a third party be reassessed?",
        "id": "faq-how-often-should-a-third-party-be-reassessed",
-       "html": "<p>On a cadence set by tier, not a single calendar rule. Critical suppliers annually at least, and immediately on a trigger - a breach, a change of control, a service relocated. Routine suppliers can run on a longer cycle or by exception. A flat &ldquo;every three years for everyone&rdquo; repeats the tiering-by-spend mistake: it decouples effort from risk.</p>"
+       "html": "<p>On a cadence set by tier, not a single calendar rule. Critical suppliers annually at least, and immediately on a trigger: a breach, a change of control, a service relocated. Routine suppliers can run on a longer cycle or by exception. A flat &ldquo;every three years for everyone&rdquo; repeats the tiering-by-spend mistake: it decouples effort from risk.</p>"
       }
      ]
     }
@@ -7807,7 +7807,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 717,
+     "wordCount": 706,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27036-2:2022 - Cybersecurity, supplier relationships, Part 2: Requirements",
@@ -7837,7 +7837,7 @@
        "name": "What is the difference between vendor risk and third-party risk?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Little worth managing to separately. &ldquo;Vendor&rdquo; usually names a supplier paid for a product or service; &ldquo;third party&rdquo; is the wider set that also includes partners, agents, resellers and anyone else operating a control on your behalf. The techniques - tiering, due diligence, monitoring, offboarding - are identical, so both are handled as one population. The distinction that does matter is risk versus compliance, covered at 1.9 ."
+        "text": "Little worth managing to separately. &ldquo;Vendor&rdquo; usually names a supplier paid for a product or service; &ldquo;third party&rdquo; is the wider set that also includes partners, agents, resellers and anyone else operating a control on your behalf. The techniques (tiering, due diligence, monitoring, offboarding) are identical, so both are handled as one population. The distinction that does matter is risk versus compliance, covered at 1.9 ."
        }
       },
       {
@@ -7853,7 +7853,7 @@
        "name": "How often should a third party be reassessed?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "On a cadence set by tier, not a single calendar rule. Critical suppliers annually at least, and immediately on a trigger - a breach, a change of control, a service relocated. Routine suppliers can run on a longer cycle or by exception. A flat &ldquo;every three years for everyone&rdquo; repeats the tiering-by-spend mistake: it decouples effort from risk."
+        "text": "On a cadence set by tier, not a single calendar rule. Critical suppliers annually at least, and immediately on a trigger: a breach, a change of control, a service relocated. Routine suppliers can run on a longer cycle or by exception. A flat &ldquo;every three years for everyone&rdquo; repeats the tiering-by-spend mistake: it decouples effort from risk."
        }
       }
      ]
@@ -7925,7 +7925,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "An emerging risk is one whose <strong>likelihood or impact is not yet understood well\nenough to score reliably</strong> - new, fast-changing or not yet materialised. That is\nexactly why it resists the ordinary register, which assumes every risk can\nalready be sized."
+     "html": "An emerging risk is one whose <strong>likelihood or impact is not yet understood well\nenough to score reliably</strong>: new, fast-changing or not yet materialised. That is\nexactly why it resists the ordinary register, which assumes every risk can\nalready be sized."
     },
     {
      "type": "prose",
@@ -7941,7 +7941,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A likelihood-times-impact score needs a basis to stand on: history, comparable\nevents or documented criteria to reason from. An emerging risk has none of these\nyet - that absence is what makes it emerging. Force a number onto it and the\nnumber manufactures a precision that does not exist.</p>\n<p>The failure is not that the register rejects the risk. It is that the register\nabsorbs it. An unfamiliar risk with no track record almost always scores low,\nand a low score on an ordinary register (see\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>) is where a risk goes to be forgotten.\nNothing looks wrong. The item is on the list, near the bottom, never reviewed.</p>"
+     "html": "<p>A likelihood-times-impact score needs a basis to stand on: history, comparable\nevents or documented criteria to reason from. An emerging risk has none of these\nyet: that absence is what makes it emerging. Force a number onto it and the\nnumber manufactures a precision that does not exist.</p>\n<p>The failure is not that the register rejects the risk. It is that the register\nabsorbs it. An unfamiliar risk with no track record almost always scores low,\nand a low score on an ordinary register (see\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>) is where a risk goes to be forgotten.\nNothing looks wrong. The item is on the list, near the bottom, never reviewed.</p>"
     },
     {
      "type": "heading",
@@ -7953,7 +7953,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Horizon scanning earns its place only when it feeds a decision. Three things\nseparate a real scan from a slideshow.</p>\n<p><strong>Named sources.</strong> Regulatory pipelines - consultations and draft legislation\nbefore they bind. Incidents in the sector, especially at comparable\norganisations. Technology shifts that change what an attacker or a competitor\ncan do. Each source has one person responsible for reading it.</p>\n<p><strong>A fixed cadence.</strong> A scan that happens when someone remembers is not a scan.\nQuarterly is common; the interval matters less than that it is booked and\nminuted.</p>\n<p><strong>A watch-list, held apart.</strong> Emerging risks sit on a list of their own, kept\nseparate from the register so they are not forced into a score, but put in front\nof the same committee that reads the register. An item is promoted into the\nregister the moment it becomes scorable - the first comparable incident, the\nfirst draft rule with a date attached.</p>"
+     "html": "<p>Horizon scanning earns its place only when it feeds a decision. Three things\nseparate a real scan from a slideshow.</p>\n<p><strong>Named sources.</strong> Regulatory pipelines: consultations and draft legislation\nbefore they bind. Incidents in the sector, especially at comparable\norganisations. Technology shifts that change what an attacker or a competitor\ncan do. Each source has one person responsible for reading it.</p>\n<p><strong>A fixed cadence.</strong> A scan that happens when someone remembers is not a scan.\nQuarterly is common; the interval matters less than that it is booked and\nminuted.</p>\n<p><strong>A watch-list, held apart.</strong> Emerging risks sit on a list of their own, kept\nseparate from the register so they are not forced into a score, but put in front\nof the same committee that reads the register. An item is promoted into the\nregister the moment it becomes scorable: the first comparable incident, the\nfirst draft rule with a date attached.</p>"
     },
     {
      "type": "def",
@@ -7979,17 +7979,17 @@
       {
        "q": "What is the difference between an emerging risk and an existing one?",
        "id": "faq-what-is-the-difference-between-an-emerging-risk-and-an-existing-one",
-       "html": "<p>An existing risk can be sized. There is history, criteria or a comparable event\nto reason from, so it carries a likelihood, an impact and a place on the\nregister. An emerging risk cannot be sized yet - it is new, moving too fast to\npin down, or has not materialised anywhere. The dividing line is not how novel\nit feels but whether a reliable score is possible.</p>"
+       "html": "<p>An existing risk can be sized. There is history, criteria or a comparable event\nto reason from, so it carries a likelihood, an impact and a place on the\nregister. An emerging risk cannot be sized yet: it is new, moving too fast to\npin down, or has not materialised anywhere. The dividing line is not how novel\nit feels but whether a reliable score is possible.</p>"
       },
       {
        "q": "How do you score an emerging risk?",
        "id": "faq-how-do-you-score-an-emerging-risk",
-       "html": "<p>Ideally, not yet - that is the whole point. Scoring it prematurely invents a\nnumber with no basis and usually parks it low. Instead, hold it on a watch-list\nwith what is known, what would change the picture and what is being watched for.\nPromote it into the register, and score it, the moment there is a basis: a\ncomparable incident, a draft rule with a date, a first loss.</p>"
+       "html": "<p>Ideally, not yet; that is the whole point. Scoring it prematurely invents a\nnumber with no basis and usually parks it low. Instead, hold it on a watch-list\nwith what is known, what would change the picture and what is being watched for.\nPromote it into the register, and score it, the moment there is a basis: a\ncomparable incident, a draft rule with a date, a first loss.</p>"
       },
       {
        "q": "Who owns horizon scanning?",
        "id": "faq-who-owns-horizon-scanning",
-       "html": "<p>The risk function owns the process - the sources, the cadence and the watch-list.\nIt does not own the subject-matter judgement behind each entry. Reading the\nregulatory pipeline sits with compliance or legal; reading sector incidents sits\nwith security or operations. See\n<a href=\"/risk/what-the-risk-function-produces/\">3.0</a> for the split between owning a\nprocess and owning the content that runs through it.</p>"
+       "html": "<p>The risk function owns the process: the sources, the cadence and the watch-list.\nIt does not own the subject-matter judgement behind each entry. Reading the\nregulatory pipeline sits with compliance or legal; reading sector incidents sits\nwith security or operations. See\n<a href=\"/risk/what-the-risk-function-produces/\">3.0</a> for the split between owning a\nprocess and owning the content that runs through it.</p>"
       }
      ]
     }
@@ -8055,7 +8055,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 728,
+     "wordCount": 722,
      "timeRequired": "PT4M",
      "citation": [
       "ISO 31000:2018 - Risk management, guidelines",
@@ -8085,7 +8085,7 @@
        "name": "What is the difference between an emerging risk and an existing one?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An existing risk can be sized. There is history, criteria or a comparable event to reason from, so it carries a likelihood, an impact and a place on the register. An emerging risk cannot be sized yet - it is new, moving too fast to pin down, or has not materialised anywhere. The dividing line is not how novel it feels but whether a reliable score is possible."
+        "text": "An existing risk can be sized. There is history, criteria or a comparable event to reason from, so it carries a likelihood, an impact and a place on the register. An emerging risk cannot be sized yet: it is new, moving too fast to pin down, or has not materialised anywhere. The dividing line is not how novel it feels but whether a reliable score is possible."
        }
       },
       {
@@ -8093,7 +8093,7 @@
        "name": "How do you score an emerging risk?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ideally, not yet - that is the whole point. Scoring it prematurely invents a number with no basis and usually parks it low. Instead, hold it on a watch-list with what is known, what would change the picture and what is being watched for. Promote it into the register, and score it, the moment there is a basis: a comparable incident, a draft rule with a date, a first loss."
+        "text": "Ideally, not yet; that is the whole point. Scoring it prematurely invents a number with no basis and usually parks it low. Instead, hold it on a watch-list with what is known, what would change the picture and what is being watched for. Promote it into the register, and score it, the moment there is a basis: a comparable incident, a draft rule with a date, a first loss."
        }
       },
       {
@@ -8101,7 +8101,7 @@
        "name": "Who owns horizon scanning?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The risk function owns the process - the sources, the cadence and the watch-list. It does not own the subject-matter judgement behind each entry. Reading the regulatory pipeline sits with compliance or legal; reading sector incidents sits with security or operations. See 3.0 for the split between owning a process and owning the content that runs through it."
+        "text": "The risk function owns the process: the sources, the cadence and the watch-list. It does not own the subject-matter judgement behind each entry. Reading the regulatory pipeline sits with compliance or legal; reading sector incidents sits with security or operations. See 3.0 for the split between owning a process and owning the content that runs through it."
        }
       }
      ]
@@ -8140,7 +8140,7 @@
    ],
    "sources": [
     "ISO 31000:2018 - Risk management, guidelines (retaining a risk by informed decision)",
-    "Exception- and waiver-register conventions - expiry, compensating control, approver at the right level - are control-governance good practice drawn from security and audit practice, not a single mandated standard"
+    "Exception- and waiver-register conventions (expiry, compensating control, approver at the right level) are control-governance good practice drawn from security and audit practice, not a single mandated standard"
    ],
    "prev": {
     "ref": "3.9",
@@ -8177,7 +8177,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A waiver does not weaken the policy. It records, in one place and above someone&rsquo;s\nsignature, that a specific gap is known, is bounded and will be looked at again.\nThe alternative is not compliance - it is the same gap, undocumented and owned by\nnobody.</p>"
+     "html": "<p>A waiver does not weaken the policy. It records, in one place and above someone&rsquo;s\nsignature, that a specific gap is known, is bounded and will be looked at again.\nThe alternative is not compliance: it is the same gap, undocumented and owned by\nnobody.</p>"
     },
     {
      "type": "def",
@@ -8206,7 +8206,7 @@
       },
       {
        "term": "The reason",
-       "html": "Why the exception is needed - a system that cannot meet the control, a delivery deadline, a disproportionate cost - recorded so the next reader can weigh it without asking."
+       "html": "Why the exception is needed (a system that cannot meet the control, a delivery deadline, a disproportionate cost), recorded so the next reader can weigh it without asking."
       },
       {
        "term": "The compensating control",
@@ -8256,12 +8256,12 @@
       {
        "q": "What is the difference between a waiver and risk acceptance?",
        "id": "faq-what-is-the-difference-between-a-waiver-and-risk-acceptance",
-       "html": "<p>A waiver is a form of risk acceptance - the acceptance decision from <a href=\"/risk/risk-treatment/\">3.3</a> - applied to a named control or policy and bounded by an expiry date. Plain acceptance can stand open-ended; a waiver is the same decision made time-bound and tied to a specific gap, so it returns for review rather than lasting forever by omission.</p>"
+       "html": "<p>A waiver is a form of risk acceptance (the acceptance decision from <a href=\"/risk/risk-treatment/\">3.3</a>) applied to a named control or policy and bounded by an expiry date. Plain acceptance can stand open-ended; a waiver is the same decision made time-bound and tied to a specific gap, so it returns for review rather than lasting forever by omission.</p>"
       },
       {
        "q": "Who should approve a policy waiver?",
        "id": "faq-who-should-approve-a-policy-waiver",
-       "html": "<p>One named person at a level that matches the exposure being accepted. A small, well-compensated gap can be signed by the control owner; a material one belongs to the risk owner or an executive - the same person who could accept the underlying risk. The approver must sit high enough to own the consequence if the compensating control fails.</p>"
+       "html": "<p>One named person at a level that matches the exposure being accepted. A small, well-compensated gap can be signed by the control owner; a material one belongs to the risk owner or an executive, the same person who could accept the underlying risk. The approver must sit high enough to own the consequence if the compensating control fails.</p>"
       },
       {
        "q": "What happens when a waiver expires but the gap remains?",
@@ -8273,7 +8273,7 @@
    ],
    "sources_html": [
     "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 - Risk management, guidelines (retaining a risk by informed decision)</a>",
-    "Exception- and waiver-register conventions - expiry, compensating control, approver at the right level - are control-governance good practice drawn from security and audit practice, not a single mandated standard"
+    "Exception- and waiver-register conventions (expiry, compensating control, approver at the right level) are control-governance good practice drawn from security and audit practice, not a single mandated standard"
    ],
    "ld": [
     {
@@ -8332,11 +8332,11 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 709,
+     "wordCount": 704,
      "timeRequired": "PT4M",
      "citation": [
       "ISO 31000:2018 - Risk management, guidelines (retaining a risk by informed decision)",
-      "Exception- and waiver-register conventions - expiry, compensating control, approver at the right level - are control-governance good practice drawn from security and audit practice, not a single mandated standard"
+      "Exception- and waiver-register conventions (expiry, compensating control, approver at the right level) are control-governance good practice drawn from security and audit practice, not a single mandated standard"
      ],
      "keywords": "policy waiver, policy exception, security exception process, exception register, risk acceptance"
     },
@@ -8362,7 +8362,7 @@
        "name": "What is the difference between a waiver and risk acceptance?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A waiver is a form of risk acceptance - the acceptance decision from 3.3 - applied to a named control or policy and bounded by an expiry date. Plain acceptance can stand open-ended; a waiver is the same decision made time-bound and tied to a specific gap, so it returns for review rather than lasting forever by omission."
+        "text": "A waiver is a form of risk acceptance (the acceptance decision from 3.3 ) applied to a named control or policy and bounded by an expiry date. Plain acceptance can stand open-ended; a waiver is the same decision made time-bound and tied to a specific gap, so it returns for review rather than lasting forever by omission."
        }
       },
       {
@@ -8370,7 +8370,7 @@
        "name": "Who should approve a policy waiver?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "One named person at a level that matches the exposure being accepted. A small, well-compensated gap can be signed by the control owner; a material one belongs to the risk owner or an executive - the same person who could accept the underlying risk. The approver must sit high enough to own the consequence if the compensating control fails."
+        "text": "One named person at a level that matches the exposure being accepted. A small, well-compensated gap can be signed by the control owner; a material one belongs to the risk owner or an executive, the same person who could accept the underlying risk. The approver must sit high enough to own the consequence if the compensating control fails."
        }
       },
       {
@@ -8460,11 +8460,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "A key risk indicator is a <strong>metric that warns that risk exposure is moving\ntoward, or past, appetite</strong> - where a key performance indicator measures progress\ntoward an objective. A KRI is chosen to lead, so the warning arrives while there\nis still time to act."
+     "html": "A key risk indicator is a <strong>metric that warns that risk exposure is moving\ntoward, or past, appetite</strong>, where a key performance indicator measures progress\ntoward an objective. A KRI is chosen to lead, so the warning arrives while there\nis still time to act."
     },
     {
      "type": "prose",
-     "html": "<p>The distinction is not simply leading versus lagging. What separates them is\nsubject: a KPI tracks performance against an objective, a KRI tracks the exposure\nbehind a risk. A KRI is then chosen so that it moves early - watching the drivers\nof a risk while there is still time to act, rather than its residual score on the\nregister <a href=\"/risk/reading-a-risk-register/\">3.1</a> after the fact.</p>"
+     "html": "<p>The distinction is not simply leading versus lagging. What separates them is\nsubject: a KPI tracks performance against an objective, a KRI tracks the exposure\nbehind a risk. A KRI is then chosen so that it moves early: watching the drivers\nof a risk while there is still time to act, rather than its residual score on the\nregister <a href=\"/risk/reading-a-risk-register/\">3.1</a> after the fact.</p>"
     },
     {
      "type": "heading",
@@ -8476,7 +8476,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The two are routinely confused because both are numbers on the same dashboard.\nThey answer different questions: one tracks the exposure behind a risk, the other\nprogress toward an objective.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th></th>\n<th>Key risk indicator</th>\n<th>Key performance indicator</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>What it measures</td>\n<td>Exposure moving toward a limit</td>\n<td>Progress toward an objective</td>\n</tr>\n<tr>\n<td>Direction in time</td>\n<td>Chosen to lead - warns before the event</td>\n<td>Usually lagging - records after</td>\n</tr>\n<tr>\n<td>What it is tied to</td>\n<td>An appetite threshold</td>\n<td>A performance target</td>\n</tr>\n<tr>\n<td>The question it answers</td>\n<td>Is a risk building?</td>\n<td>Was the objective met?</td>\n</tr>\n<tr>\n<td>Example</td>\n<td>Privileged accounts without MFA</td>\n<td>Uptime achieved this quarter</td>\n</tr>\n</tbody>\n</table></div>\n<p>The same raw figure can serve as either, depending on what it is tied to. Uptime\nagainst a target is a KPI; the number of near-misses trending up beneath that\nuptime is a KRI.</p>"
+     "html": "<p>The two are routinely confused because both are numbers on the same dashboard.\nThey answer different questions: one tracks the exposure behind a risk, the other\nprogress toward an objective.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th></th>\n<th>Key risk indicator</th>\n<th>Key performance indicator</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>What it measures</td>\n<td>Exposure moving toward a limit</td>\n<td>Progress toward an objective</td>\n</tr>\n<tr>\n<td>Direction in time</td>\n<td>Chosen to lead; warns before the event</td>\n<td>Usually lagging; records after</td>\n</tr>\n<tr>\n<td>What it is tied to</td>\n<td>An appetite threshold</td>\n<td>A performance target</td>\n</tr>\n<tr>\n<td>The question it answers</td>\n<td>Is a risk building?</td>\n<td>Was the objective met?</td>\n</tr>\n<tr>\n<td>Example</td>\n<td>Privileged accounts without MFA</td>\n<td>Uptime achieved this quarter</td>\n</tr>\n</tbody>\n</table></div>\n<p>The same raw figure can serve as either, depending on what it is tied to. Uptime\nagainst a target is a KPI; the number of near-misses trending up beneath that\nuptime is a KRI.</p>"
     },
     {
      "type": "heading",
@@ -8527,7 +8527,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Take a single control risk: privileged accounts left without multi-factor\nauthentication. The indicator is the proportion of privileged accounts with no\nsecond factor, and appetite is expressed as bands - illustratively, green below\ntwo per cent, amber at five per cent, red at ten per cent. The figures are\nexamples; the real ones come from what the organisation has decided it can carry.</p>\n<p>Amber is where the indicator earns its place. Crossing it is not an incident, so\nnothing has failed yet, but it triggers a named response: the account owner is\nnotified, the coverage gap is closed within a fixed window and if the figure\nreaches red the exception is escalated to the risk committee. An indicator with\nnone of that wiring behind it is a colour on a slide.</p>"
+     "html": "<p>Take a single control risk: privileged accounts left without multi-factor\nauthentication. The indicator is the proportion of privileged accounts with no\nsecond factor, and appetite is expressed as bands: illustratively, green below\ntwo per cent, amber at five per cent, red at ten per cent. The figures are\nexamples; the real ones come from what the organisation has decided it can carry.</p>\n<p>Amber is where the indicator earns its place. Crossing it is not an incident, so\nnothing has failed yet, but it triggers a named response: the account owner is\nnotified, the coverage gap is closed within a fixed window and if the figure\nreaches red the exception is escalated to the risk committee. An indicator with\nnone of that wiring behind it is a colour on a slide.</p>"
     },
     {
      "type": "heading",
@@ -8631,7 +8631,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 813,
+     "wordCount": 809,
      "timeRequired": "PT5M",
      "citation": [
       "COSO, Enterprise Risk Management - Integrating with Strategy and Performance, 2017",
@@ -8749,7 +8749,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Risk quantification expresses exposure as a <strong>monetary range - a probable loss\nand its spread - instead of a colour on a heat map</strong>. It answers the one\nquestion a red, amber or green cell cannot: how much."
+     "html": "Risk quantification expresses exposure as a <strong>monetary range (a probable loss\nand its spread) instead of a colour on a heat map</strong>. It answers the one\nquestion a red, amber or green cell cannot: how much."
     },
     {
      "type": "heading",
@@ -8761,7 +8761,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Neither method outranks the other; each answers a different question.\nQualitative scoring - the likelihood-times-impact heat map at\n<a href=\"/risk/reading-a-risk-register/\">3.1</a> - triages breadth cheaply, ranking a whole\nregister in an afternoon. Quantification costs more, and earns its place on the\nfew decisions where a number actually changes the call: a large risk acceptance,\na control-spend trade-off or a board question about whether exposure sits inside\ncapacity (<a href=\"/risk/risk-capacity/\">3.4</a>).</p>\n<p>The mistake is to treat one as the grown-up version of the other. A register\nquantified end to end is not more mature than a well-kept heat map. It is usually\njust more expensive.</p>"
+     "html": "<p>Neither method outranks the other; each answers a different question.\nQualitative scoring (the likelihood-times-impact heat map at\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>) triages breadth cheaply, ranking a whole\nregister in an afternoon. Quantification costs more, and earns its place on the\nfew decisions where a number actually changes the call: a large risk acceptance,\na control-spend trade-off or a board question about whether exposure sits inside\ncapacity (<a href=\"/risk/risk-capacity/\">3.4</a>).</p>\n<p>The mistake is to treat one as the grown-up version of the other. A register\nquantified end to end is not more mature than a well-kept heat map. It is usually\njust more expensive.</p>"
     },
     {
      "type": "heading",
@@ -8773,7 +8773,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A quantified risk is a loss, and a loss has two parts: how often the event\nhappens and how much it costs when it does. Loss equals frequency times\nmagnitude. Expressed honestly, each side is a range, so the output is a\ndistribution - a most-likely figure with a spread around it - not a single\nnumber dressed up as certainty.</p>\n<p>Money is the usual unit because it lets unlike risks be compared and weighed\nagainst the cost of treating them. A count of records exposed or hours lost is\nquantitative too; the financial form is simply the one that travels to a board.</p>\n<p>The simplest form drops the spread and multiplies two point estimates.\nAnnualised loss expectancy (ALE) is single loss expectancy times the annual rate\nof occurrence: a £2m loss expected once every ten years is an ALE of £200,000. It\nis a starting point, not the destination.</p>\n<p>FAIR - Factor Analysis of Information Risk, standardised by The Open Group as\nOpen FAIR - is the common open method for decomposing frequency and magnitude\ninto parts that can each be estimated. It gives a shared vocabulary and a\ndefensible structure. It does not manufacture data: the output is only ever as\nsound as the estimates fed into it.</p>"
+     "html": "<p>A quantified risk is a loss, and a loss has two parts: how often the event\nhappens and how much it costs when it does. Loss equals frequency times\nmagnitude. Expressed honestly, each side is a range, so the output is a\ndistribution (a most-likely figure with a spread around it), not a single\nnumber dressed up as certainty.</p>\n<p>Money is the usual unit because it lets unlike risks be compared and weighed\nagainst the cost of treating them. A count of records exposed or hours lost is\nquantitative too; the financial form is simply the one that travels to a board.</p>\n<p>The simplest form drops the spread and multiplies two point estimates.\nAnnualised loss expectancy (ALE) is single loss expectancy times the annual rate\nof occurrence: a £2m loss expected once every ten years is an ALE of £200,000. It\nis a starting point, not the destination.</p>\n<p>FAIR (Factor Analysis of Information Risk, standardised by The Open Group as\nOpen FAIR) is the common open method for decomposing frequency and magnitude\ninto parts that can each be estimated. It gives a shared vocabulary and a\ndefensible structure. It does not manufacture data: the output is only ever as\nsound as the estimates fed into it.</p>"
     },
     {
      "type": "def",
@@ -8799,7 +8799,7 @@
       {
        "q": "What is the difference between qualitative and quantitative risk analysis?",
        "id": "faq-what-is-the-difference-between-qualitative-and-quantitative-risk-analysis",
-       "html": "<p>Qualitative analysis ranks risks on a descriptive scale - usually likelihood\ntimes impact rendered as a heat map - and is quick enough to run across an entire\nregister. Quantitative analysis expresses a risk as a monetary loss, or a range\nof losses, and takes real effort to do well.</p>\n<p>One sorts the population; the other sizes an individual decision. Most programmes\nneed both, applied where each fits.</p>"
+       "html": "<p>Qualitative analysis ranks risks on a descriptive scale (usually likelihood\ntimes impact rendered as a heat map) and is quick enough to run across an entire\nregister. Quantitative analysis expresses a risk as a monetary loss, or a range\nof losses, and takes real effort to do well.</p>\n<p>One sorts the population; the other sizes an individual decision. Most programmes\nneed both, applied where each fits.</p>"
       },
       {
        "q": "What is the FAIR model?",
@@ -8809,7 +8809,7 @@
       {
        "q": "Do you need to quantify risk?",
        "id": "faq-do-you-need-to-quantify-risk",
-       "html": "<p>Not for every risk. Quantify where a number changes a decision - a large\nacceptance, a spend trade-off, a capacity question\n(<a href=\"/risk/risk-capacity/\">3.4</a>) - and leave the rest on the qualitative heat map.\nQuantifying everything wastes the effort that the decisions genuinely needing it\ndeserve.</p>"
+       "html": "<p>Not for every risk. Quantify where a number changes a decision: a large\nacceptance, a spend trade-off, a capacity question\n(<a href=\"/risk/risk-capacity/\">3.4</a>). Leave the rest on the qualitative heat map.\nQuantifying everything wastes the effort that the decisions genuinely needing it\ndeserve.</p>"
       }
      ]
     }
@@ -8875,7 +8875,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 674,
+     "wordCount": 662,
      "timeRequired": "PT5M",
      "citation": [
       "ISO 31000:2018 - Risk management, guidelines",
@@ -8905,7 +8905,7 @@
        "name": "What is the difference between qualitative and quantitative risk analysis?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Qualitative analysis ranks risks on a descriptive scale - usually likelihood times impact rendered as a heat map - and is quick enough to run across an entire register. Quantitative analysis expresses a risk as a monetary loss, or a range of losses, and takes real effort to do well. One sorts the population; the other sizes an individual decision. Most programmes need both, applied where each fits."
+        "text": "Qualitative analysis ranks risks on a descriptive scale (usually likelihood times impact rendered as a heat map) and is quick enough to run across an entire register. Quantitative analysis expresses a risk as a monetary loss, or a range of losses, and takes real effort to do well. One sorts the population; the other sizes an individual decision. Most programmes need both, applied where each fits."
        }
       },
       {
@@ -8921,7 +8921,7 @@
        "name": "Do you need to quantify risk?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not for every risk. Quantify where a number changes a decision - a large acceptance, a spend trade-off, a capacity question ( 3.4 ) - and leave the rest on the qualitative heat map. Quantifying everything wastes the effort that the decisions genuinely needing it deserve."
+        "text": "Not for every risk. Quantify where a number changes a decision: a large acceptance, a spend trade-off, a capacity question ( 3.4 ). Leave the rest on the qualitative heat map. Quantifying everything wastes the effort that the decisions genuinely needing it deserve."
        }
       }
      ]
@@ -9002,7 +9002,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A workshop earns its place when the risk cannot be read off a document - when it\nlives in the heads of the people doing the work and has to be talked out. The\nvalue is proportional to how honestly the room disagrees.</p>"
+     "html": "<p>A workshop earns its place when the risk cannot be read off a document, when it\nlives in the heads of the people doing the work and has to be talked out. The\nvalue is proportional to how honestly the room disagrees.</p>"
     },
     {
      "type": "heading",
@@ -9014,7 +9014,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The room needs two things at once: first-line owners, who know where the work\nactually breaks, and second-line facilitation, who keep the conversation honest\nand stop it drifting. Balance is the whole problem. Too senior and nobody will\ncontradict the person who signs the appraisals; too junior and nothing decided\nin the room can be committed to afterwards.</p>\n<p>The workable mix is people close enough to the process to see the failure and\nsenior enough to own the treatment, run by a facilitator who owns none of it.\nKeep it small - six to ten - so every voice has room. A group larger than that\nturns into an audience.</p>"
+     "html": "<p>The room needs two things at once: first-line owners, who know where the work\nactually breaks, and second-line facilitation, who keep the conversation honest\nand stop it drifting. Balance is the whole problem. Too senior and nobody will\ncontradict the person who signs the appraisals; too junior and nothing decided\nin the room can be committed to afterwards.</p>\n<p>The workable mix is people close enough to the process to see the failure and\nsenior enough to own the treatment, run by a facilitator who owns none of it.\nKeep it small, six to ten, so every voice has room. A group larger than that\nturns into an audience.</p>"
     },
     {
      "type": "heading",
@@ -9045,7 +9045,7 @@
       },
       {
        "term": "Scope drift",
-       "html": "The room slides into solutioning - designing the fix - before the risks are even listed. Park every proposed control on a separate sheet and go back to naming risks."
+       "html": "The room slides into solutioning (designing the fix) before the risks are even listed. Park every proposed control on a separate sheet and go back to naming risks."
       }
      ]
     },
@@ -9065,7 +9065,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A workshop whose output never reaches the register was a meeting. Every risk\nshould leave the room as three things: a statement with a cause, an event and a\nconsequence; a single named owner; and a provisional score that can be revised\nlater. The facilitator&rsquo;s real task is conversion - turning an hour of argument\ninto rows that land in the register at\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>. Talk that is not written down as a row is\ntalk that did not happen.</p>"
+     "html": "<p>A workshop whose output never reaches the register was a meeting. Every risk\nshould leave the room as three things: a statement with a cause, an event and a\nconsequence; a single named owner; and a provisional score that can be revised\nlater. The facilitator&rsquo;s real task is conversion: turning an hour of argument\ninto rows that land in the register at\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>. Talk that is not written down as a row is\ntalk that did not happen.</p>"
     },
     {
      "type": "heading",
@@ -9086,7 +9086,7 @@
       {
        "q": "How long should a risk workshop be?",
        "id": "faq-how-long-should-a-risk-workshop-be",
-       "html": "<p>Ninety minutes is usually the ceiling for useful attention. Past that the scoring gets careless and the quieter owners stop contributing. Cover fewer risks properly rather than the whole register badly - a second session beats one long one.</p>"
+       "html": "<p>Ninety minutes is usually the ceiling for useful attention. Past that the scoring gets careless and the quieter owners stop contributing. Cover fewer risks properly rather than the whole register badly: a second session beats one long one.</p>"
       },
       {
        "q": "How do you stop groupthink in a risk workshop?",
@@ -9157,7 +9157,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 587,
+     "wordCount": 580,
      "timeRequired": "PT5M",
      "citation": [
       "IEC 31010:2019 - Risk management, risk assessment techniques",
@@ -9195,7 +9195,7 @@
        "name": "How long should a risk workshop be?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ninety minutes is usually the ceiling for useful attention. Past that the scoring gets careless and the quieter owners stop contributing. Cover fewer risks properly rather than the whole register badly - a second session beats one long one."
+        "text": "Ninety minutes is usually the ceiling for useful attention. Past that the scoring gets careless and the quieter owners stop contributing. Cover fewer risks properly rather than the whole register badly: a second session beats one long one."
        }
       },
       {
@@ -9284,7 +9284,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Cyber risk quantification states a specific risk as a <strong>probable financial loss\nover a year, with a probability attached</strong> - for example a 10% chance of losing\nmore than £4m to a customer-data breach - so it can be weighed against the cost\nof fixing it and against the appetite the board set."
+     "html": "Cyber risk quantification states a specific risk as a <strong>probable financial loss\nover a year, with a probability attached</strong> (for example a 10% chance of losing\nmore than £4m to a customer-data breach) so it can be weighed against the cost\nof fixing it and against the appetite the board set."
     },
     {
      "type": "prose",
@@ -9300,7 +9300,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Most programmes use FAIR - Factor Analysis of Information Risk, standardised by\nThe Open Group. FAIR decomposes a risk into parts small enough to estimate, then\nrecombines them by simulation.</p>"
+     "html": "<p>Most programmes use FAIR, Factor Analysis of Information Risk, standardised by\nThe Open Group. FAIR decomposes a risk into parts small enough to estimate, then\nrecombines them by simulation.</p>"
     },
     {
      "type": "terms",
@@ -9311,7 +9311,7 @@
       },
       {
        "term": "Loss Magnitude",
-       "html": "What one event costs. Primary loss is the direct hit - response, replacement, lost revenue during downtime. Secondary loss is the reaction of others - fines, legal claims, customers leaving."
+       "html": "What one event costs. Primary loss is the direct hit: response, replacement, lost revenue during downtime. Secondary loss is the reaction of others: fines, legal claims, customers leaving."
       },
       {
        "term": "Distribution, not point",
@@ -9325,13 +9325,13 @@
     },
     {
      "type": "prose",
-     "html": "<p>The headline output is a <strong>loss exceedance curve</strong>: for every loss amount, the\nprobability of exceeding it in a year. The board reads one line off it - &ldquo;10%\nchance of losing more than £4m&rdquo; - and compares that to the appetite statement\nand to the price of the control that would move the curve.</p>"
+     "html": "<p>The headline output is a <strong>loss exceedance curve</strong>: for every loss amount, the\nprobability of exceeding it in a year. The board reads one line off it (&ldquo;10%\nchance of losing more than £4m&rdquo;) and compares that to the appetite statement\nand to the price of the control that would move the curve.</p>"
     },
     {
      "type": "def",
      "term": "Annualised loss expectancy",
      "ref": "3.12",
-     "html": "The older single-number form: expected loss frequency multiplied by expected\nloss per event, giving one currency figure per year. Easy to compute, but it\nhides the tail - the rare, ruinous outcome that a curve shows and an average\nburies."
+     "html": "The older single-number form: expected loss frequency multiplied by expected\nloss per event, giving one currency figure per year. Easy to compute, but it\nhides the tail: the rare, ruinous outcome that a curve shows and an average\nburies."
     },
     {
      "type": "heading",
@@ -9371,7 +9371,7 @@
       {
        "q": "What is cyber risk quantification?",
        "id": "faq-what-is-cyber-risk-quantification",
-       "html": "<p>Expressing a specific cyber risk as a probable financial loss with a probability\n- such as a 15% annual chance of a loss above £2m - instead of a qualitative\nlabel like &ldquo;high&rdquo;. It lets a risk be compared against the cost of treating it,\nagainst an insurance limit and against a stated appetite, using the same units\nthe business plans in.</p>"
+       "html": "<p>Expressing a specific cyber risk as a probable financial loss with a probability\n(such as a 15% annual chance of a loss above £2m) instead of a qualitative\nlabel like &ldquo;high&rdquo;. It lets a risk be compared against the cost of treating it,\nagainst an insurance limit and against a stated appetite, using the same units\nthe business plans in.</p>"
       },
       {
        "q": "What is the FAIR model?",
@@ -9381,7 +9381,7 @@
       {
        "q": "Is cyber risk quantification better than a heat map?",
        "id": "faq-is-cyber-risk-quantification-better-than-a-heat-map",
-       "html": "<p>For a small number of board-level exposures, yes - a money range can be\nbudgeted against and a colour cannot. For the routine majority of a register it\nis not worth the effort, and a well-run 5×5 remains the practical tool. Most\nmature programmes use both.</p>"
+       "html": "<p>For a small number of board-level exposures, yes: a money range can be\nbudgeted against and a colour cannot. For the routine majority of a register it\nis not worth the effort, and a well-run 5×5 remains the practical tool. Most\nmature programmes use both.</p>"
       },
       {
        "q": "Do you need a lot of data to quantify cyber risk?",
@@ -9454,7 +9454,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 850,
+     "wordCount": 839,
      "timeRequired": "PT8M",
      "citation": [
       "The Open Group, Risk Analysis (O-RA) Standard, 2021 (FAIR)",
@@ -9486,7 +9486,7 @@
        "name": "What is cyber risk quantification?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Expressing a specific cyber risk as a probable financial loss with a probability - such as a 15% annual chance of a loss above £2m - instead of a qualitative label like &ldquo;high&rdquo;. It lets a risk be compared against the cost of treating it, against an insurance limit and against a stated appetite, using the same units the business plans in."
+        "text": "Expressing a specific cyber risk as a probable financial loss with a probability (such as a 15% annual chance of a loss above £2m) instead of a qualitative label like &ldquo;high&rdquo;. It lets a risk be compared against the cost of treating it, against an insurance limit and against a stated appetite, using the same units the business plans in."
        }
       },
       {
@@ -9502,7 +9502,7 @@
        "name": "Is cyber risk quantification better than a heat map?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For a small number of board-level exposures, yes - a money range can be budgeted against and a colour cannot. For the routine majority of a register it is not worth the effort, and a well-run 5×5 remains the practical tool. Most mature programmes use both."
+        "text": "For a small number of board-level exposures, yes: a money range can be budgeted against and a colour cannot. For the routine majority of a register it is not worth the effort, and a well-run 5×5 remains the practical tool. Most mature programmes use both."
        }
       },
       {
