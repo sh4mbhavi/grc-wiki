@@ -21575,10 +21575,6 @@
        "html": "<p>If you already know the seat you are targeting, the exam that matches it. If you\ndo not, a broad course first: a specialist exam taken with no context to attach\nit to is hard to retain, and the exams need years of experience to certify. Start\nwith the grounding, get one real artefact handled, then choose.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "GRC Mastery and the ISO 27001 Lead Auditor training, both from UnixGuy, are\navailable together for about $499 at <a href=\"https://www.grcmastery.com/\">grcmastery.com</a>.\nThis comparison stays free."
     }
    ],
    "sources_html": [
@@ -21659,7 +21655,7 @@
      "datePublished": "2026-01-15",
      "dateModified": "2026-02-20",
      "articleSection": "Career",
-     "wordCount": 891,
+     "wordCount": 866,
      "timeRequired": "PT7M",
      "citation": [
       "GRC Mastery and ISO 27001 Lead Auditor training pricing, grcmastery.com, 2026",
