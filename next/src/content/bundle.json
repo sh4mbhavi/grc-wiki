@@ -12577,7 +12577,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Asset management is the <strong>maintained, owned inventory of everything the\norganisation runs</strong> - hardware, software, data stores, cloud services and the\nbusiness services built on them - kept current enough that other controls can\nrely on it."
+     "html": "Asset management is the <strong>maintained, owned inventory of everything the\norganisation runs</strong> (hardware, software, data stores, cloud services and the\nbusiness services built on them), kept current enough that other controls can\nrely on it."
     },
     {
      "type": "prose",
@@ -12600,7 +12600,7 @@
      "items": [
       {
        "term": "Hardware",
-       "html": "Servers, laptops, mobile devices, network kit, and anything with an IP address on the corporate network - including the devices nobody provisioned."
+       "html": "Servers, laptops, mobile devices, network kit, and anything with an IP address on the corporate network, including the devices nobody provisioned."
       },
       {
        "term": "Software",
@@ -12608,7 +12608,7 @@
       },
       {
        "term": "Data",
-       "html": "Repositories and their classification - where regulated or sensitive data lives, which is what a DLP or access-review programme scopes against."
+       "html": "Repositories and their classification: where regulated or sensitive data lives, which is what a DLP or access-review programme scopes against."
       },
       {
        "term": "Cloud services",
@@ -12624,7 +12624,7 @@
      "type": "def",
      "term": "Asset owner",
      "ref": "4.1",
-     "html": "The named individual accountable for an asset&rsquo;s classification, its acceptable\nuse and the risk decisions about it. Not the person who administers it day to\nday - the person who answers for it. An asset with no owner is the one that goes\nunpatched."
+     "html": "The named individual accountable for an asset&rsquo;s classification, its acceptable\nuse and the risk decisions about it. Not the person who administers it day to\nday: the person who answers for it. An asset with no owner is the one that goes\nunpatched."
     },
     {
      "type": "heading",
@@ -12636,7 +12636,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A configuration management database records <em>relationships</em> - this service runs\non those hosts, which depend on that database - and supports change and incident\nmanagement. An asset inventory records <em>existence, ownership and classification</em>\nand supports risk and compliance. Mature organisations reconcile the two; small\nones should not try to run a full CMDB before the basic inventory is reliable.</p>"
+     "html": "<p>A configuration management database records <em>relationships</em> (this service runs\non those hosts, which depend on that database) and supports change and incident\nmanagement. An asset inventory records <em>existence, ownership and classification</em>\nand supports risk and compliance. Mature organisations reconcile the two; small\nones should not try to run a full CMDB before the basic inventory is reliable.</p>"
     },
     {
      "type": "heading",
@@ -12664,7 +12664,7 @@
       {
        "q": "What is asset management in cyber security?",
        "id": "faq-what-is-asset-management-in-cyber-security",
-       "html": "<p>The practice of keeping an accurate, owned inventory of all hardware, software,\ndata and services the organisation uses, so that security controls - patching,\naccess control, monitoring, backup, incident response - can be applied\ncompletely. It is the foundational control: everything else assumes the list is\nright.</p>"
+       "html": "<p>The practice of keeping an accurate, owned inventory of all hardware, software,\ndata and services the organisation uses, so that security controls (patching,\naccess control, monitoring, backup, incident response) can be applied\ncompletely. It is the foundational control: everything else assumes the list is\nright.</p>"
       },
       {
        "q": "What is the difference between an asset inventory and a CMDB?",
@@ -12674,7 +12674,7 @@
       {
        "q": "How often should the asset inventory be updated?",
        "id": "faq-how-often-should-the-asset-inventory-be-updated",
-       "html": "<p>Continuously for anything that can be discovered automatically - network scans,\ncloud APIs, endpoint agents feeding the inventory in near real time - with a\nperiodic manual reconciliation, at least quarterly, for the categories that\ncannot be discovered, such as third-party SaaS and data classification.</p>"
+       "html": "<p>Continuously for anything that can be discovered automatically (network scans,\ncloud APIs, endpoint agents feeding the inventory in near real time), with a\nperiodic manual reconciliation, at least quarterly, for the categories that\ncannot be discovered, such as third-party SaaS and data classification.</p>"
       },
       {
        "q": "Who is the asset owner?",
@@ -12746,7 +12746,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 698,
+     "wordCount": 687,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A controls 5.9, 5.10, 5.11",
@@ -12777,7 +12777,7 @@
        "name": "What is asset management in cyber security?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The practice of keeping an accurate, owned inventory of all hardware, software, data and services the organisation uses, so that security controls - patching, access control, monitoring, backup, incident response - can be applied completely. It is the foundational control: everything else assumes the list is right."
+        "text": "The practice of keeping an accurate, owned inventory of all hardware, software, data and services the organisation uses, so that security controls (patching, access control, monitoring, backup, incident response) can be applied completely. It is the foundational control: everything else assumes the list is right."
        }
       },
       {
@@ -12793,7 +12793,7 @@
        "name": "How often should the asset inventory be updated?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Continuously for anything that can be discovered automatically - network scans, cloud APIs, endpoint agents feeding the inventory in near real time - with a periodic manual reconciliation, at least quarterly, for the categories that cannot be discovered, such as third-party SaaS and data classification."
+        "text": "Continuously for anything that can be discovered automatically (network scans, cloud APIs, endpoint agents feeding the inventory in near real time), with a periodic manual reconciliation, at least quarterly, for the categories that cannot be discovered, such as third-party SaaS and data classification."
        }
       },
       {
@@ -12813,7 +12813,7 @@
    "part": 4,
    "slug": "identity-and-access-management",
    "title": "Identity and access management",
-   "description": "IAM is the set of controls deciding who has an account, what it can reach, and how that is proven - the joiner-mover-leaver lifecycle and the access review.",
+   "description": "IAM is the set of controls deciding who has an account, what it can reach, and how that is proven: the joiner-mover-leaver lifecycle and the access review.",
    "short_title": "IAM",
    "keywords": [
     "what is identity and access management",
@@ -12887,7 +12887,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Identity and access management is the set of controls that decides <strong>who holds an\naccount, what that account is allowed to reach, and how both are proven</strong> - from\nthe moment a person joins to the moment their access is removed."
+     "html": "Identity and access management is the set of controls that decides <strong>who holds an\naccount, what that account is allowed to reach, and how both are proven</strong>, from\nthe moment a person joins to the moment their access is removed."
     },
     {
      "type": "prose",
@@ -12910,7 +12910,7 @@
      "items": [
       {
        "term": "Joiner",
-       "html": "Access is provisioned from an approved role template, granted on the start date and not before, with the approval recorded. Over-provisioning here - &ldquo;give them what the last person had&rdquo; - is how entitlement creep starts."
+       "html": "Access is provisioned from an approved role template, granted on the start date and not before, with the approval recorded. Over-provisioning here (&ldquo;give them what the last person had&rdquo;) is how entitlement creep starts."
       },
       {
        "term": "Mover",
@@ -12918,7 +12918,7 @@
       },
       {
        "term": "Leaver",
-       "html": "Access is revoked on the last working day - ideally by disabling the identity centrally so every connected system follows - and privileged credentials are rotated. Delay here is the highest-severity gap in the domain."
+       "html": "Access is revoked on the last working day (ideally by disabling the identity centrally so every connected system follows), and privileged credentials are rotated. Delay here is the highest-severity gap in the domain."
       }
      ]
     },
@@ -12926,7 +12926,7 @@
      "type": "def",
      "term": "Segregation of duties",
      "ref": "4.2",
-     "html": "A control ensuring no single person can both initiate and approve the same\nsensitive transaction - raise a payment and release it, write code and deploy it\nto production. Enforced through role design and tested by looking for identities\nthat hold both sides."
+     "html": "A control ensuring no single person can both initiate and approve the same\nsensitive transaction: raise a payment and release it, write code and deploy it\nto production. Enforced through role design and tested by looking for identities\nthat hold both sides."
     },
     {
      "type": "heading",
@@ -12938,7 +12938,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The recurring control that catches what the lifecycle missed. On a set cadence -\nquarterly for privileged and financially significant systems, at least annually\nfor the rest - each system&rsquo;s access list goes to the person accountable for that\nsystem, who confirms every entry is still needed or flags it for removal.</p>\n<p>A review is only evidence if three things are true: the reviewer is the business\nowner and not the IT team that grants the access, the flagged removals are\nactually actioned and re-checked, and the review covers the whole population\nrather than a sample. A signed-off review where nothing was ever removed is a\nsignal that nobody looked.</p>"
+     "html": "<p>The recurring control that catches what the lifecycle missed. On a set cadence,\nquarterly for privileged and financially significant systems and at least\nannually for the rest, each system&rsquo;s access list goes to the person accountable\nfor that system, who confirms every entry is still needed or flags it for removal.</p>\n<p>A review is only evidence if three things are true: the reviewer is the business\nowner and not the IT team that grants the access, the flagged removals are\nactually actioned and re-checked, and the review covers the whole population\nrather than a sample. A signed-off review where nothing was ever removed is a\nsignal that nobody looked.</p>"
     },
     {
      "type": "heading",
@@ -12950,7 +12950,7 @@
     },
     {
      "type": "prose",
-     "html": "<ul>\n<li><strong>Multi-factor authentication</strong> on anything internet-facing and on all\n  administrative access. Its absence on a remote-access path is a finding on\n  almost every framework.</li>\n<li><strong>Privileged access management</strong> - administrative rights granted just in time,\n  for a bounded window, through a checkout that logs the session - rather than\n  standing admin accounts.</li>\n<li><strong>Access models</strong>: RBAC assigns entitlements to roles and roles to people, and\n  is the practical default. ABAC decides access from attributes (department,\n  location, data tag) at request time, and suits large or highly dynamic\n  estates at the cost of more design effort.</li>\n</ul>"
+     "html": "<ul>\n<li><strong>Multi-factor authentication</strong> on anything internet-facing and on all\n  administrative access. Its absence on a remote-access path is a finding on\n  almost every framework.</li>\n<li><strong>Privileged access management</strong>: administrative rights granted just in time,\n  for a bounded window, through a checkout that logs the session, rather than\n  standing admin accounts.</li>\n<li><strong>Access models</strong>: RBAC assigns entitlements to roles and roles to people, and\n  is the practical default. ABAC decides access from attributes (department,\n  location, data tag) at request time, and suits large or highly dynamic\n  estates at the cost of more design effort.</li>\n</ul>"
     },
     {
      "type": "heading",
@@ -12962,7 +12962,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Leaver access left live.</strong> The account is disabled weeks late, or in the\ndirectory but not in three SaaS tools that provision separately. Every access\nreview starts by hunting for these.</p>\n<p><strong>Privilege creep through moves.</strong> Nobody removes on role change, so long-tenured\nstaff hold access spanning every team they have passed through - the classic\nsegregation-of-duties breach.</p>\n<p><strong>Rubber-stamp reviews.</strong> The owner approves 200 lines in one click, removes\nnothing, and the review is filed. It satisfies the letter of the control and\nnone of its purpose.</p>\n<p><strong>Shared accounts.</strong> A <code>db-admin</code> login used by four engineers. When something\nbreaks at 2am, the logs cannot say who did it.</p>"
+     "html": "<p><strong>Leaver access left live.</strong> The account is disabled weeks late, or in the\ndirectory but not in three SaaS tools that provision separately. Every access\nreview starts by hunting for these.</p>\n<p><strong>Privilege creep through moves.</strong> Nobody removes on role change, so long-tenured\nstaff hold access spanning every team they have passed through: the classic\nsegregation-of-duties breach.</p>\n<p><strong>Rubber-stamp reviews.</strong> The owner approves 200 lines in one click, removes\nnothing, and the review is filed. It satisfies the letter of the control and\nnone of its purpose.</p>\n<p><strong>Shared accounts.</strong> A <code>db-admin</code> login used by four engineers. When something\nbreaks at 2am, the logs cannot say who did it.</p>"
     },
     {
      "type": "heading",
@@ -13049,7 +13049,7 @@
      "@id": "https://grc-wiki.vercel.app/compliance/identity-and-access-management/#article",
      "headline": "Identity and access management",
      "name": "Identity and access management",
-     "description": "IAM is the set of controls deciding who has an account, what it can reach, and how that is proven - the joiner-mover-leaver lifecycle and the access review.",
+     "description": "IAM is the set of controls deciding who has an account, what it can reach, and how that is proven: the joiner-mover-leaver lifecycle and the access review.",
      "url": "https://grc-wiki.vercel.app/compliance/identity-and-access-management/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -13061,7 +13061,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 808,
+     "wordCount": 800,
      "timeRequired": "PT7M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A controls 5.15-5.18, 8.2, 8.3, 8.5",
@@ -13076,7 +13076,7 @@
      "@id": "https://grc-wiki.vercel.app/compliance/identity-and-access-management/#term",
      "name": "Identity and access management",
      "alternateName": "IAM",
-     "description": "IAM is the set of controls deciding who has an account, what it can reach, and how that is proven - the joiner-mover-leaver lifecycle and the access review.",
+     "description": "IAM is the set of controls deciding who has an account, what it can reach, and how that is proven: the joiner-mover-leaver lifecycle and the access review.",
      "url": "https://grc-wiki.vercel.app/compliance/identity-and-access-management/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
@@ -13198,11 +13198,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Security awareness and education is the programme that <strong>turns written policy\ninto day-to-day behaviour</strong> - teaching staff to recognise the situations that\nlead to incidents and, more importantly, to report them quickly."
+     "html": "Security awareness and education is the programme that <strong>turns written policy\ninto day-to-day behaviour</strong>, teaching staff to recognise the situations that\nlead to incidents and, more importantly, to report them quickly."
     },
     {
      "type": "prose",
-     "html": "<p>It is a required control - ISO 27001 Annex A 6.3, the NIST AT family, and a line\nin nearly every regulation - but it is the one most often run as a compliance\nbox. An annual slide deck with a quiz at the end satisfies the auditor&rsquo;s\nquestion &ldquo;do you train staff&rdquo; and changes almost nothing about what people do\nwhen a convincing email arrives.</p>\n<p>The distinction that matters is between <em>awareness</em> and <em>culture</em>. Awareness is\nknowing the rule. Culture is a workplace where reporting a mistake is met with\nthanks rather than blame, so people raise the click they just made instead of\nhiding it. A programme that drives the first without the second produces staff\nwho know they did something wrong and say nothing.</p>"
+     "html": "<p>It is a required control (ISO 27001 Annex A 6.3, the NIST AT family, and a line\nin nearly every regulation), but it is the one most often run as a compliance\nbox. An annual slide deck with a quiz at the end satisfies the auditor&rsquo;s\nquestion &ldquo;do you train staff&rdquo; and changes almost nothing about what people do\nwhen a convincing email arrives.</p>\n<p>The distinction that matters is between <em>awareness</em> and <em>culture</em>. Awareness is\nknowing the rule. Culture is a workplace where reporting a mistake is met with\nthanks rather than blame, so people raise the click they just made instead of\nhiding it. A programme that drives the first without the second produces staff\nwho know they did something wrong and say nothing.</p>"
     },
     {
      "type": "heading",
@@ -13225,11 +13225,11 @@
       },
       {
        "term": "Phishing simulation",
-       "html": "Realistic simulated phishing sent on a schedule, used to teach and to measure the report rate - not to punish, and not to generate a &ldquo;gotcha&rdquo; statistic for a board slide."
+       "html": "Realistic simulated phishing sent on a schedule, used to teach and to measure the report rate, not to punish, and not to generate a &ldquo;gotcha&rdquo; statistic for a board slide."
       },
       {
        "term": "Just-in-time prompts",
-       "html": "A warning at the moment of risk - an external-sender banner, a large-payment confirmation step - which changes behaviour more reliably than a course remembered months later."
+       "html": "A warning at the moment of risk (an external-sender banner, a large-payment confirmation step) which changes behaviour more reliably than a course remembered months later."
       },
       {
        "term": "Metrics that mean something",
@@ -13281,7 +13281,7 @@
       {
        "q": "What is security awareness training?",
        "id": "faq-what-is-security-awareness-training",
-       "html": "<p>A programme that teaches staff to recognise and respond to security risks in\ntheir actual work - phishing, social engineering, data handling, physical\nsecurity - and to report suspected incidents quickly. It is a required control\nunder ISO 27001, NIST and most regulations, and is intended to change behaviour,\nnot just record attendance.</p>"
+       "html": "<p>A programme that teaches staff to recognise and respond to security risks in\ntheir actual work (phishing, social engineering, data handling, physical\nsecurity) and to report suspected incidents quickly. It is a required control\nunder ISO 27001, NIST and most regulations, and is intended to change behaviour,\nnot just record attendance.</p>"
       },
       {
        "q": "What is the difference between security awareness and security culture?",
@@ -13364,7 +13364,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 719,
+     "wordCount": 712,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 6.3; clause 7.2 (competence) and 7.3 (awareness)",
@@ -13396,7 +13396,7 @@
        "name": "What is security awareness training?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A programme that teaches staff to recognise and respond to security risks in their actual work - phishing, social engineering, data handling, physical security - and to report suspected incidents quickly. It is a required control under ISO 27001, NIST and most regulations, and is intended to change behaviour, not just record attendance."
+        "text": "A programme that teaches staff to recognise and respond to security risks in their actual work (phishing, social engineering, data handling, physical security) and to report suspected incidents quickly. It is a required control under ISO 27001, NIST and most regulations, and is intended to change behaviour, not just record attendance."
        }
       },
       {
@@ -13500,11 +13500,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Data loss prevention is the set of controls that <strong>detects, and where configured\nblocks, sensitive data moving out of approved channels</strong> - a customer list\nattached to a personal webmail, source code pushed to a public repository, a\ncard number pasted into a chat tool."
+     "html": "Data loss prevention is the set of controls that <strong>detects, and where configured\nblocks, sensitive data moving out of approved channels</strong>: a customer list\nattached to a personal webmail, source code pushed to a public repository, a\ncard number pasted into a chat tool."
     },
     {
      "type": "prose",
-     "html": "<p>DLP only works on data it can recognise, which is why it is downstream of\nclassification. A tool told to watch for &ldquo;confidential&rdquo; material has to be given\na definition it can match - a regex for account numbers, a fingerprint of a\ndocument set, an exact-match list of customer records. The quality of that\ndefinition, not the product, decides whether the control catches real leaks or\ndrowns the team in noise.</p>\n<p>It also cannot tell intent from accident. The same alert fires whether an\nemployee is stealing a database on their last day or a salesperson is emailing a\ncontract to the client who asked for it. Every DLP programme is therefore a\ntuning programme: the initial deployment is the easy 20%, and classifying data\nand cutting false positives is the rest.</p>"
+     "html": "<p>DLP only works on data it can recognise, which is why it is downstream of\nclassification. A tool told to watch for &ldquo;confidential&rdquo; material has to be given\na definition it can match: a regex for account numbers, a fingerprint of a\ndocument set, an exact-match list of customer records. The quality of that\ndefinition, not the product, decides whether the control catches real leaks or\ndrowns the team in noise.</p>\n<p>It also cannot tell intent from accident. The same alert fires whether an\nemployee is stealing a database on their last day or a salesperson is emailing a\ncontract to the client who asked for it. Every DLP programme is therefore a\ntuning programme: the initial deployment is the easy 20%, and classifying data\nand cutting false positives is the rest.</p>"
     },
     {
      "type": "heading",
@@ -13519,15 +13519,15 @@
      "items": [
       {
        "term": "Data in use",
-       "html": "On the endpoint - copy to USB, print, screen capture, paste into an unmanaged application. Endpoint DLP agents enforce here and are the only place some channels can be seen at all."
+       "html": "On the endpoint: copy to USB, print, screen capture, paste into an unmanaged application. Endpoint DLP agents enforce here and are the only place some channels can be seen at all."
       },
       {
        "term": "Data in motion",
-       "html": "Leaving the network - email, web upload, API. Network and email DLP inspect this traffic; encryption to destinations the inspection point cannot see is the standing blind spot."
+       "html": "Leaving the network: email, web upload, API. Network and email DLP inspect this traffic; encryption to destinations the inspection point cannot see is the standing blind spot."
       },
       {
        "term": "Data at rest",
-       "html": "Sitting in a store - a shared drive, a SaaS tenancy, an object bucket. Discovery scans find sensitive data in the wrong place so it can be moved or removed before it leaks."
+       "html": "Sitting in a store: a shared drive, a SaaS tenancy, an object bucket. Discovery scans find sensitive data in the wrong place so it can be moved or removed before it leaks."
       }
      ]
     },
@@ -13535,7 +13535,7 @@
      "type": "def",
      "term": "Data classification",
      "ref": "4.11",
-     "html": "The scheme that labels data by sensitivity - public, internal, confidential,\nrestricted - and the rules attached to each label. DLP enforces those rules;\nwithout the scheme it has nothing to enforce and defaults to blunt pattern\nmatching."
+     "html": "The scheme that labels data by sensitivity (public, internal, confidential,\nrestricted) and the rules attached to each label. DLP enforces those rules;\nwithout the scheme it has nothing to enforce and defaults to blunt pattern\nmatching."
     },
     {
      "type": "heading",
@@ -13547,7 +13547,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Almost every failed rollout is one that switched to blocking on day one.\nLegitimate business workflows move sensitive data constantly, and a blocking\nrule tuned on assumptions rather than observed traffic stops deals, invoices and\nsupport cases within hours. The programme is then switched off under pressure\nand the control is lost entirely.</p>\n<p>The workable sequence is: deploy in monitor-only mode, watch real traffic for\nweeks, build an allowlist of the legitimate flows the alerts reveal, and only\nthen enable blocking on the narrow set of cases that are unambiguous -\nrestricted data to personal webmail, card data to file-sharing sites. Widen from\nthere as confidence grows.</p>"
+     "html": "<p>Almost every failed rollout is one that switched to blocking on day one.\nLegitimate business workflows move sensitive data constantly, and a blocking\nrule tuned on assumptions rather than observed traffic stops deals, invoices and\nsupport cases within hours. The programme is then switched off under pressure\nand the control is lost entirely.</p>\n<p>The workable sequence is: deploy in monitor-only mode, watch real traffic for\nweeks, build an allowlist of the legitimate flows the alerts reveal, and only\nthen enable blocking on the narrow set of cases that are unambiguous:\nrestricted data to personal webmail, card data to file-sharing sites. Widen from\nthere as confidence grows.</p>"
     },
     {
      "type": "heading",
@@ -13580,7 +13580,7 @@
       {
        "q": "What is the difference between endpoint DLP and network DLP?",
        "id": "faq-what-is-the-difference-between-endpoint-dlp-and-network-dlp",
-       "html": "<p>Endpoint DLP runs as an agent on user devices and can see local actions -\ncopying to USB, printing, pasting into applications - that never touch the\nnetwork. Network DLP inspects traffic leaving the organisation, mainly email and\nweb uploads. Comprehensive programmes use both, because each covers channels the\nother cannot.</p>"
+       "html": "<p>Endpoint DLP runs as an agent on user devices and can see local actions\n(copying to USB, printing, pasting into applications) that never touch the\nnetwork. Network DLP inspects traffic leaving the organisation, mainly email and\nweb uploads. Comprehensive programmes use both, because each covers channels the\nother cannot.</p>"
       },
       {
        "q": "Why does DLP generate so many false positives?",
@@ -13657,7 +13657,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 707,
+     "wordCount": 698,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 8.12 (Data leakage prevention)",
@@ -13696,7 +13696,7 @@
        "name": "What is the difference between endpoint DLP and network DLP?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Endpoint DLP runs as an agent on user devices and can see local actions - copying to USB, printing, pasting into applications - that never touch the network. Network DLP inspects traffic leaving the organisation, mainly email and web uploads. Comprehensive programmes use both, because each covers channels the other cannot."
+        "text": "Endpoint DLP runs as an agent on user devices and can see local actions (copying to USB, printing, pasting into applications) that never touch the network. Network DLP inspects traffic leaving the organisation, mainly email and web uploads. Comprehensive programmes use both, because each covers channels the other cannot."
        }
       },
       {
@@ -13793,11 +13793,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Incident response is the <strong>prepared process for detecting a security incident,\ncontaining it, recovering normal operation and learning from it</strong> - written,\nrehearsed and resourced before anything happens, because an incident is the\nworst time to design the response."
+     "html": "Incident response is the <strong>prepared process for detecting a security incident,\ncontaining it, recovering normal operation and learning from it</strong>, written,\nrehearsed and resourced before anything happens, because an incident is the\nworst time to design the response."
     },
     {
      "type": "prose",
-     "html": "<p>The distinction from ordinary operations is that an incident has a confirmed or\nstrongly suspected breach of confidentiality, integrity or availability, and a\nclock. Regulators attach deadlines - 72 hours to notify a data-protection\nauthority under GDPR, tighter still under DORA and the SEC rules - and those\nclocks start at detection, not at the point the organisation feels ready to\ntalk. A response that is being invented while the clock runs will miss them.</p>\n<p>Incident response also has an evidence obligation the rest of security does not.\nActions taken during containment can destroy the forensic record of how the\nattacker got in, and can prejudice a later legal or insurance claim. The plan\nhas to say when to preserve and when to prioritise recovery, and who decides.</p>"
+     "html": "<p>The distinction from ordinary operations is that an incident has a confirmed or\nstrongly suspected breach of confidentiality, integrity or availability, and a\nclock. Regulators attach deadlines (72 hours to notify a data-protection\nauthority under GDPR, tighter still under DORA and the SEC rules), and those\nclocks start at detection, not at the point the organisation feels ready to\ntalk. A response that is being invented while the clock runs will miss them.</p>\n<p>Incident response also has an evidence obligation the rest of security does not.\nActions taken during containment can destroy the forensic record of how the\nattacker got in, and can prejudice a later legal or insurance claim. The plan\nhas to say when to preserve and when to prioritise recovery, and who decides.</p>"
     },
     {
      "type": "heading",
@@ -13820,15 +13820,15 @@
       },
       {
        "term": "Detection and analysis",
-       "html": "Recognising that an event is an incident, from monitoring, a user report or a third party, and establishing scope - which systems, which data, how far in."
+       "html": "Recognising that an event is an incident, from monitoring, a user report or a third party, and establishing scope: which systems, which data, how far in."
       },
       {
        "term": "Containment",
-       "html": "Stopping the spread. Short-term isolation first - disconnect, disable, block - then a longer-term hold while eradication is planned. The point to decide whether to preserve evidence or move straight to recovery."
+       "html": "Stopping the spread. Short-term isolation first (disconnect, disable, block), then a longer-term hold while eradication is planned. The point to decide whether to preserve evidence or move straight to recovery."
       },
       {
        "term": "Eradication",
-       "html": "Removing the cause - the foothold, the malicious account, the vulnerability that was used - so the same route cannot be taken again immediately."
+       "html": "Removing the cause (the foothold, the malicious account, the vulnerability that was used) so the same route cannot be taken again immediately."
       },
       {
        "term": "Recovery",
@@ -13844,7 +13844,7 @@
      "type": "def",
      "term": "Playbook",
      "ref": "4.13",
-     "html": "A step-by-step procedure for one incident type - ransomware, business email\ncompromise, a lost laptop, a public data exposure. The plan is the framework\nthat applies to everything; the playbook is what the responder actually follows\nat 3am for this scenario."
+     "html": "A step-by-step procedure for one incident type: ransomware, business email\ncompromise, a lost laptop, a public data exposure. The plan is the framework\nthat applies to everything; the playbook is what the responder actually follows\nat 3am for this scenario."
     },
     {
      "type": "heading",
@@ -13856,7 +13856,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Every plan needs a severity scale defined in advance - typically SEV1 to SEV3 or\nsimilar - keyed to concrete criteria: data categories involved, systems\naffected, regulatory exposure, whether the incident is ongoing. The scale drives\nwho is woken, whether legal and communications are engaged, and whether the\nboard is told. Deciding severity during the incident, with no scale, produces\neither panic escalation of everything or a serious breach handled by one tired\nanalyst.</p>"
+     "html": "<p>Every plan needs a severity scale defined in advance (typically SEV1 to SEV3 or\nsimilar) keyed to concrete criteria: data categories involved, systems\naffected, regulatory exposure, whether the incident is ongoing. The scale drives\nwho is woken, whether legal and communications are engaged, and whether the\nboard is told. Deciding severity during the incident, with no scale, produces\neither panic escalation of everything or a serious breach handled by one tired\nanalyst.</p>"
     },
     {
      "type": "heading",
@@ -13868,7 +13868,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>A plan never exercised.</strong> A document exists, approved and filed, and the first\ntime anyone reads it properly is during a live incident. The contact numbers are\nstale, the roles are unclear and the forensics retainer was never signed.</p>\n<p><strong>Containment that destroys evidence.</strong> Machines are wiped and rebuilt for speed,\nand with them goes the only record of how the attacker got in - so the same\nroute is used again, and the insurance claim is weakened.</p>\n<p><strong>No lessons-learned discipline.</strong> The incident is closed, everyone is\nexhausted, the review is skipped or produces vague actions with no owner. The\nnext incident is the same incident.</p>\n<p><strong>Regulatory clock missed.</strong> Nobody owned the notification assessment, so the\n72-hour window under GDPR passed while the technical team was still working the\ncontainment.</p>"
+     "html": "<p><strong>A plan never exercised.</strong> A document exists, approved and filed, and the first\ntime anyone reads it properly is during a live incident. The contact numbers are\nstale, the roles are unclear and the forensics retainer was never signed.</p>\n<p><strong>Containment that destroys evidence.</strong> Machines are wiped and rebuilt for speed,\nand with them goes the only record of how the attacker got in: the same\nroute is used again, and the insurance claim is weakened.</p>\n<p><strong>No lessons-learned discipline.</strong> The incident is closed, everyone is\nexhausted, the review is skipped or produces vague actions with no owner. The\nnext incident is the same incident.</p>\n<p><strong>Regulatory clock missed.</strong> Nobody owned the notification assessment, so the\n72-hour window under GDPR passed while the technical team was still working the\ncontainment.</p>"
     },
     {
      "type": "heading",
@@ -13889,12 +13889,12 @@
       {
        "q": "What is the difference between an incident response plan and a playbook?",
        "id": "faq-what-is-the-difference-between-an-incident-response-plan-and-a-playbook",
-       "html": "<p>The plan is the overall framework - roles, severity scale, escalation, legal and\nregulatory obligations - that applies to any incident. A playbook is a specific\nprocedure for one scenario, such as ransomware or business email compromise,\nthat a responder follows step by step. An organisation needs one plan and\nseveral playbooks.</p>"
+       "html": "<p>The plan is the overall framework (roles, severity scale, escalation, legal and\nregulatory obligations) that applies to any incident. A playbook is a specific\nprocedure for one scenario, such as ransomware or business email compromise,\nthat a responder follows step by step. An organisation needs one plan and\nseveral playbooks.</p>"
       },
       {
        "q": "How quickly must a data breach be reported?",
        "id": "faq-how-quickly-must-a-data-breach-be-reported",
-       "html": "<p>It depends on the regime. Under the EU GDPR, a personal-data breach must be\nnotified to the supervisory authority within 72 hours of the organisation\nbecoming aware of it, unless it is unlikely to result in risk to individuals.\nOther regimes - DORA, the SEC cyber rules, sector regulators, contracts - impose\ntheir own, often shorter, clocks.</p>"
+       "html": "<p>It depends on the regime. Under the EU GDPR, a personal-data breach must be\nnotified to the supervisory authority within 72 hours of the organisation\nbecoming aware of it, unless it is unlikely to result in risk to individuals.\nOther regimes (DORA, the SEC cyber rules, sector regulators, contracts) impose\ntheir own, often shorter, clocks.</p>"
       },
       {
        "q": "What is a post-incident review?",
@@ -13967,7 +13967,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 789,
+     "wordCount": 773,
      "timeRequired": "PT7M",
      "citation": [
       "NIST SP 800-61r2 - Computer Security Incident Handling Guide (r3 draft, 2025)",
@@ -14007,7 +14007,7 @@
        "name": "What is the difference between an incident response plan and a playbook?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The plan is the overall framework - roles, severity scale, escalation, legal and regulatory obligations - that applies to any incident. A playbook is a specific procedure for one scenario, such as ransomware or business email compromise, that a responder follows step by step. An organisation needs one plan and several playbooks."
+        "text": "The plan is the overall framework (roles, severity scale, escalation, legal and regulatory obligations) that applies to any incident. A playbook is a specific procedure for one scenario, such as ransomware or business email compromise, that a responder follows step by step. An organisation needs one plan and several playbooks."
        }
       },
       {
@@ -14015,7 +14015,7 @@
        "name": "How quickly must a data breach be reported?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It depends on the regime. Under the EU GDPR, a personal-data breach must be notified to the supervisory authority within 72 hours of the organisation becoming aware of it, unless it is unlikely to result in risk to individuals. Other regimes - DORA, the SEC cyber rules, sector regulators, contracts - impose their own, often shorter, clocks."
+        "text": "It depends on the regime. Under the EU GDPR, a personal-data breach must be notified to the supervisory authority within 72 hours of the organisation becoming aware of it, unless it is unlikely to result in risk to individuals. Other regimes (DORA, the SEC cyber rules, sector regulators, contracts) impose their own, often shorter, clocks."
        }
       },
       {
@@ -14109,11 +14109,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "A penetration test is an <strong>authorised, time-boxed, scoped attempt to exploit\nweaknesses in a system</strong> the way a real attacker would - chaining findings\ntogether to reach a defined objective and demonstrate concrete impact, not just\nlist what is theoretically wrong."
+     "html": "A penetration test is an <strong>authorised, time-boxed, scoped attempt to exploit\nweaknesses in a system</strong> the way a real attacker would, chaining findings\ntogether to reach a defined objective and demonstrate concrete impact, not just\nlist what is theoretically wrong."
     },
     {
      "type": "prose",
-     "html": "<p>The word most people get wrong is <em>exploit</em>. A vulnerability scan reports that a\ndoor looks unlocked. A penetration test opens it, walks through, and shows what\nis in the room. That difference - proven impact versus flagged presence - is why\na framework such as PCI DSS mandates a real test annually and does not accept a\nscan in its place.</p>\n<p>A penetration test is a point-in-time assurance activity, not a security\nprogramme. It tells you what an attacker could have done to that scope, on that\ndate, with that much time. It does not keep the system secure between tests;\n<a href=\"/compliance/vulnerability-management/\">vulnerability management</a> does that.</p>"
+     "html": "<p>The word most people get wrong is <em>exploit</em>. A vulnerability scan reports that a\ndoor looks unlocked. A penetration test opens it, walks through, and shows what\nis in the room. That difference (proven impact versus flagged presence) is why\na framework such as PCI DSS mandates a real test annually and does not accept a\nscan in its place.</p>\n<p>A penetration test is a point-in-time assurance activity, not a security\nprogramme. It tells you what an attacker could have done to that scope, on that\ndate, with that much time. It does not keep the system secure between tests;\n<a href=\"/compliance/vulnerability-management/\">vulnerability management</a> does that.</p>"
     },
     {
      "type": "heading",
@@ -14144,9 +14144,9 @@
       },
       {
        "attr": "Chains findings",
-       "a": "Yes - several low issues into one critical path",
+       "a": "Yes, several low issues into one critical path",
        "av": "yes",
-       "b": "No - each finding stands alone",
+       "b": "No, each finding stands alone",
        "bv": "no"
       },
       {
@@ -14188,7 +14188,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The test is only as useful as its scope, and the scope is a governance\nartefact, not a technical detail.</p>\n<ul>\n<li><strong>Targets</strong>: the exact systems, applications, IP ranges and accounts in and\n  out of bounds. A test scoped to one application will not find the flat network\n  behind it - that has to be a deliberate choice, recorded.</li>\n<li><strong>Knowledge level</strong>: black box (the tester starts blind), grey box (given\n  low-privilege credentials and some documentation) or white box (full access to\n  source and design). Grey box usually returns the most findings per day of\n  effort, because the tester does not spend the budget on reconnaissance.</li>\n<li><strong>Rules of engagement</strong>: permitted hours, techniques excluded (denial of\n  service, social engineering, physical), the emergency contact, and explicit\n  written authorisation from someone who owns the systems. Testing without that\n  authorisation is a criminal offence in most jurisdictions.</li>\n<li><strong>Handling of live data and third parties</strong>: cloud providers and SaaS vendors\n  often require advance notice or forbid testing of shared infrastructure\n  entirely.</li>\n</ul>"
+     "html": "<p>The test is only as useful as its scope, and the scope is a governance\nartefact, not a technical detail.</p>\n<ul>\n<li><strong>Targets</strong>: the exact systems, applications, IP ranges and accounts in and\n  out of bounds. A test scoped to one application will not find the flat network\n  behind it: that has to be a deliberate choice, recorded.</li>\n<li><strong>Knowledge level</strong>: black box (the tester starts blind), grey box (given\n  low-privilege credentials and some documentation) or white box (full access to\n  source and design). Grey box usually returns the most findings per day of\n  effort, because the tester does not spend the budget on reconnaissance.</li>\n<li><strong>Rules of engagement</strong>: permitted hours, techniques excluded (denial of\n  service, social engineering, physical), the emergency contact, and explicit\n  written authorisation from someone who owns the systems. Testing without that\n  authorisation is a criminal offence in most jurisdictions.</li>\n<li><strong>Handling of live data and third parties</strong>: cloud providers and SaaS vendors\n  often require advance notice or forbid testing of shared infrastructure\n  entirely.</li>\n</ul>"
     },
     {
      "type": "heading",
@@ -14233,7 +14233,7 @@
       {
        "q": "How often should penetration testing be done?",
        "id": "faq-how-often-should-penetration-testing-be-done",
-       "html": "<p>At least annually, and after any significant change to the environment - a new\napplication, a major architecture change, a migration. Regulated regimes are\nspecific: PCI DSS requires external and internal testing at least annually and\nafter significant change. High-risk or fast-changing systems may warrant more\nfrequent testing.</p>"
+       "html": "<p>At least annually, and after any significant change to the environment: a new\napplication, a major architecture change, a migration. Regulated regimes are\nspecific: PCI DSS requires external and internal testing at least annually and\nafter significant change. High-risk or fast-changing systems may warrant more\nfrequent testing.</p>"
       },
       {
        "q": "What is the difference between black box, grey box and white box testing?",
@@ -14311,7 +14311,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 759,
+     "wordCount": 754,
      "timeRequired": "PT7M",
      "citation": [
       "NIST SP 800-115 - Technical Guide to Information Security Testing and Assessment",
@@ -14351,7 +14351,7 @@
        "name": "How often should penetration testing be done?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "At least annually, and after any significant change to the environment - a new application, a major architecture change, a migration. Regulated regimes are specific: PCI DSS requires external and internal testing at least annually and after significant change. High-risk or fast-changing systems may warrant more frequent testing."
+        "text": "At least annually, and after any significant change to the environment: a new application, a major architecture change, a migration. Regulated regimes are specific: PCI DSS requires external and internal testing at least annually and after significant change. High-risk or fast-changing systems may warrant more frequent testing."
        }
       },
       {
