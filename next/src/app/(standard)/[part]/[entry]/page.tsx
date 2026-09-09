@@ -110,7 +110,9 @@ export default async function EntryPage({ params }: { params: Promise<Params> })
                             <section className="sources" id="cite">
                                 <h2>SOURCES</h2>
                                 <ol>
-                                    {entry.sources.map((s) => <li key={s}>{s}</li>)}
+                                    {entry.sources_html.map((s, i) => (
+                                        <li key={i} dangerouslySetInnerHTML={{ __html: s }} />
+                                    ))}
                                 </ol>
                             </section>
                         ) : null}

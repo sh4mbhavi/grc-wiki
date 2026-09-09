@@ -245,6 +245,7 @@ def build(*, bundle: bool, check: bool) -> int:
                     "url": entry.url,
                     "part_slug": entry.part_obj.slug,
                     "blocks": parsed[entry.clause][0],
+                    "sources_html": [render.link_citation(s) for s in entry.sources],
                     "ld": seo.json_ld_entry(site, entry, parsed[entry.clause][0]),
                 }
                 for entry in site.entries

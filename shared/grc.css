@@ -842,6 +842,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .sources ol { list-style: none; margin: 0; padding: 0; counter-reset: src; }
 .sources li { counter-increment: src; margin: 0; }
 .sources li::before { content: "[" counter(src) "] "; color: var(--ink-faint); }
+.sources a { color: var(--ink-body); border-bottom: 1px solid var(--rule-input); }
+.sources a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
 /* Margin note — the conversion event, in the flow, never a section */
 .margin-note {

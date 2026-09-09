@@ -1530,6 +1530,9 @@
      "html": "<p>Claims are checked against the standard they cite. Where an entry is wrong, it\nis corrected against that source.</p>"
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/directives-and-policies.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC Directives Part 2, rules for the structure of standards</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -1822,11 +1825,13 @@
        "html": "<p>It is one of the more common routes in. Service desk work already teaches the two\nthings the role is built on: reading a system you did not build, and writing down\nwhat happened in a way someone else can act on.</p>\n<p>The gap to close is the evidence habit — knowing what makes a screenshot\nadmissible, why a date matters, and what an auditor will ask for next. That is\nlearnable in months, and considerably faster than teaching a compliance\nspecialist how a directory service works.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "The artefacts in FIG. 2 and FIG. 3 are built and marked in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\nfoundation track</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022 — Information security management systems, requirements</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, February 2024</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100), 2017, revised 2022</a>"
    ],
    "ld": [
     {
@@ -1885,7 +1890,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 1095,
+     "wordCount": 1073,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022 — Information security management systems, requirements",
@@ -2119,6 +2124,11 @@
      "html": "<p>An auditor&rsquo;s first move on a register is to read three risk statements and check\nthey are risks rather than threats or issues. It takes ninety seconds and tells\nthem how much of the rest to trust. The same is true of a control inventory full\nof aspirations, or an obligation register with no citations.</p>\n<p>Getting the words right is not pedantry. It is the cheapest available signal\nthat the function knows what it is doing.</p>"
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO Guide 73:2009 — Risk management, vocabulary</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27000:2018 — Information security management systems, overview and vocabulary</a>",
+    "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, International Professional Practices Framework, Glossary</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -2347,11 +2357,12 @@
     {
      "type": "prose",
      "html": "<p>The four are not independent. A control inventory with no risk register behind it\nproduces controls nobody can justify the cost of. A risk register with no policy\nset behind it produces scores nobody can challenge, because there is no stated\nthreshold to challenge them against. An evidence store with no inventory is a\nwarehouse.</p>\n<p>The order to build them in, when starting from nothing, is register first, then\npolicy, then inventory, then evidence. Starting with policy is the intuitive\nchoice and the slow one: you end up writing rules for risks you have not yet\nestablished you carry.</p>"
-    },
-    {
-     "type": "note",
-     "html": "Each of the four is built from a blank page, with a worked example, in <a href=\"https://www.grcmastery.com/\">GRC\nMastery&rsquo;s foundation track</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, clause 6.1.3 and Annex A</a>",
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100)</a>"
    ],
    "ld": [
     {
@@ -2410,7 +2421,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 531,
+     "wordCount": 507,
      "timeRequired": "PT9M",
      "citation": [
       "ISO/IEC 27001:2022, clause 6.1.3 and Annex A",
@@ -2621,6 +2632,10 @@
      "html": "<p>Ask who receives the output. Management receives GRC&rsquo;s. The audit committee\nreceives internal audit&rsquo;s. If the answer is &ldquo;the same person who asked for the\nwork&rdquo;, it is not audit — whatever the job title says.</p>"
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, International Professional Practices Framework, Standard 1100 (Independence and Objectivity)</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -2810,6 +2825,10 @@
      "type": "prose",
      "html": "<p>Second line, in almost every case. GRC provides the frameworks the first line\noperates within, monitors whether they are being followed, and escalates when\nthey are not.</p>\n<p>The common exception: in a small organisation, GRC frequently ends up operating\nfirst-line controls too — running the access review rather than checking it ran.\nThat is a resourcing reality rather than a model violation, but it needs to be\nvisible, because it removes the challenge the second line exists to provide.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, Position Paper: The Three Lines of Defence in Effective Risk Management and Control, 2013</a>"
    ],
    "ld": [
     {
@@ -3007,11 +3026,11 @@
     {
      "type": "prose",
      "html": "<p>One person writing the policy, running the access review, and signing the\nattestation that the access review happened is performing a self-review. Under\nabout a hundred staff this is unavoidable and everybody knows it.</p>\n<p>The way to handle it is not to pretend otherwise. Record it in the register as\nan accepted risk with a named approver, and get a second pair of eyes — a peer,\na board member, an external reviewer — on the attestations that leave the\nbuilding. An auditor who finds the acceptance already written respects it. One\nwho finds it themselves writes a finding.</p>"
-    },
-    {
-     "type": "note",
-     "html": "The first ninety days in a GRC seat, with the artefacts built in order, is the\nshape of <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s foundation track</a>. This entry\nstays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, State of Cybersecurity, workforce sections, 2025</a>"
    ],
    "ld": [
     {
@@ -3070,7 +3089,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 408,
+     "wordCount": 381,
      "timeRequired": "PT5M",
      "citation": [
       "IIA, The Three Lines Model, 2020",
@@ -3269,6 +3288,12 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines (risk defined as the effect of uncertainty on objectives, clause 3.1)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27000:2018 — Information security management systems, overview and vocabulary (information security event and information security incident)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27035-1:2023 — Information security incident management, principles and process</a>",
+    "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">&ldquo;Issue&rdquo; has no single ISO definition; the term is used in common operational and project-management practice for a present problem already affecting delivery</a>"
    ],
    "ld": [
     {
@@ -3597,6 +3622,10 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, February 2024 (the Govern function)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022 — Information security management systems, requirements</a>"
    ],
    "ld": [
     {
@@ -3927,6 +3956,11 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines</a>",
+    "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO 37301:2021 — Compliance management systems, requirements with guidance for use</a>",
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Internal Control — Integrated Framework, 2013</a>"
    ],
    "ld": [
     {
@@ -4262,11 +4296,13 @@
        "html": "<p>Enough of it, relevant to the criterion, and reliable at its source. A system-\ngenerated log is stronger than a manager&rsquo;s assertion; a sample large enough to\nrepresent the population is stronger than one convenient example; evidence dated\ninside the audit period is stronger than evidence produced the week of the\naudit. Sufficiency is a judgement the auditor has to be able to defend.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "The five-stage cycle and a worked set of findings are walked through end to end\nin <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s audit track</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, International Standards for the Professional Practice of Internal Auditing, 2017</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO 19011:2018 — Guidelines for auditing management systems</a>",
+    "<a href=\"https://www.iaasb.org/\" target=\"_blank\" rel=\"noopener\">IAASB, ISA 200 — Overall objectives of the independent auditor</a>"
    ],
    "ld": [
     {
@@ -4325,7 +4361,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 878,
+     "wordCount": 853,
      "timeRequired": "PT7M",
      "citation": [
       "IIA, International Standards for the Professional Practice of Internal Auditing, 2017",
@@ -4533,6 +4569,10 @@
      "html": "<p>A twenty-person company does not need four committees. It needs the four\nartefacts to exist in some form, and one of them is usually a shared document\nrather than a governance platform.</p>\n<p>The failure at this size is not absent governance; it is undocumented\ngovernance. The founders genuinely do decide things, consistently, on defensible\ngrounds — and none of it is written down, so the first customer security review\nfinds a company that cannot show it governs anything.</p>"
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, Govern (GV) function, 2024</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -4711,6 +4751,10 @@
      "type": "prose",
      "html": "<p>A policy that names a product is a standard. A standard with no number in it is a\npolicy. A procedure that requires judgement to follow is a standard pretending.</p>\n<p>One more, useful when reviewing someone else&rsquo;s document set: pick any rule and\nask who approved it and when. If nobody can answer for a rule the organisation is\nenforcing against employees, the hierarchy has failed regardless of how many\nlevels it has on paper.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, clause 5.2 (Policy) and clause 7.5 (Documented information)</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, GV.PO (Policy)</a>"
    ],
    "ld": [
     {
@@ -4953,6 +4997,10 @@
      "html": "<p>One, until it does not. A single risk and compliance forum, meeting quarterly,\nwith the CEO or COO in the chair, covers most organisations under two hundred\npeople and produces a real minute trail.</p>\n<p>Split it when the agenda stops fitting — usually when privacy or a regulator\narrives with its own reporting obligations. Splitting earlier produces forums\nthat meet without a decision to make, which is how a governance calendar starts\nbeing ignored.</p>"
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -5147,6 +5195,10 @@
      "type": "prose",
      "html": "<p>Quarterly, with an out-of-cycle path for anything material. Monthly reporting to\na board produces packs nobody reads and a function that spends its time\nreporting rather than working; annual reporting produces surprises.</p>\n<p>The out-of-cycle path matters more than the cadence. A board that learns about a\nsignificant incident from the quarterly pack six weeks later will not trust the\nquarterly pack again.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, GV.OV (Oversight), 2024</a>"
    ],
    "ld": [
     {
@@ -5450,6 +5502,11 @@
      ]
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO 37000:2021 — Governance of organizations, guidance</a>",
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>",
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -5735,6 +5792,10 @@
      ]
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO 37000:2021 — Governance of organizations, guidance</a>",
+    "Committee terms-of-reference conventions — quorum, membership, review cadence — are governance good practice drawn from corporate-governance codes and audit-committee charter guidance, not a single mandated standard"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -5990,6 +6051,10 @@
      "html": "<p>Entries move. Ownership is individual. The top ten are genuinely the top ten\nrather than the ten written first. Somebody outside the function can pick an\nentry and follow it from raise to treatment to closure without asking a\nquestion.</p>\n<p>That last test is the one that matters, and the one most programmes fail.</p>"
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27005:2022 — Guidance on managing information security risks</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -6220,11 +6285,12 @@
     {
      "type": "prose",
      "html": "<p>Sort by residual score descending. Read the top ten statements and check each is\na sentence with a consequence in it. Look at the review dates. Then find the\nappetite statement and check the top ten are actually above it — if they are\nnot, either the appetite is set too high to be meaningful, or the register is\nonly recording what was comfortable to write down.</p>"
-    },
-    {
-     "type": "note",
-     "html": "Building a register from a blank sheet, and defending the scores in a committee,\nis the first module of <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s foundation track</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines, clause 6.4</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27005:2022 — Guidance on managing information security risks</a>",
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>"
    ],
    "ld": [
     {
@@ -6283,7 +6349,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 522,
+     "wordCount": 494,
      "timeRequired": "PT8M",
      "citation": [
       "ISO 31000:2018 — Risk management, guidelines, clause 6.4",
@@ -6406,6 +6472,11 @@
      "type": "prose",
      "html": "<p>The risk function scores an entry, produces a residual figure, and compares it\nagainst the appetite threshold for that category. Above it, the entry needs a\ntreatment plan or a documented acceptance at the right level of authority. Below\nit, the entry is monitored on its review cycle.</p>\n<p>Tolerance operates in a different loop, usually automated: a metric crosses a\nline, someone is notified, an issue is raised. It is the operational tripwire;\nappetite is the annual stance the tripwire was placed to protect.</p>\n<p>Get the two the wrong way round — an appetite reviewed monthly, a tolerance\nargued about annually — and the function spends its time on the wrong meeting.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO Guide 73:2009 — Risk management, vocabulary</a>",
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>",
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018, clause 6.3.4</a>"
    ],
    "ld": [
     {
@@ -6656,6 +6727,10 @@
      "html": "<p>A new programme frequently finds twenty entries above the threshold and capacity\nfor four. The instinct is to lower the appetite until the list fits, which\ndestroys the artefact.</p>\n<p>The honest move is to treat four, accept the rest explicitly with a named\napprover and a shorter review cycle, and put the acceptance list in front of\ngovernance. That converts a resourcing problem into a decision the organisation\nhas actually made, which is both defensible in audit and considerably more\nlikely to release budget.</p>"
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018, clause 6.5 (Risk treatment)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27005:2022, clause 8.3</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -6846,6 +6921,10 @@
      "type": "prose",
      "html": "<p>Rarely in daily work, which is why it goes missing. It matters at exactly three\nmoments: setting appetite, approving a large acceptance, and after an incident,\nwhen somebody asks how close that came.</p>\n<p>The third is when a function that has never articulated capacity discovers it\ncannot answer the only question the board wants answered.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>",
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO Guide 73:2009 — Risk management, vocabulary</a>"
    ],
    "ld": [
     {
@@ -7106,6 +7185,10 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO 22301:2019 — Security and resilience, business continuity management systems, requirements</a>",
+    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO 22300:2021 — Security and resilience, vocabulary</a>"
    ],
    "ld": [
     {
@@ -7383,11 +7466,11 @@
        "html": "<p>At least annually, and on any material change — a new product, an acquisition, a moved supplier or a changed regulatory obligation. A BIA is a snapshot of a moving business; left unrevised it goes quietly out of date and takes the whole continuity plan with it.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Scoping a BIA and defending the RTOs it produces to the people who have to fund\nthem is covered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s business-continuity module</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO 22301:2019 — Security and resilience, business continuity management systems, requirements</a>",
+    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO/TS 22317:2021 — Security and resilience, business continuity management systems, guidelines for business impact analysis</a>"
    ],
    "ld": [
     {
@@ -7446,7 +7529,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 969,
+     "wordCount": 940,
      "timeRequired": "PT5M",
      "citation": [
       "ISO 22301:2019 — Security and resilience, business continuity management systems, requirements",
@@ -7666,11 +7749,11 @@
        "html": "<p>On a cadence set by tier, not a single calendar rule. Critical suppliers annually at least, and immediately on a trigger — a breach, a change of control, a service relocated. Routine suppliers can run on a longer cycle or by exception. A flat &ldquo;every three years for everyone&rdquo; repeats the tiering-by-spend mistake: it decouples effort from risk.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Standing up a supplier-tiering model and a due-diligence workflow from a blank\nsheet is one track in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s vendor-risk course</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27036-2:2022 — Cybersecurity, supplier relationships, Part 2: Requirements</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/161/r1/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-161r1 — Cybersecurity supply chain risk management practices for systems and organizations</a>"
    ],
    "ld": [
     {
@@ -7729,7 +7812,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 743,
+     "wordCount": 717,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27036-2:2022 — Cybersecurity, supplier relationships, Part 2: Requirements",
@@ -7915,6 +7998,10 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines</a>",
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>"
    ],
    "ld": [
     {
@@ -8188,6 +8275,10 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines (retaining a risk by informed decision)</a>",
+    "Exception- and waiver-register conventions — expiry, compensating control, approver at the right level — are control-governance good practice drawn from security and audit practice, not a single mandated standard"
    ],
    "ld": [
     {
@@ -8482,11 +8573,11 @@
        "html": "<p>Work back from appetite. The red line sits where exposure would breach what the\norganisation has said it will tolerate; amber sits far enough below it to leave\ntime to act before red. Both are judgements, so record who set them and revisit\nthem when appetite changes.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Designing indicators that actually predict, and wiring their thresholds to\nappetite, is worked through in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s risk-reporting module</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>",
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines</a>"
    ],
    "ld": [
     {
@@ -8545,7 +8636,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 837,
+     "wordCount": 813,
      "timeRequired": "PT5M",
      "citation": [
       "COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017",
@@ -8727,6 +8818,10 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines</a>",
+    "<a href=\"https://www.opengroup.org/open-fair\" target=\"_blank\" rel=\"noopener\">The Open Group, Risk Analysis (O-RA) Standard — the Open FAIR body of knowledge</a>"
    ],
    "ld": [
     {
@@ -9004,11 +9099,11 @@
        "html": "<p>Take the scores last, after the cause and consequence are agreed, so the first figure said aloud cannot anchor the rest, and have the most senior person speak after the others rather than first. Then invite the disagreement explicitly. A workshop in which nobody contradicts anybody has told you nothing you did not already know.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Facilitating the room — holding anchoring and the loudest voice in check, not\njust working through the agenda — is practised in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s foundation\ntrack</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">IEC 31010:2019 — Risk management, risk assessment techniques</a>",
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines (communication and consultation)</a>"
    ],
    "ld": [
     {
@@ -9067,7 +9162,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 618,
+     "wordCount": 587,
      "timeRequired": "PT5M",
      "citation": [
       "IEC 31010:2019 — Risk management, risk assessment techniques",
@@ -9299,11 +9394,13 @@
        "html": "<p>No. The method is built for sparse data: inputs are calibrated ranges that\nreflect uncertainty honestly, not measured frequencies. Industry loss datasets\nhelp, but the larger determinant of quality is whether the people giving\nestimates have been trained to be calibrated.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Building a first FAIR analysis from a register entry — decomposition, calibrated\nranges, reading the curve — is one module in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s risk track</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.opengroup.org/open-fair\" target=\"_blank\" rel=\"noopener\">The Open Group, Risk Analysis (O-RA) Standard, 2021 (FAIR)</a>",
+    "<a href=\"https://www.opengroup.org/open-fair\" target=\"_blank\" rel=\"noopener\">The Open Group, Risk Taxonomy (O-RT) Standard, Version 3.0, 2021</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/30/r1/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-30r1 — Guide for conducting risk assessments</a>",
+    "<a href=\"https://search.worldcat.org/search?q=How+to+Measure+Anything+in+Cybersecurity+Risk\" target=\"_blank\" rel=\"noopener\">D. W. Hubbard and R. Seiersen, How to Measure Anything in Cybersecurity Risk, 2nd ed., 2023</a>"
    ],
    "ld": [
     {
@@ -9362,7 +9459,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Risk",
-     "wordCount": 880,
+     "wordCount": 850,
      "timeRequired": "PT8M",
      "citation": [
       "The Open Group, Risk Analysis (O-RA) Standard, 2021 (FAIR)",
@@ -9570,6 +9667,10 @@
      "type": "prose",
      "html": "<p>Worth stating plainly, because the conflation causes real harm in both\ndirections. A compliant organisation has met a defined set of obligations. Those\nobligations were written by somebody else, against a general case, at a point in\nthe past.</p>\n<p>They are a floor. The risk function exists to find what the floor does not\ncover, and a compliance programme that has quietly replaced the risk register\nwith a control checklist has removed the only part of the function that was\nlooking at your specific situation.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, clause 4.2 and Annex A</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100)</a>"
    ],
    "ld": [
     {
@@ -9806,6 +9907,11 @@
      "html": "<p>The mapping decays at every framework revision and every reorganisation. Two\nhabits keep it alive: review it when a control owner changes rather than\nannually, and treat a new customer contract clause as an obligation-register\nevent rather than a legal one.</p>\n<p>The second is the one that catches programmes out. A security schedule agreed by\nthe sales team in March is an obligation from March, and the first anybody in\ncompliance hears of it is usually the audit.</p>"
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, clause 6.1.3 and Annex A</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100)</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, informative references, 2024</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -10025,6 +10131,11 @@
      "html": "<p>Collect at the point of operation, not at the point of request. A control that\nfiles its own evidence — the review tool exporting on completion, the ticket\nclosing with the export attached — takes minutes once and survives audit. Evidence\ngathered in the four weeks before fieldwork takes the whole four weeks and still\nhas holes in it.</p>"
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, clause 7.5 and clause 9.2</a>",
+    "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, International Professional Practices Framework, Standard 2310 (Identifying Information)</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -10222,6 +10333,11 @@
      "type": "prose",
      "html": "<p>Run one internally, first, on a handful of controls, with someone who did not\noperate them pulling the evidence. It takes two days, finds most of what the\nreal audit would find, and moves the discovery from fieldwork to a quiet Tuesday.</p>\n<p>Programmes that do this describe audits as administrative. Programmes that do\nnot describe them as the worst month of the year, and both are accurate.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, International Professional Practices Framework, Standard 2310</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, SSAE No. 18, AT-C section 205</a>",
+    "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 17021-1:2015 — Requirements for audit and certification bodies</a>"
    ],
    "ld": [
     {
@@ -10487,6 +10603,12 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, SSAE No. 18, AT-C section 205</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100)</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Description Criteria (DC section 200)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, clause 9.3 (management review)</a>"
    ],
    "ld": [
     {
@@ -10790,6 +10912,11 @@
      ]
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A control 8.32 (change management)</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (criterion CC8.1)</a>",
+    "<a href=\"https://www.axelos.com/certifications/itil-service-management\" target=\"_blank\" rel=\"noopener\">ITIL 4, change enablement</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -11048,6 +11175,11 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A control 8.13 (information backup)</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (criteria A1.2 and A1.3)</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/34/r1/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-34 Rev. 1 — Contingency Planning Guide for Federal Information Systems</a>"
    ],
    "ld": [
     {
@@ -11358,6 +11490,11 @@
      ]
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, SSAE No. 18, AT-C section 205 (exceptions)</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100)</a>",
+    "<a href=\"https://www.theiia.org/en/standards/\" target=\"_blank\" rel=\"noopener\">IIA, International Professional Practices Framework, Standard 2320</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -11637,11 +11774,12 @@
        "html": "<p>No. It feeds an audit rather than removing the need for one. An auditor still\nselects a sample, tests independently and forms an opinion, but does it against a\npopulation that is already instrumented, so fieldwork is shorter and holds fewer\nsurprises. A platform&rsquo;s green dashboard is evidence for an audit, not a\nsubstitute for the auditor&rsquo;s own testing.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Designing and wiring continuous control monitoring that watches the control\nrather than the tool is worked through in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s compliance-automation module</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (criterion CC4.1)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, clause 9.1 (monitoring, measurement, analysis and evaluation)</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/137/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-137 — Information Security Continuous Monitoring (ISCM)</a>"
    ],
    "ld": [
     {
@@ -11700,7 +11838,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 951,
+     "wordCount": 924,
      "timeRequired": "PT5M",
      "citation": [
       "AICPA, Trust Services Criteria (criterion CC4.1)",
@@ -11935,11 +12073,12 @@
      "term": "Vendor due diligence",
      "ref": "3.8",
      "html": "The assessment of a supplier&rsquo;s security, financial and regulatory standing before\nand during the relationship, scaled to the risk tier. A questionnaire is one\ninstrument of that diligence, not the whole of it — verifying what the answers\nclaim is the rest."
-    },
-    {
-     "type": "note",
-     "html": "Running a vendor questionnaire programme — tiering, an answer library and\ndemanding evidence behind the answers — is worked through in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\nthird-party risk module</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://sharedassessments.org/\" target=\"_blank\" rel=\"noopener\">Shared Assessments, Standardized Information Gathering (SIG) Questionnaire</a>",
+    "<a href=\"https://cloudsecurityalliance.org/\" target=\"_blank\" rel=\"noopener\">Cloud Security Alliance, Consensus Assessments Initiative Questionnaire (CAIQ) and STAR</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27036-2:2022 — Cybersecurity, supplier relationships, Part 2: Requirements</a>"
    ],
    "ld": [
     {
@@ -11998,7 +12137,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 1061,
+     "wordCount": 1030,
      "timeRequired": "PT6M",
      "citation": [
       "Shared Assessments, Standardized Information Gathering (SIG) Questionnaire",
@@ -12250,11 +12389,13 @@
        "html": "<p>Start from the CVSS base score, then adjust for three things it does not know:\nwhether a working exploit exists and is being used, whether an attacker can\nactually reach the asset and how critical that asset is. A medium score on an\nexposed system under active exploitation outranks a critical on an isolated host\nbehind a compensating control. CVSS ranks the flaw; context ranks the risk.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Building a vulnerability-management programme — risk-based prioritisation beyond\nthe CVSS base score, SLAs and verification — is worked through in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\nsecurity-operations module</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A control 8.8 (management of technical vulnerabilities)</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/40/r4/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-40 Rev. 4 — Guide to Enterprise Patch Management Planning</a>",
+    "<a href=\"https://www.first.org/cvss/\" target=\"_blank\" rel=\"noopener\">FIRST, Common Vulnerability Scoring System (CVSS)</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (criterion CC7.1)</a>"
    ],
    "ld": [
     {
@@ -12313,7 +12454,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 1037,
+     "wordCount": 1008,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 8.8 (management of technical vulnerabilities)",
@@ -12546,11 +12687,12 @@
        "html": "<p>The named person accountable for decisions about an asset: its classification,\nwho may use it, and whether an identified risk to it is accepted or treated. It\nis a business-accountability role, not the system administrator who operates it.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Building an inventory schema with ownership and classification, and wiring it to\nthe other control domains, is covered in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s controls track</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A controls 5.9, 5.10, 5.11</a>",
+    "<a href=\"https://www.cisecurity.org/controls\" target=\"_blank\" rel=\"noopener\">CIS Critical Security Controls v8.1, Controls 1 and 2</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/53/r5/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-53r5, family CM (Configuration Management) and CM-8</a>"
    ],
    "ld": [
     {
@@ -12609,7 +12751,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 726,
+     "wordCount": 698,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A controls 5.9, 5.10, 5.11",
@@ -12859,11 +13001,13 @@
        "html": "<p>The principle that an identity is granted only the access its function requires,\nfor only as long as it requires it, and nothing more. It limits the damage a\ncompromised or misused account can do and makes access reviews tractable,\nbecause there is less to justify.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Designing role templates and running a defensible access-review cycle is a\nworked exercise in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s controls track</a>. This\nentry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A controls 5.15–5.18, 8.2, 8.3, 8.5</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/53/r5/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-53r5, family AC (Access Control)</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA Trust Services Criteria, CC6.1–CC6.3</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/63/3/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-63-3 — Digital Identity Guidelines</a>"
    ],
    "ld": [
     {
@@ -12922,7 +13066,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 831,
+     "wordCount": 808,
      "timeRequired": "PT7M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A controls 5.15–5.18, 8.2, 8.3, 8.5",
@@ -13160,11 +13304,13 @@
        "html": "<p>No. Using them punitively causes people to stop reporting, which removes the\nprogramme&rsquo;s main benefit. Simulations should be framed as practice, with\nrepeat-clicker patterns handled as a coaching and targeting problem rather than\na disciplinary one.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Designing a role-based curriculum and a report-rate metric set is covered in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s programme track</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A control 6.3; clause 7.2 (competence) and 7.3 (awareness)</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/53/r5/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-53r5, control AT (Awareness and Training) family</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/50/r1/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-50r1 — Building a cybersecurity and privacy learning program, 2024</a>",
+    "<a href=\"https://www.enisa.europa.eu/publications\" target=\"_blank\" rel=\"noopener\">ENISA, Cybersecurity culture guidelines, 2022</a>"
    ],
    "ld": [
     {
@@ -13223,7 +13369,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 740,
+     "wordCount": 719,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 6.3; clause 7.2 (competence) and 7.3 (awareness)",
@@ -13452,11 +13598,12 @@
        "html": "<p>Start in alert-only mode to learn the legitimate data flows, then enable\nblocking narrowly for the cases that are never acceptable, such as restricted\ndata sent to personal email. Switching straight to blocking usually breaks\nbusiness processes and gets the tool disabled.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Sequencing a monitor-first rollout and writing classification-driven rules is\ncovered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s controls track</a>. This entry\nstays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A control 8.12 (Data leakage prevention)</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/53/r5/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-53r5, controls SC-7, SC-28, AC-4</a>",
+    "<a href=\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\" target=\"_blank\" rel=\"noopener\">Regulation (EU) 2016/679 (GDPR), Articles 5(1)(f) and 32</a>"
    ],
    "ld": [
     {
@@ -13515,7 +13662,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 727,
+     "wordCount": 707,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 8.12 (Data leakage prevention)",
@@ -13760,11 +13907,13 @@
        "html": "<p>A structured, blameless examination held after the incident is closed, covering\nthe timeline, what helped and hindered the response, the root cause, and a set\nof specific improvements each assigned to an owner and a date. It is what turns\nan incident into a reduction in future risk rather than just a bad week.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Building a severity scale, a plan and a first playbook, then running a tabletop\nagainst them, is a worked module in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s resilience track</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/61/r2/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-61r2 — Computer Security Incident Handling Guide (r3 draft, 2025)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27035-1:2023 — Information security incident management, principles</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A controls 5.24–5.28</a>",
+    "<a href=\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\" target=\"_blank\" rel=\"noopener\">Regulation (EU) 2016/679 (GDPR), Article 33</a>"
    ],
    "ld": [
     {
@@ -13823,7 +13972,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 819,
+     "wordCount": 789,
      "timeRequired": "PT7M",
      "citation": [
       "NIST SP 800-61r2 — Computer Security Incident Handling Guide (r3 draft, 2025)",
@@ -14102,11 +14251,13 @@
        "html": "<p>No. A penetration test aims to find and prove exploitable weaknesses in a defined\nscope, usually openly and over days. A red team exercise is objective-driven,\ncovert, runs over weeks, and tests whether the security team detects and responds\nas well as whether the controls hold.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Writing a defensible scope and rules of engagement, and turning a test report\ninto tracked risk, is covered in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s controls track</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/115/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-115 — Technical Guide to Information Security Testing and Assessment</a>",
+    "<a href=\"https://www.pcisecuritystandards.org/document_library/\" target=\"_blank\" rel=\"noopener\">PCI DSS v4.0.1, Requirement 11.4 (penetration testing)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A control 8.8 (management of technical vulnerabilities)</a>",
+    "<a href=\"http://www.pentest-standard.org/\" target=\"_blank\" rel=\"noopener\">PTES — Penetration Testing Execution Standard</a>"
    ],
    "ld": [
     {
@@ -14165,7 +14316,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 787,
+     "wordCount": 759,
      "timeRequired": "PT7M",
      "citation": [
       "NIST SP 800-115 — Technical Guide to Information Security Testing and Assessment",
@@ -14375,6 +14526,12 @@
      "type": "prose",
      "html": "<p>The controls overlap heavily — access, change, vulnerabilities, incidents,\nvendors, backups. The shells do not: ISO wants a management system with internal\naudit and management review; SOC 2 wants a system description and the auditor&rsquo;s\nown testing; NIST CSF wants neither and gives you a profile.</p>\n<p>Budget for one control programme and as many reporting shells as you have\nbuyers. See <a href=\"/frameworks/building-a-crosswalk/\">5.2</a> for the artefact that makes\nthat affordable.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022 — Information security management systems, requirements</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, 2024</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100)</a>",
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>"
    ],
    "ld": [
     {
@@ -14652,11 +14809,12 @@
     {
      "type": "prose",
      "html": "<p>If your buyers are North American technology companies, they will ask for SOC 2\nand many will not recognise an ISO certificate. If they are European, or\nenterprise procurement anywhere, they will ask for ISO 27001. If they are both,\ndo the control work once and sequence the reporting — SOC 2 Type I first for\nspeed, ISO 27001 next for reach, SOC 2 Type II on the following cycle.</p>"
-    },
-    {
-     "type": "note",
-     "html": "The crosswalk between Annex A and the Trust Services Criteria is built line by\nline in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>. This entry\nstays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022 — Information security management systems, requirements</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100), 2017, revised 2022</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, SSAE No. 18, AT-C section 205</a>"
    ],
    "ld": [
     {
@@ -14715,7 +14873,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
-     "wordCount": 461,
+     "wordCount": 436,
      "timeRequired": "PT8M",
      "citation": [
       "ISO/IEC 27001:2022 — Information security management systems, requirements",
@@ -14901,6 +15059,11 @@
      "type": "prose",
      "html": "<p>For a company adding SOC 2 to an existing ISO 27001 programme, the control work\nis largely done and the crosswalk shows exactly which parts. What remains is the\nsystem description, the auditor&rsquo;s testing, and the handful of criteria ISO does\nnot reach.</p>\n<p>The saving is not the certificate. It is that the second audit examines a\nprogramme that already runs, rather than a programme assembled to be examined.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100)</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, informative references, 2024</a>"
    ],
    "ld": [
     {
@@ -15133,6 +15296,11 @@
      "type": "prose",
      "html": "<p>Review it whenever the scope changes, whenever the risk assessment produces a\nnew treatment, and at the annual management review. A SoA carrying last year&rsquo;s\nscope is the most common documentation finding in surveillance audits, and it is\nentirely avoidable.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, clause 6.1.3 d)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022, Annex A</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27002:2022 — Information security controls</a>"
    ],
    "ld": [
     {
@@ -15419,6 +15587,11 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Trust Services Criteria (TSP section 100), 2017, revised 2022</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, Description Criteria (DC section 200)</a>",
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Internal Control – Integrated Framework, 2013</a>"
    ],
    "ld": [
     {
@@ -15742,6 +15915,10 @@
      ]
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework (CSF) 2.0, 2024</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST, CSF 2.0 Reference Tool / Informative References</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -16029,6 +16206,10 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Internal Control — Integrated Framework, 2013</a>",
+    "<a href=\"https://www.coso.org/\" target=\"_blank\" rel=\"noopener\">COSO, Enterprise Risk Management — Integrating with Strategy and Performance, 2017</a>"
    ],
    "ld": [
     {
@@ -16363,6 +16544,10 @@
      ]
     }
    ],
+   "sources_html": [
+    "<a href=\"https://csrc.nist.gov/publications/sp800\" target=\"_blank\" rel=\"noopener\">NIST, SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations (2020)</a>",
+    "<a href=\"https://csrc.nist.gov/publications/sp800\" target=\"_blank\" rel=\"noopener\">NIST, SP 800-37 Rev. 2 — Risk Management Framework</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -16661,11 +16846,11 @@
        "html": "<p>No. There is no CIS certification for an organisation. The Controls are free to adopt and you can assess yourself against them; CIS also sells assessment tooling like CIS-CAT that checks systems against the Benchmarks. None of that is an accredited certificate — if you need one, it comes from a framework such as ISO/IEC 27001, which the Controls can be mapped to.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Working through CIS Implementation Group 1 as a first hardening roadmap — mapping each safeguard to an owner and to the evidence that proves it — is covered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.cisecurity.org/controls\" target=\"_blank\" rel=\"noopener\">Center for Internet Security, CIS Critical Security Controls v8 (2021)</a>",
+    "<a href=\"https://www.cisecurity.org/controls\" target=\"_blank\" rel=\"noopener\">CIS, Implementation Groups and the Community Defense Model</a>"
    ],
    "ld": [
     {
@@ -16724,7 +16909,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
-     "wordCount": 1377,
+     "wordCount": 1339,
      "timeRequired": "PT5M",
      "citation": [
       "Center for Internet Security, CIS Critical Security Controls v8 (2021)",
@@ -16943,11 +17128,11 @@
        "html": "<p>No. Target maturity should be set by the risk each control carries, not raised uniformly. Holding a low-risk control at level 5 costs money to build and maintain that a higher-risk control still at level 2 needed more. The goal is the right maturity for each control and a closing gap over time, not level 5 everywhere.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Building a control-maturity assessment — a rubric with real evidence behind each\nlevel, and targets set by risk rather than a blanket level 5 — is worked through in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA / CMMI Institute, Capability Maturity Model Integration (CMMI)</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, 2024 — Implementation Tiers</a>"
    ],
    "ld": [
     {
@@ -17006,7 +17191,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
-     "wordCount": 1260,
+     "wordCount": 1222,
      "timeRequired": "PT6M",
      "citation": [
       "ISACA / CMMI Institute, Capability Maturity Model Integration (CMMI)",
@@ -17286,11 +17471,11 @@
        "html": "<p>No — there is no official HIPAA certification and no government body issues one. You can have an independent assessor evaluate your safeguards against the Security Rule, and that can be worth doing, but the result is an assessment or attestation, not a government-recognised certificate. Treat any &ldquo;HIPAA certified&rdquo; badge as marketing.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Running a HIPAA Security Rule risk analysis and working the administrative, physical and technical safeguards into an evidenced control set is covered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.hhs.gov/hipaa/for-professionals/security/index.html\" target=\"_blank\" rel=\"noopener\">HIPAA Security Rule, 45 CFR Part 160 and Part 164 Subparts A and C</a>",
+    "<a href=\"https://www.hhs.gov/hipaa/for-professionals/security/index.html\" target=\"_blank\" rel=\"noopener\">HHS Office for Civil Rights, Security Rule guidance</a>"
    ],
    "ld": [
     {
@@ -17349,7 +17534,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
-     "wordCount": 1307,
+     "wordCount": 1275,
      "timeRequired": "PT6M",
      "citation": [
       "HIPAA Security Rule, 45 CFR Part 160 and Part 164 Subparts A and C",
@@ -17614,11 +17799,11 @@
        "html": "<p>No — it narrows your scope but does not remove your obligation. Outsourcing card handling to a compliant processor can reduce you to the shortest questionnaire, often SAQ A, but you still complete the validation your brand or acquirer requires for your part of the flow — usually an SAQ and AOC: how you integrate the processor, who can access the environment and how you govern the relationship all remain yours to validate.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Scoping a cardholder data environment, then working through the requirements and\nthe SAQ that fit how a business handles card data, is covered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\nframeworks track</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.pcisecuritystandards.org/document_library/\" target=\"_blank\" rel=\"noopener\">PCI Security Standards Council, PCI DSS v4.0.1 (2024)</a>",
+    "<a href=\"https://www.pcisecuritystandards.org/document_library/\" target=\"_blank\" rel=\"noopener\">PCI SSC, Self-Assessment Questionnaire (SAQ) Instructions and Guidelines</a>"
    ],
    "ld": [
     {
@@ -17677,7 +17862,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
-     "wordCount": 1613,
+     "wordCount": 1580,
      "timeRequired": "PT7M",
      "citation": [
       "PCI Security Standards Council, PCI DSS v4.0.1 (2024)",
@@ -17899,6 +18084,11 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, SOC 1 — SSAE 18 (AT-C section 320)</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, 2017 Trust Services Criteria</a>",
+    "<a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" target=\"_blank\" rel=\"noopener\">AICPA, AT-C section 205 — Assertion-Based Examination Engagements</a>"
    ],
    "ld": [
     {
@@ -18264,6 +18454,10 @@
      ]
     }
    ],
+   "sources_html": [
+    "<a href=\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\" target=\"_blank\" rel=\"noopener\">Regulation (EU) 2016/679 (General Data Protection Regulation)</a>",
+    "<a href=\"https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en\" target=\"_blank\" rel=\"noopener\">European Data Protection Board, guidelines on the GDPR</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -18579,11 +18773,13 @@
        "html": "<p>No. It means an accredited auditor found a working information security\nmanagement system — risks assessed, controls chosen and operated, failures found\nand corrected. It is strong evidence of a disciplined approach, not a guarantee\nagainst a breach.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "A clause-by-clause walkthrough with the artefacts each one requires is built in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s ISO 27001 track</a>. This entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022 — Information security management systems — Requirements</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27002:2022 — Information security controls (guidance for Annex A)</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27006 — Requirements for bodies providing audit and certification of an ISMS</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022/Amd 1:2024 — climate action amendment</a>"
    ],
    "ld": [
     {
@@ -18642,7 +18838,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
-     "wordCount": 969,
+     "wordCount": 947,
      "timeRequired": "PT9M",
      "citation": [
       "ISO/IEC 27001:2022 — Information security management systems — Requirements",
@@ -18868,11 +19064,14 @@
        "html": "<p>Yes. Because they share the Annex SL structure, standards such as ISO 27001,\nISO 22301 and ISO 9001 can be run as one integrated management system with a\nsingle internal audit programme, management review and corrective-action process,\nand audited together. This is the standard approach for organisations holding\nmore than one.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Mapping one integrated management system across several ISO standards is a worked\nexercise in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>. This entry\nstays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.iso.org/standards.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27701:2019 — Privacy information management — extension to 27001/27002</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27017:2015 and ISO/IEC 27018:2019 — cloud security and cloud PII</a>",
+    "<a href=\"https://www.iso.org/iso-22301-business-continuity.html\" target=\"_blank\" rel=\"noopener\">ISO 22301:2019 — Business continuity management systems</a>",
+    "<a href=\"https://www.iso.org/artificial-intelligence.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 42001:2023 — Artificial intelligence management system</a>",
+    "<a href=\"https://www.iso.org/directives-and-policies.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC Directives Part 1, Annex SL (Harmonised Structure)</a>"
    ],
    "ld": [
     {
@@ -18931,7 +19130,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
-     "wordCount": 734,
+     "wordCount": 711,
      "timeRequired": "PT7M",
      "citation": [
       "ISO/IEC 27701:2019 — Privacy information management — extension to 27001/27002",
@@ -19180,11 +19379,14 @@
        "html": "<p>A voluntary framework (NIST AI 100-1) for identifying and managing risks unique\nto AI systems, organised as Govern, Map, Measure and Manage. It parallels the\nCSF&rsquo;s structure and is the common starting reference for US AI-governance\nprogrammes, alongside the certifiable ISO/IEC 42001.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Working through a CSF 2.0 profile and mapping it down to a control set is a\nmodule in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>. This entry\nstays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework (CSF) 2.0, February 2024</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/53/r5/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-53r5 — Security and Privacy Controls for Information Systems and Organizations</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/171/r3/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-171r3 — Protecting Controlled Unclassified Information</a>",
+    "<a href=\"https://csrc.nist.gov/pubs/sp/800/37/r2/final\" target=\"_blank\" rel=\"noopener\">NIST SP 800-37r2 — Risk Management Framework</a>",
+    "<a href=\"https://www.nist.gov/itl/ai-risk-management-framework\" target=\"_blank\" rel=\"noopener\">NIST AI 100-1 — Artificial Intelligence Risk Management Framework 1.0, January 2023</a>"
    ],
    "ld": [
     {
@@ -19243,7 +19445,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
-     "wordCount": 916,
+     "wordCount": 889,
      "timeRequired": "PT8M",
      "citation": [
       "NIST Cybersecurity Framework (CSF) 2.0, February 2024",
@@ -19523,11 +19725,15 @@
        "html": "<p>If a customer or regulator names one, start there. If not, ISO 27001 for the\nmanagement system plus the CIS Controls for implementation priority is a solid\ndefault that crosswalks to nearly every other framework, so later requirements\ncan be met from the same control work and evidence.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "Placing and crosswalking a new framework against one you already run is a\nworked exercise in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.cisecurity.org/controls\" target=\"_blank\" rel=\"noopener\">CIS Critical Security Controls v8.1, Center for Internet Security</a>",
+    "<a href=\"https://www.isaca.org/resources/cobit\" target=\"_blank\" rel=\"noopener\">ISACA, COBIT 2019 Framework: Governance and Management Objectives</a>",
+    "<a href=\"https://hitrustalliance.net/\" target=\"_blank\" rel=\"noopener\">HITRUST CSF version 11, HITRUST Alliance</a>",
+    "<a href=\"https://www.fedramp.gov/\" target=\"_blank\" rel=\"noopener\">FedRAMP authorization requirements, GSA</a>",
+    "<a href=\"https://www.ncsc.gov.uk/cyberessentials/overview\" target=\"_blank\" rel=\"noopener\">NCSC Cyber Essentials (UK); ASD Essential Eight Maturity Model (Australia)</a>",
+    "<a href=\"https://cloudsecurityalliance.org/\" target=\"_blank\" rel=\"noopener\">Cloud Security Alliance, Cloud Controls Matrix v4</a>"
    ],
    "ld": [
     {
@@ -19586,7 +19792,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Frameworks",
-     "wordCount": 957,
+     "wordCount": 932,
      "timeRequired": "PT8M",
      "citation": [
       "CIS Critical Security Controls v8.1, Center for Internet Security",
@@ -19792,6 +19998,11 @@
      "type": "prose",
      "html": "<p>Sideways more often than up, and that is normal. Risk to privacy, compliance to\ninternal audit, GRC to security architecture, and — increasingly — GRC into\nproduct, because the person who understands the obligations understands what the\nproduct has to do.</p>\n<p>The route out that surprises people is into consulting, where the breadth of a\ngeneralist seat is worth more than the depth of a specialist one.</p>"
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, State of Cybersecurity, workforce sections, 2025</a>",
+    "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² Cybersecurity Workforce Study, 2025</a>"
    ],
    "ld": [
     {
@@ -20002,8 +20213,12 @@
     },
     {
      "type": "note",
-     "html": "The foundation track at <a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is built around\nproducing exactly that walk-through artefact, and\n<a href=\"https://www.youtube.com/@UnixGuy\">UnixGuy&rsquo;s YouTube channel</a> has free\ncareer-entry walkthroughs. This entry stays free, and so does the advice: build\none either way."
+     "html": "<a href=\"https://www.youtube.com/@UnixGuy\">UnixGuy&rsquo;s YouTube channel</a> has free\nwalkthroughs of the route into GRC from an adjacent role. This entry stays free,\nand so does the advice: build the walk-through artefact either way."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, CRISC and CISA job practice areas, 2025</a>",
+    "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² Cybersecurity Workforce Study, 2025</a>"
    ],
    "ld": [
     {
@@ -20062,7 +20277,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 468,
+     "wordCount": 463,
      "timeRequired": "PT7M",
      "citation": [
       "ISACA, CRISC and CISA job practice areas, 2025",
@@ -20203,8 +20418,12 @@
     },
     {
      "type": "note",
-     "html": "Worked answers to all eight, with the follow-ups, are in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\ninterview module</a>, and\n<a href=\"https://www.youtube.com/@UnixGuy\">UnixGuy&rsquo;s YouTube channel</a> covers GRC\ninterview preparation for free. The questions themselves stay here, free."
+     "html": "<a href=\"https://www.youtube.com/@UnixGuy\">UnixGuy&rsquo;s YouTube channel</a> covers GRC\ninterview preparation for free. The questions themselves stay here, free."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.iso.org/iso-31000-risk-management.html\" target=\"_blank\" rel=\"noopener\">ISO 31000:2018 — Risk management, guidelines</a>"
    ],
    "ld": [
     {
@@ -20263,7 +20482,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 698,
+     "wordCount": 682,
      "timeRequired": "PT8M",
      "citation": [
       "IIA, The Three Lines Model, 2020",
@@ -20430,7 +20649,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The options a newcomer actually weighs, described by what each one is rather than\nhow it markets itself. The last column is the experience needed to <em>hold</em> the\ncredential, not to sit the exam.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Path</th>\n<th>What it certifies</th>\n<th>Who it suits</th>\n<th>Breadth</th>\n<th>Experience to be certified</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>GRC foundation course</strong></td>\n<td>A taught grounding in how the function works</td>\n<td>Someone entering GRC from any route</td>\n<td>Broad — the function end to end (varies by provider)</td>\n<td>None</td>\n</tr>\n<tr>\n<td><strong>ISO 27001 Lead Implementer / Auditor</strong></td>\n<td>Competence to implement or audit one standard</td>\n<td>Someone standing up or auditing an ISMS</td>\n<td>Narrow — a single standard</td>\n<td>Scheme-dependent: provisional grades none, full lead grades several years</td>\n</tr>\n<tr>\n<td><strong>ISACA CISA</strong></td>\n<td>Information systems audit, governance and control</td>\n<td>Auditors and audit-adjacent roles</td>\n<td>Specialised — the audit seat</td>\n<td>Five years in IS audit, control or security; up to three waivable</td>\n</tr>\n<tr>\n<td><strong>ISACA CRISC</strong></td>\n<td>IT risk identification and control</td>\n<td>Risk-register and control practitioners</td>\n<td>Specialised — the risk seat</td>\n<td>Three years across two or more of four domains; no waivers</td>\n</tr>\n<tr>\n<td><strong>ISACA CISM</strong></td>\n<td>Information security management</td>\n<td>Practitioners moving into a security-management role</td>\n<td>Specialised — the management seat</td>\n<td>Five years in information security, three of them in security management</td>\n</tr>\n<tr>\n<td><strong>ISC2 CISSP</strong></td>\n<td>Broad security across eight domains</td>\n<td>Security generalists and leads</td>\n<td>Broad in security, thin on GRC</td>\n<td>Five years across two or more of the eight domains; one year waivable</td>\n</tr>\n<tr>\n<td><strong>SANS / GIAC</strong></td>\n<td>Hands-on technical skill in a chosen domain</td>\n<td>Practitioners doing the technical work</td>\n<td>Deep and domain-specific; some management and audit tracks too</td>\n<td>GIAC exams: none formal</td>\n</tr>\n</tbody>\n</table></div>\n<p>The credential exams — CISA, CRISC, CISM and CISSP — can each be sat before that\nexperience is complete, but the certification itself waits on it. Read the last\ncolumn as a destination, not a starting line.</p>"
+     "html": "<p>The options a newcomer actually weighs, described by what each one is rather than\nhow it markets itself. The last column is the experience needed to <em>hold</em> the\ncredential, not to sit the exam.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Path</th>\n<th>What it certifies</th>\n<th>Who it suits</th>\n<th>Breadth</th>\n<th>Experience to be certified</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Dedicated GRC course</strong></td>\n<td>A taught grounding in how the whole function works</td>\n<td>Someone entering GRC from any route</td>\n<td>Broad — the function end to end; named options are compared at <a href=\"/career/grc-courses-and-training/\">6.6</a></td>\n<td>None</td>\n</tr>\n<tr>\n<td><strong>ISO 27001 Lead Implementer / Auditor</strong></td>\n<td>Competence to implement or audit one standard</td>\n<td>Someone standing up or auditing an ISMS</td>\n<td>Narrow — a single standard</td>\n<td>Scheme-dependent: provisional grades none, full lead grades several years</td>\n</tr>\n<tr>\n<td><strong>ISACA CISA</strong></td>\n<td>Information systems audit, governance and control</td>\n<td>Auditors and audit-adjacent roles</td>\n<td>Specialised — the audit seat</td>\n<td>Five years in IS audit, control or security; up to three waivable</td>\n</tr>\n<tr>\n<td><strong>ISACA CRISC</strong></td>\n<td>IT risk identification and control</td>\n<td>Risk-register and control practitioners</td>\n<td>Specialised — the risk seat</td>\n<td>Three years across two or more of four domains; no waivers</td>\n</tr>\n<tr>\n<td><strong>ISACA CISM</strong></td>\n<td>Information security management</td>\n<td>Practitioners moving into a security-management role</td>\n<td>Specialised — the management seat</td>\n<td>Five years in information security, three of them in security management</td>\n</tr>\n<tr>\n<td><strong>ISC2 CISSP</strong></td>\n<td>Broad security across eight domains</td>\n<td>Security generalists and leads</td>\n<td>Broad in security, thin on GRC</td>\n<td>Five years across two or more of the eight domains; one year waivable</td>\n</tr>\n<tr>\n<td><strong>SANS / GIAC</strong></td>\n<td>Hands-on technical skill in a chosen domain</td>\n<td>Practitioners doing the technical work</td>\n<td>Deep and domain-specific; some management and audit tracks too</td>\n<td>GIAC exams: none formal</td>\n</tr>\n</tbody>\n</table></div>\n<p>The credential exams — CISA, CRISC, CISM and CISSP — can each be sat before that\nexperience is complete, but the certification itself waits on it. Read the last\ncolumn as a destination, not a starting line.</p>"
     },
     {
      "type": "heading",
@@ -20496,8 +20715,14 @@
     },
     {
      "type": "note",
-     "html": "For the broad, vendor-agnostic grounding a beginner needs before any specialist\nbadge, <a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is one option built for exactly\nthat. This entry and its comparison stay free and standard-neutral."
+     "html": "Courses, self-study routes and the trade-offs between them are compared at\n<a href=\"/career/grc-courses-and-training/\">6.6</a>. This entry and that comparison stay\nfree and standard-neutral."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, CISA / CISM / CRISC certification requirements, 2025</a>",
+    "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² CISSP experience, endorsement and CBK domains, 2024</a>",
+    "<a href=\"https://www.giac.org/\" target=\"_blank\" rel=\"noopener\">GIAC certification catalogue and eligibility, SANS Institute, 2025</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022 — lead implementer / auditor grades are provider schemes (PECB, BSI and others)</a>"
    ],
    "ld": [
     {
@@ -20556,7 +20781,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 1031,
+     "wordCount": 1027,
      "timeRequired": "PT9M",
      "citation": [
       "ISACA, CISA / CISM / CRISC certification requirements, 2025",
@@ -20753,6 +20978,11 @@
       }
      ]
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, State of Cybersecurity, workforce sections, 2025</a>",
+    "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² Cybersecurity Workforce Study, 2025</a>"
    ],
    "ld": [
     {
@@ -21029,6 +21259,10 @@
      ]
     }
    ],
+   "sources_html": [
+    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, State of Cybersecurity, workforce sections, 2025</a>",
+    "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² Cybersecurity Workforce Study, 2025</a>"
+   ],
    "ld": [
     {
      "@type": "WebSite",
@@ -21136,9 +21370,9 @@
    "keywords": [
     "best GRC course",
     "GRC training for beginners",
-    "GRC Mastery review",
     "how to learn GRC",
     "GRC course vs certification",
+    "GRC certification comparison",
     "free GRC training"
    ],
    "defines": "",
@@ -21156,7 +21390,7 @@
     "ISACA, CISA / CRISC / CISM review course and exam materials, 2025",
     "(ISC)² CISSP official training and CBK, 2024",
     "GIAC / SANS course catalogue (MGT415, AUD507, MGT516), 2025",
-    "Provider curricula: GRC Mastery, vendor academies, university GRC certificates, 2025"
+    "Provider curricula: dedicated GRC courses, vendor academies and university GRC certificates, 2025"
    ],
    "prev": {
     "ref": "6.5",
@@ -21173,18 +21407,13 @@
      "text": "The main options"
     },
     {
-     "id": "grc-mastery-in-a-bit-more-detail",
-     "clause": "6.6.2",
-     "text": "GRC Mastery, in a bit more detail"
-    },
-    {
      "id": "course-or-certification-first",
-     "clause": "6.6.3",
+     "clause": "6.6.2",
      "text": "Course or certification first"
     },
     {
      "id": "common-questions",
-     "clause": "6.6.4",
+     "clause": "6.6.3",
      "text": "Common questions"
     }
    ],
@@ -21215,21 +21444,9 @@
     {
      "type": "heading",
      "level": 2,
-     "id": "grc-mastery-in-a-bit-more-detail",
+     "id": "course-or-certification-first",
      "clause": "6.6.2",
      "alias": "c6-6-2",
-     "text": "GRC Mastery, in a bit more detail"
-    },
-    {
-     "type": "prose",
-     "html": "<p><a href=\"https://www.grcmastery.com/\">GRC Mastery</a>, from\n<a href=\"https://www.youtube.com/@UnixGuy\">UnixGuy</a>, is built specifically for people\nentering the field. Its strengths are breadth and concreteness: it walks the\nwhole function — risk registers, control frameworks, audits, evidence, vendor\nrisk — and has learners build the actual artefacts rather than only read about\nthem, which is the gap most newcomers have. It issues its own GRC Mastery\ncertification and includes a segment that awards an <strong>ISO 27001 Lead Auditor</strong>\ncertification, so it is a credential in its own right and not only a course. It\nis also inexpensive next to the ISACA exams and is self-paced. The trade-offs\nare the ones in the table: it is newer than the established exam bodies, largely\nbuilt around one instructor, and deliberately framework- and vendor-neutral\noutside the ISO 27001 auditor component, so it will not make you a specialist in\nany one other standard or tool. For a first, broad grounding, that neutral\nbreadth is the point.</p>"
-    },
-    {
-     "type": "heading",
-     "level": 2,
-     "id": "course-or-certification-first",
-     "clause": "6.6.3",
-     "alias": "c6-6-3",
      "text": "Course or certification first"
     },
     {
@@ -21240,8 +21457,8 @@
      "type": "heading",
      "level": 2,
      "id": "common-questions",
-     "clause": "6.6.4",
-     "alias": "c6-6-4",
+     "clause": "6.6.3",
+     "alias": "c6-6-3",
      "text": "Common questions"
     },
     {
@@ -21250,12 +21467,7 @@
       {
        "q": "What is the best GRC course for beginners?",
        "id": "faq-what-is-the-best-grc-course-for-beginners",
-       "html": "<p>There is no single best one. For a broad grounding in how the function works,\nfrom any background, a dedicated GRC course such as GRC Mastery is built for that\naudience and has you produce real artefacts. If you already know the seat you\nare aiming at, certification-aligned training for that seat may serve you\nbetter. The deciding factors are your background, budget and target role.</p>"
-      },
-      {
-       "q": "Is GRC Mastery worth it?",
-       "id": "faq-is-grc-mastery-worth-it",
-       "html": "<p>For someone entering GRC who wants the whole function mapped out and wants to\nbuild the artefacts rather than just read about them, it is a well-regarded,\nlow-cost option aimed exactly at that need. It issues its own certification and\nincludes an ISO 27001 Lead Auditor certification, and it is newer than the\nestablished credential bodies. Whether it fits depends on whether you want a\nbroad, practical grounding with an auditor credential attached, or a single\nspecialist exam from a legacy body.</p>"
+       "html": "<p>There is no single best one. For a broad grounding in how the function works,\nfrom any background, a dedicated GRC course is built for that audience and has\nyou produce real artefacts. If you already know the seat you are aiming at,\ncertification-aligned training for that seat may serve you better. The deciding\nfactors are your background, budget and target role.</p>"
       },
       {
        "q": "Do I need a paid course to learn GRC?",
@@ -21268,11 +21480,13 @@
        "html": "<p>In audit-facing roles, ISACA&rsquo;s CISA is the most frequently requested. CRISC maps\nto the risk seat and CISM to security management. CISSP is widely recognised\nacross security generally but is not GRC-specific. Recognition is only part of\nthe picture — all of these carry multi-year experience requirements to hold.</p>"
       }
      ]
-    },
-    {
-     "type": "note",
-     "html": "For the broad, framework-neutral grounding this entry describes as the fit for a\nnewcomer, <a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is one option built for\nthat purpose, and it carries its own certification plus an ISO 27001 Lead\nAuditor certification. This comparison stays free and lists it alongside the\nalternatives."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.isaca.org/\" target=\"_blank\" rel=\"noopener\">ISACA, CISA / CRISC / CISM review course and exam materials, 2025</a>",
+    "<a href=\"https://www.isc2.org/certifications/cissp\" target=\"_blank\" rel=\"noopener\">(ISC)² CISSP official training and CBK, 2024</a>",
+    "<a href=\"https://www.giac.org/\" target=\"_blank\" rel=\"noopener\">GIAC / SANS course catalogue (MGT415, AUD507, MGT516), 2025</a>",
+    "Provider curricula: dedicated GRC courses, vendor academies and university GRC certificates, 2025"
    ],
    "ld": [
     {
@@ -21331,15 +21545,15 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 876,
+     "wordCount": 586,
      "timeRequired": "PT7M",
      "citation": [
       "ISACA, CISA / CRISC / CISM review course and exam materials, 2025",
       "(ISC)² CISSP official training and CBK, 2024",
       "GIAC / SANS course catalogue (MGT415, AUD507, MGT516), 2025",
-      "Provider curricula: GRC Mastery, vendor academies, university GRC certificates, 2025"
+      "Provider curricula: dedicated GRC courses, vendor academies and university GRC certificates, 2025"
      ],
-     "keywords": "best GRC course, GRC training for beginners, GRC Mastery review, how to learn GRC, GRC course vs certification, free GRC training"
+     "keywords": "best GRC course, GRC training for beginners, how to learn GRC, GRC course vs certification, GRC certification comparison, free GRC training"
     },
     {
      "@type": "FAQPage",
@@ -21350,15 +21564,7 @@
        "name": "What is the best GRC course for beginners?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There is no single best one. For a broad grounding in how the function works, from any background, a dedicated GRC course such as GRC Mastery is built for that audience and has you produce real artefacts. If you already know the seat you are aiming at, certification-aligned training for that seat may serve you better. The deciding factors are your background, budget and target role."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "Is GRC Mastery worth it?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For someone entering GRC who wants the whole function mapped out and wants to build the artefacts rather than just read about them, it is a well-regarded, low-cost option aimed exactly at that need. It issues its own certification and includes an ISO 27001 Lead Auditor certification, and it is newer than the established credential bodies. Whether it fits depends on whether you want a broad, practical grounding with an auditor credential attached, or a single specialist exam from a legacy body."
+        "text": "There is no single best one. For a broad grounding in how the function works, from any background, a dedicated GRC course is built for that audience and has you produce real artefacts. If you already know the seat you are aiming at, certification-aligned training for that seat may serve you better. The deciding factors are your background, budget and target role."
        }
       },
       {
@@ -21509,7 +21715,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Two viable routes, and a supplement that helps either.</p>\n<ul>\n<li><strong>Self-structured.</strong> Use the primary sources — NIST, CIS, ISO previews,\n  regulator guidance — and a reference like this one to build your own sequence.\n  Free, and effective if you are disciplined about finishing step 3 with a real\n  output. The failure mode is reading indefinitely and never building anything.</li>\n<li><strong>A taught course.</strong> A dedicated GRC course supplies the sequence, the pacing\n  and, in the better ones, the artefacts. <a href=\"/career/grc-courses-and-training/\">6.6</a>\n  compares the types; <a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is one built for this\n  exact from-scratch audience, covering the whole function and having you produce\n  the artefacts as you go.</li>\n<li><strong>Either way</strong>, join where practitioners talk — forums, communities, local\n  chapters — and get one person to critique your artefact before you put it in\n  front of an interviewer.</li>\n</ul>"
+     "html": "<p>Two viable routes, and a supplement that helps either.</p>\n<ul>\n<li><strong>Self-structured.</strong> Use the primary sources — NIST, CIS, ISO previews,\n  regulator guidance — and a reference like this one to build your own sequence.\n  Free, and effective if you are disciplined about finishing step 3 with a real\n  output. The failure mode is reading indefinitely and never building anything.</li>\n<li><strong>A taught course.</strong> A dedicated GRC course supplies the sequence, the pacing\n  and, in the better ones, the artefacts.\n  <a href=\"/career/grc-courses-and-training/\">6.6</a> compares the courses, certifications\n  and free routes and the trade-offs between them.</li>\n<li><strong>Either way</strong>, join where practitioners talk — forums, communities, local\n  chapters — and get one person to critique your artefact before you put it in\n  front of an interviewer.</li>\n</ul>"
     },
     {
      "type": "heading",
@@ -21575,8 +21781,13 @@
     },
     {
      "type": "note",
-     "html": "<a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is one course built around this\nfrom-scratch path — the whole function, with the artefacts built as you go. This\nentry stays free and the path works without it."
+     "html": "Courses and study routes for this path, with their trade-offs, are compared at\n<a href=\"/career/grc-courses-and-training/\">6.6</a>. This entry stays free and the path\nworks with any of them."
     }
+   ],
+   "sources_html": [
+    "<a href=\"https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/\" target=\"_blank\" rel=\"noopener\">IIA, The Three Lines Model, 2020</a>",
+    "<a href=\"https://www.iso.org/isoiec-27001-information-security.html\" target=\"_blank\" rel=\"noopener\">ISO/IEC 27001:2022 — Information security management systems</a>",
+    "<a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener\">NIST Cybersecurity Framework 2.0, February 2024</a>"
    ],
    "ld": [
     {
@@ -21635,7 +21846,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 978,
+     "wordCount": 960,
      "timeRequired": "PT8M",
      "citation": [
       "IIA, The Three Lines Model, 2020",

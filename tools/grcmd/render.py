@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 from typing import Any
 
 from .model import Entry, Site
@@ -37,6 +38,103 @@ MATRIX_HEAT = [
 
 def e(value: Any) -> str:
     return html.escape(str(value), quote=True)
+
+
+# --- Citations -> links ------------------------------------------------------
+#
+# Every source line in an entry links to the body that publishes it. The target
+# is the standard's own landing page (or that publisher's), not a paywalled PDF,
+# so a reader can always get to the authoritative source in one click.
+
+def _nist_sp(m: "re.Match[str]") -> str:
+    series, num = m.group(1), m.group(2)
+    rev = m.group(3) or m.group(4)
+    dash = m.group(5)
+    if rev:
+        tail = f"r{rev}/final"
+    elif dash:
+        tail = f"{dash}/final"
+    else:
+        tail = "final"
+    return f"https://csrc.nist.gov/pubs/sp/{series}/{num}/{tail}"
+
+
+_CITE_RULES: list[tuple["re.Pattern[str]", Any]] = []
+
+
+def _cite(pattern: str, url: Any) -> None:
+    _CITE_RULES.append((re.compile(pattern, re.I), url))
+
+
+_cite(r"\bNIST\s+SP\s+(\d{3})-(\d+)\s*(?:Rev\.?\s*(\d+)|r(\d+)|-(\d+))?", _nist_sp)
+_cite(r"NIST\s+AI\s+100-1|Artificial Intelligence Risk Management Framework|\bAI\s+RMF\b",
+      "https://www.nist.gov/itl/ai-risk-management-framework")
+_cite(r"NIST\b.*Cybersecurity Framework|\bNIST\s+CSF\b|\bCSF\s*2\.0\b",
+      "https://www.nist.gov/cyberframework")
+_cite(r"\bNIST\b", "https://csrc.nist.gov/publications/sp800")
+
+_cite(r"ISO(?:/IEC)?\s*270\d\d|ISO/IEC\s*27000\b",
+      "https://www.iso.org/isoiec-27001-information-security.html")
+_cite(r"\bISO\s*31000\b|\bIEC\s*31010\b|ISO\s+Guide\s*73\b",
+      "https://www.iso.org/iso-31000-risk-management.html")
+_cite(r"\bISO(?:/TS)?\s*2230\d\b|\bISO/TS\s*22317\b",
+      "https://www.iso.org/iso-22301-business-continuity.html")
+_cite(r"\bISO\s*9001\b", "https://www.iso.org/iso-9001-quality-management.html")
+_cite(r"\bISO/IEC\s*42001\b|Artificial intelligence management system",
+      "https://www.iso.org/artificial-intelligence.html")
+_cite(r"ISO/IEC\s+Directives", "https://www.iso.org/directives-and-policies.html")
+_cite(r"\bISO\b", "https://www.iso.org/standards.html")
+
+_cite(r"\bCOBIT\b", "https://www.isaca.org/resources/cobit")
+_cite(r"\bISACA\b|\bCRISC\b|\bCISA\b|\bCISM\b|\bCMMI\b", "https://www.isaca.org/")
+_cite(r"\(ISC\)|\bCISSP\b", "https://www.isc2.org/certifications/cissp")
+_cite(r"\bGIAC\b", "https://www.giac.org/")
+_cite(r"\bSANS\b", "https://www.sans.org/")
+
+_cite(r"Three Lines Model",
+      "https://www.theiia.org/en/content/position-papers/2020/the-iia-three-lines-model/")
+_cite(r"\bIIA\b|International Professional Practices Framework|Three Lines of Defence|Standards for the Professional Practice",
+      "https://www.theiia.org/en/standards/")
+_cite(r"\bIAASB\b|\bISA\s*200\b", "https://www.iaasb.org/")
+
+_cite(r"European Data Protection Board|\bEDPB\b",
+      "https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en")
+_cite(r"Regulation \(EU\) 2016/679|General Data Protection Regulation|\bGDPR\b",
+      "https://eur-lex.europa.eu/eli/reg/2016/679/oj")
+
+_cite(r"\bAICPA\b|Trust Services Criteria|\bSSAE\b|\bAT-C\b|Description Criteria",
+      "https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services")
+_cite(r"\bPCI\b|Payment Card Industry|Self-Assessment Questionnaire",
+      "https://www.pcisecuritystandards.org/document_library/")
+_cite(r"Center for Internet Security|CIS Critical Security Controls|\bCIS\b",
+      "https://www.cisecurity.org/controls")
+_cite(r"\bCOSO\b", "https://www.coso.org/")
+_cite(r"\bHIPAA\b|45 CFR|Office for Civil Rights", "https://www.hhs.gov/hipaa/for-professionals/security/index.html")
+_cite(r"\bFIRST\b|Common Vulnerability Scoring System|\bCVSS\b", "https://www.first.org/cvss/")
+_cite(r"Open Group|\bO-RA\b|\bO-RT\b|Open FAIR|\bFAIR\b", "https://www.opengroup.org/open-fair")
+_cite(r"Cloud Security Alliance|Cloud Controls Matrix|\bCAIQ\b|\bCCM\b|\bSTAR\b", "https://cloudsecurityalliance.org/")
+_cite(r"\bHITRUST\b", "https://hitrustalliance.net/")
+_cite(r"\bFedRAMP\b", "https://www.fedramp.gov/")
+_cite(r"Shared Assessments|\bSIG\b", "https://sharedassessments.org/")
+_cite(r"Cyber Essentials", "https://www.ncsc.gov.uk/cyberessentials/overview")
+_cite(r"Essential Eight|\bASD\b",
+      "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight")
+_cite(r"\bENISA\b", "https://www.enisa.europa.eu/publications")
+_cite(r"\bITIL\b", "https://www.axelos.com/certifications/itil-service-management")
+_cite(r"\bPTES\b|Penetration Testing Execution Standard", "http://www.pentest-standard.org/")
+_cite(r"How to Measure Anything|Hubbard",
+      "https://search.worldcat.org/search?q=How+to+Measure+Anything+in+Cybersecurity+Risk")
+
+
+def link_citation(text: str) -> str:
+    """Render a source line and wrap it in a link to the publishing body."""
+    inner = md_inline(text)
+    for rx, url in _CITE_RULES:
+        m = rx.search(text)
+        if m:
+            target = url(m) if callable(url) else url
+            return f'<a href="{e(target)}" target="_blank" rel="noopener">{inner}</a>'
+    return inner
 
 
 # --- Blocks -------------------------------------------------------------------
@@ -507,7 +605,7 @@ def entry_page(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> str:
 
     sources = ""
     if entry.sources:
-        items = "".join(f"<li>{md_inline(s)}</li>" for s in entry.sources)
+        items = "".join(f"<li>{link_citation(s)}</li>" for s in entry.sources)
         sources = f'<section class="sources" id="cite"><h2>SOURCES</h2><ol>{items}</ol></section>'
 
     pager = ""

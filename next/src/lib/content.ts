@@ -52,6 +52,7 @@ export interface Entry {
     url: string;
     part_slug: string;
     blocks: Block[];
+    sources_html: string[];
     ld: Record<string, unknown>[];
 }
 

@@ -26,8 +26,8 @@ site:
   parts_total: 6
 
 # The site is published anonymously: there is no publisher block, and nothing
-# here names who maintains the reference. The grcmastery.com URL that appears in
-# an entry's recommendation note is written into that note directly.
+# here names who maintains the reference. Training options, including named
+# courses, are compared only in entry 6.6; no other entry names a provider.
 
 editorial:
   standfirst: A PLAIN-LANGUAGE REFERENCE FOR PRACTITIONERS
