@@ -9589,7 +9589,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The distinguishing artefact is the mapping. Without it a company running two\nframeworks does the same work twice and produces two control inventories that\ndisagree - which is worse than either alone, because now nobody knows which one\nan auditor will be shown.</p>"
+     "html": "<p>The distinguishing artefact is the mapping. Without it a company running two\nframeworks does the same work twice and produces two control inventories that\ndisagree, which is worse than either alone, because now nobody knows which one\nan auditor will be shown.</p>"
     },
     {
      "type": "heading",
@@ -9604,7 +9604,7 @@
      "items": [
       {
        "term": "Obligation register",
-       "html": "Every requirement that binds you, with its source cited - the law, the clause, the contract, the standard. An obligation with no citation cannot be tested and will not survive challenge."
+       "html": "Every requirement that binds you, with its source cited: the law, the clause, the contract, the standard. An obligation with no citation cannot be tested and will not survive challenge."
       },
       {
        "term": "Control inventory",
@@ -9630,7 +9630,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Four sources, and programmes routinely forget the third and fourth.</p>\n<p>Law and regulation, which is the one everybody starts with. Contracts -\ncustomer agreements with security schedules, supplier terms, insurance\nconditions. Standards the organisation has voluntarily committed to, which bind\nin practice once a certificate is on the website. And internal policy, which\nbinds because you wrote it down and told people to follow it.</p>\n<p>The contractual set is usually the largest and the least catalogued. A company\nwith two hundred customer contracts has agreed to a lot of specific things and\nfrequently cannot list them.</p>"
+     "html": "<p>Four sources, and programmes routinely forget the third and fourth.</p>\n<p>Law and regulation, which is the one everybody starts with. Contracts:\ncustomer agreements with security schedules, supplier terms, insurance\nconditions. Standards the organisation has voluntarily committed to, which bind\nin practice once a certificate is on the website. And internal policy, which\nbinds because you wrote it down and told people to follow it.</p>\n<p>The contractual set is usually the largest and the least catalogued. A company\nwith two hundred customer contracts has agreed to a lot of specific things and\nfrequently cannot list them.</p>"
     },
     {
      "type": "heading",
@@ -9642,7 +9642,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>One quarterly access review can satisfy an ISO 27001 Annex A control, a SOC 2\ncriterion, a customer contractual clause and an internal policy - with the same\nevidence, produced once.</p>\n<p>That only happens if something records the relationship. An inventory with no\nmapping column is a to-do list; the mapping is what turns a control programme\ninto a compliance programme.</p>"
+     "html": "<p>One quarterly access review can satisfy an ISO 27001 Annex A control, a SOC 2\ncriterion, a customer contractual clause and an internal policy, with the same\nevidence, produced once.</p>\n<p>That only happens if something records the relationship. An inventory with no\nmapping column is a to-do list; the mapping is what turns a control programme\ninto a compliance programme.</p>"
     },
     {
      "type": "def",
@@ -9724,7 +9724,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 409,
+     "wordCount": 405,
      "timeRequired": "PT5M",
      "citation": [
       "ISO/IEC 27001:2022, clause 4.2 and Annex A",
@@ -9869,7 +9869,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Start from the controls, not the frameworks. List what the organisation already\ndoes - the access review, the change approval, the backup test, the onboarding\nchecklist - and write each as a testable statement with an owner.</p>\n<p>Then take the framework you have been asked for and walk its requirements\nagainst that list. Three things fall out: controls that map cleanly, controls\nyou have that nothing requires, and requirements nothing covers. The third list\nis your gap analysis, and it arrives as a by-product rather than as a separate\nsix-week exercise.</p>\n<p>Adding the second framework then takes days rather than months, because you are\nwalking a second requirement set against an inventory that already exists.</p>"
+     "html": "<p>Start from the controls, not the frameworks. List what the organisation already\ndoes (the access review, the change approval, the backup test, the onboarding\nchecklist) and write each as a testable statement with an owner.</p>\n<p>Then take the framework you have been asked for and walk its requirements\nagainst that list. Three things fall out: controls that map cleanly, controls\nyou have that nothing requires, and requirements nothing covers. The third list\nis your gap analysis, and it arrives as a by-product rather than as a separate\nsix-week exercise.</p>\n<p>Adding the second framework then takes days rather than months, because you are\nwalking a second requirement set against an inventory that already exists.</p>"
     },
     {
      "type": "heading",
@@ -9881,7 +9881,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Mapping to the framework&rsquo;s structure.</strong> If your inventory is organised as\nAnnex A, then SOC 2 has to be bolted on sideways, and NIST CSF cannot be\nexpressed at all. Organise by what you do; map outward.</p>\n<p><strong>One-to-one mapping.</strong> Filling every requirement with exactly one control\nproduces controls invented to satisfy a requirement rather than to manage a\nrisk - and an inventory full of controls nobody runs. Some requirements are\nsatisfied by three controls; some by a documented justification for exclusion.</p>"
+     "html": "<p><strong>Mapping to the framework&rsquo;s structure.</strong> If your inventory is organised as\nAnnex A, then SOC 2 has to be bolted on sideways, and NIST CSF cannot be\nexpressed at all. Organise by what you do; map outward.</p>\n<p><strong>One-to-one mapping.</strong> Filling every requirement with exactly one control\nproduces controls invented to satisfy a requirement rather than to manage a\nrisk, and an inventory full of controls nobody runs. Some requirements are\nsatisfied by three controls; some by a documented justification for exclusion.</p>"
     },
     {
      "type": "def",
@@ -9964,7 +9964,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 458,
+     "wordCount": 455,
      "timeRequired": "PT8M",
      "citation": [
       "ISO/IEC 27001:2022, clause 6.1.3 and Annex A",
@@ -10081,7 +10081,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Completeness is the one that fails most often, and it fails quietly - a\nprogramme collects excellent evidence for the months someone remembered.</p>"
+     "html": "<p>Completeness is the one that fails most often, and it fails quietly: a\nprogramme collects excellent evidence for the months someone remembered.</p>"
     },
     {
      "type": "heading",
@@ -10093,7 +10093,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Screenshots are accepted evidence and are also the weakest common form. Cropped\nto hide the URL, taken after the fact, showing a filtered view with the filter\nout of frame, undated because the clock was outside the capture area.</p>\n<p>Where a system can export, export. A CSV of the entitlement review with the\ngeneration timestamp in it beats twelve screenshots, is faster to produce, and\ncannot be accused of selection.</p>\n<p>Where only a screenshot is possible, capture the whole window - URL bar, system\nclock, the account signed in, and the filter state.</p>"
+     "html": "<p>Screenshots are accepted evidence and are also the weakest common form. Cropped\nto hide the URL, taken after the fact, showing a filtered view with the filter\nout of frame, undated because the clock was outside the capture area.</p>\n<p>Where a system can export, export. A CSV of the entitlement review with the\ngeneration timestamp in it beats twelve screenshots, is faster to produce, and\ncannot be accused of selection.</p>\n<p>Where only a screenshot is possible, capture the whole window: URL bar, system\nclock, the account signed in, and the filter state.</p>"
     },
     {
      "type": "heading",
@@ -10123,7 +10123,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Collect at the point of operation, not at the point of request. A control that\nfiles its own evidence - the review tool exporting on completion, the ticket\nclosing with the export attached - takes minutes once and survives audit. Evidence\ngathered in the four weeks before fieldwork takes the whole four weeks and still\nhas holes in it.</p>"
+     "html": "<p>Collect at the point of operation, not at the point of request. A control that\nfiles its own evidence (the review tool exporting on completion, the ticket\nclosing with the export attached) takes minutes once and survives audit. Evidence\ngathered in the four weeks before fieldwork takes the whole four weeks and still\nhas holes in it.</p>"
     }
    ],
    "sources_html": [
@@ -10188,7 +10188,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 426,
+     "wordCount": 422,
      "timeRequired": "PT7M",
      "citation": [
       "AICPA, Trust Services Criteria (TSP section 100)",
@@ -10284,7 +10284,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Planning.</strong> Scope, period, control list, timetable. This is the moment to\ncorrect a misunderstanding about scope, and the last cheap moment to do it.</p>\n<p><strong>Fieldwork.</strong> Requests arrive, usually in batches, usually with a turnaround of\na few days each. Someone must own the queue. Two to four weeks for a first\nexternal audit.</p>\n<p><strong>Findings.</strong> Draft findings come with a right of reply. Read the wording\nclosely - the difference between &ldquo;the control was not operating&rdquo; and &ldquo;evidence\nof operation was not retained&rdquo; is large and often negotiable on fact.</p>\n<p><strong>Response and closure.</strong> Management response, remediation plan, dates. Then\neither closure or carry-forward to the next cycle.</p>"
+     "html": "<p><strong>Planning.</strong> Scope, period, control list, timetable. This is the moment to\ncorrect a misunderstanding about scope, and the last cheap moment to do it.</p>\n<p><strong>Fieldwork.</strong> Requests arrive, usually in batches, usually with a turnaround of\na few days each. Someone must own the queue. Two to four weeks for a first\nexternal audit.</p>\n<p><strong>Findings.</strong> Draft findings come with a right of reply. Read the wording\nclosely: the difference between &ldquo;the control was not operating&rdquo; and &ldquo;evidence\nof operation was not retained&rdquo; is large and often negotiable on fact.</p>\n<p><strong>Response and closure.</strong> Management response, remediation plan, dates. Then\neither closure or carry-forward to the next cycle.</p>"
     },
     {
      "type": "heading",
@@ -10296,7 +10296,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Say so, immediately, in writing.</p>\n<p>The instinct is to reconstruct - regenerate the report today and present it as\nthough it were produced in March. Auditors are extremely good at spotting this,\nit converts a control finding into an integrity finding, and integrity findings\nfollow a programme for years.</p>\n<p>The right move is to state that the instance is missing, say why, say what has\nchanged so the next period is complete, and let it be a finding. A programme\nthat self-reports a gap is treated very differently from one caught concealing\nthe same gap.</p>"
+     "html": "<p>Say so, immediately, in writing.</p>\n<p>The instinct is to reconstruct: regenerate the report today and present it as\nthough it were produced in March. Auditors are extremely good at spotting this,\nit converts a control finding into an integrity finding, and integrity findings\nfollow a programme for years.</p>\n<p>The right move is to state that the instance is missing, say why, say what has\nchanged so the next period is complete, and let it be a finding. A programme\nthat self-reports a gap is treated very differently from one caught concealing\nthe same gap.</p>"
     },
     {
      "type": "heading",
@@ -10308,7 +10308,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Two kinds of disagreement, handled differently.</p>\n<p><strong>Factual</strong> - the auditor has the control wrong, or has tested the wrong system.\nAnswer with evidence, not argument, and expect it to be resolved.</p>\n<p><strong>Judgement</strong> - you both agree what happened and disagree about severity. This\nis what the management response is for. Say what you accept, say what you\ndispute and why, and record it. You will not usually win, and the record still\nmatters: it is the thing you point at next year when the same finding is raised\nagainst a control you deliberately chose not to change.</p>"
+     "html": "<p>Two kinds of disagreement, handled differently.</p>\n<p><strong>Factual.</strong> The auditor has the control wrong, or has tested the wrong system.\nAnswer with evidence, not argument, and expect it to be resolved.</p>\n<p><strong>Judgement.</strong> You both agree what happened and disagree about severity. This\nis what the management response is for. Say what you accept, say what you\ndispute and why, and record it. You will not usually win, and the record still\nmatters: it is the thing you point at next year when the same finding is raised\nagainst a control you deliberately chose not to change.</p>"
     },
     {
      "type": "def",
@@ -10391,7 +10391,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 460,
+     "wordCount": 456,
      "timeRequired": "PT7M",
      "citation": [
       "IIA, International Professional Practices Framework, Standard 2310",
@@ -10493,7 +10493,7 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "In an attestation engagement such as SOC 2, management provides a written\n<strong>assertion</strong>: its own statement that the system is described fairly and the\ncontrols were suitably designed. The practitioner then opines on that assertion -\nthe words are management&rsquo;s, not the auditor&rsquo;s."
+     "html": "In an attestation engagement such as SOC 2, management provides a written\n<strong>assertion</strong>: its own statement that the system is described fairly and the\ncontrols were suitably designed. The practitioner then opines on that assertion:\nthe words are management&rsquo;s, not the auditor&rsquo;s."
     },
     {
      "type": "prose",
@@ -10509,7 +10509,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>These are two separate statements by two separate parties, and running them\ntogether is the most common misreading of a SOC 2 report. The assertion comes\nfirst: management describes the system and states that the description is fair and\nthe controls suitably designed. The opinion is written on top of it - the\npractitioner tests, then concludes on whether management&rsquo;s assertion is fairly\nstated. Under SSAE 18, AT-C section 205, the examination is of a subject matter\nfor which the responsible party has made an assertion; without that assertion\nthere is nothing for the practitioner to report on.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Aspect</th>\n<th>The assertion</th>\n<th>The opinion</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Written by</td>\n<td>Management</td>\n<td>The practitioner, a licensed CPA firm</td>\n</tr>\n<tr>\n<td>States</td>\n<td>The description is fair and controls were suitably designed</td>\n<td>Whether that assertion is fairly stated, on the evidence tested</td>\n</tr>\n<tr>\n<td>Order</td>\n<td>Comes first</td>\n<td>Built on the assertion</td>\n</tr>\n<tr>\n<td>Carries the exposure</td>\n<td>Management owns it</td>\n<td>The firm answers for its own testing</td>\n</tr>\n</tbody>\n</table></div>"
+     "html": "<p>These are two separate statements by two separate parties, and running them\ntogether is the most common misreading of a SOC 2 report. The assertion comes\nfirst: management describes the system and states that the description is fair and\nthe controls suitably designed. The opinion is written on top of it: the\npractitioner tests, then concludes on whether management&rsquo;s assertion is fairly\nstated. Under SSAE 18, AT-C section 205, the examination is of a subject matter\nfor which the responsible party has made an assertion; without that assertion\nthere is nothing for the practitioner to report on.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Aspect</th>\n<th>The assertion</th>\n<th>The opinion</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Written by</td>\n<td>Management</td>\n<td>The practitioner, a licensed CPA firm</td>\n</tr>\n<tr>\n<td>States</td>\n<td>The description is fair and controls were suitably designed</td>\n<td>Whether that assertion is fairly stated, on the evidence tested</td>\n</tr>\n<tr>\n<td>Order</td>\n<td>Comes first</td>\n<td>Built on the assertion</td>\n</tr>\n<tr>\n<td>Carries the exposure</td>\n<td>Management owns it</td>\n<td>The firm answers for its own testing</td>\n</tr>\n</tbody>\n</table></div>"
     },
     {
      "type": "heading",
@@ -10524,7 +10524,7 @@
      "items": [
       {
        "term": "Fair presentation",
-       "html": "The system description matches the system that actually ran - its boundaries, the services in scope and the controls in place. Overstate the boundary and the assertion is signed over a system that does not exist."
+       "html": "The system description matches the system that actually ran: its boundaries, the services in scope and the controls in place. Overstate the boundary and the assertion is signed over a system that does not exist."
       },
       {
        "term": "Suitability of design",
@@ -10568,7 +10568,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Scope overstated.</strong> The description claims systems, locations or services the\ncontrols do not actually cover, and management signs it anyway. When the sample\nreaches the part that was never really in scope, the gap is management&rsquo;s - it\nasserted something untrue.</p>\n<p><strong>Effectiveness the evidence cannot support.</strong> Management asserts that controls\noperated throughout the period when the evidence covers only part of it. A Type II\nassertion is that the controls operated effectively across the whole period, in\nall material respects - not a claim resting only on the instances that happened to\nbe captured.</p>\n<p><strong>Treated as boilerplate.</strong> The assertion is read as text the auditor drafted and\nmanagement merely countersigned. It is the opposite: the statement management owns\nand the document the whole report is built to opine on. A programme that lets the\nfirm word its assertion has misunderstood who is exposed.</p>"
+     "html": "<p><strong>Scope overstated.</strong> The description claims systems, locations or services the\ncontrols do not actually cover, and management signs it anyway. When the sample\nreaches the part that was never really in scope, the gap is management&rsquo;s: it\nasserted something untrue.</p>\n<p><strong>Effectiveness the evidence cannot support.</strong> Management asserts that controls\noperated throughout the period when the evidence covers only part of it. A Type II\nassertion is that the controls operated effectively across the whole period, in\nall material respects, not a claim resting only on the instances that happened to\nbe captured.</p>\n<p><strong>Treated as boilerplate.</strong> The assertion is read as text the auditor drafted and\nmanagement merely countersigned. It is the opposite: the statement management owns\nand the document the whole report is built to opine on. A programme that lets the\nfirm word its assertion has misunderstood who is exposed.</p>"
     },
     {
      "type": "heading",
@@ -10584,17 +10584,17 @@
       {
        "q": "What is the difference between the management assertion and the auditor's opinion?",
        "id": "faq-what-is-the-difference-between-the-management-assertion-and-the-auditors-opinion",
-       "html": "<p>The assertion is management&rsquo;s statement; the opinion is the practitioner&rsquo;s\nconclusion about that statement. Management writes the assertion first - that the\nsystem is described fairly and the controls were suitably designed, and for a\nType II operated effectively over the period. The CPA firm then tests and issues\nan opinion on whether the assertion is fairly stated. One is the claim, the other\nis the verdict on the claim, and they are written by different parties.</p>"
+       "html": "<p>The assertion is management&rsquo;s statement; the opinion is the practitioner&rsquo;s\nconclusion about that statement. Management writes the assertion first: that the\nsystem is described fairly and the controls were suitably designed, and for a\nType II operated effectively over the period. The CPA firm then tests and issues\nan opinion on whether the assertion is fairly stated. One is the claim, the other\nis the verdict on the claim, and they are written by different parties.</p>"
       },
       {
        "q": "Who signs the management assertion?",
        "id": "faq-who-signs-the-management-assertion",
-       "html": "<p>A member of management with authority over the system in scope - commonly an\nexecutive such as the chief executive, chief technology officer or head of\nsecurity, depending on who owns the system description. It is signed by the\norganisation being examined, never by the audit firm. The signature is the point:\nit records that management, not the practitioner, stands behind the description\nand the controls.</p>"
+       "html": "<p>A member of management with authority over the system in scope, commonly an\nexecutive such as the chief executive, chief technology officer or head of\nsecurity, depending on who owns the system description. It is signed by the\norganisation being examined, never by the audit firm. The signature is the point:\nit records that management, not the practitioner, stands behind the description\nand the controls.</p>"
       },
       {
        "q": "Is there a management assertion in an ISO 27001 audit?",
        "id": "faq-is-there-a-management-assertion-in-an-iso-27001-audit",
-       "html": "<p>Not in the SOC 2 sense. ISO/IEC 27001 certification produces a certificate from an\naccredited body rather than an opinion on a signed statement. The nearest\naccountability sits in the management review required by clause 9.3 and in the\nStatement of Applicability, both of which record management decisions - but\nneither is a written assertion the auditor opines on.</p>"
+       "html": "<p>Not in the SOC 2 sense. ISO/IEC 27001 certification produces a certificate from an\naccredited body rather than an opinion on a signed statement. The nearest\naccountability sits in the management review required by clause 9.3 and in the\nStatement of Applicability, both of which record management decisions, but\nneither is a written assertion the auditor opines on.</p>"
       }
      ]
     }
@@ -10662,7 +10662,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 877,
+     "wordCount": 869,
      "timeRequired": "PT6M",
      "citation": [
       "AICPA, SSAE No. 18, AT-C section 205",
@@ -10694,7 +10694,7 @@
        "name": "What is the difference between the management assertion and the auditor's opinion?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The assertion is management&rsquo;s statement; the opinion is the practitioner&rsquo;s conclusion about that statement. Management writes the assertion first - that the system is described fairly and the controls were suitably designed, and for a Type II operated effectively over the period. The CPA firm then tests and issues an opinion on whether the assertion is fairly stated. One is the claim, the other is the verdict on the claim, and they are written by different parties."
+        "text": "The assertion is management&rsquo;s statement; the opinion is the practitioner&rsquo;s conclusion about that statement. Management writes the assertion first: that the system is described fairly and the controls were suitably designed, and for a Type II operated effectively over the period. The CPA firm then tests and issues an opinion on whether the assertion is fairly stated. One is the claim, the other is the verdict on the claim, and they are written by different parties."
        }
       },
       {
@@ -10702,7 +10702,7 @@
        "name": "Who signs the management assertion?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A member of management with authority over the system in scope - commonly an executive such as the chief executive, chief technology officer or head of security, depending on who owns the system description. It is signed by the organisation being examined, never by the audit firm. The signature is the point: it records that management, not the practitioner, stands behind the description and the controls."
+        "text": "A member of management with authority over the system in scope, commonly an executive such as the chief executive, chief technology officer or head of security, depending on who owns the system description. It is signed by the organisation being examined, never by the audit firm. The signature is the point: it records that management, not the practitioner, stands behind the description and the controls."
        }
       },
       {
@@ -10710,7 +10710,7 @@
        "name": "Is there a management assertion in an ISO 27001 audit?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not in the SOC 2 sense. ISO/IEC 27001 certification produces a certificate from an accredited body rather than an opinion on a signed statement. The nearest accountability sits in the management review required by clause 9.3 and in the Statement of Applicability, both of which record management decisions - but neither is a written assertion the auditor opines on."
+        "text": "Not in the SOC 2 sense. ISO/IEC 27001 certification produces a certificate from an accredited body rather than an opinion on a signed statement. The nearest accountability sits in the management review required by clause 9.3 and in the Statement of Applicability, both of which record management decisions, but neither is a written assertion the auditor opines on."
        }
       }
      ]
@@ -10793,11 +10793,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "Change management is the <strong>control that changes to production are authorised,\ntested and documented before release</strong> - so no change reaches a live system\nwithout a record of who asked, who approved, what was tested and when it went\nout."
+     "html": "Change management is the <strong>control that changes to production are authorised,\ntested and documented before release</strong>, so no change reaches a live system\nwithout a record of who asked, who approved, what was tested and when it went\nout."
     },
     {
      "type": "prose",
-     "html": "<p>An unauthorised change to production is a common way a control that looks\nhealthy on paper turns out not to be operating. It is also among the first\nthings an auditor tests, because a weak change process quietly undermines every\nother control: each of them assumes that production only changes through a path\nsomeone approved.</p>\n<p>The value of the control is not the paperwork. It is that the paperwork cannot\nbe produced honestly after the fact, so a change is either evidenced as\nauthorised or it is unsupported - and to an auditor an authorisation that cannot\nbe evidenced is one that did not happen.</p>"
+     "html": "<p>An unauthorised change to production is a common way a control that looks\nhealthy on paper turns out not to be operating. It is also among the first\nthings an auditor tests, because a weak change process quietly undermines every\nother control: each of them assumes that production only changes through a path\nsomeone approved.</p>\n<p>The value of the control is not the paperwork. It is that the paperwork cannot\nbe produced honestly after the fact, so a change is either evidenced as\nauthorised or it is unsupported, and to an auditor an authorisation that cannot\nbe evidenced is one that did not happen.</p>"
     },
     {
      "type": "heading",
@@ -10824,7 +10824,7 @@
       },
       {
        "term": "Test result",
-       "html": "Evidence that the change was exercised before it reached production - the test that ran, its outcome and where it ran. &ldquo;Tested: yes&rdquo; is not a test result."
+       "html": "Evidence that the change was exercised before it reached production: the test that ran, its outcome and where it ran. &ldquo;Tested: yes&rdquo; is not a test result."
       },
       {
        "term": "Deployment",
@@ -10846,7 +10846,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The person who builds a change must not be the sole approver and deployer of it.\nA change approved by its own author records an authorisation that never\nhappened: there was no second judgement, only a signature the requester wrote\nfor themselves. The issue is segregation of duties, not which line reviews - a\nsecond reviewer in the same first line is fine; the author signing for themselves\nis not.</p>\n<p>Segregation here is not bureaucracy. It is the difference between a control that\ncatches a bad or malicious change before release and one that only documents it\nafterwards. The approver need not be senior; they need to be someone other than\nthe author, with enough context to refuse.</p>"
+     "html": "<p>The person who builds a change must not be the sole approver and deployer of it.\nA change approved by its own author records an authorisation that never\nhappened: there was no second judgement, only a signature the requester wrote\nfor themselves. The issue is segregation of duties, not which line reviews: a\nsecond reviewer in the same first line is fine; the author signing for themselves\nis not.</p>\n<p>Segregation here is not bureaucracy. It is the difference between a control that\ncatches a bad or malicious change before release and one that only documents it\nafterwards. The approver need not be senior; they need to be someone other than\nthe author, with enough context to refuse.</p>"
     },
     {
      "type": "heading",
@@ -10858,7 +10858,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>ITIL 4 and many control frameworks sort changes into three paths, and the point\nof the split is to match the weight of the process to the risk of the change\nrather than force everything through one gate.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Type</th>\n<th>Path</th>\n<th>Approval</th>\n<th>Review</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Normal</td>\n<td>Assessed and approved through the standard route</td>\n<td>Before release, by someone other than the author</td>\n<td>At release</td>\n</tr>\n<tr>\n<td>Standard</td>\n<td>Pre-authorised, low-risk and repeatable</td>\n<td>Granted once, to the change type</td>\n<td>On the pre-authorisation, periodically</td>\n</tr>\n<tr>\n<td>Emergency</td>\n<td>Expedited for genuine urgency</td>\n<td>Compressed, by an emergency approver</td>\n<td>Retrospective, and mandatory</td>\n</tr>\n</tbody>\n</table></div>\n<p>The boundaries - what counts as low-risk, how fast an emergency has to be - are\nthe organisation&rsquo;s own to set; the three-way split is the part that travels. The\nemergency path exists for real incidents where waiting for normal approval would\ndo more harm than the change. Authorisation is compressed - an emergency approver\nsigns quickly - not removed; deferring approval to a retrospective review is an\nexceptional contingency, not the design. It is also the one most often abused,\nbecause it is the fastest route through the gate.</p>"
+     "html": "<p>ITIL 4 and many control frameworks sort changes into three paths, and the point\nof the split is to match the weight of the process to the risk of the change\nrather than force everything through one gate.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Type</th>\n<th>Path</th>\n<th>Approval</th>\n<th>Review</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Normal</td>\n<td>Assessed and approved through the standard route</td>\n<td>Before release, by someone other than the author</td>\n<td>At release</td>\n</tr>\n<tr>\n<td>Standard</td>\n<td>Pre-authorised, low-risk and repeatable</td>\n<td>Granted once, to the change type</td>\n<td>On the pre-authorisation, periodically</td>\n</tr>\n<tr>\n<td>Emergency</td>\n<td>Expedited for genuine urgency</td>\n<td>Compressed, by an emergency approver</td>\n<td>Retrospective, and mandatory</td>\n</tr>\n</tbody>\n</table></div>\n<p>The boundaries (what counts as low-risk, how fast an emergency has to be) are\nthe organisation&rsquo;s own to set; the three-way split is the part that travels. The\nemergency path exists for real incidents where waiting for normal approval would\ndo more harm than the change. Authorisation is compressed (an emergency approver\nsigns quickly), not removed; deferring approval to a retrospective review is an\nexceptional contingency, not the design. It is also the one most often abused,\nbecause it is the fastest route through the gate.</p>"
     },
     {
      "type": "heading",
@@ -10870,7 +10870,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Four failure modes account for most change-management findings, and a tester who\nknows them looks for them first.</p>\n<p><strong>The emergency back door.</strong> When a large share of changes come through the\nemergency path, the path has stopped being for emergencies. It has become the\nroute the organisation uses to skip approval, and a rate - emergency changes as\na proportion of all changes - is the single most revealing number in the\nprocess.</p>\n<p><strong>Approver equals requester.</strong> The record shows an approval, but the approver\nand the requester are the same person, or the same shared account. There is a\nsignature and no authorisation. This is the failure segregation exists to\nprevent, and it survives in programmes that check the box for &ldquo;approved&rdquo; without\nchecking who approved.</p>\n<p><strong>&ldquo;Tested&rdquo; with no test.</strong> The change record asserts the change was tested and\ncarries nothing that shows a test ran - no result, no environment, no output. An\nassertion of testing is not evidence of testing, and an auditor treats the two\nvery differently.</p>\n<p><strong>Standing approvals.</strong> A blanket or standing approval authorises a category of\nchange rather than a change, so everything inside the category ships without a\nfresh decision. Standard changes are the bounded, reviewed version of this; a\nstanding approval that is really an open door is not.</p>\n<p>Each of these is a control deviation before anyone has named it. When a tester\nsamples releases and finds one that reached production with no approval on file,\nor an approval signed by its own author, that is the deviation the report\nrecords - and the emergency queue is a place testers commonly look first.</p>"
+     "html": "<p>Four failure modes account for most change-management findings, and a tester who\nknows them looks for them first.</p>\n<p><strong>The emergency back door.</strong> When a large share of changes come through the\nemergency path, the path has stopped being for emergencies. It has become the\nroute the organisation uses to skip approval, and a rate (emergency changes as\na proportion of all changes) is the single most revealing number in the\nprocess.</p>\n<p><strong>Approver equals requester.</strong> The record shows an approval, but the approver\nand the requester are the same person, or the same shared account. There is a\nsignature and no authorisation. This is the failure segregation exists to\nprevent, and it survives in programmes that check the box for &ldquo;approved&rdquo; without\nchecking who approved.</p>\n<p><strong>&ldquo;Tested&rdquo; with no test.</strong> The change record asserts the change was tested and\ncarries nothing that shows a test ran: no result, no environment, no output. An\nassertion of testing is not evidence of testing, and an auditor treats the two\nvery differently.</p>\n<p><strong>Standing approvals.</strong> A blanket or standing approval authorises a category of\nchange rather than a change, so everything inside the category ships without a\nfresh decision. Standard changes are the bounded, reviewed version of this; a\nstanding approval that is really an open door is not.</p>\n<p>Each of these is a control deviation before anyone has named it. When a tester\nsamples releases and finds one that reached production with no approval on file,\nor an approval signed by its own author, that is the deviation the report\nrecords, and the emergency queue is a place testers commonly look first.</p>"
     },
     {
      "type": "def",
@@ -10897,7 +10897,7 @@
       {
        "q": "What is an emergency change?",
        "id": "faq-what-is-an-emergency-change",
-       "html": "<p>An emergency change is one released through an expedited path because genuine urgency - an active incident, a live outage - makes waiting for normal approval more harmful than the change itself. Authorisation is expedited - compressed to an emergency approver, and only exceptionally deferred to a mandatory retrospective review. The path is legitimate and necessary; it is also the one most often abused, so the proportion of changes that use it is worth watching.</p>"
+       "html": "<p>An emergency change is one released through an expedited path because genuine urgency (an active incident, a live outage) makes waiting for normal approval more harmful than the change itself. Authorisation is expedited, compressed to an emergency approver, and only exceptionally deferred to a mandatory retrospective review. The path is legitimate and necessary; it is also the one most often abused, so the proportion of changes that use it is worth watching.</p>"
       },
       {
        "q": "What evidence does an auditor want for change management?",
@@ -10969,7 +10969,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Compliance",
-     "wordCount": 1145,
+     "wordCount": 1131,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022, Annex A control 8.32 (change management)",
@@ -11008,7 +11008,7 @@
        "name": "What is an emergency change?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An emergency change is one released through an expedited path because genuine urgency - an active incident, a live outage - makes waiting for normal approval more harmful than the change itself. Authorisation is expedited - compressed to an emergency approver, and only exceptionally deferred to a mandatory retrospective review. The path is legitimate and necessary; it is also the one most often abused, so the proportion of changes that use it is worth watching."
+        "text": "An emergency change is one released through an expedited path because genuine urgency (an active incident, a live outage) makes waiting for normal approval more harmful than the change itself. Authorisation is expedited, compressed to an emergency approver, and only exceptionally deferred to a mandatory retrospective review. The path is legitimate and necessary; it is also the one most often abused, so the proportion of changes that use it is worth watching."
        }
       },
       {
