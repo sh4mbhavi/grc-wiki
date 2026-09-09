@@ -268,6 +268,9 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     display: grid;
     grid-template-columns: var(--rail-left) minmax(0, 1fr) var(--rail-right);
     align-items: start;
+    /* Keep the rails from drifting to the edges of a very wide monitor. */
+    max-width: 1760px;
+    margin-inline: auto;
 }
 
 .rail {
@@ -877,7 +880,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 .portal { border-bottom: 1px solid var(--rule); background: var(--paper-raised); }
 .portal__inner {
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: clamp(var(--s-12), 8vw, var(--s-16)) var(--s-6) clamp(var(--s-10), 6vw, var(--s-16));
     text-align: center;
@@ -956,6 +959,9 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
     display: grid;
     grid-template-columns: minmax(0, 1fr) 300px;
     align-items: start;
+    /* Match the hero's centred column so wide screens do not go full-bleed. */
+    max-width: 1500px;
+    margin-inline: auto;
 }
 .home__main { padding: var(--s-8) var(--s-8) var(--s-12); border-right: 1px solid var(--rule); }
 .home__aside { padding: var(--s-8) var(--s-6) var(--s-12); }
@@ -1225,7 +1231,7 @@ mark { background: var(--accent-weak); color: inherit; font-weight: 600; }
 .colophon__cols {
     padding: var(--s-8) var(--s-6);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
     gap: var(--s-6);
     max-width: 1400px;
     margin: 0 auto;
@@ -1304,7 +1310,7 @@ mark { background: var(--accent-weak); color: inherit; font-weight: 600; }
 .sitemap { margin-top: var(--s-10); }
 .sitemap__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
     gap: var(--s-6) var(--s-8);
 }
 .sitemap__part {
@@ -1340,6 +1346,16 @@ mark { background: var(--accent-weak); color: inherit; font-weight: 600; }
 .aside-card:hover { border-color: var(--accent); }
 .aside-card b { display: block; font-family: var(--mono); font-size: var(--t-micro); letter-spacing: 0.1em; color: var(--accent); margin-bottom: 4px; }
 .aside-card span { display: block; font-size: var(--t-meta); color: var(--ink-quiet); line-height: 1.5; }
+
+/* --- 10c. Overflow safety ------------------------------------------------ */
+
+/* No layout element may force the page wider than the viewport, and long
+   tokens (URLs, code spans, clause anchors) wrap instead of pushing out. */
+html, body { overflow-x: clip; }
+.home__main, .home__aside, .drawer, .colophon, .portal__inner { min-width: 0; }
+.prose, .lede, .faq, .terms dd, .def, .article__title, .sources, .aside-card,
+.sitemap__col, .drawer__part { overflow-wrap: anywhere; }
+.prose code, .article code { overflow-wrap: anywhere; word-break: break-word; }
 
 /* --- 11. Responsive ----------------------------------------------------- */
 
@@ -1429,8 +1445,18 @@ mark { background: var(--accent-weak); color: inherit; font-weight: 600; }
     .portal__inner { padding: var(--s-8) var(--s-5); }
     .masthead { padding: 0 var(--s-4); gap: var(--s-3); }
     .masthead__link { display: none; }
+    .masthead__search-key { display: none; }
+    .masthead--home .masthead__drawer-btn span { display: none; }
+    .masthead--home .masthead__drawer-btn { padding: 4px 7px; }
     .searchbar { padding: var(--s-3) var(--s-4); font-size: 0.875rem; }
     .searchbar__key { display: none; }
+    .sitemap__grid { grid-template-columns: minmax(0, 1fr); gap: var(--s-5); }
+    .colophon__bar { padding: var(--s-3) var(--s-5); }
+}
+
+@media (min-width: 1700px) {
+    /* Give a very large monitor slightly more generous reading text. */
+    :root { --t-body: 1.094rem; --t-small: 1.031rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {

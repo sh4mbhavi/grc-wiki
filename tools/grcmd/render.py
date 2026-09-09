@@ -418,7 +418,7 @@ def masthead(site: Site, *, crumbs: str = "", with_drawer: bool = False, home: b
 {drawer}<a class="masthead__wordmark" href="{e(site.url(''))}">GRC WIKI</a>
 {crumb_html}
 <div class="masthead__tail">
-<button class="masthead__search" type="button" data-finder-open>Search&nbsp;&nbsp;&#8984;K</button>
+<button class="masthead__search" type="button" data-finder-open>Search<span class="masthead__search-key">&nbsp;&nbsp;&#8984;K</span></button>
 <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch colour mode">
 <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="8" cy="8" r="3.2"/><path d="M8 1v1.6M8 13.4V15M15 8h-1.6M2.6 8H1M12.9 3.1l-1.1 1.1M4.2 11.8l-1.1 1.1M12.9 12.9l-1.1-1.1M4.2 4.2 3.1 3.1"/></svg>
 <span data-theme-label>dark</span></button>

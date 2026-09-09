@@ -51,7 +51,7 @@ export function Masthead({
             ) : null}
             <div className="masthead__tail">
                 <button className="masthead__search" type="button" data-finder-open="">
-                    Search&nbsp;&nbsp;⌘K
+                    Search<span className="masthead__search-key">&nbsp;&nbsp;⌘K</span>
                 </button>
                 <button
                     className="theme-toggle"
