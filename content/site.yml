@@ -73,10 +73,10 @@ home:
   # the demonstrated use of the search box. Swap them as the keyword set moves.
   chips:
     - what is GRC
-    - risk appetite vs tolerance
+    - how to learn GRC
     - ISO 27001 vs SOC 2
-    - is GRC technical?
-    - statement of applicability
+    - risk appetite vs tolerance
+    - incident response lifecycle
   start_here:
     - 1.1
     - 1.3
