@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 import { Ld, Masthead } from "@/components/Chrome";
-import { pages, siteLd } from "@/lib/content";
+import { OG_IMAGE, pages, siteLd } from "@/lib/content";
 
 export const metadata: Metadata = {
     title: "About",
     description: pages.about_description,
     alternates: { canonical: "/about/" },
-    openGraph: { title: "About - GRC Wiki", description: pages.about_description, url: "/about/" },
+    openGraph: { title: "About - GRC Wiki", description: pages.about_description, url: "/about/", images: OG_IMAGE },
 };
 
 export default function About() {

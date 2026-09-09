@@ -127,7 +127,13 @@
    "@id": "https://grc-wiki.vercel.app/#org",
    "name": "GRC Wiki",
    "url": "https://grc-wiki.vercel.app/",
-   "description": "Maintained by working governance, risk and compliance practitioners."
+   "description": "Maintained by working governance, risk and compliance practitioners.",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+    "width": 148,
+    "height": 34
+   }
   },
   {
    "@type": "WebSite",
@@ -155,7 +161,13 @@
    "@id": "https://grc-wiki.vercel.app/#org",
    "name": "GRC Wiki",
    "url": "https://grc-wiki.vercel.app/",
-   "description": "Maintained by working governance, risk and compliance practitioners."
+   "description": "Maintained by working governance, risk and compliance practitioners.",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+    "width": 148,
+    "height": 34
+   }
   },
   {
    "@type": "WebSite",
@@ -1553,7 +1565,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -1869,7 +1887,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -2181,7 +2205,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -2432,7 +2462,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -2720,7 +2756,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -2930,7 +2972,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -3148,7 +3196,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -3427,7 +3481,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -3775,7 +3835,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -4126,7 +4192,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -4484,7 +4556,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -4769,7 +4847,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -4968,7 +5052,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -5229,7 +5319,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -5444,7 +5540,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -5767,7 +5869,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -6072,7 +6180,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -6347,7 +6461,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -6600,7 +6720,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -6802,7 +6928,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -7071,7 +7203,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -7282,7 +7420,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -7562,7 +7706,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -7860,7 +8010,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -8159,7 +8315,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -8423,7 +8585,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -8716,7 +8884,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -9031,7 +9205,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -9291,7 +9471,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -9589,7 +9775,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -9902,7 +10094,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -10188,7 +10386,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -10444,7 +10648,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -10684,7 +10894,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -10903,7 +11119,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -11190,7 +11412,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -11513,7 +11741,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -11793,7 +12027,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -12123,7 +12363,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -12425,7 +12671,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -12740,7 +12992,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -13073,7 +13331,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -13386,7 +13650,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -13717,7 +13987,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -14036,7 +14312,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -14345,7 +14627,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -14671,7 +14959,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -15031,7 +15325,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -15321,7 +15621,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -15620,7 +15926,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -15885,7 +16197,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -16138,7 +16456,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -16445,7 +16769,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -16787,7 +17117,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -17095,7 +17431,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -17448,7 +17790,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -17768,7 +18116,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -18066,7 +18420,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -18425,7 +18785,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -18769,7 +19135,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -19070,7 +19442,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -19454,7 +19832,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -19793,7 +20177,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -20101,7 +20491,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -20432,7 +20828,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -20795,7 +21197,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -21084,7 +21492,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -21327,7 +21741,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -21589,7 +22009,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",
@@ -21854,7 +22280,13 @@
      "@id": "https://grc-wiki.vercel.app/#org",
      "name": "GRC Wiki",
      "url": "https://grc-wiki.vercel.app/",
-     "description": "Maintained by working governance, risk and compliance practitioners."
+     "description": "Maintained by working governance, risk and compliance practitioners.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://grc-wiki.vercel.app/assets/logo.svg",
+      "width": 148,
+      "height": 34
+     }
     },
     {
      "@type": "WebSite",

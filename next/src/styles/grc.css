@@ -217,12 +217,17 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 
 .masthead__wordmark {
-    font-weight: 600;
-    color: var(--ink);
-    letter-spacing: 0.04em;
+    display: inline-flex;
+    align-items: center;
     border: 0;
 }
-.masthead__wordmark:hover { color: var(--accent); }
+.masthead__logo {
+    display: block;
+    height: 18px;
+    width: auto;
+}
+.masthead__wordmark:hover { opacity: 0.72; }
+:root[data-theme="dark"] .masthead__logo { filter: invert(1); }
 
 .masthead__sep { color: var(--rule-input); }
 .masthead__crumbs { color: var(--ink-meta); }

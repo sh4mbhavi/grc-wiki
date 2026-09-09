@@ -206,6 +206,8 @@ def build(*, bundle: bool, check: bool) -> int:
     (DIST / "assets").mkdir(parents=True, exist_ok=True)
     shutil.copy2(SHARED / "grc.css", DIST / "assets" / "grc.css")
     shutil.copy2(SHARED / "grc.js", DIST / "assets" / "grc.js")
+    shutil.copy2(SHARED / "logo.svg", DIST / "assets" / "logo.svg")
+    shutil.copy2(SHARED / "favicon.svg", DIST / "favicon.svg")
 
     if bundle:
         # The Next.js app never parses markdown and never re-derives a number.
@@ -267,6 +269,8 @@ def build(*, bundle: bool, check: bool) -> int:
         shutil.copy2(SHARED / "grc.css", styles / "grc.css")
         (NEXT / "public" / "assets").mkdir(parents=True, exist_ok=True)
         shutil.copy2(SHARED / "grc.js", NEXT / "public" / "assets" / "grc.js")
+        shutil.copy2(SHARED / "logo.svg", NEXT / "public" / "assets" / "logo.svg")
+        shutil.copy2(SHARED / "favicon.svg", NEXT / "public" / "favicon.svg")
         shutil.copy2(DIST / "search-index.json", NEXT / "public" / "search-index.json")
         shutil.copy2(DIST / "llms.txt", NEXT / "public" / "llms.txt")
         (NEXT / "public" / "a-z").mkdir(parents=True, exist_ok=True)
