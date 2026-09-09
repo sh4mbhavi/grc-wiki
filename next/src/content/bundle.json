@@ -1469,7 +1469,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The number before an entry is its clause. <code>3.2</code> is the second entry in Part 3;\n<code>3.2.1</code> is the first section inside it. Every section heading is deep-linkable\ntwice - by its slug and by its clause number - so <code>#c3-2-1</code> and\n<code>#the-difference-stated-plainly</code> reach the same place.</p>\n<p>Clause numbers are stable. If an entry is retired the number is not reused, and\nif the corpus is renumbered the old anchors redirect.</p>"
+     "html": "<p>The number before an entry is its clause. <code>3.2</code> is the second entry in Part 3;\n<code>3.2.1</code> is the first section inside it. Every section heading is deep-linkable\ntwice, by its slug and by its clause number, so <code>#c3-2-1</code> and\n<code>#the-difference-stated-plainly</code> reach the same place.</p>\n<p>Clause numbers are stable. If an entry is retired the number is not reused, and\nif the corpus is renumbered the old anchors redirect.</p>"
     },
     {
      "type": "heading",
@@ -1585,7 +1585,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 314,
+     "wordCount": 312,
      "timeRequired": "PT4M",
      "citation": [
       "ISO/IEC Directives Part 2, rules for the structure of standards"
@@ -1694,15 +1694,15 @@
      "items": [
       {
        "term": "Governance",
-       "html": "Who decides, on what authority, and where the decision is recorded - policy set, committee calendar, delegated authority matrix, board reporting."
+       "html": "Who decides, on what authority, and where the decision is recorded: the policy set, the committee calendar, the delegated authority matrix, board reporting."
       },
       {
        "term": "Risk",
-       "html": "Identifying what could obstruct the objectives, sizing it, deciding what to do, then watching it - register, appetite statement, treatment plan, issue log."
+       "html": "Identifying what could obstruct the objectives, sizing it, deciding what to do, then watching it: the register, the appetite statement, the treatment plan, the issue log."
       },
       {
        "term": "Compliance",
-       "html": "Knowing which obligations bind you - law, contract, standard - mapping each to a control, and keeping the proof that the control ran."
+       "html": "Knowing which obligations bind you (law, contract, standard), mapping each to a control, and keeping the proof that the control ran."
       }
      ]
     },
@@ -1726,7 +1726,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Read the loop clockwise and it describes a quarter of work. Governance publishes\nan appetite statement - say, no accepted risk above a residual score of 12\nwithout board sign-off. Risk applies that threshold to the register and produces\na treatment plan for everything above it. Compliance runs the controls those\ntreatments name and keeps the evidence. Assurance reports the whole picture\nback, and governance revises the appetite it set.</p>\n<p>Read it anticlockwise and it describes how the function fails. Evidence\naccumulates with no control mapped to it. Controls run with no risk behind them.\nRisks are scored against an appetite that was never written down.</p>"
+     "html": "<p>Read the loop clockwise and it describes a quarter of work. Governance publishes\nan appetite statement: say, no accepted risk above a residual score of 12\nwithout board sign-off. Risk applies that threshold to the register and produces\na treatment plan for everything above it. Compliance runs the controls those\ntreatments name and keeps the evidence. Assurance reports the whole picture\nback, and governance revises the appetite it set.</p>\n<p>Read it anticlockwise and it describes how the function fails. Evidence\naccumulates with no control mapped to it. Controls run with no risk behind them.\nRisks are scored against an appetite that was never written down.</p>"
     },
     {
      "type": "def",
@@ -1759,7 +1759,7 @@
          3
         ],
         "caption": "FIG. 2 - <strong>Risk matrix (5 × 5)</strong>, the most-used artefact on the job.",
-        "note": "Outlined cell: a <em>possible / moderate</em> risk - the band where appetite, not arithmetic, decides the answer."
+        "note": "Outlined cell: a <em>possible / moderate</em> risk, the band where appetite, not arithmetic, decides the answer."
        }
       ],
       [
@@ -1767,7 +1767,7 @@
         "type": "diagram",
         "name": "register-row",
         "n": 3,
-        "caption": "FIG. 3 - <strong>A risk register row.</strong> The fields that make a score defensible - the same record keyed into any GRC tool."
+        "caption": "FIG. 3 - <strong>A risk register row.</strong> The fields that make a score defensible, and the same record is keyed into any GRC tool."
        }
       ]
      ]
@@ -1786,7 +1786,7 @@
     },
     {
      "type": "prose",
-     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Framework</th>\n<th>Type</th>\n<th>Answers the question</th>\n<th>Output</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ISO/IEC 27001</td>\n<td>Certification</td>\n<td>Is the ISMS working?</td>\n<td>Certificate</td>\n</tr>\n<tr>\n<td>NIST CSF 2.0</td>\n<td>Framework</td>\n<td>How mature are we?</td>\n<td>Profile</td>\n</tr>\n<tr>\n<td>SOC 2</td>\n<td>Attestation</td>\n<td>What can we show a customer?</td>\n<td>Auditor report</td>\n</tr>\n<tr>\n<td>COSO ERM</td>\n<td>Model</td>\n<td>How does risk reach the board?</td>\n<td>Risk view</td>\n</tr>\n</tbody>\n</table></div>\n<p>They are not alternatives, and picking between them is usually the wrong\nquestion. ISO 27001 and SOC 2 answer different buyers: a certificate travels,\nan attestation report is read. NIST CSF 2.0 is a language for describing where\nyou are, not a bar to clear - its 2024 revision added a sixth function, <em>Govern</em>,\nprecisely because organisations were maturing controls without anyone owning the\ndecisions behind them. COSO ERM sits above all of it and is about how risk\nreaches a board at all.</p>\n<p>Most organisations of any size end up mapping between at least two of them. That\nmapping - the crosswalk - is the single most reused artefact in the discipline,\nbecause one control almost always satisfies several obligations at once.</p>"
+     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Framework</th>\n<th>Type</th>\n<th>Answers the question</th>\n<th>Output</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ISO/IEC 27001</td>\n<td>Certification</td>\n<td>Is the ISMS working?</td>\n<td>Certificate</td>\n</tr>\n<tr>\n<td>NIST CSF 2.0</td>\n<td>Framework</td>\n<td>How mature are we?</td>\n<td>Profile</td>\n</tr>\n<tr>\n<td>SOC 2</td>\n<td>Attestation</td>\n<td>What can we show a customer?</td>\n<td>Auditor report</td>\n</tr>\n<tr>\n<td>COSO ERM</td>\n<td>Model</td>\n<td>How does risk reach the board?</td>\n<td>Risk view</td>\n</tr>\n</tbody>\n</table></div>\n<p>They are not alternatives, and picking between them is usually the wrong\nquestion. ISO 27001 and SOC 2 answer different buyers: a certificate travels,\nan attestation report is read. NIST CSF 2.0 is a language for describing where\nyou are, not a bar to clear. Its 2024 revision added a sixth function, <em>Govern</em>,\nprecisely because organisations were maturing controls without anyone owning the\ndecisions behind them. COSO ERM sits above all of it and is about how risk\nreaches a board at all.</p>\n<p>Most organisations of any size end up mapping between at least two of them. That\nmapping, the crosswalk, is the single most reused artefact in the discipline,\nbecause one control almost always satisfies several obligations at once.</p>"
     },
     {
      "type": "heading",
@@ -1807,17 +1807,17 @@
       {
        "q": "Is GRC the same as cyber security?",
        "id": "faq-is-grc-the-same-as-cyber-security",
-       "html": "<p>No. Cyber security is one obligation domain among several - GRC also covers\nfinancial reporting, privacy, health and safety, supplier conduct and whatever\nelse the organisation is bound by.</p>\n<p>The overlap is large in technology companies, which is why the two are often\nstaffed from the same team, and why &ldquo;GRC&rdquo; is frequently used as shorthand for\n&ldquo;security compliance&rdquo;. That shorthand is what makes the boundary confusing.\nSecurity engineering builds and operates the control; GRC decides the control is\nrequired, tests that it ran, and keeps the proof.</p>"
+       "html": "<p>No. Cyber security is one obligation domain among several. GRC also covers\nfinancial reporting, privacy, health and safety, supplier conduct, and whatever\nelse the organisation is bound by.</p>\n<p>The overlap is large in technology companies, which is why the two are often\nstaffed from the same team, and why &ldquo;GRC&rdquo; is frequently used as shorthand for\n&ldquo;security compliance&rdquo;. That shorthand is what makes the boundary confusing.\nSecurity engineering builds and operates the control; GRC decides the control is\nrequired, tests that it ran, and keeps the proof.</p>"
       },
       {
        "q": "Which certification should I start with?",
        "id": "faq-which-certification-should-i-start-with",
-       "html": "<p>If you want the vocabulary, ISO/IEC 27001 Lead Implementer or the ISACA CRISC\nsyllabus will both give you it. If you want an employer to recognise the letters,\nCISA is the most widely asked-for in audit-adjacent roles and does not require a\ntechnical background.</p>\n<p>Certification is not the gate people entering the field assume it is. A candidate\nwho can walk an interviewer through a risk they assessed end to end - how it was\nraised, scored, treated, and closed - outperforms one with three certificates and\nno artefact to describe.</p>"
+       "html": "<p>If you want the vocabulary, ISO/IEC 27001 Lead Implementer or the ISACA CRISC\nsyllabus will both give you it. If you want an employer to recognise the letters,\nCISA is the most widely asked-for in audit-adjacent roles and does not require a\ntechnical background.</p>\n<p>Certification is not the gate people entering the field assume it is. A candidate\nwho can walk an interviewer through a risk they assessed end to end (how it was\nraised, scored, treated, and closed) outperforms one with three certificates and\nno artefact to describe.</p>"
       },
       {
        "q": "Can I move into GRC from IT support?",
        "id": "faq-can-i-move-into-grc-from-it-support",
-       "html": "<p>It is one of the more common routes in. Service desk work already teaches the two\nthings the role is built on: reading a system you did not build, and writing down\nwhat happened in a way someone else can act on.</p>\n<p>The gap to close is the evidence habit - knowing what makes a screenshot\nadmissible, why a date matters, and what an auditor will ask for next. That is\nlearnable in months, and considerably faster than teaching a compliance\nspecialist how a directory service works.</p>"
+       "html": "<p>It is one of the more common routes in. Service desk work already teaches the two\nthings the role is built on: reading a system you did not build, and writing down\nwhat happened in a way someone else can act on.</p>\n<p>The gap to close is the evidence habit: knowing what makes a screenshot\nadmissible, why a date matters, and what an auditor will ask for next. That is\nlearnable in months, and considerably faster than teaching a compliance\nspecialist how a directory service works.</p>"
       }
      ]
     }
@@ -1885,7 +1885,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 1073,
+     "wordCount": 1068,
      "timeRequired": "PT6M",
      "citation": [
       "ISO/IEC 27001:2022 - Information security management systems, requirements",
@@ -1925,7 +1925,7 @@
        "name": "Is GRC the same as cyber security?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Cyber security is one obligation domain among several - GRC also covers financial reporting, privacy, health and safety, supplier conduct and whatever else the organisation is bound by. The overlap is large in technology companies, which is why the two are often staffed from the same team, and why &ldquo;GRC&rdquo; is frequently used as shorthand for &ldquo;security compliance&rdquo;. That shorthand is what makes the boundary confusing. Security engineering builds and operates the control; GRC decides the control is required, tests that it ran, and keeps the proof."
+        "text": "No. Cyber security is one obligation domain among several. GRC also covers financial reporting, privacy, health and safety, supplier conduct, and whatever else the organisation is bound by. The overlap is large in technology companies, which is why the two are often staffed from the same team, and why &ldquo;GRC&rdquo; is frequently used as shorthand for &ldquo;security compliance&rdquo;. That shorthand is what makes the boundary confusing. Security engineering builds and operates the control; GRC decides the control is required, tests that it ran, and keeps the proof."
        }
       },
       {
@@ -1933,7 +1933,7 @@
        "name": "Which certification should I start with?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you want the vocabulary, ISO/IEC 27001 Lead Implementer or the ISACA CRISC syllabus will both give you it. If you want an employer to recognise the letters, CISA is the most widely asked-for in audit-adjacent roles and does not require a technical background. Certification is not the gate people entering the field assume it is. A candidate who can walk an interviewer through a risk they assessed end to end - how it was raised, scored, treated, and closed - outperforms one with three certificates and no artefact to describe."
+        "text": "If you want the vocabulary, ISO/IEC 27001 Lead Implementer or the ISACA CRISC syllabus will both give you it. If you want an employer to recognise the letters, CISA is the most widely asked-for in audit-adjacent roles and does not require a technical background. Certification is not the gate people entering the field assume it is. A candidate who can walk an interviewer through a risk they assessed end to end (how it was raised, scored, treated, and closed) outperforms one with three certificates and no artefact to describe."
        }
       },
       {
@@ -1941,7 +1941,7 @@
        "name": "Can I move into GRC from IT support?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It is one of the more common routes in. Service desk work already teaches the two things the role is built on: reading a system you did not build, and writing down what happened in a way someone else can act on. The gap to close is the evidence habit - knowing what makes a screenshot admissible, why a date matters, and what an auditor will ask for next. That is learnable in months, and considerably faster than teaching a compliance specialist how a directory service works."
+        "text": "It is one of the more common routes in. Service desk work already teaches the two things the role is built on: reading a system you did not build, and writing down what happened in a way someone else can act on. The gap to close is the evidence habit: knowing what makes a screenshot admissible, why a date matters, and what an auditor will ask for next. That is learnable in months, and considerably faster than teaching a compliance specialist how a directory service works."
        }
       }
      ]
@@ -1953,7 +1953,7 @@
    "part": 1,
    "slug": "terms-and-definitions",
    "title": "Terms and definitions",
-   "description": "The words the rest of the reference assumes. Risk, control, obligation, evidence, assurance and the rest - defined once, in the sense the standards use them.",
+   "description": "The words the rest of the reference assumes. Risk, control, obligation, evidence, assurance and the rest, defined once, in the sense the standards use them.",
    "short_title": "Terms & definitions",
    "keywords": [
     "GRC terms",
@@ -2017,7 +2017,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Where a term has a precise definition in a standard, that definition is given\nand cited. Where practice has drifted from the standard - and it has, in several\nplaces - the drift is named rather than smoothed over.</p>"
+     "html": "<p>Where a term has a precise definition in a standard, that definition is given\nand cited. Where practice has drifted from the standard (and it has, in several\nplaces), the drift is named rather than smoothed over.</p>"
     },
     {
      "type": "heading",
@@ -2044,7 +2044,7 @@
       },
       {
        "term": "Control",
-       "html": "A measure that modifies risk. Includes process, policy and practice, not only technology - and a control that is not operating is not a control."
+       "html": "A measure that modifies risk. Includes process, policy and practice, not only technology. A control that is not operating is not a control."
       },
       {
        "term": "Obligation",
@@ -2076,7 +2076,7 @@
       },
       {
        "term": "Treatment",
-       "html": "What is being done about a risk - accept, mitigate, transfer or avoid."
+       "html": "What is being done about a risk: accept, mitigate, transfer or avoid."
       },
       {
        "term": "Owner",
@@ -2084,7 +2084,7 @@
       },
       {
        "term": "Scope",
-       "html": "What sits inside the boundary of a certification, an assessment or a register - and by implication what sits outside it, and is therefore unexamined."
+       "html": "What sits inside the boundary of a certification, an assessment or a register, and by implication what sits outside it and is therefore unexamined."
       }
      ]
     },
@@ -2098,7 +2098,7 @@
     },
     {
      "type": "prose",
-     "html": "<p><strong>Compliant.</strong> Nothing is compliant in the abstract. Something is compliant\n<em>with</em> a named obligation, at a point in time, on the evidence available. A\nvendor that says its product is &ldquo;GDPR compliant&rdquo; has said nothing testable.</p>\n<p><strong>Framework.</strong> Used for four different things: a certifiable standard\n(ISO 27001), a descriptive model (NIST CSF 2.0), an attestation criteria set\n(SOC 2) and an internal control model (COSO ERM). The difference determines what\nyou can do with the output, which is why it is worth keeping straight.</p>\n<p><strong>Maturity.</strong> A statement about how consistently a process runs, not about how\ngood it is. A consistently bad process scores well on maturity - which is why a\nmaturity score alone never answers &ldquo;are we safe&rdquo;.</p>"
+     "html": "<p><strong>Compliant.</strong> Nothing is compliant in the abstract. Something is compliant\n<em>with</em> a named obligation, at a point in time, on the evidence available. A\nvendor that says its product is &ldquo;GDPR compliant&rdquo; has said nothing testable.</p>\n<p><strong>Framework.</strong> Used for four different things: a certifiable standard\n(ISO 27001), a descriptive model (NIST CSF 2.0), an attestation criteria set\n(SOC 2) and an internal control model (COSO ERM). The difference determines what\nyou can do with the output, which is why it is worth keeping straight.</p>\n<p><strong>Maturity.</strong> A statement about how consistently a process runs, not about how\ngood it is. A consistently bad process scores well on maturity, which is why a\nmaturity score alone never answers &ldquo;are we safe&rdquo;.</p>"
     },
     {
      "type": "def",
@@ -2169,7 +2169,7 @@
      "@id": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/#article",
      "headline": "Terms and definitions",
      "name": "Terms and definitions",
-     "description": "The words the rest of the reference assumes. Risk, control, obligation, evidence, assurance and the rest - defined once, in the sense the standards use them.",
+     "description": "The words the rest of the reference assumes. Risk, control, obligation, evidence, assurance and the rest, defined once, in the sense the standards use them.",
      "url": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -2181,7 +2181,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 605,
+     "wordCount": 598,
      "timeRequired": "PT7M",
      "citation": [
       "ISO Guide 73:2009 - Risk management, vocabulary",
@@ -2195,7 +2195,7 @@
      "@id": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/#term",
      "name": "GRC vocabulary",
      "alternateName": "",
-     "description": "The words the rest of the reference assumes. Risk, control, obligation, evidence, assurance and the rest - defined once, in the sense the standards use them.",
+     "description": "The words the rest of the reference assumes. Risk, control, obligation, evidence, assurance and the rest, defined once, in the sense the standards use them.",
      "url": "https://grc-wiki.vercel.app/foundations/terms-and-definitions/",
      "inDefinedTermSet": {
       "@type": "DefinedTermSet",
@@ -2285,7 +2285,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The four are a policy set, a risk register, a control inventory and an evidence\nstore. A programme missing one is not necessarily failing, but it will be unable\nto answer a specific class of question - and the question always arrives.</p>"
+     "html": "<p>The four are a policy set, a risk register, a control inventory and an evidence\nstore. A programme missing one is not necessarily failing, but it will be unable\nto answer a specific class of question, and the question always arrives.</p>"
     },
     {
      "type": "heading",
@@ -2321,7 +2321,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The list of things you actually do to keep those risks inside appetite, each one\nmapped to the obligations it satisfies. This is the artefact that makes multiple\nframeworks affordable - one access review can satisfy an ISO 27001 Annex A\ncontrol, a SOC 2 criterion and an internal policy at the same time, but only if\nsomething records that it does.</p>\n<p>An inventory with no mapping column is a to-do list. The mapping is the artefact.</p>"
+     "html": "<p>The list of things you actually do to keep those risks inside appetite, each one\nmapped to the obligations it satisfies. This is the artefact that makes multiple\nframeworks affordable: one access review can satisfy an ISO 27001 Annex A\ncontrol, a SOC 2 criterion and an internal policy at the same time, but only if\nsomething records that it does.</p>\n<p>An inventory with no mapping column is a to-do list. The mapping is the artefact.</p>"
     },
     {
      "type": "heading",
@@ -2333,7 +2333,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The proof that the controls ran. Screenshots, exports, tickets, signed\nattestations, meeting minutes - with dates, and with a name attached to whoever\nproduced them.</p>\n<p>The quality bar is not &ldquo;we have a folder&rdquo;. It is that a stranger can pick a\ncontrol, pull the evidence for a specific month, and tell from the evidence alone\nthat the control operated. If the evidence needs a colleague to explain it, an\nauditor will treat it as absent.</p>"
+     "html": "<p>The proof that the controls ran. Screenshots, exports, tickets, signed\nattestations, meeting minutes, all with dates and with a name attached to whoever\nproduced them.</p>\n<p>The quality bar is not &ldquo;we have a folder&rdquo;. It is that a stranger can pick a\ncontrol, pull the evidence for a specific month, and tell from the evidence alone\nthat the control operated. If the evidence needs a colleague to explain it, an\nauditor will treat it as absent.</p>"
     },
     {
      "type": "def",
@@ -2416,7 +2416,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 507,
+     "wordCount": 505,
      "timeRequired": "PT9M",
      "citation": [
       "ISO/IEC 27001:2022, clause 6.1.3 and Annex A",
@@ -2499,7 +2499,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The confusion is worth resolving early, because the roles look identical from\noutside - all three read system documentation, all three ask engineers\nquestions, all three write findings - and the difference is entirely about who\nthey answer to.</p>"
+     "html": "<p>The confusion is worth resolving early, because from outside the roles look\nidentical. All three read system documentation, all three ask engineers\nquestions, all three write findings. The difference is entirely about who\nthey answer to.</p>"
     },
     {
      "type": "heading",
@@ -2582,7 +2582,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Internal audit&rsquo;s constraint is the important one. An auditor who helps rewrite\nthe control they will later test has compromised the opinion they exist to give.\nThat is why an internal auditor will point at a gap and decline to close it - not\nobstruction, but the only position from which the finding is worth anything.</p>\n<p>GRC has the opposite mandate. Finding a gap and leaving it open is the failure.</p>"
+     "html": "<p>Internal audit&rsquo;s constraint is the important one. An auditor who helps rewrite\nthe control they will later test has compromised the opinion they exist to give.\nThat is why an internal auditor will point at a gap and decline to close it,\nwhich is not obstruction but the only position from which the finding is worth\nanything.</p>\n<p>GRC has the opposite mandate. Finding a gap and leaving it open is the failure.</p>"
     },
     {
      "type": "heading",
@@ -2624,7 +2624,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Ask who receives the output. Management receives GRC&rsquo;s. The audit committee\nreceives internal audit&rsquo;s. If the answer is &ldquo;the same person who asked for the\nwork&rdquo;, it is not audit - whatever the job title says.</p>"
+     "html": "<p>Ask who receives the output. Management receives GRC&rsquo;s. The audit committee\nreceives internal audit&rsquo;s. If the answer is &ldquo;the same person who asked for the\nwork&rdquo;, it is not audit, whatever the job title says.</p>"
     }
    ],
    "sources_html": [
@@ -2688,7 +2688,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 389,
+     "wordCount": 386,
      "timeRequired": "PT5M",
      "citation": [
       "IIA, The Three Lines Model, 2020",
@@ -2780,7 +2780,7 @@
      "items": [
       {
        "term": "First line",
-       "html": "The people who deliver the product or service. They own the risks their activity creates and operate the controls inside it. Not a junior line - most control operation happens here."
+       "html": "The people who deliver the product or service. They own the risks their activity creates and operate the controls inside it. Not a junior line: most control operation happens here."
       },
       {
        "term": "Second line",
@@ -2794,7 +2794,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The governing body sits above all three, and management sits between the body\nand the first two lines. External assurance providers - a certification body, a\nSOC 2 auditor, a regulator - sit outside the model entirely.</p>"
+     "html": "<p>The governing body sits above all three, and management sits between the body\nand the first two lines. External assurance providers (a certification body, a\nSOC 2 auditor, a regulator) sit outside the model entirely.</p>"
     },
     {
      "type": "heading",
@@ -2806,7 +2806,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Three things worth knowing if you were taught the older version.</p>\n<p><strong>Collaboration replaced separation.</strong> The 2013 framing encouraged lines to\noperate independently of each other. The 2020 model states explicitly that the\nlines should collaborate, with independence required only for the third.</p>\n<p><strong>The lines are roles, not teams.</strong> A person can hold first-line and second-line\nresponsibilities in different parts of their job. The model constrains the\ncombination - you cannot independently assure your own work - but does not\nrequire three org charts.</p>\n<p><strong>Risk is upside as well as downside.</strong> The current model frames the lines around\nachieving objectives, not only avoiding harm.</p>"
+     "html": "<p>Three things worth knowing if you were taught the older version.</p>\n<p><strong>Collaboration replaced separation.</strong> The 2013 framing encouraged lines to\noperate independently of each other. The 2020 model states explicitly that the\nlines should collaborate, with independence required only for the third.</p>\n<p><strong>The lines are roles, not teams.</strong> A person can hold first-line and second-line\nresponsibilities in different parts of their job. The model constrains the\ncombination (you cannot independently assure your own work) but does not\nrequire three org charts.</p>\n<p><strong>Risk is upside as well as downside.</strong> The current model frames the lines around\nachieving objectives, not only avoiding harm.</p>"
     },
     {
      "type": "heading",
@@ -2818,7 +2818,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Second line, in almost every case. GRC provides the frameworks the first line\noperates within, monitors whether they are being followed, and escalates when\nthey are not.</p>\n<p>The common exception: in a small organisation, GRC frequently ends up operating\nfirst-line controls too - running the access review rather than checking it ran.\nThat is a resourcing reality rather than a model violation, but it needs to be\nvisible, because it removes the challenge the second line exists to provide.</p>"
+     "html": "<p>Second line, in almost every case. GRC provides the frameworks the first line\noperates within, monitors whether they are being followed, and escalates when\nthey are not.</p>\n<p>The common exception: in a small organisation, GRC frequently ends up operating\nfirst-line controls too, running the access review rather than checking it ran.\nThat is a resourcing reality rather than a model violation, but it needs to be\nvisible, because it removes the challenge the second line exists to provide.</p>"
     }
    ],
    "sources_html": [
@@ -2882,7 +2882,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 400,
+     "wordCount": 394,
      "timeRequired": "PT5M",
      "citation": [
       "IIA, The Three Lines Model, 2020",
@@ -3020,7 +3020,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>One person writing the policy, running the access review, and signing the\nattestation that the access review happened is performing a self-review. Under\nabout a hundred staff this is unavoidable and everybody knows it.</p>\n<p>The way to handle it is not to pretend otherwise. Record it in the register as\nan accepted risk with a named approver, and get a second pair of eyes - a peer,\na board member, an external reviewer - on the attestations that leave the\nbuilding. An auditor who finds the acceptance already written respects it. One\nwho finds it themselves writes a finding.</p>"
+     "html": "<p>One person writing the policy, running the access review, and signing the\nattestation that the access review happened is performing a self-review. Under\nabout a hundred staff this is unavoidable and everybody knows it.</p>\n<p>The way to handle it is not to pretend otherwise. Record it in the register as\nan accepted risk with a named approver, and get a second pair of eyes (a peer,\na board member, an external reviewer) on the attestations that leave the\nbuilding. An auditor who finds the acceptance already written respects it. One\nwho finds it themselves writes a finding.</p>"
     }
    ],
    "sources_html": [
@@ -3084,7 +3084,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 381,
+     "wordCount": 379,
      "timeRequired": "PT5M",
      "citation": [
       "IIA, The Three Lines Model, 2020",
@@ -3098,7 +3098,7 @@
    "clause": "1.7",
    "part": 1,
    "slug": "risk-issue-incident",
-   "title": "Risk, issue and incident - the difference",
+   "title": "Risk, issue and incident: the difference",
    "description": "A risk is a possible future effect of uncertainty, an issue is one that has materialised and an incident is a discrete event that has already occurred.",
    "short_title": "Risk vs issue vs incident",
    "keywords": [
@@ -3176,11 +3176,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "A risk is a possible future effect of uncertainty - it has not happened yet. An\nissue is a risk that has materialised, or a present problem demanding action\nnow. An incident is a discrete event that has already occurred, often a control\nfailure or a security event."
+     "html": "A risk is a possible future effect of uncertainty. It has not happened yet. An\nissue is a risk that has materialised, or a present problem demanding action\nnow. An incident is a discrete event that has already occurred, often a control\nfailure or a security event."
     },
     {
      "type": "prose",
-     "html": "<p>The distinction is one of tense. Risk is future and uncertain, issue is present\nand certain, incident has already occurred - though its consequences may still be\nunfolding. Where each is logged, who owns it and what happens next all follow\nfrom where the thing sits on that timeline.</p>\n<p>Practitioners collapse the three constantly, and the collapse is not cosmetic.\nAn incident filed as a risk overstates open exposure - it counts a thing that\nalready happened as a thing that might. A live issue left in the register as a\n&ldquo;risk&rdquo; hides that action is already overdue. Either way the register stops\ndescribing the world.</p>"
+     "html": "<p>The distinction is one of tense. Risk is future and uncertain, issue is present\nand certain, incident has already occurred, though its consequences may still be\nunfolding. Where each is logged, who owns it and what happens next all follow\nfrom where the thing sits on that timeline.</p>\n<p>Practitioners collapse the three constantly, and the collapse is not cosmetic.\nAn incident filed as a risk overstates open exposure: it counts a thing that\nalready happened as a thing that might. A live issue left in the register as a\n&ldquo;risk&rdquo; hides that action is already overdue. Either way the register stops\ndescribing the world.</p>"
     },
     {
      "type": "heading",
@@ -3195,7 +3195,7 @@
      "items": [
       {
        "term": "Risk",
-       "html": "A possible future effect of uncertainty on objectives - something that has not happened and may not. ISO 31000:2018 defines it as the &ldquo;effect of uncertainty on objectives&rdquo;, where an effect is a deviation from the expected, in either direction."
+       "html": "A possible future effect of uncertainty on objectives, something that has not happened and may not. ISO 31000:2018 defines it as the &ldquo;effect of uncertainty on objectives&rdquo;, where an effect is a deviation from the expected, in either direction."
       },
       {
        "term": "Issue",
@@ -3203,7 +3203,7 @@
       },
       {
        "term": "Incident",
-       "html": "A discrete event that has already occurred, typically a control failure or, in security, an unwanted event that harms operations. ISO/IEC 27000 separates an information security <em>event</em> - something happened that may matter - from an <em>incident</em>, an event or series with significant potential to compromise operations."
+       "html": "A discrete event that has already occurred, typically a control failure or, in security, an unwanted event that harms operations. ISO/IEC 27000 separates an information security <em>event</em> (something happened that may matter) from an <em>incident</em>, an event or series with significant potential to compromise operations."
       }
      ]
     },
@@ -3229,7 +3229,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>These arrangements are common practice rather than anything a standard mandates.\nA risk lives in the risk register and, in most schemes, belongs to a named risk\nowner - one person who can authorise its treatment rather than a team (see\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>). An issue lives in an issue log, sometimes\na tab on the same spreadsheet and sometimes a separate action tracker, and\nbelongs to whoever owns closing it. An incident lives in an incident log or the\nticketing system and belongs to the responder handling it until it is contained\nand reviewed.</p>\n<p>They are kept as separate records for the same reason the three concepts are\nseparate (see <a href=\"/foundations/four-artefacts/\">1.3</a>): a single document that mixes\nfuture exposure with present problems and past events cannot be sorted, counted\nor reported without first pulling the three back apart.</p>"
+     "html": "<p>These arrangements are common practice rather than anything a standard mandates.\nA risk lives in the risk register and, in most schemes, belongs to a named risk\nowner, one person who can authorise its treatment rather than a team (see\n<a href=\"/risk/reading-a-risk-register/\">3.1</a>). An issue lives in an issue log, sometimes\na tab on the same spreadsheet and sometimes a separate action tracker, and\nbelongs to whoever owns closing it. An incident lives in an incident log or the\nticketing system and belongs to the responder handling it until it is contained\nand reviewed.</p>\n<p>They are kept as separate records for the same reason the three concepts are\nseparate (see <a href=\"/foundations/four-artefacts/\">1.3</a>): a single document that mixes\nfuture exposure with present problems and past events cannot be sorted, counted\nor reported without first pulling the three back apart.</p>"
     },
     {
      "type": "heading",
@@ -3241,7 +3241,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A risk becomes an issue at the moment it materialises. The uncertain future\neffect is now a present fact, and it moves from the register - where it was being\nwatched - to the issue log, where it gets an action owner and a due date. The\nrisk line does not simply vanish; it is marked as realised and cross-referenced,\nso the history survives the question an auditor asks after the fact. Nor does the\nrisk always close: recurrence or knock-on uncertainty can keep a line open on the\nregister even after this instance has landed.</p>\n<p>An incident runs the other way. A single event can open several new risks - what\nelse is exposed the same way - and several issues that must be fixed now, and\nclosing it well usually means adding or strengthening a control. That control\nchanges the residual score of the risk the incident sat under, which is the\npoint at which the incident log, the issue log and the register are meant to\nreconcile. When they do not, one of the three is lying.</p>"
+     "html": "<p>A risk becomes an issue at the moment it materialises. The uncertain future\neffect is now a present fact, and it moves from the register (where it was being\nwatched) to the issue log, where it gets an action owner and a due date. The\nrisk line does not simply vanish; it is marked as realised and cross-referenced,\nso the history survives the question an auditor asks after the fact. Nor does the\nrisk always close: recurrence or knock-on uncertainty can keep a line open on the\nregister even after this instance has landed.</p>\n<p>An incident runs the other way. A single event can open several new risks (what\nelse is exposed the same way) and several issues that must be fixed now, and\nclosing it well usually means adding or strengthening a control. That control\nchanges the residual score of the risk the incident sat under, which is the\npoint at which the incident log, the issue log and the register are meant to\nreconcile. When they do not, one of the three is lying.</p>"
     },
     {
      "type": "heading",
@@ -3253,7 +3253,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>A register that quietly fills with issues and incidents is no longer a risk\nregister; it is a to-do list with scores on it. Two specific corruptions follow,\nand both are common.</p>\n<p>An incident logged as a risk overstates open exposure. Risk reporting counts\nwhat is open and above appetite, so a past event sitting in that total is read as\na live threat and the risk picture looks worse than reality - or the incident&rsquo;s\none-off severity inflates a score that then never comes back down.</p>\n<p>A live issue left in the register as a &ldquo;risk&rdquo; does the opposite and hides that\naction is already required. A risk carries a treatment decision and a review\ndate; an issue carries an owner and a deadline. Dressed as a risk, an overdue\nproblem reads as something merely being monitored, and the deadline that should\nbe escalating does not exist.</p>\n<p>The tell, when reviewing someone else&rsquo;s register, is a row whose statement is in\nthe past tense. &ldquo;Supplier X failed and checkout was down&rdquo; is not a risk - it\nalready happened. It belongs in the incident log, with whatever new risk it\nexposed rewritten as its own forward-looking line.</p>"
+     "html": "<p>A register that quietly fills with issues and incidents is no longer a risk\nregister; it is a to-do list with scores on it. Two specific corruptions follow,\nand both are common.</p>\n<p>An incident logged as a risk overstates open exposure. Risk reporting counts\nwhat is open and above appetite, so a past event sitting in that total is read as\na live threat and the risk picture looks worse than reality, or the incident&rsquo;s\none-off severity inflates a score that then never comes back down.</p>\n<p>A live issue left in the register as a &ldquo;risk&rdquo; does the opposite and hides that\naction is already required. A risk carries a treatment decision and a review\ndate; an issue carries an owner and a deadline. Dressed as a risk, an overdue\nproblem reads as something merely being monitored, and the deadline that should\nbe escalating does not exist.</p>\n<p>The tell, when reviewing someone else&rsquo;s register, is a row whose statement is in\nthe past tense. &ldquo;Supplier X failed and checkout was down&rdquo; is not a risk. It\nalready happened. It belongs in the incident log, with whatever new risk it\nexposed rewritten as its own forward-looking line.</p>"
     },
     {
      "type": "heading",
@@ -3269,17 +3269,17 @@
       {
        "q": "Is an issue just a realised risk?",
        "id": "faq-is-an-issue-just-a-realised-risk",
-       "html": "<p>Often, but not only. Many issues began as a risk on the register that then\nmaterialised - the supplier you flagged did raise its prices. But an issue can\nalso be a present problem nobody had logged as a risk: a defect found in\nproduction, a control that turns out never to have run. The test is not where it\ncame from but its tense - an issue is a problem that exists now and needs a\ndecision now, whatever its history.</p>\n<p>Treating every issue as a &ldquo;realised risk&rdquo; also tempts you to reopen the risk\nline and re-score it, when what the issue actually needs is an action owner and a\ndate, not a fresh likelihood.</p>"
+       "html": "<p>Often, but not only. Many issues began as a risk on the register that then\nmaterialised: the supplier you flagged did raise its prices. But an issue can\nalso be a present problem nobody had logged as a risk: a defect found in\nproduction, a control that turns out never to have run. The test is not where it\ncame from but its tense: an issue is a problem that exists now and needs a\ndecision now, whatever its history.</p>\n<p>Treating every issue as a &ldquo;realised risk&rdquo; also tempts you to reopen the risk\nline and re-score it, when what the issue actually needs is an action owner and a\ndate, not a fresh likelihood.</p>"
       },
       {
        "q": "What is the difference between an issue and an incident?",
        "id": "faq-what-is-the-difference-between-an-issue-and-an-incident",
-       "html": "<p>An incident is a discrete event that occurred at a point in time - an outage, a\nbreach, a control failure - and in security ISO/IEC 27000 draws a further line\nbetween an <em>event</em> (something happened that might matter) and an <em>incident</em> (an\nevent, or series, likely to harm operations). An issue is broader and need not\nbe a single event: a supplier that keeps missing SLAs, a project running over\nbudget or an unresolved control gap are all issues without being incidents.</p>\n<p>Put plainly, an incident is something that happened; an issue is something that\nis wrong. An incident is closed once it is contained and reviewed; an issue is\nclosed once the underlying problem is resolved.</p>"
+       "html": "<p>An incident is a discrete event that occurred at a point in time (an outage, a\nbreach, a control failure), and in security ISO/IEC 27000 draws a further line\nbetween an <em>event</em> (something happened that might matter) and an <em>incident</em> (an\nevent, or series, likely to harm operations). An issue is broader and need not\nbe a single event: a supplier that keeps missing SLAs, a project running over\nbudget or an unresolved control gap are all issues without being incidents.</p>\n<p>Put plainly, an incident is something that happened; an issue is something that\nis wrong. An incident is closed once it is contained and reviewed; an issue is\nclosed once the underlying problem is resolved.</p>"
       },
       {
        "q": "Does every incident create a risk?",
        "id": "faq-does-every-incident-create-a-risk",
-       "html": "<p>No, but a serious one usually should. The value of an incident to the risk\nfunction is what it reveals - an incident that exploited a control gap is\nevidence the residual risk was understated, and the post-incident review is\nwhere that score gets corrected and a new treatment added. An incident fully\ncontained by controls working as designed confirms the existing risk rather than\nopening a new one.</p>\n<p>The failure mode is the incident that closes with a &ldquo;lessons learned&rdquo; slide and\nnever touches the register, so the same event recurs against a risk line that\nstill reads green.</p>"
+       "html": "<p>No, but a serious one usually should. The value of an incident to the risk\nfunction is what it reveals: an incident that exploited a control gap is\nevidence the residual risk was understated, and the post-incident review is\nwhere that score gets corrected and a new treatment added. An incident fully\ncontained by controls working as designed confirms the existing risk rather than\nopening a new one.</p>\n<p>The failure mode is the incident that closes with a &ldquo;lessons learned&rdquo; slide and\nnever touches the register, so the same event recurs against a risk line that\nstill reads green.</p>"
       }
      ]
     }
@@ -3325,7 +3325,7 @@
       {
        "@type": "ListItem",
        "position": 3,
-       "name": "Risk, issue and incident - the difference",
+       "name": "Risk, issue and incident: the difference",
        "item": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/"
       }
      ]
@@ -3333,8 +3333,8 @@
     {
      "@type": "TechArticle",
      "@id": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/#article",
-     "headline": "Risk, issue and incident - the difference",
-     "name": "Risk, issue and incident - the difference",
+     "headline": "Risk, issue and incident: the difference",
+     "name": "Risk, issue and incident: the difference",
      "description": "A risk is a possible future effect of uncertainty, an issue is one that has materialised and an incident is a discrete event that has already occurred.",
      "url": "https://grc-wiki.vercel.app/foundations/risk-issue-incident/",
      "mainEntityOfPage": {
@@ -3347,7 +3347,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 1252,
+     "wordCount": 1234,
      "timeRequired": "PT6M",
      "citation": [
       "ISO 31000:2018 - Risk management, guidelines (risk defined as the effect of uncertainty on objectives, clause 3.1)",
@@ -3366,7 +3366,7 @@
        "name": "Is an issue just a realised risk?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Often, but not only. Many issues began as a risk on the register that then materialised - the supplier you flagged did raise its prices. But an issue can also be a present problem nobody had logged as a risk: a defect found in production, a control that turns out never to have run. The test is not where it came from but its tense - an issue is a problem that exists now and needs a decision now, whatever its history. Treating every issue as a &ldquo;realised risk&rdquo; also tempts you to reopen the risk line and re-score it, when what the issue actually needs is an action owner and a date, not a fresh likelihood."
+        "text": "Often, but not only. Many issues began as a risk on the register that then materialised: the supplier you flagged did raise its prices. But an issue can also be a present problem nobody had logged as a risk: a defect found in production, a control that turns out never to have run. The test is not where it came from but its tense: an issue is a problem that exists now and needs a decision now, whatever its history. Treating every issue as a &ldquo;realised risk&rdquo; also tempts you to reopen the risk line and re-score it, when what the issue actually needs is an action owner and a date, not a fresh likelihood."
        }
       },
       {
@@ -3374,7 +3374,7 @@
        "name": "What is the difference between an issue and an incident?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An incident is a discrete event that occurred at a point in time - an outage, a breach, a control failure - and in security ISO/IEC 27000 draws a further line between an event (something happened that might matter) and an incident (an event, or series, likely to harm operations). An issue is broader and need not be a single event: a supplier that keeps missing SLAs, a project running over budget or an unresolved control gap are all issues without being incidents. Put plainly, an incident is something that happened; an issue is something that is wrong. An incident is closed once it is contained and reviewed; an issue is closed once the underlying problem is resolved."
+        "text": "An incident is a discrete event that occurred at a point in time (an outage, a breach, a control failure), and in security ISO/IEC 27000 draws a further line between an event (something happened that might matter) and an incident (an event, or series, likely to harm operations). An issue is broader and need not be a single event: a supplier that keeps missing SLAs, a project running over budget or an unresolved control gap are all issues without being incidents. Put plainly, an incident is something that happened; an issue is something that is wrong. An incident is closed once it is contained and reviewed; an issue is closed once the underlying problem is resolved."
        }
       },
       {
@@ -3382,7 +3382,7 @@
        "name": "Does every incident create a risk?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, but a serious one usually should. The value of an incident to the risk function is what it reveals - an incident that exploited a control gap is evidence the residual risk was understated, and the post-incident review is where that score gets corrected and a new treatment added. An incident fully contained by controls working as designed confirms the existing risk rather than opening a new one. The failure mode is the incident that closes with a &ldquo;lessons learned&rdquo; slide and never touches the register, so the same event recurs against a risk line that still reads green."
+        "text": "No, but a serious one usually should. The value of an incident to the risk function is what it reveals: an incident that exploited a control gap is evidence the residual risk was understated, and the post-incident review is where that score gets corrected and a new treatment added. An incident fully contained by controls working as designed confirms the existing risk rather than opening a new one. The failure mode is the incident that closes with a &ldquo;lessons learned&rdquo; slide and never touches the register, so the same event recurs against a risk line that still reads green."
        }
       }
      ]
@@ -3468,7 +3468,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The two get merged because in a technology company they are often the same\nbudget and sometimes the same team. A security engineer configures the firewall;\nthe GRC analyst three desks away writes the standard that says the firewall must\nexist, checks that it does and hands the proof to an auditor. Same subject,\ndifferent sentence - one operates, the other governs and records.</p>\n<p>The distinction holds even where the org chart hides it, because the two roles\nfail in different ways. Security fails when the defences do not stop or contain\nthe attack. GRC fails when the control worked and nobody can prove it did.</p>"
+     "html": "<p>The two get merged because in a technology company they are often the same\nbudget and sometimes the same team. A security engineer configures the firewall;\nthe GRC analyst three desks away writes the standard that says the firewall must\nexist, checks that it does and hands the proof to an auditor. Same subject,\ndifferent sentence: one operates, the other governs and records.</p>\n<p>The distinction holds even where the org chart hides it, because the two roles\nfail in different ways. Security fails when the defences do not stop or contain\nthe attack. GRC fails when the control worked and nobody can prove it did.</p>"
     },
     {
      "type": "heading",
@@ -3489,7 +3489,7 @@
       {
        "name": "Cyber security",
        "badge": "BUILDS & DEFENDS",
-       "html": "Designs, builds and operates the defences - firewalls, identity, monitoring and\nincident response - and answers to whether an attack is stopped, not to whether\nthe paperwork exists."
+       "html": "Designs, builds and operates the defences (firewalls, identity, monitoring and\nincident response), and answers to whether an attack is stopped, not to whether\nthe paperwork exists."
       }
      ]
     },
@@ -3535,7 +3535,7 @@
       },
       {
        "attr": "Reports to",
-       "a": "Varies - CISO, risk, legal or COO",
+       "a": "Varies: CISO, risk, legal or COO",
        "av": "",
        "b": "Usually the CISO",
        "bv": ""
@@ -3551,7 +3551,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The &ldquo;relationship to the control&rdquo; row is where the two most often get miscast.\nSecurity operates the control; GRC establishes that it is required, that a named\nperson owns it and that it ran - while the control itself is usually owned by the\nbusiness or system owner, not by either function. Neither role covers the other,\nwhich is why one function cannot simply absorb the work of the other.</p>"
+     "html": "<p>The &ldquo;relationship to the control&rdquo; row is where the two most often get miscast.\nSecurity operates the control; GRC establishes that it is required, that a named\nperson owns it and that it ran, while the control itself is usually owned by the\nbusiness or system owner, not by either function. Neither role covers the other,\nwhich is why one function cannot simply absorb the work of the other.</p>"
     },
     {
      "type": "heading",
@@ -3563,7 +3563,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Both live at the control, and that is the whole source of the confusion. A single\naccess-review control is designed and run by security, and separately recorded by\nGRC as required, owned by a named person and operated on a schedule - the last\npart being the evidence. Neither produces the audit outcome alone: a control that\nruns but is undocumented fails the audit, and a documented control that does not\nrun fails the attack.</p>\n<p>NIST CSF 2.0 made the split easier to see. Its February 2024 revision added a\nsixth function, GOVERN, alongside the five operational functions - Identify,\nProtect, Detect, Respond, Recover - precisely because organisations were maturing\ndefences with nobody owning the decisions, roles and oversight behind them.\nGOVERN is not a seventh silo, though: it sits across the framework and informs how\nthe other five are run. It elevates the governance and risk-oversight outcomes a\nsecurity-GRC role tends to concentrate on, while the operational functions are\nwhere the defences are built and run - the same framework, holding both kinds of\nwork.</p>"
+     "html": "<p>Both live at the control, and that is the whole source of the confusion. A single\naccess-review control is designed and run by security, and separately recorded by\nGRC as required, owned by a named person and operated on a schedule. That last\npart is the evidence. Neither produces the audit outcome alone: a control that\nruns but is undocumented fails the audit, and a documented control that does not\nrun fails the attack.</p>\n<p>NIST CSF 2.0 made the split easier to see. Its February 2024 revision added a\nsixth function, GOVERN, alongside the five operational functions (Identify,\nProtect, Detect, Respond, Recover) precisely because organisations were maturing\ndefences with nobody owning the decisions, roles and oversight behind them.\nGOVERN is not a seventh silo, though: it sits across the framework and informs how\nthe other five are run. It elevates the governance and risk-oversight outcomes a\nsecurity-GRC role tends to concentrate on, while the operational functions are\nwhere the defences are built and run, a single framework holding both kinds of\nwork.</p>"
     },
     {
      "type": "heading",
@@ -3575,7 +3575,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Two mistakes recur. The first is imagining a GRC analyst configures firewalls.\nThe daily tools of GRC are documents, interviews and evidence requests; the\nanalyst reads a system diagram and challenges an engineer&rsquo;s answer but does not\ntouch the console. Hiring a GRC analyst to harden systems, or a security engineer\nto run an ISO 27001 audit programme, produces someone doing half of each job\nbadly.</p>\n<p>The second is assuming a strong security team makes GRC redundant - that if the\ndefences are genuinely good, the governance layer is overhead. It does not\nfollow. An auditor does not accept &ldquo;our security team is excellent&rdquo; as evidence,\nand a customer&rsquo;s procurement questionnaire does not accept it either. ISO/IEC\n27001 certification assesses whether the ISMS is implemented and effective, which\nturns on documented information and objective evidence that the controls operate\n- not on the operator&rsquo;s confidence that they do. Excellent security with no\nevidence trail struggles to demonstrate an effective ISMS, and cannot be sold to\na buyer who requires certification.</p>"
+     "html": "<p>Two mistakes recur. The first is imagining a GRC analyst configures firewalls.\nThe daily tools of GRC are documents, interviews and evidence requests; the\nanalyst reads a system diagram and challenges an engineer&rsquo;s answer but does not\ntouch the console. Hiring a GRC analyst to harden systems, or a security engineer\nto run an ISO 27001 audit programme, produces someone doing half of each job\nbadly.</p>\n<p>The second is assuming a strong security team makes GRC redundant: that if the\ndefences are genuinely good, the governance layer is overhead. It does not\nfollow. An auditor does not accept &ldquo;our security team is excellent&rdquo; as evidence,\nand a customer&rsquo;s procurement questionnaire does not accept it either. ISO/IEC\n27001 certification assesses whether the ISMS is implemented and effective, which\nturns on documented information and objective evidence that the controls operate,\nnot on the operator&rsquo;s confidence that they do. Excellent security with no\nevidence trail struggles to demonstrate an effective ISMS, and cannot be sold to\na buyer who requires certification.</p>"
     },
     {
      "type": "heading",
@@ -3587,7 +3587,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>There is no single answer, and the honest one is that the reporting line varies\nby organisation. GRC reports to the CISO in many technology companies, where the\nwork is mostly security compliance and that is where it already sits. It reports\nto a Chief Risk Officer where risk is a board-level function in its own right,\ncommon in financial services. It reports to legal or the General Counsel where\nthe binding obligations are contractual and regulatory more than technical, and\nto the COO where GRC is treated as operational assurance spanning more than\nsecurity.</p>\n<p>What drives the choice is the breadth of the mandate. A function scoped to\ninformation security alone tends to sit under the CISO. One that also covers\nprivacy, financial reporting, health and safety or supplier conduct cannot sit\ncleanly under security, because it would then be governing controls its own boss\noperates - the self-review problem under another name.</p>"
+     "html": "<p>There is no single answer, and the honest one is that the reporting line varies\nby organisation. GRC reports to the CISO in many technology companies, where the\nwork is mostly security compliance and that is where it already sits. It reports\nto a Chief Risk Officer where risk is a board-level function in its own right,\ncommon in financial services. It reports to legal or the General Counsel where\nthe binding obligations are contractual and regulatory more than technical, and\nto the COO where GRC is treated as operational assurance spanning more than\nsecurity.</p>\n<p>What drives the choice is the breadth of the mandate. A function scoped to\ninformation security alone tends to sit under the CISO. One that also covers\nprivacy, financial reporting, health and safety or supplier conduct cannot sit\ncleanly under security, because it would then be governing controls its own boss\noperates, the self-review problem under another name.</p>"
     },
     {
      "type": "heading",
@@ -3603,12 +3603,12 @@
       {
        "q": "Is GRC cyber security?",
        "id": "faq-is-grc-cyber-security",
-       "html": "<p>No, though in a technology company the two overlap enough to be staffed from one\nteam. Cyber security is one obligation domain GRC covers, alongside privacy,\nfinancial reporting and whatever else binds the organisation. Security builds and\noperates the defence; GRC decides the defence is required, checks it runs and\nkeeps the proof. Where a company does only security compliance, &ldquo;GRC&rdquo; and\n&ldquo;security&rdquo; can look like the same job - the boundary gets clearer the broader the\nmandate is.</p>"
+       "html": "<p>No, though in a technology company the two overlap enough to be staffed from one\nteam. Cyber security is one obligation domain GRC covers, alongside privacy,\nfinancial reporting and whatever else binds the organisation. Security builds and\noperates the defence; GRC decides the defence is required, checks it runs and\nkeeps the proof. Where a company does only security compliance, &ldquo;GRC&rdquo; and\n&ldquo;security&rdquo; can look like the same job. The boundary gets clearer the broader the\nmandate is.</p>"
       },
       {
        "q": "Is GRC a technical role?",
        "id": "faq-is-grc-a-technical-role",
-       "html": "<p>Not in the sense of configuring systems, though it is a literate one. You need to\nread a network diagram, follow an engineer&rsquo;s explanation and challenge it; you do\nnot need to build or run the system. The daily work is documents, interviews and\nevidence. It varies with seniority and company - a GRC engineer automating\nevidence collection sits closer to the console than a compliance analyst chasing\na quarterly access review - but the core skill is judgement about obligations and\nproof, not hands on the firewall.</p>"
+       "html": "<p>Not in the sense of configuring systems, though it is a literate one. You need to\nread a network diagram, follow an engineer&rsquo;s explanation and challenge it; you do\nnot need to build or run the system. The daily work is documents, interviews and\nevidence. It varies with seniority and company (a GRC engineer automating\nevidence collection sits closer to the console than a compliance analyst chasing\na quarterly access review), but the core skill is judgement about obligations and\nproof, not hands on the firewall.</p>"
       },
       {
        "q": "Does GRC sit under the CISO?",
@@ -3679,7 +3679,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 943,
+     "wordCount": 931,
      "timeRequired": "PT5M",
      "citation": [
       "NIST Cybersecurity Framework 2.0, February 2024 (the Govern function)",
@@ -3696,7 +3696,7 @@
        "name": "Is GRC cyber security?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, though in a technology company the two overlap enough to be staffed from one team. Cyber security is one obligation domain GRC covers, alongside privacy, financial reporting and whatever else binds the organisation. Security builds and operates the defence; GRC decides the defence is required, checks it runs and keeps the proof. Where a company does only security compliance, &ldquo;GRC&rdquo; and &ldquo;security&rdquo; can look like the same job - the boundary gets clearer the broader the mandate is."
+        "text": "No, though in a technology company the two overlap enough to be staffed from one team. Cyber security is one obligation domain GRC covers, alongside privacy, financial reporting and whatever else binds the organisation. Security builds and operates the defence; GRC decides the defence is required, checks it runs and keeps the proof. Where a company does only security compliance, &ldquo;GRC&rdquo; and &ldquo;security&rdquo; can look like the same job. The boundary gets clearer the broader the mandate is."
        }
       },
       {
@@ -3704,7 +3704,7 @@
        "name": "Is GRC a technical role?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not in the sense of configuring systems, though it is a literate one. You need to read a network diagram, follow an engineer&rsquo;s explanation and challenge it; you do not need to build or run the system. The daily work is documents, interviews and evidence. It varies with seniority and company - a GRC engineer automating evidence collection sits closer to the console than a compliance analyst chasing a quarterly access review - but the core skill is judgement about obligations and proof, not hands on the firewall."
+        "text": "Not in the sense of configuring systems, though it is a literate one. You need to read a network diagram, follow an engineer&rsquo;s explanation and challenge it; you do not need to build or run the system. The daily work is documents, interviews and evidence. It varies with seniority and company (a GRC engineer automating evidence collection sits closer to the console than a compliance analyst chasing a quarterly access review), but the core skill is judgement about obligations and proof, not hands on the firewall."
        }
       },
       {
@@ -3804,7 +3804,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Most of the time the two answers agree, which is why the same overlapping team\nruns both off one register. A single quarterly access review treats the risk of\nexcessive access and evidences the obligation to review it - one control, logged\ntwice. The distinction only becomes load-bearing when the two answers disagree:\nwhen a control passes its compliance test and the risk behind it is still outside\nappetite, or when a risk the business is willing to carry runs straight into an\nobligation it is not allowed to carry.</p>"
+     "html": "<p>Most of the time the two answers agree, which is why the same overlapping team\nruns both off one register. A single quarterly access review treats the risk of\nexcessive access and evidences the obligation to review it: one control, logged\ntwice. The distinction only becomes load-bearing when the two answers disagree:\nwhen a control passes its compliance test and the risk behind it is still outside\nappetite, or when a risk the business is willing to carry runs straight into an\nobligation it is not allowed to carry.</p>"
     },
     {
      "type": "heading",
@@ -3825,7 +3825,7 @@
       {
        "name": "Compliance",
        "badge": "OBLIGATION & EVIDENCE",
-       "html": "Begins from the obligations that bind it - law, contract, standard - maps each to\na control and keeps the proof it operated. Each obligation is either evidenced\nor open."
+       "html": "Begins from the obligations that bind it (law, contract, standard), maps each to\na control and keeps the proof it operated. Each obligation is either evidenced\nor open."
       }
      ]
     },
@@ -3857,9 +3857,9 @@
       },
       {
        "attr": "When it is \"done\"",
-       "a": "Never - re-scored as the exposure moves",
+       "a": "Never; re-scored as the exposure moves",
        "av": "",
-       "b": "Per obligation, when its evidence is current - the system itself never stops",
+       "b": "Per obligation, when its evidence is current; the system itself never stops",
        "bv": ""
       },
       {
@@ -3873,7 +3873,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>ISO 31000 defines risk as the effect of uncertainty on objectives and has the\norganisation evaluate it against risk criteria, which typically encode the\nappetite governance has set. ISO 37301 builds the other side into an ongoing\nmanagement system - one of monitoring, evaluation and improvement - whose unit of\nwork is the compliance obligation: a requirement you must meet or a commitment you\nhave chosen to. COSO supplies the join: a control is the response to a risk to an\nobjective, and the same control is often what a compliance regime points to as\nproof. The controls are shared. The questions asked of them are not.</p>"
+     "html": "<p>ISO 31000 defines risk as the effect of uncertainty on objectives and has the\norganisation evaluate it against risk criteria, which typically encode the\nappetite governance has set. ISO 37301 builds the other side into an ongoing\nmanagement system (one of monitoring, evaluation and improvement) whose unit of\nwork is the compliance obligation: a requirement you must meet or a commitment you\nhave chosen to. COSO supplies the join: a control is the response to a risk to an\nobjective, and the same control is often what a compliance regime points to as\nproof. The controls are shared. The questions asked of them are not.</p>"
     },
     {
      "type": "heading",
@@ -3885,7 +3885,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>In most teams the two live in one register, and a control carries two keys: the\nrisk it treats and the obligation it evidences. The access review above is the\nordinary case - raised as a treatment for an access risk, cited as evidence\nagainst an access-control obligation, closed once with a single artefact.</p>\n<p>Running them as two registers is the common mistake in a young programme. It\nproduces two control inventories that drift apart, two owners for the same\nreview and a control that is marked effective on the compliance side while the\nrisk it was meant to reduce sits open on the other. One register with two keys -\nhowever it is physically stored - is the arrangement that tends to survive an\naudit.</p>"
+     "html": "<p>In most teams the two live in one register, and a control carries two keys: the\nrisk it treats and the obligation it evidences. The access review above is the\nordinary case: raised as a treatment for an access risk, cited as evidence\nagainst an access-control obligation, closed once with a single artefact.</p>\n<p>Running them as two registers is the common mistake in a young programme. It\nproduces two control inventories that drift apart, two owners for the same\nreview and a control that is marked effective on the compliance side while the\nrisk it was meant to reduce sits open on the other. One register with two keys,\nhowever it is physically stored, is the arrangement that tends to survive an\naudit.</p>"
     },
     {
      "type": "heading",
@@ -3897,7 +3897,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The value is in the two cases where a clean answer on one side is worthless on\nthe other.</p>\n<p>A fully compliant control can still leave risk above appetite. Compliance is\na floor, not a ceiling. Multi-factor authentication is required by policy and the\nevidence shows it running - the obligation is met and the test passes. If it is\nnot enforced on a legacy login path, the account-takeover exposure is still\noutside appetite. The compliance answer is green; the risk answer is red; both\nare correct. Meeting the obligation says only that the obligation&rsquo;s bar was\ncleared, never that the bar was set where your exposure actually is.</p>\n<p>An accepted risk can still breach an obligation you cannot accept your way out\nof. Acceptance - retaining a risk by informed decision, in ISO 31000&rsquo;s terms - is\na legitimate treatment: the business may formally decide to carry a risk. That\ndecision has no force against a binding obligation. A retention rule fixed in law is breached whether or not the risk\ncommittee signed off carrying it - you can accept a risk, you cannot accept a\nstatute. When acceptance is the treatment, the compliance question has to be\nasked separately, because it is the one the acceptance cannot answer.</p>"
+     "html": "<p>The value is in the two cases where a clean answer on one side is worthless on\nthe other.</p>\n<p>A fully compliant control can still leave risk above appetite. Compliance is\na floor, not a ceiling. Multi-factor authentication is required by policy and the\nevidence shows it running: the obligation is met and the test passes. If it is\nnot enforced on a legacy login path, the account-takeover exposure is still\noutside appetite. The compliance answer is green; the risk answer is red; both\nare correct. Meeting the obligation says only that the obligation&rsquo;s bar was\ncleared, never that the bar was set where your exposure actually is.</p>\n<p>An accepted risk can still breach an obligation you cannot accept your way out\nof. Acceptance (retaining a risk by informed decision, in ISO 31000&rsquo;s terms) is\na legitimate treatment: the business may formally decide to carry a risk. That\ndecision has no force against a binding obligation. A retention rule fixed in law is breached whether or not the risk\ncommittee signed off carrying it. You can accept a risk; you cannot accept a\nstatute. When acceptance is the treatment, the compliance question has to be\nasked separately, because it is the one the acceptance cannot answer.</p>"
     },
     {
      "type": "heading",
@@ -3909,7 +3909,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>The two answers go to different rooms, in different shapes.</p>\n<p>Risk reports exposure against appetite to a risk committee: where the residual\nsits, which items have moved and what is above appetite still waiting on a\ntreatment. The unit is a risk, and the question in the room is whether the\norganisation is carrying more than it agreed to.</p>\n<p>Compliance reports obligations met against obligations open to a compliance or\naudit committee: which obligations have current evidence, which have gaps and\nwhich are in breach. The unit is an obligation, and the question in the room is\nwhether anything the organisation is bound by is unproven or unmet.</p>\n<p>An item can be comfortable in one report and alarming in the other. That is not\na reporting error - it is the two functions doing their separate jobs on the same\ncontrol.</p>"
+     "html": "<p>The two answers go to different rooms, in different shapes.</p>\n<p>Risk reports exposure against appetite to a risk committee: where the residual\nsits, which items have moved and what is above appetite still waiting on a\ntreatment. The unit is a risk, and the question in the room is whether the\norganisation is carrying more than it agreed to.</p>\n<p>Compliance reports obligations met against obligations open to a compliance or\naudit committee: which obligations have current evidence, which have gaps and\nwhich are in breach. The unit is an obligation, and the question in the room is\nwhether anything the organisation is bound by is unproven or unmet.</p>\n<p>An item can be comfortable in one report and alarming in the other. That is not\na reporting error. It is the two functions doing their separate jobs on the same\ncontrol.</p>"
     },
     {
      "type": "heading",
@@ -3937,17 +3937,17 @@
       {
        "q": "Is compliance part of risk management?",
        "id": "faq-is-compliance-part-of-risk-management",
-       "html": "<p>It depends who you ask, and both answers are defensible. To a risk function\nworking in COSO or ISO 31000 terms, non-compliance is one category of risk, so\ncompliance sits inside enterprise risk as a subset. To a compliance function\nunder ISO 37301, compliance is its own management system with obligations that\nexist whether or not anyone has scored them as risky - a peer, not a subset.</p>\n<p>In practice it is both. The obligation exists on its own footing; the exposure\ncreated by failing it is managed as a risk. Teams that insist on one framing\nusually do it to settle who owns the register, which is a reporting-line question\ndressed up as a definitional one.</p>"
+       "html": "<p>It depends who you ask, and both answers are defensible. To a risk function\nworking in COSO or ISO 31000 terms, non-compliance is one category of risk, so\ncompliance sits inside enterprise risk as a subset. To a compliance function\nunder ISO 37301, compliance is its own management system with obligations that\nexist whether or not anyone has scored them as risky: a peer, not a subset.</p>\n<p>In practice it is both. The obligation exists on its own footing; the exposure\ncreated by failing it is managed as a risk. Teams that insist on one framing\nusually do it to settle who owns the register, which is a reporting-line question\ndressed up as a definitional one.</p>"
       },
       {
        "q": "Can you be compliant but not secure?",
        "id": "faq-can-you-be-compliant-but-not-secure",
-       "html": "<p>Routinely. Compliance is a floor: it confirms the obligation&rsquo;s bar was cleared,\nnot that the bar matches your exposure. A control can pass every compliance test\nand still leave a risk above appetite, because the obligation demanded less than\nyour situation needs - an old standard, a narrow contract clause, a control that\nruns but not everywhere it has to.</p>\n<p>The reverse happens too. A well-secured system can hold an obligation open\nbecause the evidence was never captured in the form an assessor accepts. Secure\nand compliant are correlated, not the same measurement.</p>"
+       "html": "<p>Routinely. Compliance is a floor: it confirms the obligation&rsquo;s bar was cleared,\nnot that the bar matches your exposure. A control can pass every compliance test\nand still leave a risk above appetite, because the obligation demanded less than\nyour situation needs: an old standard, a narrow contract clause, a control that\nruns but not everywhere it has to.</p>\n<p>The reverse happens too. A well-secured system can hold an obligation open\nbecause the evidence was never captured in the form an assessor accepts. Secure\nand compliant are correlated, not the same measurement.</p>"
       },
       {
        "q": "Which comes first, risk or compliance?",
        "id": "faq-which-comes-first-risk-or-compliance",
-       "html": "<p>It turns on the trigger. If a regulator, contract or standard already binds you,\ncompliance comes first - the obligation exists regardless of how your risk\nassessment comes out, and you cannot risk-assess your way out of it. If you are\ndeciding where to spend a fixed control budget, risk comes first, because it\ntells you which threats to objectives are worth the money.</p>\n<p>In a mature programme the ordering dissolves: obligations and risks feed one\nregister, and each control is justified by both the exposure it reduces and the\nobligation it satisfies.</p>"
+       "html": "<p>It turns on the trigger. If a regulator, contract or standard already binds you,\ncompliance comes first: the obligation exists regardless of how your risk\nassessment comes out, and you cannot risk-assess your way out of it. If you are\ndeciding where to spend a fixed control budget, risk comes first, because it\ntells you which threats to objectives are worth the money.</p>\n<p>In a mature programme the ordering dissolves: obligations and risks feed one\nregister, and each control is justified by both the exposure it reduces and the\nobligation it satisfies.</p>"
       }
      ]
     }
@@ -4014,7 +4014,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 1090,
+     "wordCount": 1076,
      "timeRequired": "PT5M",
      "citation": [
       "ISO 31000:2018 - Risk management, guidelines",
@@ -4032,7 +4032,7 @@
        "name": "Is compliance part of risk management?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It depends who you ask, and both answers are defensible. To a risk function working in COSO or ISO 31000 terms, non-compliance is one category of risk, so compliance sits inside enterprise risk as a subset. To a compliance function under ISO 37301, compliance is its own management system with obligations that exist whether or not anyone has scored them as risky - a peer, not a subset. In practice it is both. The obligation exists on its own footing; the exposure created by failing it is managed as a risk. Teams that insist on one framing usually do it to settle who owns the register, which is a reporting-line question dressed up as a definitional one."
+        "text": "It depends who you ask, and both answers are defensible. To a risk function working in COSO or ISO 31000 terms, non-compliance is one category of risk, so compliance sits inside enterprise risk as a subset. To a compliance function under ISO 37301, compliance is its own management system with obligations that exist whether or not anyone has scored them as risky: a peer, not a subset. In practice it is both. The obligation exists on its own footing; the exposure created by failing it is managed as a risk. Teams that insist on one framing usually do it to settle who owns the register, which is a reporting-line question dressed up as a definitional one."
        }
       },
       {
@@ -4040,7 +4040,7 @@
        "name": "Can you be compliant but not secure?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Routinely. Compliance is a floor: it confirms the obligation&rsquo;s bar was cleared, not that the bar matches your exposure. A control can pass every compliance test and still leave a risk above appetite, because the obligation demanded less than your situation needs - an old standard, a narrow contract clause, a control that runs but not everywhere it has to. The reverse happens too. A well-secured system can hold an obligation open because the evidence was never captured in the form an assessor accepts. Secure and compliant are correlated, not the same measurement."
+        "text": "Routinely. Compliance is a floor: it confirms the obligation&rsquo;s bar was cleared, not that the bar matches your exposure. A control can pass every compliance test and still leave a risk above appetite, because the obligation demanded less than your situation needs: an old standard, a narrow contract clause, a control that runs but not everywhere it has to. The reverse happens too. A well-secured system can hold an obligation open because the evidence was never captured in the form an assessor accepts. Secure and compliant are correlated, not the same measurement."
        }
       },
       {
@@ -4048,7 +4048,7 @@
        "name": "Which comes first, risk or compliance?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It turns on the trigger. If a regulator, contract or standard already binds you, compliance comes first - the obligation exists regardless of how your risk assessment comes out, and you cannot risk-assess your way out of it. If you are deciding where to spend a fixed control budget, risk comes first, because it tells you which threats to objectives are worth the money. In a mature programme the ordering dissolves: obligations and risks feed one register, and each control is justified by both the exposure it reduces and the obligation it satisfies."
+        "text": "It turns on the trigger. If a regulator, contract or standard already binds you, compliance comes first: the obligation exists regardless of how your risk assessment comes out, and you cannot risk-assess your way out of it. If you are deciding where to spend a fixed control budget, risk comes first, because it tells you which threats to objectives are worth the money. In a mature programme the ordering dissolves: obligations and risks feed one register, and each control is justified by both the exposure it reduces and the obligation it satisfies."
        }
       }
      ]
@@ -4129,11 +4129,11 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "An audit is an independent examination of evidence against a stated criterion -\na standard, a policy, a regulation, a set of accounts - carried out to form an\nopinion that someone who was not there can rely on."
+     "html": "An audit is an independent examination of evidence against a stated criterion (a\nstandard, a policy, a regulation, a set of accounts) carried out to form an\nopinion that someone who was not there can rely on."
     },
     {
      "type": "prose",
-     "html": "<p>Three words carry the definition. <em>Independent</em>: the person forming the opinion\ndid not design or operate the thing being examined. <em>Criterion</em>: there is a\nwritten bar, fixed before the work starts, so the opinion is a comparison and\nnot a preference. <em>Opinion</em>: the output is a judgement about conformity, not a\nrepair - an auditor who fixes the finding has stopped being one.</p>\n<p>An audit is not a review, an assessment or a health check. Those words are used\nloosely, but an audit specifically produces assurance: a signed statement, at a\ndefined level of confidence, that a reader outside the process can act on. That\nis why the independence rule is not negotiable. The moment the examiner has a\nstake in the answer, the assurance is worth nothing.</p>"
+     "html": "<p>Three words carry the definition. <em>Independent</em>: the person forming the opinion\ndid not design or operate the thing being examined. <em>Criterion</em>: there is a\nwritten bar, fixed before the work starts, so the opinion is a comparison and\nnot a preference. <em>Opinion</em>: the output is a judgement about conformity, not a\nrepair: an auditor who fixes the finding has stopped being one.</p>\n<p>An audit is not a review, an assessment or a health check. Those words are used\nloosely, but an audit specifically produces assurance: a signed statement, at a\ndefined level of confidence, that a reader outside the process can act on. That\nis why the independence rule is not negotiable. The moment the examiner has a\nstake in the answer, the assurance is worth nothing.</p>"
     },
     {
      "type": "heading",
@@ -4170,7 +4170,7 @@
        "attr": "Scope",
        "a": "Any part of the organisation, risk-ranked",
        "av": "",
-       "b": "Fixed - the accounts, or the certified management system",
+       "b": "Fixed: the accounts, or the certified management system",
        "bv": ""
       },
       {
@@ -4198,7 +4198,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Internal audit is the third line in the <a href=\"/foundations/three-lines-model/\">three lines model</a>:\nit gives the board assurance that the first line&rsquo;s controls and the second\nline&rsquo;s oversight are actually working. External audit sits outside the model\nentirely - it serves people outside the organisation who need an\nindependent read before they rely on its statements.</p>"
+     "html": "<p>Internal audit is the third line in the <a href=\"/foundations/three-lines-model/\">three lines model</a>:\nit gives the board assurance that the first line&rsquo;s controls and the second\nline&rsquo;s oversight are actually working. External audit sits outside the model\nentirely. It serves people outside the organisation who need an independent read\nbefore they rely on its statements.</p>"
     },
     {
      "type": "def",
@@ -4227,7 +4227,7 @@
       },
       {
        "term": "Fieldwork",
-       "html": "Gather evidence - documents, system extracts, walk-throughs, re-performance. Test a sample against the criterion and record what was seen, where it came from and when."
+       "html": "Gather evidence: documents, system extracts, walk-throughs, re-performance. Test a sample against the criterion and record what was seen, where it came from and when."
       },
       {
        "term": "Evaluation",
@@ -4257,7 +4257,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>An auditor tests three things about a control, in order, and stops at the first\nthat fails.</p>\n<ol>\n<li><strong>Design.</strong> Would this control, as described, prevent or detect the thing it\n   is meant to? A control that cannot work even on paper fails here.</li>\n<li><strong>Implementation.</strong> Does the control exist in reality - is it turned on, is\n   someone assigned, did it run at all?</li>\n<li><strong>Operating effectiveness.</strong> Did it run <em>every time it should have</em>, across\n   the whole period, on evidence? This is what a SOC 2 Type II or an ISO\n   surveillance audit is really checking, and it needs a population, not one\n   screenshot.</li>\n</ol>\n<p>A finding at the design level is more serious than one at the operating level,\nbecause a redesign is a bigger commitment than tightening execution.</p>"
+     "html": "<p>An auditor tests three things about a control, in order, and stops at the first\nthat fails.</p>\n<ol>\n<li><strong>Design.</strong> Would this control, as described, prevent or detect the thing it\n   is meant to? A control that cannot work even on paper fails here.</li>\n<li><strong>Implementation.</strong> Does the control exist in reality: is it turned on, is\n   someone assigned, did it run at all?</li>\n<li><strong>Operating effectiveness.</strong> Did it run <em>every time it should have</em>, across\n   the whole period, on evidence? This is what a SOC 2 Type II or an ISO\n   surveillance audit is really checking, and it needs a population, not one\n   screenshot.</li>\n</ol>\n<p>A finding at the design level is more serious than one at the operating level,\nbecause a redesign is a bigger commitment than tightening execution.</p>"
     },
     {
      "type": "heading",
@@ -4278,12 +4278,12 @@
       {
        "q": "What are the main types of audit?",
        "id": "faq-what-are-the-main-types-of-audit",
-       "html": "<p>By subject: financial (the accounts), compliance (against a law or regulation),\noperational (efficiency and effectiveness of a process), information systems\n(controls over technology), and certification (against a standard such as ISO/IEC\n27001). By provider: internal, external and second-party - where a customer\naudits a supplier directly.</p>"
+       "html": "<p>By subject: financial (the accounts), compliance (against a law or regulation),\noperational (efficiency and effectiveness of a process), information systems\n(controls over technology), and certification (against a standard such as ISO/IEC\n27001). By provider: internal, external and second-party, where a customer\naudits a supplier directly.</p>"
       },
       {
        "q": "Do auditors fix the problems they find?",
        "id": "faq-do-auditors-fix-the-problems-they-find",
-       "html": "<p>No. An auditor who designs or implements the remediation has audited their own\nwork and cannot then give an opinion on it - the self-review threat. Auditors\nrecommend; the auditee owns the fix. Internal auditors may advise on a solution\nwithin limits, but someone else must implement it and a later audit must test it.</p>"
+       "html": "<p>No. An auditor who designs or implements the remediation has audited their own\nwork and cannot then give an opinion on it: the self-review threat. Auditors\nrecommend; the auditee owns the fix. Internal auditors may advise on a solution\nwithin limits, but someone else must implement it and a later audit must test it.</p>"
       },
       {
        "q": "What makes audit evidence sufficient?",
@@ -4356,7 +4356,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Foundations",
-     "wordCount": 853,
+     "wordCount": 845,
      "timeRequired": "PT7M",
      "citation": [
       "IIA, International Standards for the Professional Practice of Internal Auditing, 2017",
@@ -4396,7 +4396,7 @@
        "name": "What are the main types of audit?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "By subject: financial (the accounts), compliance (against a law or regulation), operational (efficiency and effectiveness of a process), information systems (controls over technology), and certification (against a standard such as ISO/IEC 27001). By provider: internal, external and second-party - where a customer audits a supplier directly."
+        "text": "By subject: financial (the accounts), compliance (against a law or regulation), operational (efficiency and effectiveness of a process), information systems (controls over technology), and certification (against a standard such as ISO/IEC 27001). By provider: internal, external and second-party, where a customer audits a supplier directly."
        }
       },
       {
@@ -4404,7 +4404,7 @@
        "name": "Do auditors fix the problems they find?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. An auditor who designs or implements the remediation has audited their own work and cannot then give an opinion on it - the self-review threat. Auditors recommend; the auditee owns the fix. Internal auditors may advise on a solution within limits, but someone else must implement it and a later audit must test it."
+        "text": "No. An auditor who designs or implements the remediation has audited their own work and cannot then give an opinion on it: the self-review threat. Auditors recommend; the auditee owns the fix. Internal auditors may advise on a solution within limits, but someone else must implement it and a later audit must test it."
        }
       },
       {
