@@ -175,6 +175,9 @@ def build(*, bundle: bool, check: bool) -> int:
     write(DIST / "a-z" / "index.csv", render.index_csv(site))
     urls.append(("/a-z/", seo.today(), "weekly"))
 
+    write(DIST / "about" / "index.html", render.about_page(site))
+    urls.append(("/about/", seo.today(), "yearly"))
+
     for part in site.parts:
         if not any(en.part == part.n for en in site.entries):
             continue
@@ -195,6 +198,7 @@ def build(*, bundle: bool, check: bool) -> int:
     write(DIST / "search-index.json", search.build_index(site, parsed))
     write(DIST / "sitemap.xml", seo.sitemap(site, urls))
     write(DIST / "robots.txt", seo.robots(site))
+    write(DIST / "llms.txt", render.llms_txt(site))
     # GitHub Pages otherwise runs the output through Jekyll and drops nothing
     # useful, but does add a build step we do not need.
     write(DIST / ".nojekyll", "")
@@ -253,6 +257,8 @@ def build(*, bundle: bool, check: bool) -> int:
             "index": {"terms": index_terms, "coverage": render._coverage(site)},
             "pages": {
                 "not_found": NOT_FOUND,
+                "about": render.about_body(site),
+                "about_description": render.ABOUT_DESCRIPTION,
             },
         }, ensure_ascii=False, indent=1))
 
@@ -262,6 +268,7 @@ def build(*, bundle: bool, check: bool) -> int:
         (NEXT / "public" / "assets").mkdir(parents=True, exist_ok=True)
         shutil.copy2(SHARED / "grc.js", NEXT / "public" / "assets" / "grc.js")
         shutil.copy2(DIST / "search-index.json", NEXT / "public" / "search-index.json")
+        shutil.copy2(DIST / "llms.txt", NEXT / "public" / "llms.txt")
         (NEXT / "public" / "a-z").mkdir(parents=True, exist_ok=True)
         shutil.copy2(DIST / "a-z" / "index.csv", NEXT / "public" / "a-z" / "index.csv")
         print(f"bundle  {BUNDLE.relative_to(ROOT)} + next/src/styles + next/public")

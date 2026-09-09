@@ -25,12 +25,19 @@ site:
   entries_planned: 212
   parts_total: 6
 
-# The site is published anonymously: there is no publisher block, and nothing
-# here names who maintains the reference. Training options, including named
-# courses, are compared only in entry 6.6; no other entry names a provider.
+# GRC Wiki is maintained by working GRC practitioners. Named training options
+# are compared in entry 6.3; other entries do not name a provider.
 
 editorial:
   standfirst: A PLAIN-LANGUAGE REFERENCE FOR PRACTITIONERS
+  # Maintainer shown in the footer and the Organization schema.
+  maintainer: Maintained by working governance, risk and compliance practitioners.
+  # Corpus-wide review and first-publication dates. An entry's own `reviewed:`
+  # front-matter overrides the review date for that entry. Used for
+  # datePublished / dateModified in the structured data and the visible
+  # "Reviewed" line, which is a freshness signal for search and AI answers.
+  first_published: "2026-01-15"
+  reviewed: "2026-02-20"
 
 parts:
   - n: 1
@@ -57,12 +64,12 @@ parts:
     slug: frameworks
     name: Frameworks
     count: 52
-    blurb: ISO 27001, NIST CSF 2.0, SOC 2, PCI DSS, COSO - and the crosswalks.
+    blurb: ISO 27001, NIST CSF 2.0, SOC 2, PCI DSS, COSO, and the crosswalks.
   - n: 6
     slug: career
     name: Career
     count: 21
-    blurb: Roles, interview questions, certifications, what the work looks like daily.
+    blurb: Roles, breaking in, certifications, progression, what the work looks like daily.
 
 home:
   title: Governance, risk and compliance, defined properly

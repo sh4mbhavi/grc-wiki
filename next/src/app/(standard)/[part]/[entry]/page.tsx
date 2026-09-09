@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Blocks, BlockView } from "@/components/Blocks";
 import { Ld, Masthead } from "@/components/Chrome";
 import { CorpusRail, PageRail } from "@/components/Rails";
-import { byClause, entries, href, partBySlug, parts } from "@/lib/content";
+import { byClause, editorial, entries, href, partBySlug, parts } from "@/lib/content";
 
 type Params = { part: string; entry: string };
 
@@ -82,6 +82,14 @@ export default async function EntryPage({ params }: { params: Promise<Params> })
                             <span>Reading {entry.reading_minutes} min</span>
                             <span>Cited by {entry.cited_by}</span>
                             <span>{entry.sources.length} sources</span>
+                            {entry.reviewed || editorial.reviewed ? (
+                                <span>
+                                    Reviewed{" "}
+                                    <time dateTime={entry.reviewed || editorial.reviewed}>
+                                        {entry.reviewed || editorial.reviewed}
+                                    </time>
+                                </span>
+                            ) : null}
                         </div>
 
                         <div className="article__opening">

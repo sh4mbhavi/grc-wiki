@@ -15,9 +15,32 @@ from typing import Any
 from .model import Entry, Site
 
 
+def _org_id(site: Site) -> str:
+    return site.absolute("/") + "#org"
+
+
+def _maintainer(site: Site) -> str:
+    return " ".join(
+        site.config.get("editorial", {})
+        .get("maintainer", "Maintained by governance, risk and compliance practitioners.")
+        .split()
+    )
+
+
+def _organization(site: Site) -> dict[str, Any]:
+    """The maintaining body. GRC Wiki is kept by practitioners, so the entity is
+    named even though no individual author is. AI answer engines weigh a clear
+    publisher entity when deciding whether to cite a source."""
+    return {
+        "@type": "Organization",
+        "@id": _org_id(site),
+        "name": site.name,
+        "url": site.absolute("/"),
+        "description": _maintainer(site),
+    }
+
+
 def _website(site: Site) -> dict[str, Any]:
-    # No `publisher` node: the reference is published anonymously, so nothing in
-    # the structured data names or links a maintaining organisation.
     return {
         "@type": "WebSite",
         "@id": site.absolute("/") + "#website",
@@ -25,6 +48,7 @@ def _website(site: Site) -> dict[str, Any]:
         "name": site.name,
         "description": " ".join(site.config["site"]["description"].split()),
         "inLanguage": site.config["site"]["locale"],
+        "publisher": {"@id": _org_id(site)},
         "potentialAction": {
             "@type": "SearchAction",
             "target": {
@@ -37,7 +61,7 @@ def _website(site: Site) -> dict[str, Any]:
 
 
 def json_ld_home(site: Site) -> list[dict[str, Any]]:
-    return [_website(site)]
+    return [_organization(site), _website(site)]
 
 
 def json_ld_index(site: Site) -> list[dict[str, Any]]:
@@ -45,6 +69,7 @@ def json_ld_index(site: Site) -> list[dict[str, Any]]:
     contains, and the only one worth describing as a collection."""
     url = site.absolute("/a-z/")
     return [
+        _organization(site),
         _website(site),
         {
             "@type": "DefinedTermSet",
@@ -79,7 +104,7 @@ def json_ld_entry(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> lis
     assert part is not None
     url = site.absolute(entry.url)
 
-    graph: list[dict[str, Any]] = [_website(site)]
+    graph: list[dict[str, Any]] = [_organization(site), _website(site)]
 
     graph.append({
         "@type": "BreadcrumbList",
@@ -89,6 +114,10 @@ def json_ld_entry(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> lis
             {"@type": "ListItem", "position": 3, "name": entry.title, "item": url},
         ],
     })
+
+    ed = site.config.get("editorial", {})
+    reviewed = entry.reviewed or ed.get("reviewed", "") or today()
+    published = ed.get("first_published", "") or reviewed
 
     article: dict[str, Any] = {
         "@type": "TechArticle",
@@ -101,6 +130,9 @@ def json_ld_entry(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> lis
         "inLanguage": site.config["site"]["locale"],
         "isAccessibleForFree": True,
         "isPartOf": {"@id": site.absolute("/") + "#website"},
+        "publisher": {"@id": _org_id(site)},
+        "datePublished": published,
+        "dateModified": reviewed,
         "articleSection": part.name,
         "wordCount": _word_count(blocks),
         "timeRequired": f"PT{entry.reading_minutes}M",
@@ -183,12 +215,24 @@ def sitemap(site: Site, paths: list[tuple[str, str, str]]) -> str:
     )
 
 
+# AI answer engines only cite pages their crawlers are allowed to fetch. These
+# are named explicitly so a future host-level default block does not quietly
+# exclude the reference from AI search.
+_AI_CRAWLERS = [
+    "GPTBot", "ChatGPT-User", "OAI-SearchBot",
+    "ClaudeBot", "Claude-User", "Claude-SearchBot", "anthropic-ai",
+    "PerplexityBot", "Perplexity-User",
+    "Google-Extended", "Applebot-Extended", "meta-externalagent", "CCBot",
+    "Bytespider", "Amazonbot", "cohere-ai", "Diffbot",
+]
+
+
 def robots(site: Site) -> str:
-    return (
-        "User-agent: *\n"
-        "Allow: /\n\n"
-        f"Sitemap: {site.absolute('/sitemap.xml')}\n"
-    )
+    lines = ["User-agent: *", "Allow: /", ""]
+    for agent in _AI_CRAWLERS:
+        lines += [f"User-agent: {agent}", "Allow: /", ""]
+    lines.append(f"Sitemap: {site.absolute('/sitemap.xml')}")
+    return "\n".join(lines) + "\n"
 
 
 def today() -> str:

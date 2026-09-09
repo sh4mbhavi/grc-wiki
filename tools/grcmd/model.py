@@ -47,6 +47,7 @@ class Entry:
     short_title: str = ""
     keywords: list[str] = field(default_factory=list)
     defines: str = ""
+    reviewed: str = ""          # ISO date; overrides the site-wide review date
     reading_minutes: int = 0
     cited_by: int = 0
     canonical_entry: bool = False

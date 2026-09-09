@@ -446,20 +446,24 @@ def colophon(site: Site) -> str:
         f'<li><a href="{e(site.url(p.url))}">{e(p.n)} &middot; {e(p.name)}</a></li>' for p in site.parts
     )
     year = 2026
+    maintainer = e(" ".join(site.config.get("editorial", {}).get(
+        "maintainer", "Maintained by governance, risk and compliance practitioners.").split()))
+    reviewed = e(site.config.get("editorial", {}).get("reviewed", ""))
     return f"""<footer class="colophon">
 <div class="colophon__cols">
 <div><h2>THE REFERENCE</h2><ul>{parts}</ul></div>
 <div><h2>RESOURCES</h2><ul>
+<li><a href="{e(site.url('/about/'))}">About</a></li>
 <li><a href="{e(site.url('/a-z/'))}">A-Z index</a></li>
 <li><a href="{e(site.url('/career/breaking-into-grc/'))}">Breaking into GRC</a></li>
-<li><a href="{e(site.url('/career/grc-courses-and-training/'))}">Courses &amp; training</a></li>
+<li><a href="{e(site.url('/career/certifications-and-training/'))}">Certifications &amp; courses</a></li>
 <li><a href="{e(site.url('sitemap.xml'))}">Sitemap</a></li>
 </ul></div>
-<div><h2>ABOUT</h2><p class="colophon__about">A plain-language reference for governance, risk and compliance. Free, open access, and checked against the standards it cites.</p></div>
+<div><h2>ABOUT</h2><p class="colophon__about">A plain-language reference for governance, risk and compliance. {maintainer} Free, open access, and checked against the standards it cites.</p></div>
 </div>
 <div class="colophon__bar">
 <span>&copy; {year} GRC Wiki. All rights reserved.</span>
-<span>{e(site.entries_total)} entries &middot; {e(site.config['site']['parts_total'])} parts</span>
+<span>{e(site.entries_total)} entries &middot; {e(site.config['site']['parts_total'])} parts{f" &middot; reviewed {reviewed}" if reviewed else ""}</span>
 </div>
 </footer>"""
 
@@ -624,11 +628,15 @@ def entry_page(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> str:
         )
         pager = f'<nav class="pager" aria-label="Adjacent entries">{left}{right}</nav>'
 
+    ed = site.config.get("editorial", {})
+    reviewed = entry.reviewed or ed.get("reviewed", "")
     meta_bits = [
         f"Reading {e(entry.reading_minutes)} min",
         f"Cited by {e(entry.cited_by)}",
         f"{e(len(entry.sources))} sources",
     ]
+    if reviewed:
+        meta_bits.append(f'Reviewed <time datetime="{e(reviewed)}">{e(reviewed)}</time>')
 
     return f"""{head(site,
         title=title,
@@ -994,3 +1002,82 @@ def simple_page(site: Site, *, path: str, title: str, description: str, body_htm
 </main>
 {colophon(site)}
 {tail(site)}"""
+
+
+def about_body(site: Site) -> str:
+    ed = site.config.get("editorial", {})
+    reviewed = e(ed.get("reviewed", ""))
+    maintainer = e(" ".join(ed.get(
+        "maintainer", "Maintained by governance, risk and compliance practitioners.").split()))
+    rev_line = (
+        f" The corpus was last reviewed {reviewed}." if reviewed else ""
+    )
+    return f"""<h1 class="idx__title">About GRC Wiki</h1>
+<p class="idx__intro">GRC Wiki is a plain-language reference on governance, risk and
+compliance, maintained by working GRC practitioners.</p>
+
+<h2>What it is</h2>
+<p>Cross-referenced entries covering what the work is, which artefact answers
+which question, and how the frameworks fit together. Every entry opens with a
+definition, lists the standards its claims rest on, and says what usually goes
+wrong. It is free, needs no login, and carries no advertising.</p>
+
+<h2>How it is maintained</h2>
+<p>Every factual claim is checked against the standard it cites and corrected
+against that source when it is wrong.{rev_line} Entries carry a review date.
+Counts shown on the site are computed from the content, never asserted.</p>
+
+<h2>Who writes it</h2>
+<p>{maintainer} The reference is published without named authors and without a
+masthead: what matters is whether each claim traces to a cited standard, not
+whose name is on it.</p>
+
+<h2>Corrections</h2>
+<p>If an entry is wrong, it is corrected against the source it cites. Report an
+error to the maintainers.</p>
+
+<p><a href="{e(site.url('/a-z/'))}">Browse the A-Z index</a> &middot;
+<a href="{e(site.url('sitemap.xml'))}">Sitemap</a></p>"""
+
+
+ABOUT_DESCRIPTION = (
+    "GRC Wiki is a plain-language governance, risk and compliance reference "
+    "maintained by working GRC practitioners. How it is written, reviewed and corrected."
+)
+
+
+def about_page(site: Site) -> str:
+    return simple_page(
+        site,
+        path="/about/",
+        title="About",
+        description=ABOUT_DESCRIPTION,
+        body_html=about_body(site),
+    )
+
+
+def llms_txt(site: Site) -> str:
+    """The llms.txt convention: a short, link-first map of the site for AI
+    agents. Kept in sync with the parts so it never drifts."""
+    ed = site.config.get("editorial", {})
+    reviewed = ed.get("reviewed", "")
+    desc = " ".join(site.config["site"]["description"].split())
+    lines = [
+        f"# {site.name}",
+        "",
+        f"> {desc} Maintained by governance, risk and compliance practitioners. "
+        f"Free, no login.",
+        "",
+        "## Index",
+        f"- [A-Z index of terms]({site.absolute('/a-z/')}): every headword with the clause it belongs to",
+        f"- [Term list, CSV]({site.absolute('/a-z/index.csv')})",
+        f"- [Sitemap]({site.absolute('/sitemap.xml')})",
+        f"- [About]({site.absolute('/about/')}): how the reference is written and reviewed",
+        "",
+        "## Parts",
+    ]
+    for part in site.parts:
+        lines.append(f"- [{part.name}]({site.absolute(part.url)}): {part.blurb}")
+    if reviewed:
+        lines += ["", f"Corpus last reviewed {reviewed}."]
+    return "\n".join(lines) + "\n"

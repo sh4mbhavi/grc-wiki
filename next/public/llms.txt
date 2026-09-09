@@ -1,0 +1,19 @@
+# GRC Wiki
+
+> A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together. Maintained by governance, risk and compliance practitioners. Free, no login.
+
+## Index
+- [A-Z index of terms](https://grc-wiki.vercel.app/a-z/): every headword with the clause it belongs to
+- [Term list, CSV](https://grc-wiki.vercel.app/a-z/index.csv)
+- [Sitemap](https://grc-wiki.vercel.app/sitemap.xml)
+- [About](https://grc-wiki.vercel.app/about/): how the reference is written and reviewed
+
+## Parts
+- [Foundations](https://grc-wiki.vercel.app/foundations/): What the function is for, the vocabulary, and who does the work.
+- [Governance](https://grc-wiki.vercel.app/governance/): Policy hierarchy, committees, delegated authority, board reporting.
+- [Risk](https://grc-wiki.vercel.app/risk/): Registers, appetite, treatment, quantification, reporting.
+- [Compliance](https://grc-wiki.vercel.app/compliance/): Obligations, control testing, evidence, audit response.
+- [Frameworks](https://grc-wiki.vercel.app/frameworks/): ISO 27001, NIST CSF 2.0, SOC 2, PCI DSS, COSO, and the crosswalks.
+- [Career](https://grc-wiki.vercel.app/career/): Roles, breaking in, certifications, progression, what the work looks like daily.
+
+Corpus last reviewed 2026-02-20.

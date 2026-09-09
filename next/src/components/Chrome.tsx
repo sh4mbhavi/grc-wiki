@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-import { config, entriesInPart, href, navTitle, parts, site } from "@/lib/content";
+import { config, editorial, entriesInPart, href, navTitle, parts, site } from "@/lib/content";
 
 const SearchIcon = () => (
     <svg
@@ -119,23 +119,28 @@ export function Colophon() {
                 <div>
                     <h2>RESOURCES</h2>
                     <ul>
+                        <li><a href={href("/about/")}>About</a></li>
                         <li><a href={href("/a-z/")}>A-Z index</a></li>
                         <li><a href={href("/career/breaking-into-grc/")}>Breaking into GRC</a></li>
-                        <li><a href={href("/career/grc-courses-and-training/")}>Courses &amp; training</a></li>
+                        <li><a href={href("/career/certifications-and-training/")}>Certifications &amp; courses</a></li>
                         <li><a href={href("/sitemap.xml")}>Sitemap</a></li>
                     </ul>
                 </div>
                 <div>
                     <h2>ABOUT</h2>
                     <p className="colophon__about">
-                        A plain-language reference for governance, risk and compliance. Free, open
+                        A plain-language reference for governance, risk and compliance.{" "}
+                        {editorial.maintainer ?? "Maintained by GRC practitioners."} Free, open
                         access, and checked against the standards it cites.
                     </p>
                 </div>
             </div>
             <div className="colophon__bar">
                 <span>© 2026 GRC Wiki. All rights reserved.</span>
-                <span>{site.entries_total} entries · {site.parts_total} parts</span>
+                <span>
+                    {site.entries_total} entries · {site.parts_total} parts
+                    {editorial.reviewed ? ` · reviewed ${editorial.reviewed}` : ""}
+                </span>
             </div>
         </footer>
     );
