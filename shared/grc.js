@@ -71,18 +71,25 @@
     function setDrawer(open) {
         var rail = $("[data-drawer]");
         var btn = $("[data-drawer-btn]");
+        var scrim = $("[data-drawer-scrim]");
         if (!rail || !btn) { return; }
         rail.setAttribute("data-open", open ? "true" : "false");
         btn.setAttribute("aria-expanded", open ? "true" : "false");
+        if (scrim) { scrim.hidden = !open; }
     }
 
     function initDrawer() {
         var btn = $("[data-drawer-btn]");
         var rail = $("[data-drawer]");
+        var scrim = $("[data-drawer-scrim]");
         if (!btn || !rail) { return; }
         setDrawer(false);
         on(btn, "click", function () {
             setDrawer(rail.getAttribute("data-open") !== "true");
+        });
+        if (scrim) { on(scrim, "click", function () { setDrawer(false); }); }
+        on(document, "keydown", function (ev) {
+            if (ev.key === "Escape" && rail.getAttribute("data-open") === "true") { setDrawer(false); }
         });
     }
 

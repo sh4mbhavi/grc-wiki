@@ -15,11 +15,7 @@ const THEME_BOOT =
     "try{var t=localStorage.getItem('grc-theme');" +
     "if(t){document.documentElement.setAttribute('data-theme',t)}}catch(e){}";
 
-const FONTS =
-    "https://fonts.googleapis.com/css2" +
-    "?family=IBM+Plex+Mono:wght@400;500;600" +
-    "&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400" +
-    "&display=swap";
+const FONTS = "https://cdn.jsdelivr.net/npm/@fontsource-variable/hubot-sans/index.css";
 
 export const metadata: Metadata = {
     metadataBase: new URL(site.origin),
@@ -38,8 +34,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html lang={site.locale} data-base={site.base_path} suppressHydrationWarning>
             <head>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+                <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
                 <link rel="stylesheet" href={FONTS} />
                 <meta name="theme-color" content="#f1f2f3" />
                 <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />

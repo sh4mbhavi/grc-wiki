@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-import { config, href, parts, site } from "@/lib/content";
+import { config, entriesInPart, href, navTitle, parts, site } from "@/lib/content";
 
 const SearchIcon = () => (
     <svg
@@ -17,10 +17,18 @@ const SearchIcon = () => (
     </svg>
 );
 
-export function Masthead({ crumbs, withDrawer = false }: { crumbs?: ReactNode; withDrawer?: boolean }) {
+export function Masthead({
+    crumbs,
+    withDrawer = false,
+    home = false,
+}: {
+    crumbs?: ReactNode;
+    withDrawer?: boolean;
+    home?: boolean;
+}) {
     return (
-        <header className="masthead">
-            {withDrawer ? (
+        <header className={home ? "masthead masthead--home" : "masthead"}>
+            {withDrawer || home ? (
                 <button
                     className="masthead__drawer-btn"
                     type="button"
@@ -28,14 +36,19 @@ export function Masthead({ crumbs, withDrawer = false }: { crumbs?: ReactNode; w
                     aria-expanded="false"
                     aria-controls="corpus"
                 >
-                    Contents
+                    <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+                        <path d="M2 4h12M2 8h12M2 12h12" />
+                    </svg>
+                    <span>Browse</span>
                 </button>
             ) : null}
             <a className="masthead__wordmark" href={href("/")}>GRC WIKI</a>
-            <span className="masthead__sep" aria-hidden="true">|</span>
-            <span className="masthead__crumbs">
-                {crumbs ?? `${site.entries_total} entries · ${site.parts_total} parts · open access`}
-            </span>
+            {crumbs ? (
+                <>
+                    <span className="masthead__sep" aria-hidden="true">|</span>
+                    <span className="masthead__crumbs">{crumbs}</span>
+                </>
+            ) : null}
             <div className="masthead__tail">
                 <button className="masthead__search" type="button" data-finder-open="">
                     Search&nbsp;&nbsp;⌘K
@@ -92,23 +105,68 @@ export function Finder() {
 export function Colophon() {
     return (
         <footer className="colophon">
-            <div>
-                <h2>THE REFERENCE</h2>
-                <ul>
-                    {parts.map((p) => (
-                        <li key={p.slug}>
-                            <a href={href(`/${p.slug}/`)}>{p.n} · {p.name}</a>
-                        </li>
-                    ))}
-                </ul>
+            <div className="colophon__cols">
+                <div>
+                    <h2>THE REFERENCE</h2>
+                    <ul>
+                        {parts.map((p) => (
+                            <li key={p.slug}>
+                                <a href={href(`/${p.slug}/`)}>{p.n} · {p.name}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div>
+                    <h2>RESOURCES</h2>
+                    <ul>
+                        <li><a href={href("/a-z/")}>A–Z index</a></li>
+                        <li><a href={href("/career/how-to-learn-grc/")}>How to learn GRC</a></li>
+                        <li><a href={href("/career/grc-courses-and-training/")}>Courses &amp; training</a></li>
+                        <li><a href={href("/sitemap.xml")}>Sitemap</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>ABOUT</h2>
+                    <p className="colophon__about">
+                        A plain-language reference for governance, risk and compliance. Free, open
+                        access, and checked against the standards it cites.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h2>RESOURCES</h2>
-                <ul>
-                    <li><a href={href("/a-z/")}>A–Z index</a></li>
-                </ul>
+            <div className="colophon__bar">
+                <span>© 2026 GRC Wiki. All rights reserved.</span>
+                <span>{site.entries_total} entries · {site.parts_total} parts</span>
             </div>
         </footer>
+    );
+}
+
+export function HomeDrawer() {
+    return (
+        <>
+            <nav className="drawer" id="corpus" data-drawer="" aria-label="Browse the reference">
+                <div className="drawer__head">BROWSE THE REFERENCE</div>
+                {parts.map((part) => (
+                    <div className="drawer__part" key={part.slug}>
+                        <a className="drawer__part-link" href={href(`/${part.slug}/`)}>
+                            {part.n} · {part.name.toUpperCase()}
+                            <span className="drawer__count">{part.published}</span>
+                        </a>
+                        <ul>
+                            {entriesInPart(part.n).map((page) => (
+                                <li key={page.clause}>
+                                    <a href={href(page.url)}>
+                                        <span className="drawer__n">{page.clause}</span> {navTitle(page)}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+                <a className="drawer__az" href={href("/a-z/")}>A–Z index →</a>
+            </nav>
+            <div className="drawer__scrim" data-drawer-scrim="" hidden />
+        </>
     );
 }
 

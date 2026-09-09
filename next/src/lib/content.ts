@@ -27,6 +27,7 @@ export interface Part {
     name: string;
     count: number;
     blurb: string;
+    published: number;
 }
 
 export interface Entry {
@@ -86,7 +87,6 @@ interface Bundle {
             chips: string[];
             start_here: string[];
             most_cited: { title: string; ref: string; count: number }[];
-            maintenance: { label: string; body: string };
         };
     };
     ld: Record<string, unknown>[];

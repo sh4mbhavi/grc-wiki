@@ -8,7 +8,8 @@
    "locale": "en-GB",
    "description": "A plain-language reference for governance, risk and compliance: cross-referenced entries covering what the work is, which artefact answers which question, and how the frameworks fit together.",
    "entries_planned": 212,
-   "parts_total": 6
+   "parts_total": 6,
+   "entries_total": 74
   },
   "editorial": {
    "standfirst": "A PLAIN-LANGUAGE REFERENCE FOR PRACTITIONERS"
@@ -75,14 +76,29 @@
    ],
    "most_cited": [
     {
+     "title": "What GRC is",
+     "ref": "1.1",
+     "count": 34
+    },
+    {
      "title": "Risk register",
      "ref": "3.1",
      "count": 31
     },
     {
-     "title": "ISO 27001 crosswalk",
+     "title": "ISO 27001 explained",
+     "ref": "5.14",
+     "count": 28
+    },
+    {
+     "title": "ISO 27001 vs SOC 2",
      "ref": "5.1",
      "count": 27
+    },
+    {
+     "title": "How to learn GRC",
+     "ref": "6.7",
+     "count": 24
     },
     {
      "title": "Risk appetite",
@@ -90,15 +106,16 @@
      "count": 22
     },
     {
+     "title": "Incident response",
+     "ref": "4.15",
+     "count": 20
+    },
+    {
      "title": "Three lines model",
      "ref": "1.5",
      "count": 19
     }
-   ],
-   "maintenance": {
-    "label": "HOW THIS IS MAINTAINED",
-    "body": "Every claim is checked against the standard it cites and corrected against that source when it is wrong."
-   }
+   ]
   }
  },
  "ld": [
@@ -1808,7 +1825,7 @@
     },
     {
      "type": "note",
-     "html": "The artefacts in FIG. 2 and FIG. 3 are built and marked in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s\nfoundation track</a>. This entry stays free."
+     "html": "The artefacts in FIG. 2 and FIG. 3 are built and marked in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\nfoundation track</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -2333,7 +2350,7 @@
     },
     {
      "type": "note",
-     "html": "Each of the four is built from a blank page, with a worked example, in <a href=\"https://grcmastery.com\">GRC\nMastery&rsquo;s foundation track</a>. This entry stays free."
+     "html": "Each of the four is built from a blank page, with a worked example, in <a href=\"https://www.grcmastery.com/\">GRC\nMastery&rsquo;s foundation track</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -2993,7 +3010,7 @@
     },
     {
      "type": "note",
-     "html": "The first ninety days in a GRC seat, with the artefacts built in order, is the\nshape of <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s foundation track</a>. This entry\nstays free."
+     "html": "The first ninety days in a GRC seat, with the artefacts built in order, is the\nshape of <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s foundation track</a>. This entry\nstays free."
     }
    ],
    "ld": [
@@ -4248,7 +4265,7 @@
     },
     {
      "type": "note",
-     "html": "The five-stage cycle and a worked set of findings are walked through end to end\nin <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s audit track</a>. This entry stays free."
+     "html": "The five-stage cycle and a worked set of findings are walked through end to end\nin <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s audit track</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -6206,7 +6223,7 @@
     },
     {
      "type": "note",
-     "html": "Building a register from a blank sheet, and defending the scores in a committee,\nis the first module of <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s foundation track</a>.\nThis entry stays free."
+     "html": "Building a register from a blank sheet, and defending the scores in a committee,\nis the first module of <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s foundation track</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -7369,7 +7386,7 @@
     },
     {
      "type": "note",
-     "html": "Scoping a BIA and defending the RTOs it produces to the people who have to fund\nthem is covered in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s business-continuity module</a>.\nThis entry stays free."
+     "html": "Scoping a BIA and defending the RTOs it produces to the people who have to fund\nthem is covered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s business-continuity module</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -7652,7 +7669,7 @@
     },
     {
      "type": "note",
-     "html": "Standing up a supplier-tiering model and a due-diligence workflow from a blank\nsheet is one track in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s vendor-risk course</a>.\nThis entry stays free."
+     "html": "Standing up a supplier-tiering model and a due-diligence workflow from a blank\nsheet is one track in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s vendor-risk course</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -8468,7 +8485,7 @@
     },
     {
      "type": "note",
-     "html": "Designing indicators that actually predict, and wiring their thresholds to\nappetite, is worked through in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s risk-reporting module</a>.\nThis entry stays free."
+     "html": "Designing indicators that actually predict, and wiring their thresholds to\nappetite, is worked through in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s risk-reporting module</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -8990,7 +9007,7 @@
     },
     {
      "type": "note",
-     "html": "Facilitating the room — holding anchoring and the loudest voice in check, not\njust working through the agenda — is practised in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s foundation\ntrack</a>. This entry stays free."
+     "html": "Facilitating the room — holding anchoring and the loudest voice in check, not\njust working through the agenda — is practised in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s foundation\ntrack</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -9285,7 +9302,7 @@
     },
     {
      "type": "note",
-     "html": "Building a first FAIR analysis from a register entry — decomposition, calibrated\nranges, reading the curve — is one module in\n<a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s risk track</a>. This entry stays free."
+     "html": "Building a first FAIR analysis from a register entry — decomposition, calibrated\nranges, reading the curve — is one module in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s risk track</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -11623,7 +11640,7 @@
     },
     {
      "type": "note",
-     "html": "Designing and wiring continuous control monitoring that watches the control\nrather than the tool is worked through in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s compliance-automation module</a>.\nThis entry stays free."
+     "html": "Designing and wiring continuous control monitoring that watches the control\nrather than the tool is worked through in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s compliance-automation module</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -11921,7 +11938,7 @@
     },
     {
      "type": "note",
-     "html": "Running a vendor questionnaire programme — tiering, an answer library and\ndemanding evidence behind the answers — is worked through in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s\nthird-party risk module</a>.\nThis entry stays free."
+     "html": "Running a vendor questionnaire programme — tiering, an answer library and\ndemanding evidence behind the answers — is worked through in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\nthird-party risk module</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -12236,7 +12253,7 @@
     },
     {
      "type": "note",
-     "html": "Building a vulnerability-management programme — risk-based prioritisation beyond\nthe CVSS base score, SLAs and verification — is worked through in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s\nsecurity-operations module</a>.\nThis entry stays free."
+     "html": "Building a vulnerability-management programme — risk-based prioritisation beyond\nthe CVSS base score, SLAs and verification — is worked through in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\nsecurity-operations module</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -12532,7 +12549,7 @@
     },
     {
      "type": "note",
-     "html": "Building an inventory schema with ownership and classification, and wiring it to\nthe other control domains, is covered in\n<a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s controls track</a>. This entry stays free."
+     "html": "Building an inventory schema with ownership and classification, and wiring it to\nthe other control domains, is covered in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s controls track</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -12845,7 +12862,7 @@
     },
     {
      "type": "note",
-     "html": "Designing role templates and running a defensible access-review cycle is a\nworked exercise in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s controls track</a>. This\nentry stays free."
+     "html": "Designing role templates and running a defensible access-review cycle is a\nworked exercise in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s controls track</a>. This\nentry stays free."
     }
    ],
    "ld": [
@@ -13146,7 +13163,7 @@
     },
     {
      "type": "note",
-     "html": "Designing a role-based curriculum and a report-rate metric set is covered in\n<a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s programme track</a>. This entry stays free."
+     "html": "Designing a role-based curriculum and a report-rate metric set is covered in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s programme track</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -13438,7 +13455,7 @@
     },
     {
      "type": "note",
-     "html": "Sequencing a monitor-first rollout and writing classification-driven rules is\ncovered in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s controls track</a>. This entry\nstays free."
+     "html": "Sequencing a monitor-first rollout and writing classification-driven rules is\ncovered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s controls track</a>. This entry\nstays free."
     }
    ],
    "ld": [
@@ -13746,7 +13763,7 @@
     },
     {
      "type": "note",
-     "html": "Building a severity scale, a plan and a first playbook, then running a tabletop\nagainst them, is a worked module in\n<a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s resilience track</a>. This entry stays free."
+     "html": "Building a severity scale, a plan and a first playbook, then running a tabletop\nagainst them, is a worked module in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s resilience track</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -14088,7 +14105,7 @@
     },
     {
      "type": "note",
-     "html": "Writing a defensible scope and rules of engagement, and turning a test report\ninto tracked risk, is covered in\n<a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s controls track</a>. This entry stays free."
+     "html": "Writing a defensible scope and rules of engagement, and turning a test report\ninto tracked risk, is covered in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s controls track</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -14638,7 +14655,7 @@
     },
     {
      "type": "note",
-     "html": "The crosswalk between Annex A and the Trust Services Criteria is built line by\nline in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s frameworks track</a>. This entry\nstays free."
+     "html": "The crosswalk between Annex A and the Trust Services Criteria is built line by\nline in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>. This entry\nstays free."
     }
    ],
    "ld": [
@@ -16647,7 +16664,7 @@
     },
     {
      "type": "note",
-     "html": "Working through CIS Implementation Group 1 as a first hardening roadmap — mapping each safeguard to an owner and to the evidence that proves it — is covered in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
+     "html": "Working through CIS Implementation Group 1 as a first hardening roadmap — mapping each safeguard to an owner and to the evidence that proves it — is covered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -16929,7 +16946,7 @@
     },
     {
      "type": "note",
-     "html": "Building a control-maturity assessment — a rubric with real evidence behind each\nlevel, and targets set by risk rather than a blanket level 5 — is worked through in\n<a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
+     "html": "Building a control-maturity assessment — a rubric with real evidence behind each\nlevel, and targets set by risk rather than a blanket level 5 — is worked through in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -17272,7 +17289,7 @@
     },
     {
      "type": "note",
-     "html": "Running a HIPAA Security Rule risk analysis and working the administrative, physical and technical safeguards into an evidenced control set is covered in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
+     "html": "Running a HIPAA Security Rule risk analysis and working the administrative, physical and technical safeguards into an evidenced control set is covered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -17600,7 +17617,7 @@
     },
     {
      "type": "note",
-     "html": "Scoping a cardholder data environment, then working through the requirements and\nthe SAQ that fit how a business handles card data, is covered in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s\nframeworks track</a>.\nThis entry stays free."
+     "html": "Scoping a cardholder data environment, then working through the requirements and\nthe SAQ that fit how a business handles card data, is covered in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\nframeworks track</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -18565,7 +18582,7 @@
     },
     {
      "type": "note",
-     "html": "A clause-by-clause walkthrough with the artefacts each one requires is built in\n<a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s ISO 27001 track</a>. This entry stays free."
+     "html": "A clause-by-clause walkthrough with the artefacts each one requires is built in\n<a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s ISO 27001 track</a>. This entry stays free."
     }
    ],
    "ld": [
@@ -18854,7 +18871,7 @@
     },
     {
      "type": "note",
-     "html": "Mapping one integrated management system across several ISO standards is a worked\nexercise in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s frameworks track</a>. This entry\nstays free."
+     "html": "Mapping one integrated management system across several ISO standards is a worked\nexercise in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>. This entry\nstays free."
     }
    ],
    "ld": [
@@ -19166,7 +19183,7 @@
     },
     {
      "type": "note",
-     "html": "Working through a CSF 2.0 profile and mapping it down to a control set is a\nmodule in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s frameworks track</a>. This entry\nstays free."
+     "html": "Working through a CSF 2.0 profile and mapping it down to a control set is a\nmodule in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>. This entry\nstays free."
     }
    ],
    "ld": [
@@ -19509,7 +19526,7 @@
     },
     {
      "type": "note",
-     "html": "Placing and crosswalking a new framework against one you already run is a\nworked exercise in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
+     "html": "Placing and crosswalking a new framework against one you already run is a\nworked exercise in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s frameworks track</a>.\nThis entry stays free."
     }
    ],
    "ld": [
@@ -19985,7 +20002,7 @@
     },
     {
      "type": "note",
-     "html": "The foundation track at <a href=\"https://grcmastery.com\">GRC Mastery</a> is built around\nproducing exactly that walk-through artefact. This entry stays free, and so does\nthe advice: build one either way."
+     "html": "The foundation track at <a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is built around\nproducing exactly that walk-through artefact, and\n<a href=\"https://www.youtube.com/@UnixGuy\">UnixGuy&rsquo;s YouTube channel</a> has free\ncareer-entry walkthroughs. This entry stays free, and so does the advice: build\none either way."
     }
    ],
    "ld": [
@@ -20045,7 +20062,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 460,
+     "wordCount": 468,
      "timeRequired": "PT7M",
      "citation": [
       "ISACA, CRISC and CISA job practice areas, 2025",
@@ -20186,7 +20203,7 @@
     },
     {
      "type": "note",
-     "html": "Worked answers to all eight, with the follow-ups, are in <a href=\"https://grcmastery.com\">GRC Mastery&rsquo;s\ninterview module</a>. The questions themselves stay here,\nfree."
+     "html": "Worked answers to all eight, with the follow-ups, are in <a href=\"https://www.grcmastery.com/\">GRC Mastery&rsquo;s\ninterview module</a>, and\n<a href=\"https://www.youtube.com/@UnixGuy\">UnixGuy&rsquo;s YouTube channel</a> covers GRC\ninterview preparation for free. The questions themselves stay here, free."
     }
    ],
    "ld": [
@@ -20246,7 +20263,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 688,
+     "wordCount": 698,
      "timeRequired": "PT8M",
      "citation": [
       "IIA, The Three Lines Model, 2020",
@@ -20479,7 +20496,7 @@
     },
     {
      "type": "note",
-     "html": "For the broad, vendor-agnostic grounding a beginner needs before any specialist\nbadge, <a href=\"https://grcmastery.com\">GRC Mastery</a> is one option built for exactly\nthat. This entry and its comparison stay free and standard-neutral."
+     "html": "For the broad, vendor-agnostic grounding a beginner needs before any specialist\nbadge, <a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is one option built for exactly\nthat. This entry and its comparison stay free and standard-neutral."
     }
    ],
    "ld": [
@@ -21002,7 +21019,7 @@
       {
        "q": "What does a GRC analyst do all day?",
        "id": "faq-what-does-a-grc-analyst-do-all-day",
-       "html": "<p>Keeps the register current, collects and files evidence, answers security\nquestionnaires, runs recurring control checks, and chases the people whose work\nthose records depend on. Most of the day is turning other people&rsquo;s activity into\na record that will hold up later.</p>"
+       "html": "<p>Keeps the register current, collects and files evidence, answers security\nquestionnaires, runs recurring control checks, and chases the people whose work\nthose records depend on. Most of the day is turning other people&rsquo;s activity into\na record that will hold up later. UnixGuy&rsquo;s\n<a href=\"https://www.youtube.com/watch?v=A6bbFCnTTxE\">day-in-the-life video</a> is a\nfirst-person record of a remote GRC week that matches this shape.</p>"
       },
       {
        "q": "How technical is a GRC analyst role?",
@@ -21069,7 +21086,7 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 678,
+     "wordCount": 694,
      "timeRequired": "PT6M",
      "citation": [
       "ISACA, State of Cybersecurity, workforce sections, 2025",
@@ -21094,7 +21111,7 @@
        "name": "What does a GRC analyst do all day?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keeps the register current, collects and files evidence, answers security questionnaires, runs recurring control checks, and chases the people whose work those records depend on. Most of the day is turning other people&rsquo;s activity into a record that will hold up later."
+        "text": "Keeps the register current, collects and files evidence, answers security questionnaires, runs recurring control checks, and chases the people whose work those records depend on. Most of the day is turning other people&rsquo;s activity into a record that will hold up later. UnixGuy&rsquo;s day-in-the-life video is a first-person record of a remote GRC week that matches this shape."
        }
       },
       {
@@ -21114,7 +21131,7 @@
    "part": 6,
    "slug": "grc-courses-and-training",
    "title": "GRC courses and training programmes compared",
-   "description": "The main ways to learn GRC — dedicated courses, certification training, vendor academies, university certificates and free resources — with the trade-offs of each.",
+   "description": "The main ways to learn GRC — dedicated courses, certification training, vendor academies and free resources — with what each is best for and its watch-outs.",
    "short_title": "GRC courses",
    "keywords": [
     "best GRC course",
@@ -21125,16 +21142,10 @@
     "free GRC training"
    ],
    "defines": "",
-   "reading_minutes": 9,
+   "reading_minutes": 7,
    "cited_by": 5,
    "canonical_entry": false,
-   "quick_facts": {
-    "types compared": "6",
-    "ranked": "No — matched to goal",
-    "cheapest": "Free resources and vendor academies",
-    "most recognised on a CV": "ISACA and ISC2 credentials",
-    "best for broad grounding": "A dedicated GRC course"
-   },
+   "quick_facts": {},
    "related": [
     "6.3",
     "6.1",
@@ -21145,7 +21156,7 @@
     "ISACA, CISA / CRISC / CISM review course and exam materials, 2025",
     "(ISC)² CISSP official training and CBK, 2024",
     "GIAC / SANS course catalogue (MGT415, AUD507, MGT516), 2025",
-    "Provider curricula: GRC Mastery, TryHackMe, Coursera/university GRC certificates, 2025"
+    "Provider curricula: GRC Mastery, vendor academies, university GRC certificates, 2025"
    ],
    "prev": {
     "ref": "6.5",
@@ -21157,38 +21168,23 @@
    },
    "sections": [
     {
-     "id": "dedicated-grc-courses",
+     "id": "the-main-options",
      "clause": "6.6.1",
-     "text": "Dedicated GRC courses"
+     "text": "The main options"
     },
     {
-     "id": "certification-training",
+     "id": "grc-mastery-in-a-bit-more-detail",
      "clause": "6.6.2",
-     "text": "Certification training"
+     "text": "GRC Mastery, in a bit more detail"
     },
     {
-     "id": "vendor-and-platform-academies",
+     "id": "course-or-certification-first",
      "clause": "6.6.3",
-     "text": "Vendor and platform academies"
-    },
-    {
-     "id": "university-and-higher-education-certificates",
-     "clause": "6.6.4",
-     "text": "University and higher-education certificates"
-    },
-    {
-     "id": "free-resources",
-     "clause": "6.6.5",
-     "text": "Free resources"
-    },
-    {
-     "id": "matching-the-option-to-the-goal",
-     "clause": "6.6.6",
-     "text": "Matching the option to the goal"
+     "text": "Course or certification first"
     },
     {
      "id": "common-questions",
-     "clause": "6.6.7",
+     "clause": "6.6.4",
      "text": "Common questions"
     }
    ],
@@ -21198,107 +21194,54 @@
    "blocks": [
     {
      "type": "lede",
-     "html": "There is no single best way to learn GRC, because the options are built for\ndifferent goals. A dedicated course teaches the function broadly; certification\ntraining teaches one slice deeply for an employer to recognise; vendor academies\nteach a tool; free resources teach whatever you can structure yourself. The\nright choice is the one that matches where you are trying to get."
+     "html": "There is no single best way to learn GRC. A dedicated course teaches the\nfunction broadly, certification training teaches one slice deeply for an\nemployer to recognise, vendor academies teach a tool, and free resources teach\nwhatever you can structure yourself. Match the option to the goal, not to a\nleague table."
     },
     {
      "type": "prose",
-     "html": "<p>This entry does not rank the options and deliberately avoids doing so — a\nranking would depend on your background, budget, target role and timeline, none\nof which a reference page knows. What it does is describe what each type is good\nfor and where each one leaves a gap, so the choice is an informed one.</p>\n<p>One pattern holds across all of them: the training gets you the vocabulary and\nthe mental model, and a <strong>real artefact you have produced and can talk through</strong>\nis what converts that into a job. Whichever route you take, finish it with\nsomething concrete — a risk assessment, a control set, a gap analysis — that you\nbuilt.</p>"
+     "html": "<p>This entry does not rank the options — the right pick depends on your\nbackground, budget, target role and timeline. What follows is what each one is\ngood for and where it leaves a gap. One rule holds across all of them: the\ntraining gets you the vocabulary and the model, and a <strong>real artefact you have\nbuilt and can talk through</strong> is what turns that into a job.</p>"
     },
     {
      "type": "heading",
      "level": 2,
-     "id": "dedicated-grc-courses",
+     "id": "the-main-options",
      "clause": "6.6.1",
      "alias": "c6-6-1",
-     "text": "Dedicated GRC courses"
+     "text": "The main options"
     },
     {
      "type": "prose",
-     "html": "<p>Taught programmes whose subject is the GRC function itself, rather than one exam\nor one product.</p>\n<p><strong><a href=\"https://grcmastery.com\">GRC Mastery</a></strong>, the course from UnixGuy, is one of the\nbetter-known options in this category and is built specifically for people\nentering the field. Its strengths are breadth and concreteness: it walks the\nwhole function — risk registers, control frameworks, audits, evidence, vendor\nrisk — and has learners build the actual artefacts rather than only read about\nthem, which is the gap most newcomers have. It is also inexpensive next to a\ncertification and is self-paced. The trade-offs to weigh: it is a course and not\na certification, so it earns its place on a CV through the portfolio it produces\nrather than through recognised letters; it is a newer and largely single-\ninstructor programme without the decades of brand recognition an ISACA credential\ncarries; and it is vendor- and framework-neutral by design, so it will not make\nyou an expert in any one standard or tool.</p>\n<p>Other dedicated courses exist through training firms and individual\npractitioners; assess them on the same axes — does it cover the function or just\na topic, do you build artefacts, is it current with the 2022/2024 framework\nrevisions, and what do you have to show at the end.</p>"
+     "html": "<p>Hyperlinks go to the official page for each. The order is not a ranking; it\ngroups the credential exams with the broad course most beginners pair with them.</p>\n<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>Option</th>\n<th>Best for</th>\n<th>Format</th>\n<th>Watch-outs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cisa\">ISACA CISA</a></td>\n<td>The audit seat; the most requested credential in audit-facing GRC roles</td>\n<td>Self-study or review course + exam</td>\n<td>Needs ~5 years&rsquo; experience to certify; exam-shaped; four-figure cost</td>\n</tr>\n<tr>\n<td><a href=\"https://www.grcmastery.com/\">GRC Mastery — by UnixGuy</a></td>\n<td>A broad, practical grounding in the whole function for someone entering GRC from any background</td>\n<td>Self-paced online course, artefact-based</td>\n<td>Not a certification — earns its place through the portfolio you finish with; newer and largely single-instructor; framework-neutral, so no single-standard depth</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/crisc\">ISACA CRISC</a></td>\n<td>The IT-risk seat — registers, appetite, controls</td>\n<td>Self-study or review course + exam</td>\n<td>~3 years&rsquo; experience across the domains; no waivers</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isaca.org/credentialing/cism\">ISACA CISM</a></td>\n<td>Moving into a security-management role</td>\n<td>Self-study or review course + exam</td>\n<td>5 years&rsquo; experience, 3 in security management; management-level, not entry</td>\n</tr>\n<tr>\n<td><a href=\"https://www.isc2.org/certifications/cissp\">ISC2 CISSP</a></td>\n<td>Broad security leadership; useful adjacent knowledge</td>\n<td>Official or third-party training + exam</td>\n<td>Security engineering, not GRC operations — one domain of eight is governance and risk; 5 years&rsquo; experience</td>\n</tr>\n<tr>\n<td><a href=\"https://www.sans.org/cyber-security-courses/\">SANS / GIAC</a> (e.g. MGT415, AUD507, MGT516)</td>\n<td>Deep, hands-on skill in audit or security management</td>\n<td>Intensive course + GIAC exam</td>\n<td>Very expensive; usually only viable if an employer pays; often more technical depth than a GRC role uses</td>\n</tr>\n<tr>\n<td>Vendor academies (compliance-automation and enterprise-GRC platforms)</td>\n<td>Learning a specific tool an employer runs</td>\n<td>Free or low-cost online modules</td>\n<td>Curriculum is built to sell the platform; thin on the underlying discipline; skills tied to one product</td>\n</tr>\n<tr>\n<td>University / platform certificates (Coursera, edX, PG certs)</td>\n<td>A structured academic marker for a career change</td>\n<td>Multi-week courses, graded</td>\n<td>Theory-weighted, slower and costlier; often behind current framework versions; rarely produces a portfolio artefact</td>\n</tr>\n<tr>\n<td>Free primary sources (NIST, CIS, ISO previews, regulator guidance, this reference)</td>\n<td>Going deep on one standard cheaply; supplementing any route</td>\n<td>Self-directed reading</td>\n<td>No structure, sequence, feedback or artefact — you supply all four</td>\n</tr>\n</tbody>\n</table></div>"
     },
     {
      "type": "heading",
      "level": 2,
-     "id": "certification-training",
+     "id": "grc-mastery-in-a-bit-more-detail",
      "clause": "6.6.2",
      "alias": "c6-6-2",
-     "text": "Certification training"
+     "text": "GRC Mastery, in a bit more detail"
     },
     {
      "type": "prose",
-     "html": "<p>Study programmes attached to an exam. Covered in depth at\n<a href=\"/career/certifications-and-training/\">6.3</a>; in summary:</p>"
-    },
-    {
-     "type": "terms",
-     "items": [
-      {
-       "term": "ISACA (CISA, CRISC, CISM)",
-       "html": "Review courses and question banks aimed at the audit, risk and security-management seats respectively. Upside — the credentials are the most widely recognised in GRC hiring. Downside — the training is exam-shaped, the certifications carry multi-year experience requirements to hold, and the cost runs into four figures with membership and exam fees."
-      },
-      {
-       "term": "ISC2 (CISSP)",
-       "html": "Broad security training across eight domains. Upside — strong recognition, good grounding in security concepts. Downside — it is security engineering and leadership, not GRC operations; only one domain is governance and risk, and it needs five years of experience."
-      },
-      {
-       "term": "SANS / GIAC (MGT415, AUD507, MGT516)",
-       "html": "High-quality, intensive courses with hands-on labs, some aimed squarely at audit and security management. Upside — depth and rigour few others match. Downside — very expensive, usually only viable if an employer pays, and often more technical depth than a GRC role uses."
-      }
-     ]
+     "html": "<p><a href=\"https://www.grcmastery.com/\">GRC Mastery</a>, the course from\n<a href=\"https://www.youtube.com/@UnixGuy\">UnixGuy</a>, is built specifically for people\nentering the field. Its strengths are breadth and concreteness: it walks the\nwhole function — risk registers, control frameworks, audits, evidence, vendor\nrisk — and has learners build the actual artefacts rather than only read about\nthem, which is the gap most newcomers have. It is also inexpensive next to a\ncertification and is self-paced. The trade-offs are the ones in the table: it is\na course rather than a recognised credential, it is newer than the established\nexam bodies, and it is deliberately framework- and vendor-neutral, so it will\nnot make you an expert in any one standard or tool. For a first, broad grounding\nbefore a specialist badge, that neutral breadth is the point.</p>"
     },
     {
      "type": "heading",
      "level": 2,
-     "id": "vendor-and-platform-academies",
+     "id": "course-or-certification-first",
      "clause": "6.6.3",
      "alias": "c6-6-3",
-     "text": "Vendor and platform academies"
+     "text": "Course or certification first"
     },
     {
      "type": "prose",
-     "html": "<p>Free or low-cost training from GRC tool vendors — compliance-automation\nplatforms, privacy-management suites, enterprise GRC modules.</p>\n<ul>\n<li><strong>Upside</strong>: free, practical, and the tool skills are directly marketable\n  because employers run these products.</li>\n<li><strong>Downside</strong>: the curriculum is shaped to sell the platform, coverage of the\n  underlying discipline is thin, and the skills are tied to one product.</li>\n</ul>\n<p>Useful as a supplement once you know a tool is used where you want to work; weak\nas a foundation.</p>"
-    },
-    {
-     "type": "heading",
-     "level": 2,
-     "id": "university-and-higher-education-certificates",
-     "clause": "6.6.4",
-     "alias": "c6-6-4",
-     "text": "University and higher-education certificates"
-    },
-    {
-     "type": "prose",
-     "html": "<p>Postgraduate certificates and structured online programmes through universities\nand platforms like Coursera and edX.</p>\n<ul>\n<li><strong>Upside</strong>: structured, externally credentialed, and good for career-changers\n  who want an academic marker.</li>\n<li><strong>Downside</strong>: theory-weighted, slower and more expensive than the alternatives,\n  and often behind the current framework versions. Rarely produces a portfolio\n  artefact on its own.</li>\n</ul>"
-    },
-    {
-     "type": "heading",
-     "level": 2,
-     "id": "free-resources",
-     "clause": "6.6.5",
-     "alias": "c6-6-5",
-     "text": "Free resources"
-    },
-    {
-     "type": "prose",
-     "html": "<p>The primary sources and the community around them.</p>\n<ul>\n<li><strong>Upside</strong>: free, authoritative and current — the NIST publications, the CIS\n  Controls, ISO&rsquo;s freely available previews, regulator guidance, practitioner\n  blogs and forums. Everything a paid course teaches ultimately derives from\n  these.</li>\n<li><strong>Downside</strong>: no structure, no sequence, no feedback and no artefact. You have\n  to design your own curriculum and you will not know what you have misunderstood\n  until someone tells you in an interview.</li>\n</ul>\n<p>Strong as a supplement and as a way to go deep on a specific standard; hard to\nrely on alone unless you are disciplined about building structure and output.</p>"
-    },
-    {
-     "type": "heading",
-     "level": 2,
-     "id": "matching-the-option-to-the-goal",
-     "clause": "6.6.6",
-     "alias": "c6-6-6",
-     "text": "Matching the option to the goal"
-    },
-    {
-     "type": "prose",
-     "html": "<div class=\"scroll-x\"><table class=\"dtable\">\n<thead>\n<tr>\n<th>If your goal is</th>\n<th>A reasonable fit</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A broad working grounding in the whole function, from any background</td>\n<td>A dedicated GRC course, finished with a portfolio artefact</td>\n</tr>\n<tr>\n<td>To pass a CV screen for an audit-facing role</td>\n<td>ISACA CISA training and exam, once the experience is in view</td>\n</tr>\n<tr>\n<td>To move into security-risk management from a security role</td>\n<td>CISM, or SANS MGT516</td>\n</tr>\n<tr>\n<td>To learn a specific tool an employer uses</td>\n<td>That vendor&rsquo;s academy</td>\n</tr>\n<tr>\n<td>An academic credential for a career change</td>\n<td>A university GRC certificate, plus a self-built artefact</td>\n</tr>\n<tr>\n<td>To go deep on one standard cheaply</td>\n<td>Free primary sources and this reference</td>\n</tr>\n</tbody>\n</table></div>"
+     "html": "<p>If you already know the seat you are aiming at, the matching certification\ntraining is a reasonable first move. If you do not, a broad course first tends\nto work better: a specialist exam taken with no context to attach it to is hard\nto retain, and the course gives you the map that makes the certification\nmeaningful. Full certification detail is at\n<a href=\"/career/certifications-and-training/\">6.3</a>; the from-scratch path is at\n<a href=\"/career/how-to-learn-grc/\">6.7</a>.</p>"
     },
     {
      "type": "heading",
      "level": 2,
      "id": "common-questions",
-     "clause": "6.6.7",
-     "alias": "c6-6-7",
+     "clause": "6.6.4",
+     "alias": "c6-6-4",
      "text": "Common questions"
     },
     {
@@ -21307,12 +21250,12 @@
       {
        "q": "What is the best GRC course for beginners?",
        "id": "faq-what-is-the-best-grc-course-for-beginners",
-       "html": "<p>There is no single best one. For a broad grounding in how the function works,\nfrom any background, a dedicated GRC course such as GRC Mastery is built for that\naudience and has you produce real artefacts. If you already know the seat you are\naiming at, certification-aligned training for that seat may serve you better. The\ndeciding factors are your background, budget and target role.</p>"
+       "html": "<p>There is no single best one. For a broad grounding in how the function works,\nfrom any background, a dedicated GRC course such as GRC Mastery is built for that\naudience and has you produce real artefacts. If you already know the seat you\nare aiming at, certification-aligned training for that seat may serve you\nbetter. The deciding factors are your background, budget and target role.</p>"
       },
       {
        "q": "Is GRC Mastery worth it?",
        "id": "faq-is-grc-mastery-worth-it",
-       "html": "<p>For someone entering GRC who wants the whole function mapped out and wants to\nbuild the artefacts rather than just read about them, it is a well-regarded,\nlow-cost option aimed exactly at that need. It is not a certification, so its\nvalue on a CV comes from the portfolio you finish with, and it is newer than the\nestablished credential bodies. Whether it fits depends on whether you want breadth\nand practice or a recognised exam.</p>"
+       "html": "<p>For someone entering GRC who wants the whole function mapped out and wants to\nbuild the artefacts rather than just read about them, it is a well-regarded,\nlow-cost option aimed exactly at that need. It is not a certification, so its\nvalue on a CV comes from the portfolio you finish with, and it is newer than the\nestablished credential bodies. Whether it fits depends on whether you want\nbreadth and practice or a recognised exam.</p>"
       },
       {
        "q": "Do I need a paid course to learn GRC?",
@@ -21320,20 +21263,15 @@
        "html": "<p>No. Every concept is available free in the NIST publications, the CIS Controls,\nregulator guidance and references like this one. A paid course buys structure, a\nsequence, feedback and — in the better ones — artefacts you can show. If you can\nsupply the structure and output yourself, the free route works; most people find\nthe structure is what they are paying for.</p>"
       },
       {
-       "q": "Should I do a GRC course or a certification first?",
-       "id": "faq-should-i-do-a-grc-course-or-a-certification-first",
-       "html": "<p>If you have a specific target seat, the matching certification training can come\nfirst. If you do not, a broad course first tends to work better: a specialist\nexam taken with no context to attach it to is hard to retain, and the course\ngives you the map that makes the certification meaningful.</p>"
-      },
-      {
-       "q": "Are vendor GRC academies any good?",
-       "id": "faq-are-vendor-grc-academies-any-good",
-       "html": "<p>They are good for learning a specific product cheaply, and those tool skills are\nmarketable because employers run the products. They are a poor foundation for the\ndiscipline itself, because the curriculum exists to promote the platform and the\ncoverage of underlying concepts is shallow.</p>"
+       "q": "Which GRC certification is most recognised by employers?",
+       "id": "faq-which-grc-certification-is-most-recognised-by-employers",
+       "html": "<p>In audit-facing roles, ISACA&rsquo;s CISA is the most frequently requested. CRISC maps\nto the risk seat and CISM to security management. CISSP is widely recognised\nacross security generally but is not GRC-specific. Recognition is only part of\nthe picture — all of these carry multi-year experience requirements to hold.</p>"
       }
      ]
     },
     {
      "type": "note",
-     "html": "For the broad, framework-neutral grounding this entry describes as the fit for a\nnewcomer, <a href=\"https://grcmastery.com\">GRC Mastery</a> is one course built for that\npurpose. This comparison stays free and lists it alongside the alternatives."
+     "html": "For the broad, framework-neutral grounding this entry describes as the fit for a\nnewcomer, <a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is one course built for\nthat purpose. This comparison stays free and lists it alongside the\nalternatives."
     }
    ],
    "ld": [
@@ -21381,7 +21319,7 @@
      "@id": "https://grc-wiki.vercel.app/career/grc-courses-and-training/#article",
      "headline": "GRC courses and training programmes compared",
      "name": "GRC courses and training programmes compared",
-     "description": "The main ways to learn GRC — dedicated courses, certification training, vendor academies, university certificates and free resources — with the trade-offs of each.",
+     "description": "The main ways to learn GRC — dedicated courses, certification training, vendor academies and free resources — with what each is best for and its watch-outs.",
      "url": "https://grc-wiki.vercel.app/career/grc-courses-and-training/",
      "mainEntityOfPage": {
       "@type": "WebPage",
@@ -21393,13 +21331,13 @@
       "@id": "https://grc-wiki.vercel.app/#website"
      },
      "articleSection": "Career",
-     "wordCount": 1206,
-     "timeRequired": "PT9M",
+     "wordCount": 932,
+     "timeRequired": "PT7M",
      "citation": [
       "ISACA, CISA / CRISC / CISM review course and exam materials, 2025",
       "(ISC)² CISSP official training and CBK, 2024",
       "GIAC / SANS course catalogue (MGT415, AUD507, MGT516), 2025",
-      "Provider curricula: GRC Mastery, TryHackMe, Coursera/university GRC certificates, 2025"
+      "Provider curricula: GRC Mastery, vendor academies, university GRC certificates, 2025"
      ],
      "keywords": "best GRC course, GRC training for beginners, GRC Mastery review, how to learn GRC, GRC course vs certification, free GRC training"
     },
@@ -21433,18 +21371,10 @@
       },
       {
        "@type": "Question",
-       "name": "Should I do a GRC course or a certification first?",
+       "name": "Which GRC certification is most recognised by employers?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you have a specific target seat, the matching certification training can come first. If you do not, a broad course first tends to work better: a specialist exam taken with no context to attach it to is hard to retain, and the course gives you the map that makes the certification meaningful."
-       }
-      },
-      {
-       "@type": "Question",
-       "name": "Are vendor GRC academies any good?",
-       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They are good for learning a specific product cheaply, and those tool skills are marketable because employers run the products. They are a poor foundation for the discipline itself, because the curriculum exists to promote the platform and the coverage of underlying concepts is shallow."
+        "text": "In audit-facing roles, ISACA&rsquo;s CISA is the most frequently requested. CRISC maps to the risk seat and CISM to security management. CISSP is widely recognised across security generally but is not GRC-specific. Recognition is only part of the picture — all of these carry multi-year experience requirements to hold."
        }
       }
      ]
@@ -21579,7 +21509,7 @@
     },
     {
      "type": "prose",
-     "html": "<p>Two viable routes, and a supplement that helps either.</p>\n<ul>\n<li><strong>Self-structured.</strong> Use the primary sources — NIST, CIS, ISO previews,\n  regulator guidance — and a reference like this one to build your own sequence.\n  Free, and effective if you are disciplined about finishing step 3 with a real\n  output. The failure mode is reading indefinitely and never building anything.</li>\n<li><strong>A taught course.</strong> A dedicated GRC course supplies the sequence, the pacing\n  and, in the better ones, the artefacts. <a href=\"/career/grc-courses-and-training/\">6.6</a>\n  compares the types; <a href=\"https://grcmastery.com\">GRC Mastery</a> is one built for this\n  exact from-scratch audience, covering the whole function and having you produce\n  the artefacts as you go.</li>\n<li><strong>Either way</strong>, join where practitioners talk — forums, communities, local\n  chapters — and get one person to critique your artefact before you put it in\n  front of an interviewer.</li>\n</ul>"
+     "html": "<p>Two viable routes, and a supplement that helps either.</p>\n<ul>\n<li><strong>Self-structured.</strong> Use the primary sources — NIST, CIS, ISO previews,\n  regulator guidance — and a reference like this one to build your own sequence.\n  Free, and effective if you are disciplined about finishing step 3 with a real\n  output. The failure mode is reading indefinitely and never building anything.</li>\n<li><strong>A taught course.</strong> A dedicated GRC course supplies the sequence, the pacing\n  and, in the better ones, the artefacts. <a href=\"/career/grc-courses-and-training/\">6.6</a>\n  compares the types; <a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is one built for this\n  exact from-scratch audience, covering the whole function and having you produce\n  the artefacts as you go.</li>\n<li><strong>Either way</strong>, join where practitioners talk — forums, communities, local\n  chapters — and get one person to critique your artefact before you put it in\n  front of an interviewer.</li>\n</ul>"
     },
     {
      "type": "heading",
@@ -21645,7 +21575,7 @@
     },
     {
      "type": "note",
-     "html": "<a href=\"https://grcmastery.com\">GRC Mastery</a> is one course built around this\nfrom-scratch path — the whole function, with the artefacts built as you go. This\nentry stays free and the path works without it."
+     "html": "<a href=\"https://www.grcmastery.com/\">GRC Mastery</a> is one course built around this\nfrom-scratch path — the whole function, with the artefacts built as you go. This\nentry stays free and the path works without it."
     }
    ],
    "ld": [

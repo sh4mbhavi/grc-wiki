@@ -15,12 +15,7 @@ from .parse import md_inline
 
 from .seo import json_ld_entry, json_ld_home, json_ld_index
 
-FONT_HREF = (
-    "https://fonts.googleapis.com/css2"
-    "?family=IBM+Plex+Mono:wght@400;500;600"
-    "&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400"
-    "&display=swap"
-)
+FONT_HREF = "https://cdn.jsdelivr.net/npm/@fontsource-variable/hubot-sans/index.css"
 
 # Applied before first paint so a stored preference never flashes the wrong theme.
 THEME_BOOT = (
@@ -292,8 +287,7 @@ def head(site: Site, *, title: str, description: str, path: str, ld: list[dict],
 <meta property="og:locale" content="{e(site.config['site']['locale'].replace('-', '_'))}">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#f1f2f3">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="{e(FONT_HREF)}">
 <link rel="stylesheet" href="{e(site.url('assets/grc.css'))}">
 <link rel="alternate" type="application/xml" href="{e(site.url('sitemap.xml'))}" title="Sitemap">
@@ -304,20 +298,27 @@ def head(site: Site, *, title: str, description: str, path: str, ld: list[dict],
 <a class="skip" href="#main">Skip to content</a>"""
 
 
-def masthead(site: Site, *, crumbs: str = "", with_drawer: bool = False) -> str:
-    total = site.entries_total
-    parts = site.config["site"]["parts_total"]
+def masthead(site: Site, *, crumbs: str = "", with_drawer: bool = False, home: bool = False) -> str:
     drawer = (
         '<button class="masthead__drawer-btn" type="button" data-drawer-btn '
-        'aria-expanded="false" aria-controls="corpus">Contents</button>'
-        if with_drawer
+        'aria-expanded="false" aria-controls="corpus">'
+        '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" '
+        'stroke="currentColor" stroke-width="1.5" stroke-linecap="round">'
+        '<path d="M2 4h12M2 8h12M2 12h12"/></svg>'
+        '<span>Browse</span></button>'
+        if (with_drawer or home)
         else ""
     )
-    crumb_html = crumbs or f"{total} entries &middot; {parts} parts &middot; open access"
-    return f"""<header class="masthead">
+    crumb_html = (
+        f'<span class="masthead__sep" aria-hidden="true">|</span>'
+        f'<span class="masthead__crumbs">{crumbs}</span>'
+        if crumbs
+        else ""
+    )
+    cls = "masthead masthead--home" if home else "masthead"
+    return f"""<header class="{cls}">
 {drawer}<a class="masthead__wordmark" href="{e(site.url(''))}">GRC WIKI</a>
-<span class="masthead__sep" aria-hidden="true">|</span>
-<span class="masthead__crumbs">{crumb_html}</span>
+{crumb_html}
 <div class="masthead__tail">
 <button class="masthead__search" type="button" data-finder-open>Search&nbsp;&nbsp;&#8984;K</button>
 <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch colour mode">
@@ -346,11 +347,22 @@ def colophon(site: Site) -> str:
     parts = "".join(
         f'<li><a href="{e(site.url(p.url))}">{e(p.n)} &middot; {e(p.name)}</a></li>' for p in site.parts
     )
+    year = 2026
     return f"""<footer class="colophon">
+<div class="colophon__cols">
 <div><h2>THE REFERENCE</h2><ul>{parts}</ul></div>
 <div><h2>RESOURCES</h2><ul>
 <li><a href="{e(site.url('/a-z/'))}">A&ndash;Z index</a></li>
+<li><a href="{e(site.url('/career/how-to-learn-grc/'))}">How to learn GRC</a></li>
+<li><a href="{e(site.url('/career/grc-courses-and-training/'))}">Courses &amp; training</a></li>
+<li><a href="{e(site.url('sitemap.xml'))}">Sitemap</a></li>
 </ul></div>
+<div><h2>ABOUT</h2><p class="colophon__about">A plain-language reference for governance, risk and compliance. Free, open access, and checked against the standards it cites.</p></div>
+</div>
+<div class="colophon__bar">
+<span>&copy; {year} GRC Wiki. All rights reserved.</span>
+<span>{e(site.entries_total)} entries &middot; {e(site.config['site']['parts_total'])} parts</span>
+</div>
 </footer>"""
 
 
@@ -546,6 +558,35 @@ def entry_page(site: Site, entry: Entry, blocks: list[dict[str, Any]]) -> str:
 {tail(site)}"""
 
 
+def home_drawer(site: Site) -> str:
+    """The hamburger panel on the home page: every part with every entry, so a
+    reader can browse the whole reference visually without a search."""
+    out = [
+        '<nav class="drawer" id="corpus" data-drawer aria-label="Browse the reference">',
+        '<div class="drawer__head">BROWSE THE REFERENCE</div>',
+    ]
+    for part in site.parts:
+        pages = [en for en in site.entries if en.part == part.n]
+        out.append('<div class="drawer__part">')
+        out.append(
+            f'<a class="drawer__part-link" href="{e(site.url(part.url))}">'
+            f'{e(part.n)} &middot; {e(part.name.upper())}'
+            f'<span class="drawer__count">{e(part.published)}</span></a>'
+        )
+        out.append('<ul>')
+        for page in pages:
+            out.append(
+                f'<li><a href="{e(site.url(page.url))}">'
+                f'<span class="drawer__n">{e(page.clause)}</span> {e(page.nav_title)}</a></li>'
+            )
+        out.append('</ul></div>')
+    out.append(
+        f'<a class="drawer__az" href="{e(site.url("/a-z/"))}">A&ndash;Z index &#8594;</a>'
+    )
+    out.append('</nav>')
+    return "\n".join(out)
+
+
 def home_page(site: Site) -> str:
     cfg = site.config
     home = cfg["home"]
@@ -583,13 +624,27 @@ def home_page(site: Site) -> str:
         if site.by_clause(c["ref"])
     )
 
+    sitemap = []
+    for part in site.parts:
+        pages = [en for en in site.entries if en.part == part.n]
+        links = "".join(
+            f'<li><a href="{e(site.url(pg.url))}"><span class="sitemap__n">{e(pg.clause)}</span> {e(pg.nav_title)}</a></li>'
+            for pg in pages
+        )
+        sitemap.append(
+            f'<div class="sitemap__col"><a class="sitemap__part" href="{e(site.url(part.url))}">'
+            f'{e(part.n)} &middot; {e(part.name.upper())}</a><ul>{links}</ul></div>'
+        )
+
     return f"""{head(site,
         title=f"{home['title']} — {site.name}",
         description=cfg['site']['description'],
         path='/',
         keywords=[c for c in home['chips']],
         ld=json_ld_home(site))}
-{masthead(site)}
+{masthead(site, home=True)}
+{home_drawer(site)}
+<div class="drawer__scrim" data-drawer-scrim hidden></div>
 <main id="main">
 <section class="portal">
 <div class="portal__inner">
@@ -610,21 +665,22 @@ def home_page(site: Site) -> str:
 <h2 class="section-rule">THE REFERENCE &middot; SIX PARTS</h2>
 <div class="parts">{parts}</div>
 
-<div class="home__row">
 <section>
 <h2 class="section-rule">START HERE &mdash; IF YOU ARE NEW</h2>
 <div class="start">{''.join(start)}</div>
 </section>
-<figure class="figure" style="margin:0"><div class="figure__frame">{_diagram_register_row()}</div>
-<figcaption>FIG. &mdash; A risk register row &mdash; the fields that make a score defensible.</figcaption>
-</figure>
-</div>
+
+<section class="sitemap">
+<h2 class="section-rule">BROWSE EVERY ENTRY</h2>
+<div class="sitemap__grid">{''.join(sitemap)}</div>
+</section>
 </div>
 
 <aside class="home__aside">
 <h2 class="section-rule">MOST CITED</h2>
 <div class="cited"><ul>{cited}</ul></div>
-<div class="policy"><b>{e(cfg['home']['maintenance']['label'])}</b>{e(" ".join(cfg['home']['maintenance']['body'].split()))}</div>
+<a class="aside-card" href="{e(site.url('/a-z/'))}"><b>A&ndash;Z INDEX</b><span>Every term, alphabetically, with the clause it belongs to.</span></a>
+<a class="aside-card" href="{e(site.url('/career/how-to-learn-grc/'))}"><b>NEW TO GRC?</b><span>Start with the from-scratch learning path.</span></a>
 </aside>
 </div>
 </main>

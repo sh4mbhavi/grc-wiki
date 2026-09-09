@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 
-import { Ld, Masthead, SearchBar } from "@/components/Chrome";
-import { RegisterRow } from "@/components/Blocks";
+import { HomeDrawer, Ld, Masthead, SearchBar } from "@/components/Chrome";
 import {
     byClause,
     editorial,
+    entriesInPart,
     home,
     href,
+    navTitle,
     parts,
     site,
     siteLd,
@@ -27,7 +28,8 @@ export default function Home() {
     return (
         <>
             <Ld nodes={siteLd} />
-            <Masthead />
+            <Masthead home />
+            <HomeDrawer />
             <main id="main">
                 <section className="portal">
                     <div className="portal__inner">
@@ -60,35 +62,49 @@ export default function Home() {
                                     <span className="part__head">
                                         <span className="part__n">{part.n}</span>
                                         <span className="part__name">{part.name}</span>
-                                        <span className="part__count">{part.count} entries</span>
+                                        <span className="part__count">{part.published} entries</span>
                                     </span>
                                     <span className="part__blurb">{part.blurb}</span>
                                 </a>
                             ))}
                         </div>
 
-                        <div className="home__row">
-                            <section>
-                                <h2 className="section-rule">START HERE — IF YOU ARE NEW</h2>
-                                <div className="start">
-                                    {startHere.map((entry, i) => (
-                                        <div key={entry!.clause} style={{ display: "contents" }}>
-                                            <span className="start__n">{String(i + 1).padStart(2, "0")}</span>
-                                            <span className="start__item">
-                                                <a href={href(entry!.url)}>{entry!.title}</a>
-                                                <span className="start__time"> · {entry!.reading_minutes} min</span>
-                                            </span>
-                                        </div>
-                                    ))}
-                                </div>
-                            </section>
-                            <figure className="figure" style={{ margin: 0 }}>
-                                <div className="figure__frame">
-                                    <RegisterRow />
-                                </div>
-                                <figcaption>FIG. — A risk register row — the fields that make a score defensible.</figcaption>
-                            </figure>
-                        </div>
+                        <section>
+                            <h2 className="section-rule">START HERE — IF YOU ARE NEW</h2>
+                            <div className="start">
+                                {startHere.map((entry, i) => (
+                                    <div key={entry!.clause} style={{ display: "contents" }}>
+                                        <span className="start__n">{String(i + 1).padStart(2, "0")}</span>
+                                        <span className="start__item">
+                                            <a href={href(entry!.url)}>{entry!.title}</a>
+                                            <span className="start__time"> · {entry!.reading_minutes} min</span>
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+
+                        <section className="sitemap">
+                            <h2 className="section-rule">BROWSE EVERY ENTRY</h2>
+                            <div className="sitemap__grid">
+                                {parts.map((part) => (
+                                    <div className="sitemap__col" key={part.slug}>
+                                        <a className="sitemap__part" href={href(`/${part.slug}/`)}>
+                                            {part.n} · {part.name.toUpperCase()}
+                                        </a>
+                                        <ul>
+                                            {entriesInPart(part.n).map((page) => (
+                                                <li key={page.clause}>
+                                                    <a href={href(page.url)}>
+                                                        <span className="sitemap__n">{page.clause}</span> {navTitle(page)}
+                                                    </a>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
                     </div>
 
                     <aside className="home__aside">
@@ -104,11 +120,14 @@ export default function Home() {
                             </ul>
                         </div>
 
-                        <div className="policy">
-                            <b>{home.maintenance.label}</b>
-                            {home.maintenance.body}
-                        </div>
-
+                        <a className="aside-card" href={href("/a-z/")}>
+                            <b>A–Z INDEX</b>
+                            <span>Every term, alphabetically, with the clause it belongs to.</span>
+                        </a>
+                        <a className="aside-card" href={href("/career/how-to-learn-grc/")}>
+                            <b>NEW TO GRC?</b>
+                            <span>Start with the from-scratch learning path.</span>
+                        </a>
                     </aside>
                 </div>
             </main>

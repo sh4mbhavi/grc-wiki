@@ -83,12 +83,11 @@ home:
     - 1.4
     - 3.1
   most_cited:
+    - { title: What GRC is, ref: "1.1", count: 34 }
     - { title: Risk register, ref: "3.1", count: 31 }
-    - { title: ISO 27001 crosswalk, ref: "5.1", count: 27 }
+    - { title: ISO 27001 explained, ref: "5.14", count: 28 }
+    - { title: ISO 27001 vs SOC 2, ref: "5.1", count: 27 }
+    - { title: How to learn GRC, ref: "6.7", count: 24 }
     - { title: Risk appetite, ref: "3.2", count: 22 }
+    - { title: Incident response, ref: "4.15", count: 20 }
     - { title: Three lines model, ref: "1.5", count: 19 }
-  maintenance:
-    label: HOW THIS IS MAINTAINED
-    body: >-
-      Every claim is checked against the standard it cites and corrected
-      against that source when it is wrong.

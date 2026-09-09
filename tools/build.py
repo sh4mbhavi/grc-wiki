@@ -227,8 +227,12 @@ def build(*, bundle: bool, check: bool) -> int:
                 ),
             })
 
+        bundle_site = {
+            **site.config,
+            "site": {**site.config["site"], "entries_total": site.entries_total},
+        }
         write(BUNDLE, json.dumps({
-            "site": site.config,
+            "site": bundle_site,
             "ld": seo.json_ld_home(site),
             "index_ld": seo.json_ld_index(site),
             "parts": [vars(p) for p in site.parts],
